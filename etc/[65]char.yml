@@ -111,7 +111,7 @@
       actual nature: ブラック・ラグーン号の船長ダッチ
       special skills: リーダーの資質、大剣
       role: 
-      note: (1) リーダー
+      note: (1) 首班
       appearance:
         overview: 強面の大男
         face:
@@ -136,16 +136,16 @@
           - 
 
 
-    - name: 
-      race: ｜葦人《レイル》
+    - name: ミリア
+      race: ｜森人《エルフ》
       gender: 女
-      age: 22
+      age: 22、二十代前半に見える
       eye-catching features: ちっちゃい
       first impression: 可愛いお姉さん、ちっちゃいお姉さん
       actual nature: 切れ者
       special skills: 管理、魔法
       role: サブヒロイン
-      note: (2) サブリーダー
+      note: (2) 副班
       appearance:
         overview: 
         face:
@@ -154,7 +154,7 @@
           eyes: 
         body:
           overview: 
-          height: 
+          height: 栗色の髪をアップにしている
           arm: 
           breast/chest: 
           waist: 
@@ -272,25 +272,25 @@
           - 
 
 
-    - name: 
-      race: 
-      gender: 
-      age: 
+    - name: マレック
+      race: ｜犬獣人《インクナ》
+      gender: 男
+      age: 13
       eye-catching features: 
-      first impression: 
+      first impression: 早く大人になりたくて背伸びしている少年
       actual nature: 
       special skills: 
       role: 
-      note: 
+      note: (6) 見習い
       appearance:
         overview: 
         face:
-          overview: 
-          hair: 
-          eyes: 
+          overview: 引き締まった表情
+          hair: 銀灰色のショートヘア
+          eyes: 黒灰色の虹彩
         body:
-          overview: 
-          height: 
+          overview: 細身で
+          height: 顔から伺う年齢にしては高い
           arm: 
           breast/chest: 
           waist: 
