@@ -13,6 +13,7 @@
 - settings/[65]settings-001.md: 遷世教団「ザングヴィエスト」
 - settings/[65]settings-002.md: 精霊の性質
 - settings/[65]settings-003.md: 魔法リザーブ
+- settings/[65]settings-004.md: 魔狩ギルド
 
 ### etc
 - etc/[65]memo.md: メモ
