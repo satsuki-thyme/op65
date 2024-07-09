@@ -1,0 +1,150 @@
+# conf
+initialization:
+  title:
+    - 原初の少女と躍動の冒険
+  concept:
+    - 最強の少女が思うがままに冒険をしたら
+  object:
+    - 魔力珠を手に入れる
+      - 古代の秘宝「魔力珠」は無尽蔵に魔力を生み出す
+
+basic character design:
+  - name: アリス
+    charm:
+      name:
+        - 強気かわいい
+      entity:
+        predicament:
+          - 果敢に立ち向かう
+        normaly:
+          - 意のままに振る舞う
+    desire:
+      name:
+        - 魔力珠を手に入れたい（新しい物質）
+      conflict:
+        - 天権神官ローズリエラ
+      past connected to desire:
+        - 世界を生んだから世界に生まれる新しいものに興味がある
+        - 吸血族の始祖の始祖を作った
+    ordeal:
+      - 天権神官ローズリエラを自らの手で殺す
+    right point:
+      - 本当に大切なものがなんなのか気づいた
+    wrong point:
+      - 
+
+  - name: レオナ（・ノート・アーズエイン）
+    charm:
+      name:
+        - 元気かわいい
+      entity:
+        predicament:
+          - 屈しない
+        normaly:
+          - 何事にも前向き
+    desire:
+      name:
+        - 強くなりたい
+      conflict:
+        - 枢機神官エリーゼ
+      past connected to desire:
+        - 国を滅ぼされ親族を失った
+    ordeal:
+      - 枢機神官エリーゼに決定的な攻撃ができないレオナが生きたいと願って倒すことができるか
+    right point:
+      - 健全な欲求に支えられていた――生きたい、仲間と過ごしたい
+    wrong point:
+      - 
+
+  - name: ミリア
+    charm:
+      name:
+        - お姉さんかわいい
+      entity:
+        predicament:
+          - 受け流す、受容する、許す
+        normaly:
+          - 面倒見がいい
+    desire:
+      name:
+        - 魔法を学びたい
+      conflict:
+        - 枢機神官フェイメル
+      past connected to desire:
+        - 祖父に魔法を教わった思い出
+    ordeal:
+      - 枢機神官フェイメルの誘惑を撥ね除けて倒すことができるか
+    right point:
+      - 誘惑に打ち勝って倒すことを選んだ
+    wrong point:
+      - 
+
+  - name: 天権神官ローズリエラ
+    charm:
+      name:
+        - 傲慢妖艶
+      entity:
+        predicament:
+          - 諦めない
+        normaly:
+          - 意のままに振る舞う
+    desire:
+      name:
+        - 魔力珠を手に入れたい（遷世したい）
+      conflict:
+        - アリス
+      past connected to desire:
+        - 吸血族の親が殺された
+    ordeal:
+      - 最愛の親がいない世界で生きていけるか
+    right point:
+      - 
+    wrong point:
+      - 世界を無に還そうとしてしまった
+
+  - name: 枢機神官エリーゼ（・ミカ・ロレード）
+    charm:
+      name:
+        - 冷徹妖艶
+      entity:
+        predicament:
+          - 氷の微笑
+        normaly:
+          - 冷静沈着
+    desire:
+      name:
+        - レオナに復讐したい
+      conflict:
+        - レオナ
+      past connected to desire:
+        - 国を滅ぼされ親族を失った
+    ordeal:
+      - 復讐心を乗り越えて健全に生きられるか
+    right point:
+      - 
+    wrong point:
+      - 復讐心を貫いてしまった
+
+  - name: 枢機神官フェイメル
+    charm:
+      name:
+        - 壮絶妖艶
+      entity:
+        predicament:
+          - 散り様が美しい
+        normaly:
+          - 派手
+    desire:
+      name:
+        - ミリアを手に入れたい
+      conflict:
+        - ミリアがなびかない
+      past connected to desire:
+        - 天権神官ローズリエラの城で宮廷魔法使いをしていた
+    ordeal:
+      - なびかない相手を諦めることができるか
+    right point:
+      - 
+    wrong point:
+      - 諦められなかった
+
