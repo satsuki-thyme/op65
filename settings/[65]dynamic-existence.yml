@@ -1,0 +1,23 @@
+# 動的存在の設定
+- name: 移ろいの神エス => エス
+
+- name: エス
+  appearance: 1
+  description:
+    - 移ろいの神
+      - 世界の移ろいを手助けする
+        - 世界中の禍福の種を芽吹かせる
+
+- name: 遷世神エス => エス
+
+- name: 妖精
+  appearance: continuous
+  description:
+    - 
+    - 
+
+- name: 
+  appearance: 
+  description:
+    - 
+

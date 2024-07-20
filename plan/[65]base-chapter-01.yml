@@ -1,13 +1,4 @@
-# conf
-initialization:
-  title:
-    - 原初の少女と躍動の冒険
-  concept:
-    - 最強の少女が思うがままに冒険をしたら
-  object:
-    - 魔力珠を手に入れる
-      - 古代の秘宝「魔力珠」は無尽蔵に魔力を生み出す
-
+# キャラクターの基本設計
 basic character design:
   - name: アリス
     charm:
@@ -25,7 +16,7 @@ basic character design:
         - 天権神官ローズリエラ
       past connected to desire:
         - 世界を生んだから世界に生まれる新しいものに興味がある
-        - 吸血族の始祖の始祖を作った
+        - 上位人族の始祖の始祖を作った
     ordeal:
       - 天権神官ローズリエラを自らの手で殺す
     right point:
@@ -71,7 +62,7 @@ basic character design:
       conflict:
         - 枢機神官フェイメル
       past connected to desire:
-        - 祖父に魔法を教わった思い出
+        - 祖母に魔法を教わった思い出
     ordeal:
       - 枢機神官フェイメルの誘惑を撥ね除けて倒すことができるか
     right point:
@@ -94,7 +85,7 @@ basic character design:
       conflict:
         - アリス
       past connected to desire:
-        - 吸血族の親が殺された
+        - 上位人族の親が殺された
     ordeal:
       - 最愛の親がいない世界で生きていけるか
     right point:

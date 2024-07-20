@@ -1,0 +1,128 @@
+# プロット要素 第1章
+## メインプロット
+main plot:
+  - 0---main アリスは魔力珠が欲しい
+  - 0---main レオナから魔力珠がエリクにあると知る
+  - 0---main ミリアからエリクはカルダから行けると知る
+  - 0---main 遷世教団が遷世しようとしていることを知る
+  - 0---main 遷世教団での聞き込みでカルダは東にあると知る
+  - 0---main 酒場の老人からガルダ研究家のマクスを知る
+  - 0---main マクスからガルダを指し示す魔導具がノーフの祭壇にあることを知る
+  - 0---main ノーフで魔導具の機能をコピーして手に入れる
+  - 0---main 魔力珠がローズの体内にあることを知る
+  - 0---main カルダに到着する
+  - 0---main 魔力郷に到着する
+  - 0---main 遷世神エスに対応する
+  - 0---main 魔力珠を手に入れる
+
+## 試練のプロット
+ordeal plot:
+  - character: アリス
+    theme:
+      title: 子殺し
+      description: 苦悩のプロット
+    process:
+      0:
+        foreshadowing for the final resolution:
+          - 1-ordeal 「新しい冒険の始まり。古い私は死んで、新しい人生が始まるの！」
+          - 1-ordeal ローズリエラを殺すときに「これまでの私は死んだわ……」
+
+      1:
+        pre event:
+          - 1-ordeal 子孫が死んでいることに深い悲しみを示す
+          - 1-ordeal 「ローズリエラ様は美しいし神のような力をお持ちだ」
+        0---main event:
+          - 1-orde b ローズが子だと分かり取り逃がす
+
+      2:
+        pre event:
+          - 1-ordeal 子と対立していることへの苦悩を示す
+        0---main event:
+          - 1-orde b ローズとまともに戦えず怪我をする
+
+      3:
+        pre event:
+          - 1-ordeal 今こそすべてであり、レオナとミリアが自分にとって一番大切だと気づく
+          - 1-ordeal ローズのパワーアップ
+        0---main event:
+          - 1-orde b ローズを倒す（＝子殺し）
+
+
+  - character: レオナ
+    theme:
+      title: 強くなる
+      description: 成長のプロット
+    process:
+      0:
+        foreshadowing for the final resolution:
+          - 2-ordeal 冒頭でアリスから好きなことを聞かれた次にじゃぁ困ってることは？と尋ねられて「過去を乗り越えたいんです……あ、いや、うそ！　なんでもないです！」と言う
+
+      1:
+        pre event:
+          - 2-ordeal 魔物と戦って強いところを見せる
+        0---main event:
+          - 2-orde b エリーに敗北する
+          - |
+            エリー「その名はもう捨てた。過去のものだ」
+            レオナ「家名を捨てるなんて、家族のことはもういいんですか！？」
+
+      2:
+        pre event:
+          - 2-ordeal アリスの訓練を受ける
+        0---main event:
+          - 2-orde b エリーといい勝負をする
+
+      3:
+        pre event:
+          - 2-ordeal エリーのパワーアップ
+        0---main event:
+          - 2-orde b エリーに勝利する
+          - |
+            過去との決別
+            生きていても仕方ないのにどうして強くなりたいんだろう？
+            ↓
+            今の幸せを守るために強くなりたい！
+
+
+  - character: ミリア
+    theme:
+      title: 誘惑
+      description: 惑いのプロット
+    process:
+      0:
+        foreshadowing for the final resolution:
+          - 3-ordeal たまにミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
+
+      1:
+        pre event:
+          - 3-ordeal アリスとレオナと愛を育む
+        0---main event:
+          - 3-orde b フェイの求愛を受けて拒否する
+
+      2:
+        pre event:
+          - 3-ordeal 祖母にどれほど謝りたいか示す
+        0---main event:
+          - 3-orde b フェイの反魂魔法に動揺する
+
+      3:
+        pre event:
+          - 3-ordeal 祖母には謝りたい。でもそれから？それからどうするの？　大好きなアリスとレオナの元には戻れない……
+        0---main event:
+          - 3-orde b フェイを倒す
+
+
+## 恋愛のプロット
+0--love plot:
+  - character: アリス、レオナ、ミリア
+    theme:
+      title: 初百合
+      description: 順調な恋愛のプロット
+    process:
+      - 0-love-1 手をつなぐ
+      - 0-love-2 抱きしめ合う
+      - 0-love-3 好きと言い合う
+      - 0-love-4 キスする
+      - 0-love-5 意味ありげに体を触る
+      - 0-love-6 体を触り合うがセックスする前に終わる
+      - 0-love-7 セックスする
