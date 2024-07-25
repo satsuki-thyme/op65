@@ -31,20 +31,20 @@ ordeal plot:
         pre event:
           - 1-ordeal 子孫が死んでいることに深い悲しみを示す
           - 1-ordeal 「ローズリエラ様は美しいし神のような力をお持ちだ」
-        0---main event:
+        main event:
           - 1-orde b ローズが子だと分かり取り逃がす
 
       2:
         pre event:
           - 1-ordeal 子と対立していることへの苦悩を示す
-        0---main event:
+        main event:
           - 1-orde b ローズとまともに戦えず怪我をする
 
       3:
         pre event:
           - 1-ordeal 今こそすべてであり、レオナとミリアが自分にとって一番大切だと気づく
           - 1-ordeal ローズのパワーアップ
-        0---main event:
+        main event:
           - 1-orde b ローズを倒す（＝子殺し）
 
 
@@ -60,7 +60,7 @@ ordeal plot:
       1:
         pre event:
           - 2-ordeal 魔物と戦って強いところを見せる
-        0---main event:
+        main event:
           - 2-orde b エリーに敗北する
           - |
             エリー「その名はもう捨てた。過去のものだ」
@@ -69,13 +69,13 @@ ordeal plot:
       2:
         pre event:
           - 2-ordeal アリスの訓練を受ける
-        0---main event:
+        main event:
           - 2-orde b エリーといい勝負をする
 
       3:
         pre event:
           - 2-ordeal エリーのパワーアップ
-        0---main event:
+        main event:
           - 2-orde b エリーに勝利する
           - |
             過去との決別
@@ -113,16 +113,62 @@ ordeal plot:
 
 
 ## 恋愛のプロット
-0--love plot:
+love plot:
   - character: アリス、レオナ、ミリア
     theme:
       title: 初百合
       description: 順調な恋愛のプロット
     process:
-      - 0-love-1 手をつなぐ
-      - 0-love-2 抱きしめ合う
-      - 0-love-3 好きと言い合う
-      - 0-love-4 キスする
-      - 0-love-5 意味ありげに体を触る
-      - 0-love-6 体を触り合うがセックスする前に終わる
-      - 0-love-7 セックスする
+    - 0---love レオナと手をつなぐ
+    - 0---love ミリアと手をつなぐ
+    - 0---love 抱きしめ合う
+    - 0---love ミリアに私が付いていることを忘れないで、と言って抱き合う
+    - 0---love レオナに私が付いていることを忘れないで、と言って抱き合う
+    - 0---love 好きと言い合う
+    - 0---love 思いつめてチラチラ見る　唇が生々しく見える　何か言いかける
+    - 0---love キスする
+    - 0---love 抱き合ってキスをしながらうっかり尻を触ってしまう
+    - 0---love 抱き合ってキスをしながら股間に手が伸びるが、やめる
+    - 0---love 体を触り合うがセックスする前に終わる
+    - 0---love セックスする
+    - 0---love レオナから仕掛ける
+
+
+## 謎のプロット
+mystery plot:
+  - foreshadowing: 
+  - resolve: 
+
+  - foreshadowing: 
+  - resolve: 
+
+  - foreshadowing: 
+  - resolve: 
+
+  - foreshadowing: 
+  - resolve: 
+
+  - foreshadowing: 
+  - resolve: 
+
+  - foreshadowing: 
+  - resolve: 
+
+  - foreshadowing: 
+  - resolve: 
+
+  - foreshadowing: 
+  - resolve: 
+
+  - foreshadowing: 
+  - resolve: 
+
+  - foreshadowing: 
+  - resolve: 
+
+  - foreshadowing: 
+  - resolve: 
+
+  - foreshadowing: 
+  - resolve: 
+
