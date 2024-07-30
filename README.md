@@ -3,9 +3,9 @@
 ### 本文
 - text/[65]text-chapter-01-001-1.txt: タイトル未定
 
-### 計画
-- plan/[65]base-chapter-01.yml:      キャラクターの基本設計 第1章
-- plan/[65]init-chapter-01.yml:      初期設定 第1章
+### 設計
+- plan/[65]base-chapter-01.yml:      基本設計 第1章
+- plan/[65]init-chapter-01.yml:      初期設計 第1章
 - plan/[65]ordeal-chapter-01.gsheet: 試練 第1章
 
 ### プロット
@@ -37,6 +37,9 @@
 - thinking-notes/[65]thinking-notes-010.md: 天権神官ローズリエラの目的とアリスとの関係
 - thinking-notes/[65]thinking-notes-011.md: 間を埋めるプロット
 - thinking-notes/[65]thinking-notes-012.md: 遷世神エスの役割や扱い
+- thinking-notes/[65]thinking-notes-013.md: 謎を仕掛ける
+- thinking-notes/[65]thinking-notes-014.md: ローズは何をしているのか
+- thinking-notes/[65]thinking-notes-015.md: 転換点計画
 
 ### rejected 設定 before-2024-07-08
 - rejected/before-2024-07-08/settings/[65]settings-001.md: 遷世教団
