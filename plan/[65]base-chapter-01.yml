@@ -1,8 +1,8 @@
-# 基本設計
+# キャラクターの基本設計
 basic character design:
   - name: アリス
     charm:
-      name:
+      title:
         - 強気かわいい
       entity:
         predicament:
@@ -10,7 +10,7 @@ basic character design:
         normaly:
           - 意のままに振る舞う
     desire:
-      name:
+      contents:
         - 魔力珠を手に入れたい（新しい物質）
       conflict:
         - 天権神官ローズリエラ
@@ -26,7 +26,7 @@ basic character design:
 
   - name: レオナ（・ノート・アーズエイン）
     charm:
-      name:
+      title:
         - 元気かわいい
       entity:
         predicament:
@@ -34,7 +34,7 @@ basic character design:
         normaly:
           - 何事にも前向き
     desire:
-      name:
+      contents:
         - 強くなりたい
       conflict:
         - 枢機神官エリーゼ
@@ -49,7 +49,7 @@ basic character design:
 
   - name: ミリア
     charm:
-      name:
+      title:
         - お姉さんかわいい
       entity:
         predicament:
@@ -57,7 +57,7 @@ basic character design:
         normaly:
           - 面倒見がいい
     desire:
-      name:
+      contents:
         - 魔法を学びたい
       conflict:
         - 枢機神官フェイメル
@@ -72,7 +72,7 @@ basic character design:
 
   - name: 天権神官ローズリエラ
     charm:
-      name:
+      title:
         - 傲慢妖艶
       entity:
         predicament:
@@ -80,7 +80,7 @@ basic character design:
         normaly:
           - 意のままに振る舞う
     desire:
-      name:
+      contents:
         - 魔力珠を手に入れたい（遷世したい）
       conflict:
         - アリス
@@ -95,7 +95,7 @@ basic character design:
 
   - name: 枢機神官エリーゼ（・ミカ・ロレード）
     charm:
-      name:
+      title:
         - 冷徹妖艶
       entity:
         predicament:
@@ -103,7 +103,7 @@ basic character design:
         normaly:
           - 冷静沈着
     desire:
-      name:
+      contents:
         - レオナに復讐したい
       conflict:
         - レオナ
@@ -118,7 +118,7 @@ basic character design:
 
   - name: 枢機神官フェイメル
     charm:
-      name:
+      title:
         - 壮絶妖艶
       entity:
         predicament:
@@ -126,7 +126,7 @@ basic character design:
         normaly:
           - 派手
     desire:
-      name:
+      contents:
         - ミリアを手に入れたい
       conflict:
         - ミリアがなびかない
