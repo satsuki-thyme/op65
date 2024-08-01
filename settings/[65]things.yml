@@ -1,13 +1,31 @@
 # 物事
-- name: 聖徒教会レダ
-  appearance: 
+- name: イェスケの道標
+  appearance: 1
+  description:
+    - 魔法都市カルダーリベレの方角を指し示す魔導具
+    - ヘストエリアの目を二つ集めると機能し始める
+
+- name: エフィス
+  appearance: 1
   description:
     - 
 
-- name: 遷世教団エフィス
-  appearance: 
+- name: 邪教ゼノザ => ゼノザ
+
+- name: 聖徒教会レダ => レダ
+
+- name: ゼノザ
+  appearance: 1
   description:
     - 
+
+- name: 遷世教団エフィス => エフィス
+
+- name: ヘストエリアの目
+  appearance: 1
+  description:
+    - イェスケの道標を機能させる仕組み
+    - 二つあり、合わせることで仕組みが成る
 
 - name: 魔力流脈
   appearance: 1
@@ -21,6 +39,11 @@
     - フェアリーリングのこと
     - 妖精の国へ転移できる
     - 妖精が充足した森にできる
+
+- name: レダ
+  appearance: 1
+  description:
+    - 
 
 - name: 
   appearance: 
