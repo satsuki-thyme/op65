@@ -4,14 +4,15 @@
 - text/[65]text-chapter-01-001-1.txt: タイトル未定
 
 ### 設計
-- plan/[65]base-chapter-01.yml:      基本設計 第1章
-- plan/[65]init-chapter-01.yml:      初期設計 第1章
-- plan/[65]ordeal-chapter-01.gsheet: 試練 第1章
+- plan/[65]base.yml:      基本設計 第1章
+- plan/[65]init.yml:      初期設計 第1章
+- plan/[65]ordeal.gsheet: 試練 第1章
 
 ### プロット
-- plot/[65]plot-chapter-01-001.md:          プロット詳細 第1話
-- plot/[65]plot-elements-chapter-01.yml:    プロット要素 第1章
-- plot/[65]plot-outline-chapter-01.md:      プロット概要 第1章
+- plot/chapter-01/[65]detail-001.md:     詳細 第1話
+- plot/chapter-01/[65]elements.yml:      要素 第1章
+- plot/chapter-01/[65]outline.yml:       概要 第1章
+- plot/chapter-01/[65]turning-point.yml: ターニングポイント 第1章
 
 ### 設定
 - settings/[65]background.md:        背景設定 第1章
@@ -25,21 +26,21 @@
 - etc/instructions.yml: 手順書
 
 ### 思考ノート
-- thinking-notes/[65]thinking-notes-001.md: ミリアのコンフリクト
-- thinking-notes/[65]thinking-notes-002.md: 天権神官ローズリエラの過去
-- thinking-notes/[65]thinking-notes-003.md: 天権神官フェイメルの過去
-- thinking-notes/[65]thinking-notes-004.md: レオナの試練
-- thinking-notes/[65]thinking-notes-005.md: ミリアの試練
-- thinking-notes/[65]thinking-notes-006.md: 魔法都市カルダーリベレの場所をどうやって知るか
-- thinking-notes/[65]thinking-notes-007.md: アリスの子殺しの伏線
-- thinking-notes/[65]thinking-notes-008.md: レオナの最終決戦の伏線
-- thinking-notes/[65]thinking-notes-009.md: ミリアの最終決戦の伏線
-- thinking-notes/[65]thinking-notes-010.md: 天権神官ローズリエラの目的とアリスとの関係
-- thinking-notes/[65]thinking-notes-011.md: 間を埋めるプロット
-- thinking-notes/[65]thinking-notes-012.md: 遷世神エスの役割や扱い
-- thinking-notes/[65]thinking-notes-013.md: 謎を仕掛ける
-- thinking-notes/[65]thinking-notes-014.md: ローズは何をしているのか
-- thinking-notes/[65]thinking-notes-015.md: 転換点計画
+- thinking-notes/[65]001.md: ミリアのコンフリクト
+- thinking-notes/[65]002.md: 天権神官ローズリエラの過去
+- thinking-notes/[65]003.md: 天権神官フェイメルの過去
+- thinking-notes/[65]004.md: レオナの試練
+- thinking-notes/[65]005.md: ミリアの試練
+- thinking-notes/[65]006.md: 魔法都市カルダーリベレの場所をどうやって知るか
+- thinking-notes/[65]007.md: アリスの子殺しの伏線
+- thinking-notes/[65]008.md: レオナの最終決戦の伏線
+- thinking-notes/[65]009.md: ミリアの最終決戦の伏線
+- thinking-notes/[65]010.md: 天権神官ローズリエラの目的とアリスとの関係
+- thinking-notes/[65]011.md: 間を埋めるプロット
+- thinking-notes/[65]012.md: 遷世神エスの役割や扱い
+- thinking-notes/[65]013.md: 謎を仕掛ける
+- thinking-notes/[65]014.md: ローズは何をしているのか
+- thinking-notes/[65]015.md: 転換点計画
 
 ### rejected 設定 before-2024-07-08
 - rejected/before-2024-07-08/settings/[65]settings-001.md: 遷世教団
