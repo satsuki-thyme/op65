@@ -5,10 +5,17 @@
     - 魔法都市カルダーリベレの方角を指し示す魔導具
     - ヘストエリアの目を二つ集めると機能し始める
 
+- name: ヴァンデラント文明
+  appearance: 1
+  description:
+    - ヴァンデラント文明の崩壊は遷世神エスの依代の暴走が引き起こした
+      - 遷世神エスの依代は封印されたが文明は滅んだ
+        - 余談：世界の滅亡が見えてきた頃に聖戦士が現れて遷世神エスの依代を封印した
+
 - name: エフィス
   appearance: 1
   description:
-    - 
+    - 遷世教団
 
 - name: 邪教ゼノザ => ゼノザ
 
@@ -17,7 +24,7 @@
 - name: ゼノザ
   appearance: 1
   description:
-    - 
+    - 邪教
 
 - name: 遷世教団エフィス => エフィス
 
@@ -43,7 +50,7 @@
 - name: レダ
   appearance: 1
   description:
-    - 
+    - 聖徒教会
 
 - name: 
   appearance: 
