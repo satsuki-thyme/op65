@@ -40,7 +40,8 @@
 - thinking-notes/[65]012.md: 遷世神エスの役割や扱い
 - thinking-notes/[65]013.md: 謎を仕掛ける
 - thinking-notes/[65]014.md: ローズは何をしているのか
-- thinking-notes/[65]015.md: 転換点計画
+- thinking-notes/[65]015.md: 伏線（転換点以前）
+- thinking-notes/[65]016.md: 伏線（転換点以後）
 
 ### rejected 設定 before-2024-07-08
 - rejected/before-2024-07-08/settings/[65]settings-001.md: 遷世教団
