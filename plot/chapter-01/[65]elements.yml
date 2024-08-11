@@ -11,13 +11,13 @@ legend:
         example: gen, odl, pst, lov
         contents: カテゴリー
       - item: function
-        example: fct, fsd, rsl
+        example: fct, fsd, rsl, snd, rcv
         contents: 機能
       - item: here
-        example: lst, mid, 001, 002...
+        example: lst, mid, fst, 001, 002...
         contents: アイテムの位置、固有番号
       - item: address
-        example: lst, mid 001, 002...
+        example: lst, mid, fst, 001, 002...
         contents: アイテムの宛先
       - item: front/back
         example: f, b
@@ -42,13 +42,19 @@ legend:
       - item: fsd
         explanaiton: 伏線（foreshadowing）
       - item: rsl
-        explanaiton: 伏線回収（resolve
+        explanaiton: 伏線回収（resolve）
+      - item: snd
+        explanaiton: rcvに対する事前の主たる事実（send）
+      - item: rsl
+        explanaiton: sndに対する後の副次的な事実（receive）
   - item: here, address
     contents:
       - item: lst
         explanaiton: 最後（last）
       - item: mid
         explanaiton: 中間（middle）
+      - item: fst
+        explanaiton: 最初（fast）
 
 
 ## 留意リスト
@@ -59,7 +65,7 @@ list of remember:
     - 伏線の回収とともに見えてくるストーリー
 
 ## メインプロット
-fact plot:
+plot of fact:
   - /00 gen fct --- --- f - アリスは魔力珠が欲しい
   - /00 gen fct --- --- f - レオナから魔力珠がエリクにあると知る
   - /00 gen fct --- --- f - ミリアからエリクはヴァイツから行けると知る
@@ -76,191 +82,230 @@ fact plot:
 
 
 ## 試練のプロット
-ordeal plot:
-  - character: アリス
-    theme:
-      title: 子殺し
-      description: 苦悩のプロット
-    process:
-      0:
-        foreshadowing for the last resolution:
-          - /01 odl fsd fst lst f - 「新しい冒険の始まり。古い私は死んで、新しい人生が始まるの！」
-
-      1:
-        pre event:
-          - /01 odl fsd --- nxt f - 子孫が死んでいることに深い悲しみを示す
-          - /01 odl fsd --- nxt f - 「ローズ様は美しいし神のような力をお持ちだ」
-        main event:
-          - /01 odl rsl --- --- f - ローズが子だと分かり逃げる
-
-      2:
-        pre event:
-          - /01 odl fsd --- nxt f - 子と対立していることへの苦悩を示す
-        main event:
-          - /01 odl rsl --- --- f - ローズとまともに戦えず怪我をする
-
-      3:
-        pre event:
-          - /01 odl fsd --- nxt f - 今こそすべてであり、レオナとミリアが自分にとって一番大切だと気づく
-          - /01 odl fsd --- nxt f - ローズのパワーアップ
-        main event:
-          - /01 odl rsl --- lst f - ローズを倒す
-          - /01 odl rsl --- lst f - 「これまでの私は死んだわ」
+plot of ordeal:
+  toc:
+    - アリス
+    - レオナ
+    - ミリア
+    - ペトラ
+    - ローズ
+    - エリー
+    - フェイ
 
 
-  - character: レオナ
-    theme:
-      title: 強くなる
-      description: 成長のプロット
-    process:
-      0:
-        foreshadowing for the last resolution:
-          - /02 odl fsd fst lst f - 冒頭でアリスから好きなことを聞かれた次にじゃぁ困ってることは？と尋ねられて「過去を乗り越えたいんです……あ、いや、うそ！　なんでもないです！」と言う
+  contents:
+    - character: アリス
+      theme:
+        title: 子殺し
+        description: 苦悩のプロット
+      process:
+        0:
+          foreshadowing for the last resolution:
+            - /01 odl fsd fst lst f - 「新しい冒険の始まり。古い私は死んで、新しい人生が始まるの！」
 
-      1:
-        pre event:
-          - /02 odl fsd --- nxt f - 魔物と戦って強いところを見せる
-        main event:
-          - /02 odl rsl --- --- f - エリーに敗北する
-          - |
-            エリー「その名はもう捨てた。過去のものだ」
-            レオナ「家名を捨てるなんて、家族のことはもういいんですか！？」
+        1:
+          pre event:
+            - /01 odl fsd --- nxt f - 子孫が死んでいることに深い悲しみを示す
+            - /01 odl fsd --- nxt f - 「ローズ様は美しいし神のような力をお持ちだ」
+          main event:
+            - /01 odl rsl --- --- f - ローズが子だと分かり逃げる
 
-      2:
-        pre event:
-          - /02 odl fsd --- nxt f - アリスの訓練を受ける
-        main event:
-          - /02 odl rsl --- --- f - エリーといい勝負をする
+        2:
+          pre event:
+            - /01 odl fsd --- nxt f - 子と対立していることへの苦悩を示す
+          main event:
+            - /01 odl rsl --- --- f - ローズとまともに戦えず怪我をする
 
-      3:
-        pre event:
-          - /02 odl fsd --- nxt f - エリーのパワーアップ
-        main event:
-          - /02 odl rsl --- --- f - エリーに勝利する
-          - /02---frsl 過去を乗り越える
-            |
-            過去との決別
-            生きていても仕方ないのにどうして強くなりたいんだろう？
-            ↓
-            今の幸せを守るために強くなりたい！
+        3:
+          pre event:
+            - /01 odl fsd --- nxt f - 今こそすべてであり、レオナとミリアが自分にとって一番大切だと気づく
+            - /01 odl fsd --- nxt f - ローズのパワーアップ
+          main event:
+            - /01 odl rsl lst --- f b ローズを倒す
+            - /01 odl rsl lst --- f - 「これまでの私は死んだわ」
 
 
-  - character: ミリア
-    theme:
-      title: 誘惑
-      description: 惑いのプロット
-    process:
-      0:
-        foreshadowing for the last resolution:
-          - /03 odl fsd fst lst f - たまにミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
+    - character: レオナ
+      theme:
+        title: 強くなる
+        description: 成長のプロット
+      process:
+        0:
+          foreshadowing for the last resolution:
+            - /02 odl fsd fst lst f - 冒頭でアリスから好きなことを聞かれた次にじゃぁ困ってることは？と尋ねられて「過去を乗り越えたいんです……あ、いや、うそ！　なんでもないです！」と言う
 
-      1:
-        pre event:
-          - /03 odl fsd --- nxt f - アリスとレオナと愛を育む
-        main event:
-          - /03 odl rsl --- --- f - フェイの求愛を受けて拒否する
+        1:
+          pre event:
+            - /02 odl fsd --- nxt f - 魔物と戦って強いところを見せる
+          main event:
+            - /02 odl rsl --- --- f - エリーに敗北する
+            - |
+              エリー「その名はもう捨てた。過去のものだ」
+              レオナ「家名を捨てるなんて、家族のことはもういいんですか！？」
 
-      2:
-        pre event:
-          - /03 odl fsd --- nxt f - 祖母にどれほど謝りたいか示す
-        main event:
-          - /03 odl rsl --- --- f - フェイの反魂魔法に動揺する
+        2:
+          pre event:
+            - /02 odl fsd --- nxt f - アリスの訓練を受ける
+          main event:
+            - /02 odl rsl --- --- f - エリーといい勝負をする
 
-      3:
-        pre event:
-          - /03 odl fsd --- nxt f - 祖母には謝りたい。でもそれから？それからどうするの？　大好きなアリスとレオナの元には戻れない……
-        main event:
-          - /03 odl rsl --- --- f - フェイを倒す
-          - /03 odl rsl lst --- f - 祖母と再会する
-
-
-  - character: ローズ
-    theme:
-      title: 波瀾万丈
-      description: 夢のうちに滅びるプロット
-    process:
-      0:
-
-      1:
-        main event:
-          - /11 odl snd --- --- f b アリスを見つけて泳がせる
-        post event:
-          - /11 odl rcv --- prv b - アリスを放つことができて満足する
-        foreshadowing for the last resolution:
-          - /11 odl fsd fst lst b - やっとザヴィ様の世界へ行けるんだわ
-
-      2:
-        pre event:
-          - /11 odl fsd --- nxt b - エリーとフェイの戦いが芳しくなく内心で焦る
-        main event:
-          - /11 odl rsl --- --- f b 強さを見せつけて思い知らせる、優越感を取り戻す
-
-      3:
-        pre event:
-          - /11 odl fsd --- nxt b - 魔力珠の力を十全に遣うためにパワーアップして自信をつける
-        main event:
-          - /11 odl rsl lst --- f b 念願を成就させて死んでいく
+        3:
+          pre event:
+            - /02 odl fsd --- nxt f - エリーのパワーアップ
+          main event:
+            - /02 odl rsl lst --- f b エリーに勝利する
+            - /02 odl rsl lst --- f - 過去を乗り越える
+              |
+              過去との決別
+              生きていても仕方ないのにどうして強くなりたいんだろう？
+              ↓
+              今の幸せを守るために強くなりたい！
 
 
-  - character: エリー
-    theme:
-      title: 忠誠と慈愛
-      description: 尽くして死ぬプロット
-    process:
-      0:
+    - character: ミリア
+      theme:
+        title: 誘惑
+        description: 惑いのプロット
+      process:
+        0:
+          foreshadowing for the last resolution:
+            - /03 odl fsd fst lst f - たまにミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
 
-      1:
-        pre event:
-          - /12 odl fsd --- nxt b - 仲間を叩いて焚きつけろと命令を受けて喜ぶ
-        foreshadowing for the last resolution:
-          - /12 odl fsd fst lst b - ローズに忠誠と何よりの愛を誓う
-        main event:
-          - /12 odl rsl --- --- f b レオナを倒しアリスを焚きつける
+        1:
+          pre event:
+            - /03 odl fsd --- nxt f - アリスとレオナと愛を育む
+          main event:
+            - /03 odl rsl --- --- f - フェイの求愛を受けて拒否する
 
-      2:
-        pre event:
-          - /12 odl fsd --- nxt b - 足止めを命令されて今度こそ殺そうと意気揚々と出る
-        main event:
-          - /12 odl rsl --- --- f b 足止めに失敗して辛酸を舐める
+        2:
+          pre event:
+            - /03 odl fsd --- nxt f - 祖母にどれほど謝りたいか示す
+          main event:
+            - /03 odl rsl --- --- f - フェイの反魂魔法に動揺する
 
-      3:
-        pre event:
-          - /12 odl fsd --- nxt b - ローズにこれ以上は拙いと忠告する
-        main event:
-          - /12 odl rsl --- --- f b 力及ばずローズへの愛を託して逝く
+        3:
+          pre event:
+            - /03 odl fsd --- nxt f - 祖母には謝りたい。でもそれから？それからどうするの？　大好きなアリスとレオナの元には戻れない……
+          main event:
+            - /03 odl rsl lst --- f b フェイを倒す
+            - /03 odl rsl lst --- f - 祖母と再会する
 
 
-  - character: フェイ
-    theme:
-      title: 狂乱
-      description: 自由に愛し自由に散るプロット
-    process:
-      0:
+    - character: ペトラ
+      theme:
+        title: 勇気
+        description: 踏み出すプロット
+      process:
+        0:
+          foreshadowing for the last resolution:
+            - /04 odl fsd fst nxt f - 
 
-      1:
-        pre event:
-          - /13 odl fsd --- nxt b - 
-        foreshadowing for the last resolution:
-          - /13 odl fsd fst lst b - 
-        main event:
-          - /13 odl rsl --- --- f - 
+        1:
+          pre event:
+            - /04 odl fsd --- nxt f - 森に妖精が増え過ぎている
+          main event:
+            - /04 odl rsl --- --- f - 新たな森を探す決断をする
 
-      2:
-        pre event:
-          - /13 odl fsd --- nxt b - 
-        main event:
-          - /13 odl rsl --- --- f - 
+        2:
+          pre event:
+            - /04 odl fsd --- nxt f - 新たな森が見つかる
+          main event:
+            - /04 odl rsl --- --- f - 新たな森に定住する決断をする
 
-      3:
-        pre event:
-          - /13 odl fsd --- nxt b - 
-        main event:
-          - /13 odl rsl --- --- f - 
+        3:
+          pre event:
+            - /04 odl fsd --- nxt f - 妖精女王が動く
+          main event:
+            - /04 odl rsl lst --- f - 妖精領主になる決断をする
+
+
+    - character: ローズ
+      theme:
+        title: 波瀾万丈
+        description: 夢のうちに滅びるプロット
+      process:
+        0:
+
+        1:
+          main event:
+            - /11 odl snd --- --- f b アリスを見つけて泳がせる
+          post event:
+            - /11 odl rcv --- prv b - アリスを放つことができて満足する
+          foreshadowing for the last resolution:
+            - /11 odl fsd fst lst b - やっとザヴィ様の世界へ行けるんだわ
+
+        2:
+          pre event:
+            - /11 odl fsd --- nxt b - エリーとフェイの戦いが芳しくなく内心で焦る
+          main event:
+            - /11 odl rsl --- --- f b 強さを見せつけて思い知らせる、優越感を取り戻す
+
+        3:
+          pre event:
+            - /11 odl fsd --- nxt b - 魔力珠の力を十全に遣うためにパワーアップして自信をつける
+          main event:
+            - /11 odl rsl lst --- f b 念願を成就させて死んでいく
+
+
+    - character: エリー
+      theme:
+        title: 忠誠と慈愛
+        description: 尽くして死ぬプロット
+      process:
+        0:
+
+        1:
+          foreshadowing for the last resolution:
+            - /12 odl fsd fst lst b - ローズに忠誠と何よりの愛を誓う
+          pre event:
+            - /12 odl fsd --- nxt b - 仲間を叩いて焚きつけろと命令を受けて喜ぶ
+          main event:
+            - /12 odl rsl --- --- f b レオナを倒しアリスを焚きつける
+
+        2:
+          pre event:
+            - /12 odl fsd --- nxt b - 足止めを命令されて今度こそ殺そうと意気揚々と出る
+          main event:
+            - /12 odl rsl --- --- f b 足止めに失敗して辛酸を舐める
+
+        3:
+          pre event:
+            - /12 odl fsd --- nxt b - ローズにこれ以上は拙いと忠告する
+          main event:
+            - /12 odl rsl lst --- f b 力及ばずローズへの愛を託して逝く
+
+
+    - character: フェイ
+      theme:
+        title: 狂乱
+        description: 自由に愛し自由に散るプロット
+      process:
+        0:
+
+        1:
+          pre event:
+            - /13 odl fsd --- nxt b - ローズの誘いを断ってエルフがいると聞いて食指を動かす
+          foreshadowing for the last resolution:
+            - /13 odl fsd fst lst b - 無理強いはしたくないが欲しいものは力尽くでも手に入れると言う
+          main event:
+            - /13 odl rsl --- --- f b 優位に戦い誘惑するが断られて引き下がる
+
+        2:
+          pre event:
+            - /13 odl fsd --- nxt b - 女は力になびくと言う
+          main event:
+            - /13 odl rsl --- --- f b 強さを見せつけるつもりで出した奥の手で動揺を誘うことができるが引き下がる
+
+        3:
+          pre event:
+            - /13 odl fsd --- nxt b - もう我慢しないと言う
+          main event:
+            - /13 odl rsl lst --- f b 力尽くで手に入れようとして破れる
 
 
 ## 恋愛のプロット
 love plot:
-  - character: アリス、レオナ、ミリア
+  - character: アリス, レオナ, ミリア
     theme:
       title: 初百合
       description: 順調な恋愛のプロット
@@ -278,6 +323,16 @@ love plot:
     - /00 lov fct --- --- f - 体を触り合うがセックスする前に終わる
     - /00 lov fct --- --- f - セックスする
     - /00 lov fct --- --- f - レオナから仕掛ける
+
+
+  - character: ローズ, エリー, フェイ
+    theme:
+      title: 円熟の百合
+      description: 退廃的な恋愛のプロット
+    process:
+    - /10 lov fct --- --- b - 
+    - /10 lov fct --- --- b - 
+    - /10 lov fct --- --- b - 
 
 
 # 伏線

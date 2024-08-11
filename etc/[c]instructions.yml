@@ -19,7 +19,7 @@
   name: キャラクターの基本設計
   things to do: キャラクターの魅力、欲求、試練などを設定する
   relational files:
-    - base.yml
+    - character-base.yml
   note:
     - キャラクターの人物設定とは異なる
 
