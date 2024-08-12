@@ -9,10 +9,9 @@
 - plan/[65]ordeal.gsheet: 試練 第1章
 
 ### プロット
-- plot/chapter-01/[65]detail-001.md:     詳細 第1話
-- plot/chapter-01/[65]elements.yml:      要素 第1章
-- plot/chapter-01/[65]outline.yml:       概要 第1章
-- plot/chapter-01/[65]turning-point.yml: ターニングポイント 第1章
+- plot/chapter-01/[65]detail-001.md:      詳細 第1話
+- plot/chapter-01/[65]draft-elements.yml: 下書き要素 第1章
+- plot/chapter-01/[65]outline.yml:        概要 第1章
 
 ### 設定
 - settings/[65]background.md:        背景設定 第1章
@@ -22,8 +21,10 @@
 - settings/[65]things.md:            物事設定 第1章
 
 ### etc
-- etc/[65]memo.md:      メモ
-- etc/instructions.yml: 手順書
+- etc/[65]memo.md:         メモ
+- etc/[c]instructions.yml: 手順書
+- etc/[c]legends.yml:      凡例集
+- etc/[c]references.yml:   参考資料
 
 ### 思考ノート
 - thinking-notes/[65]001.md: ミリアのコンフリクト

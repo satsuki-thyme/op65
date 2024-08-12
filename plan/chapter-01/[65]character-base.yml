@@ -13,16 +13,25 @@ basic character design:
       contents:
         - 魔力珠を手に入れたい（新しい物質）
       conflict:
-        - 天権神官ローズリエラ
+        - ローズ
       past connected to desire:
         - 世界を生んだから世界に生まれる新しいものに興味がある
         - 上位人族の始祖の始祖を作った
     ordeal:
-      - 天権神官ローズリエラを自らの手で殺す
+      title:
+        - 過去を諦められるか
+      facing the inner self:
+        - 過去に執着する自分
+      collision opponent:
+        - ローズ
+      how to overcome:
+        - 我が子孫と思い込んでローズを殺す
+      inner change:
+        - 過去より今の幸福が大切であることに気づく
     right point:
       - 本当に大切なものがなんなのか気づいた
     wrong point:
-      - 
+      - なし
 
 
   - name: レオナ（・ノート・アーズエイン）
@@ -38,15 +47,24 @@ basic character design:
       contents:
         - 強くなりたい
       conflict:
-        - 枢機神官エリーゼ
+        - エリー
       past connected to desire:
         - 国を滅ぼされ親族を失った
     ordeal:
-      - 枢機神官エリーゼに決定的な攻撃ができないレオナが生きたいと願って倒すことができるか
+      title:
+        - 生きる意味を見出せるか
+      facing the inner self:
+        - 生きる理由が見つからない状況
+      collision opponent:
+        - エリー
+      how to overcome:
+        - エリーとの死闘をくぐり抜ける
+      inner change:
+        - 大切な者を思い生きることの幸せを見つける
     right point:
       - 健全な欲求に支えられていた――生きたい、仲間と過ごしたい
     wrong point:
-      - 
+      - なし
 
 
   - name: ミリア
@@ -62,18 +80,60 @@ basic character design:
       contents:
         - 魔法を学びたい
       conflict:
-        - 枢機神官フェイメル
+        - フェイ
       past connected to desire:
         - 祖母に魔法を教わった思い出
     ordeal:
-      - 枢機神官フェイメルの誘惑を撥ね除けて倒すことができるか
+      title:
+        - 過去への誘惑を断ち切れるか
+      facing the inner self:
+        - 祖母への罪悪感に囚われたままの心
+      collision opponent:
+        - フェイ
+      how to overcome:
+        - フェイの誘惑を断ち切って倒す
+      inner change:
+        - 過去よりも今の幸福が大切だと分かる
     right point:
       - 誘惑に打ち勝って倒すことを選んだ
     wrong point:
-      - 
+      - なし
 
 
-  - name: 天権神官ローズリエラ
+  - character: ペトラ
+    charm:
+      title:
+        - やんちゃかわいい
+      entity:
+        predicament:
+          - 怯える
+        normaly:
+          - はしゃいでいる
+    desire:
+      contents:
+        - 名声を得たい
+      conflict:
+        - 臆病な自分
+      past connected to desire:
+        - なし
+    ordeal:
+      title:
+        - 勇気を振り絞ることができるか
+      facing the inner self:
+        - 臆病な自分
+      collision opponent:
+        - 森の妖精に訪れた苦難
+      how to overcome:
+        - アリスの言葉で奮起する
+      inner change:
+        - 勇気を振り絞る
+    right point:
+      - 勇気を出すことができた
+    wrong point:
+      - なし
+
+
+  - name: ローズ
     charm:
       title:
         - 傲慢妖艶
@@ -90,14 +150,23 @@ basic character design:
       past connected to desire:
         - 上位人族の親が殺された
     ordeal:
-      - 最愛の親がいない世界で生きていけるか
+      title:
+        - 過去を諦められるか
+      facing the inner self:
+        - 過去に執着する自分
+      collision opponent:
+        - アリス
+      how to overcome:
+        - なし
+      inner change:
+        - なし
     right point:
-      - 
+      - なし
     wrong point:
-      - 世界を無に還そうとしてしまった
+      - 過去を捨てられず遷世を果たそうとした
 
 
-  - name: 枢機神官エリーゼ（・ミカ・ロレード）
+  - name: エリー（・ミカ・ロレード）
     charm:
       title:
         - 冷徹妖艶
@@ -114,14 +183,23 @@ basic character design:
       past connected to desire:
         - 国を滅ぼされ親族を失った
     ordeal:
-      - 復讐心を乗り越えて健全に生きられるか
+      title:
+        - ローズへの真の愛に目覚め過去を捨てて生きられるか
+      facing the inner self:
+        - 過去に執着する自分
+      collision opponent:
+        - レオナ
+      how to overcome:
+        - なし
+      inner change:
+        - なし
     right point:
-      - 
+      - なし
     wrong point:
       - 復讐心を貫いてしまった
 
 
-  - name: 枢機神官フェイメル
+  - name: フェイ
     charm:
       title:
         - 壮絶妖艶
@@ -136,11 +214,20 @@ basic character design:
       conflict:
         - ミリアがなびかない
       past connected to desire:
-        - 天権神官ローズリエラの城で宮廷魔法使いをしていた
+        - ローズの城で宮廷魔法使いをしていた
     ordeal:
-      - なびかない相手を諦めることができるか
+      title:
+        - なびかない相手を諦めることができるか
+      facing the inner self:
+        - 強欲で自制のない自分
+      collision opponent:
+        - ミリア
+      how to overcome:
+        - なし
+      inner change:
+        - なし
     right point:
-      - 
+      - なし
     wrong point:
       - 諦められなかった
 
