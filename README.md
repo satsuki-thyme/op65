@@ -6,7 +6,6 @@
 ### 設計
 - plan/[65]base.yml:      基本設計 第1章
 - plan/[65]init.yml:      初期設計 第1章
-- plan/[65]ordeal.gsheet: 試練 第1章
 
 ### プロット
 - plot/chapter-01/[65]detail-001.md:      詳細 第1話
