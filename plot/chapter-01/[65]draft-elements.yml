@@ -16,8 +16,8 @@ plot of fact:
   - /00 gen fct --- --- f - 魔力珠を手に入れる
 
 
-## キャラクター個人の試練のプロット
-plot of ordeal:
+## キャラクター個人のプロット
+plot of characters:
   toc:
     - アリス
     - レオナ
@@ -31,8 +31,9 @@ plot of ordeal:
     - character: アリス
       stream:
         1:
+          part: 試練
           theme:
-            title: 子殺し（メイン）
+            title: 子殺し
             description: 苦悩のプロット
           process:
             0:
@@ -61,8 +62,9 @@ plot of ordeal:
                 - /01 odl rsl lst --- f - 「これまでの私は死んだわ」
 
         2:
+          part: 試練の追加要素
           theme:
-            title: 子殺し（サブ）
+            title: 子殺し
             description: 苦悩のプロット
           process:
             - /01 odl fsd --- nxt f - 子孫が死んでいることに深い悲しみを示す
@@ -79,6 +81,7 @@ plot of ordeal:
             - /01 odl fsd --- nxt ? - 今こそすべてであり、レオナとミリアが自分にとって一番大切だと気づく
 
         3:
+          part: 過去
           theme:
             title: 親子の愛
             description: 愛のプロット
@@ -88,6 +91,7 @@ plot of ordeal:
     - character: レオナ
       stream:
         1:
+          part: 試練
           theme:
             title: 強くなる
             description: 成長のプロット
@@ -127,6 +131,7 @@ plot of ordeal:
     - character: ミリア
       stream:
         1:
+          part: 試練
           theme:
             title: 誘惑
             description: 惑いのプロット
@@ -158,6 +163,7 @@ plot of ordeal:
     - character: ペトラ
       stream:
         1:
+          part: 試練
           theme:
             title: 勇気
             description: 踏み出すプロット
@@ -188,6 +194,7 @@ plot of ordeal:
     - character: ローズ
       stream:
         1:
+          part: 試練
           theme:
             title: 波瀾万丈
             description: 夢のうちに滅びるプロット
@@ -218,6 +225,7 @@ plot of ordeal:
     - character: エリー
       stream:
         1:
+          part: 試練
           theme:
             title: 忠誠と慈愛
             description: 尽くして死ぬプロット
@@ -248,6 +256,7 @@ plot of ordeal:
     - character: フェイ
       stream:
         1:
+          part: 試練
           theme:
             title: 狂乱
             description: 自由に愛し自由に散るプロット
@@ -276,10 +285,11 @@ plot of ordeal:
 
 
 ## 恋愛のプロット
-love plot:
+plot of love:
   - character: アリス, レオナ, ミリア
     stream:
       1:
+        part: メイン
         theme:
           title: 初百合
           description: 順調な恋愛のプロット
@@ -302,6 +312,7 @@ love plot:
   - character: ローズ, エリー, フェイ
     stream:
       1:
+        part: メイン
         theme:
           title: 円熟の百合
           description: 退廃的な恋愛のプロット

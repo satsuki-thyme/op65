@@ -26,22 +26,25 @@
 - etc/[c]references.yml:   参考資料
 
 ### 思考ノート
-- thinking-notes/[65]001.md: ミリアのコンフリクト
-- thinking-notes/[65]002.md: 天権神官ローズリエラの過去
-- thinking-notes/[65]003.md: 天権神官フェイメルの過去
-- thinking-notes/[65]004.md: レオナの試練
-- thinking-notes/[65]005.md: ミリアの試練
-- thinking-notes/[65]006.md: 魔法都市カルダーリベレの場所をどうやって知るか
-- thinking-notes/[65]007.md: アリスの子殺しの伏線
-- thinking-notes/[65]008.md: レオナの最終決戦の伏線
-- thinking-notes/[65]009.md: ミリアの最終決戦の伏線
-- thinking-notes/[65]010.md: 天権神官ローズリエラの目的とアリスとの関係
-- thinking-notes/[65]011.md: 間を埋めるプロット
-- thinking-notes/[65]012.md: 遷世神エスの役割や扱い
-- thinking-notes/[65]013.md: 謎を仕掛ける
-- thinking-notes/[65]014.md: ローズは何をしているのか
-- thinking-notes/[65]015.md: 伏線（転換点以前）
-- thinking-notes/[65]016.md: 伏線（転換点以後）
+#### archive
+- thinking-notes/archive/[65]001.md: ミリアのコンフリクト
+- thinking-notes/archive/[65]002.md: 天権神官ローズリエラの過去
+- thinking-notes/archive/[65]003.md: 天権神官フェイメルの過去
+- thinking-notes/archive/[65]004.md: レオナの試練
+- thinking-notes/archive/[65]005.md: ミリアの試練
+- thinking-notes/archive/[65]006.md: 魔法都市カルダーリベレの場所をどうやって知るか
+- thinking-notes/archive/[65]007.md: アリスの子殺しの伏線
+- thinking-notes/archive/[65]008.md: レオナの最終決戦の伏線
+- thinking-notes/archive/[65]009.md: ミリアの最終決戦の伏線
+- thinking-notes/archive/[65]010.md: 天権神官ローズリエラの目的とアリスとの関係
+- thinking-notes/archive/[65]011.md: 間を埋めるプロット
+- thinking-notes/archive/[65]012.md: 遷世神エスの役割や扱い
+- thinking-notes/archive/[65]013.md: 謎を仕掛ける
+- thinking-notes/archive/[65]014.md: ローズは何をしているのか
+#### active
+- thinking-notes/active/[65]015.md: 伏線（転換点以前）
+- thinking-notes/active/[65]016.md: 伏線（転換点以後）
+- thinking-notes/active/[65]017.md: アリスの過去
 
 ### rejected 設定 before-2024-07-08
 - rejected/before-2024-07-08/settings/[65]settings-001.md: 遷世教団
