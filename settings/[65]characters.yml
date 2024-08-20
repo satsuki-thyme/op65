@@ -82,10 +82,10 @@ detail:
           nickname: レオナ
           race: ｜葦人《レイル》
           gender: 女
-          age: 16
+          age: 18
           eye-catching features: 深い青のロングヘアが印象的だ
           first impression: 岩崎さん
-          actual nature: ヘタレだが頑張り屋さん
+          actual nature: さっぱりしてお茶目（岩崎さん）
           special skills: 剣
           role: メインヒロイン
           note: 
@@ -106,8 +106,8 @@ detail:
               leg: 細め
             voice: 低めの美声にはユーモラスな響きがあった
           mind:
-            overview: さっぱりしてお茶目（岩崎さん）
-              - 
+            overview: 常識を知っているが非常識に動じない
+              - 非常時には常識的なことを言って驚いているが内心では動じていない
               - 
               - 
               - 
