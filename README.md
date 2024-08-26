@@ -44,7 +44,13 @@
 #### active
 - thinking-notes/active/[65]015.md: 伏線（転換点以前）
 - thinking-notes/active/[65]016.md: 伏線（転換点以後）
-- thinking-notes/active/[65]017.md: アリスの過去
+- thinking-notes/active/[65]017.md: アリス
+- thinking-notes/active/[65]018.md: レオナ
+- thinking-notes/active/[65]019.md: ミリア
+- thinking-notes/active/[65]020.md: ローズ
+- thinking-notes/active/[65]021.md: エリー
+- thinking-notes/active/[65]022.md: フェイ
+- thinking-notes/active/[65]023.md: 楼国
 
 ### rejected 設定 before-2024-07-08
 - rejected/before-2024-07-08/settings/[65]settings-001.md: 遷世教団
