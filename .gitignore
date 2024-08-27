@@ -1,0 +1,4 @@
+*.gsheet
+*.gdoc
+picture/
+tmp.*
