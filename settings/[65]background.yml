@@ -55,7 +55,7 @@
 
 
 - item: 楼国
-  appearance: 1
+  appearance: 1, 2
   contents:
     - item: 
       ref: thinking-notes/**/[65]023.md
