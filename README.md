@@ -51,6 +51,7 @@
 - thinking-notes/active/[65]021.md: エリー
 - thinking-notes/active/[65]022.md: フェイ
 - thinking-notes/active/[65]023.md: 楼国
+- thinking-notes/active/[65]024.md: ローズの辻褄合わせ
 
 ### rejected 設定 before-2024-07-08
 - rejected/before-2024-07-08/settings/[65]settings-001.md: 遷世教団
