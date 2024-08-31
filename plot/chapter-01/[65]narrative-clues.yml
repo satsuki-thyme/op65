@@ -1,0 +1,60 @@
+# 前兆要素
+## 伏線
+foreshadowing:
+  - character: アリス
+    contents:
+      1:
+        setup:
+          - /01 odl fsd fst lst f - 「新しい冒険の始まり。古い私は死んで、新しい人生が始まるの！」
+        invoke:
+          - /01 odl rsl lst --- f - 「これまでの私は死んだわ」
+
+
+  - character: レオナ
+    contents:
+      1:
+        setup:
+          - /02 odl fsd fst lst f - 冒頭でアリスから好きなことを聞かれた次にじゃぁ困ってることは？と尋ねられて「過去を乗り越えたいんです……あ、いや、うそ！　なんでもないです！」と言う
+        invoke:
+          - /02 odl rsl lst --- f - 過去を乗り越える
+        notes: |
+              過去との決別
+              生きていても仕方ないのにどうして強くなりたいんだろう？
+              ↓
+              今の幸せを守るために強くなりたい！
+
+
+  - character: ミリア
+    contents:
+      1:
+        setup:
+          - /03 odl fsd fst lst f - たまにミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
+        invoke:
+          - /03 odl rsl lst --- f - 祖母と再会する
+
+
+  - character: ペトラ
+    contents:
+      1:
+        setup:
+          - /04 odl fsd fst nxt f - アリスに勇気と蛮勇は違うのよ、と言われる
+        invoke:
+          - /04 odl rsl lst --- f - 妖精領主になる決断をする
+
+
+## ヒント
+hint:
+  - character: 事実
+    contents:
+      1:
+        setup:
+          - /00 gen hnt --- mid f - アリスの子孫であるヨル、ザヴィが死んでいるという情報
+          - /00 gen hnt --- mid f - 遷世教団は次の世界に連れていってもらうことを目指していると知る
+          - /00 gen hnt --- mid f - 次の世界へ連れていってくれるのはエスだと知る
+          - /00 gen hnt --- mid f - ローズが母ザヴィを殺され絶対に再会すると決意しているという情報をローズがうそぶく
+          - /00 gen hnt --- mid f - ローズは遷世に望みを懸けているという情報
+        invoke:
+          - /00 gen ans --- --- f - ローズは殺された母と再会するために世界を滅ぼそうとしている
+        notes:
+          - ref: thinking-notes/[65]015.md
+

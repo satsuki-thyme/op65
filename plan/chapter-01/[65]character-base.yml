@@ -1,5 +1,16 @@
 # キャラクターの基本設計
-basic character design:
+## キャラクターの概要比較
+character overview comparison:
+  - アリス　突き進む、心配事は概念にない
+  - レオナ　常識人、理性的と感情のバランス型
+  - ミリア　優しく気弱、不安が多く怖がり
+  - ローズ　執念の人、傲慢で周囲が見えていないが行動は結果的に功を奏する
+  - エリー　冷静沈着、冷徹の中に強い情念
+  - フェイ　キチガイ、女狂い
+
+
+## 詳細
+details:
   - name: アリス
     charm:
       title:
@@ -28,10 +39,10 @@ basic character design:
         - 我が子孫と思い込んでローズを殺す
       inner change:
         - 過去より今の幸福が大切であることに気づく
-    right point:
-      - 本当に大切なものがなんなのか気づいた
-    wrong point:
-      - なし
+      right point:
+        - 本当に大切なものがなんなのか気づいた
+      wrong point:
+        - なし
 
 
   - name: レオナ（・ノート・アーズエイン）
@@ -61,10 +72,10 @@ basic character design:
         - エリーとの死闘をくぐり抜ける
       inner change:
         - 大切な者を思い生きることの幸せを見つける
-    right point:
-      - 健全な欲求に支えられていた――生きたい、仲間と過ごしたい
-    wrong point:
-      - なし
+      right point:
+        - 健全な欲求に支えられていた――生きたい、仲間と過ごしたい
+      wrong point:
+        - なし
 
 
   - name: ミリア
@@ -94,10 +105,10 @@ basic character design:
         - フェイの誘惑を断ち切って倒す
       inner change:
         - 過去よりも今の幸福が大切だと分かる
-    right point:
-      - 誘惑に打ち勝って倒すことを選んだ
-    wrong point:
-      - なし
+      right point:
+        - 誘惑に打ち勝って倒すことを選んだ
+      wrong point:
+        - なし
 
 
   - character: ペトラ
@@ -127,10 +138,10 @@ basic character design:
         - アリスの言葉で奮起する
       inner change:
         - 勇気を振り絞る
-    right point:
-      - 勇気を出すことができた
-    wrong point:
-      - なし
+      right point:
+        - 勇気を出すことができた
+      wrong point:
+        - なし
 
 
   - name: ローズ
@@ -160,10 +171,10 @@ basic character design:
         - なし
       inner change:
         - なし
-    right point:
-      - なし
-    wrong point:
-      - 過去を捨てられず遷世を果たそうとした
+      right point:
+        - なし
+      wrong point:
+        - 過去を捨てられず遷世を果たそうとした
 
 
   - name: エリー（・ミカ・ロレード）
@@ -193,10 +204,10 @@ basic character design:
         - なし
       inner change:
         - なし
-    right point:
-      - なし
-    wrong point:
-      - 復讐心を貫いてしまった
+      right point:
+        - なし
+      wrong point:
+        - 復讐心を貫いてしまった
 
 
   - name: フェイ
@@ -226,17 +237,8 @@ basic character design:
         - なし
       inner change:
         - なし
-    right point:
-      - なし
-    wrong point:
-      - 諦められなかった
+      right point:
+        - なし
+      wrong point:
+        - 諦められなかった
 
-
-# キャラクターの概要比較
-character overview comparison:
-  - アリス　突き進む、心配事は概念にない
-  - レオナ　常識人、理性的と感情のバランス型
-  - ミリア　優しく気弱、不安が多く怖がり
-  - ローズ　執念の人、傲慢で周囲が見えていないが行動は結果的に功を奏する
-  - エリー　冷静沈着、冷徹の中に強い情念
-  - フェイ　キチガイ、女狂い

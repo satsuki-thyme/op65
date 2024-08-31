@@ -8,9 +8,10 @@
 - plan/[65]init.yml:      初期設計 第1章
 
 ### プロット
-- plot/chapter-01/[65]detail-001.md:      詳細 第1話
-- plot/chapter-01/[65]draft-elements.yml: 下書き要素 第1章
-- plot/chapter-01/[65]outline.yml:        概要 第1章
+- plot/chapter-01/[65]detail-001.md:       プロット詳細 第1話
+- plot/chapter-01/[65]elements.yml:        プロット要素 第1章
+- plot/chapter-01/[65]outline.yml:         プロット概要 第1章
+- plot/chapter-01/[65]narrative-clues.yml: 伏線 第1章
 
 ### 設定
 - settings/[65]background.md:        背景設定 第1章
