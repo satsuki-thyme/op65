@@ -112,160 +112,255 @@ detail:
               - 
               - 
 
+ ##     ##    ##    ##    ########     ####       ###
+ ###   ###     ##  ##     ##     ##     ##       ## ##
+ #### ####      ####      ##     ##     ##      ##   ##
+ ## ### ##       ##       ########      ##     ##     ##
+ ##     ##       ##       ##   ##       ##     #########
+ ##     ##       ##       ##    ##      ##     ##     ##
+ ##     ##       ##       ##     ##    ####    ##     ##
+
+      - dn: ミリア
+        applicable chapter: continuous
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 女
+          age: 
+        eye-catching features: 
+        first impression: 
+        actual nature: 
+        special skills: 
+        role: 
+        note: 
+        appearance:
+          overview: 
+          face:
+            overview: 
+            hair: 
+            eyes: 
+          body:
+            overview: 
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+        mind:
+          overview: 
+            - 
+            - 
+            - 
+            - 
+
+ ########     ########    ########    ########        ###
+ ##     ##    ##             ##       ##     ##      ## ##
+ ##     ##    ##             ##       ##     ##     ##   ##
+ ########     ######         ##       ########     ##     ##
+ ##           ##             ##       ##   ##      #########
+ ##           ##             ##       ##    ##     ##     ##
+ ##           ########       ##       ##     ##    ##     ##
+
+      - dn: ペトラ
+        applicable chapter: 1
+        nature:
+          full name: 
+          nickname: 
+          race: 翼妖精
+          gender: 女
+          age: 
+        eye-catching features: 
+        first impression: 
+        actual nature: 
+        special skills: 
+        role: 
+        note: 
+        appearance:
+          overview: 
+          face:
+            overview: 
+            hair: 
+            eyes: 
+          body:
+            overview: 
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+        mind:
+          overview: 
+            - 
+            - 
+            - 
+            - 
+
+
+  - group: 遷世教団
+    member:
+
+ ########      #######      ######     ########    ########     ##    ##    ########    ########        ###
+ ##     ##    ##     ##    ##    ##    ##          ##     ##     ##  ##     ##          ##     ##      ## ##
+ ##     ##    ##     ##    ##          ##          ##     ##      ####      ##          ##     ##     ##   ##
+ ########     ##     ##     ######     ######      ########        ##       ######      ########     ##     ##
+ ##   ##      ##     ##          ##    ##          ##   ##         ##       ##          ##   ##      #########
+ ##    ##     ##     ##    ##    ##    ##          ##    ##        ##       ##          ##    ##     ##     ##
+ ##     ##     #######      ######     ########    ##     ##       ##       ########    ##     ##    ##     ##
+
+      - dn: ローズリエラ
+        applicable chapter: 1
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 女
+          age: 
+        eye-catching features: 
+        first impression: 
+        actual nature: 
+        special skills: 
+        role: 
+        note: 
+        appearance:
+          overview: 
+          face:
+            overview: 
+            hair: 
+            eyes: 
+          body:
+            overview: 
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+        mind:
+          overview: 
+            - 
+            - 
+            - 
+            - 
+
+ ########    ########     ####    ########    ########    ####       ###
+ ##          ##     ##     ##     ##             ##        ##       ## ##
+ ##          ##     ##     ##     ##             ##        ##      ##   ##
+ ######      ########      ##     ######         ##        ##     ##     ##
+ ##          ##   ##       ##     ##             ##        ##     #########
+ ##          ##    ##      ##     ##             ##        ##     ##     ##
+ ########    ##     ##    ####    ########       ##       ####    ##     ##
+
+      - dn: エリーティア
+        applicable chapter: 1
+        nature:
+          full name: エリーティア・ミカ・ロレード
+          nickname: エリー
+          race: 葦人
+          gender: 女
+          age: 21
+        eye-catching features: 
+        first impression: 
+        actual nature: 
+        special skills: 
+        role: 
+        note: 
+        appearance:
+          overview: 
+          face:
+            overview: 
+            hair: 
+            eyes: 
+          body:
+            overview: 
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+        mind:
+          overview: 
+            - 
+            - 
+            - 
+            - 
+
+ ########    ########    ####    ##     ##    ########    ##
+ ##          ##           ##     ###   ###    ##          ##
+ ##          ##           ##     #### ####    ##          ##
+ ######      ######       ##     ## ### ##    ######      ##
+ ##          ##           ##     ##     ##    ##          ##
+ ##          ##           ##     ##     ##    ##          ##
+ ##          ########    ####    ##     ##    ########    ########
+
+      - dn: フェイメル
+        applicable chapter: 1
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 女
+          age: 
+        distinction: 
+        first impression: 
+        actual nature: 
+        special skills: 
+        role: 
+        note: 
+        appearance:
+          overview: 
+          face:
+            overview: 
+            hair: 
+            eyes: 
+          body:
+            overview: 
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+        mind:
+          overview: 
+            - 
+            - 
+            - 
+            - 
+
+
   - group: 
     member:
 
 
       - dn: 
-        race: 
-        gender: 
-        age: 
-        eye-catching features: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        applicable chapter:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-
-
-      - dn: 
-        race: 
-        gender: 
-        age: 
-        eye-catching features: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        applicable chapter:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-
-
-      - dn: 
-        race: 
-        gender: 
-        age: 
-        eye-catching features: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        applicable chapter:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-
-
-      - dn: 
-        race: 
-        gender: 
-        age: 
-        eye-catching features: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        applicable chapter:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-
-  - group: 
-    member:
-
-
-      - dn: 
-        race: 
-        gender: 
-        age: 
+        applicable chapter: 
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 
+          age: 
         distinction: 
         first impression: 
         actual nature: 
         special skills: 
         role: 
         note: 
-        applicable chapter:
+        appearance:
           overview: 
           face:
             overview: 
@@ -290,16 +385,20 @@ detail:
 
 
       - dn: 
-        race: 
-        gender: 
-        age: 
+        applicable chapter: 
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 
+          age: 
         distinction: 
         first impression: 
         actual nature: 
         special skills: 
         role: 
         note: 
-        applicable chapter:
+        appearance:
           overview: 
           face:
             overview: 
@@ -324,16 +423,20 @@ detail:
 
 
       - dn: 
-        race: 
-        gender: 
-        age: 
+        applicable chapter: 
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 
+          age: 
         distinction: 
         first impression: 
         actual nature: 
         special skills: 
         role: 
         note: 
-        applicable chapter:
+        appearance:
           overview: 
           face:
             overview: 
@@ -358,16 +461,20 @@ detail:
 
 
       - dn: 
-        race: 
-        gender: 
-        age: 
+        applicable chapter: 
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 
+          age: 
         distinction: 
         first impression: 
         actual nature: 
         special skills: 
         role: 
         note: 
-        applicable chapter:
+        appearance:
           overview: 
           face:
             overview: 
@@ -392,16 +499,20 @@ detail:
 
 
       - dn: 
-        race: 
-        gender: 
-        age: 
+        applicable chapter: 
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 
+          age: 
         distinction: 
         first impression: 
         actual nature: 
         special skills: 
         role: 
         note: 
-        applicable chapter:
+        appearance:
           overview: 
           face:
             overview: 
@@ -426,16 +537,20 @@ detail:
 
 
       - dn: 
-        race: 
-        gender: 
-        age: 
+        applicable chapter: 
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 
+          age: 
         distinction: 
         first impression: 
         actual nature: 
         special skills: 
         role: 
         note: 
-        applicable chapter:
+        appearance:
           overview: 
           face:
             overview: 
@@ -460,16 +575,20 @@ detail:
 
 
       - dn: 
-        race: 
-        gender: 
-        age: 
+        applicable chapter: 
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 
+          age: 
         distinction: 
         first impression: 
         actual nature: 
         special skills: 
         role: 
         note: 
-        applicable chapter:
+        appearance:
           overview: 
           face:
             overview: 
@@ -494,16 +613,20 @@ detail:
 
 
       - dn: 
-        race: 
-        gender: 
-        age: 
+        applicable chapter: 
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 
+          age: 
         distinction: 
         first impression: 
         actual nature: 
         special skills: 
         role: 
         note: 
-        applicable chapter:
+        appearance:
           overview: 
           face:
             overview: 
@@ -528,50 +651,20 @@ detail:
 
 
       - dn: 
-        race: 
-        gender: 
-        age: 
+        applicable chapter: 
+        nature:
+          full name: 
+          nickname: 
+          race: 
+          gender: 
+          age: 
         distinction: 
         first impression: 
         actual nature: 
         special skills: 
         role: 
         note: 
-        applicable chapter:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-
-
-      - dn: 
-        race: 
-        gender: 
-        age: 
-        distinction: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        applicable chapter:
+        appearance:
           overview: 
           face:
             overview: 
