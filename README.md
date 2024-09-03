@@ -29,15 +29,15 @@
 ### 思考ノート
 #### archive
 - thinking-notes/archive/[65]001.md: ミリアのコンフリクト
-- thinking-notes/archive/[65]002.md: 天権神官ローズリエラの過去
-- thinking-notes/archive/[65]003.md: 天権神官フェイメルの過去
+- thinking-notes/archive/[65]002.md: 天権神官ローズの過去
+- thinking-notes/archive/[65]003.md: 天権神官フェイの過去
 - thinking-notes/archive/[65]004.md: レオナの試練
 - thinking-notes/archive/[65]005.md: ミリアの試練
-- thinking-notes/archive/[65]006.md: 魔法都市カルダーリベレの場所をどうやって知るか
+- thinking-notes/archive/[65]006.md: 魔法都市カルダーの場所をどうやって知るか
 - thinking-notes/archive/[65]007.md: アリスの子殺しの伏線
 - thinking-notes/archive/[65]008.md: レオナの最終決戦の伏線
 - thinking-notes/archive/[65]009.md: ミリアの最終決戦の伏線
-- thinking-notes/archive/[65]010.md: 天権神官ローズリエラの目的とアリスとの関係
+- thinking-notes/archive/[65]010.md: 天権神官ローズの目的とアリスとの関係
 - thinking-notes/archive/[65]011.md: 間を埋めるプロット
 - thinking-notes/archive/[65]012.md: 遷世神エスの役割や扱い
 - thinking-notes/archive/[65]013.md: 謎を仕掛ける

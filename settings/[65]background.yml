@@ -1,61 +1,69 @@
 # 背景設定
+- item: アネス王国
+  applicable chapter: 1
+  contents:
+    - item:
+      - カルツ王国の謀略に巻き込まれてマーク王国を滅ぼし、疲弊したところをカルツ王国に滅ぼされた
+
+
 - item: アリス
-  appearance: continuous
+  applicable chapter: continuous
   contents:
     - item: 発生から眠りに着くまで
       ref: thinking-notes/**/[65]017.md
 
 
 - item: エリー
-  appearance: 1
+  applicable chapter: 1
   contents:
     - item: 
       ref: thinking-notes/**/[65]021.md
 
     - item:
-      - 元王女
-        - 王国はレオナの祖国に滅ぼされた
-          - エリーの祖国はレオナの祖国に無理な戦争を仕掛けた
-            - 王は悪いものに憑依されていた
+      - マーク王国の元王女
 
 
 - item: カルツ王国
-  appearance: 1, 2
+  applicable chapter: 1, 2
   contents:
     - item: 
       ref: thinking-notes/**/[65]023.md
 
 
 - item: フェイ
-  appearance: 1
+  applicable chapter: 1
   contents:
     - item: 
       ref: thinking-notes/**/[65]022.md
 
 
 - item: マーク王国
-  appearance: 1
+  applicable chapter: 1
   contents:
     - item:
-      - 
+      - カルツ王国の謀略にはまってアネス王国を執拗に攻め、結果的にアネス王国に滅ぼされた
+      - アネス王国を攻めるようになった頃、王は何かに取り憑かれていた
 
 
 - item: ミリア
-  appearance: continuous
+  applicable chapter: continuous
   contents:
     - item: 
       ref: thinking-notes/**/[65]019.md
 
 
 - item: レオナ
-  appearance: continuous
+  applicable chapter: continuous
   contents:
     - item: 
       ref: thinking-notes/**/[65]018.md
 
+    - item:
+      - アネス王国の元王女
+
 
 - item: ローズ
-  appearance: 1
+  applicable chapter: 1
   contents:
     - item: 
       ref: thinking-notes/**/[65]020.md
@@ -69,7 +77,7 @@
 
 
 - item: 
-  appearance: 
+  applicable chapter: 
   contents:
     - item:
       - 
