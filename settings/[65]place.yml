@@ -15,6 +15,12 @@
       - 人々は魔力泉で魔力を補う
 
 
+- name: カルツェ王国
+  applicable chapter: 1, 2
+  description:
+    - 謀略でマークユレイン王国を滅ぼし、直接アネス王国を滅ぼした
+
+
 - name: ノーファオールの村
   applicable chapter: 1
   description:

@@ -101,7 +101,7 @@
   - /02 bgr rsv --- nxt f - レオナの過去の示唆{レオナの過去}
   - /02 bgr rsv --- bgr f - レオナの過去にエリーの話を少し入れる{エリーの過去}
   - /10 lov fct --- --- b - お茶を楽しむなどneed to think
-  - /12 bgr fct --- --- b - エリーの過去{エリーの過去}
+  - /12 bgr fct --- --- b - エリーの過去（地の文で示す）{エリーの過去}
   - information:
     - 
   - mystery:
@@ -110,8 +110,8 @@
 
 7:
   - /02 odl rsv --- nxt f - 訓練の様子を描く
-  - /02 bgr fct --- --- b - レオナの過去 => thinking-notes- /**- /[65]018.md
-  - /03 odl rsv --- lst f - 祖母を思う
+  - /02 bgr fct --- --- b - レオナの過去 => thinking-notes- /**/[65]018.md{レオナの過去}
+  - /03 odl rsv --- lst f - 祖母を思う{ミリアの過去}
   - /00 lov fct --- --- f - 好きと言い合う
   - /03 odl rsv --- nxt f - アリスとレオナとミリアが愛を育む
   - /10 lov fct --- --- b - お茶を楽しむなどneed to think
