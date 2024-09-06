@@ -87,7 +87,7 @@ detail:
       - dn: レオナ
         applicable chapter: continuous
         nature:
-          full name: 
+          full name: レオナ・ノート・アーズエイン
           nickname: レオナ
           race: 葦人
           gender: 女
@@ -142,9 +142,9 @@ detail:
       - dn: ミリア
         applicable chapter: continuous
         nature:
-          full name: 
-          nickname: 
-          race: 
+          full name: アーネフリーネ村のミリア
+          nickname: ミリア
+          race: 森人
           gender: 女
           age: 24
         eye-catching features: 
@@ -179,11 +179,11 @@ detail:
           - age: 0
             event:
               - birth:
-                place: エルフの里
+                place: エルフの森 アーネフリーネ村
                 father: 
                 mother: 
                 note:
-                  - 
+                  - 村長家の第二子として生まれる
 
 
  ########     ########    ########    ########        ###
