@@ -3,15 +3,18 @@
 ### 本文
 - text/[65]text-chapter-01-001-1.txt: タイトル未定
 
+
 ### 設計
-- plan/[65]base.yml:      基本設計 第1章
-- plan/[65]init.yml:      初期設計 第1章
+- plan/[65]init.yml:           初期設計 第1章
+- plan/[65]character-base.yml: 基本設計 第1章
+
 
 ### プロット
 - plot/chapter-01/[65]detail-001.md:       プロット詳細 第1話
 - plot/chapter-01/[65]elements.yml:        プロット要素 第1章
 - plot/chapter-01/[65]outline.yml:         プロット概要 第1章
 - plot/chapter-01/[65]narrative-clues.yml: 伏線 第1章
+
 
 ### 設定
 - settings/[65]background.md:        背景設定 第1章
@@ -20,13 +23,25 @@
 - settings/[65]place.md:             場所設定 第1章
 - settings/[65]things.md:            物事設定 第1章
 
+
 ### etc
-- etc/[65]memo.md:         メモ
-- etc/[c]instructions.yml: 手順書
-- etc/[c]legends.yml:      凡例集
-- etc/[c]references.yml:   参考資料
+- etc/[65]memo.md: メモ
+- etc/[65]todo.md: ToDoリスト
+
 
 ### 思考ノート
+#### アクティブ
+- thinking-notes/[65]017.md: アリスの過去
+- thinking-notes/[65]018.md: レオナの過去
+- thinking-notes/[65]019.md: ミリアの過去
+- thinking-notes/[65]020.md: ローズの過去
+- thinking-notes/[65]021.md: エリーの過去
+- thinking-notes/[65]022.md: フェイの過去
+- thinking-notes/[65]023.md: 楼国
+- thinking-notes/[65]024.md: ローズの辻褄合わせ
+- thinking-notes/[65]025.md: 精霊魔法
+
+
 #### archive
 - thinking-notes/archive/[65]001.md: ミリアのコンフリクト
 - thinking-notes/archive/[65]002.md: 天権神官ローズの過去
@@ -42,17 +57,9 @@
 - thinking-notes/archive/[65]012.md: 遷世神エスの役割や扱い
 - thinking-notes/archive/[65]013.md: 謎を仕掛ける
 - thinking-notes/archive/[65]014.md: ローズは何をしているのか
-#### active
-- thinking-notes/active/[65]015.md: 伏線（転換点以前）
-- thinking-notes/active/[65]016.md: 伏線（転換点以後）
-- thinking-notes/active/[65]017.md: アリス
-- thinking-notes/active/[65]018.md: レオナ
-- thinking-notes/active/[65]019.md: ミリア
-- thinking-notes/active/[65]020.md: ローズ
-- thinking-notes/active/[65]021.md: エリー
-- thinking-notes/active/[65]022.md: フェイ
-- thinking-notes/active/[65]023.md: 楼国
-- thinking-notes/active/[65]024.md: ローズの辻褄合わせ
+- thinking-notes/archive/[65]015.md: 伏線（転換点以前）
+- thinking-notes/archive/[65]016.md: 伏線（転換点以後）
+
 
 ### rejected 設定 before-2024-07-08
 - rejected/before-2024-07-08/settings/[65]settings-001.md: 遷世教団
@@ -61,10 +68,12 @@
 - rejected/before-2024-07-08/settings/[65]settings-004.md: 魔狩ギルド
 - rejected/before-2024-07-08/settings/[65]settings-005.md: 魔力郷
 
+
 ### rejected 本文 before-2024-06-29
 - rejected/before-2024-06-29/text/[65]001.txt: はじまり
 - rejected/before-2024-06-29/text/[65]002.txt: 精霊の勇気
 - rejected/before-2024-06-29/text/[65]003.txt: 洗礼を受ける者
+
 
 ### rejected プロット before-2024-06-29
 - rejected/before-2024-06-29/plot/[65]plot-002.md: プロット 第2話
