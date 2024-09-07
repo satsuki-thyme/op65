@@ -31,30 +31,31 @@
 
 ### 思考ノート
 #### アクティブ
-- thinking-notes/[65]017.md: アリスの過去
-- thinking-notes/[65]018.md: レオナの過去
-- thinking-notes/[65]019.md: ミリアの過去
-- thinking-notes/[65]020.md: ローズの過去
-- thinking-notes/[65]021.md: エリーの過去
-- thinking-notes/[65]022.md: フェイの過去
+- thinking-notes/[65]017.md: アリスの背景
+- thinking-notes/[65]018.md: レオナの背景
+- thinking-notes/[65]019.md: ミリアの背景
+- thinking-notes/[65]020.md: ローズの背景
+- thinking-notes/[65]021.md: エリーの背景
+- thinking-notes/[65]022.md: フェイの背景
 - thinking-notes/[65]023.md: 楼国
 - thinking-notes/[65]024.md: ローズの辻褄合わせ
 - thinking-notes/[65]025.md: 精霊魔法
+- thinking-notes/[65]026.md: ミリアが旅をして求めているのは精霊魔法ではなく魔法？
 
 
 #### archive
 - thinking-notes/archive/[65]001.md: ミリアのコンフリクト
-- thinking-notes/archive/[65]002.md: 天権神官ローズの過去
-- thinking-notes/archive/[65]003.md: 天権神官フェイの過去
+- thinking-notes/archive/[65]002.md: ローズの過去
+- thinking-notes/archive/[65]003.md: フェイの過去
 - thinking-notes/archive/[65]004.md: レオナの試練
 - thinking-notes/archive/[65]005.md: ミリアの試練
-- thinking-notes/archive/[65]006.md: 魔法都市カルダーの場所をどうやって知るか
+- thinking-notes/archive/[65]006.md: カルダの場所をどうやって知るか
 - thinking-notes/archive/[65]007.md: アリスの子殺しの伏線
 - thinking-notes/archive/[65]008.md: レオナの最終決戦の伏線
 - thinking-notes/archive/[65]009.md: ミリアの最終決戦の伏線
-- thinking-notes/archive/[65]010.md: 天権神官ローズの目的とアリスとの関係
+- thinking-notes/archive/[65]010.md: ローズの目的とアリスとの関係
 - thinking-notes/archive/[65]011.md: 間を埋めるプロット
-- thinking-notes/archive/[65]012.md: 遷世神エスの役割や扱い
+- thinking-notes/archive/[65]012.md: エスの役割や扱い
 - thinking-notes/archive/[65]013.md: 謎を仕掛ける
 - thinking-notes/archive/[65]014.md: ローズは何をしているのか
 - thinking-notes/archive/[65]015.md: 伏線（転換点以前）

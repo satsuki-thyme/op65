@@ -22,7 +22,7 @@
   description:
     - 邪神ゼーラ
 
-- name: 遷世神エス => エス
+- name: エス => エス
 
 - name: 妖精
   applicable chapter: continuous
