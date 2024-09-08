@@ -14,6 +14,7 @@
 - plot/chapter-01/[65]elements.yml:        プロット要素 第1章
 - plot/chapter-01/[65]outline.yml:         プロット概要 第1章
 - plot/chapter-01/[65]narrative-clues.yml: 伏線 第1章
+- plot/chapter-01/[65]worldview.yml:       世界設定 第1章
 
 
 ### 設定
