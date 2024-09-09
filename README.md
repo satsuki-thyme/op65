@@ -42,6 +42,7 @@
 - thinking-notes/[65]024.md: ローズの辻褄合わせ
 - thinking-notes/[65]025.md: 精霊魔法
 - thinking-notes/[65]026.md: ミリアが旅をして求めているのは精霊魔法ではなく魔法？
+- thinking-notes/[65]027.md: 召喚魔法
 
 
 #### archive
