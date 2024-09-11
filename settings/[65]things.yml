@@ -43,6 +43,73 @@
 - item: 精霊魔法 => 魔法 / 精霊魔法
 
 
+- item: 世界
+  applicable chapter: continuous
+  description:
+    - item: 幻界
+      description:
+        - 幻霊のいる世界
+        - 登場人物のいる場所と、次元が異なるのではなく世界が異なる
+        - 登場人物のいる世界と比べて離心度が高く、つまりアカシックレコードに近い世界
+        - 離心度が高いのでノイズの影響を受けて不確かな世界
+        - 離心度が高いので離心エネルギーが高く、離心度の低い世界に顕現すると強靱な存在となる
+        - この世界と世界事象が重なった部分で励起された事象概念によってパスがつながると世界がつながる
+
+    - item: この世界
+      description:
+        - キャラクターのいる世界
+
+
+- item: 世界概念
+  applicable chapter: continuous
+  description:
+    - item: 構造
+      description:
+        - ref: /reference/world.png
+        - 無存界が全てを内包している
+        - 外世界が世界を内包している
+
+    - item: 無存界
+      description:
+        - 無であり、存在しないという概念が広がっている
+        - 他の何とも隣接しないが開いている
+        - 外世界を含んでいて、これ自体は世界という概念ではない
+
+    - item: 外世界
+      description:
+        - item: 実像点
+          description:
+          - 世界事象の実像が存在する外世界の核
+
+        - item: 世界事象
+          description:
+          - 事象として捉えた世界
+
+        - item: 写像層
+          description:
+          - 実像点から投影関数で世界事象が投影される層で、事象概念からなる拡張ユークリッド平面
+
+        - item: 事象概念
+          description:
+          - 外世界を構成する最も基礎的な存在で、外世界に充満している
+
+        - item: アカシックレコード
+          description:
+          - 全ての世界現象が投影される最外殻をアカシックレコードと呼ぶ
+
+        - item: 離心度
+          description:
+          - 写像層の実像点からの距離　高いほど世界としてのエネルギーが高い
+
+        - item: 世界事象間の連絡
+          description:
+          - 世界事象間には基本的に連絡がないが、世界事象の重なり部分で励起された事象概念によるパスがつながると一時的に連絡が発生する
+
+        - item: 励起された事象概念
+          description:
+          - 事象概念の存在偏度が極めて高い状態
+
+
 - item: ゼノザ
   applicable chapter: 1
   description:

@@ -45,7 +45,7 @@
 - thinking-notes/[65]027.md: 召喚魔法
 - thinking-notes/[65]028.md: 魔法それぞれの特色
 - thinking-notes/[65]029.md: 幻界
-- thinking-notes/[65]030.md: 開世界
+- thinking-notes/[65]030.md: 世界
 
 
 #### archive
