@@ -25,9 +25,11 @@
 - settings/[65]things.md:            物事設定 第1章
 
 
-### etc
-- etc/[65]memo.md: メモ
-- etc/[65]todo.md: ToDoリスト
+### 作業管理
+- work-management/[65]todo.md:       ToDoリスト
+- work-management/[65]notice.md:     注意事項
+- work-management/[65]idea.md:       アイデア
+- work-management/[65]storehouse.md: 倉庫
 
 
 ### 思考ノート
