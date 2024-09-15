@@ -20,7 +20,13 @@
     - 遷世教団
 
 
+- item: 権能魔法 => 魔法 / 権能魔法
+
+
 - item: 邪教ゼノザ => ゼノザ
+
+
+- item: 召喚魔法 => 魔法 / 召喚魔法
 
 
 - item: 聖徒教会レダ => レダ
@@ -168,6 +174,250 @@
           - 信頼関係
         - 力の発揮方法
           - 信頼から生まれる一体化（精霊が憑依する、コンピュータで言うと機能のインストール）
+
+
+    - item: 比較
+      applicable chapter: continuous
+      ref: thinking-notes/**/[65]028.md
+      description:
+        - item: 魔法的な原理
+          description:
+            - item: 権能魔法
+              description:
+                - 魔法回路に神の権能を取り込むことで利用して魔法現象を引き起こす
+
+            - item: 召喚魔法
+              description:
+                - 事象特異点を作り出して幻界への事象路を形成し幻界の精神体である幻霊を召喚して使役する
+
+            - item: 精霊魔法
+              description:
+                - 行使者と精霊の魔素器官が一体となり精霊主導で魔法現象を引き起こす
+
+
+        - item: 呪文
+          description:
+            - item: 権能魔法
+              description:
+                - 「〈ハルトバイザー〉！」
+
+            - item: 召喚魔法
+              description:
+                - 「〈彼の地へ導け、ザルバ〉！」
+
+            - item: 精霊魔法
+              description:
+                - 「〈燃やし尽くせ〉！」
+
+
+        - item: カタリスト
+          description:
+            - item: 権能魔法
+              description:
+                - 発動補助具（杖など）
+
+            - item: 召喚魔法
+              description:
+                - 契盃（約の宿ったアイテム、幻霊によって異なる）
+
+            - item: 精霊魔法
+              description:
+                - なし
+
+
+        - item: 効果
+          description:
+            - item: 権能魔法
+              description:
+                - 魔法現象の発動
+
+            - item: 召喚魔法
+              description:
+                - 幻霊の召喚
+
+            - item: 精霊魔法
+              description:
+                - 魔法現象の発動
+
+
+        - item: エフェクト
+          description:
+            - item: 権能魔法
+              description:
+                - 輝きの魔法陣の展開
+
+            - item: 召喚魔法
+              description:
+                - 契盃の発光と魔法陣の展開と幻霊の出現
+
+            - item: 精霊魔法
+              description:
+                - 精霊の出現
+
+
+        - item: 背景
+          description:
+            - item: 権能魔法
+              description:
+                - 神との交信によって形作られてきた
+
+            - item: 召喚魔法
+              description:
+                - まれに自然と現れる幻霊と契約することで生まれた
+
+            - item: 精霊魔法
+              description:
+                - 精霊との交流から生まれた
+
+
+        - item: ファンブル
+          description:
+            - item: 権能魔法
+              description:
+                - 真像の次元における魔素変化が中断されることによってこの次元には様々な影響が発生する
+
+            - item: 召喚魔法
+              description:
+                - 事象特異点が霧散し周囲に事象概念の存在偏度の波が広がり量子力学的な事象の確率が変動する＝つまり実質の影響はない
+
+            - item: 精霊魔法
+              description:
+                - 真像の次元における真像生成が中断されることによって行使者と精霊の魔素器官にダメージが発生する
+
+
+        - item: 感情に左右されるかどうか
+          description:
+            - item: 権能魔法
+              description:
+                - 精神が安定するほど高精細な魔法制御が可能となり、精神の安定を欠くと魔法現象が乱れ威力も下がる
+
+            - item: 召喚魔法
+              description:
+                - 影響はない
+
+            - item: 精霊魔法
+              description:
+                - 攻撃魔法や防御魔法では感情が高ぶっているほうが強力な効果を発揮するが、治療魔法で感情の高ぶりは禁物
+
+
+        - item: 集中力の要不要
+          description:
+            - item: 権能魔法
+              description:
+                - 必要
+
+            - item: 召喚魔法
+              description:
+                - 不要
+
+            - item: 精霊魔法
+              description:
+                - 不要
+
+
+        - item: 社会的事情
+          description:
+            - item: 権能魔法
+              description:
+                - 権能魔法自体は社会に広く知られていて当たり前に受け入れられている　行使者は一般的な能力者より社会的地位が少し高く、高能力者は特権階級になる者もある
+
+            - item: 召喚魔法
+              description:
+                - 召喚魔法を知る平民は少なく特権階級では存在自体は知られている程度で、召喚魔法自体に忌避感もなければ好評価もない　行使者は希有　魔法の力は強いため、それに伴って社会的地位は比較的高いが、上位者でも特権階級にいる者はない
+
+            - item: 精霊魔法
+              description:
+                - 召喚魔法自体は森人にしか使えず森人の間では当たり前の存在だが、葦人や獣人の社会では森人の社会的地位が少し高いため魔法自体の社会的地位も高い　行使者は森人の間では普通の存在で、葦人や獣人の社会では社会的地位が比較的高い
+
+
+        - item: 集団による魔法行使
+          description:
+            - item: 権能魔法
+              description:
+                - 集団で強力な魔法を使うことがある　魔素器官の力を足し合わせるものや、個別に魔法中の役割を割り振るものがある
+
+            - item: 召喚魔法
+              description:
+                - 集団で強力な幻霊を召喚することがある
+
+            - item: 精霊魔法
+              description:
+                - 権能魔法と同じ
+
+
+        - item: 使用者の制限
+          description:
+            - item: 権能魔法
+              description:
+                - 神の試練に打ち勝った者が使用できる
+
+            - item: 召喚魔法
+              description:
+                - 先天的な才能を開花させた者が使用できる
+
+            - item: 精霊魔法
+              description:
+                - 森人で精霊と気持ちを通じ合ったものが使用できる
+
+
+        - item: 時間帯の制限
+          description:
+            - item: 権能魔法
+              description:
+                - なし
+
+            - item: 召喚魔法
+              description:
+                - なし
+
+            - item: 精霊魔法
+              description:
+                - なし
+
+
+        - item: 場所の制限
+          description:
+            - item: 権能魔法
+              description:
+                - なし
+
+            - item: 召喚魔法
+              description:
+                - なし
+
+            - item: 精霊魔法
+              description:
+                - なし
+
+
+        - item: 経過時間の制限
+          description:
+            - item: 権能魔法
+              description:
+                - 魔素器官の魔法力が続く限り
+
+            - item: 召喚魔法
+              description:
+                - 魔力が続く限り
+
+            - item: 精霊魔法
+              description:
+                - 魔素器官の魔法力が続く限り
+
+
+        - item: 発動までの時間
+          description:
+            - item: 権能魔法
+              description:
+                - タイムラグのないものから数時間まで様々にあるが、能力が高い者ほど発動時間が短い
+
+            - item: 召喚魔法
+              description:
+                - タイムラグの感じられないものから数時間まで様々にあるが、能力が高い者ほど発動時間が短い
+
+            - item: 精霊魔法
+              description:
+                - 権能魔法と同じ
 
 
 - item: 魔力流脈
