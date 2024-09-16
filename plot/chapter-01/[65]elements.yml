@@ -1,19 +1,19 @@
 # プロット要素 第1章
 ## 事実のプロット
 plot of fact:
-  - /00 gen fct --- --- f - アリスは魔力珠が欲しい
-  - /00 gen fct --- --- f - レオナから魔力珠がエリクにあると知る
-  - /00 gen fct --- --- f - ミリアからエリクはヴァイツから行けると知る
-  - /00 gen fct --- --- f - 遷世教団が遷世しようとしていることを知る
-  - /00 gen fct --- --- f - 遷世教団での聞き込みでヴァイツは東にあると知る
-  - /00 gen fct --- --- f - 酒場の老人からガルダ研究家のマクスを知る
-  - /00 gen fct --- --- f - マクスからガルダを指し示す魔導具がノーフの祭壇にあることを知る
-  - /00 gen fct --- --- f - ノーフで魔導具の機能をコピーして手に入れる
-  - /00 gen fct --- --- f - 魔力珠がローズの体内にあることを知る
-  - /00 gen fct --- --- f - ヴァイツに到着する
-  - /00 gen fct --- --- f - 魔力郷に到着する
-  - /00 gen fct --- --- f - エスに対応する
-  - /00 gen fct --- --- f - 魔力珠を手に入れる
+  - /01 gen fct --- --- f - アリスは魔力珠が欲しい
+  - /01 gen fct --- --- f - レオナから魔力珠がエリクにあると知る
+  - /01 gen fct --- --- f - ミリアからエリクはヴァイツから行けると知る
+  - /01 gen fct --- --- f - 遷世教団が遷世しようとしていることを知る
+  - /01 gen fct --- --- f - 遷世教団での聞き込みでヴァイツは東にあると知る
+  - /01 gen fct --- --- f - 酒場の老人からガルダ研究家のマクスを知る
+  - /01 gen fct --- --- f - マクスからガルダを指し示す魔導具がノーフの祭壇にあることを知る
+  - /01 gen fct --- --- f - ノーフで魔導具の機能をコピーして手に入れる
+  - /01 gen fct --- --- f - 魔力珠がローズの体内にあることを知る
+  - /01 gen fct --- --- f - ヴァイツに到着する
+  - /01 gen fct --- --- f - 魔力郷に到着する
+  - /01 gen fct --- --- f - エスに対応する
+  - /01 gen fct --- --- f - 魔力珠を手に入れる
 
 
 ## 試練のプロット
@@ -35,38 +35,38 @@ plot of ordeal:
       process:
         0:
           reservation event:
-            - /01 odl rsv fst lst f - 封界の指輪（アリス・ヨル・ザヴィの古代文字）
+            - /11 odl rsv fst lst f - 封界の指輪（アリス・ヨル・ザヴィの古代文字）
           target event:
             - 
 
         1:
           reservation event:
-            - /01 odl rsv --- nxt f - 子孫が死んでいることに深い悲しみを示す
-            - /01 odl rsv --- nxt f - 「ローズ様は女神のようだ」
+            - /11 odl rsv --- nxt f - 子孫が死んでいることに深い悲しみを示す
+            - /11 odl rsv --- nxt f - 「ローズ様は女神のようだ」
           target event:
-            - /01 odl trg --- --- f b ローズが子だと分かり攻撃できず逃げ出す
+            - /11 odl trg --- --- f b ローズが子だと分かり攻撃できず逃げ出す
 
         2:
           reservation event:
-            - /01 odl rsv --- nxt ? - ザヴィの子が生きていたことに喜びと戸惑いを示す
-            - /01 odl rsv --- nxt ? - ザヴィの子の手下が攻撃してきて仲間を傷付けたことに戸惑いを示す
-            - /01 odl rsv --- nxt ? - ザヴィの子が何を考えているのか分からず戸惑いを示す
-            - /01 odl rsv --- nxt ? - 祖母のことで泣き崩れたミリアを見て家族のことを思う（自分の家族は歪になってしまった）
-            - /01 odl rsv --- nxt ? - ザヴィが世界を終わらせようとしていることを知り、止めなければと思う
+            - /11 odl rsv --- nxt ? - ザヴィの子が生きていたことに喜びと戸惑いを示す
+            - /11 odl rsv --- nxt ? - ザヴィの子の手下が攻撃してきて仲間を傷付けたことに戸惑いを示す
+            - /11 odl rsv --- nxt ? - ザヴィの子が何を考えているのか分からず戸惑いを示す
+            - /11 odl rsv --- nxt ? - 祖母のことで泣き崩れたミリアを見て家族のことを思う（自分の家族は歪になってしまった）
+            - /11 odl rsv --- nxt ? - ザヴィが世界を終わらせようとしていることを知り、止めなければと思う
           target event:
-            - /01 odl trg --- --- f b ローズとまともに戦えず怪我をする
+            - /11 odl trg --- --- f b ローズとまともに戦えず怪我をする
 
         3:
           reservation event:
-            - /01 odl rsv --- nxt ? - ザヴィの子を愛しく思うのと同時にザヴィの子の狂気に戸惑う
-            - /01 odl rsv --- nxt ? - 祖母が愛しそうにするのを見て子を思う（ささやかに表現する）
-            - /01 odl rsv --- nxt ? - ザヴィの子との戦いは避けられないが戦えるだろうか……大切なのは今か過去かという苦悩
-            - /01 odl rsv --- nxt b - ローズのパワーアップ
-            - /01 odl rsv --- nxt ? - ミリアとレオナの勝利に喜びを感じて、それが自分にとって大切なことなのではないかと思い始める
-            - /01 odl rsv --- nxt ? - 今こそすべてであり、レオナとミリアが自分にとって一番大切だと気づく
+            - /11 odl rsv --- nxt ? - ザヴィの子を愛しく思うのと同時にザヴィの子の狂気に戸惑う
+            - /11 odl rsv --- nxt ? - 祖母が愛しそうにするのを見て子を思う（ささやかに表現する）
+            - /11 odl rsv --- nxt ? - ザヴィの子との戦いは避けられないが戦えるだろうか……大切なのは今か過去かという苦悩
+            - /11 odl rsv --- nxt b - ローズのパワーアップ
+            - /11 odl rsv --- nxt ? - ミリアとレオナの勝利に喜びを感じて、それが自分にとって大切なことなのではないかと思い始める
+            - /11 odl rsv --- nxt ? - 今こそすべてであり、レオナとミリアが自分にとって一番大切だと気づく
           target event:
-            - /01 odl trg lst --- f b ローズを倒す
-            - /01 odl trg lst --- f - 魔力珠が世界を崩壊させる瞬間に封界の指輪とローズを融合させて崩壊を止める
+            - /11 odl trg lst --- f b ローズを倒す
+            - /11 odl trg lst --- f - 魔力珠が世界を崩壊させる瞬間に封界の指輪とローズを融合させて崩壊を止める
 
 
     - character: レオナ
@@ -76,24 +76,24 @@ plot of ordeal:
       process:
         1:
           reservation event:
-            - /02 odl rsv --- nxt f - 魔物と戦って強いところを見せる
+            - /12 odl rsv --- nxt f - 魔物と戦って強いところを見せる
           target event:
-            - /02 odl trg --- --- f - エリーに敗北する
+            - /12 odl trg --- --- f - エリーに敗北する
             - |
               エリー「その名はもう捨てた。過去のものだ」
               レオナ「家名を捨てるなんて、家族のことはもういいんですか！？」
 
         2:
           reservation event:
-            - /02 odl rsv --- nxt f - アリスの訓練を受ける
+            - /12 odl rsv --- nxt f - アリスの訓練を受ける
           target event:
-            - /02 odl trg --- --- f - エリーといい勝負をする
+            - /12 odl trg --- --- f - エリーといい勝負をする
 
         3:
           reservation event:
-            - /02 odl rsv --- nxt f - エリーのパワーアップ
+            - /12 odl rsv --- nxt f - エリーのパワーアップ
           target event:
-            - /02 odl trg lst --- f b エリーに勝利する
+            - /12 odl trg lst --- f b エリーに勝利する
 
 
     - character: ミリア
@@ -103,21 +103,21 @@ plot of ordeal:
       process:
         1:
           reservation event:
-            - /03 odl rsv --- nxt f - アリスとレオナと愛を育む
+            - /13 odl rsv --- nxt f - アリスとレオナと愛を育む
           target event:
-            - /03 odl trg --- --- f - フェイの求愛を受けて拒否する
+            - /13 odl trg --- --- f - フェイの求愛を受けて拒否する
 
         2:
           reservation event:
-            - /03 odl rsv --- nxt f - 祖母にどれほど謝りたいか示す
+            - /13 odl rsv --- nxt f - 祖母にどれほど謝りたいか示す
           target event:
-            - /03 odl trg --- --- f - フェイの反魂魔法に動揺する
+            - /13 odl trg --- --- f - フェイの反魂魔法に動揺する
 
         3:
           reservation event:
-            - /03 odl rsv --- nxt f - 祖母には謝りたい。でもそれから？それからどうするの？　大好きなアリスとレオナの元には戻れない……
+            - /13 odl rsv --- nxt f - 祖母には謝りたい。でもそれから？それからどうするの？　大好きなアリスとレオナの元には戻れない……
           target event:
-            - /03 odl trg lst --- f b フェイを倒す
+            - /13 odl trg lst --- f b フェイを倒す
 
 
     - character: ペトラ
@@ -127,21 +127,21 @@ plot of ordeal:
       process:
         1:
           reservation event:
-            - /04 odl rsv --- nxt f - 森に妖精が増え過ぎている
+            - /14 odl rsv --- nxt f - 森に妖精が増え過ぎている
           target event:
-            - /04 odl trg --- --- f - 新たな森を探す決断をする
+            - /14 odl trg --- --- f - 新たな森を探す決断をする
 
         2:
           reservation event:
-            - /04 odl rsv --- nxt f - 新たな森が見つかる
+            - /14 odl rsv --- nxt f - 新たな森が見つかる
           target event:
-            - /04 odl trg --- --- f - 新たな森に定住する決断をする
+            - /14 odl trg --- --- f - 新たな森に定住する決断をする
 
         3:
           reservation event:
-            - /04 odl rsv --- nxt f - 妖精女王が動く
+            - /14 odl rsv --- nxt f - 妖精女王が動く
           target event:
-            - /04 odl trg lst --- f - 妖精領主になる決断をする
+            - /14 odl trg lst --- f - 妖精領主になる決断をする
 
 
     - character: ローズ
@@ -151,23 +151,23 @@ plot of ordeal:
       process:
         1:
           target event:
-            - /11 odl snd --- --- f b アリスを見つけて泳がせる
+            - /21 odl snd --- --- f b アリスを見つけて泳がせる
           post event:
-            - /11 odl rcv --- prv b - アリスを放つことができて満足する
+            - /21 odl rcv --- prv b - アリスを放つことができて満足する
           foreshadowing for the last resolution:
-            - /11 odl rsv fst lst b - やっとザヴィ様の世界へ行けるんだわ
+            - /21 odl rsv fst lst b - やっとザヴィ様の世界へ行けるんだわ
 
         2:
           reservation event:
-            - /11 odl rsv --- nxt b - エリーとフェイの戦いが芳しくなく内心で焦る
+            - /21 odl rsv --- nxt b - エリーとフェイの戦いが芳しくなく内心で焦る
           target event:
-            - /11 odl trg --- --- f b 強さを見せつけて思い知らせる、優越感を取り戻す
+            - /21 odl trg --- --- f b 強さを見せつけて思い知らせる、優越感を取り戻す
 
         3:
           reservation event:
-            - /11 odl rsv --- nxt b - 魔力珠の力を十全に遣うためにパワーアップして自信をつける
+            - /21 odl rsv --- nxt b - 魔力珠の力を十全に遣うためにパワーアップして自信をつける
           target event:
-            - /11 odl trg lst --- f b 念願を成就させて死んでいく
+            - /21 odl trg lst --- f b 念願を成就させて死んでいく
 
 
     - character: エリー
@@ -177,23 +177,23 @@ plot of ordeal:
       process:
         1:
           foreshadowing for the last resolution:
-            - /12 odl rsv fst lst b - ローズに忠誠と何よりの愛を誓う
+            - /22 odl rsv fst lst b - ローズに忠誠と何よりの愛を誓う
           reservation event:
-            - /12 odl rsv --- nxt b - 仲間を叩いて焚きつけろと命令を受けて喜ぶ
+            - /22 odl rsv --- nxt b - 仲間を叩いて焚きつけろと命令を受けて喜ぶ
           target event:
-            - /12 odl trg --- --- f b レオナを倒しアリスを焚きつける
+            - /22 odl trg --- --- f b レオナを倒しアリスを焚きつける
 
         2:
           reservation event:
-            - /12 odl rsv --- nxt b - 足止めを命令されて今度こそ殺そうと意気揚々と出る
+            - /22 odl rsv --- nxt b - 足止めを命令されて今度こそ殺そうと意気揚々と出る
           target event:
-            - /12 odl trg --- --- f b 足止めに失敗して辛酸を舐める
+            - /22 odl trg --- --- f b 足止めに失敗して辛酸を舐める
 
         3:
           reservation event:
-            - /12 odl rsv --- nxt b - ローズにこれ以上は拙いと忠告する
+            - /22 odl rsv --- nxt b - ローズにこれ以上は拙いと忠告する
           target event:
-            - /12 odl trg lst --- f b 力及ばずローズへの愛を託して逝く
+            - /22 odl trg lst --- f b 力及ばずローズへの愛を託して逝く
 
 
     - character: フェイ
@@ -203,23 +203,23 @@ plot of ordeal:
       process:
         1:
           reservation event:
-            - /13 odl rsv --- nxt b - ローズの誘いを断ってエルフがいると聞いて食指を動かす
+            - /23 odl rsv --- nxt b - ローズの誘いを断ってエルフがいると聞いて食指を動かす
           foreshadowing for the last resolution:
-            - /13 odl rsv fst lst b - 無理強いはしたくないが欲しいものは力尽くでも手に入れると言う
+            - /23 odl rsv fst lst b - 無理強いはしたくないが欲しいものは力尽くでも手に入れると言う
           target event:
-            - /13 odl trg --- --- f b 優位に戦い誘惑するが断られて引き下がる
+            - /23 odl trg --- --- f b 優位に戦い誘惑するが断られて引き下がる
 
         2:
           reservation event:
-            - /13 odl rsv --- nxt b - 女は力になびくと言う
+            - /23 odl rsv --- nxt b - 女は力になびくと言う
           target event:
-            - /13 odl trg --- --- f b 強さを見せつけるつもりで出した奥の手で動揺を誘うことができるが引き下がる
+            - /23 odl trg --- --- f b 強さを見せつけるつもりで出した奥の手で動揺を誘うことができるが引き下がる
 
         3:
           reservation event:
-            - /13 odl rsv --- nxt b - もう我慢しないと言う
+            - /23 odl rsv --- nxt b - もう我慢しないと言う
           target event:
-            - /13 odl trg lst --- f b 力尽くで手に入れようとして破れる
+            - /23 odl trg lst --- f b 力尽くで手に入れようとして破れる
 
 
 ## 恋愛のプロット
@@ -229,28 +229,16 @@ plot of love:
       title: 初百合
       description: 順調な恋愛のプロット
     process:
-      - /00 lov fct --- --- f - レオナと手をつなぐ
-      - /00 lov fct --- --- f - ミリアと手をつなぐ
-      - /00 lov fct --- --- f - 抱きしめ合う
-      - /00 lov fct --- --- f - レオナに私が付いていることを忘れないで、と言って抱き合う
-      - /00 lov fct --- --- f - ミリアに私が付いていることを忘れないで、と言って抱き合う
-      - /00 lov fct --- --- f - 好きと言い合う
-      - /00 lov fct --- --- f - 思いつめてチラチラ見る　唇が生々しく見える　何か言いかける
-      - /00 lov fct --- --- f - キスする
-      - /00 lov fct --- --- f - 抱き合ってキスをしながらうっかり尻を触ってしまう
-      - /00 lov fct --- --- f - 抱き合ってキスをしながら股間に手が伸びるが、やめる
-      - /00 lov fct --- --- f - 体を触り合うがセックスする前に終わる
-      - /00 lov fct --- --- f - セックスする
-      - /00 lov fct --- --- f - レオナから仕掛ける
-
-
-  - character: ローズ, エリー, フェイ
-    theme:
-      title: 円熟の百合
-      description: 退廃的な恋愛のプロット
-    process:
-      - /10 lov fct --- --- b - 
-      - /10 lov fct --- --- b - 
-      - /10 lov fct --- --- b - 
-
-
+      - /01 lov fct --- --- f - レオナと手をつなぐ
+      - /01 lov fct --- --- f - ミリアと手をつなぐ
+      - /01 lov fct --- --- f - 抱きしめ合う
+      - /01 lov fct --- --- f - レオナに私が付いていることを忘れないで、と言って抱き合う
+      - /01 lov fct --- --- f - ミリアに私が付いていることを忘れないで、と言って抱き合う
+      - /01 lov fct --- --- f - 好きと言い合う
+      - /01 lov fct --- --- f - 思いつめてチラチラ見る　唇が生々しく見える　何か言いかける
+      - /01 lov fct --- --- f - キスする
+      - /01 lov fct --- --- f - 抱き合ってキスをしながらうっかり尻を触ってしまう
+      - /01 lov fct --- --- f - 抱き合ってキスをしながら股間に手が伸びるが、やめる
+      - /01 lov fct --- --- f - 体を触り合うがセックスする前に終わる
+      - /01 lov fct --- --- f - セックスする
+      - /01 lov fct --- --- f - レオナから仕掛ける
