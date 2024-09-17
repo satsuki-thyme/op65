@@ -33,12 +33,6 @@ plot of ordeal:
         title: 子殺し
         description: 苦悩のプロット
       process:
-        0:
-          reservation event:
-            - /11 odl rsv fst lst f - 封界の指輪（アリス・ヨル・ザヴィの古代文字）
-          target event:
-            - 
-
         1:
           reservation event:
             - /11 odl rsv --- nxt f - 子孫が死んでいることに深い悲しみを示す

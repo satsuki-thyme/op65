@@ -1,13 +1,13 @@
 # 場所設定
 - name: アネス王国
   applicable chapter: 1
-  description:
+  contents:
     - レオナの国
 
 
 - name: ヴァイツガング地方
   applicable chapter: 1
-  description:
+  contents:
     - 山地
     - 鉱工業が盛ん
     - 妖精がいない
@@ -17,31 +17,31 @@
 
 - name: カルツェ王国
   applicable chapter: 1, 2
-  description:
+  contents:
     - 謀略でマークユレイン王国を滅ぼし、直接アネス王国を滅ぼした
 
 
 - name: ノーファオールの村
   applicable chapter: 1
-  description:
+  contents:
     - 
 
 
 - name: 魔力郷エリクラント
   applicable chapter: 1
-  description:
+  contents:
     - 
 
 
 - name: 魔法都市カルダーリベレ
   applicable chapter: 1
-  description:
+  contents:
     - 
 
 
 - name: 妖精の国
   applicable chapter: 1
-  description:
+  contents:
     - 地底にある妖精の国
     - 妖精女王が支配している
     - 妖精の輪から転移できる
@@ -49,13 +49,13 @@
 
 - name: マークユレイン王国
   applicable chapter: 1
-  description:
+  contents:
     - エリーの国
 
 
 - name: 
   applicable chapter: 
-  description:
+  contents:
     - 
 
 
