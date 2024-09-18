@@ -9,7 +9,7 @@
 - item: ヴァンデラント文明
   applicable chapter: 1
   contents:
-    - ヴァンデラント文明の崩壊はエスの依代の発狂が引き起こした
+    - ヴァンデラント文明の崩壊はエスの依代の妄狂化が引き起こした
       - エスの依代は封印されたが文明は滅んだ
         - 余談：世界の滅亡が見えてきた頃に聖戦士が現れてエスの依代を封印した
 
@@ -178,7 +178,7 @@
 
     - item: 比較
       applicable chapter: continuous
-      ref: thinking-notes/**/[65]028.md
+      ref: thi-028.md
       contents:
         - item: 魔法的な原理
           contents:

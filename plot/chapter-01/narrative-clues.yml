@@ -56,5 +56,5 @@ hint:
         invoke:
           - /00 gen ans --- --- f - ローズは殺された母と再会するために世界を滅ぼそうとしている
         notes:
-          - ref: thinking-notes/[65]015.md
+          - ref: thi-015.md
 

@@ -1,19 +1,19 @@
 # プロット要素 第1章
 ## 事実のプロット
 plot of fact:
-  - /01 gen fct --- --- f - アリスは魔力珠が欲しい
-  - /01 gen fct --- --- f - レオナから魔力珠がエリクにあると知る
-  - /01 gen fct --- --- f - ミリアからエリクはヴァイツから行けると知る
-  - /01 gen fct --- --- f - 遷世教団が遷世しようとしていることを知る
-  - /01 gen fct --- --- f - 遷世教団での聞き込みでヴァイツは東にあると知る
-  - /01 gen fct --- --- f - 酒場の老人からガルダ研究家のマクスを知る
-  - /01 gen fct --- --- f - マクスからガルダを指し示す魔導具がノーフの祭壇にあることを知る
-  - /01 gen fct --- --- f - ノーフで魔導具の機能をコピーして手に入れる
-  - /01 gen fct --- --- f - 魔力珠がローズの体内にあることを知る
-  - /01 gen fct --- --- f - ヴァイツに到着する
-  - /01 gen fct --- --- f - 魔力郷に到着する
-  - /01 gen fct --- --- f - エスに対応する
-  - /01 gen fct --- --- f - 魔力珠を手に入れる
+  - /00 gen fct --- --- f - アリスは魔力珠が欲しい
+  - /00 gen fct --- --- f - レオナから魔力珠がエリクにあると知る
+  - /00 gen fct --- --- f - ミリアからエリクはヴァイツから行けると知る
+  - /00 gen fct --- --- f - 遷世教団が遷世しようとしていることを知る
+  - /00 gen fct --- --- f - 遷世教団での聞き込みでヴァイツは東にあると知る
+  - /00 gen fct --- --- f - 酒場の老人からガルダ研究家のマクスを知る
+  - /00 gen fct --- --- f - マクスからガルダを指し示す魔導具がノーフの祭壇にあることを知る
+  - /00 gen fct --- --- f - ノーフで魔導具の機能をコピーして手に入れる
+  - /00 gen fct --- --- f - 魔力珠がローズの体内にあることを知る
+  - /00 gen fct --- --- f - ヴァイツに到着する
+  - /00 gen fct --- --- f - 魔力郷に到着する
+  - /00 gen fct --- --- f - エスに対応する
+  - /00 gen fct --- --- f - 魔力珠を手に入れる
 
 
 ## 試練のプロット
@@ -148,8 +148,8 @@ plot of ordeal:
             - /21 odl snd --- --- f b アリスを見つけて泳がせる
           post event:
             - /21 odl rcv --- prv b - アリスを放つことができて満足する
-          foreshadowing for the last resolution:
-            - /21 odl rsv fst lst b - やっとザヴィ様の世界へ行けるんだわ
+          reserve for the last target:
+            - /21 odl rsv fst lst b - やっとこのときが来た
 
         2:
           reservation event:
@@ -170,7 +170,7 @@ plot of ordeal:
         description: 尽くして死ぬプロット
       process:
         1:
-          foreshadowing for the last resolution:
+          reserve for the last target:
             - /22 odl rsv fst lst b - ローズに忠誠と何よりの愛を誓う
           reservation event:
             - /22 odl rsv --- nxt b - 仲間を叩いて焚きつけろと命令を受けて喜ぶ
@@ -198,7 +198,7 @@ plot of ordeal:
         1:
           reservation event:
             - /23 odl rsv --- nxt b - ローズの誘いを断ってエルフがいると聞いて食指を動かす
-          foreshadowing for the last resolution:
+          reserve for the last target:
             - /23 odl rsv fst lst b - 無理強いはしたくないが欲しいものは力尽くでも手に入れると言う
           target event:
             - /23 odl trg --- --- f b 優位に戦い誘惑するが断られて引き下がる
@@ -236,3 +236,33 @@ plot of love:
       - /01 lov fct --- --- f - 体を触り合うがセックスする前に終わる
       - /01 lov fct --- --- f - セックスする
       - /01 lov fct --- --- f - レオナから仕掛ける
+
+
+# 伏線
+foreshadowing:
+  - item: ラスト1
+    contents:
+      resolution: ローズがエスの使徒であること
+      event of resolution: ローズが過去を語る
+      foreshadowing:
+        - /00 gen fsd --- lst f - ヨルとザヴィが神を妄狂化させるはずがないこと
+        - /00 gen fsd --- lst b - ローズは自死できない
+        - /00 gen fsd --- lst f - アリスがローズに神の気配を感じる
+        - /00 gen fsd --- lst b - ローズがエスに対する強い敬愛を示す{執拗に設置する}
+        - /00 gen fsd --- lst b - ローズによる蘇生[mem-001.md]
+        - /00 gen fsd --- lst f - 
+        - /00 gen fsd --- lst f - 
+        - /00 gen fsd --- lst f - 
+        - /00 gen fsd --- lst f - 
+        - /00 gen fsd --- lst f - 
+        - /00 gen fsd --- lst f - 
+        - /00 gen fsd --- lst f - 
+
+
+  - item: ラスト2
+    contents:
+      resolution: ローズが死ぬとエスの封印が解けること
+      event of resolution: 私を殺したな
+      foreshadowing:
+        - /21 gen fsd --- lst b - 「私は自死できないのよ」
+        - 

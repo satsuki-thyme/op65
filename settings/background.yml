@@ -10,14 +10,14 @@
   applicable chapter: continuous
   contents:
     - item: 発生から眠りに着くまで
-      ref: thinking-notes/**/[65]017.md
+      ref: thi-017.md
 
 
 - item: エリー
   applicable chapter: 1
   contents:
     - item: 
-      ref: thinking-notes/**/[65]021.md
+      ref: thi-021.md
 
     - item:
       - マーク王国の元王女
@@ -27,14 +27,14 @@
   applicable chapter: 1, 2
   contents:
     - item: 
-      ref: thinking-notes/**/[65]023.md
+      ref: thi-023.md
 
 
 - item: フェイ
   applicable chapter: 1
   contents:
     - item: 
-      ref: thinking-notes/**/[65]022.md
+      ref: thi-022.md
 
 
 - item: マーク王国
@@ -49,14 +49,14 @@
   applicable chapter: continuous
   contents:
     - item: 
-      ref: thinking-notes/**/[65]019.md
+      ref: thi-019.md
 
 
 - item: レオナ
   applicable chapter: continuous
   contents:
     - item: 
-      ref: thinking-notes/**/[65]018.md
+      ref: thi-018.md
 
     - item:
       - アネス王国の元王女
@@ -66,7 +66,7 @@
   applicable chapter: 1
   contents:
     - item: 
-      ref: thinking-notes/**/[65]020.md
+      ref: thi-020.md
 
     - item:
       - 吸血族
