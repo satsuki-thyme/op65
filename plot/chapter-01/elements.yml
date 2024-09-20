@@ -242,27 +242,41 @@ plot of love:
 foreshadowing:
   - item: ラスト1
     contents:
-      resolution: ローズがエスの使徒であること
-      event of resolution: ローズが過去を語る
+      answer: ローズがエスの使徒であること
+      resolution: ローズが過去を語る
+      ref: thi-031.md
       foreshadowing:
-        - /00 gen fsd --- lst f - ヨルとザヴィが神を妄狂化させるはずがないこと
+        - /00 gen fsd --- lst f - ヨルとザヴィが神を狂乱させるはずがないこと
         - /00 gen fsd --- lst b - ローズは自死できない
         - /00 gen fsd --- lst f - アリスがローズに神の気配を感じる
         - /00 gen fsd --- lst b - ローズがエスに対する強い敬愛を示す{執拗に設置する}
         - /00 gen fsd --- lst b - ローズによる蘇生[mem-001.md]
-        - /00 gen fsd --- lst f - 
-        - /00 gen fsd --- lst f - 
-        - /00 gen fsd --- lst f - 
-        - /00 gen fsd --- lst f - 
-        - /00 gen fsd --- lst f - 
-        - /00 gen fsd --- lst f - 
-        - /00 gen fsd --- lst f - 
+        - /00 gen fsd --- lst b - 邪神の態度
+        - /00 gen fsd --- lst b - ローズ「私は神に等しいのよ」{執拗に設置する}
+        - /00 gen fsd --- lst b - 生き物が触れられない
+        - /00 gen fsd --- lst b - 時間を巻き戻す
+        - /00 gen fsd --- lst b - 植物が育つ
+        - /00 gen fsd --- lst b - 動物が従う
+        - /00 gen fsd --- lst b - 表に出ると晴れる
+        - /00 gen fsd --- lst b - 昔のことをさっきのことのように語る
 
 
   - item: ラスト2
     contents:
-      resolution: ローズが死ぬとエスの封印が解けること
-      event of resolution: 私を殺したな
+      answer: ローズが死ぬとエスの封印が解けること
+      resolution: 私を殺したな
+      ref: thi-032.md
       foreshadowing:
-        - /21 gen fsd --- lst b - 「私は自死できないのよ」
-        - 
+        - /00 gen fsd --- lst b - 私は自死できないのよ
+        - /00 gen fsd --- lst b - 封印は術者がかけたより多くの魔力を用いて内側から解除できる
+        - /00 gen fsd --- lst f - ローズが魔力珠を内包していること
+        - /00 gen fsd --- lst f - 使徒が死ぬと神の元に戻る
+
+
+  - item: ミッドポイント
+    contents:
+      answer: ローズが魔力珠を内包していること
+      resolution: ローズの力と宣言
+      ref: thi-033.md
+      foreshadowing:
+

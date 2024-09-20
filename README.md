@@ -53,21 +53,23 @@
 - thinking-notes/archive/thi-014.md: ローズは何をしているのか
 - thinking-notes/archive/thi-015.md: 伏線（転換点以前）
 - thinking-notes/archive/thi-016.md: 伏線（転換点以後）
-- thinking-notes/thi-017.md: アリスの背景
-- thinking-notes/thi-018.md: レオナの背景
-- thinking-notes/thi-019.md: ミリアの背景
-- thinking-notes/thi-020.md: ローズの背景
-- thinking-notes/thi-021.md: エリーの背景
-- thinking-notes/thi-022.md: フェイの背景
-- thinking-notes/thi-023.md: 楼国
-- thinking-notes/thi-024.md: ローズの辻褄合わせ
-- thinking-notes/thi-025.md: 精霊魔法
-- thinking-notes/thi-026.md: ミリアが旅をして求めているのは精霊魔法ではなく魔法？
-- thinking-notes/thi-027.md: 召喚魔法
-- thinking-notes/thi-028.md: 魔法それぞれの特色
-- thinking-notes/thi-029.md: 幻界
-- thinking-notes/thi-030.md: 世界
+- thinking-notes/archive/thi-017.md: アリスの背景
+- thinking-notes/archive/thi-018.md: レオナの背景
+- thinking-notes/archive/thi-019.md: ミリアの背景
+- thinking-notes/archive/thi-020.md: ローズの背景
+- thinking-notes/archive/thi-021.md: エリーの背景
+- thinking-notes/archive/thi-022.md: フェイの背景
+- thinking-notes/archive/thi-023.md: 楼国
+- thinking-notes/archive/thi-024.md: ローズの辻褄合わせ
+- thinking-notes/archive/thi-025.md: 精霊魔法
+- thinking-notes/archive/thi-026.md: ミリアが旅をして求めているのは精霊魔法ではなく魔法？
+- thinking-notes/archive/thi-027.md: 召喚魔法
+- thinking-notes/archive/thi-028.md: 魔法それぞれの特色
+- thinking-notes/archive/thi-029.md: 幻界
+- thinking-notes/archive/thi-030.md: 世界
 - thinking-notes/thi-031.md: ローズがエスの使徒であることの伏線
+- thinking-notes/thi-032.md: ローズが死ぬとエスの封印が解けることの伏線
+- thinking-notes/thi-033.md: ローズが魔力珠を内包していることの伏線
 
 
 ### rejected 設定 before-2024-07-08
