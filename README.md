@@ -35,6 +35,9 @@
 
 ### メモ 第1章
 - memo/chapter-01/mem-001.md: ローズが蘇生させるシーン
+- memo/chapter-01/mem-002.md: マクスの手記
+- memo/chapter-01/mem-003.md: SAVE THE CAT
+
 
 ### 思考ノート
 - thinking-notes/archive/thi-001.md: ミリアのコンフリクト
