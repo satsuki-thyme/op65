@@ -251,8 +251,7 @@ foreshadowing:
         - /00 gen fsd --- lst f - アリスがローズに神の気配を感じる
         - /00 gen fsd --- lst b - ローズがエスに対する強い敬愛を示す{執拗に設置する}
         - /00 gen fsd --- lst b - ローズによる蘇生[mem-001.md]
-        - /00 gen fsd --- lst b - 邪神の態度
-        - /00 gen fsd --- lst b - ローズ「私は神に等しいのよ」{執拗に設置する}
+        - /00 gen fsd --- lst b - ローズ「私は神に等しいのよ」
         - /00 gen fsd --- lst b - 生き物が触れられない
         - /00 gen fsd --- lst b - 時間を巻き戻す
         - /00 gen fsd --- lst b - 植物が育つ
@@ -279,4 +278,7 @@ foreshadowing:
       resolution: ローズの力と宣言
       ref: thi-033.md
       foreshadowing:
-
+        - /00 gen fsd --- mid f - ローズの魔法力が尽きないこと
+        - /00 gen fsd --- mid b - 魔力珠を追っているなら私の元へ来るはずよ
+        - /00 gen fsd --- mid b - ローズが下腹部を気にする
+        - /00 gen fsd --- mid b - ローズが下腹部を押さえて悶える
