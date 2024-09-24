@@ -14,7 +14,7 @@
 - plot/chapter-01/detail-001.yml:      プロット詳細 第1話
 - plot/chapter-01/elements.yml:        プロット要素 第1章
 - plot/chapter-01/outline.yml:         プロット概要 第1章
-- plot/chapter-01/narrative-clues.yml: 伏線 第1章
+- plot/chapter-01/narrative-clues.yml: 前兆要素 第1章
 - plot/chapter-01/worldview.yml:       世界設定 第1章
 
 
@@ -27,10 +27,10 @@
 
 
 ### 作業管理
-- work-management/todo.md:       ToDoリスト
-- work-management/notice.md:     注意事項
-- work-management/idea.md:       アイデア
-- work-management/storehouse.md: 倉庫
+- @work-management/todo.md:       ToDoリスト
+- @work-management/notice.md:     注意事項
+- @work-management/idea.md:       アイデア
+- @work-management/storehouse.md: 倉庫
 
 
 ### メモ 第1章
@@ -70,9 +70,10 @@
 - thinking-notes/archive/thi-028.md: 魔法それぞれの特色
 - thinking-notes/archive/thi-029.md: 幻界
 - thinking-notes/archive/thi-030.md: 世界
-- thinking-notes/thi-031.md: ローズがエスの使徒であることの伏線
-- thinking-notes/thi-032.md: ローズが死ぬとエスの封印が解けることの伏線
-- thinking-notes/thi-033.md: ローズが魔力珠を内包していることの伏線
+- thinking-notes/archive/thi-031.md: ローズがエスの使徒であることの伏線
+- thinking-notes/archive/thi-032.md: ローズが死ぬとエスの封印が解けることの伏線
+- thinking-notes/archive/thi-033.md: ローズが魔力珠を内包していることの伏線
+- thinking-notes/thi-034.md: ハイエルフの叡智
 
 
 ### rejected 設定 before-2024-07-08

@@ -1,60 +1,103 @@
 # 前兆要素
 ## 伏線
 foreshadowing:
-  - character: アリス
+  - item: ラスト1
     contents:
-      1:
-        setup:
-          - /01 odl fsd fst lst f - 「新しい冒険の始まり。古い私は死んで、新しい人生が始まるの！」
-        invoke:
-          - /01 odl rsl lst --- f - 「これまでの私は死んだわ」
+      ref: thi-031.md
+      answer: ローズがエスの使徒であること
+      resolution:
+        - /00 gen rsl lst --- f - ローズが真実を明かす
+      foreshadowing:
+        - /00 gen fsd --- lst f - ヨルとザヴィが神を狂乱させるはずがないこと
+        - /00 gen fsd --- lst b - ローズは自死できない
+        - /00 gen fsd --- lst f - アリスがローズに神の気配を感じる
+        - /00 gen fsd --- lst b - ローズがエスに対する強い敬愛を示す{執拗に設置する}
+        - /00 gen fsd --- lst b - ローズによる蘇生[mem-001.md]
+        - /00 gen fsd --- lst b - ローズ「私は神に等しいのよ」
+        - /00 gen fsd --- lst b - 生き物が触れられない
+        - /00 gen fsd --- lst b - 時間を巻き戻す
+        - /00 gen fsd --- lst b - 植物が育つ
+        - /00 gen fsd --- lst b - 動物が従う
+        - /00 gen fsd --- lst b - 表に出ると晴れる
+        - /00 gen fsd --- lst b - 昔のことをさっきのことのように語る
 
 
-  - character: レオナ
+  - item: ラスト2
     contents:
-      1:
-        setup:
-          - /02 odl fsd fst lst f - 冒頭でアリスから好きなことを聞かれた次にじゃぁ困ってることは？と尋ねられて「過去を乗り越えたいんです……あ、いや、うそ！　なんでもないです！」と言う
-        invoke:
-          - /02 odl rsl lst --- f - 過去を乗り越える
-        notes: |
-              過去との決別
-              生きていても仕方ないのにどうして強くなりたいんだろう？
-              ↓
-              今の幸せを守るために強くなりたい！
+      ref: thi-032.md
+      answer: ローズが死ぬとエスの封印が解けること
+      resolution:
+        - /00 gen rsl lst --- f - 「馬鹿め！　私を殺したな？」
+      foreshadowing:
+        - /00 gen fsd --- lst b - 私は自死できないのよ
+        - /00 gen fsd --- lst b - 封印は術者がかけたより多くの魔力を用いて内側から解除できる
+        - /00 gen fsd --- lst f - ローズが魔力珠を内包していること
+        - /00 gen fsd --- lst f - 使徒が死ぬと神の元に戻る
 
 
-  - character: ミリア
+  - item: ミッドポイント
     contents:
-      1:
-        setup:
-          - /03 odl fsd fst lst f - たまにミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
-        invoke:
-          - /03 odl rsl lst --- f - 祖母と再会する
-
-
-  - character: ペトラ
-    contents:
-      1:
-        setup:
-          - /04 odl fsd fst nxt f - アリスに勇気と蛮勇は違うのよ、と言われる
-        invoke:
-          - /04 odl rsl lst --- f - 妖精領主になる決断をする
+      ref: thi-033.md
+      answer: ローズが魔力珠を内包していること
+      resolution:
+        - /00 gen rsl mid --- f - 魔力珠がローズの体内にあることを知る
+      foreshadowing:
+        - /00 gen fsd --- mid f - ローズの魔法力が尽きないこと
+        - /00 gen fsd --- mid b - 魔力珠を追っているなら私の元へ来るはずよ
+        - /00 gen fsd --- mid b - ローズが下腹部を気にする
+        - /00 gen fsd --- mid b - ローズが下腹部を押さえて悶える
 
 
 ## ヒント
-hint:
-  - character: 事実
+hints:
+  - item: 誤認への導き
     contents:
-      1:
-        setup:
-          - /00 gen hnt --- mid f - アリスの子孫であるヨル、ザヴィが死んでいるという情報
-          - /00 gen hnt --- mid f - 遷世教団は次の世界に連れていってもらうことを目指していると知る
-          - /00 gen hnt --- mid f - 次の世界へ連れていってくれるのはエスだと知る
-          - /00 gen hnt --- mid f - ローズが母ザヴィを殺され絶対に再会すると決意しているという情報をローズがうそぶく
-          - /00 gen hnt --- mid f - ローズは遷世に望みを懸けているという情報
-        invoke:
-          - /00 gen ans --- --- f - ローズは殺された母と再会するために世界を滅ぼそうとしている
-        notes:
-          - ref: thi-015.md
+      ref: thi-015.md
+      answer: ローズは殺された母と再会するために世界を滅ぼそうとしている
+      revealing:
+        - /00 gen rev mid --- f - ローズが母ザヴィと再会するためにエスを狂乱させて世界を滅亡させると言う
+      hints:
+        - /00 gen hnt --- mid f - アリスの子孫であるヨル、ザヴィが死んでいるという情報
+        - /00 gen hnt --- mid f - 遷世教団は次の世界に連れていってもらうことを目指していると知る
+        - /00 gen hnt --- mid f - 次の世界へ連れていってくれるのはエスだと知る
+        - /00 gen hnt --- mid f - ローズが母ザヴィを殺され絶対に再会すると決意しているという情報をローズがうそぶく
+        - /00 gen hnt --- mid f - ローズは遷世に望みを懸けているという情報
 
+
+# 予兆的示唆
+premonitory suggestions:
+  - item: アリス
+    contents:
+      suggestion:
+        - /01 odl sug fst lst f - 「新しい冒険の始まり。古い私は死んで、新しい人生が始まるの！」
+      invoke:
+        - /01 odl inv lst --- f - 「これまでの私は死んだわ」
+
+
+  - item: レオナ
+    contents:
+      suggestion:
+        - /02 odl sug fst lst f - 冒頭でアリスから好きなことを聞かれた次にじゃぁ困ってることは？と尋ねられて「過去を乗り越えたいんです……あ、いや、うそ！　なんでもないです！」と言う
+      invoke:
+        - /02 odl inv lst --- f - 過去を乗り越える
+      notes: |
+        過去との決別
+        生きていても仕方ないのにどうして強くなりたいんだろう？
+        ↓
+        今の幸せを守るために強くなりたい！
+
+
+  - item: ミリア
+    contents:
+      suggestion:
+        - /03 odl sug fst lst f - たまにミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
+      invoke:
+        - /03 odl inv lst --- f - 祖母と再会する
+
+
+  - item: ペトラ
+    contents:
+      suggestion:
+        - /04 odl sug fst nxt f - アリスに勇気と蛮勇は違うのよ、と言われる
+      invoke:
+        - /04 odl inv lst --- f - 妖精領主になる決断をする
