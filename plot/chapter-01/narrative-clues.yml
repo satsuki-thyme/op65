@@ -64,20 +64,22 @@ hints:
         - /00 gen hnt --- mid f - ローズは遷世に望みを懸けているという情報
 
 
-# 予兆的示唆
+## 予兆的示唆
 premonitory suggestions:
   - item: アリス
     contents:
+      ref: -
+      answer: 
       suggestion:
-        - /01 odl sug fst lst f - 「新しい冒険の始まり。古い私は死んで、新しい人生が始まるの！」
+        - /01 odl sug --- lst f - 「今回も精一杯やるわ。私は明るい展望を持って生きるの。どんな結果になるか分からないけど、きっと上手くいくから！」
       invoke:
-        - /01 odl inv lst --- f - 「これまでの私は死んだわ」
+        - /01 odl inv lst --- f - 「私は精一杯やったわ。明るい展望は実現できた。とんでもない結果になっちゃったけど、上手くいったから！」
 
 
   - item: レオナ
     contents:
       suggestion:
-        - /02 odl sug fst lst f - 冒頭でアリスから好きなことを聞かれた次にじゃぁ困ってることは？と尋ねられて「過去を乗り越えたいんです……あ、いや、うそ！　なんでもないです！」と言う
+        - /02 odl sug --- lst f - 冒頭でアリスから好きなことを聞かれた次にじゃぁ困ってることは？と尋ねられて「過去を乗り越えたいんです……あ、いや、うそ！　なんでもないです！」と言う
       invoke:
         - /02 odl inv lst --- f - 過去を乗り越える
       notes: |
@@ -90,7 +92,7 @@ premonitory suggestions:
   - item: ミリア
     contents:
       suggestion:
-        - /03 odl sug fst lst f - たまにミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
+        - /03 odl sug --- lst f - たまにミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
       invoke:
         - /03 odl inv lst --- f - 祖母と再会する
 
@@ -98,6 +100,6 @@ premonitory suggestions:
   - item: ペトラ
     contents:
       suggestion:
-        - /04 odl sug fst nxt f - アリスに勇気と蛮勇は違うのよ、と言われる
+        - /04 odl sug --- nxt f - アリスに勇気と蛮勇は違うのよ、と言われる
       invoke:
         - /04 odl inv lst --- f - 妖精領主になる決断をする
