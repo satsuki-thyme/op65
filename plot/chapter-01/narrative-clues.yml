@@ -4,7 +4,8 @@ foreshadowing:
   - item: ラスト1
     contents:
       ref: thi-031.md
-      answer: ローズがエスの使徒であること
+      answer:
+        - ローズがエスの使徒であること
       resolution:
         - /00 gen rsl lst --- f - ローズが真実を明かす
       foreshadowing:
@@ -25,7 +26,8 @@ foreshadowing:
   - item: ラスト2
     contents:
       ref: thi-032.md
-      answer: ローズが死ぬとエスの封印が解けること
+      answer:
+        - ローズが死ぬとエスの封印が解けること
       resolution:
         - /00 gen rsl lst --- f - 「馬鹿め！　私を殺したな？」
       foreshadowing:
@@ -38,7 +40,8 @@ foreshadowing:
   - item: ミッドポイント
     contents:
       ref: thi-033.md
-      answer: ローズが魔力珠を内包していること
+      answer:
+        - ローズが魔力珠を内包していること
       resolution:
         - /00 gen rsl mid --- f - 魔力珠がローズの体内にあることを知る
       foreshadowing:
@@ -53,7 +56,8 @@ hints:
   - item: 誤認への導き
     contents:
       ref: thi-015.md
-      answer: ローズは殺された母と再会するために世界を滅ぼそうとしている
+      answer:
+        - ローズは殺された母と再会するために世界を滅ぼそうとしている
       revealing:
         - /00 gen rev mid --- f - ローズが母ザヴィと再会するためにエスを狂乱させて世界を滅亡させると言う
       hints:
@@ -69,7 +73,8 @@ premonitory suggestions:
   - item: アリス
     contents:
       ref: -
-      answer: 
+      answer:
+        - 
       suggestion:
         - /01 odl sug --- lst f - 「今回も精一杯やるわ。私は明るい展望を持って生きるの。どんな結果になるか分からないけど、きっと上手くいくから！」
       invoke:
