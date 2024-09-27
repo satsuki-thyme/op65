@@ -72,39 +72,69 @@ hints:
 premonitory suggestions:
   - item: アリス
     contents:
-      ref: -
-      answer:
-        - 
+      what to do:
+        - 子の騒動に終止符を打つ[character-base.yml]
       suggestion:
-        - /01 odl sug --- lst f - 「今回も精一杯やるわ。私は明るい展望を持って生きるの。どんな結果になるか分からないけど、きっと上手くいくから！」
+        - /11 odl sug --- lst f - 「今回も精一杯やるわ。私は明るい展望を持って生きるの。どんな結果になるか分からないけど、きっと上手くいくから！」
       invoke:
-        - /01 odl inv lst --- f - 「私は精一杯やったわ。明るい展望は実現できた。とんでもない結果になっちゃったけど、上手くいったから！」
+        - /11 odl inv lst --- f - 「私は精一杯やったわ。明るい展望は実現できた。とんでもない結果になっちゃったけど、上手くいったから！」
 
 
   - item: レオナ
     contents:
+      what to do:
+        - 過去を乗り越えることで生きる意味を見つける[character-base.yml]
       suggestion:
-        - /02 odl sug --- lst f - 冒頭でアリスから好きなことを聞かれた次にじゃぁ困ってることは？と尋ねられて「過去を乗り越えたいんです……あ、いや、うそ！　なんでもないです！」と言う
+        - /12 odl sug --- lst f - 「過去を、乗り越えたい……あ、いや、うそ！　なんでもないです！」
       invoke:
-        - /02 odl inv lst --- f - 過去を乗り越える
-      notes: |
-        過去との決別
-        生きていても仕方ないのにどうして強くなりたいんだろう？
-        ↓
-        今の幸せを守るために強くなりたい！
+        - /12 odl inv lst --- f - 「私の、大切な人の、幸せを守りたいんです。だから、強くなる！」
 
 
   - item: ミリア
     contents:
+      what to do:
+        - 過去に折り合いをつけて前向きに歩きだす[character-base.yml]
       suggestion:
-        - /03 odl sug --- lst f - たまにミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
+        - /13 odl sug --- lst f - 「私は旅をしています。でも、過去からは一歩も踏み出せていない……」
       invoke:
-        - /03 odl inv lst --- f - 祖母と再会する
+        - /13 odl inv lst --- f - 「私、やっと一歩を踏み出せる気がします！」
 
 
   - item: ペトラ
     contents:
+      what to do:
+        - 勇気とは何かを知って頼もしくなる[character-base.yml]
       suggestion:
-        - /04 odl sug --- nxt f - アリスに勇気と蛮勇は違うのよ、と言われる
+        - /14 odl sug --- nxt f - 「私は勇敢な女の子なの！」
       invoke:
-        - /04 odl inv lst --- f - 妖精領主になる決断をする
+        - /14 odl inv lst --- f - 「領主になるのは不安だった。でも、私は本当の勇敢な女の子になったから！」
+
+
+  - item: ローズ
+    contents:
+      what to do:
+        - エスを解放して人族を滅亡させるために死ぬ[character-base.yml]
+      suggestion:
+        - /21 odl sug --- nxt f - 
+      invoke:
+        - /21 odl inv lst --- f - 
+
+
+  - item: エリー
+    contents:
+      what to do:
+        - 復讐に身を委ねて死ぬ[character-base.yml]
+      suggestion:
+        - /22 odl sug --- nxt f - 
+      invoke:
+        - /22 odl inv lst --- f - 
+
+
+  - item: フェイ
+    contents:
+      what to do:
+        - ミリアを力尽くで得ようとして死ぬ[character-base.yml]
+      suggestion:
+        - /23 odl sug --- nxt f - 
+      invoke:
+        - /23 odl inv lst --- f - 

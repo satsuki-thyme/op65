@@ -36,13 +36,15 @@ details:
       collision opponent:
         - ローズ
       how to overcome:
-        - 我が子孫と思い込んでローズを殺す
+        - 我が子ローズを殺す
       inner change:
         - 過去より今の幸福が大切であることに気づく
       right point:
         - 本当に大切なものがなんなのか気づいた
       wrong point:
         - なし
+    what to do:
+      - 子の騒動に終止符を打つ
 
 
   - name: レオナ
@@ -76,6 +78,8 @@ details:
         - 健全な欲求に支えられていた――生きたい、仲間と過ごしたい
       wrong point:
         - なし
+    what to do:
+      - 過去を乗り越えることで生きる意味を見つける
 
 
   - name: ミリア
@@ -109,6 +113,8 @@ details:
         - 誘惑に打ち勝って倒すことを選んだ
       wrong point:
         - なし
+    what to do:
+      - 過去に折り合いをつけて前向きに歩きだす
 
 
   - character: ペトラ
@@ -142,6 +148,8 @@ details:
         - 勇気を出すことができた
       wrong point:
         - なし
+    what to do:
+      - 勇気とは何かを知って頼もしくなる
 
 
   - name: ローズ
@@ -155,26 +163,28 @@ details:
           - 意のままに振る舞う
     desire:
       contents:
-        - 魔力珠を手に入れたい（遷世したい）
+        - false= 遷世したい, true= 人族を滅亡させたい
       conflict:
         - アリス
       past connected to desire:
-        - 上位人族の親が殺された
+        - false= 親が殺された, true= エスが邪神に狂わされている
     ordeal:
       title:
-        - 過去を諦められるか
+        - false= 過去を諦められるか, true= なし
       facing the inner self:
-        - 過去に執着する自分
+        - false= 過去に執着する自分, true= なし
       collision opponent:
         - アリス
       how to overcome:
-        - なし
+        - false= なし, true= 自らの死
       inner change:
         - なし
       right point:
         - なし
       wrong point:
-        - 過去を捨てられず遷世を果たそうとした
+        - なし
+    what to do:
+      - エスを解放して人族を滅亡させるために死ぬ
 
 
   - name: エリー
@@ -208,6 +218,8 @@ details:
         - なし
       wrong point:
         - 復讐心を貫いてしまった
+    what to do:
+      - 復讐に身を委ねて死ぬ
 
 
   - name: フェイ
@@ -241,4 +253,5 @@ details:
         - なし
       wrong point:
         - 諦められなかった
-
+    what to do:
+      - ミリアを力尽くで得ようとして死ぬ
