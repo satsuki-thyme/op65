@@ -105,7 +105,7 @@ premonitory suggestions:
       what to do:
         - 勇気とは何かを知って頼もしくなる[character-base.yml]
       suggestion:
-        - /14 odl sug --- nxt f - 「私は勇敢な女の子なの！」
+        - /14 odl sug --- lst f - 「私は勇敢な女の子なの！」
       invoke:
         - /14 odl inv lst --- f - 「領主になるのは不安だった。でも、私は本当の勇敢な女の子になったから！」
 
@@ -115,9 +115,9 @@ premonitory suggestions:
       what to do:
         - エスを解放して人族を滅亡させるために死ぬ[character-base.yml]
       suggestion:
-        - /21 odl sug --- nxt f - 
+        - /21 odl sug --- lst b - 「私はエスの御許へ還ります」
       invoke:
-        - /21 odl inv lst --- f - 
+        - /21 odl inv lst --- f - 「エス、私は還りました！」
 
 
   - item: エリー
@@ -125,9 +125,9 @@ premonitory suggestions:
       what to do:
         - 復讐に身を委ねて死ぬ[character-base.yml]
       suggestion:
-        - /22 odl sug --- nxt f - 
+        - /22 odl sug --- lst b - 「ローズ様に全身全霊の忠誠を誓います。しかし、私の本質は変わらないのです。あのときから……」
       invoke:
-        - /22 odl inv lst --- f - 
+        - /22 odl inv lst --- f - 「変わりたかった、変わりたかったのに……」
 
 
   - item: フェイ
@@ -135,6 +135,6 @@ premonitory suggestions:
       what to do:
         - ミリアを力尽くで得ようとして死ぬ[character-base.yml]
       suggestion:
-        - /23 odl sug --- nxt f - 
+        - /23 odl sug --- lst b - 「私はなんだって手に入れる。ローズ様にもらったこの力で」
       invoke:
-        - /23 odl inv lst --- f - 
+        - /23 odl inv lst --- f - 「力が、力がもっと欲しい……」

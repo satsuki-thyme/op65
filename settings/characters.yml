@@ -1,13 +1,16 @@
 # キャラクター
 summary:
-  - dn: マクスヴェルト
-    gists: 魔法都市カルダーリベレの研究者、エルフ
+  - アリス
+  - レオナ
+  - ミリア
+  - ペトラ
+  - ローズリエラ
+  - エリーティア
+  - フェイメル
+  - ヨル
+  - ザヴィア
+  - マクスヴェルト
 
-  - dn: 大賢者ヨル
-    gist: アリスの子・弟子、ザヴィアの母・師匠、聖徒教会と深い関係があった
-
-  - dn: 吸血姫ザヴィア
-    gist: ヨルの子・弟子、吸血族の始祖・真祖、ローズの母・師匠
 
 detail:
   - group: 主人公と仲間
@@ -22,21 +25,42 @@ detail:
  ##     ##    ########    ####     ######     ########
 
       - dn: アリス
-        applicable chapter: continuous
+        meta data:
+          role: 主人公
+          applicable chapter: continuous
         nature:
           full name: アリス
           nickname: アリス
           race: 世界
           gender: 女
           age: 17くらいに見える/17と言っている/年齢という概念はなく強いていうなら永遠
-        eye-catching features: 
-        first impression: 不敵な笑み
-        actual nature:
-          - 人生を楽しむための老獪さを持ったリアリスト
-          - 今を堪能する幸福原理主義者
-          - 傲慢
-        special skills: 全知全能
-        role: 主人公
+        outline:
+          eye-catching features: 
+          first impression: 不敵な笑み
+          actual nature:
+            - 人生を楽しむための老獪さを持ったリアリスト
+            - 今を堪能する幸福原理主義者
+            - 傲慢
+          special skills:
+            - 全知全能
+            - 
+            - 
+          forte:
+            - 
+            - 
+            - 
+          weaknesses:
+            - 
+            - 
+            - 
+          secret:
+            - 
+            - 
+            - 
+          etc:
+            - 
+            - 
+            - 
         appearance:
           overview: セイバー
           face:
@@ -54,11 +78,10 @@ detail:
             leg: 健康的
           voice: 張りのある綺麗な声/豊穣の処女神が囁ささやいたと聞けば人なら誰もが納得するだろう
         mind:
-          overview: 不適
-            - 楽しむことを知っている
-            - 奔放
-            - 優しい
-            - 庇護欲
+          - 楽しむことを知っている
+          - 奔放
+          - 優しい
+          - 庇護欲
             - ときに冷酷なリアリスト
         biography:
           - age: 0
@@ -69,11 +92,6 @@ detail:
                 mother: 
                 note:
                   - 
-        note:          
-          - 武器は棒（300 x φ15、オリハルコン）
-          - 
-          - 
-          - 
 
 
  ##          ########     #######     ##    ##       ###
@@ -85,19 +103,42 @@ detail:
  ########    ########     #######     ##    ##    ##     ##
 
       - dn: レオナ
-        applicable chapter: continuous
+        meta data:
+          role: メインヒロイン
+          applicable chapter: continuous
         nature:
           full name: レオナ・ノート・アーズエイン
           nickname: レオナ
           race: 葦人
           gender: 女
           age: 19
-        eye-catching features: 深い青のロングヘアが印象的だ
-        first impression: 岩崎さん
-        actual nature: さっぱりしてお茶目（岩崎さん）
-        special skills: 剣
-        role: メインヒロイン
-        note: 
+        outline:
+          eye-catching features: 深い青のロングヘアが印象的だ
+          first impression: 岩崎さん
+          actual nature:
+            - さっぱりしてお茶目（岩崎さん）
+            - 非常時には常識的なことを言って驚いているが内心では動じていない
+            - 
+          special skills:
+            - 剣
+            - 
+            - 
+          forte:
+            - 
+            - 
+            - 
+          weaknesses:
+            - 
+            - 
+            - 
+          secret:
+            - 
+            - 
+            - 
+          etc:
+            - 
+            - 
+            - 
         appearance:
           overview: 神秘的な美少女
           face:
@@ -115,11 +156,10 @@ detail:
             leg: 細め
           voice: 低めの美声にはユーモラスな響きがあった
         mind:
-          overview: 常識を知っているが非常識に動じない
-            - 非常時には常識的なことを言って驚いているが内心では動じていない
-            - 
-            - 
-            - 
+          - 
+          - 
+          - 
+          - 
         biography:
           - age: 0
             event:
@@ -140,19 +180,42 @@ detail:
  ##     ##       ##       ##     ##    ####    ##     ##
 
       - dn: ミリア
-        applicable chapter: continuous
+        meta data:
+          role: 
+          applicable chapter: continuous
         nature:
           full name: アーネフリーネ村のミリア
           nickname: ミリア
           race: 森人
           gender: 女
           age: 24
-        eye-catching features: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
+        outline:
+          eye-catching features: 
+          first impression: 
+          actual nature:
+            - 
+            - 
+            - 
+          special skills:
+            - 
+            - 
+            - 
+          forte:
+            - 
+            - 
+            - 
+          weaknesses:
+            - 
+            - 
+            - 
+          secret:
+            - 
+            - 
+            - 
+          etc:
+            - 
+            - 
+            - 
         appearance:
           overview: 
           face:
@@ -170,11 +233,10 @@ detail:
             leg: 
           voice: 
         mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
+          - 
+          - 
+          - 
+          - 
         biography:
           - age: 0
             event:
@@ -195,19 +257,42 @@ detail:
  ##           ########       ##       ##     ##    ##     ##
 
       - dn: ペトラ
-        applicable chapter: 1
+        meta data:
+          role: 
+          applicable chapter: 1
         nature:
           full name: 
           nickname: 
           race: 翼妖精
           gender: 女
           age: 
-        eye-catching features: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
+        outline:
+          eye-catching features: 
+          first impression: 
+          actual nature:
+            - 
+            - 
+            - 
+          special skills:
+            - 
+            - 
+            - 
+          forte:
+            - 
+            - 
+            - 
+          weaknesses:
+            - 
+            - 
+            - 
+          secret:
+            - 
+            - 
+            - 
+          etc:
+            - 
+            - 
+            - 
         appearance:
           overview: 
           face:
@@ -225,11 +310,10 @@ detail:
             leg: 
           voice: 
         mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
+          - 
+          - 
+          - 
+          - 
         biography:
           - age: 0
             event:
@@ -254,19 +338,42 @@ detail:
  ##     ##     #######      ######     ########    ##     ##       ##       ########    ##     ##    ##     ##
 
       - dn: ローズリエラ
-        applicable chapter: 1
+        meta data:
+          role: 
+          applicable chapter: 1
         nature:
           full name: 
           nickname: 
           race: 
           gender: 女
           age: 
-        eye-catching features: 
-        first impression: 
-        actual nature: 
-        special skills: 魔法使い
-        role: 
-        note: 
+        outline:
+          eye-catching features: 
+          first impression: 
+          actual nature:
+            - 
+            - 
+            - 
+          special skills:
+            - 魔法使い
+            - 
+            - 
+          forte:
+            - 
+            - 
+            - 
+          weaknesses:
+            - 
+            - 
+            - 
+          secret:
+            - 
+            - 
+            - 
+          etc:
+            - 
+            - 
+            - 
         appearance:
           overview: 
           face:
@@ -284,11 +391,10 @@ detail:
             leg: 
           voice: 
         mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
+          - 
+          - 
+          - 
+          - 
         biography:
           - age: 0
             event:
@@ -309,19 +415,42 @@ detail:
  ########    ##     ##    ####    ########       ##       ####    ##     ##
 
       - dn: エリーティア
-        applicable chapter: 1
+        meta data:
+          role: 
+          applicable chapter: 1
         nature:
           full name: エリーティア・ミカ・ロレード
           nickname: エリー
           race: 葦人
           gender: 女
           age: 21
-        eye-catching features: 
-        first impression: 
-        actual nature: 
-        special skills: 格闘家
-        role: 
-        note: 
+        outline:
+          eye-catching features: 
+          first impression: 
+          actual nature:
+            - 
+            - 
+            - 
+          special skills:
+            - 格闘家
+            - 
+            - 
+          forte:
+            - 
+            - 
+            - 
+          weaknesses:
+            - 
+            - 
+            - 
+          secret:
+            - 
+            - 
+            - 
+          etc:
+            - 
+            - 
+            - 
         appearance:
           overview: 
           face:
@@ -339,11 +468,10 @@ detail:
             leg: 
           voice: 
         mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
+          - 
+          - 
+          - 
+          - 
         biography:
           - age: 0
             event:
@@ -364,19 +492,42 @@ detail:
  ##          ########    ####    ##     ##    ########    ########
 
       - dn: フェイメル
-        applicable chapter: 1
+        meta data:
+          role: 
+          applicable chapter: 1
         nature:
           full name: 
           nickname: 
           race: 
           gender: 女
           age: 
-        distinction: 
-        first impression: 
-        actual nature: 
-        special skills: 召喚師
-        role: 
-        note: 
+        outline:
+          eye-catching features: 
+          first impression: 
+          actual nature:
+            - 
+            - 
+            - 
+          special skills:
+            - 召喚師
+            - 
+            - 
+          forte:
+            - 
+            - 
+            - 
+          weaknesses:
+            - 
+            - 
+            - 
+          secret:
+            - 
+            - 
+            - 
+          etc:
+            - 
+            - 
+            - 
         appearance:
           overview: 
           face:
@@ -394,11 +545,10 @@ detail:
             leg: 
           voice: 
         mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
+          - 
+          - 
+          - 
+          - 
         biography:
           - age: 0
             event:
@@ -410,439 +560,21 @@ detail:
                   - 
 
 
+  #######     ########    ##     ##    ########    ########      ######
+ ##     ##       ##       ##     ##    ##          ##     ##    ##    ## 
+ ##     ##       ##       ##     ##    ##          ##     ##    ##
+ ##     ##       ##       #########    ######      ########      ######
+ ##     ##       ##       ##     ##    ##          ##   ##            ## 
+ ##     ##       ##       ##     ##    ##          ##    ##     ##    ## 
+  #######        ##       ##     ##    ########    ##     ##     ######
 
-  - group: 
-    member:
-
-
-      - dn: 
-        applicable chapter: 
-        nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 
-          age: 
-        distinction: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        appearance:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
+  - dn: ヨル
+    gist: 大賢者ヨル、アリスの子・弟子、ザヴィの母・師匠、聖徒教会と深い関係があった
 
 
-
-      - dn: 
-        applicable chapter: 
-        nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 
-          age: 
-        distinction: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        appearance:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
+  - dn: ザヴィア
+    gist: 吸血姫ザヴィア、ヨルの子・弟子、吸血族の始祖・真祖、ローズの母・師匠
 
 
-
-      - dn: 
-        applicable chapter: 
-        nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 
-          age: 
-        distinction: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        appearance:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
-
-
-
-      - dn: 
-        applicable chapter: 
-        nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 
-          age: 
-        distinction: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        appearance:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
-
-
-
-      - dn: 
-        applicable chapter: 
-        nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 
-          age: 
-        distinction: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        appearance:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
-
-
-
-      - dn: 
-        applicable chapter: 
-        nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 
-          age: 
-        distinction: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        appearance:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
-
-
-
-      - dn: 
-        applicable chapter: 
-        nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 
-          age: 
-        distinction: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        appearance:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
-
-
-
-      - dn: 
-        applicable chapter: 
-        nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 
-          age: 
-        distinction: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        appearance:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
-
-
-
-      - dn: 
-        applicable chapter: 
-        nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 
-          age: 
-        distinction: 
-        first impression: 
-        actual nature: 
-        special skills: 
-        role: 
-        note: 
-        appearance:
-          overview: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        mind:
-          overview: 
-            - 
-            - 
-            - 
-            - 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
-
-
+  - dn: マクスヴェルト
+    gists: 魔法都市カルダの研究者、エルフ

@@ -1,16 +1,178 @@
 # 情報開示
-## 世界観上の情報
-worldveiw information:
-  ### 世界観構築
-  worldbuilding:
-    - 
+## 世界観構築情報
+worldbuilding information:
+  - 
 
 
-  ### 世界観持続
-  worldview sustainability:
-    - 
+## 世界観持続情報
+worldview sustainability information:
+  - 
 
 
 ## ストーリー上の情報
 story information:
-
+  characters:
+    - item: アリス
+      forte: 
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      weaknesses:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      secret:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      etc:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    - item: レオナ
+      forte: 
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      weaknesses:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      secret:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      etc:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    - item: ミリア
+      forte: 
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      weaknesses:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      secret:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      etc:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    - item: ペトラ
+      forte: 
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      weaknesses:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      secret:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      etc:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    - item: ローズ
+      forte: 
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      weaknesses:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      secret:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      etc:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    - item: エリー
+      forte: 
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      weaknesses:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      secret:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      etc:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    - item: フェイ
+      forte: 
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      weaknesses:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      secret:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      etc:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    - item: ヨル
+      forte: 
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      weaknesses:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      secret:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      etc:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    - item: ザヴィ
+      forte: 
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      weaknesses:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      secret:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      etc:
+        - [ ] 
+        - [ ] 
+        - [ ] 
+  dynamic-existence:
+    - エス
+      - 
+    - ゼーラ
+      - 
+    - 妖精
+      - 
+  place:
+    - 
+  things:
+    - 
