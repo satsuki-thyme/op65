@@ -37,6 +37,9 @@
 - memo/chapter-01/mem-01-001.md: ローズが蘇生させるシーン
 - memo/chapter-01/mem-01-002.md: マクスの手記
 - memo/chapter-01/mem-01-003.md: SAVE THE CAT
+- memo/chapter-01/mem-01-004.md: 前向きさの発露
+- memo/chapter-01/mem-01-005.md: ヨルとザヴィの話
+- memo/chapter-01/mem-01-006.md: 魔力珠
 
 
 ### メモ 第3章
@@ -86,7 +89,6 @@
 - thinking-notes/archive/thi-033.md: ローズが魔力珠を内包していることの伏線
 - thinking-notes/thi-034.md: ハイエルフの叡智
 - thinking-notes/thi-035.md: アリスの予兆的示唆
-- thinking-notes/thi-036.md: 情報開示の対象にする情報とは
 
 
 ### 廃止 before-2024-07-08
