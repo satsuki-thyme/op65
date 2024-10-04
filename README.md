@@ -33,6 +33,10 @@
 - settings/things.md:            物事設定
 
 
+### 歴史
+- settings/history/his-001.md: エス封印に関すること
+
+
 ### メモ 第1章
 - memo/chapter-01/mem-01-001.md: ローズが蘇生させるシーン
 - memo/chapter-01/mem-01-002.md: マクスの手記
