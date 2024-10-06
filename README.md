@@ -1,28 +1,28 @@
 # 原初の少女と躍動の冒険
 ## 文書
 ### 本文 第1章
-- text/chapter-01/01-001.txt: タイトル未定
+- text/01/001.txt: タイトル未定
 
 
 ### 設計 全体
-- plan/chapter-00/title-idea-00.md: タイトル案
+- plan/00/title-idea.md: タイトル案
 
 
 ### 設計 第1章
-- plan/chapter-01/init-01.yml:           初期構想 第1章
-- plan/chapter-01/character-base-01.yml: 基本設計 第1章
+- plan/01/init.yml:           初期構想 第1章
+- plan/01/character-base.yml: 基本設計 第1章
 
 
 ### 設計 第2章
-- plan/chapter-02/init-02.yml:           初期構想 第2章
+- plan/02/init.yml:           初期構想 第2章
 
 
 ### プロット 第1章
-- plot/chapter-01/detail-01-001.yml:      プロット詳細 第1話
-- plot/chapter-01/elements-01.yml:        プロット要素 第1章
-- plot/chapter-01/outline-01.yml:         プロット概要 第1章
-- plot/chapter-01/narrative-clues-01.yml: 前兆要素 第1章
-- plot/chapter-01/information-01.yml:     情報開示 第1章
+- plot/01/detail-001.yml:      プロット詳細 第1話
+- plot/01/elements.yml:        プロット要素 第1章
+- plot/01/outline.yml:         プロット概要 第1章
+- plot/01/narrative-clues.yml: 前兆要素 第1章
+- plot/01/information.yml:     情報開示 第1章
 
 
 ### 設定
@@ -38,16 +38,16 @@
 
 
 ### メモ 第1章
-- memo/chapter-01/mem-01-001.md: ローズが蘇生させるシーン
-- memo/chapter-01/mem-01-002.md: マクスの手記
-- memo/chapter-01/mem-01-003.md: SAVE THE CAT
-- memo/chapter-01/mem-01-004.md: 前向きさの発露
-- memo/chapter-01/mem-01-005.md: ヨルとザヴィの話
-- memo/chapter-01/mem-01-006.md: 魔力珠
+- memo/01/mem-001.md: ローズが蘇生させるシーン
+- memo/01/mem-002.md: マクスの手記
+- memo/01/mem-003.md: SAVE THE CAT
+- memo/01/mem-004.md: 前向きさの発露
+- memo/01/mem-005.md: ヨルとザヴィの話
+- memo/01/mem-006.md: 魔力珠
 
 
 ### メモ 第3章
-- memo/chapter-03/mem-03-001.md: ミリアの帰還
+- memo/03/mem-001.md: ミリアの帰還
 
 
 ### 作業管理
