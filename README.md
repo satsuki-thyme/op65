@@ -1,23 +1,26 @@
 # 原初の少女と躍動の冒険
 ## 文書
-### 本文 第1章
+### 本文
+#### 第1章
 - text/01/001.txt: タイトル未定
 
 
-### 設計 全体
+### 設計
+#### 全体
 - plan/00/title-idea.md: タイトル案
 
 
-### 設計 第1章
+#### 第1章
 - plan/01/init.yml:           初期構想 第1章
 - plan/01/character-base.yml: 基本設計 第1章
 
 
-### 設計 第2章
+#### 第2章
 - plan/02/init.yml:           初期構想 第2章
 
 
-### プロット 第1章
+### プロット
+#### 第1章
 - plot/01/detail-001.yml:      プロット詳細 第1話
 - plot/01/elements.yml:        プロット要素 第1章
 - plot/01/outline.yml:         プロット概要 第1章
@@ -37,16 +40,20 @@
 - settings/history/his-001.md: エス封印に関すること
 
 
-### メモ 第1章
+### メモ
+#### 第1章
 - memo/01/mem-001.md: ローズが蘇生させるシーン
 - memo/01/mem-002.md: マクスの手記
 - memo/01/mem-003.md: SAVE THE CAT
 - memo/01/mem-004.md: 前向きさの発露
 - memo/01/mem-005.md: ヨルとザヴィの話
 - memo/01/mem-006.md: 魔力珠
+- memo/01/mem-007.md: ローズのパワーアップ
+- memo/01/mem-008.md: 封界の指輪
 
 
-### メモ 第3章
+### メモ
+#### 第3章
 - memo/03/mem-001.md: ミリアの帰還
 
 
@@ -95,7 +102,8 @@
 - thinking-notes/thi-035.md: アリスの予兆的示唆
 
 
-### 廃止 before-2024-07-08
+### 廃止
+#### before-2024-07-08
 - rejected/before-2024-07-08/settings/settings-001.md: 遷世教団
 - rejected/before-2024-07-08/settings/settings-002.md: 精霊の性質
 - rejected/before-2024-07-08/settings/settings-003.md: 魔法リザーブ
@@ -103,7 +111,7 @@
 - rejected/before-2024-07-08/settings/settings-005.md: 魔力郷
 
 
-### 廃止 before-2024-06-29
+#### before-2024-06-29
 - rejected/before-2024-06-29/text/001.txt: はじまり
 - rejected/before-2024-06-29/text/002.txt: 精霊の勇気
 - rejected/before-2024-06-29/text/003.txt: 洗礼を受ける者

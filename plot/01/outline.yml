@@ -20,11 +20,17 @@ not implemented:
   - /00 gen fct --- --- f - [ 01 12 02] レオナのお茶目な話し方
   - /12 odl sug --- lst f - [m01 12 01] 「過去を、乗り越えたい……あ、いや、うそ！　なんでもないです！」
   - /10 lov fct --- --- f - [ 01 00 06] レオナと手をつなぐ
+  - wish:
+    - 街に到着して街を描写したい
+      - [ 01 99 04] 街の外観
+      - [ 01 99 05] 街の中
   - information:
     worldview:
       - [ 01 99 01]: 魔法
       - [ 01 99 02]: 森
       - [ 01 99 03]: 剣
+      - [ 01 99 04]: 城塞都市{wish}
+      - [ 01 99 05]: 都市内の様子{wish}
     characters:
       - item: アリス
         contents:
@@ -43,8 +49,8 @@ not implemented:
       - [ 01 00 06]: レオナと愛を育む
     mystery:
       current:
-        - [m01 00 01]: 封界の指輪の謎 => [m01 11 01]
-        - [m01 00 02]: ヨルとザヴィの謎
+        - [m01 00 01]: 封界の指輪 => [m01 11 01]
+        - [m01 00 02]: ヨルとザヴィ
         - [m01 11 01]: アリスの過去
         - [m01 12 01]: レオナの過去
       takeover:
@@ -52,56 +58,124 @@ not implemented:
 
 
 2:
-  - /00 gen hnt --- mid f - 遷世教団は次の世界に連れていってもらうことを目指していると知る
-  - /00 gen fsd --- lst f - 邪神ゼーラの力で神の力が狂乱するという情報
-  - /00 gen fct --- --- f - ミリアと出会う
-  - /10 lov fct --- --- f - ミリアと手をつなぐ
-    .                       ミリアはハイエルフの叡智を得るには遷世教団を調べるべきと思っていたが怖くて踏み出せなかった
-  - /13 odl rsv --- lst f - ミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
-  - /00 gen fct --- --- f - ミリアから遷世教団が魔力珠を調べていると知る
-  - /00 gen fct --- --- f - ミリアはアリスがガルダを目指していると知って同行を願う（ハイエルフの叡智のため）
-  - /13 odl sug --- lst f - 「私は旅をしています。でも、過去からは一歩も踏み出せていない……」
+  - /00 gen fct --- --- f - [ 02 99 01] 神殿の描写
+  - /00 gen fct --- --- f - [ 02 99 02] 神獣の描写
+  - /00 gen fct --- --- f - [ 02 99 03] 神殿の周りの兵士の描写
+  - /00 gen fct --- --- f - [ 02 12 01] レオナはすぐに助けにいこうとする
+  - /00 gen fct --- --- f - [ 02 11 03] アリスは周囲の噂を聞こうとする
+  - /00 gen hnt --- mid f - [ 02 00 01] 遷世教団は次の世界に連れていってもらうことを目指していると知る
+  - /00 gen fct --- --- f b [ 02 11 02] 神獣との戦い（アリスが鎮める）
+  - /00 gen fsd --- lst f - [ 02 00 02] 邪神ゼーラの力で神の力が狂乱するという気づき
+  - /00 gen fct --- --- f - [ 02 11 01] ミリアを助ける
+  - /10 lov fct --- --- f - [ 02 00 03] ミリアと手をつなぐ
+  - /00 gen fct --- --- f - [ 02 13 01] ミリアはハイエルフの叡智が欲しい
+  - /00 gen fct --- --- f - [ 02 13 02] ミリアは遷世教団を調べたかったが怖くて踏み出せなかった
+  - /13 odl rsv --- lst f - [ 02 13 03] ミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
+  - /00 gen fct --- --- f - [ 02 00 04] ミリアから遷世教団が魔力珠を調べていると知る
+  - /00 gen fct --- --- f -             ミリアはアリスがガルダを目指していると知って同行を願う（ハイエルフの叡智のため）
+  - /13 odl sug --- lst f - [m02 13 01] 「私は旅をしています。でも、過去からは一歩も踏み出せていない……」
   - information:
     worldview:
-      - 
+      - [ 02 99 01]: 神殿の描写
+      - [ 02 99 02]: 神獣の存在
+      - [ 02 99 03]: 神殿の周りの兵士の存在
     characters:
-      - 
+      - item: アリス
+        contents:
+          - [ 02 11 01]: 可愛い女の子が好き
+          - [ 02 11 02]: 不思議な力
+          - [ 02 11 03]: 冷淡さ
+      - item: レオナ
+        contents:
+          - [ 02 12 01]: レオナの善良さ
+      - item: ミリア
+        contents:
+          - [ 02 13 01]: ミリアの欲求
+          - [ 02 13 02]: ミリアの気弱さ
+          - [ 02 13 03]: ミリアの事情
     story:
-      - 
+      - [ 02 00 01]: 遷世教団の目的
+      - [ 02 00 02]: 邪神ゼーラの力
+      - [ 02 00 03]: ミリアと愛を育む
+      - [ 02 00 04]: 魔力珠の行方
+    mystery:
+      current:
+        - [m01 13 01]: ミリアの過去
+      takeover:
+        - [m01 00 01]: 封界の指輪
+        - [m01 00 02]: ヨルとザヴィ
+        - [m01 11 01]: アリスの過去
+        - [m01 12 01]: レオナの過去
 
 
 3:
-  - /00 gen fct --- --- f - 魔力珠の秘密を探るために遷世教団に潜入する
-  - /11 odl rsv --- nxt f - 「ローズ様は女神のようだ」
-  - /00 gen hnt --- mid f - 次の世界へ連れていってくれるのはエスだと知る
-  - /00 gen fct --- --- f - 遷世教団での聞き込みでガルダはヴァイツ地方にあると知る
-  - /21 odl sug --- lst b - 「私はエスの御許へ還ります」
-  - /00 gen fsd --- lst f - アリスがローズに神の気配を感じる
-  - /00 gen fct --- --- f - ローズがザヴィに似ていてローズが子孫だと分かる
-    .                       アリスがザヴィの名を出しローズが反応してなんやかんや
-  - /00 gen hnt --- mid f - ローズが母ザヴィを殺され絶対に再会すると決意しているという情報をローズがうそぶく
-  - /00 gen fsd --- lst f - ローズが邪神の力を使っていると分かる
-  - /00 gen fsd --- lst f - ローズが界を封じる指輪（封界の指輪）に気づく
-    .                       界を封じる指輪（封界の指輪）は神の力を無効化する障壁を張る
-  - /11 odl trg --- --- f b ローズが子だと分かり攻撃できず逃げ出す
-    .                       室内で強力な攻撃をされ、周囲に被害が及ぶのを避けるために逃げるしかなかった
-  - /00 gen fsd --- mid f - ローズの魔法力が尽きないこと
-  - /00 gen fsd --- lst b - ローズ「私は神に等しいのよ」
-  - /00 gen fct --- --- f - アリスを見つけて泳がせる
-  - /00 gen fsd --- lst b - 「やっと見つけた」
-  - /21 odl fct --- --- b - アリスを放つことができて満足する
-  - /21 odl rsv --- lst b - やっとこのときが来たんだわ
-  - /00 gen fsd --- mid b - 魔力珠を追っているなら私の元へ来るはずよ
-  - /00 gen fsd --- lst b - ローズがエスに対する強い敬愛を示す
-  - /10 lov fct --- --- f - 抱きしめ合う
+  - /00 gen fct --- --- f -             魔力珠の秘密を探るために遷世教団に潜入する
+  - /11 odl rsv --- nxt f - [ 03 21 01] 「ローズ様は女神のようだ」
+  - /00 gen hnt --- mid f - [ 03 00 02] 次の世界へ連れていってくれるのはエスだと知る
+  - /00 gen fct --- --- f - [ 03 00 03] 遷世教団での聞き込みでガルダはヴァイツ地方にあると知る
+  - /21 odl sug --- lst b - [m03 00 01] 「私はエスの御許へ還ります」
+  - /00 gen fct --- --- b - [ 03 00 04] ローズ「神獣の呪いが解けたのは気に掛かるわね」
+  - /00 gen fsd --- lst f - [ 03 00 05] アリスがローズに神の気配を感じる
+  - /00 gen fct --- --- f - [ 03 00 06] ローズがザヴィに似ていてローズが子孫だと分かる
+  - /00 gen fct --- --- f - [ 03 00 07] アリスがザヴィの名を出しローズが反応してなんやかんや
+  - /00 gen hnt --- mid f - [ 03 00 08] ローズが母ザヴィを殺され絶対に再会すると決意しているという情報をローズがうそぶく
+  - /00 gen fsd --- lst f - [ 03 00 09] ローズが邪神の力を使っていると分かる
+  - /00 gen fsd --- lst f - [m03 00 02] ローズが界を封じる指輪（封界の指輪）に気づく[mem-008.md]
+  - /11 odl trg --- --- f b [ 03 11 01] ローズが子だと分かり攻撃できず逃げ出す
+  - /00 gen fct --- --- f - [ 03 11 02] 室内で強力な攻撃をされ、周囲に被害が及ぶのを避けるために逃げるしかなかった
+  - /00 gen fsd --- mid f - [m03 00 03] ローズの魔法力が尽きないこと
+  - /00 gen fsd --- lst b - [ 03 00 12] ローズ「私は神に等しいのよ」
+  - /00 gen fsd --- lst b - [m03 00 04] アリスを見つけて泳がせる「やっと見つけた」
+  - /00 gen fct --- --- b - [m03 00 05] エリーとフェイが来て「本当に魔力珠で釣られましたね」
+  - /21 odl rsv --- lst b - [m03 00 06] やっとこのときが来たんだわ
+  - /00 gen fsd --- mid b - [m03 00 07] 魔力珠を追っているなら私の元へ来るはずよ
+  - /00 gen fsd --- lst b - [m03 00 08] ローズがエスに対する強い敬愛を示す
+  - /10 lov fct --- --- f - [ 03 00 18] 抱きしめ合う
     .                       アリスは逃げた先の街の外でレオナとミリアに抱きしめられ、自分も二人を抱きしめる
   - information:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - [ 03 11 01]: 子孫への思い
+          - [ 03 11 02]: 善性 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - [ 03 21 01]: ローズの表の顔
     story:
-      - 
+      - [ 03 00 02]: 遷世神エス
+      - [ 03 00 03]: ガルダはヴァイツ地方にある
+      - [ 03 00 04]: 神獣の呪いはローズによるもの
+      - [ 03 00 05]: ローズの神性
+      - [ 03 00 06]: ローズとザヴィの関係
+      - [ 03 00 07]: ローズとザヴィの関係
+      - [ 03 00 08]: ローズとザヴィの関係
+      - [ 03 00 09]: ローズと邪神の力
+      - [ 03 00 12]: ローズの神性
+      - [ 03 00 18]: アリス・レオナ・ミリアが愛を育む
+    mystery:
+      current:
+        - [m03 00 01]: 「私はエスの御許へ還ります」
+        - [m03 00 02]: 封界の指輪とローズ
+        - [m03 00 03]: ローズの魔法力が尽きないこと
+        - [m03 00 04]: ローズの企み
+        - [m03 00 05]: 魔力珠とローズの謎
+        - [m03 00 06]: ローズの企み
+        - [m03 00 07]: ローズと魔力珠の謎
+        - [m03 00 08]: ローズとエスの関係
+      takeover:
+        - [m01 00 01]: 封界の指輪
+        - [m01 00 02]: ヨルとザヴィ
+        - [m01 11 01]: アリスの過去
+        - [m01 12 01]: レオナの過去
+        - [m01 13 01]: ミリアの過去
 
 
 4:
@@ -126,9 +200,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 5:
@@ -144,9 +245,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 6:
@@ -168,9 +296,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 7:
@@ -188,9 +343,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 8:
@@ -210,9 +392,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 9:
@@ -233,9 +442,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 10:
@@ -250,9 +486,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 11:
@@ -268,9 +531,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 12:
@@ -284,9 +574,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 13:
@@ -301,9 +618,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 14:
@@ -325,9 +669,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 15:
@@ -346,9 +717,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 16:
@@ -365,9 +763,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 17:
@@ -375,6 +800,41 @@ not implemented:
   - /00 gen fsd --- lst b - 昔のことをさっきのことのように語る
   - /23 odl rsv --- nxt b - フェイに出動命令をする
   - /23 odl rsv --- nxt b - もう我慢しないと言う
+  - information:
+    worldview:
+      - 
+    characters:
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
+
 
 18:
   - /00 gen fct --- --- f - カルダに到着するmark-1
@@ -391,9 +851,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 19:
@@ -403,9 +890,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 20:
@@ -418,9 +932,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 21:
@@ -434,9 +975,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 22:
@@ -452,9 +1020,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 23:
@@ -464,9 +1059,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 24:
@@ -485,9 +1107,36 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 25:
@@ -503,7 +1152,33 @@ not implemented:
     worldview:
       - 
     characters:
-      - 
+      - item: アリス
+        contents:
+          - 
+      - item: レオナ
+        contents:
+          - 
+      - item: ミリア
+        contents:
+          - 
+      - item: ペトラ
+        contents:
+          - 
+      - item: ローズ
+        contents:
+          - 
+      - item: エリー
+        contents:
+          - 
+      - item: フェイ
+        contents:
+          - 
     story:
       - 
-
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
