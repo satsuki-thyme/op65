@@ -1,58 +1,64 @@
 # プロット概要 第1章
 not implemented:
-  - /00 gen fsd --- lst f - / 00 000 使徒が死ぬと神の元に戻る
+  - /00 gen fsd --- lst f - / 01 000 使徒が死ぬと神の元に戻る
 
 1:
-  - /00 gen fct --- --- f - / 00 001 周囲は森
-  - /00 gen fct --- --- f - / 00 002 アリスが魔法で地下から出てくる
-  - /00 gen fct --- --- f - / 00 003 アリスは帯剣している
-  - /00 gen fct --- --- f - / 00 004 アリスは冒険がしたい
-  - /11 odl sug --- lst f - / 00 005 性格と伏線「精一杯やるわ……きっと上手くいくから！」[mem-004.md]
-  - /00 gen fct --- --- f b / 00 006 優しさ SAVE THE CAT[mem-003.md]
-  - /11 odl rsv --- lst f - / 00 007 封界の指輪（アリス・ヨル・ザヴィの古代文字）
+  - /00 gen fct --- --- f - / 01 001 周囲は森
+  - /00 gen fct --- --- f - / 01 002 アリスが魔法で地下から出てくる
+  - /00 gen fct --- --- f - / 01 003 アリスは帯剣している
+  - /00 gen fct --- --- f - / 01 004 アリスは冒険がしたい
+  - /11 odl sug --- lst f - / 01 005 性格と伏線「精一杯やるわ……きっと上手くいくから！」[mem-004.md]
+  - /00 gen fct --- --- f b / 01 006 優しさ SAVE THE CAT[mem-003.md]
+  - /11 odl rsv --- lst f - / 01 007 封界の指輪（アリス・ヨル・ザヴィの古代文字）
   - /00 gen fct --- --- f -          レオナと出会う
-  - /00 gen fct --- --- f - / 00 008 レオナの実直な様子
-  - /00 gen fct --- --- f - / 00 009 レオナは帯剣している
-  - /00 gen hnt --- mid f - / 00 010 レオナからヨルとザヴィの話[mem-005.md]
-  - /11 odl rsv --- nxt f - / 00 011 子孫が死んでいることに深い悲しみを示す
-  - /00 gen fsd --- lst f - / 00 012 ヨルとザヴィが使徒を発狂させるはずがないこと
-  - /00 gen fct --- --- f - / 00 013 ヨルとザヴィにも関係がある魔力珠がガルダにあると知って探すことにする[mem-006.md]
-  - /00 gen fct --- --- f - / 00 014 レオナのお茶目な話し方
-  - /12 odl sug --- lst f - / 00 015 「過去を、乗り越えたい……あ、いや、うそ！　なんでもないです！」
+  - /00 gen fct --- --- f - / 01 008 レオナの実直な様子
+  - /00 gen fct --- --- f - / 01 009 レオナは帯剣している
+  - /00 gen hnt --- mid f - / 01 010 レオナからヨルとザヴィの話[mem-005.md]
+  - /11 odl rsv --- nxt f - / 01 011 子孫が死んでいることに深い悲しみを示す
+  - /00 gen fsd --- lst f - / 01 012 ヨルとザヴィが使徒を発狂させるはずがないこと
+  - /00 gen fct --- --- f - / 01 013 ヨルとザヴィにも関係がある魔力珠がガルダにあると知って探すことにする[mem-006.md]
+  - /00 gen fct --- --- f - / 01 014 レオナのお茶目な話し方
+  - /12 odl sug --- lst f - / 01 015 「過去を、乗り越えたい……あ、いや、うそ！　なんでもないです！」
   - /10 lov fct --- --- f -          レオナと手をつなぐ
   - information:
     worldview:
       history:
-        / 00 003 アリスは帯剣している
-        / 00 009 レオナは帯剣している
+        / 01 003 アリスは帯剣している
+        / 01 009 レオナは帯剣している
       fantasy:
-        / 00 002 アリスが魔法で地下から出てくる
+        / 01 002 アリスが魔法で地下から出てくる
       environment:
-        / 00 001 周囲は森
+        / 01 001 周囲は森
     characters:
       - item: アリス
         personality:
-          / 00 005 性格と伏線「精一杯やるわ……きっと上手くいくから！」
-          / 00 006 優しさ SAVE THE CAT
-          / 00 011 子孫が死んでいることに深い悲しみを示す
+          / 01 005 性格と伏線「精一杯やるわ……きっと上手くいくから！」[mem-004.md]
+          / 01 006 優しさ SAVE THE CAT[mem-003.md]
+          / 01 011 子孫が死んでいることに深い悲しみを示す
         past:
-          / 00 007 封界の指輪（アリス・ヨル・ザヴィの古代文字）
+          / 01 007 封界の指輪（アリス・ヨル・ザヴィの古代文字）
         thought:
-          / 00 004 アリスは冒険がしたい
+          / 01 004 アリスは冒険がしたい
+        etc:
+          
       - item: レオナ
         personality:
-          / 00 008 レオナの実直な様子
-          / 00 014 レオナのお茶目な話し方
+          / 01 008 レオナの実直な様子
+          / 01 014 レオナのお茶目な話し方
         past:
-          
+          /m01 001 レオナの過去
         thought:
-          / 00 015 「過去を、乗り越えたい……あ、いや、うそ！　なんでもないです！」
+          / 01 015 「過去を、乗り越えたい……あ、いや、うそ！　なんでもないです！」 => /m01 001
+        etc:
+
       - item: ミリア
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ペトラ
         personality:
@@ -61,12 +67,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ローズ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: エリー
         personality:
@@ -75,6 +85,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
@@ -82,12 +94,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
     foreground:
-      - item: 
+      - item: エスと使徒と封印
         contents:
-          / 00 010 レオナからヨルとザヴィの話
-          / 00 012 ヨルとザヴィが使徒を発狂させるはずがないこと
-          / 00 013 ヨルとザヴィにも関係がある魔力珠がガルダにあると知って探すことにする
+          / 01 010 レオナからヨルとザヴィの話[mem-005.md]
+          / 01 012 ヨルとザヴィが使徒を発狂させるはずがないこと
+      - item: 魔力珠
+        contents:
+          / 01 013 ヨルとザヴィにも関係がある魔力珠がガルダにあると知って探すことにする[mem-006.md]
     background:
       - item: 
         contents:
@@ -95,57 +111,67 @@ not implemented:
 
 
 2:
-  - /00 gen fct --- --- f - / 00 000 神殿の描写
-  - /00 gen fct --- --- f - / 00 000 神獣の描写
-  - /00 gen fct --- --- f - / 00 000 神殿の周りの兵士の描写
-  - /00 gen fct --- --- f - / 00 000 レオナはすぐに助けにいこうとする
-  - /00 gen fct --- --- f - / 00 000 アリスは周囲の噂を聞こうとする
-  - /00 gen hnt --- mid f - / 00 000 遷世教団は次の世界に連れていってもらうことを目指していると知る
-  - /00 gen fct --- --- f b / 00 000 神獣との戦い（アリスが鎮める）
-  - /00 gen fct --- --- f - / 00 000 ミリアを助ける
-  - /10 lov fct --- --- f - / 00 000 ミリアと手をつなぐ
-  - /00 gen fct --- --- f - / 00 000 ミリアはハイエルフの叡智が欲しい
-  - /00 gen fct --- --- f - / 00 000 ミリアは遷世教団を調べたかったが怖くて踏み出せなかった
-  - /13 odl rsv --- lst f - / 00 000 ミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
-  - /00 gen fct --- --- f - / 00 000 ミリアから遷世教団が魔力珠を調べていると知る
-  - /00 gen fct --- --- f - / 00 000 ミリアはアリスがガルダを目指していると知って同行を願う（ハイエルフの叡智のため）
-  - /13 odl sug --- lst f - / 00 000 「私は旅をしています。でも、過去からは一歩も踏み出せていない……」
+  - /00 gen fct --- --- f - / 02 001 神殿の描写
+  - /00 gen fct --- --- f - / 02 002 神獣の描写
+  - /00 gen fct --- --- f - / 02 003 神殿の周りの兵士の描写
+  - /00 gen fct --- --- f - / 02 004 レオナはすぐに助けにいこうとする
+  - /00 gen fct --- --- f - / 02 005 アリスは周囲の噂を聞こうとする
+  - /00 gen hnt --- mid f - / 02 006 遷世教団は次の世界に連れていってもらうことを目指していると知る
+  - /00 gen fct --- --- f b          神獣との戦い（アリスが鎮める）
+  - /00 gen fct --- --- f -          ミリアを助ける
+  - /10 lov fct --- --- f -          ミリアと手をつなぐ
+  - /00 gen fct --- --- f - / 02 007 ミリアはハイエルフの叡智が欲しい
+  - /00 gen fct --- --- f - / 02 008 ミリアは遷世教団を調べたかったが怖くて踏み出せなかった
+  - /13 odl rsv --- lst f - / 02 009 ミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
+  - /00 gen fct --- --- f - / 02 010 ミリアから遷世教団が魔力珠を調べていると知る
+  - /00 gen fct --- --- f -          ミリアはアリスがガルダを目指していると知って同行を願う（ハイエルフの叡智のため）
+  - /13 odl sug --- lst f - / 02 011 「私は旅をしています。でも、過去からは一歩も踏み出せていない……」
   - information:
     worldview:
       history:
-        
+        / 02 001 神殿の描写
+        / 02 003 神殿の周りの兵士の描写
       fantasy:
-        
+        / 02 002 神獣の描写
       environment:
         
     characters:
       - item: アリス
         personality:
-          
+          / 02 005 アリスは周囲の噂を聞こうとする
         past:
           
         thought:
+          
+        etc:
           
       - item: レオナ
         personality:
-          
+          / 02 004 レオナはすぐに助けにいこうとする
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
-          
+          / 02 008 ミリアは遷世教団を調べたかったが怖くて踏み出せなかった
         past:
-          
+          /m02 001 ミリアの過去
         thought:
-          
+          / 02 007 ミリアはハイエルフの叡智が欲しい
+          / 02 011 「私は旅をしています。でも、過去からは一歩も踏み出せていない……」 => /m02 001
+        etc:
+          / 02 009 ミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -154,12 +180,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: フェイ
         personality:
@@ -168,10 +198,15 @@ not implemented:
           
         thought:
           
-    foreground:
-      - item: 
-        contents:
+        etc:
           
+    foreground:
+      - item: エスと使徒と封印
+        contents:
+          / 02 006 遷世教団は次の世界に連れていってもらうことを目指していると知る
+      - item: 魔力珠
+        contents:
+          / 02 010 ミリアから遷世教団が魔力珠を調べていると知る
     background:
       - item: 
         contents:
@@ -179,26 +214,25 @@ not implemented:
 
 
 3:
-  - /00 gen fct --- --- f - / 00 000 魔力珠の秘密を探るために遷世教団に潜入する
-  - /11 odl rsv --- nxt f - / 00 000 「ローズ様は女神のようだ」
-  - /00 gen hnt --- mid f - / 00 000 次の世界へ連れていってくれるのはエスだと知る
-  - /00 gen fct --- --- f - / 00 000 遷世教団での聞き込みでガルダはヴァイツ地方にあると知る
-  - /21 odl sug --- lst b - / 00 000 「私はエスの御許へ還ります」
-  - /00 gen fct --- --- b - / 00 000 ローズ「神獣の呪いが解けたのは気に掛かるわね」
-  - /00 gen fsd --- lst f - / 00 000 アリスがローズに神の気配を感じる
-  - /00 gen fct --- --- f - / 00 000 ローズがザヴィに似ていてローズが子孫だと分かる
-  - /00 gen fct --- --- f - / 00 000 アリスがザヴィの名を出しローズが反応してなんやかんや
-  - /00 gen hnt --- mid f - / 00 000 ローズが母ザヴィを殺され絶対に再会すると決意しているという情報をローズがうそぶく
-  - /00 gen fsd --- lst f - / 00 000 ローズが界を封じる指輪（封界の指輪）に気づく[mem-008.md]
-  - /11 odl trg --- --- f b / 00 000 ローズが子だと分かり攻撃できず逃げ出す
-  - /00 gen fct --- --- f - / 00 000 室内で強力な攻撃をされ、周囲に被害が及ぶのを避けるために逃げるしかなかった
-  - /00 gen fsd --- lst b - / 00 000 ローズ「私は神に等しいのよ」
-  - /00 gen fsd --- lst b - / 00 000 アリスを見つけて泳がせる「やっと見つけた」
-  - /00 gen fct --- --- b - / 00 000 エリーとフェイが来て「本当に魔力珠で釣られましたね」
-  - /21 odl rsv --- lst b - / 00 000 やっとこのときが来たんだわ
-  - /00 gen fsd --- mid b - / 00 000 魔力珠を追っているなら私の元へ来るはずよ
-  - /00 gen fsd --- lst b - / 00 000 ローズがエスに対する強い敬愛を示す
-  - /10 lov fct --- --- f - / 00 000 抱きしめ合う
+  - /00 gen fct --- --- f - 　　　　　魔力珠の秘密を探るために遷世教団に潜入する
+  - /11 odl rsv --- nxt f - / 03 001 「ローズ様は女神のようだ」
+  - /00 gen hnt --- mid f - / 03 002 次の世界へ連れていってくれるのはエスだと知る
+  - /00 gen fct --- --- f - / 03 003 遷世教団での聞き込みでガルダはヴァイツ地方にあると知る
+  - /21 odl sug --- lst b - / 03 004 「私はエスの御許へ還ります」
+  - /00 gen fct --- --- b -          ローズ「神獣の呪いが解けたのは気に掛かるわね」
+  - /00 gen fsd --- lst f - / 03 005 アリスがローズに神の気配を感じる
+  - /00 gen fct --- --- f - / 03 006 ローズがザヴィに似ていてローズが子孫だと分かる
+  - /00 gen fct --- --- f - / 03 007 アリスがザヴィの名を出しローズが反応してなんやかんや
+  - /00 gen fsd --- lst f - / 03 008 ローズが界を封じる指輪（封界の指輪）に気づく[mem-008.md]
+  - /11 odl trg --- --- f b          ローズが子だと分かり攻撃できず逃げ出す
+  - /00 gen fct --- --- f - / 03 009 室内で強力な攻撃をされ、周囲に被害が及ぶのを避けるために逃げるしかなかった
+  - /00 gen fsd --- lst b -          ローズ「私は神に等しいのよ」
+  - /00 gen fsd --- lst b - / 03 010 アリスを見つけて泳がせる「やっと見つけた」
+  - /00 gen fct --- --- b - / 03 011 エリーとフェイが来て「本当に魔力珠で釣られましたね」
+  - /21 odl rsv --- lst b - / 03 012 やっとこのときが来たんだわ
+  - /00 gen fsd --- mid b - / 03 013 魔力珠を追っているなら私の元へ来るはずよ
+  - /00 gen fsd --- lst b - / 03 014 ローズがエスに対する強い敬愛を示す
+  - /10 lov fct --- --- f -          抱きしめ合う
     .                       アリスは逃げた先の街の外でレオナとミリアに抱きしめられ、自分も二人を抱きしめる
   - information:
     worldview:
@@ -211,10 +245,12 @@ not implemented:
     characters:
       - item: アリス
         personality:
-          
+          / 03 009 室内で強力な攻撃をされ、周囲に被害が及ぶのを避けるために逃げるしかなかった
         past:
           
         thought:
+          
+        etc:
           
       - item: レオナ
         personality:
@@ -223,12 +259,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ミリア
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ペトラ
         personality:
@@ -237,6 +277,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ローズ
         personality:
           
@@ -244,12 +286,16 @@ not implemented:
           
         thought:
           
+        etc:
+          / 03 001 「ローズ様は女神のようだ」
       - item: エリー
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: フェイ
         personality:
@@ -258,33 +304,51 @@ not implemented:
           
         thought:
           
+        etc:
+          
     foreground:
-      - item: 
+      - item: エスと使徒と封印
         contents:
-          
+          / 03 002 次の世界へ連れていってくれるのはエスだと知る
+          / 03 004 「私はエスの御許へ還ります」
+          / 03 005 アリスがローズに神の気配を感じる
+          / 03 006 ローズがザヴィに似ていてローズが子孫だと分かる
+          / 03 007 アリスがザヴィの名を出しローズが反応してなんやかんや
+          / 03 008 ローズが界を封じる指輪（封界の指輪）に気づく[mem-008.md]
+      - item: 魔力珠
+        contents:
+          / 03 003 遷世教団での聞き込みでガルダはヴァイツ地方にあると知る
     background:
-      - item: 
+      - item: エスと使徒と封印
         contents:
-          
+          / 03 010 アリスを見つけて泳がせる「やっと見つけた」 => /m03 001
+          / 03 011 エリーとフェイが来て「本当に魔力珠で釣られましたね」 => /m03 001
+          / 03 012 やっとこのときが来たんだわ => /m03 001
+          / 03 013 魔力珠を追っているなら私の元へ来るはずよ => /m03 001
+          / 03 014 ローズがエスに対する強い敬愛を示す => /m03 001
+      - item: ローズの秘密
+        contents:
+          /m03 001 ローズと魔力珠とエス
 
 
 4:
-  - /00 gen fct --- --- f - / 00 000 ヴァイツ地方へ向かうmark-1
-  - /11 odl rsv --- nxt f - / 00 000 ザヴィの子が生きていたことに喜びと戸惑いを示す
-  - /12 odl rsv --- nxt f - / 00 000 魔物と戦って強いところを見せる
-  - /00 gen fct --- --- f - / 00 000 ペトラを助けてペトラが仲間になる
-  - /14 odl sug --- lst f - / 00 000 「私は勇敢な女の子なの！」
-  - /14 odl rsv --- nxt f - / 00 000 アリスに蛮勇は駄目、真の勇気を持たなきゃ、と言われる
-  - /14 odl rsv --- nxt f - / 00 000 森に妖精が増えすぎている
-  - /00 gen fsd --- lst f - / 00 000 ペトラからエスはガルダに封印されているという情報を得る
-  - /13 odl rsv --- lst f - / 00 000 ミリアの近くに妖精ほどの気配を感じる＝祖母を感じて会いたいと言う
-  - /10 lov fct --- --- f - / 00 000 ミリアに私が付いていることを忘れないで、と言って抱き合う
-  - /00 gen fsd --- lst b - / 00 000 「待っていた、このときを。あの子をステージに引っ張り出すのよ」
-  - /00 gen fsd --- lst b - / 00 000 ローズがエスに対する強い敬愛を示す
-  - /20 lov fct --- --- b - / 00 000 セックス明け
-  - /22 odl rsv --- lst b - / 00 000 ローズに忠誠と何よりの愛を誓う
-    .                       「ローズ様に全身全霊の忠誠を誓います。しかし、私の本質は変わらないのです。あのときから……」
-  - /22 odl rsv --- nxt b - / 00 000 仲間を叩いて焚きつけろと命令を受けて喜ぶ
+  - /00 gen fct --- --- f -          ヴァイツ地方へ向かうmark-1
+  - /11 odl rsv --- nxt f - / 04 001 ザヴィの子が生きていたことに喜びと戸惑いを示す
+  - /00 gen hnt --- mid f - / 04 002 ローズが母ザヴィを殺され絶対に再会すると決意しているとアリスは解く
+  - /12 odl rsv --- nxt f - / 04 003 魔物と戦って強いところを見せる
+  - /00 gen fct --- --- f -          ペトラを助けてペトラが仲間になる
+  - /14 odl sug --- lst f - / 04 004 「私は勇敢な女の子なの！」
+  - /14 odl rsv --- nxt f -          アリスに蛮勇は駄目、真の勇気を持たなきゃ、と言われる
+  - /14 odl rsv --- nxt f - / 04 005 森に妖精が増えすぎている
+  - /00 gen fsd --- lst f - / 04 006 ペトラからエスはガルダに封印されているという情報を得る
+  - /13 odl rsv --- lst f - / 04 007 ミリアの近くに妖精ほどの気配を感じる＝祖母を感じて会いたいと言う
+  - /10 lov fct --- --- f -          ミリアに私が付いていることを忘れないで、と言って抱き合う
+  - /00 gen fsd --- lst b - / 04 008 「待っていた、このときを。あの子をステージに引っ張り出すのよ」
+  - /00 gen fsd --- lst b - / 04 009 ローズがエスに対する強い敬愛を示す
+  - /20 lov fct --- --- b -          セックス明け
+  - /22 odl rsv --- lst b - / 04 010 ローズに忠誠と何よりの愛を誓う
+    .                                「ローズ様に全身全霊の忠誠を誓います。しかし、私の本質は変わらないのです。あのときから……」
+  - /22 odl rsv --- nxt b - / 04 011 仲間を叩いて焚きつけろと命令を受けて喜ぶ
   - information:
     worldview:
       history:
@@ -296,10 +360,12 @@ not implemented:
     characters:
       - item: アリス
         personality:
-          
+          / 04 001 ザヴィの子が生きていたことに喜びと戸惑いを示す
         past:
           
         thought:
+          
+        etc:
           
       - item: レオナ
         personality:
@@ -308,19 +374,25 @@ not implemented:
           
         thought:
           
+        etc:
+          / 04 003 魔物と戦って強いところを見せる
       - item: ミリア
         personality:
           
         past:
           
         thought:
-          
+          / 04 007 ミリアの近くに妖精ほどの気配を感じる＝祖母を感じて会いたいと言う
+        etc:
+          / 04 007 ミリアの近くに妖精ほどの気配を感じる＝祖母を感じて会いたいと言う
       - item: ペトラ
         personality:
-          
+          / 04 004 「私は勇敢な女の子なの！」
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -329,12 +401,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
-          
+          / 04 011 仲間を叩いて焚きつけろと命令を受けて喜ぶ
         past:
           
         thought:
+          / 04 010 ローズに忠誠と何よりの愛を誓う
+        etc:
           
       - item: フェイ
         personality:
@@ -343,10 +419,22 @@ not implemented:
           
         thought:
           
-    foreground:
-      - item: 
-        contents:
+        etc:
           
+    foreground:
+      - item: エスと使徒と封印
+        contents:
+          / 04 002 ローズが母ザヴィを殺され絶対に再会すると決意しているとアリスは解く
+      - item: ペトラと妖精
+        contents:
+          / 04 005 森に妖精が増えすぎている
+      - item: 魔力珠
+        contents:
+          / 04 006 ペトラからエスはガルダに封印されているという情報を得る
+      - item: ローズの秘密
+        contents:
+          / 04 008 「待っていた、このときを。あの子をステージに引っ張り出すのよ」
+          / 04 009 ローズがエスに対する強い敬愛を示す
     background:
       - item: 
         contents:
@@ -354,14 +442,14 @@ not implemented:
 
 
 5:
-  - /14 odl trg --- --- f - / 00 000 新たな森を探す決断をする
-  - /22 odl trg --- --- f b / 00 000             レオナを倒しアリスを焚きつける
-  - /12 odl trg --- --- f b / 00 000             エリーに敗北する
-  - /12 bgr rsv --- nxt f - / 00 000 レオナの元の身分や事情の示唆、今の立場
-  - /22 bgr rsv --- nxt f - / 00 000 エリーの元の身分や事情の示唆、レオナへの恨み
-  - /00 gen hnt --- mid f - / 00 000 ローズは遷世に望みを懸けているという情報
-    .                       エリーも邪教の力を使っていることが分かる
-  - /10 lov fct --- --- f - / 00 000 レオナに私が付いていることを忘れないで、と言って抱き合う
+  - /14 odl trg --- --- f -          新たな森を探す決断をする
+  - /22 odl trg --- --- f b          レオナを倒しアリスを焚きつける
+  - /12 odl trg --- --- f b          エリーに敗北する
+  - /12 bgr rsv --- nxt f - / 05 001 レオナの元の身分や事情の示唆、今の立場
+  - /22 bgr rsv --- nxt f - / 05 002 エリーの元の身分や事情の示唆、レオナへの恨み
+  - /00 gen hnt --- mid f - / 05 003 ローズは遷世に望みを懸けているという情報
+    .                                エリーも邪教の力を使っていることが分かる
+  - /10 lov fct --- --- f -          レオナに私が付いていることを忘れないで、と言って抱き合う
   - information:
     worldview:
       history:
@@ -378,19 +466,25 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
-          
+          /m05 001 レオナの過去
         thought:
           
+        etc:
+          / 05 001 レオナの元の身分や事情の示唆、今の立場 => /m05 001
       - item: ミリア
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ペトラ
         personality:
@@ -399,6 +493,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ローズ
         personality:
           
@@ -406,13 +502,17 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
         past:
-          
+          /m05 002 エリーの過去
         thought:
           
+        etc:
+          / 05 002 エリーの元の身分や事情の示唆、レオナへの恨み => /m05 002
       - item: フェイ
         personality:
           
@@ -420,10 +520,12 @@ not implemented:
           
         thought:
           
-    foreground:
-      - item: 
-        contents:
+        etc:
           
+    foreground:
+      - item: ローズの秘密
+        contents:
+          / 05 003 ローズは遷世に望みを懸けているという情報
     background:
       - item: 
         contents:
@@ -432,7 +534,7 @@ not implemented:
 
 6:
   - /14 odl fct --- --- f - / 00 000 ペトラが勇気を出して祠のことをアリスに伝える
-    .                       ペトラが遊び歩いて祠を見つけアリスに有用と思うも遊び歩いたことがバレると恐れ、でも勇気を出して伝える
+    .                                ペトラが遊び歩いて祠を見つけアリスに有用と思うも遊び歩いたことがバレると恐れ、でも勇気を出して伝える
   - /00 gen fsd --- lst f - / 00 000 エスは別の名（ヘストは出さない、不明の名）で祀られていたことを知る
   - /11 odl rsv --- nxt f - / 00 000 ザヴィの子の手下が攻撃してきて仲間を傷つけたことに戸惑いを示す
   - /12 odl rsv --- nxt f - / 00 000 アリスがレオナを訓練する
@@ -458,12 +560,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -472,12 +578,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -486,6 +596,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -493,12 +605,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -537,12 +653,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -551,12 +671,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -565,6 +689,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -572,12 +698,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -618,12 +748,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -632,12 +766,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -646,6 +784,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -653,12 +793,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -701,12 +845,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -715,12 +863,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -729,6 +881,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -736,12 +890,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -777,12 +935,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -791,12 +953,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -805,6 +971,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -812,12 +980,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -854,12 +1026,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -868,12 +1044,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -882,6 +1062,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -889,12 +1071,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -929,12 +1115,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -943,12 +1133,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -957,6 +1151,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -964,12 +1160,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1005,12 +1205,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1019,12 +1223,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1033,6 +1241,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1040,12 +1250,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1087,12 +1301,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1101,12 +1319,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1115,6 +1337,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1122,12 +1346,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1167,12 +1395,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1181,12 +1413,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1195,6 +1431,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1202,12 +1440,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1244,12 +1486,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1258,12 +1504,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1272,6 +1522,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1279,12 +1531,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1317,12 +1573,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1331,12 +1591,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1345,6 +1609,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1352,12 +1618,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1396,12 +1666,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1410,12 +1684,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1424,6 +1702,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1431,12 +1711,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1468,12 +1752,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1482,12 +1770,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1496,6 +1788,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1503,12 +1797,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1542,12 +1840,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1556,12 +1858,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1570,6 +1876,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1577,12 +1885,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1618,12 +1930,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1632,12 +1948,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1646,6 +1966,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1653,12 +1975,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1695,12 +2021,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1709,12 +2039,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1723,6 +2057,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1730,12 +2066,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1767,12 +2107,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1781,12 +2125,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1795,6 +2143,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1802,12 +2152,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1847,12 +2201,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1861,12 +2219,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1875,6 +2237,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1882,12 +2246,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
@@ -1924,12 +2292,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: レオナ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ミリア
         personality:
@@ -1938,12 +2310,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: ペトラ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
       - item: ローズ
         personality:
@@ -1952,6 +2328,8 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: エリー
         personality:
           
@@ -1959,12 +2337,16 @@ not implemented:
           
         thought:
           
+        etc:
+          
       - item: フェイ
         personality:
           
         past:
           
         thought:
+          
+        etc:
           
     foreground:
       - item: 
