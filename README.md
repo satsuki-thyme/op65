@@ -29,11 +29,11 @@
 
 
 ### 設定
-- settings/background.md:        背景設定
-- settings/characters.yml:       キャラクター設定
-- settings/dynamic-existence.md: 動的存在の設定
-- settings/place.md:             場所設定
-- settings/things.md:            物事設定
+- settings/background.yml:        背景設定
+- settings/characters.yml:        キャラクター設定
+- settings/dynamic-existence.yml: 動的存在の設定
+- settings/place.yml:             場所設定
+- settings/things.yml:            物事設定
 
 
 ### 歴史
