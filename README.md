@@ -22,10 +22,11 @@
 ### プロット
 #### 第1章
 - plot/01/detail-001.yml:      プロット詳細 第1話
-- plot/01/elements.yml:        プロット要素 第1章
-- plot/01/outline.yml:         プロット概要 第1章
-- plot/01/narrative-clues.yml: 前兆要素 第1章
-- plot/01/information.yml:     情報開示 第1章
+- plot/01/elements.yml:        プロット要素
+- plot/01/outline.yml:         プロット概要
+- plot/01/outline-extract.yml: プロット概要 抽出作業用
+- plot/01/narrative-clues.yml: 前兆要素
+- plot/01/information.yml:     情報開示
 
 
 ### 設定
