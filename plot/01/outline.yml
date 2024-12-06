@@ -13,11 +13,12 @@
   - /011 mod --- f - /perso レオナの実直な様子
   - /011 mod --- f - /histo レオナは帯剣している
   - /011 hnt mid f - @es___ レオナからヨルとザヴィの話[mem-005.md]
-  - /111 rsv nxt f - /perso 子孫が死んでいることに深い悲しみを示す
+  - /111 rsv nxt f - @alice 子孫が死んでいることに深い悲しみを示す
   - /011 fsd lst f - @es___ ヨルとザヴィが使徒を発狂させるはずがないこと
-  - /011 gds --- f - @orb__ ヨルとザヴィにも関係がある魔力珠がガルダにあると知って探すことにする[mem-006.md]
+  - /011 --- --- f - @main_ ヨルとザヴィにも関係がある魔力珠がガルダにあると知る
+  - /011 gds --- f - @orb__ 探すことにする[mem-006.md]
   - /011 mod --- f - /perso レオナのお茶目な話し方
-  - /121 sug lst f - /past_ 「過去を、乗り越えたい……あ、いや、うそ！　なんでもないです！」
+  - /121 sug lst f - @leona 「過去を、乗り越えたい……あ、いや、うそ！　なんでもないです！」
   - /101 gen --- f - /movem レオナと手をつなぐ
 
 
@@ -27,14 +28,18 @@
   - /011 mod --- f - /histo 神殿の周りの兵士の描写
   - /011 gen --- f - /perso レオナはすぐに助けにいこうとする
   - /011 gen --- f - /perso アリスは周囲の噂を聞こうとする
-  - /011 hnt mid f - @es___ 遷世教団は次の世界に連れていってもらうことを目指していると知る
+  - /011 hnt mid f -
+    -                @main_ 遷世教団は次の世界に連れていってもらうことを目指していると知る
+    -                @es___ 〃
   - /011 gen --- f b /fanta 神獣との戦い（アリスが鎮める）
   - /011 gen --- f - /movem ミリアを助ける
   - /101 gen --- f - /movem ミリアと手をつなぐ
   - /131 gds --- f - /thoug ミリアはハイエルフの叡智が欲しい
   - /011 gen --- f - /perso ミリアは遷世教団を調べたかったが怖くて踏み出せなかった
   - /131 rsv lst f - /point ミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
-  - /011 gen --- f - @orb__ ミリアから遷世教団が魔力珠を調べていると知る
+  - /011 gen --- f -
+    -                @main_ ミリアから遷世教団が魔力珠を調べていると知る
+    -                @orb__ 〃
   - /011 gen --- f - /movem ミリアはアリスがガルダを目指していると知って同行を願う（ハイエルフの叡智のため）
   - /131 sug lst f - /point 「私は旅をしています。でも、過去からは一歩も踏み出せていない……」
 
@@ -42,8 +47,12 @@
 3:
   - /011 gen --- f - /movem 魔力珠の秘密を探るために遷世教団に潜入する
   - /111 rsv nxt f - /point 「ローズ様は女神のようだ」
-  - /011 hnt mid f - @es___ 次の世界へ連れていってくれるのはエスだと知る
-  - /011 gen --- f - @orb__ 遷世教団での聞き込みでガルダはヴァイツ地方にあると知る
+  - /011 hnt mid f -
+    -                @main_ 次の世界へ連れていってくれるのはエスだと知る
+    -                @es___ 〃
+  - /011 gen --- f -
+    -                @main_ 遷世教団での聞き込みでガルダはヴァイツ地方にあると知る
+    -                @orb__ 〃
   - /211 sug lst b -
     -                @es___ 「私はエスの御許へ還ります」
     -                @rose_ 〃
@@ -84,12 +93,12 @@
 
 4:
   - /011 gen --- f - /movem ヴァイツ地方へ向かうmark-1
-  - /111 rsv nxt f - /point ザヴィの子が生きていたことに喜びと戸惑いを示す
+  - /111 rsv nxt f - @alice ザヴィの子が生きていたことに喜びと戸惑いを示す
   - /011 hnt mid f - @rose_ ローズが母ザヴィを殺され絶対に再会すると決意しているとアリスは解く
   - /121 rsv nxt f b /fanta 魔物と戦って強いところを見せる
   - /011 gen --- f - /movem ペトラを助けてペトラが仲間になる
   - /141 sug lst f - /perso 「私は勇敢な女の子なの！」
-  - /141 rsv nxt f -          アリスに蛮勇は駄目、真の勇気を持たなきゃ、と言われる
+  - /141 rsv nxt f - /point アリスに蛮勇は駄目、真の勇気を持たなきゃ、と言われる
   - /141 rsv nxt f - @fairl 森に妖精が増えすぎている
   - /011 fsd lst f - @es___ ペトラからエスはガルダに封印されているという情報を得る
   - /131 rsv lst f - /point ミリアの近くに妖精ほどの気配を感じる＝祖母を感じて会いたいと言う
@@ -115,590 +124,103 @@
       -                @es___ ローズは遷世に望みを懸けているという情報
       -                @rose_ 〃
       .                       エリーも邪教の力を使っていることが分かる
-  - /121 rsv nxt f - /perso レオナの元の身分や事情の示唆、今の立場
-  - /221 rsv nxt f - /perso エリーの元の身分や事情の示唆、レオナへの恨み
+    - /121 rsv nxt f - /perso レオナの元の身分や事情の示唆、今の立場
+    - /221 rsv nxt f - /perso エリーの元の身分や事情の示唆、レオナへの恨み
   - /101 gen --- f - /movem レオナに私が付いていることを忘れないで、と言って抱き合う
 
 
 6:
-  - /141 --- --- f -          ペトラが勇気を出して祠のことをアリスに伝える
-    .                         ペトラが遊び歩いて祠を見つけアリスに有用と思うも遊び歩いたことがバレると恐れ、でも勇気を出して伝える
-  - /011 fsd lst f - / 06 001 エスは別の名（ヘストは出さない、不明の名）で祀られていたことを知る
-  - /111 rsv nxt f -          ザヴィの子の手下が攻撃してきて仲間を傷つけたことに戸惑いを示す
-  - /121 rsv nxt f -          アリスがレオナを訓練する
-  - /121 bgr nxt f - / 06 002 レオナの過去の示唆
-  - /221 bgr nxt f - / 06 003 レオナの過去にエリーの話を少し入れる
-  - /201 gen --- b -          屋内で茶を飲む
-  - /021 fsd lst b - / 06 004 神的事象[mem-011.md]
-  - /021 fsd lst b -          ローズ「私は神に等しいのよ」
-  - /221 bgr cat b - / 06 005 エリーの過去
-  - information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    chardrvers:
-      - item: アリス
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レオナ
-        personality:
-          
-        past:
-          / 06 002 レオナの過去の示唆
-        thought:
-          
-        etc:
-          
-      - item: ミリア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ペトラ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ローズ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: エリー
-        personality:
-          
-        past:
-          / 06 003 レオナの過去にエリーの話を少し入れる
-          / 06 005 エリーの過去
-        thought:
-          
-        etc:
-          
-      - item: フェイ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-      - item: エスと使徒と封印
-        contents:
-          / 06 001 エスは別の名（ヘストは出さない、不明の名）で祀られていたことを知る
-    background:
-      - item: ローズの秘密
-        contents:
-          / 06 004 神的事象[mem-011.md]
+  - /141 --- --- f - /movem ペトラが勇気を出して祠のことをアリスに伝える
+    .                       ペトラが遊び歩いて祠を見つけアリスに有用と思うも遊び歩いたことがバレると恐れ、でも勇気を出して伝える
+  - /011 fsd lst f - @es___ エスは別の名（ヘストは出さない、不明の名）で祀られていたことを知る
+  - /111 rsv nxt f - /thoug ザヴィの子の手下が攻撃してきて仲間を傷つけたことに戸惑いを示す
+  - /121 rsv nxt f - /movem アリスがレオナを訓練する
+  - /121 bgr nxt f - /past_ レオナの過去の示唆
+  - /221 bgr nxt f - /past_ レオナの過去にエリーの話を少し入れる
+  - /201 gen --- b - /movem 屋内で茶を飲む
+  - /021 fsd lst b -
+    -                @es___ 神的事象[mem-011.md]
+    -                @rose_ 〃
+  - /021 fsd lst b -
+    -                @es___ ローズ「私は神に等しいのよ」
+    -                @rose_ 〃
+  - /221 bgr cat b - /past_ エリーの過去
 
 
 7:
-  - /121 rsv nxt f -          訓練の様子を描く
-  - /121 bgr cat b - / 07 001 レオナの過去[thi-018.md]
-  - /131 rsv lst f -          祖母を思う
-  - /101 gen --- f - /movem 好きと言い合う
-  - /131 rsv nxt f -          アリスとレオナとミリアが愛を育む
-  - /201 gen --- b -          睦み合い、愛を求めるエリーと愛をうそぶくローズ
-  - /021 fsd mid b - / 07 002 ローズが下腹部を気にする
-  - /231 rsv nxt b -          フェイに出動命令をする
-  - /231 rsv nxt b - / 07 003 ローズの誘いを断ってエルフがいると聞いて食指を動かす（エルフへの憧れ）
-  - /231 sug lst b -          「私はなんだって手に入れる。ローズ様にもらったこの力で」
-  - information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    chardrvers:
-      - item: アリス
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レオナ
-        personality:
-          
-        past:
-          / 07 001 レオナの過去[thi-018.md]
-        thought:
-          
-        etc:
-          
-      - item: ミリア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ペトラ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ローズ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: エリー
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: フェイ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          / 07 003 ローズの誘いを断ってエルフがいると聞いて食指を動かす（エルフへの憧れ）
-    foreground:
-      - item: 
-        contents:
-          
-    background:
-      - item: ローズの秘密
-        contents:
-          / 07 002 ローズが下腹部を気にする
+  - /121 rsv nxt f - /movem 訓練の様子を描く
+  - /121 bgr cat b - /past_ レオナの過去[thi-018.md]
+  - /131 rsv lst f - @myria 祖母を思う
+  - /101 gen --- f - /emoti 好きと言い合う
+  - /131 rsv nxt f - /movem アリスとレオナとミリアが愛を育む
+  - /201 gen --- b - /movem 睦み合い、愛を求めるエリーと愛をうそぶくローズ
+  - /021 fsd mid b -
+    -                @es___ ローズが下腹部を気にする
+    -                @rose_ 〃
+  - /231 rsv nxt b - /movem フェイに出動命令をする
+  - /231 rsv nxt b - /perso ローズの誘いを断ってエルフがいると聞いて食指を動かす（エルフへの憧れ）
+  - /231 sug lst b - /thoug「私はなんだって手に入れる。ローズ様にもらったこの力で」
 
 
 8:
-  - /121 rsv nxt f -          訓練の様子を描く
-  - /111 rsv nxt f -          ザヴィの子が何を考えているのか分からず戸惑いを示す
-  - /231 rsv cat f b          優位に戦い誘惑するが断られて引き下がる
-  - /231 bgr nxt f - / 08 001 フェイの過去につながるミリアへの言動 need to think
-  - /131 rsv cat f b          フェイの求愛を受けて拒否する
-  - /131 rsv lst f - / 08 002 ミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
-  - /011 fsd lst f - / 08 003 フェイがこの世界がもうすぐ終わることをほのめかす
-    .                         遷世して来世で会いたい人に会えるとミリアを誘惑する
+  - /121 rsv nxt f - /movem 訓練の様子を描く
+  - /111 rsv nxt f - @alice ザヴィの子が何を考えているのか分からず戸惑いを示す
+  - /011 --- --- f b /fanta
+    - /231 rsv cat f - /movem 優位に戦い誘惑するが断られて引き下がる
+    - /131 rsv cat f - /movem フェイの求愛を受けて拒否する
+    - /231 bgr nxt f - /past_ フェイの過去につながるミリアへの言動 need to think
+    - /011 fsd lst f - @es___ フェイがこの世界がもうすぐ終わることをほのめかす
+      .                       遷世して来世で会いたい人に会えるとミリアを誘惑する
+  - /131 rsv lst f - /point ミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
   - /011 gen --- f - /movem ヴァイツ地方に着くmark-1
-  - /011 gen --- f - / 08 004 ヴァイツ地方は鉱山が多く畑は実りが少ない、森の木は茂っている（魔力が行き渡っていない）
-  - /141 --- --- f - / 08 005 ペトラが妖精の気配がしないことに気づく
+  - /011 gen --- f - @fairl ヴァイツ地方は鉱山が多く畑は実りが少ない、森の木は茂っている（魔力が行き渡っていない）
+  - /141 --- --- f - @fairl ペトラが妖精の気配がしないことに気づく
   - /101 gen --- f - /movem 思いつめてチラチラ見る　唇が生々しく見える　何か言いかける
-  - information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    chardrvers:
-      - item: アリス
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レオナ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ミリア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          / 08 002 ミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
-      - item: ペトラ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ローズ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: エリー
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: フェイ
-        personality:
-          
-        past:
-          /m08 001 フェイの過去
-        thought:
-          
-        etc:
-          / 08 001 フェイの過去につながるミリアへの言動 => /m08 001
-    foreground:
-      - item: エスと使徒と封印
-        contents:
-          / 08 003 フェイがこの世界がもうすぐ終わることをほのめかす
-      - item: ペトラと妖精
-        contents:
-          / 08 004 ヴァイツ地方は鉱山が多く畑は実りが少ない、森の木は茂っている（魔力が行き渡っていない）
-          / 08 005 ペトラが妖精の気配がしないことに気づく
-    background:
-      - item: 
-        contents:
-          
 
 
 9:
-  - /141 rsv nxt f - / 09 001 新たな森が見つかる
-  - /121 rsv nxt f -          訓練の様子を描く
-  - /011 gen --- f - / 09 002 ガルダの神殿から魔力珠がある本当の場所エリクに行けると知る
-    .                         長い期間、情報を集め続ける
-  - /201 gen --- b -          香水や香の調合
-  - /021 fsd lst b - / 09 003 神的事象[mem-011.md]
-  - /021 fsd lst b - / 09 004 ローズがヘストの目を手に入れる
-  - /021 fsd lst b - / 09 005 「道が開かれたわ。あの子の」
-  - /021 fsd mid b - / 09 006 ローズが下腹部を押さえて悶える
-  - /021 fsd lst b -          ローズがエスに対する強い敬愛を示す
-  - /021 fsd lst b - / 09 007 封印は術者がかけたより多くの魔力を用いて内側から解除できる
-  - /221 rsv nxt b -          エリーに出動命令をする
-  - /221 rsv nxt b -          足止めを命令されて今度こそ殺そうと意気揚々と出る
-  - /231 bgr cat b - / 09 008 フェイの過去
-  - information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    chardrvers:
-      - item: アリス
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レオナ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ミリア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ペトラ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ローズ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: エリー
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: フェイ
-        personality:
-          
-        past:
-          / 09 008 フェイの過去
-        thought:
-          
-        etc:
-          
-    foreground:
-      - item: ペトラと妖精
-        contents:
-          / 09 001 新たな森が見つかる
-      - item: 魔力珠
-        contents:
-          / 09 002 ガルダの神殿から魔力珠がある本当の場所エリクに行けると知る
-    background:
-      - item: ローズの秘密
-        contents:
-          / 09 003 神的事象[mem-011.md]
-          / 09 006 ローズが下腹部を押さえて悶える
-      - item: 魔力珠
-        contents:
-          / 09 004 ローズがヘストの目を手に入れる
-          / 09 005 「道が開かれたわ。あの子の」
-      - item: エスと使徒と封印
-        contents:
-          / 09 007 封印は術者がかけたより多くの魔力を用いて内側から解除できる
-
+  - /141 rsv nxt f - @fairl 新たな森が見つかる
+  - /121 rsv nxt f - /movem 訓練の様子を描く
+  - /011 gen --- f - @main_ ガルダの神殿から魔力珠がある本当の場所エリクに行けると知る
+    .                       長い期間、情報を集め続ける
+  - /201 gen --- b - /movem 香水や香の調合
+  - /021 fsd lst b -
+    -                @es___ 神的事象[mem-011.md]
+    -                @rose_ 〃
+  - /021 fsd lst b - /movem ローズがヘストの目を手に入れる
+  - /021 fsd lst b - @main_ 「道が開かれたわ。あの子の」
+  - /021 fsd mid b -
+    -                @es___ ローズが下腹部を押さえて悶える
+    -                @rose_ 〃
+  - /021 fsd lst b -
+    -                @es___ ローズがエスに対する強い敬愛を示す
+    -                @rose_ 〃
+  - /021 fsd lst b - @es___ 封印は術者がかけたより多くの魔力を用いて内側から解除できる
+  - /221 rsv nxt b - /movem エリーに出動命令をする
+  - /221 rsv nxt b - /thoug 足止めを命令されて今度こそ殺そうと意気揚々と出る
+  - /231 bgr cat b - /past_ フェイの過去
 
 
 10:
-  - /141 rsv cat f -          新たな森に定住する決断をする
-  - /121 rsv nxt f -          訓練の様子を描く
-  - /011 gen --- f - / 10 001 酒場の老人からエリク研究家のマクスを知る
-  - /131 rsv nxt f - / 10 002 祖母のことで泣き崩れる
-  - /121 rsv cat f b          エリーといい勝負をする
-  - /221 rsv cat f b          足止めに失敗して辛酸を舐める
-  - /111 rsv nxt f -          祖母のことで泣き崩れたミリアを見て家族のことを思う（自分の家族は歪になってしまった）
-  - information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    chardrvers:
-      - item: アリス
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レオナ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ミリア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          / 10 002 祖母のことで泣き崩れる
-      - item: ペトラ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ローズ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: エリー
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: フェイ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-      - item: 魔力珠
-        contents:
-          / 10 001 酒場の老人からエリク研究家のマクスを知る
-    background:
-      - item: 
-        contents:
-          
+  - /141 rsv cat f - /movem 新たな森に定住する決断をする
+  - /121 rsv nxt f - /movem 訓練の様子を描く
+  - /011 gen --- f - @main_ 酒場の老人からエリク研究家のマクスを知る
+  - /131 rsv nxt f - @myria 祖母のことで泣き崩れる
+  - /111 rsv nxt f - @alice 祖母のことで泣き崩れたミリアを見て家族のことを思う（自分の家族は歪になってしまった）
+  - /011 --- --- f b /fanta
+    - /121 rsv cat f - /movem エリーといい勝負をする
+    - /221 rsv cat f - /movem 足止めに失敗して辛酸を舐める
 
 
 11:
-  - /011 gen --- f - / 11 001 マクスからエリクを指し示す魔導具イェスケの道標がノーフの祭壇にあることを知る[mem-002.md]
-  - /011 gen --- f - / 11 002 マクスからエリクにはエルフの英知が眠っている可能性があると知る
-  - /011 fsd lst f - / 11 003 ヘストの目を合わせるとイェスケの道標が作動するという情報
-  - /231 rsv nxt b -          フェイがアリスたちの後でイェスケの道標がノーフの祭壇にあることを知る
-  - /231 rsv nxt b -          女は力になびくと言う
-  - /131 bgr cat b - / 11 004 ミリアの過去
-  - /131 rsv nxt f -          祖母にどれほど謝りたいか示す
+  - /011 gen --- f - @main_ マクスからエリクを指し示す魔導具イェスケの道標がノーフの祭壇にあることを知る[mem-002.md]
+  - /011 gen --- f - @myria マクスからエリクにはエルフの英知が眠っている可能性があると知る
+  - /011 fsd lst f - @main_ ヘストの目を合わせるとイェスケの道標が作動するという情報
+  - /231 rsv nxt b - /movem フェイがアリスたちの後でイェスケの道標がノーフの祭壇にあることを知る
+  - /231 rsv nxt b - /thoug 女は力になびくと言う
+  - /131 bgr cat b - /past_ ミリアの過去
+  - /131 rsv nxt f - /movem 祖母にどれほど謝りたいか示す
   - /101 gen --- f - /movem キスする
-  - information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    chardrvers:
-      - item: アリス
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レオナ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ミリア
-        personality:
-          
-        past:
-          / 11 004 ミリアの過去
-        thought:
-          
-        etc:
-          
-      - item: ペトラ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: ローズ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: エリー
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: フェイ
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-      - item: 魔力珠
-        contents:
-          / 11 001 マクスからエリクを指し示す魔導具イェスケの道標がノーフの祭壇にあることを知る[mem-002.md]
-          / 11 003 ヘストの目を合わせるとイェスケの道標が作動するという情報
-      - item: ミリアの願い
-        contents:
-          / 11 002 マクスからエリクにはエルフの英知が眠っている可能性があると知る
-    background:
-      - item: 
-        contents:
-          
 
 
 12:
@@ -796,7 +318,7 @@
   - /011 fsd lst f - / 13 001 神ヘストは過去に邪神ゼーラの力によって狂乱してヴァン文明が崩壊したという情報
   - /011 fsd lst f - / 13 002 神ヘストはどこかに封印されていると知る
   - /111 rsv nxt f -          ローズたちを敵対視するレオナとミリアに対してローズについて擁護的なことを言う
-  - /111 bgr nxt f - / 13 003 アリスの過去につながる擁護の理由
+  - /111 bgr nxt f - /past_ アリスの過去につながる擁護の理由
   - /101 gen --- f - /movem 抱き合ってキスをしながらうっかり尻を触ってしまう
   - information:
     worldview:
@@ -888,7 +410,7 @@
     .                         エスを利用して世界を終わらせ遷世するローズたち
     .                         エス＝ヘストということ
     .                         邪神ゼーラの力で神の力が狂乱すること
-  - /111 bgr cat b - / 14 002 アリスの過去[thi-017.md]
+  - /111 bgr cat b - /past_ アリスの過去[thi-017.md]
     .                         過去の回想の中で家族に対する愛情を示す
   - /021 fsd lst b -          ローズがエスに対する強い敬愛を示す
   - /201 gen --- b -          魔素器官を絡めるエロ
