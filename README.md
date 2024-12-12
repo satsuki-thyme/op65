@@ -105,6 +105,7 @@
 - thinking-notes/archive/thi-033.md: ローズが魔力珠を内包していることの伏線
 - thinking-notes/thi-034.md: ハイエルフの叡智
 - thinking-notes/thi-035.md: アリスの予兆的示唆
+- thinking-notes/thi-036.md: 後半のペトラとプロット
 
 
 ### 廃止
