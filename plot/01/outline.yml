@@ -58,11 +58,11 @@
     /alice oth rsv nxt f - ------ 「ローズ様は女神のようだ」
     /nch-1 inf hnt mid f - @orb__ 次の世界へ連れていってくれるのはエスという情報
     /nch-1 inf --- --- f - @orb__ 遷世教団での聞き込みでガルダはヴァイツ地方にあると知る
-    /rose  mys sug lst b - @es___ 私はエスの御許へ還ります」
-    /                      @rose_ 〃
+    /rose  inf sug lst b - @es___ 私はエスの御許へ還ります」
+    /      mys             @rose_ 〃
     /nch-1 inf --- --- b - ------ ローズ「神獣の呪いが解けたのは気に掛かるわね」
-    /nch-1 mys fsd lst f - @es___ アリスがローズに神の気配を感じる
-    /                      @rose_ 〃
+    /nch-1 inf fsd lst f - @es___ アリスがローズに神の気配を感じる
+    /      mys             @rose_ 〃
     /nch-1 inf --- --- f - @es___ ローズがザヴィに似ていてザヴィの名にローズが反応し子孫だと分かる
     /                      @rose_ 〃
     /rose  mys fsd lst f - @es___ ローズが界を封じる指輪（封界の指輪）に気づく[mem-008.md]
@@ -70,18 +70,18 @@
     /alice str rsv rec f b !fanta ローズと戦う
       /alice str --- --- f - ------ ローズが子だと分かり攻撃できず逃げ出す
       /alice act --- --- f - ------ 室内で強力な攻撃をされ、周囲に被害が及ぶのを避けるために逃げるしかなかった
-    /rose  mys fsd lst b - @es___ ローズ「私は神に等しいのよ」
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ アリスを見つけて泳がせる「やっと見つけた」
-    /                      @rose_ 〃
-    /rose  mys --- --- b - @orb__ エリーとフェイが来て「本当に魔力珠で釣られましたね」
-    /                      @rose_ 〃
-    /rose  mys rsv lst b - @es___ やっとこのときが来たんだわ
-    /                      @rose_ 〃
-    /rose  mys fsd mid b - @es___ 魔力珠を追っているなら私の元へ来るはずよ
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose_ 〃
+    /rose  inf fsd lst b - @es___ ローズ「私は神に等しいのよ」
+    /      mys             @rose_ 〃
+    /rose  inf fsd lst b - @es___ アリスを見つけて泳がせる「やっと見つけた」
+    /      mys             @rose_ 〃
+    /rose  inf --- --- b - @orb__ エリーとフェイが来て「本当に魔力珠で釣られましたね」
+    /      mys             @rose_ 〃
+    /rose  inf rsv lst b - @es___ やっとこのときが来たんだわ
+    /      mys             @rose_ 〃
+    /rose  inf fsd mid b - @es___ 魔力珠を追っているなら私の元へ来るはずよ
+    /      mys             @rose_ 〃
+    /rose  inf fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /      mys             @rose_ 〃
     /lv-11 oth --- --- f - ------ 抱きしめ合う
       .                           アリスは逃げた先の街の外でレオナとミリアに抱きしめられ、自分も二人を抱きしめる
 
@@ -102,10 +102,10 @@
     /nch-1 inf fsd lst f - @es___ ペトラからエスはガルダに封印されているという情報を得る
     /myria act hnt lst f - ------ ミリアの近くに妖精ほどの気配を感じる＝祖母を感じて会いたいと言う
     /lv-11 oth --- --- f - ------ ミリアに私が付いていることを忘れないで、と言って抱き合う
-    /rose  mys fsd lst b - @es___ 「待っていた、このときを。あの子をステージに引っ張り出すのよ」
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose_ 〃
+    /rose  inf fsd lst b - @es___ 「待っていた、このときを。あの子をステージに引っ張り出すのよ」
+    /      mys             @rose_ 〃
+    /rose  inf fsd lst b - $es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /      mys             $rose_ 〃
     /lv-21 oth --- --- b - ------ セックス明け
     /erie  act rsv lst b - ------ ローズに忠誠と何よりの愛を誓う
       .                           「ローズ様に全身全霊の忠誠を誓います。しかし、私の本質は変わらないのです。あのときから……」
@@ -122,8 +122,8 @@
       /erie  oth rsv rec f - ------ レオナを倒しアリスを焚きつける
       /leona str rsv rec f - ------ エリーに敗北する
       /nch-1 inf hnt mid f - @es___ ローズは遷世に望みを懸けているという情報
-      /                      @rose_ 〃
-        .                           エリーも邪教の力を使っていることが分かる
+      /      mys             @rose_ 〃
+      .                             エリーも邪教の力を使っていることが分かる
       /leona bgr rsv 01s f - ------ レオナの元の身分や事情の示唆、今の立場
       /erie  bgr rsv 01s f - ------ エリーの元の身分や事情の示唆、レオナへの恨み
     /lv-11 oth --- --- f - ------ レオナに私が付いていることを忘れないで、と言って抱き合う
@@ -142,12 +142,10 @@
     /leona bgr rsv 01s f - ------ レオナの過去の示唆
     /erie  bgr rsv 01s f - ------ レオナの過去にエリーの話を少し入れる
     /lv-21 oth --- --- b - ------ 屋内で茶を飲む
-    /rose  mys fsd lst b - @es___ 神的事象[mem-nch-1.md]
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ ローズ「私は神に等しいのよ」
-    /                      @rose_ 〃
+    /rose  inf fsd lst b - $es___ 神的事象[mem-nch-1.md]
+    /      mys             $rose_ 〃
+    /rose  inf fsd lst b - @es___ ローズ「私は神にもっとも近い存在」
+    /      mys             @rose_ 〃
     /erie  bgr rsv 01r b - ------ エリーの過去
 
 
@@ -162,10 +160,8 @@
     /lv-11 oth --- --- f ------ 好きと言い合う
     /myria act rsv nxt f - ------ アリスとレオナとミリアが愛を育む
     /lv-21 oth --- --- b - ------ 睦み合い、愛を求めるエリーと愛をうそぶくローズ
-    /rose  mys fsd mid b - @es___ ローズが下腹部を気にする
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose_ 〃
+    /rose  inf fsd mid b - @es___ ローズが下腹部を気にする
+    /      mys             @rose_ 〃
     /fei   oth rsv nxt b - ------ フェイに出動命令をする
     /fei   act rsv nxt b - ------ ローズの誘いを断ってエルフがいると聞いて食指を動かす（エルフへの憧れ）
     /fei   mys sug lst b - ------ 「私はなんだって手に入れる。ローズ様にもらったこの力で」
@@ -183,7 +179,7 @@
       /myria str rsv rec f - ------ フェイの求愛を受けて拒否する
       /fei   bgr rsv 01s f - ------ フェイの過去につながるミリアへの言動 need to think
       /nch-1 inf fsd lst f - @es___ フェイがこの世界がもうすぐ終わることをほのめかす
-        .                           遷世して来世で会いたい人に会えるとミリアを誘惑する
+      .                             遷世して来世で会いたい人に会えるとミリアを誘惑する
     /myria oth hnt lst f - ------ ミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
     /gr-11 str --- --- f - ------ ヴァイツ地方に着くmark-1
     /nch-1 inf --- --- f - @fairl ヴァイツ地方は鉱山が多く畑は実りが少ない、森の木は茂っている（魔力が行き渡っていない）
@@ -201,14 +197,12 @@
     /nch-1 inf --- --- f - @orb__ ガルダの神殿から魔力珠がある本当の場所エリクに行けると知る
       .                           長い期間、情報を集め続ける
     /lv-21 oth --- --- b - ------ 香水や香の調合
-    /rose  mys fsd lst b - @es___ 神的事象[mem-nch-1.md]
-    /                      @rose_ 〃
     /nch-1 inf fsd lst b - ------ ローズがヘストの目を手に入れる
-    /rose  mys fsd lst b - @orb__ 「道が開かれたわ。あの子の」
-    /rose  mys fsd mid b - @es___ ローズが下腹部を押さえて悶える
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose_ 〃
+    /rose  inf fsd lst b - @orb__ 「道が開かれたわ。あの子の」
+    /rose  inf fsd mid b - @es___ ローズが下腹部を押さえて悶える
+    /      mys             @rose_ 〃
+    /rose  inf fsd lst b - $es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /      mys             $rose_ 〃
     /nch-1 inf fsd lst b - @es___ 封印は術者がかけたより多くの魔力を用いて内側から解除できる
     /erie  oth rsv nxt b - ------ エリーに出動命令をする
     /erie  act rsv nxt b - ------ 足止めを命令されて今度こそ殺そうと意気揚々と出る
@@ -255,8 +249,8 @@
       /fei   oth rsv rec f - ------ 強さを見せつけるつもりで出した奥の手で動揺を誘うことができるが引き下がる
       /myria str rsv rec f ------ フェイの反魂魔法に動揺する
       /nch-1 inf fsd lst f - @es___ フェイが世界を終わらせるのはローズだとほのめかす
-        /  mys             @rose_ 〃
-        .                           ミリアを誘惑する
+      /      mys             @rose_ 〃
+      .                             ミリアを誘惑する
     /alice act rsv nxt f - ------ ローズが世界を終わらせようとしていることを知り、止めなければと思う
 
 
@@ -290,10 +284,10 @@
     /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
     /                      @rose_ 〃
     /lv-21 oth --- --- b - ------ 魔素器官を絡めるエロ
-    /rose  mys fsd lst b - @es___ 神的事象[mem-nch-1.md]
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ エリーが予知的にローザの自死を指摘し、エリーの首を絞めながら「私は自死なんてしないわ。できないのよ」
-    /                      @rose_ 〃
+    /rose  oth fsd lst b - $es___ 神的事象[mem-nch-1.md]
+    /                      $rose_ 〃
+    /rose  inf fsd lst b - @es___ エリーが予知的にローザの自死を指摘し、エリーの首を絞めながら「私は自死なんてしないわ。できないのよ」
+    /      mys             @rose_ 〃
     /rose  act rsv nxt b - ------ エリーとフェイの戦いが芳しくなく内心で焦る
 
 
@@ -326,12 +320,12 @@
     /alice act rsv nxt f - ------ ザヴィの子を愛しく思うのと同時にザヴィの子の狂気に戸惑う
     /lv-11 --- --- --- f - ------ 抱き合ってキスをしながら股間に手が伸びるが、やめる
       .                           アリスがローズに敗北して弱いところを見せた
-    /rose  mys fsd lst b - @es___ 神的事象[mem-nch-1.md]
+    /rose  oth fsd lst b - @es___ 神的事象[mem-nch-1.md]
     /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @orb__ 魔力珠に侵される体
-    /                      @rose_ 〃
+    /rose  inf fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /      mys             @rose_ 〃
+    /rose  inf fsd lst b - @orb__ 魔力珠に侵される体
+    /      mys             @rose_ 〃
 
 
 17:
@@ -340,10 +334,10 @@
     note: 
   contents:
     /lv-21 oth --- --- b - ------ 庭の散策をしている
-    /rose  mys fsd lst b - @es___ 神的事象[mem-nch-1.md]
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose_ 〃
+    /rose  oth fsd lst b - $es___ 神的事象[mem-nch-1.md]
+    /                      $rose_ 〃
+    /rose  mys fsd lst b - $es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /                      $rose_ 〃
     /fei   oth rsv nxt b - ------ フェイに出動命令をする
     /fei   act rsv nxt b - ------ もう我慢しないと言う
 
@@ -373,10 +367,6 @@
   contents:
     /nch-1 str --- --- f - ------ エリクに到着する[mem-013.md]
     /rose  --- --- --- b -
-    /rose  mys fsd lst b - @es___ 神的事象[mem-nch-1.md]
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose_ 〃
 
 
 20:
@@ -388,8 +378,8 @@
     /nch-1 inf fsd lst f - @orb__ エリクの神殿遺跡の碑文から魔力珠が世界の根源につながっているという情報
     /alice act rsv nxt f - ------ ザヴィの子との戦いは避けられないが戦えるだろうか……大切なのは今か過去かという苦悩
     /lv-11 --- --- --- f - ------ セックスする
-    /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose_ 〃
+    /rose  mys fsd lst b - $es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /                      $rose_ 〃
 
 
 21:
@@ -397,11 +387,9 @@
     vacancy: true
     note: 
   contents:
-    /rose  mys fsd lst b - @es___ 神的事象[mem-nch-1.md]
-    /                      @rose_ 〃
+    /rose  oth fsd lst b - $es___ 神的事象[mem-nch-1.md]
+    /                      $rose_ 〃
     /lv-21 --- --- --- b - ------ くたくたのエリー
-    /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose_ 〃
     /leona oth rsv nxt b - ------ エリーに出動命令をする
     /alice oth rsv nxt b - @rose_ ローズの邪神ゼーラの権能によるパワーアップ[mem-007.md]
     /erie  oth rsv nxt b - @rose_ エリーの邪神ゼーラの権能によるパワーアップ
@@ -432,10 +420,10 @@
   contents:
     /alice act rsv nxt f - ------ 今こそすべてであり、レオナとミリアが自分にとって一番大切だと気づく
     /rose  --- --- --- b - 
-    /rose  mys fsd lst b - @es___ 神的事象[mem-nch-1.md]
-    /                      @rose_ 〃
-    /rose  mys fsd lst b - @es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose_ 〃
+    /rose  oth fsd lst b - $es___ 神的事象[mem-nch-1.md]
+    /                      $rose_ 〃
+    /rose  mys fsd lst b - $es___ ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /                      $rose_ 〃
 
 
 24:
@@ -449,7 +437,7 @@
       .                           ヨルとザヴィ、そしてローズはエスを封印しにやってきたこと
       .                           エス封印の直後ローズが憑依されてヨルとザヴィを殺したこと
       .                           ヨルとザヴィがエスを狂乱させ、ローズが二人を討って鎮めたと嘘を流布したこと
-      /alice act --- --- f - @es___ 「ザヴィとエルを混同している……？」
+      /alice act --- --- f - $es___ 「ザヴィとエルを混同している……？」
     /nch-1 str --- --- f b !fanta アリスがローズと戦う[mem-010.md]
       /alice str rsv rec f - ------ ローズを倒す
       /nch-1 act fsd rec f - ------ 「馬鹿め！　私を殺したな？」
