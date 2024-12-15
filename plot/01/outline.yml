@@ -1,11 +1,11 @@
 # プロット概要 第1章
 1:
   meta:
+    note: 
     vacancy: false
     ordeal: 
     background: 
     summary: レオナと合流し、魔力珠を探すことにする
-    note: 
   contents:
     /nch-1 mod --- --- f - !envir 周囲は森
     /alice str --- --- f - ------ アリスが地下から出てくる
@@ -31,18 +31,18 @@
 
 2:
   meta:
+    note: 
     vacancy: false
     ordeal: 
     background: 
     summary: ミリアを助け、ミリアと合流する
-    note: 
   contents:
     /nch-1 mod --- --- f - !histo 神殿の描写
     /nch-1 mod --- --- f - !fanta 神獣の描写
     /nch-1 mod --- --- f - !histo 神殿の周りの兵士の描写
     /leona act --- --- f - ------ レオナはすぐに助けにいこうとする
     /alice act --- --- f - ------ アリスは周囲の噂を聞こうとする
-    /nch-1 inf hnt mid f - @orb__ 遷世教団は次の世界に連れていってもらうことを目指していると知る
+    /nch-1 inf hnt mid f - @es___ 遷世教団は次の世界に連れていってもらうことを目指していると知る
     /nch-1 oth --- --- f b !fanta 神獣との戦い（アリスが鎮める）
     /gr-11 str --- --- f - ------ ミリアを助ける
     /lv-11 oth --- --- f - ------ ミリアと手をつなぐ
@@ -57,15 +57,15 @@
 
 3:
   meta:
+    note: 
     vacancy: false
     ordeal: アリス
     background: 
     summary: 遷世教団に侵入してローズと戦い逃亡する
-    note: 
   contents:
     /gr-11 str --- --- f - ------ 魔力珠の秘密を探るために遷世教団に潜入する
     /alice oth rsv nxt f - ------ 「ローズ様は女神のようだ」
-    /nch-1 inf hnt mid f - @orb__ 次の世界へ連れていってくれるのはエスという情報
+    /nch-1 inf hnt mid f - @es___ 次の世界へ連れていってくれるのはエスという情報
     /nch-1 inf --- --- f - @orb__ 遷世教団での聞き込みでガルダはヴァイツ地方にあると知る
     /rose  inf sug lst b - @es___ 私はエスの御許へ還ります」
     /      mys             @rose_ 〃
@@ -97,11 +97,11 @@
 
 4:
   meta:
+    note: 
     vacancy: false
     ordeal: 
     background: 
     summary: ヴァイツ地方へ向かう道中ペトラを助けて合流する
-    note: 
   contents:
     /nch-1 str --- --- f - ------ ヴァイツ地方へ向かうmark-1
     /alice act rsv nxt f - @alice ザヴィの子が生きていたことに喜びと戸惑いを示す
@@ -126,11 +126,11 @@
 
 5:
   meta:
+    note: 
     vacancy: false
     ordeal: レオナ
     background: エリー
     summary: ペトラは新たな森を探す決心をし、レオナがエリーと戦い敗北する
-    note: 
   contents:
     /petra str rsv rec f - ------ 新たな森を探す決断をする
     /nch-1 str --- --- f b !fanta レオナがエリーと戦う
@@ -152,35 +152,39 @@
 
 6:
   meta:
-    vacancy: true
+    note: 
+    vacancy: false
     ordeal: 
     background: レオナ
     summary: レオナの訓練を始める
-    note: 
   contents:
     /petra act --- --- f - ------ ペトラが勇気を出して祠のことをアリスに伝える
       .                           ペトラが遊び歩いて祠を見つけアリスに有用と思うも遊び歩いたことがバレると恐れ、でも勇気を出して伝える
     /nch-1 inf fsd lst f - @es___ エスは別の名（ヘストは出さない、不明の名）で祀られていたことを知る
-    /alice act rsv nxt f - ------ ザヴィの子の手下が攻撃してきて仲間を傷つけたことに戸惑いを示す
+    /alice act rsv nxt f - @alice ザヴィの子の手下が攻撃してきて仲間を傷つけたことに戸惑いを示す
     /leona str rsv nxt f - ------ アリスがレオナを訓練する
     /leona bgr rsv 01r f - ------ レオナの過去[thi-018.md]
 
 
 7:
   meta:
-    vacancy: true
+    note: 
+    vacancy: false
     ordeal: 
     background: 
     summary: 
-    note: 
   contents:
+    /gr-11 oth --- --- f - ------ 街に寄る
+    /nch-1 inf --- --- f - @orb__ ヴァイツ地方の言い伝えで魔力珠は空にあると言われていると聞く
+    /nch-1 inf --- --- f - @es___ エスについて尋ねると耳が遠くてヘストに聞き違えたおじさんは魔力珠と同じところにあると言われる
+    /nch-1 inf --- --- f - @fairl ヴァイツ地方に塩漬け野菜を売りに行く話を聞く
     /leona oth rsv nxt f - ------ 訓練の様子を描く
     /myria act rsv lst f - @myria 祖母を思う
     /lv-11 oth --- --- f - ------ 好きと言い合う
     /myria act rsv nxt f - ------ アリスとレオナとミリアが愛を育む
     /lv-21 oth --- --- b - ------ 睦み合い、愛を求めるエリーと愛をうそぶくローズ
-    /rose  inf fsd mid b - @es___ ローズが下腹部を気にする
-    /      mys             @rose_ 〃
+    /nch-1 inf fsd mid b - @es___ ローズが下腹部を気にする
+    /rose  mys             @rose_ 〃
     /fei   oth rsv nxt b - ------ フェイに出動命令をする
     /fei   act rsv nxt b - ------ ローズの誘いを断ってエルフがいると聞いて食指を動かす（エルフへの憧れ）
     /fei   mys sug lst b - ------ 「私はなんだって手に入れる。ローズ様にもらったこの力で」
@@ -188,11 +192,11 @@
 
 8:
   meta:
-    vacancy: true
+    note: 
+    vacancy: false
     ordeal: ミリア
     background: 
     summary: ヴァイツ地方に着く, ミリアがフェイと戦い誘いを拒絶する
-    note: 
   contents:
     /leona oth rsv nxt f - ------ 訓練の様子を描く
     /alice act rsv nxt f - @alice ザヴィの子が何を考えているのか分からず戸惑いを示す
@@ -211,17 +215,16 @@
 
 9:
   meta:
-    vacancy: true
+    note: 
+    vacancy: false
     ordeal: 
     background: フェイ
     summary: ペトラが新たな森に定住することにする
-    note: 
   contents:
     /petra str rsv nxt f - @fairl 新たな森が見つかる
     /petra str rsv rec f - ------ 新たな森に定住する決断をする
     /leona oth rsv nxt f - ------ 訓練の様子を描く
     /nch-1 inf --- --- f - @orb__ ガルダの神殿から魔力珠がある本当の場所エリクに行けると知る
-      .                           長い期間、情報を集め続ける
     /lv-21 oth --- --- b - ------ 香水や香の調合
     /nch-1 inf fsd lst b - ------ ローズがヘストの目を手に入れる
     /rose  inf fsd lst b - @orb__ 「道が開かれたわ。あの子の」
@@ -237,11 +240,11 @@
 
 10:
   meta:
+    note: 非キャラプロットに関する要素が欲しい
     vacancy: true
     ordeal: 
     background: ミリア
     summary: エリク研究家のマクスを知る
-    note: 
   contents:
     /leona oth rsv nxt f - ------ 訓練の様子を描く
     /nch-1 inf --- --- f - @orb__ 酒場の老人からエリク研究家のマクスを知る
@@ -253,16 +256,17 @@
 
 11:
   meta:
+    note: 
     vacancy: false
     ordeal: レオナ
     background: 
     summary: マクスの研究施設だった廃屋を訪れる, レオナがエリーといい勝負をする
-    note: 
   contents:
     /gr-11 str --- --- f - ------ マクスの研究施設だった廃屋を訪れる
     /nch-1 inf --- --- f - @orb__ マクスからエリクを指し示す魔導具イェスケの道標がノーフの祭壇にあることを知る[mem-002.md]
     /nch-1 inf --- --- f - @myria マクスからエリクにはエルフの英知が眠っている可能性があると知る
     /nch-1 inf fsd lst f - @orb__ ヘストの目を合わせるとイェスケの道標が作動するという情報
+    /gr-11 str --- --- f - @orb__ ノーフの町へ向かうmark-1
     /erie  oth rsv nxt b - ------ エリーがアリスたちの後でイェスケの道標がノーフの祭壇にあることを知る
     /lv-11 oth --- --- f - ------ キスする
     /leona str --- --- f b !fanta
@@ -273,16 +277,16 @@
 
 12:
   meta:
+    note: 
     vacancy: false
     ordeal: ミリア
     background: 
     summary: 妖精女王が動く, ミリアがフェイと戦い誘いに動揺する
-    note: 
   contents:
     /petra str rsv nxt f - @fairl 妖精女王が動く
     /nch-1 str --- --- f b !fanta ミリアがフェイと戦う
       /fei   oth rsv rec f - ------ 強さを見せつけるつもりで出した奥の手で動揺を誘うことができるが引き下がる
-      /myria str rsv rec f ------ フェイの反魂魔法に動揺する
+      /myria str rsv rec f - ------ フェイの反魂魔法に動揺する
       /nch-1 inf fsd lst f - @es___ フェイが世界を終わらせるのはローズだとほのめかす
       /      mys             @rose_ 〃
       .                             ミリアを誘惑する
@@ -291,26 +295,26 @@
 
 13:
   meta:
+    note: 
     vacancy: false
     ordeal: 
     background: 
     summary: 水着回
-    note: 
   contents:
 
 
 14:
   meta:
-    vacancy: true
+    note: 
+    vacancy: false
     ordeal: 
     background: 
     summary: ペトラが妖精領主になることを決断する
-    note: 
   contents:
     /petra str rsv rec f - @fairl 妖精領主になる決断をする
     /petra act sug rec f - ------ 「領主になるのは不安だった。でも、私は本当の勇敢な女の子になったから！」
     /nch-1 inf fsd lst f - @es___ 神ヘストは過去に邪神ゼーラの力によって狂乱してヴァン文明が崩壊したという情報
-    /nch-1 inf fsd lst f - @es___ 神ヘストはどこかに封印されていると知る
+    /nch-1 inf fsd lst f - @es___ 神ヘストはエリクに封印されていると知る
     /alice act rsv nxt f - ------ ローズたちを敵対視するレオナとミリアに対してローズについて擁護的なことを言う
     /alice bgr rsv 01s f - ------ アリスの過去につながる擁護の理由
     /lv-11 oth --- --- f - ------ 抱き合ってキスをしながらうっかり尻を触ってしまう
@@ -318,11 +322,11 @@
 
 15:
   meta:
-    vacancy: true
+    note: 
+    vacancy: false
     ordeal: 
     background: アリス
     summary: 
-    note: 
   contents:
     /petra --- --- --- f - ------ ペトラが
     /nch-1 inf fsd lst f - @es___ エスが古の移ろいの神ヘストであることに気づく
@@ -344,33 +348,36 @@
 
 16:
   meta:
+    note: 
     vacancy: false
     ordeal: アリス
     background: 
     summary: ノーフでイェスケの道標のコピーを手に入れる, アリスがローズと戦い敗北する
-    note: 
   contents:
-    /nch-1 str --- --- f - ------ ノーフでイェスケの道標の機能をコピーして手に入れる
+    /gr-11 str --- --- f - @orb__ ノーフに到着するmark-1
+    /nch-1 str --- --- f - @orb__ ノーフでイェスケの道標の機能をコピーして手に入れる
     /nch-1 inf --- --- f - @es___ ノーフでヘストと関連する神具が見つかる
     /rose  mys fsd lst b - @es___「どうせあの子は死なないもの。少々手荒になってもいいわよね……」
     /nch-1 str --- --- f b !fanta アリスがローズと戦う
       /rose  oth rsv rec f - ------ 強さを見せつけて思い知らせる、優越感を取り戻す
         .                           ローズはエリーとフェイを補佐として同行させている（戦わせない）
       /alice str rsv rec f - ------ ローズとまともに戦えず怪我をする[mem-009.md]
-    /nch-1 inf hnt rec f - @es___ ローズが母ザヴィと再会するためにエスを狂乱させて世界を滅亡させると言う
+    /nch-1 inf hnt rec f - @es___ ローズが母ザヴィと再会するためにエリクに封印されているエスを解き放って狂乱させて世界を滅亡させると言う
     /nch-1 act --- --- f - @rose_ ローズが魔法力を使い過ぎて支障を来す吐血する
     /nch-1 act --- --- f - @rose_ ローズは魔力珠に侵された体を見せる
     /nch-1 inf fsd rec f - @orb__ 魔力珠がローズの体内にあることを知る
     /nch-1 inf fsd lst f - @orb__ 〃
+    /alice str --- --- f - ------ 魔力珠は置いておいてもローズを止めるためにエリクに行く必要が出てくる
+    /alice act --- --- f - ------ ローズの体を心配する
 
 
 17:
   meta:
+    note: 非キャラプロットに関する要素が欲しい
     vacancy: true
     ordeal: 
     background: 
     summary: ヴァイツ地方に魔力が満ちて作物がよく育つ
-    note: 
   contents:
     /petra str --- --- f - @fairl ヴァイツ地方に魔力が満ちて畑の作物がよく育つ
     /nch-1 inf --- --- f - @fairl 妖精の秘密が開示される（魔力をまく存在） need to think
@@ -387,31 +394,31 @@
 
 18:
   meta:
+    note: 
     vacancy: true
     ordeal: 
     background: 
     summary: -
-    note: 
   contents:
 
 
 19:
   meta:
+    note: 
     vacancy: true
     ordeal: 
     background: 
     summary: -
-    note: 
   contents:
 
 
 20:
   meta:
+    note: 
     vacancy: false
     ordeal: ミリア
     background: 
     summary: カルダに到着する, ミリアがハイエルフの叡智を手に入れ祖母と再会する
-    note: 
   contents:
     /nch-1 str --- --- f - ------ カルダに到着する
     /myria act rsv nxt f - ------ 祖母には謝りたい。でもそれから？それからどうするの？　大好きなアリスとレオナの元には戻れない……
@@ -437,11 +444,11 @@
 
 21:
   meta:
+    note: 
     vacancy: true
     ordeal: 
     background: 
     summary: -
-    note: 
   contents:
     /lv-21 oth --- --- b - ------ 庭の散策をしている
     /rose  oth fsd lst b - $es___ 神的事象[mem-nch-1.md]
@@ -454,11 +461,11 @@
 
 22:
   meta:
+    note: 
     vacancy: false
     ordeal: レオナ
     background: 
     summary: エリクに到着する
-    note: 
   contents:
     /nch-1 str --- --- f - ------ エリクに到着する[mem-013.md]
     /nch-1 inf fsd lst f - @es___ エリクの神殿遺跡の碑文からヘストの力が狂乱し封印したという情報
@@ -478,11 +485,11 @@
 
 23:
   meta:
+    note: 
     vacancy: true
     ordeal: 
     background: 
     summary: 
-    note: 
   contents:
     /lv-11 --- --- --- f - ------ レオナから仕掛ける
     /alice act rsv nxt f - ------ 今こそすべてであり、レオナとミリアが自分にとって一番大切だと気づく
@@ -490,11 +497,11 @@
 
 24:
   meta:
+    note: 
     vacancy: false
     ordeal: アリス
     background: 
     summary: 
-    note: 
   contents:
     /nch-1 inf fsd rec f - @orb__ ローズが混濁する意識の中で真実を明かす
     /                      @es___ 〃
@@ -515,11 +522,11 @@
 
 25:
   meta:
+    note: 
     vacancy: true
     ordeal: 
     background: 
     summary: エリクから脱出する
-    note: 
   contents:
     /nch-1 oth --- --- f - ------ 開闢の光が満ち、当たり前の視界が戻ったときには魔力珠だけが残っていた
     /nch-1 gds fsd rec f - ------ 魔力珠を手に入れる

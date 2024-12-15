@@ -107,6 +107,7 @@
 - thinking-notes/thi-034.md: ハイエルフの叡智
 - thinking-notes/thi-035.md: アリスの予兆的示唆
 - thinking-notes/thi-036.md: 後半のペトラとプロット
+- thinking-notes/thi-037.md: プロットの不足を補う
 
 
 ### 廃止
