@@ -43,6 +43,7 @@
 
 ### メモ
 #### 第1章
+- memo/01/mem-000.md: 一時メモ
 - memo/01/mem-001.md: ローズが蘇生させるシーン
 - memo/01/mem-002.md: マクスの手記
 - memo/01/mem-003.md: SAVE THE CAT

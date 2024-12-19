@@ -21,11 +21,11 @@ details:
         normaly:
           - 意のままに振る舞う
     desire:
-      contents:
+      title:
         - 魔力珠を手に入れたい（新しい物質）
       conflict:
         - ローズ
-      past connected to desire:
+      background connected to desire:
         - 世界を生んだから世界に生まれる新しいものに興味がある
         - 上位人族の始祖の始祖を作った
     ordeal:
@@ -57,11 +57,11 @@ details:
         normaly:
           - 何事にも前向き
     desire:
-      contents:
+      title:
         - 強くなりたい
       conflict:
         - エリー
-      past connected to desire:
+      background connected to desire:
         - 国を滅ぼされ親族を失った
     ordeal:
       title:
@@ -92,11 +92,11 @@ details:
         normaly:
           - 面倒見がいい
     desire:
-      contents:
+      title:
         - 魔法を学びたい
       conflict:
         - フェイ
-      past connected to desire:
+      background connected to desire:
         - 祖母に魔法を教わった思い出
     ordeal:
       title:
@@ -127,11 +127,11 @@ details:
         normaly:
           - はしゃいでいる
     desire:
-      contents:
+      title:
         - 名声を得たい
       conflict:
         - 臆病な自分
-      past connected to desire:
+      background connected to desire:
         - なし
     ordeal:
       title:
@@ -162,11 +162,11 @@ details:
         normaly:
           - 意のままに振る舞う
     desire:
-      contents:
+      title:
         - false= 遷世したい, true= 人族を滅亡させたい
       conflict:
         - アリス
-      past connected to desire:
+      background connected to desire:
         - false= 親が殺された, true= エスが邪神に狂わされている
     ordeal:
       title:
@@ -197,11 +197,11 @@ details:
         normaly:
           - 冷静沈着
     desire:
-      contents:
+      title:
         - レオナに復讐したい
       conflict:
         - レオナ
-      past connected to desire:
+      background connected to desire:
         - 国を滅ぼされ親族を失った
     ordeal:
       title:
@@ -232,11 +232,11 @@ details:
         normaly:
           - 派手
     desire:
-      contents:
+      title:
         - ミリアを手に入れたい
       conflict:
         - ミリアがなびかない
-      past connected to desire:
+      background connected to desire:
         - ローズの城で宮廷魔法使いをしていた
     ordeal:
       title:
