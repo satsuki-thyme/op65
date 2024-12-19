@@ -39,24 +39,6 @@ detail:
             - 人生を楽しむための老獪さを持ったリアリスト
             - 今を堪能する幸福原理主義者
             - 
-          uniq characteristic:
-            name: 
-            entities:
-              - name: 極端性
-                contents: 
-
-              - name: 希少性
-                contents: 
-
-              - name: 未知性
-                contents: 
-
-              - name: 秘密性
-                contents: 
-
-              - name: 違和感
-                contents: 
-
           special skills:
             - 全能
             - 
@@ -177,6 +159,15 @@ detail:
             - name: 不測の困難
               contents: 
 
+            - name: 得意なことを発揮する場面
+              contents: 
+
+            - name: 弱みが露呈する場面
+              contents: 
+
+            - name: 想定外の一面を見せる場面
+              contents: 
+
         appearance:
           overview: セイバー
           eye-catching features: 
@@ -230,24 +221,6 @@ detail:
             - さっぱりしてお茶目（岩崎さん）
             - 非常時には常識的なことを言って驚いているが内心では動じていない
             - 
-          uniq characteristic:
-            name: 
-            entities:
-              - name: 極端
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
           special skills:
             - 剣
             - 
@@ -368,6 +341,15 @@ detail:
             - name: 不測の困難
               contents: 
 
+            - name: 得意なことを発揮する場面
+              contents: 
+
+            - name: 弱みが露呈する場面
+              contents: 
+
+            - name: 想定外の一面を見せる場面
+              contents: 
+
         appearance:
           overview: 神秘的な美少女
           eye-catching features: 深い青のロングヘアが印象的だ
@@ -421,24 +403,6 @@ detail:
             - 
             - 
             - 
-          uniq characteristic:
-            name: 
-            entities:
-              - name: 極端
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
           special skills:
             - 
             - 
@@ -557,6 +521,15 @@ detail:
               contents: 
 
             - name: 不測の困難
+              contents: 
+
+            - name: 得意なことを発揮する場面
+              contents: 
+
+            - name: 弱みが露呈する場面
+              contents: 
+
+            - name: 想定外の一面を見せる場面
               contents: 
 
         appearance:
@@ -612,24 +585,6 @@ detail:
             - 
             - 
             - 
-          uniq characteristic:
-            name: 
-            entities:
-              - name: 極端
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
           special skills:
             - 
             - 
@@ -748,6 +703,15 @@ detail:
               contents: 
 
             - name: 不測の困難
+              contents: 
+
+            - name: 得意なことを発揮する場面
+              contents: 
+
+            - name: 弱みが露呈する場面
+              contents: 
+
+            - name: 想定外の一面を見せる場面
               contents: 
 
         appearance:
@@ -807,24 +771,6 @@ detail:
             - 
             - 
             - 
-          uniq characteristic:
-            name: 
-            entities:
-              - name: 極端
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
           special skills:
             - 魔法使い
             - 
@@ -945,6 +891,15 @@ detail:
             - name: 不測の困難
               contents: 
 
+            - name: 得意なことを発揮する場面
+              contents: 
+
+            - name: 弱みが露呈する場面
+              contents: 
+
+            - name: 想定外の一面を見せる場面
+              contents: 
+
         appearance:
           overview: 
           eye-catching features: 
@@ -998,24 +953,6 @@ detail:
             - 
             - 
             - 
-          uniq characteristic:
-            name: 
-            entities:
-              - name: 極端
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
           special skills:
             - 格闘家
             - 
@@ -1136,6 +1073,15 @@ detail:
             - name: 不測の困難
               contents: 
 
+            - name: 得意なことを発揮する場面
+              contents: 
+
+            - name: 弱みが露呈する場面
+              contents: 
+
+            - name: 想定外の一面を見せる場面
+              contents: 
+
         appearance:
           overview: 
           eye-catching features: 
@@ -1189,24 +1135,6 @@ detail:
             - 
             - 
             - 
-          uniq characteristic:
-            name: 
-            entities:
-              - name: 極端
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
-              - name: 
-                contents: 
-
           special skills:
             - 召喚師
             - 
@@ -1325,6 +1253,15 @@ detail:
               contents: 
 
             - name: 不測の困難
+              contents: 
+
+            - name: 得意なことを発揮する場面
+              contents: 
+
+            - name: 弱みが露呈する場面
+              contents: 
+
+            - name: 想定外の一面を見せる場面
               contents: 
 
         appearance:

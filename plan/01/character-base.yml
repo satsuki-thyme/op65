@@ -1,6 +1,6 @@
 # キャラクターの基本設計
-## キャラクターの概要比較
-character overview comparison:
+## 概要比較
+overview comparison:
   - アリス　突き進む、心配事は概念にない
   - レオナ　常識人、理性的と感情のバランス型
   - ミリア　優しく気弱、不安が多く怖がり
@@ -23,11 +23,11 @@ details:
     desire:
       title:
         - 魔力珠を手に入れたい（新しい物質）
+        - 世界を崩壊から救いたい
       conflict:
         - ローズ
       background connected to desire:
         - 世界を生んだから世界に生まれる新しいものに興味がある
-        - 上位人族の始祖の始祖を作った
     ordeal:
       title:
         - 過去を諦められるか
@@ -36,7 +36,7 @@ details:
       collision opponent:
         - ローズ
       how to overcome:
-        - 我が子ローズを殺す
+        - 子孫であるローズを殺す
       inner change:
         - 過去より今の幸福が大切であることに気づく
       right point:
@@ -44,7 +44,24 @@ details:
       wrong point:
         - なし
     what to do:
-      - 子の騒動に終止符を打つ
+      - 子孫の騒動に終止符を打つ
+    uniq characteristic:
+      name: 原初の少女
+      entities:
+        - name: 極端性
+          contents: 原初
+
+        - name: 希少性
+          contents: 原初の少女
+
+        - name: 未知性
+          contents: 原初の少女
+
+        - name: 秘密性
+          contents: 原初の少女
+
+        - name: 違和感
+          contents: なし
 
 
   - name: レオナ
@@ -67,7 +84,7 @@ details:
       title:
         - 生きる意味を見出せるか
       facing the inner self:
-        - 生きる理由が見つからない状況
+        - 強くなりたい欲求はあるのに、その意味が見出せない
       collision opponent:
         - エリー
       how to overcome:
@@ -80,6 +97,23 @@ details:
         - なし
     what to do:
       - 過去を乗り越えることで生きる意味を見つける
+    uniq characteristic:
+      name: 王女
+      entities:
+        - name: 極端性
+          contents: 王女
+
+        - name: 希少性
+          contents: 王女
+
+        - name: 未知性
+          contents: なし
+
+        - name: 秘密性
+          contents: 王女
+
+        - name: 違和感
+          contents: 王女が一人で活動している
 
 
   - name: ミリア
@@ -115,6 +149,23 @@ details:
         - なし
     what to do:
       - 過去に折り合いをつけて前向きに歩きだす
+    uniq characteristic:
+      name: ハイエルフの叡智を求めるエルフ
+      entities:
+        - name: 極端性
+          contents: ハイエルフの叡智
+
+        - name: 希少性
+          contents: ハイエルフの叡智
+
+        - name: 未知性
+          contents: ハイエルフの叡智
+
+        - name: 秘密性
+          contents: ハイエルフの叡智
+
+        - name: 違和感
+          contents: なし
 
 
   - character: ペトラ
@@ -150,6 +201,23 @@ details:
         - なし
     what to do:
       - 勇気とは何かを知って頼もしくなる
+    uniq characteristic:
+      name: 
+      entities:
+        - name: 極端性
+          contents: 
+
+        - name: 希少性
+          contents: 
+
+        - name: 未知性
+          contents: 
+
+        - name: 秘密性
+          contents: 
+
+        - name: 違和感
+          contents: 
 
 
   - name: ローズ
@@ -185,6 +253,23 @@ details:
         - なし
     what to do:
       - エスを解放して人族を滅亡させるために死ぬ
+    uniq characteristic:
+      name: 
+      entities:
+        - name: 極端性
+          contents: 
+
+        - name: 希少性
+          contents: 
+
+        - name: 未知性
+          contents: 
+
+        - name: 秘密性
+          contents: 
+
+        - name: 違和感
+          contents: 
 
 
   - name: エリー
@@ -220,6 +305,23 @@ details:
         - 復讐心を貫いてしまった
     what to do:
       - 復讐に身を委ねて死ぬ
+    uniq characteristic:
+      name: 
+      entities:
+        - name: 極端性
+          contents: 
+
+        - name: 希少性
+          contents: 
+
+        - name: 未知性
+          contents: 
+
+        - name: 秘密性
+          contents: 
+
+        - name: 違和感
+          contents: 
 
 
   - name: フェイ
@@ -255,3 +357,20 @@ details:
         - 諦められなかった
     what to do:
       - ミリアを力尽くで得ようとして死ぬ
+    uniq characteristic:
+      name: 
+      entities:
+        - name: 極端性
+          contents: 
+
+        - name: 希少性
+          contents: 
+
+        - name: 未知性
+          contents: 
+
+        - name: 秘密性
+          contents: 
+
+        - name: 違和感
+          contents: 

@@ -7,12 +7,14 @@
 
 ### 設計
 #### 全体
+- plan/00/init.yml:      初期構想
 - plan/00/title-idea.md: タイトル案
 
 
 #### 第1章
 - plan/01/init.yml:           初期構想 第1章
-- plan/01/character-base.yml: 基本設計 第1章
+- plan/01/character-base.yml: キャラクターの基本設計 第1章
+- plan/01/title-idea.md: タイトル案
 
 
 #### 第2章
