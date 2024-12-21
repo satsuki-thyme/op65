@@ -24,7 +24,7 @@
                                       .「違いますよ」悲しげな色がよぎった
     /nCh-1 inf hin mid f - @es    --- レオナからヨルとザヴィの話を聞く[mem-005.md]
     /alice act res nex f - @alice fam 子孫が死んでいることに深い悲しみを示す
-    /nCh-1 inf fSh las f - @es    --- ヨルとザヴィが使徒を発狂させるはずがないこと
+    /nCh-1 inf for las f - @es    --- ヨルとザヴィが使徒を発狂させるはずがないこと
     /nCh-1 inf --- --- f - @orb   --- ヨルとザヴィにも関係がある魔力珠がガルダにあると知る
     /alice str --- --- f - ------ --- 魔力珠を探すことにする[mem-006.md]
     /gr-11 str --- --- f - ------ --- レオナとともに旅することになる
@@ -77,26 +77,26 @@
     /rose  inf sug las b - @es    --- 私はエスの御許へ還ります」
     /      mys             @rose  es  〃
     /nCh-1 inf --- --- b - ------ --- ローズ「神獣の呪いが解けたのは気に掛かるわね」
-    /nCh-1 inf fSh las f - @es    --- アリスがローズに神の気配を感じる
+    /nCh-1 inf for las f - @es    --- アリスがローズに神の気配を感じる
     /      mys             @rose  es  〃
     /nCh-1 inf --- --- f - @es    --- ローズがザヴィに似ていてザヴィの名にローズが反応し子孫だと分かる
     /                      @rose  fam 〃
     /                      @alice fam 〃
-    /rose  mys fSh las f - @rose  fam ローズが界を封じる指輪（封界の指輪）に気づく[mem-008.md]
+    /rose  mys for las f - @rose  fam ローズが界を封じる指輪（封界の指輪）に気づく[mem-008.md]
     /alice str res rec f b !fanta --- ローズと戦う
       /alice str --- --- f - ------ --- ローズが子だと分かり攻撃できず逃げ出す
       /alice act --- --- f - ------ --- 室内で強力な攻撃をされ、周囲に被害が及ぶのを避けるために逃げるしかなかった
-    /rose  inf fSh las b - @es    --- ローズ「私は神に等しいのよ」
+    /rose  inf for las b - @es    --- ローズ「私は神に等しいのよ」
     /      mys             @rose  es  〃
-    /rose  inf fSh las b - @es    --- アリスを見つけて泳がせる「やっと見つけた」
+    /rose  inf for las b - @es    --- アリスを見つけて泳がせる「やっと見つけた」
     /      mys             @rose  es  〃
     /rose  inf --- --- b - @orb   --- エリーとフェイが来て「本当に魔力珠で釣られましたね」
     /      mys             @rose  orb 〃
     /rose  inf res las b - @es    --- やっとこのときが来たんだわ
     /      mys             @rose  es  〃
-    /rose  inf fSh mid b - @es    --- 魔力珠を追っているなら私の元へ来るはずよ
+    /rose  inf for mid b - @es    --- 魔力珠を追っているなら私の元へ来るはずよ
     /      mys             @rose  orb 〃
-    /rose  inf fSh las b - @es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /rose  inf for las b - @es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
     /      mys             @rose  es  〃
     /lo-11 oth --- --- f - ------ --- 抱きしめ合う
                                       .アリスは逃げた先の街の外でレオナとミリアに抱きしめられ、自分も二人を抱きしめる
@@ -119,12 +119,12 @@
     /petra act sug las f - @petra bra 「私は勇敢な女の子なの！」
     /petra oth res nex f - ------ --- アリスに蛮勇は駄目、真の勇気を持たなきゃ、と言われる
     /nCh-1 inf res nex f - @petra fai 森に妖精が増えすぎている
-    /nCh-1 inf fSh las f - @es    --- ペトラからエスはガルダに封印されているという情報を得る
+    /nCh-1 inf for las f - @es    --- ペトラからエスはガルダに封印されているという情報を得る
     /myria act hin las f - @myria gMo ミリアの近くに妖精ほどの気配を感じる＝祖母を感じて会いたいと言う
     /lo-11 oth --- --- f - ------ --- ミリアに私が付いていることを忘れないで、と言って抱き合う
-    /rose  inf fSh las b - @es    --- 「待っていた、このときを。あの子をステージに引っ張り出すのよ」
+    /rose  inf for las b - @es    --- 「待っていた、このときを。あの子をステージに引っ張り出すのよ」
     /      mys             @rose  es  〃
-    /rose  inf fSh las b - $es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /rose  inf for las b - $es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
     /      mys             $rose  es  〃
     /lo-21 oth --- --- b - ------ --- セックス明け
     /erie  act res las b - ------ --- ローズに忠誠と何よりの愛を誓う
@@ -152,9 +152,9 @@
       /erie  bGr res 01s f - ------ --- エリーの元の身分や事情の示唆、レオナへの恨み
     /lo-11 oth --- --- f - ------ --- レオナに私が付いていることを忘れないで、と言って抱き合う
     /lo-21 oth --- --- b - ------ --- 屋内で茶を飲む
-    /rose  inf fSh las b - $es    --- 神的事象[mem-nCh-1.md]
+    /rose  inf for las b - $es    --- 神的事象[mem-nCh-1.md]
     /      mys             $rose  es  〃
-    /rose  inf fSh las b - @es    --- ローズ「私は神にもっとも近い存在」
+    /rose  inf for las b - @es    --- ローズ「私は神にもっとも近い存在」
     /      mys             @rose  es  〃
     /erie  bGr res 01r b - ------ --- エリーの過去
 
@@ -170,7 +170,7 @@
   contents:
     /petra act --- --- f - @petra bra ペトラが勇気を出して祠のことをアリスに伝える
                                       .ペトラが遊び歩いて祠を見つけアリスに有用と思うも遊び歩いたことがバレると恐れ、でも勇気を出して伝える
-    /nCh-1 inf fSh las f - @es    --- エスは別の名（ヘストは出さない、不明の名）で祀られていたことを知る
+    /nCh-1 inf for las f - @es    --- エスは別の名（ヘストは出さない、不明の名）で祀られていたことを知る
     /alice act res nex f - $alice fam ザヴィの子の手下が攻撃してきて仲間を傷つけたことに戸惑いを示す
     /leona str res nex f - @leona pas アリスがレオナを訓練する
     /leona bGr res 01r f - ------ --- レオナの過去[thi-018.md]
@@ -194,7 +194,7 @@
     /lo-11 oth --- --- f - ------ --- 好きと言い合う
     /myria act res nex f - ------ --- アリスとレオナとミリアが愛を育む
     /lo-21 oth --- --- b - ------ --- 睦み合い、愛を求めるエリーと愛をうそぶくローズ
-    /nCh-1 inf fSh mid b - @es    --- ローズが下腹部を気にする
+    /nCh-1 inf for mid b - @es    --- ローズが下腹部を気にする
     /rose  mys             @rose  orb 〃
     /fei   oth res nex b - ------ --- フェイに出動命令をする[mem-015.md]
     /fei   act res nex b - ------ --- ローズの誘いを断ってエルフがいると聞いて食指を動かす（エルフへの憧れ）
@@ -204,19 +204,19 @@
 8:
   meta:
     note: 
-    vacancy: false
+    vacancy: true
     ordeal: ミリア
     background: 
     place: 森の道, ヴァイツ地方に到着
     summary: ミリアがフェイと戦い誘いを拒絶する
   contents:
-    /leona oth res nex f - ------ --- 訓練の様子を描く
+    /leona oth res nex f - $leona pas 訓練の様子を描く
     /alice act res nex f - $alice fam ザヴィの子が何を考えているのか分からず戸惑いを示す
     /nCh-1 str --- --- f b !fanta --- ミリアがフェイと戦う
       /fei   oth res rec f - ------ --- 優位に戦い誘惑するが断られて引き下がる
       /myria str res rec f - ------ --- フェイの求愛を受けて拒否する
       /fei   bGr res 01s f - ------ --- フェイの過去につながるミリアへの言動
-      /nCh-1 inf fSh las f - @es    --- フェイがこの世界がもうすぐ終わることをほのめかす
+      /nCh-1 inf for las f - @es    --- フェイがこの世界がもうすぐ終わることをほのめかす
                                         .遷世して来世で会いたい人に会えるとミリアを誘惑する
     /myria oth hin las f - $myria gMo ミリアの近くに妖精ほどの気配を感じる＝祖母の思念体
     /gr-11 str --- --- f - ------ --- ヴァイツ地方に着く
@@ -227,7 +227,7 @@
 
 9:
   meta:
-    note: 
+    note: アリスたちはほとんど何もしていない
     vacancy: true
     ordeal: 
     background: フェイ
@@ -239,13 +239,13 @@
     /leona oth res nex f - $leona pas 訓練の様子を描く
     /nCh-1 inf --- --- f - @orb   --- ガルダの神殿から魔力珠がある本当の場所エリクに行けると知る
     /lo-21 oth --- --- b - ------ --- 香水や香の調合
-    /nCh-1 inf fSh las b - ------ --- ローズがヘストの目を手に入れる
-    /rose  inf fSh las b - @orb   --- 「道が開かれたわ。あの子の」
-    /rose  inf fSh mid b - $es    --- ローズが下腹部を押さえて悶える
+    /nCh-1 inf for las b - ------ --- ローズがヘストの目を手に入れる
+    /rose  inf for las b - @orb   --- 「道が開かれたわ。あの子の」
+    /rose  inf for mid b - $es    --- ローズが下腹部を押さえて悶える
     /      mys             $rose  es  〃
-    /rose  inf fSh las b - $es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /rose  inf for las b - $es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
     /      mys             $rose  es  〃
-    /nCh-1 inf fSh las b - @es    --- 封印は術者がかけたより多くの魔力を用いて内側から解除できる
+    /nCh-1 inf for las b - @es    --- 封印は術者がかけたより多くの魔力を用いて内側から解除できる
     /erie  oth res nex b - ------ --- エリーに出動命令をする[mem-015.md]
     /erie  act res nex b - ------ --- 足止めを命令されて今度こそ殺そうと意気揚々と出る
     /fei   bGr res 01r b - ------ --- フェイの過去
@@ -279,8 +279,8 @@
   contents:
     /gr-11 str --- --- f - ------ --- マクスの研究施設だった廃屋を訪れる
     /nCh-1 inf --- --- f - @orb   --- マクスからエリクを指し示す魔導具イェスケの道標がノーフの祭壇にあることを知る[mem-002.md]
-    /nCh-1 inf --- --- f - @myria hEl マクスからエリクにはエルフの英知が眠っている可能性があると知る
-    /nCh-1 inf fSh las f - @orb   --- ヘストの目を合わせるとイェスケの道標が作動するという情報
+    /nCh-1 inf --- --- f - @myria hEl マクスからカルダにはエルフの英知が眠っている可能性があると知る
+    /nCh-1 inf for las f - @orb   --- ヘストの目を合わせるとイェスケの道標が作動するという情報
     /gr-11 str --- --- f - @orb   --- ノーフの町へ向かう
     /erie  oth res nex b - ------ --- エリーがアリスたちの後でイェスケの道標がノーフの祭壇にあることを知る
     /lo-11 oth --- --- f - ------ --- キスする
@@ -295,7 +295,8 @@
     place: ノーフの街へ移動中
     summary: 妖精女王が動く
   contents:
-    /petra str res nex f - @petra fai 妖精女王が動く
+    /petra str res nex b - @petra fai 妖精女王が動く
+    /nCh-1 oth res 01s f - ------ --- 泉を見つける
     /nCh-1 str --- --- f b !fanta --- レオナがエリーと戦う
       /leona str res rec f - ------ --- エリーといい勝負をする
       /erie  act res rec f - ------ --- 足止めに失敗して辛酸を舐める
@@ -307,9 +308,10 @@
     vacancy: 
     ordeal: 
     background: 
-    place: ノーフの街へ移動中
+    place: ノーフの街へ移動中, 泉
     summary: 水着回
   contents:
+    /gr-11 oth res 01r f - ------ --- 泉に戻ってくる
 
 
 14:
@@ -318,20 +320,20 @@
     vacancy: false
     ordeal: ミリア
     background: 
-    place: ノーフの街へ移動中
+    place: ノーフの街へ移動中, 神殿遺跡
     summary: ペトラが妖精領主になることを決断する, ミリアがフェイと戦い誘いに動揺する
   contents:
     /petra str res rec f - @petra fai 妖精領主になる決断をする
-    /petra act sug rec f - ------ --- 「領主になるのは不安だった。でも、私は本当の勇敢な女の子になったから！」
-    /nCh-1 inf fSh las f - @es    --- 神ヘストは過去に邪神ゼーラの力によって狂乱してヴァン文明が崩壊したという情報
-    /nCh-1 inf fSh las f - @es    --- 神ヘストはエリクに封印されていると知る
+    /petra act sug rec f - @petra bra 「領主になるのは不安だった。でも、私は本当の勇敢な女の子になったから！」
+    /nCh-1 inf for las f - @es    --- 神ヘストは過去に邪神ゼーラの力によって狂乱してヴァン文明が崩壊したという情報
+    /nCh-1 inf for las f - @es    --- 神ヘストはエリクに封印されていると知る
     /alice act res nex f - ------ --- ローズたちを敵対視するレオナとミリアに対してローズについて擁護的なことを言う
     /alice bGr res 01s f - ------ --- アリスの過去につながる擁護の理由
     /lo-11 oth --- --- f - ------ --- 抱き合ってキスをしながらうっかり尻を触ってしまう
     /nCh-1 str --- --- f b !fanta --- ミリアがフェイと戦う
       /fei   oth res rec f - ------ --- 強さを見せつけるつもりで出した奥の手で動揺を誘うことができるが引き下がる
       /myria str res rec f - ------ --- フェイの反魂魔法に動揺する
-      /nCh-1 inf fSh las f - @es    --- フェイが世界を終わらせるのはローズだとほのめかす
+      /nCh-1 inf for las f - @es    --- フェイが世界を終わらせるのはローズだとほのめかす
       /      mys             @rose  es  〃
                                         .ミリアを誘惑する
       /alice act res nex f - ------ --- ローズが世界を終わらせようとしていることを知り、止めなければと思う
@@ -347,19 +349,19 @@
     summary: 
   contents:
     /petra --- --- --- f - ------ --- ペトラが
-    /nCh-1 inf fSh las f - @es    --- エスが古の移ろいの神ヘストであることに気づく
+    /nCh-1 inf for las f - @es    --- ロゼッタストーンみたいにエスが古の移ろいの神ヘストであることに気づく
                                       .世界を滅ぼした神ヘスト
                                       .エスを利用して世界を終わらせ遷世するローズたち
                                       .エス＝ヘストということ
                                       .邪神ゼーラの力で神の力が狂乱すること
     /alice bGr res 01r b - ------ --- アリスの過去[thi-017.md]
                                       .過去の回想の中で家族に対する愛情を示す
-    /rose  mys fSh las b - @es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /                      @rose  es  〃
-    /lo-21 oth --- --- b - ------ --- 魔素器官を絡めるエロ
-    /rose  oth fSh las b - $es    --- 神的事象[mem-nCh-1.md]
+    /rose  mys for las b - $es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
     /                      $rose  es  〃
-    /rose  inf fSh las b - @es    --- エリーが予知的にローザの自死を指摘し、エリーの首を絞めながら「私は自死なんてしないわ。できないのよ」
+    /lo-21 oth --- --- b - ------ --- 魔素器官を絡めるエロ
+    /rose  oth for las b - $es    --- 神的事象[mem-nCh-1.md]
+    /                      $rose  es  〃
+    /rose  inf for las b - @es    --- エリーが予知的にローザの自死を指摘し、エリーの首を絞めながら「私は自死なんてしないわ。できないのよ」
     /      mys             @rose  es  〃
     /rose  act res nex b - ------ --- エリーとフェイの戦いが芳しくなく内心で焦る
 
@@ -376,7 +378,7 @@
     /gr-11 str --- --- f - @orb   --- ノーフに到着する
     /nCh-1 str --- --- f - @orb   --- ノーフでイェスケの道標の機能をコピーして手に入れる
     /nCh-1 inf --- --- f - @es    --- ノーフでヘストと関連する神具が見つかる
-    /rose  mys fSh las b - @es    --- 「どうせあの子は死なないもの。少々手荒になってもいいわよね……」
+    /rose  mys for las b - @es    --- 「どうせあの子は死なないもの。少々手荒になってもいいわよね……」
     /nCh-1 str --- --- f b !fanta --- アリスがローズと戦う
       /rose  oth res rec f - ------ --- 強さを見せつけて思い知らせる、優越感を取り戻す
                                         .ローズはエリーとフェイを補佐として同行させている（戦わせない）
@@ -384,10 +386,10 @@
     /nCh-1 inf hin rec f - @es    --- ローズが母ザヴィと再会するためにエリクに封印されているエスを解き放って狂乱させて世界を滅亡させると言う
     /nCh-1 act --- --- f - @rose  orb ローズが魔法力を使い過ぎて支障を来す吐血する
     /nCh-1 act --- --- f - @rose  orb ローズは魔力珠に侵された体を見せる[mem-014.md]
-    /nCh-1 inf fSh rec f - @orb   --- 魔力珠がローズの体内にあることを知る
-    /nCh-1 inf fSh las f - @orb   --- 〃
+    /nCh-1 inf for rec f - @orb   --- 魔力珠がローズの体内にあることを知る
+    /nCh-1 inf for las f - @orb   --- 〃
     /alice str --- --- f - ------ --- 魔力珠は置いておいてもローズを止めるためにエリクに行く必要が出てくる
-    /alice act --- --- f - ------ --- ローズの体を心配する
+    /alice act --- --- f - @alice fam ローズの体を心配する
 
 
 17:
@@ -400,15 +402,15 @@
     summary: ヴァイツ地方に魔力が満ちて作物がよく育つ
   contents:
     /petra str --- --- f - @petra fai ヴァイツ地方に魔力が満ちて畑の作物がよく育つ
-    /nCh-1 inf --- --- f - @petra fai 妖精の秘密が開示される（魔力をまく存在） need to think
-    /alice act res nex f - ------ --- ザヴィの子を愛しく思うのと同時にザヴィの子の狂気に戸惑う
+    /nCh-1 inf --- --- f - @petra fai 妖精の秘密が開示される（魔力をまく存在）
+    /alice act res nex f - $alice fam ザヴィの子を愛しく思うのと同時にザヴィの子の狂気に戸惑う
     /lo-11 --- --- --- f - ------ --- 抱き合ってキスをしながら股間に手が伸びるが、やめる
                                       .アリスがローズに敗北して弱いところを見せた
-    /rose  oth fSh las b - @es    --- 神的事象[mem-nCh-1.md]
+    /rose  oth for las b - @es    --- 神的事象[mem-nCh-1.md]
     /                      @rose  es  〃
-    /rose  inf fSh las b - @es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
-    /      mys             @rose  es  〃
-    /rose  inf fSh las b - @orb   --- 魔力珠に侵される体
+    /rose  inf for las b - $es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /      mys             $rose  es  〃
+    /rose  inf for las b - @orb   --- 魔力珠に侵される体
     /      mys             @rose  orb 〃
 
 
@@ -446,20 +448,20 @@
     /nCh-1 str --- --- f - ------ --- カルダに到着する
     /myria act res nex f - ------ --- 祖母には謝りたい。でもそれから？それからどうするの？　大好きなアリスとレオナの元には戻れない……
     /nCh-1 str --- --- f b !fanta --- ミリアとフェイが戦う
-      /fei   oth res rec f - ------ --- 力尽くで手に入れようとして破れる
+      /fei   oth res rec f - ------ --- 思いが叶わないなら命を奪おうとして破れる
       /myria str res rec f - ------ --- フェイを倒す
       /fei   act sug rec f - ------ --- 「力が、力がもっと欲しい……」
-    /myria str res rec f - @myria hEl ミリアがハイエルフの叡智を手に入れる
+    /myria str res rec f - @myria hEl ミリアがハイエルフの叡智を手に入れる（容姿の変化）
     /myria str hin rec f - @myria gMo ハイエルフの叡智によって祖母が姿を現して再会する
-    /myria act sug rec f - @myria gMo「私、やっと一歩を踏み出せる気がします！」
-    /alice act res nex f - ------ --- 祖母が愛しそうにするのを見て子を思う（ささやかに表現する）
+    /myria act sug rec f - @myria gMo 「私、やっと一歩を踏み出せる気がします！」
+    /alice act res nex f - $alice fam 祖母が愛しそうにするのを見て子を思う（ささやかに表現する）
     /lo-11 --- --- --- f - ------ --- 体を触り合うがセックスする前に終わる
-    /rose  mys fSh las b - $es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /rose  mys for las b - $es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
     /                      $rose  es  〃
-    /rose  oth fSh las b - $es    --- 神的事象[mem-nCh-1.md]
+    /rose  oth for las b - $es    --- 神的事象[mem-nCh-1.md]
     /                      $rose  es  〃
     /lo-21 --- --- --- b - ------ --- くたくたのエリー
-    /leona oth res nex b - ------ --- エリーに出動命令をする
+    /leona oth res nex b - ------ --- エリーに出動命令をする[mem-015.md]
     /alice oth res nex b - ------ --- ローズの邪神ゼーラの権能によるパワーアップ[mem-007.md]
     /erie  oth res nex b - ------ --- エリーの邪神ゼーラの権能によるパワーアップ
     /erie  act res nex b - ------ --- ローズにこれ以上は拙いと忠告する
@@ -475,9 +477,9 @@
     summary: -
   contents:
     /lo-21 oth --- --- b - ------ --- 庭の散策をしている
-    /rose  oth fSh las b - $es    --- 神的事象[mem-nCh-1.md]
+    /rose  oth for las b - $es    --- 神的事象[mem-nCh-1.md]
     /                      $rose  es  〃
-    /rose  mys fSh las b - $es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
+    /rose  mys for las b - $es    --- ローズがザヴィとエスを混同して強い敬愛を示す[mem-012.md]
     /                      $rose  es  〃
     /fei   oth res nex b - ------ --- フェイに出動命令をする
     /fei   act res nex b - ------ --- もう我慢しないと言う
@@ -493,8 +495,8 @@
     summary: 
   contents:
     /nCh-1 str --- --- f - ------ --- エリクに到着する[mem-013.md]
-    /nCh-1 inf fSh las f - @es    --- エリクの神殿遺跡の碑文からヘストの力が狂乱し封印したという情報
-    /nCh-1 inf fSh las f - @orb   --- エリクの神殿遺跡の碑文から魔力珠が世界の根源につながっているという情報
+    /nCh-1 inf for las f - @es    --- エリクの神殿遺跡の碑文からヘストの力が狂乱し封印したという情報
+    /nCh-1 inf for las f - @orb   --- エリクの神殿遺跡の碑文から魔力珠が世界の根源につながっているという情報
     /alice act res nex f - ------ --- ザヴィの子との戦いは避けられないが戦えるだろうか……大切なのは今か過去かという苦悩
     /nCh-1 str --- --- f b !fanta --- レオナがエリーと戦う
       /erie  oth res rec f - ------ --- 力及ばずローズへの愛を託して逝く
@@ -532,7 +534,7 @@
     place: エリク
     summary: 
   contents:
-    /nCh-1 inf fSh rec f - @orb   --- ローズが混濁する意識の中で真実を明かす
+    /nCh-1 inf for rec f - @orb   --- ローズが混濁する意識の中で真実を明かす
     /                      @es    --- 〃
     /                      @rose  es  〃
                                       .ヨルとザヴィ、そしてローズはエスを封印しにやってきたこと
@@ -545,7 +547,7 @@
                                         .レオナが注意を引きつけてボロボロにされて、
                                         .ミリアがアリスを治療してローズに蹴り飛ばされてぐったりして、
                                         .頑張りを見たアリスが封界の指輪を外して発憤する
-      /nCh-1 act fSh rec f - ------ --- 「私を殺したな？」
+      /nCh-1 act for rec f - ------ --- 「私を殺したな？」
                                         .魔力珠を取り込んだローズが死ねば魔力珠が暴走する
       /rose  str res rec f - ------ --- 念願を成就させて死んでいく
       /rose  act sug rec f - @rose  es  「ザヴィ、エス、私は還りました！」[mem-012.md]
@@ -567,7 +569,7 @@
     summary: 
   contents:
     /nCh-1 oth --- --- f - ------ --- 開闢の光が満ち、当たり前の視界が戻ったときには魔力珠だけが残っていた
-    /nCh-1 gds fSh rec f - ------ --- 魔力珠を手に入れる
+    /nCh-1 gds for rec f - ------ --- 魔力珠を手に入れる
     /nCh-1 oth --- --- f - ------ --- 魔力珠は誰でも扱えるようになっていた
     /nCh-1 oth --- --- f - ------ --- 神の力が失われてエリクが墜落していく
     /nCh-1 oth --- --- f - ------ --- 脱出
