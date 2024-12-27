@@ -4,44 +4,37 @@
 #### 第1章
 - text/01/001.txt: タイトル未定
 
-
 ### 設計
 #### 全体
-- plan/00/init.yml:      初期構想
+- plan/00/init.yml:      初期設定
 - plan/00/title-idea.md: タイトル案
 
-
 #### 第1章
-- plan/01/init.yml:           初期構想 第1章
-- plan/01/character-base.yml: キャラクターの基本設計 第1章
-- plan/01/title-idea.md: タイトル案
-
+- plan/01/build.md:           構想
+- plan/01/character-base.yml: キャラクターの基本設計
+- plan/01/init.yml:           初期設定
+- plan/01/title-idea.md:      タイトル案
 
 #### 第2章
-- plan/02/init.yml:           初期構想 第2章
-
+- plan/02/init.yml:           初期設定
 
 ### プロット
 #### 第1章
 - plot/01/detail-001.yml:      プロット詳細 第1話
 - plot/01/elements.yml:        プロット要素
-- plot/01/outline.yml:         プロット概要
-- plot/01/outline-extract.yml: プロット概要 抽出作業用
-- plot/01/narrative-clues.yml: 前兆要素
 - plot/01/information.yml:     情報開示
-
+- plot/01/narrative-clues.yml: 前兆要素
+- plot/01/outline.yml:         プロット概要
 
 ### 設定
-- settings/background.yml:        背景設定
-- settings/characters.yml:        キャラクター設定
-- settings/dynamic-existence.yml: 動的存在の設定
-- settings/place.yml:             場所設定
-- settings/things.yml:            物事設定
-
+- settings/background.yml: 背景設定
+- settings/characters.yml: キャラクター設定
+- settings/subject.yml:    主体設定
+- settings/place.yml:      場所設定
+- settings/things.yml:     物事設定
 
 ### 歴史
 - settings/history/his-001.md: エス封印に関すること
-
 
 ### メモ
 #### 第1章
@@ -61,19 +54,18 @@
 - memo/01/mem-013.md: エリク
 - memo/01/mem-014.md: 魔力症
 - memo/01/mem-015.md: 出動の理由
-
+- memo/01/mem-016.md: レオナの悩み
+- memo/01/mem-017.md: ミリアのためらい
 
 ### メモ
 #### 第3章
 - memo/03/mem-001.md: ミリアの帰還
-
 
 ### 作業管理
 - @work-management/todo.md:       ToDoリスト
 - @work-management/notice.md:     注意事項
 - @work-management/idea.md:       アイデア
 - @work-management/storehouse.md: 倉庫
-
 
 ### 思考ノート
 - thinking-notes/archive/thi-001.md: ミリアのコンフリクト
@@ -114,21 +106,32 @@
 - thinking-notes/thi-036.md: 後半のペトラとプロット
 - thinking-notes/thi-037.md: サブプロット
 
+### アーカイブ
+#### before-2024-12-27
+- archive/before-2024-12-27/plan/00/init.yml:            初期構想
+- archive/before-2024-12-27/plan/00/title-idea.md:       タイトル案
+- archive/before-2024-12-27/plan/01/character-base.yml:  キャラクターの基本設計 第1章
+- archive/before-2024-12-27/plan/01/init.yml:            初期構想 第1章
+- archive/before-2024-12-27/plan/01/title-idea.md:       タイトル案
+- archive/before-2024-12-27/plot/01/detail-001.yml:      プロット詳細 第1話
+- archive/before-2024-12-27/plot/01/elements.yml:        プロット要素
+- archive/before-2024-12-27/plot/01/information.yml:     情報開示
+- archive/before-2024-12-27/plot/01/narrative-clues.yml: 前兆要素
+- archive/before-2024-12-27/plot/01/outline.yml:         プロット概要
+- archive/before-2024-12-27/plot/01/outline-extract.yml: プロット概要 抽出作業用
 
-### 廃止
 #### before-2024-07-08
-- rejected/before-2024-07-08/settings/settings-001.md: 遷世教団
-- rejected/before-2024-07-08/settings/settings-002.md: 精霊の性質
-- rejected/before-2024-07-08/settings/settings-003.md: 魔法リザーブ
-- rejected/before-2024-07-08/settings/settings-004.md: 魔狩ギルド
-- rejected/before-2024-07-08/settings/settings-005.md: 魔力郷
-
+- archive/before-2024-07-08/settings/settings-001.md: 遷世教団
+- archive/before-2024-07-08/settings/settings-002.md: 精霊の性質
+- archive/before-2024-07-08/settings/settings-003.md: 魔法リザーブ
+- archive/before-2024-07-08/settings/settings-004.md: 魔狩ギルド
+- archive/before-2024-07-08/settings/settings-005.md: 魔力郷
 
 #### before-2024-06-29
-- rejected/before-2024-06-29/text/001.txt: はじまり
-- rejected/before-2024-06-29/text/002.txt: 精霊の勇気
-- rejected/before-2024-06-29/text/003.txt: 洗礼を受ける者
-- rejected/before-2024-06-29/plot/plot-002.md: プロット 第2話
-- rejected/before-2024-06-29/plot/plot-003.md: プロット 第3話
-- rejected/before-2024-06-29/plot/plot-004.md: プロット 第4話
-- rejected/before-2024-06-29/plot/plot-005.md: プロット 第5話
+- archive/before-2024-06-29/text/001.txt: はじまり
+- archive/before-2024-06-29/text/002.txt: 精霊の勇気
+- archive/before-2024-06-29/text/003.txt: 洗礼を受ける者
+- archive/before-2024-06-29/plot/plot-002.md: プロット 第2話
+- archive/before-2024-06-29/plot/plot-003.md: プロット 第3話
+- archive/before-2024-06-29/plot/plot-004.md: プロット 第4話
+- archive/before-2024-06-29/plot/plot-005.md: プロット 第5話

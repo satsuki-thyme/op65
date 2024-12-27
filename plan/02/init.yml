@@ -1,14 +1,11 @@
 # 初期構想
 sub title:
-  - 
-theme:
-  - 強い力を振るって困難を乗り越える
-  - 明るい展望を持って前向きに進む
-  - 結果として認められる
-concept:
-  - 
-object:
-  - 
+  
+sub story theme:
+  温故知新
+sub concept:
+  
+story setting:
+  
 memo:
-  - item: 攻め込まれいている国の領地で戦争ごっこをしよう！
-    ref: thi-023.md
+  - item: 攻め込まれいている国の領地で戦争ごっこをしよう！[thi-023.md]

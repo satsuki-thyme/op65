@@ -1,0 +1,140 @@
+# 前兆要素
+## 伏線
+foreshadowing:
+  - item: ラスト1
+    contents:
+      ref: thi-031.md
+      answer:
+        - ローズがエスの使徒であること
+      resolution:
+        - /00 gen rsl lst --- f - ローズが真実を明かす
+      foreshadowing:
+        - /00 gen fsd --- lst f - ヨルとザヴィが神を狂乱させるはずがないこと
+        - /00 gen fsd --- lst b - ローズは自死できない
+        - /00 gen fsd --- lst f - アリスがローズに神の気配を感じる
+        - /00 gen fsd --- lst b - ローズがエスに対する強い敬愛を示す{執拗に設置する}
+        - /00 gen fsd --- lst b - ローズによる蘇生[01/mem--001.md]
+        - /00 gen fsd --- lst b - ローズ「私は神に等しいのよ」
+        - /00 gen fsd --- lst b - 生き物が触れられない
+        - /00 gen fsd --- lst b - 時間を巻き戻す
+        - /00 gen fsd --- lst b - 植物が育つ
+        - /00 gen fsd --- lst b - 動物が従う
+        - /00 gen fsd --- lst b - 表に出ると晴れる
+        - /00 gen fsd --- lst b - 昔のことをさっきのことのように語る
+
+
+  - item: ラスト2
+    contents:
+      ref: thi-032.md
+      answer:
+        - ローズが死ぬとエスの封印が解けること
+      resolution:
+        - /00 gen rsl lst --- f - 「馬鹿め！　私を殺したな？」
+      foreshadowing:
+        - /00 gen fsd --- lst b - 私は自死できないのよ
+        - /00 gen fsd --- lst b - 封印は術者がかけたより多くの魔力を用いて内側から解除できる
+        - /00 gen fsd --- lst f - ローズが魔力珠を内包していること
+        - /00 gen fsd --- lst f - 使徒が死ぬと神の元に戻る
+
+
+  - item: ミッドポイント
+    contents:
+      ref: thi-033.md
+      answer:
+        - ローズが魔力珠を内包していること
+      resolution:
+        - /00 gen rsl mid --- f - 魔力珠がローズの体内にあることを知る
+      foreshadowing:
+        - /00 gen fsd --- mid f - ローズの魔法力が尽きないこと
+        - /00 gen fsd --- mid b - 魔力珠を追っているなら私の元へ来るはずよ
+        - /00 gen fsd --- mid b - ローズが下腹部を気にする
+        - /00 gen fsd --- mid b - ローズが下腹部を押さえて悶える
+
+
+## ヒント
+hints:
+  - item: 誤認への導き
+    contents:
+      ref: thi-015.md
+      answer:
+        - ローズは殺された母と再会するために世界を滅ぼそうとしている
+      revealing:
+        - /00 gen rev mid --- f - ローズが母ザヴィと再会するためにエスを狂乱させて世界を滅亡させると言う
+      hints:
+        - /00 gen hnt --- mid f - アリスの子孫であるヨル、ザヴィが死んでいるという情報
+        - /00 gen hnt --- mid f - 遷世教団は次の世界に連れていってもらうことを目指していると知る
+        - /00 gen hnt --- mid f - 次の世界へ連れていってくれるのはエスだと知る
+        - /00 gen hnt --- mid f - ローズが母ザヴィを殺され絶対に再会すると決意しているという情報をローズがうそぶく
+        - /00 gen hnt --- mid f - ローズは遷世に望みを懸けているという情報
+
+
+## 予兆的示唆
+premonitory suggestions:
+  - item: アリス
+    contents:
+      what to do:
+        - 子の騒動に終止符を打つ[character-base.yml]
+      suggestion:
+        - /11 odl sug --- lst f - 「今回も精一杯やるわ。私は明るい展望を持って生きるの。どんな結果になるか分からないけど、きっと上手くいくから！」
+      invoke:
+        - /11 odl inv lst --- f - 「私は精一杯やったわ。明るい展望は実現できた。とんでもない結果になっちゃったけど、上手くいったから！」
+
+
+  - item: レオナ
+    contents:
+      what to do:
+        - 過去を乗り越えることで生きる意味を見つける[character-base.yml]
+      suggestion:
+        - /12 odl sug --- lst f - 「過去を、乗り越えたい……あ、いや、うそ！　なんでもないです！」
+      invoke:
+        - /12 odl inv lst --- f - 「私の、大切な人の、幸せを守りたいんです。だから、強くなる！」
+
+
+  - item: ミリア
+    contents:
+      what to do:
+        - 過去に折り合いをつけて前向きに歩きだす[character-base.yml]
+      suggestion:
+        - /13 odl sug --- lst f - 「私は旅をしています。でも、過去からは一歩も踏み出せていない……」
+      invoke:
+        - /13 odl inv lst --- f - 「私、やっと一歩を踏み出せる気がします！」
+
+
+  - item: ペトラ
+    contents:
+      what to do:
+        - 勇気とは何かを知って頼もしくなる[character-base.yml]
+      suggestion:
+        - /14 odl sug --- lst f - 「私は勇敢な女の子なの！」
+      invoke:
+        - /14 odl inv lst --- f - 「領主になるのは不安だった。でも、私は本当の勇敢な女の子になったから！」
+
+
+  - item: ローズ
+    contents:
+      what to do:
+        - エスを解放して人族を滅亡させるために死ぬ[character-base.yml]
+      suggestion:
+        - /21 odl sug --- lst b - 「私はエスの御許へ還ります」
+      invoke:
+        - /21 odl inv lst --- f - 「エス、私は還りました！」
+
+
+  - item: エリー
+    contents:
+      what to do:
+        - 復讐に身を委ねて死ぬ[character-base.yml]
+      suggestion:
+        - /22 odl sug --- lst b - 「ローズ様に全身全霊の忠誠を誓います。しかし、私の本質は変わらないのです。あのときから……」
+      invoke:
+        - /22 odl inv lst --- f - 「変わりたかった、変わりたかったのに……」
+
+
+  - item: フェイ
+    contents:
+      what to do:
+        - ミリアを力尽くで得ようとして死ぬ[character-base.yml]
+      suggestion:
+        - /23 odl sug --- lst b - 「私はなんだって手に入れる。ローズ様にもらったこの力で」
+      invoke:
+        - /23 odl inv lst --- f - 「力が、力がもっと欲しい……」

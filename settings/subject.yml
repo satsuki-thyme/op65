@@ -1,0 +1,73 @@
+# 主体設定
+- item: 移ろいの神ヘストエリア => エス
+
+
+- item: ヴェス゠オ゠エーラ => エス
+
+
+- item: エス
+  applicable chapter:
+    1
+  self-awareness:
+
+  desire:
+
+  history:
+    古代神ヴェス゠オ゠エーラ
+      始まりと終わりを司る
+        古代の主神
+    古の移ろいの神ヘストエリア
+      世界の移ろいを手助けする
+        世界中の禍福の種を芽吹かせる
+  description:
+
+
+- item: 古代神ヴェス゠オ゠エーラ => エス
+
+
+- item: 邪神ネグドヴァリス => ネグドヴァリス
+
+
+- item: ネグドヴァリス
+  applicable chapter:
+    continuous
+  self-awareness:
+
+  desire:
+
+  history:
+
+  description:
+    邪神ネグドヴァリス
+
+
+- item: 遷世神エス => エス
+
+
+- item: 妖精
+  applicable chapter:
+    continuous
+  self-awareness:
+
+  desire:
+
+  history:
+
+  description:
+    新しい個体が生まれるときは分裂するようにして成熟体が現れる
+    森にできた妖精の輪から%妖精の国へ転移できる
+      妖精の輪は妖精が充足した森にできる
+   
+
+
+- item: 
+  applicable chapter:
+    
+  self-awareness:
+
+  desire:
+
+  history:
+
+  description:
+    
