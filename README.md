@@ -4,7 +4,7 @@
 #### 第1章
 - text/01/001.txt: タイトル未定
 
-### 設計
+### 計画
 #### 全体
 - plan/00/init.yml:      初期設定
 - plan/00/title-idea.md: タイトル案
@@ -13,6 +13,7 @@
 - plan/01/build.md:           構想
 - plan/01/character-base.yml: キャラクターの基本設計
 - plan/01/init.yml:           初期設定
+- plan/01/theme.yml:          プロット系統別テーマ
 - plan/01/title-idea.md:      タイトル案
 
 #### 第2章

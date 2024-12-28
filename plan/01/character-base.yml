@@ -4,9 +4,10 @@ overview comparison:
   - アリス　突き進む、心配事は概念にない
   - レオナ　常識人、理性的と感情のバランス型
   - ミリア　優しく気弱、不安が多く怖がり
+  - ペトラ　
   - ローズ　執念の人、傲慢で周囲が見えていないが行動は結果的に功を奏する
   - エリー　冷静沈着、冷徹の中に強い情念
-  - フェイ　キチガイ、女狂い
+  - フェイ　キチガイ、エルフ狂い
 
 
 ## 詳細
@@ -22,7 +23,7 @@ details:
           - 意のままに振る舞う
     desire:
       title:
-        - 魔力珠を手に入れたい（新しい物質）
+        - 魔力珠を手に入れたい（ヨルとザヴィが作り出した）
         - 世界を崩壊から救いたい
       conflict:
         - ローズ
@@ -72,7 +73,7 @@ details:
         predicament:
           - 屈しない
         normaly:
-          - 何事にも前向き
+          - 前向き
     desire:
       title:
         - 強くなりたい
@@ -82,21 +83,21 @@ details:
         - 国を滅ぼされ親族を失った
     ordeal:
       title:
-        - 生きる意味を見出せるか
+        - かつて幸せだった思い出に見切りをつけて前進できるか
       facing the inner self:
-        - 強くなりたい欲求はあるのに、その意味が見出せない
+        - 強くなりたいのに変るのが怖い
       collision opponent:
         - エリー
       how to overcome:
         - エリーとの死闘をくぐり抜ける
       inner change:
-        - 大切な者を思い生きることの幸せを見つける
+        - 大切な者との今の幸福を掴む決意
       right point:
         - 健全な欲求に支えられていた――生きたい、仲間と過ごしたい
       wrong point:
         - なし
     what to do:
-      - 過去を乗り越えることで生きる意味を見つける
+      - 過去を乗り越えることで今を生きる選択をする
     uniq characteristic:
       name: 王女
       entities:
@@ -127,7 +128,7 @@ details:
           - 面倒見がいい
     desire:
       title:
-        - 魔法を学びたい
+        - ハイエルフの叡智が欲しい
       conflict:
         - フェイ
       background connected to desire:
