@@ -16,75 +16,94 @@ plot of ordeal:
 
   contents:
     - character: アリス
-      theme:
-        title: 
-        description: 
       process:
         1:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            /alice li1 oth pre nex b - ローズが奇蹟の力で信者を癒やす
+                                      .死した少女を蘇生させる
+            ===
+            /alice li1 oth pre nex f - アリスがローズの噂を聞く
+                                      .ローズ様は女神のようだ
+                                      .ローズ様は恐ろしい魔物も倒される
+          performance event:
+            /alice li1 act pre rec f b アリスがローズと戦う
+              /alice li1 act --- --- f - アリスは攻撃できずに逃げ出す
+                                        .ローズが辺りかまわず攻撃し、周囲への被害も考えると逃げるしかなかった
 
         2:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            /alice li1 oth pre mid f - アリスがレオナとエリーの戦いに干渉する
+                                      .魔法を発動待機させて静止の声を上げる
+                                      .エリーは隠しきれない怯えを漏らしながら引き下がる
+          performance event:
+            /alice li1 act pre rec f b アリスがローズと戦う
+              /alice li1 act --- --- f - アリスが真面に戦えず怪我をする
+                                        .ローズが下腹部を押さえて苦しみ始める
 
         3:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            /alice li1 oth pre las b - 邪神ネグドヴァリスが力を示すntt
+            ===
+            /alice li1 oth pre las b - ローズがパワーアップする
+                                      .邪神ネグドヴァリスの力をまとう
+          performance event:
+            /alice li1 act pre rec f b アリスがローズと戦う
+              /alice li1 act --- --- f - アリスがローズを倒す
+                                        .ボロボロにされるがレオナとミリアに危険が及びそうになって指輪を外す
 
 
     - character: レオナ
-      theme:
-        title: 
-        description: 
       process:
         1:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            /leona li1 oth pre nex f b レオナが魔物を倒して強いところを見せる
+          performance event:
+            /leona li1 act pre rec f b レオナがエリーと戦う
+              /leona li1 act --- --- f - レオナがエリーに敗北してアリスに助けられる
 
         2:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            /leona li1 oth pre mid b - エリーが余裕ぶってレオナを殺すと言う
+          performance event:
+            /leona li1 act pre rec f b レオナがエリーと戦う
+              /leona li1 act --- --- f - レオナがエリーと引き分ける
 
         3:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            /leona li1 oth pre las b - 邪神ネグドヴァリスが力を示すntt
+            ===
+            /leona li1 oth pre las b - エリーがパワーアップする
+                                      .邪神ネグドヴァリスの力をまとう
+          performance event:
+            /leona li1 act pre rec f b レオナがエリーと戦う
+              /leona li1 act --- --- f - レオナがエリーを倒す
+                                        .ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
 
 
     - character: ミリア
-      theme:
-        title: 
-        description: 
       process:
         1:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            /myria li1 act pre nex f - ミリアが祖母に会いたいという強い思いを吐露する
+          performance event:
+            /myria li1 act pre rec f b ミリアがフェイと戦う
+              /myria li1 act --- --- f - ミリアがフェイから遷世で祖母に会えるという言葉に動揺するが拒絶する
+                                        .フェイがミリアに触れて精神魔法を使い思いを読み取る
 
         2:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            /myria li1 act pre mid f - ミリアが祖母に会いたいと言って泣き崩れる
+          performance event:
+            /myria li1 act pre rec f b ミリアがフェイと戦う
+              /myria li1 act --- --- f - ミリアがフェイの反魂魔法に動揺するが拒絶する
+                                        .フェイが反魂魔法で先祖を呼び出して使役する
 
         3:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            /myria li1 act pre rec f b ミリアがフェイと戦う
+              /myria li1 act --- --- f - ミリアがフェイを倒す
 
 
     - character: ペトラ
@@ -93,22 +112,22 @@ plot of ordeal:
         description: 
       process:
         1:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
 
         2:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
 
         3:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
 
 
     - character: ローズ
@@ -117,22 +136,22 @@ plot of ordeal:
         description: 
       process:
         1:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
 
         2:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
 
         3:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
 
 
     - character: エリー
@@ -141,22 +160,22 @@ plot of ordeal:
         description: 
       process:
         1:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
 
         2:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
 
         3:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
 
 
     - character: フェイ
@@ -165,19 +184,19 @@ plot of ordeal:
         description: 
       process:
         1:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
 
         2:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
 
         3:
-          reservation event:
-            - 
-          target event:
-            - 
+          preparation event:
+            -
+          performance event:
+            -
