@@ -8,9 +8,13 @@
     place: 
     summary: 
   contents:
-    /alice li1 pla for las f - アリスが「新しい人生になるのかな。きっと上手くいく！　私は止まらないから！」と言う
+    /alice li1 ply prm s01 f - アリスが「新しい人生になるのかな。きっと上手くいく」と言う
                               .pre 「寝てる間に世界は変ってるはず。新しいものがいっぱい！」
-    /leona li1 pla pro las f - レオナが「前に、進みたいんです」と言う
+    /alice li1 ply prm s02 f - アリスが封界の指輪の刻印を見て「ヨル、ザヴィどうしてるかな」と言う
+    /alice li1 act prm s02 f - アリスがヨルとザヴィの死を知って封界の指輪に触れる
+    /alice li1 gDe prm s03 f - アリスがヨルとザヴィに関係する魔力珠を探す旅をすることにする
+                              .アリスはヨルとザヴィの真実を明かしたいと強く思っているわけではない
+    /leona li1 ply prm s01 f - レオナが「前に、進みたいんです」と言う
                               .pre 「ボクはなんのために生きてるのか、分かりません。でも死ぬわけにはいかなくて」
                               .post 「あ、ち、違うんです！　なんでもないです！　気にしないでください」
 
@@ -24,6 +28,9 @@
     place: 
     summary: 
   contents:
+    /myria li1 ply prm s01 f - ミリアが「過去に囚われてはいけない」と言う
+    /myria li1 gDe prm s02 f - ミリアが「だから私はハイエルフの叡智を求める旅をしているんです」と言う
+                              .post 「でも、一歩も進めていません……」
 
 
 3:
@@ -35,6 +42,15 @@
     place: 
     summary: 
   contents:
+    /alice li1 oth pre nxt b - ローズが奇蹟の力で信者を癒やす
+                              .死した少女を蘇生させる
+    /alice li1 oth pre nxt f - アリスがローズの噂を聞く
+                              .ローズ様は女神のようだ
+                              .ローズ様は恐ろしい魔物も倒される
+    /alice li1 act pre rcv f b アリスがローズと戦う
+      /alice li1 act --- --- f - アリスは子孫に攻撃できずに逃げ出す
+                                .ローズが辺りかまわず攻撃し、周囲への被害も考えると逃げるしかなかった
+      /alice li1 oth pre bgr f - 〃
 
 
 4:
@@ -46,15 +62,8 @@
     place: 
     summary: 
   contents:
-    /alice li1 oth pre nex b - ローズが奇蹟の力で信者を癒やす
-                              .死した少女を蘇生させる
-    /alice li1 oth pre nex f - アリスがローズの噂を聞く
-                              .ローズ様は女神のようだ
-                              .ローズ様は恐ろしい魔物も倒される
-    /alice li1 act pre rec f b アリスがローズと戦う
-      /alice li1 act --- --- f - アリスは子孫に攻撃できずに逃げ出す
-                                .ローズが辺りかまわず攻撃し、周囲への被害も考えると逃げるしかなかった
-      /alice li1 oth pre bac f - 〃
+    /alice li1 bgr pre mid f - アリスの背景
+
 
 5:
   meta:
@@ -65,7 +74,7 @@
     place: 
     summary: 
   contents:
-    /alice li1 bac pre mid f - アリスの背景
+    /leona li1 oth pre nxt f b レオナが魔物を倒して強いところを見せる
 
 
 6:
@@ -77,7 +86,13 @@
     place: 
     summary: 
   contents:
-    /leona li1 oth pre nex f b レオナが魔物を倒して強いところを見せる
+    /leona li1 act pre rcv f b レオナがエリーと戦う
+      /leona li1 act --- --- f - レオナがエリーに敗北してアリスに助けられる
+      /leona li1 oth pre bgr f - 〃
+      /leona li1 oth pre bgr f - エリーが戦闘中に過去を語る
+    /alice li1 oth pre mid f - アリスがレオナとエリーの戦いに干渉する（強いところを見せる）
+                              .魔法を発動待機させて静止の声を上げる
+                              .エリーは隠しきれない怯えを漏らしながら引き下がる
 
 
 7:
@@ -89,13 +104,7 @@
     place: 
     summary: 
   contents:
-    /leona li1 act pre rec f b レオナがエリーと戦う
-      /leona li1 act --- --- f - レオナがエリーに敗北してアリスに助けられる
-      /leona li1 oth pre bac f - 〃
-      /leona li1 oth pre bac f - エリーが戦闘中に過去を語る
-    /alice li1 oth pre mid f - アリスがレオナとエリーの戦いに干渉する（強いところを見せる）
-                              .魔法を発動待機させて静止の声を上げる
-                              .エリーは隠しきれない怯えを漏らしながら引き下がる
+    /leona li1 bgr pre mid f - レオナの背景
 
 
 8:
@@ -107,7 +116,11 @@
     place: 
     summary: 
   contents:
-    /leona li1 bac pre mid f - レオナの背景
+    /myria li1 act pre nxt f - ミリアが祖母に会いたいという強い思いを吐露する
+    /myria li1 act pre rcv f b ミリアがフェイと戦う
+      /myria li1 act --- --- f - ミリアがフェイから遷世で祖母に会えるという言葉に動揺するが拒絶する
+                                .フェイがミリアに触れて精神魔法を使い思いを読み取る
+      /myria li1 oth pre bgr f - 〃
 
 
 9:
@@ -119,11 +132,7 @@
     place: 
     summary: 
   contents:
-    /myria li1 act pre nex f - ミリアが祖母に会いたいという強い思いを吐露する
-    /myria li1 act pre rec f b ミリアがフェイと戦う
-      /myria li1 act --- --- f - ミリアがフェイから遷世で祖母に会えるという言葉に動揺するが拒絶する
-                                .フェイがミリアに触れて精神魔法を使い思いを読み取る
-      /myria li1 oth pre bac f - 〃
+    /myria li1 bgr pre mid f - ミリアの背景
 
 
 10:
@@ -135,7 +144,6 @@
     place: 
     summary: 
   contents:
-    /myria li1 bac pre mid f - ミリアの背景
 
 
 11:
@@ -159,7 +167,7 @@
     place: 
     summary: 
   contents:
-    /leona li1 act pre rec f b レオナがエリーと戦う
+    /leona li1 act pre rcv f b レオナがエリーと戦う
       /leona li1 act --- --- f - レオナがエリーと引き分ける
 
 
@@ -190,7 +198,7 @@
     place: 
     summary: 
   contents:
-    /alice li1 act pre rec f b アリスがローズと戦う
+    /alice li1 act pre rcv f b アリスがローズと戦う
       /alice li1 act --- --- f - アリスが真面に戦えず怪我をする
                                 .ローズが下腹部を押さえて苦しみ始める
 
@@ -215,7 +223,7 @@
     place: 
     summary: 
   contents:
-    /myria li1 act pre rec f b ミリアがフェイと戦う
+    /myria li1 act pre rcv f b ミリアがフェイと戦う
       /myria li1 act --- --- f - ミリアがフェイの反魂魔法に動揺するが拒絶する
                                 .フェイが反魂魔法で先祖を呼び出して使役する
 
@@ -229,8 +237,8 @@
     place: 
     summary: 
   contents:
-    /alice li1 oth pre las b - 邪神ネグドヴァリスが力を示すntt
-    /leona li1 oth pre las b - 〃
+    /alice li1 oth pre lst b - 邪神ネグドヴァリスが力を示すntt
+    /leona li1 oth pre lst b - 〃
 
 
 18:
@@ -264,8 +272,11 @@
     place: 
     summary: 
   contents:
-    /myria li1 act pre rec f b ミリアがフェイと戦う
+    /myria li1 act pre rcv f b ミリアがフェイと戦う
       /myria li1 act --- --- f - ミリアがフェイを倒す
+                                .pre フェイがミリアの近くのエーテル体に気づいて顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ
+    /myria li1 ply prm r01 f - ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
+    /myria li1 gDe prm r02 f - ミリアがハイエルフの叡智を得る
 
 
 21:
@@ -277,7 +288,7 @@
     place: 
     summary: 
   contents:
-    /leona li1 oth pre las b - エリーがパワーアップする
+    /leona li1 oth pre lst b - エリーがパワーアップする
                               .邪神ネグドヴァリスの力をまとう
 
 
@@ -290,10 +301,10 @@
     place: 
     summary: 
   contents:
-    /leona li1 act pre rec f b レオナがエリーと戦う
+    /leona li1 act pre rcv f b レオナがエリーと戦う
       /leona li1 act --- --- f - レオナがエリーを倒す
                                 .ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
-    /leona li1 pla pro rec f - レオナが「アリス、ミリア。ボク、進めそうです」と言う
+    /leona li1 ply prm r01 f - レオナが「アリス、ミリア。ボク、進めそうです」と言う
 
 
 23:
@@ -305,7 +316,7 @@
     place: 
     summary: 
   contents:
-    /alice li1 oth pre las b - ローズがパワーアップする
+    /alice li1 oth pre lst b - ローズがパワーアップする
                               .邪神ネグドヴァリスの力をまとう
 
 
@@ -318,10 +329,11 @@
     place: 
     summary: 
   contents:
-    /alice li1 act pre rec f b アリスがローズと戦う
+    /alice li1 act pre rcv f b アリスがローズと戦う
       /alice li1 act --- --- f - アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する
                                 .ボロボロにされるがレオナとミリアに危険が及びそうになって指輪を外す
       /alice li1 act --- --- f - アリスがローズを倒す
+    /alice li1 act prm r02 f - アリスが「さよならヨル、ザヴィ」と言って封界の指輪を魔力珠へ投げる
 
 
 25:
@@ -333,4 +345,5 @@
     place: 
     summary: 
   contents:
-    /alice li1 act for rec f - アリスがエスの使徒の復活を阻止し魔力珠を手に入れる
+    /alice li1 gDe prm r03 f - アリスがエスの使徒の復活を阻止し魔力珠を手に入れる
+    /alice li1 act prm r01 f - アリスが「いろいろあったけど、上手くやれたかな」と言う

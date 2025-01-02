@@ -2,29 +2,54 @@
 ## 試練のプロット - li1
 ### アリス
 #### 約束的示唆
-- item: alice li1 - promise
+- item: alice li1 - promise a
   promise event:
-    /alice li1 pla pro las f - アリスが「新しい人生になるのかな。きっと上手くいく！　私は止まらないから！」と言う
+    order 1
+    /alice li1 ply prm s01 f - アリスが「新しい人生になるのかな。きっと上手くいく」と言う
                               .pre 「寝てる間に世界は変ってるはず。新しいものがいっぱい！」
   resolution event:
-    /alice li1 act pro rec f - アリスがエスの使徒の復活を阻止し魔力珠を手に入れる
+    order 3
+    /alice li1 act prm r01 f - アリスが「いろいろあったけど、上手くやれたかな」と言う
+
+
+
+- item: alice li1 - promise b
+  promise event:
+    order 2
+    /alice li1 ply prm s02 f - アリスが封界の指輪の刻印を見て「ヨル、ザヴィどうしてるかな」と言う
+    ===
+    order 3
+    /alice li1 act prm s02 f - アリスがヨルとザヴィの死を知って封界の指輪に触れる
+  resolution event:
+    order 1
+    /alice li1 act prm r02 f - アリスが「さよならヨル、ザヴィ」と言って封界の指輪を魔力珠へ投げる
+
+
+
+- item: alice li1 - promise c
+  promise event:
+    order 4
+    /alice li1 gDe prm s03 f - アリスがヨルとザヴィに関係する魔力珠を探す旅をすることにする
+                              .アリスはヨルとザヴィの真実を明かしたいと強く思っているわけではない
+  resolution event:
+    order 2
+    /alice li1 gDe prm r03 f - アリスがエスの使徒の復活を阻止し魔力珠を手に入れる
 
 
 
 #### 準備
 - item: alice li1 - preparation 1
   preparation event:
-    /alice li1 oth pre nex b - ローズが奇蹟の力で信者を癒やす
+    /alice li1 oth pre nxt b - ローズが奇蹟の力で信者を癒やす
                               .死した少女を蘇生させる
     ===
-    /alice li1 oth pre nex f - アリスがローズの噂を聞く
+    /alice li1 oth pre nxt f - アリスがローズの噂を聞く
                               .ローズ様は女神のようだ
                               .ローズ様は恐ろしい魔物も倒される
   performance event:
-    /alice li1 act pre rec f b アリスがローズと戦う
-      /alice li1 act --- --- f - アリスは子孫に攻撃できずに逃げ出す
+    /alice li1 act pre rcv f b アリスがローズと戦う
+      /alice li1 act pre bgr f - アリスは子孫に攻撃できずに逃げ出す
                                 .ローズが辺りかまわず攻撃し、周囲への被害も考えると逃げるしかなかった
-      /alice li1 oth pre bac f - 〃
 
 
 
@@ -34,9 +59,9 @@
                               .魔法を発動待機させて静止の声を上げる
                               .エリーは隠しきれない怯えを漏らしながら引き下がる
     ===
-    /alice li1 bac pre mid f - アリスの背景
+    /alice li1 bgr pre mid f - アリスの背景
   performance event:
-    /alice li1 act pre rec f b アリスがローズと戦う
+    /alice li1 act pre rcv f b アリスがローズと戦う
       /alice li1 act --- --- f - アリスが真面に戦えず怪我をする
                                 .ローズが下腹部を押さえて苦しみ始める
 
@@ -44,12 +69,12 @@
 
 - item: alice li1 - preparation 3
   preparation event:
-    /alice li1 oth pre las b - 邪神ネグドヴァリスが力を示すntt
+    /alice li1 oth pre lst b - 邪神ネグドヴァリスが力を示すntt
     ===
-    /alice li1 oth pre las b - ローズがパワーアップする
+    /alice li1 oth pre lst b - ローズがパワーアップする
                               .邪神ネグドヴァリスの力をまとう
   performance event:
-    /alice li1 act pre rec f b アリスがローズと戦う
+    /alice li1 act pre rcv f b アリスがローズと戦う
       /alice li1 act --- --- f - アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する
                                 .ボロボロにされるがレオナとミリアに危険が及びそうになって指輪を外す
       /alice li1 act --- --- f - アリスがローズを倒す
@@ -62,40 +87,44 @@
 #### 約束的示唆
 - item: leona li1 - promise
   promise event:
-    /leona li1 pla pro las f - レオナが「前に、進みたいんです」と言う
+    /leona li1 ply prm s01 f - レオナが「前に、進みたいんです」と言う
                               .pre 「ボクはなんのために生きてるのか、分かりません。でも死ぬわけにはいかなくて」
                               .post 「あ、ち、違うんです！　なんでもないです！　気にしないでください」
   resolution event:
-    /leona li1 pla pro rec f - レオナが「アリス、ミリア。ボク、進めそうです」と言う
+    /leona li1 ply prm r01 f - レオナが「アリス、ミリア。ボク、進めそうです」と言う
 
 
 
 #### 準備
 - item: leona li1 - preparation 1
   preparation event:
-    /leona li1 oth pre nex f b レオナが魔物を倒して強いところを見せる
+    /leona li1 oth pre nxt f b レオナが魔物を倒して強いところを見せる
   performance event:
-    /leona li1 act pre rec f b レオナがエリーと戦う
+    /leona li1 act pre rcv f b レオナがエリーと戦う
       /leona li1 act --- --- f - レオナがエリーに敗北してアリスに助けられる
-      /leona li1 oth pre bac f - 〃
-      /leona li1 oth pre bac f - エリーの背景（エリーが戦闘中に過去を語る）
+      /leona li1 oth pre bgr f - 〃
+      /leona li1 oth pre bgr f - エリーの背景（エリーが戦闘中に過去を語る）
+
+
 
 - item: leona li1 - preparation 2
   preparation event:
-    /leona li1 bac pre mid f - レオナの背景
+    /leona li1 bgr pre mid f - レオナの背景
     /leona li1 oth pre mid b - エリーが余裕ぶってレオナを殺すと言う
   performance event:
-    /leona li1 act pre rec f b レオナがエリーと戦う
+    /leona li1 act pre rcv f b レオナがエリーと戦う
       /leona li1 act --- --- f - レオナがエリーと引き分ける
+
+
 
 - item: leona li1 - preparation 3
   preparation event:
-    /leona li1 oth pre las b - 邪神ネグドヴァリスが力を示すntt
+    /leona li1 oth pre lst b - 邪神ネグドヴァリスが力を示すntt
     ===
-    /leona li1 oth pre las b - エリーがパワーアップする
+    /leona li1 oth pre lst b - エリーがパワーアップする
                               .邪神ネグドヴァリスの力をまとう
   performance event:
-    /leona li1 act pre rec f b レオナがエリーと戦う
+    /leona li1 act pre rcv f b レオナがエリーと戦う
       /leona li1 act --- --- f - レオナがエリーを倒す
                                 .ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
 
@@ -105,44 +134,58 @@
 
 ### ミリア
 #### 約束的示唆
-- item: myria li1 - promise
+- item: myria li1 - promise a
   promise event:
-    /myria li1 pla pro las f - ミリアが「」と言う
+    order 1
+    /myria li1 ply prm s01 f - ミリアが「過去に囚われてはいけない」と言う
   resolution event:
-    /myria li1 pla pro rec f - ミリアが「」と言う
+    order 1
+    /myria li1 ply prm r01 f - ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
+
+
+
+- item: myria li1 - promise b
+  promise event:
+    order 2
+    /myria li1 gDe prm s02 f - ミリアが「だから私はハイエルフの叡智を求める旅をしているんです」と言う
+                              .post 「でも、一歩も進めていません……」
+  resolution event:
+    order 2
+    /myria li1 gDe prm r02 f - ミリアがハイエルフの叡智を得る
 
 
 
 #### 準備
 - item: myria li1 - preparation 1
   preparation event:
-    /myria li1 act pre nex f - ミリアが祖母に会いたいという強い思いを吐露する
+    /myria li1 act pre nxt f - ミリアが祖母に会いたいという強い思いを吐露する
   performance event:
-    /myria li1 act pre rec f b ミリアがフェイと戦う
+    /myria li1 act pre rcv f b ミリアがフェイと戦う
       /myria li1 act --- --- f - ミリアがフェイから遷世で祖母に会えるという言葉に動揺するが拒絶する
                                 .フェイがミリアに触れて精神魔法を使い思いを読み取る
-      /myria li1 oth pre bac f - 〃
+      /myria li1 oth pre bgr f - 〃
 
 
 
 - item: myria li1 - preparation 2
   preparation event:
-    /myria li1 bac pre mid f - ミリアの背景
+    /myria li1 bgr pre mid f - ミリアの背景
     ===
     /myria li1 oth pre mid f - フェイの背景
   performance event:
-    /myria li1 act pre rec f b ミリアがフェイと戦う
+    /myria li1 act pre rcv f b ミリアがフェイと戦う
       /myria li1 act --- --- f - ミリアがフェイの反魂魔法に動揺するが拒絶する
-                                .フェイが反魂魔法で先祖を呼び出して使役する
+                                .pre フェイが反魂魔法で先祖を呼び出して使役する
 
 
 
 - item: myria li1 - preparation 3
   preparation event:
-    /myria li1 act pre las f - ミリアが祖母を大切にすることを説くストーリーntt
+    /myria li1 act pre lst f - ミリアが祖母を大切にすることを説くストーリーntt
   performance event:
-    /myria li1 act pre rec f b ミリアがフェイと戦う
+    /myria li1 act pre rcv f b ミリアがフェイと戦う
       /myria li1 act --- --- f - ミリアがフェイを倒す
+                                .pre フェイがミリアの近くのエーテル体に気づいて顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ
 
 
 
@@ -164,7 +207,7 @@
     logline: 勇敢を自負する妖精が試練を乗り越えて本当の勇気を手に入れる
 - item: petra li1 - preparation 1
   preparation event:
-    /petra li1 act pre nex f - 
+    /petra li1 act pre nxt f - 
   performance event:
     /petra li1 act --- --- f - 
 
@@ -176,7 +219,7 @@
 
 - item: petra li1 - preparation 3
   preparation event:
-    /petra li1 act pre las f - 
+    /petra li1 act pre lst f - 
   performance event:
     /petra li1 act --- --- f - 
 
