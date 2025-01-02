@@ -1,7 +1,18 @@
 # プロット要素 第1章
 ## 試練のプロット - li1
 ### アリス
-- item: alice li1 - 1
+#### 約束的示唆
+- item: alice li1 - promise
+  promise event:
+    /alice li1 pla pro las f - アリスが「新しい人生になるのかな。きっと上手くいく！　私は止まらないから！」と言う
+                              .pre 「寝てる間に世界は変ってるはず。新しいものがいっぱい！」
+  resolution event:
+    /alice li1 act pro rec f - アリスがエスの使徒の復活を阻止し魔力珠を手に入れる
+
+
+
+#### 準備
+- item: alice li1 - preparation 1
   preparation event:
     /alice li1 oth pre nex b - ローズが奇蹟の力で信者を癒やす
                               .死した少女を蘇生させる
@@ -15,7 +26,9 @@
                                 .ローズが辺りかまわず攻撃し、周囲への被害も考えると逃げるしかなかった
       /alice li1 oth pre bac f - 〃
 
-- item: alice li1 - 2
+
+
+- item: alice li1 - preparation 2
   preparation event:
     /alice li1 oth pre mid f - アリスがレオナとエリーの戦いに干渉する（強いところを見せる）
                               .魔法を発動待機させて静止の声を上げる
@@ -27,7 +40,9 @@
       /alice li1 act --- --- f - アリスが真面に戦えず怪我をする
                                 .ローズが下腹部を押さえて苦しみ始める
 
-- item: alice li1 - 3
+
+
+- item: alice li1 - preparation 3
   preparation event:
     /alice li1 oth pre las b - 邪神ネグドヴァリスが力を示すntt
     ===
@@ -35,13 +50,28 @@
                               .邪神ネグドヴァリスの力をまとう
   performance event:
     /alice li1 act pre rec f b アリスがローズと戦う
-      /alice li1 act --- --- f - アリスがローズを倒す
+      /alice li1 act --- --- f - アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する
                                 .ボロボロにされるがレオナとミリアに危険が及びそうになって指輪を外す
+      /alice li1 act --- --- f - アリスがローズを倒す
+
+
 
 
 
 ### レオナ
-- item: leona li1 - 1
+#### 約束的示唆
+- item: leona li1 - promise
+  promise event:
+    /leona li1 pla pro las f - レオナが「前に、進みたいんです」と言う
+                              .pre 「ボクはなんのために生きてるのか、分かりません。でも死ぬわけにはいかなくて」
+                              .post 「あ、ち、違うんです！　なんでもないです！　気にしないでください」
+  resolution event:
+    /leona li1 pla pro rec f - レオナが「アリス、ミリア。ボク、進めそうです」と言う
+
+
+
+#### 準備
+- item: leona li1 - preparation 1
   preparation event:
     /leona li1 oth pre nex f b レオナが魔物を倒して強いところを見せる
   performance event:
@@ -50,7 +80,7 @@
       /leona li1 oth pre bac f - 〃
       /leona li1 oth pre bac f - エリーの背景（エリーが戦闘中に過去を語る）
 
-- item: leona li1 - 2
+- item: leona li1 - preparation 2
   preparation event:
     /leona li1 bac pre mid f - レオナの背景
     /leona li1 oth pre mid b - エリーが余裕ぶってレオナを殺すと言う
@@ -58,7 +88,7 @@
     /leona li1 act pre rec f b レオナがエリーと戦う
       /leona li1 act --- --- f - レオナがエリーと引き分ける
 
-- item: leona li1 - 3
+- item: leona li1 - preparation 3
   preparation event:
     /leona li1 oth pre las b - 邪神ネグドヴァリスが力を示すntt
     ===
@@ -71,8 +101,20 @@
 
 
 
+
+
 ### ミリア
-- item: myria li1 - 1
+#### 約束的示唆
+- item: myria li1 - promise
+  promise event:
+    /myria li1 pla pro las f - ミリアが「」と言う
+  resolution event:
+    /myria li1 pla pro rec f - ミリアが「」と言う
+
+
+
+#### 準備
+- item: myria li1 - preparation 1
   preparation event:
     /myria li1 act pre nex f - ミリアが祖母に会いたいという強い思いを吐露する
   performance event:
@@ -81,7 +123,9 @@
                                 .フェイがミリアに触れて精神魔法を使い思いを読み取る
       /myria li1 oth pre bac f - 〃
 
-- item: myria li1 - 2
+
+
+- item: myria li1 - preparation 2
   preparation event:
     /myria li1 bac pre mid f - ミリアの背景
     ===
@@ -91,7 +135,9 @@
       /myria li1 act --- --- f - ミリアがフェイの反魂魔法に動揺するが拒絶する
                                 .フェイが反魂魔法で先祖を呼び出して使役する
 
-- item: myria li1 - 3
+
+
+- item: myria li1 - preparation 3
   preparation event:
     /myria li1 act pre las f - ミリアが祖母を大切にすることを説くストーリーntt
   performance event:
@@ -100,20 +146,35 @@
 
 
 
+
+
 ### ペトラ
-- item: petra li1 - 1
+#### 約束的示唆
+- item: myria li1 - promise
+  promise event:
+    /myria
+  resolution event:
+    /myria
+
+
+
+#### 準備
+- conf:
+    theme: 勇気
+    logline: 勇敢を自負する妖精が試練を乗り越えて本当の勇気を手に入れる
+- item: petra li1 - preparation 1
   preparation event:
     /petra li1 act pre nex f - 
   performance event:
     /petra li1 act --- --- f - 
 
-- item: petra li1 - 2
+- item: petra li1 - preparation 2
   preparation event:
     /petra li1 act pre mid f - 
   performance event:
     /petra li1 act --- --- f - 
 
-- item: petra li1 - 3
+- item: petra li1 - preparation 3
   preparation event:
     /petra li1 act pre las f - 
   performance event:
@@ -121,20 +182,32 @@
 
 
 
+
+
 ### 
-- item:  li1 - 1
+#### 約束的示唆
+- item:  li1 - promise
+  promise event:
+    /
+  resolution event:
+    /
+
+
+
+#### 準備
+- item:  li1 - preparation 1
   preparation event:
     /
   performance event:
     /
 
-- item:  li1 - 2
+- item:  li1 - preparation 2
   preparation event:
     /
   performance event:
     /
 
-- item:  li1 - 3
+- item:  li1 - preparation 3
   preparation event:
     /
   performance event:
