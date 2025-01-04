@@ -1,4 +1,7 @@
 # プロット要素 第1章
+- ntt 情報提示を付加する
+- ntt レオナ、ミリアに苦悩を追加する
+- ntt ペトラをやる
 ## 試練のプロット - li1
 ### アリス
 #### 約束的示唆
@@ -48,8 +51,9 @@
                               .ローズ様は恐ろしい魔物も倒される
   performance event:
     /alice li1 act pre rcv f b アリスがローズと戦う
-      /alice li1 act pre bgr f - アリスは子孫に攻撃できずに逃げ出す
+      /alice li1 act pre bgr f - アリスは子孫への愛情から攻撃できずに逃げ出す
                                 .ローズが辺りかまわず攻撃し、周囲への被害も考えると逃げるしかなかった
+      /alice li1 act pre lst f - 〃
 
 
 
@@ -60,10 +64,14 @@
                               .エリーは隠しきれない怯えを漏らしながら引き下がる
     ===
     /alice li1 bgr pre mid f - アリスの背景
+    ===
+    /alice li1 ply pre mid f - アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+    /alice li1 ply pre lst f - 〃
   performance event:
     /alice li1 act pre rcv f b アリスがローズと戦う
       /alice li1 act --- --- f - アリスが真面に戦えず怪我をする
                                 .ローズが下腹部を押さえて苦しみ始める
+      /alice li1 act pre lst f - 〃
 
 
 
@@ -73,6 +81,10 @@
     ===
     /alice li1 oth pre lst b - ローズがパワーアップする
                               .邪神ネグドヴァリスの力をまとう
+    ===
+    /alice li1 ply pre lst f - アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+    ===
+    /alice li1 ply pre lst f - アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
   performance event:
     /alice li1 act pre rcv f b アリスがローズと戦う
       /alice li1 act --- --- f - アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する
@@ -101,9 +113,9 @@
     /leona li1 oth pre nxt f b レオナが魔物を倒して強いところを見せる
   performance event:
     /leona li1 act pre rcv f b レオナがエリーと戦う
+      /leona li1 oth pre bgr f - エリーの背景（エリーが戦闘中に過去を語る）
       /leona li1 act --- --- f - レオナがエリーに敗北してアリスに助けられる
       /leona li1 oth pre bgr f - 〃
-      /leona li1 oth pre bgr f - エリーの背景（エリーが戦闘中に過去を語る）
 
 
 
@@ -171,7 +183,7 @@
   preparation event:
     /myria li1 bgr pre mid f - ミリアの背景
     ===
-    /myria li1 oth pre mid f - フェイの背景
+    /myria li1 oth pre mid b - フェイの背景
   performance event:
     /myria li1 act pre rcv f b ミリアがフェイと戦う
       /myria li1 act --- --- f - ミリアがフェイの反魂魔法に動揺するが拒絶する

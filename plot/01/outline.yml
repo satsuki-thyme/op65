@@ -48,9 +48,9 @@
                               .ローズ様は女神のようだ
                               .ローズ様は恐ろしい魔物も倒される
     /alice li1 act pre rcv f b アリスがローズと戦う
-      /alice li1 act --- --- f - アリスは子孫に攻撃できずに逃げ出す
+      /alice li1 act pre bgr f - アリスは子孫への愛情から攻撃できずに逃げ出す
                                 .ローズが辺りかまわず攻撃し、周囲への被害も考えると逃げるしかなかった
-      /alice li1 oth pre bgr f - 〃
+      /alice li1 act pre lst f - 〃
 
 
 4:
@@ -87,9 +87,9 @@
     summary: 
   contents:
     /leona li1 act pre rcv f b レオナがエリーと戦う
+      /leona li1 oth pre bgr f - エリーが戦闘中に過去を語る
       /leona li1 act --- --- f - レオナがエリーに敗北してアリスに助けられる
       /leona li1 oth pre bgr f - 〃
-      /leona li1 oth pre bgr f - エリーが戦闘中に過去を語る
     /alice li1 oth pre mid f - アリスがレオナとエリーの戦いに干渉する（強いところを見せる）
                               .魔法を発動待機させて静止の声を上げる
                               .エリーは隠しきれない怯えを漏らしながら引き下がる
@@ -104,6 +104,8 @@
     place: 
     summary: 
   contents:
+    /alice li1 ply pre mid f - アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+    /alice li1 ply pre lst f - 〃
     /leona li1 bgr pre mid f - レオナの背景
 
 
@@ -201,6 +203,7 @@
     /alice li1 act pre rcv f b アリスがローズと戦う
       /alice li1 act --- --- f - アリスが真面に戦えず怪我をする
                                 .ローズが下腹部を押さえて苦しみ始める
+      /alice li1 act pre lst f - 〃
 
 
 15:
@@ -212,7 +215,8 @@
     place: 
     summary: 
   contents:
-    /myria li1 oth pre mid f - フェイの背景
+    /alice li1 ply pre lst f - アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+    /myria li1 oth pre mid b - フェイの背景
 
 16:
   meta:
@@ -318,6 +322,7 @@
   contents:
     /alice li1 oth pre lst b - ローズがパワーアップする
                               .邪神ネグドヴァリスの力をまとう
+    /alice li1 ply pre lst f - アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
 
 
 24:
