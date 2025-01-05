@@ -12,7 +12,7 @@
                               .pre 「寝てる間に世界は変ってるはず。新しいものがいっぱい！」
     /alice li1 ply prm s02 f - アリスが封界の指輪の刻印を見て「ヨル、ザヴィどうしてるかな」と言う
     /alice li1 act prm s02 f - アリスがヨルとザヴィの死を知って封界の指輪に触れる
-    /alice li1 gDe prm s03 f - アリスがヨルとザヴィに関係する魔力珠を探す旅をすることにする
+    /alice li1 gDs prm s03 f - アリスがヨルとザヴィに関係する魔力珠を探す旅をすることにする
                               .アリスはヨルとザヴィの真実を明かしたいと強く思っているわけではない
     /leona li1 ply prm s01 f - レオナが「前に、進みたいんです」と言う
                               .pre 「ボクはなんのために生きてるのか、分かりません。でも死ぬわけにはいかなくて」
@@ -29,7 +29,7 @@
     summary: 
   contents:
     /myria li1 ply prm s01 f - ミリアが「過去に囚われてはいけない」と言う
-    /myria li1 gDe prm s02 f - ミリアが「だから私はハイエルフの叡智を求める旅をしているんです」と言う
+    /myria li1 gDs prm s02 f - ミリアが「だから私はハイエルフの叡智を求める旅をしているんです」と言う
                               .post 「でも、一歩も進めていません……」
 
 
@@ -106,6 +106,7 @@
   contents:
     /alice li1 ply pre mid f - アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     /alice li1 ply pre lst f - 〃
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
     /leona li1 bgr pre mid f - レオナの背景
 
 
@@ -118,6 +119,7 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
     /myria li1 act pre nxt f - ミリアが祖母に会いたいという強い思いを吐露する
     /myria li1 act pre rcv f b ミリアがフェイと戦う
       /myria li1 act --- --- f - ミリアがフェイから遷世で祖母に会えるという言葉に動揺するが拒絶する
@@ -134,6 +136,7 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
     /myria li1 bgr pre mid f - ミリアの背景
 
 
@@ -146,6 +149,7 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
 
 
 11:
@@ -157,6 +161,7 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
     /leona li1 oth pre mid b - エリーが余裕ぶってレオナを殺すと言う
 
 
@@ -200,10 +205,11 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
     /alice li1 act pre rcv f b アリスがローズと戦う
-      /alice li1 act --- --- f - アリスが真面に戦えず怪我をする
-                                .ローズが下腹部を押さえて苦しみ始める
-      /alice li1 act pre lst f - 〃
+      /alice li1 oth --- --- f - アリスが真面に戦えず怪我をする
+      /alice li1 oth pre lst f - 〃
+      /alice li1 oth --- --- f - ローズが下腹部を押さえて苦しみ始める
 
 
 15:
@@ -215,7 +221,9 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
     /alice li1 ply pre lst f - アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+    /myria li1 ply pre mid f - ミリアが祖母を思う
     /myria li1 oth pre mid b - フェイの背景
 
 16:
@@ -227,6 +235,7 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
     /myria li1 act pre rcv f b ミリアがフェイと戦う
       /myria li1 act --- --- f - ミリアがフェイの反魂魔法に動揺するが拒絶する
                                 .フェイが反魂魔法で先祖を呼び出して使役する
@@ -241,6 +250,7 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
     /alice li1 oth pre lst b - 邪神ネグドヴァリスが力を示すntt
     /leona li1 oth pre lst b - 〃
 
@@ -254,6 +264,7 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
 
 
 19:
@@ -265,6 +276,8 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
+    /myria li1 act pre lst f - ミリアが祖母を大切にすることを説くストーリーntt
 
 
 20:
@@ -276,11 +289,12 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
     /myria li1 act pre rcv f b ミリアがフェイと戦う
       /myria li1 act --- --- f - ミリアがフェイを倒す
                                 .pre フェイがミリアの近くのエーテル体に気づいて顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ
     /myria li1 ply prm r01 f - ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
-    /myria li1 gDe prm r02 f - ミリアがハイエルフの叡智を得る
+    /myria li1 gDs prm r02 f - ミリアがハイエルフの叡智を得る
 
 
 21:
@@ -292,6 +306,7 @@
     place: 
     summary: 
   contents:
+    /leona li1 ply pre mid f - レオナがアリスに訓練してもらう
     /leona li1 oth pre lst b - エリーがパワーアップする
                               .邪神ネグドヴァリスの力をまとう
 
@@ -350,5 +365,5 @@
     place: 
     summary: 
   contents:
-    /alice li1 gDe prm r03 f - アリスがエスの使徒の復活を阻止し魔力珠を手に入れる
+    /alice li1 gDs prm r03 f - アリスがエスの使徒の復活を阻止し魔力珠を手に入れる
     /alice li1 act prm r01 f - アリスが「いろいろあったけど、上手くやれたかな」と言う
