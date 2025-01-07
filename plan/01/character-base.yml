@@ -1,377 +1,378 @@
 # キャラクターの基本設計
 ## 概要比較
 overview comparison:
-  - アリス　突き進む、心配事は概念にない
-  - レオナ　常識人、理性的と感情のバランス型
-  - ミリア　優しく気弱、不安が多く怖がり
-  - ペトラ　
-  - ローズ　執念の人、傲慢で周囲が見えていないが行動は結果的に功を奏する
-  - エリー　冷静沈着、冷徹の中に強い情念
-  - フェイ　キチガイ、エルフ狂い
+  アリス　突き進む、心配事は概念にない
+  レオナ　常識人、理性的と感情のバランス型
+  ミリア　優しく気弱、不安が多く怖がり
+  ペトラ　
+  ローズ　執念の人、傲慢で周囲が見えていないが行動は結果的に功を奏する
+  エリー　冷静沈着、冷徹の中に強い情念
+  フェイ　キチガイ、エルフ狂い
 
 
 ## 詳細
 details:
-  - name: アリス
+  - item: アリス
     charm:
       title:
-        - 強気かわいい
+        強気かわいい
       entity:
         predicament:
-          - 果敢に立ち向かう
+          果敢に立ち向かう
         normaly:
-          - 意のままに振る舞う
+          意のままに振る舞う
     desire:
       title:
-        - 魔力珠を手に入れたい（ヨルとザヴィが作り出した）
-        - 世界を崩壊から救いたい
+        魔力珠を手に入れたい（ヨルとザヴィが作り出した）
+        世界を崩壊から救いたい
       conflict:
-        - ローズ
+        ローズ
       background connected to desire:
-        - 世界を生んだから世界に生まれる新しいものに興味がある
+        世界を生んだから世界に生まれる新しいものに興味がある
     ordeal:
       title:
-        - 過去を諦められるか
+        過去を諦められるか
       facing the inner self:
-        - 過去に執着する自分
+        過去に執着する自分
       collision opponent:
-        - ローズ
+        ローズ
       how to overcome:
-        - 子孫であるローズを殺す
+        子孫であるローズを殺す
       inner change:
-        - 過去より今の幸福が大切であることに気づく
+        過去より今の幸福が大切であることに気づく
       right point:
-        - 本当に大切なものがなんなのか気づいた
+        本当に大切なものがなんなのか気づいた
       wrong point:
-        - なし
+        なし
     what to do:
-      - 子孫の騒動に終止符を打つ
+      子孫の騒動に終止符を打つ
     uniq characteristic:
-      name: 原初の少女
+      item: 原初の少女
       entities:
-        - name: 極端性
+        - item: 極端性
           contents: 原初
 
-        - name: 希少性
+        - item: 希少性
           contents: 原初の少女
 
-        - name: 未知性
+        - item: 未知性
           contents: 原初の少女
 
-        - name: 秘密性
+        - item: 秘密性
           contents: 原初の少女
 
-        - name: 違和感
+        - item: 違和感
           contents: なし
 
 
-  - name: レオナ
+  - item: レオナ
     charm:
       title:
-        - 明るいさばさば（岩崎さん）かわいい
+        明るいさばさば（岩崎さん）かわいい
       entity:
         predicament:
-          - 屈しない
+          屈しない
         normaly:
-          - 前向き
+          前向き
     desire:
       title:
-        - 強くなりたい
+        前進したい
+        強くなりたい
       conflict:
-        - エリー
+        エリー
       background connected to desire:
-        - 国を滅ぼされ親族を失った
+        国を滅ぼされ親族を失った
     ordeal:
       title:
-        - かつて幸せだった思い出に見切りをつけて前進できるか
+        かつて幸せだった思い出に見切りをつけて前進できるか
       facing the inner self:
-        - 強くなりたいのに変るのが怖い
+        強くなりたいのに変るのが怖い => 勇気が必要
       collision opponent:
-        - エリー
+        エリー
       how to overcome:
-        - エリーとの死闘をくぐり抜ける
+        エリーとの死闘をくぐり抜ける
       inner change:
-        - 大切な者との今の幸福を掴む決意
+        大切な者との今の幸福を掴む決意
       right point:
-        - 健全な欲求に支えられていた――生きたい、仲間と過ごしたい
+        健全な欲求に支えられていた――生きたい、仲間と過ごしたい
       wrong point:
-        - なし
+        なし
     what to do:
-      - 過去を乗り越えることで今を生きる選択をする
+      過去を乗り越えることで今を生きる選択をする
     uniq characteristic:
-      name: 王女
+      item: 王女
       entities:
-        - name: 極端性
+        - item: 極端性
           contents: 王女
 
-        - name: 希少性
+        - item: 希少性
           contents: 王女
 
-        - name: 未知性
+        - item: 未知性
           contents: なし
 
-        - name: 秘密性
+        - item: 秘密性
           contents: 王女
 
-        - name: 違和感
+        - item: 違和感
           contents: 王女が一人で活動している
 
 
-  - name: ミリア
+  - item: ミリア
     charm:
       title:
-        - おとなしいお姉さんかわいい
+        おとなしいお姉さんかわいい
       entity:
         predicament:
-          - 受け流す、受容する、許す
+          受け流す、受容する、許す
         normaly:
-          - 面倒見がいい
+          面倒見がいい
     desire:
       title:
-        - ハイエルフの叡智が欲しい
+        ハイエルフの叡智が欲しい
       conflict:
-        - フェイ
+        フェイ
       background connected to desire:
-        - 祖母に魔法を教わった思い出
+        祖母に魔法を教わった思い出
     ordeal:
       title:
-        - 過去への誘惑を断ち切れるか
+        過去への誘惑を断ち切れるか
       facing the inner self:
-        - 祖母への罪悪感に囚われたままの心
+        祖母への罪悪感に囚われたままの心
       collision opponent:
-        - フェイ
+        フェイ
       how to overcome:
-        - フェイの誘惑を断ち切って倒す
+        フェイの誘惑を断ち切って倒す
       inner change:
-        - 過去よりも今の幸福が大切だと分かる
+        過去よりも今の幸福が大切だと分かる
       right point:
-        - 誘惑に打ち勝って倒すことを選んだ
+        誘惑に打ち勝って倒すことを選んだ
       wrong point:
-        - なし
+        なし
     what to do:
-      - 過去に折り合いをつけて前向きに歩きだす
+      過去に折り合いをつけて前向きに歩きだす
     uniq characteristic:
-      name: ハイエルフの叡智を求めるエルフ
+      item: ハイエルフの叡智を求めるエルフ
       entities:
-        - name: 極端性
+        - item: 極端性
           contents: ハイエルフの叡智
 
-        - name: 希少性
+        - item: 希少性
           contents: ハイエルフの叡智
 
-        - name: 未知性
+        - item: 未知性
           contents: ハイエルフの叡智
 
-        - name: 秘密性
+        - item: 秘密性
           contents: ハイエルフの叡智
 
-        - name: 違和感
+        - item: 違和感
           contents: なし
 
 
-  - character: ペトラ
+  - item: ペトラ
     charm:
       title:
-        - やんちゃかわいい
+        やんちゃかわいい
       entity:
         predicament:
-          - 怯える
+          怯える
         normaly:
-          - はしゃいでいる
+          はしゃいでいる
     desire:
       title:
-        - 名声を得たい
+        名声を得たい
       conflict:
-        - 臆病な自分
+        臆病な自分
       background connected to desire:
-        - なし
+        なし
     ordeal:
       title:
-        - 勇気を振り絞ることができるか
+        勇気を振り絞ることができるか
       facing the inner self:
-        - 臆病な自分
+        臆病な自分
       collision opponent:
-        - 森の妖精に訪れた苦難
+        森の妖精に訪れた苦難
       how to overcome:
-        - アリスの言葉で奮起する
+        アリスの言葉で奮起する
       inner change:
-        - 勇気を振り絞る
+        勇気を振り絞る
       right point:
-        - 勇気を出すことができた
+        勇気を出すことができた
       wrong point:
-        - なし
+        なし
     what to do:
-      - 勇気とは何かを知って頼もしくなる
+      勇気とは何かを知って頼もしくなる
     uniq characteristic:
-      name: 
+      item: 
       entities:
-        - name: 極端性
+        - item: 極端性
           contents: 
 
-        - name: 希少性
+        - item: 希少性
           contents: 
 
-        - name: 未知性
+        - item: 未知性
           contents: 
 
-        - name: 秘密性
+        - item: 秘密性
           contents: 
 
-        - name: 違和感
+        - item: 違和感
           contents: 
 
 
-  - name: ローズ
+  - item: ローズ
     charm:
       title:
-        - 傲慢妖艶
+        傲慢妖艶
       entity:
         predicament:
-          - 諦めない
+          諦めない
         normaly:
-          - 意のままに振る舞う
+          意のままに振る舞う
     desire:
       title:
-        - false= 遷世したい, true= 人族を滅亡させたい
+        false= 遷世したい, true= 人族を滅亡させたい
       conflict:
-        - アリス
+        アリス
       background connected to desire:
-        - false= 親が殺された, true= エスが邪神に狂わされている
+        false= 親が殺された, true= エスが邪神に狂わされている
     ordeal:
       title:
-        - false= 過去を諦められるか, true= なし
+        false= 過去を諦められるか, true= なし
       facing the inner self:
-        - false= 過去に執着する自分, true= なし
+        false= 過去に執着する自分, true= なし
       collision opponent:
-        - アリス
+        アリス
       how to overcome:
-        - false= なし, true= 自らの死
+        false= なし, true= 自らの死
       inner change:
-        - なし
+        なし
       right point:
-        - なし
+        なし
       wrong point:
-        - なし
+        なし
     what to do:
-      - エスを解放して人族を滅亡させるために死ぬ
+      エスを解放して人族を滅亡させるために死ぬ
     uniq characteristic:
-      name: 
+      item: 
       entities:
-        - name: 極端性
+        - item: 極端性
           contents: 
 
-        - name: 希少性
+        - item: 希少性
           contents: 
 
-        - name: 未知性
+        - item: 未知性
           contents: 
 
-        - name: 秘密性
+        - item: 秘密性
           contents: 
 
-        - name: 違和感
+        - item: 違和感
           contents: 
 
 
-  - name: エリー
+  - item: エリー
     charm:
       title:
-        - 冷徹妖艶
+        冷徹妖艶
       entity:
         predicament:
-          - 冷徹の下の煮えたぎる情熱
+          冷徹の下の煮えたぎる情熱
         normaly:
-          - 冷静沈着
+          冷静沈着
     desire:
       title:
-        - レオナに復讐したい
+        レオナに復讐したい
       conflict:
-        - レオナ
+        レオナ
       background connected to desire:
-        - 国を滅ぼされ親族を失った
+        国を滅ぼされ親族を失った
     ordeal:
       title:
-        - ローズへの真の愛に目覚め過去を捨てて生きられるか
+        ローズへの真の愛に目覚め過去を捨てて生きられるか
       facing the inner self:
-        - 過去に執着する自分
+        過去に執着する自分
       collision opponent:
-        - レオナ
+        レオナ
       how to overcome:
-        - なし
+        なし
       inner change:
-        - なし
+        なし
       right point:
-        - なし
+        なし
       wrong point:
-        - 復讐心を貫いてしまった
+        復讐心を貫いてしまった
     what to do:
-      - 復讐に身を委ねて死ぬ
+      復讐に身を委ねて死ぬ
     uniq characteristic:
-      name: 
+      item: 
       entities:
-        - name: 極端性
+        - item: 極端性
           contents: 
 
-        - name: 希少性
+        - item: 希少性
           contents: 
 
-        - name: 未知性
+        - item: 未知性
           contents: 
 
-        - name: 秘密性
+        - item: 秘密性
           contents: 
 
-        - name: 違和感
+        - item: 違和感
           contents: 
 
 
-  - name: フェイ
+  - item: フェイ
     charm:
       title:
-        - 壮絶妖艶
+        壮絶妖艶
       entity:
         predicament:
-          - 散り様が美しい
+          散り様が美しい
         normaly:
-          - 派手
+          派手
     desire:
       title:
-        - ミリアを手に入れたい
+        ミリアを手に入れたい
       conflict:
-        - ミリアがなびかない
+        ミリアがなびかない
       background connected to desire:
-        - ローズの城で宮廷魔法使いをしていた
+        ローズの城で宮廷魔法使いをしていた
     ordeal:
       title:
-        - なびかない相手を諦めることができるか
+        なびかない相手を諦めることができるか
       facing the inner self:
-        - 強欲で自制のない自分
+        強欲で自制のない自分
       collision opponent:
-        - ミリア
+        ミリア
       how to overcome:
-        - なし
+        なし
       inner change:
-        - なし
+        なし
       right point:
-        - なし
+        なし
       wrong point:
-        - 諦められなかった
+        諦められなかった
     what to do:
-      - ミリアを力尽くで得ようとして死ぬ
+      ミリアを力尽くで得ようとして死ぬ
     uniq characteristic:
-      name: 
+      item: 
       entities:
-        - name: 極端性
+        - item: 極端性
           contents: 
 
-        - name: 希少性
+        - item: 希少性
           contents: 
 
-        - name: 未知性
+        - item: 未知性
           contents: 
 
-        - name: 秘密性
+        - item: 秘密性
           contents: 
 
-        - name: 違和感
+        - item: 違和感
           contents: 

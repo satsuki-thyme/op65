@@ -1,6 +1,7 @@
 # プロット要素 第1章
 - ntt ペトラをやる
 - ntt 試練の前に気分を上げる
+- ntt ローザの背景をアリスのプロットに配置する
 ## 試練のプロット - li1
 ### アリス
 #    ###    ##       ####  ######  ########
@@ -68,14 +69,18 @@
 
 - item: alice li1 - preparation 2
   preparation event:
-    /alice li1 act pre mid --- f - !favora アリスがレオナとエリーの戦いに干渉する（強いところを見せる）
+    /alice li1 ply pre mid --- f - !favora アリスがレオナとエリーの戦いに干渉する（強いところを見せる）
                                           .魔法を発動待機させて静止の声を上げる
                                           .エリーは隠しきれない怯えを漏らしながら引き下がる
     ===
-    /alice li1 ply pre mid 002 f - !though アリスの背景
+    /alice li1 ply pre mid 002 f - !backgr アリスの背景
     ===
     /alice li1 ply pre mid --- f - !though アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     /alice li1 ply pre lst --- f - !though 〃
+    ===
+    /alice li1 ply pre mid --- f - !favora ntt
+    ===
+    /alice li1 ply pre mid --- b - !threat ローズがアリスについて不気味な発言をする
   performance event:
     /alice li1 act pre --- mid f b !ordeal アリスがローズと戦う
       /alice li1 evn pre lst --- f - !result アリスが真面に戦えず怪我をする
@@ -85,8 +90,6 @@
 
 - item: alice li1 - preparation 3
   preparation event:
-    /alice li1 ply pre lst --- f - !favora 
-    ===
     /alice li1 evn pre lst --- b - !threat 邪神ネグドヴァリスが力を示すntt
     ===
     /alice li1 evn pre lst --- b - !threat ローズがパワーアップする
@@ -94,6 +97,8 @@
     ===
     /alice li1 ply pre lst --- f - !though アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     x n
+    ===
+    /alice li1 ply pre lst --- f - !favora ntt
   performance event:
     /alice li1 act pre --- lst f b !ordeal アリスがローズと戦う
       /alice li1 act --- --- --- f - !though アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する
@@ -128,8 +133,11 @@
 - item: leona li1 - preparation 1
   preparation event:
     /leona li1 ply pre 001 --- f b !favora レオナが魔物を倒して強いところを見せる
+      /leona li1 ply pre 001 --- f - !though レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
+    ===
+    /leona li1 ply pre 001 --- b - !threat エリーがレオナに憎悪を向ける
   performance event:
-    /leona li1 act pre f b !ordeal 001 !ordeal レオナがエリーと戦う
+    /leona li1 act pre --- 001 f b !ordeal レオナがエリーと戦う
       /leona li1 ply pre 002 --- f - !backgr エリーの背景（エリーが戦闘中に過去を語る）
       /leona li1 evn pre 002 --- f - !result レオナがエリーに敗北する
 
@@ -137,12 +145,14 @@
 
 - item: leona li1 - preparation 2
   preparation event:
-    /leona li1 ply pre mid 002 f - !though レオナの背景
+    /leona li1 ply pre mid 002 f - !backgr レオナの背景
     ===
     /leona li1 evn pre mid --- b - !threat エリーが余裕ぶってレオナを殺すと言う
     ===
-    /leona li1 ply pre mid --- f - !though レオナがアリスに訓練してもらう
+    /leona li1 ply pre mid --- f - !though レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][mem-018.md]
     x n
+    ===
+    /leona li1 ply pre mid --- f - !favora レオナがアリスに訓練してもらい上々の出来
   performance event:
     /leona li1 act pre --- mid f b !ordeal レオナがエリーと戦う
       /leona li1 evn --- --- --- f - !result レオナがエリーと引き分ける
@@ -153,11 +163,12 @@
   preparation event:
     /leona li1 evn pre lst --- b - !threat 邪神ネグドヴァリスが力を示すntt
     ===
-    /leona li1 evn pre lst --- b - !threat エリーがパワーアップする
-                                              .邪神ネグドヴァリスの力をまとう
+    /leona li1 evn pre lst --- b - !threat エリーがパワーアップして異形になる
+                                          .邪神ネグドヴァリスの力をまとう
     ===
-    /leona li1 ply pre lst --- f - !though レオナがアリスに訓練してもらう
-    x n
+    /leona li1 ply pre lst --- f - !though 今一歩、過去から抜け出せない気持ちntt
+    ===
+    /leona li1 ply pre lst --- f - !favora ntt
   performance event:
     /leona li1 act pre --- lst f b !ordeal レオナがエリーと戦う
       /leona li1 act --- --- --- f - !though ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
@@ -202,10 +213,14 @@
 - item: myria li1 - preparation 1
   preparation event:
     /myria li1 act pre 001 --- f - !though ミリアが祖母に会いたいという強い思いを吐露する
+    ===
+    /myria li1 ply pre 001 --- f - !favora お姉さんとして振る舞っていい調子
+    ===
+    /myria li1 ply pre 001 --- b - !threat フェイがエルフへの欲望を吐露する
   performance event:
     /myria li1 act pre --- 001 f b !ordeal ミリアがフェイと戦う
       /myria li1 evn --- --- --- f - !though フェイがミリアに触れて精神魔法を使い思いを読み取り遷世で祖母に会えると言いミリアが動揺するが拒絶する
-      /myria li1 act pre 002 --- f - !result フェイが撤退する
+      /myria li1 act pre 002 --- f - !result フェイが「また来る」と言って撤退する
 
 
 
@@ -216,19 +231,26 @@
     /myria li1 ply pre mid --- b - !backgr フェイの背景
     ===
     /myria li1 ply pre mid --- f - !though ミリアが祖母を思う
+    ===
+    /myria li1 ply pre mid --- f - !favora 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
+    ===
+    /myria li1 ply pre mid --- b - !threat フェイが取って置きの方法を思ってほくそ笑む
   performance event:
     /myria li1 act pre --- mid f b !ordeal ミリアがフェイと戦う
       /myria li1 evn --- --- --- f - !though フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
-      /myria li1 act --- --- --- f - !result フェイが撤退する
+      /myria li1 act --- --- --- f - !result フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する
 
 
 
 - item: myria li1 - preparation 3
   preparation event:
-    /myria li1 act pre lst --- f - !though ミリアが祖母を大切にすることを説くストーリーntt
+    /myria li1 act pre lst --- f - !though ミリアが祖母を大切に思う気持ちを吐露する
+    /myria li1 ply pre lst --- f - !favora ミリアが祖母を悲しませるような選択はできないと意気込む
+    ===
+    /myria li1 ply pre lst --- f - !threat フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく
   performance event:
     /myria li1 act pre --- lst f b !ordeal ミリアがフェイと戦う
-      /myria li1 act --- --- --- f - !though フェイがミリアの近くのエーテル体に気づいて顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ
+      /myria li1 act --- --- --- f - !though フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ
       /myria li1 evn --- --- --- f - !result ミリアがフェイを倒す
 
 
