@@ -1,16 +1,26 @@
 # プロット要素 第1章
 - ntt ペトラをやる
 - ntt 試練の前に気分を上げる
-- ntt ローザの背景をアリスのプロットに配置する
+- ntt ローズの背景をアリスのプロットにリンクする
+- ntt ペトラのプロットは何のプロットか考える
 ## 試練のプロット - li1
+- group: li1
+
+    ###    ##       ####  ######  ########
+   ## ##   ##        ##  ##    ## ##
+  ##   ##  ##        ##  ##       ##
+ ##     ## ##        ##  ##       ######
+ ######### ##        ##  ##       ##
+ ##     ## ##        ##  ##    ## ##
+ ##     ## ######## ####  ######  ########
+
 ### アリス
-#    ###    ##       ####  ######  ########
-#   ## ##   ##        ##  ##    ## ##
-#  ##   ##  ##        ##  ##       ##
-# ##     ## ##        ##  ##       ######
-# ######### ##        ##  ##       ##
-# ##     ## ##        ##  ##    ## ##
-# ##     ## ######## ####  ######  ########
+#### 構成
+- conf: alice li1
+  type: 試練のプロット
+  theme: 過去と決別して今を選ぶ
+
+
 
 #### 約束的示唆
 - item: alice li1 - promise a
@@ -33,7 +43,7 @@
     /alice li1 ply prm 002 --- f - !though アリスがザヴィの死を知って封界の指輪に触れる
   resolution event:
     order 1
-    /alice li1 act prm --- 002 f - !though アリスが「さよならザヴィ」と言って封界の指輪を魔力珠へ投げる
+    /alice li1 act prm --- 002 f - !though アリスが「さよならザヴィ」と言って封界の指輪を復活したエスの使徒へ投げる
 
 
 
@@ -44,14 +54,14 @@
                                           .アリスはザヴィの真実を明かしたいと強く思っているわけではない
   resolution event:
     order 2
-    /alice li1 evn prm --- 003 f - !gDesir アリスがエスの使徒の復活を阻止し魔力珠を手に入れる
+    /alice li1 evn prm --- 003 f - !gDesir アリスが復活したエスの使徒を抑え魔力珠を手に入れる[mem-019.md]
 
 
 
 #### 準備
 - item: alice li1 - preparation 1
   preparation event:
-    /alice li1 ply pre 001 --- f - !favora アリスが暴れる神獣をおとなしくさせる
+    /alice li1 ply pre 001 --- f - !favora アリスが暴れる神獣をおとなしくさせる[mem-019.md]
     ===
     /alice li1 evn pre 001 --- b - !threat ローズが奇蹟の力で信者を癒やす
                                           .死した少女を蘇生させる
@@ -109,23 +119,30 @@
 
 
 
-# ##       ########  #######  ##    ##    ###
-# ##       ##       ##     ## ###   ##   ## ##
-# ##       ##       ##     ## ####  ##  ##   ##
-# ##       ######   ##     ## ## ## ## ##     ##
-# ##       ##       ##     ## ##  #### #########
-# ##       ##       ##     ## ##   ### ##     ##
-# ######## ########  #######  ##    ## ##     ##
+ ##       ########  #######  ##    ##    ###
+ ##       ##       ##     ## ###   ##   ## ##
+ ##       ##       ##     ## ####  ##  ##   ##
+ ##       ######   ##     ## ## ## ## ##     ##
+ ##       ##       ##     ## ##  #### #########
+ ##       ##       ##     ## ##   ### ##     ##
+ ######## ########  #######  ##    ## ##     ##
 
 ### レオナ
+#### 構成
+- conf: leona li1
+  type: 試練のプロット
+  theme: 過去と決別して今を選ぶ
+
+
+
 #### 約束的示唆
 - item: leona li1 - promise
   promise event:
-    /leona li1 ply prm 001 --- f - !though レオナが「前に、進みたいんです」と言う
+    /leona li1 ply prm 001 --- f - !gDesir レオナが「前に、進みたいんです」と言う
                                           .pre 「ボクはなんのために生きてるのか、分かりません。でも死ぬわけにはいかなくて」
                                           .post 「あ、ち、違うんです！　なんでもないです！　気にしないでください」
   resolution event:
-    /leona li1 ply prm --- 001 f - !though レオナが「アリス、ミリア。ボク進めそうです」と言う
+    /leona li1 ply prm --- 001 f - !gDesir レオナが「アリス、ミリア。ボク進めそうです」と言う
 
 
 
@@ -178,15 +195,22 @@
 
 
 
-# ##     ## ##    ## ########  ####    ###
-# ###   ###  ##  ##  ##     ##  ##    ## ##
-# #### ####   ####   ##     ##  ##   ##   ##
-# ## ### ##    ##    ########   ##  ##     ##
-# ##     ##    ##    ##   ##    ##  #########
-# ##     ##    ##    ##    ##   ##  ##     ##
-# ##     ##    ##    ##     ## #### ##     ##
+ ##     ## ##    ## ########  ####    ###
+ ###   ###  ##  ##  ##     ##  ##    ## ##
+ #### ####   ####   ##     ##  ##   ##   ##
+ ## ### ##    ##    ########   ##  ##     ##
+ ##     ##    ##    ##   ##    ##  #########
+ ##     ##    ##    ##    ##   ##  ##     ##
+ ##     ##    ##    ##     ## #### ##     ##
 
 ### ミリア
+#### 構成
+- conf: myria li1
+  type: 試練のプロット
+  theme: 過去と決別して今を選ぶ
+
+
+
 #### 約束的示唆
 - item: myria li1 - promise a
   promise event:
@@ -257,15 +281,23 @@
 
 
 
-# ########  ######## ######## ########     ###
-# ##     ## ##          ##    ##     ##   ## ##
-# ##     ## ##          ##    ##     ##  ##   ##
-# ########  ######      ##    ########  ##     ##
-# ##        ##          ##    ##   ##   #########
-# ##        ##          ##    ##    ##  ##     ##
-# ##        ########    ##    ##     ## ##     ##
+ ########  ######## ######## ########     ###
+ ##     ## ##          ##    ##     ##   ## ##
+ ##     ## ##          ##    ##     ##  ##   ##
+ ########  ######      ##    ########  ##     ##
+ ##        ##          ##    ##   ##   #########
+ ##        ##          ##    ##    ##  ##     ##
+ ##        ########    ##    ##     ## ##     ##
 
 ### ペトラ
+#### 構成
+- conf: petra li1
+  type: 試練のプロットntt
+  theme: 勇気
+  logline: 勇敢を自負する妖精が試練を乗り越えて本当の勇気を手に入れる
+
+
+
 #### 約束的示唆
 - item: myria li1 - promise
   promise event:
@@ -276,14 +308,13 @@
 
 
 #### 準備
-- conf:
-    theme: 勇気
-    logline: 勇敢を自負する妖精が試練を乗り越えて本当の勇気を手に入れる
 - item: petra li1 - preparation 1
   preparation event:
     /petra li1 act pre nxt --- f - 
   performance event:
     /petra li1 act --- --- --- f - 
+
+
 
 - item: petra li1 - preparation 2
   preparation event:
@@ -291,11 +322,66 @@
   performance event:
     /petra li1 act --- --- --- f - 
 
+
+
 - item: petra li1 - preparation 3
   preparation event:
     /petra li1 act pre lst --- f - 
   performance event:
     /petra li1 act --- --- --- f - 
+
+
+
+
+
+ ########   #######   ######  ######## 
+ ##     ## ##     ## ##    ## ##       
+ ##     ## ##     ## ##       ##       
+ ########  ##     ##  ######  ######   
+ ##   ##   ##     ##       ## ##       
+ ##    ##  ##     ## ##    ## ##       
+ ##     ##  #######   ######  ######## 
+
+### ローズ
+#### 構成
+- conf: rose li1
+  type: 導き手のプロット
+  theme: 
+
+
+
+#### 約束的示唆
+- item: rose li1 - promise
+  promise event:
+    /rose  li1 ply prm lst --- b - !gDesir ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う
+                                          .post エリーとフェイは意味が分からず訝しげにする
+  resolution event:
+    /rose  li1 evn prm --- lst f - !gDesir ローズが死んでエルの使徒の封印が解かれる
+
+
+
+#### 準備
+- item: rose li1 - preparation 1
+  preparation event:
+    /rose  li1 ply pre 001 --- b - 
+  performance event:
+    /rose  li1 evn pre --- 001 f - !
+
+
+
+- item: rose li1 - preparation 2
+  preparation event:
+    /rose  li1 
+  performance event:
+    /rose  li1 
+
+
+
+- item: rose li1 - preparation 3
+  preparation event:
+    /rose  li1 
+  performance event:
+    /rose  li1 
 
 
 
@@ -318,11 +404,15 @@
   performance event:
     /
 
+
+
 - item:  li1 - preparation 2
   preparation event:
     /
   performance event:
     /
+
+
 
 - item:  li1 - preparation 3
   preparation event:

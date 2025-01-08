@@ -58,6 +58,7 @@
 - memo/01/mem-016.md: レオナの悩み
 - memo/01/mem-017.md: ミリアのためらい
 - memo/01/mem-018.md: レオナの訓練
+- memo/01/mem-019.md: 封界の指輪の力
 
 ### メモ
 #### 第3章
@@ -107,6 +108,7 @@
 - thinking-notes/thi-035.md: アリスの予兆的示唆
 - thinking-notes/thi-036.md: 後半のペトラとプロット
 - thinking-notes/thi-037.md: サブプロット
+- thinking-notes/thi-038.md: ローズのプロットは何のプロットか
 
 ### アーカイブ
 #### before-2024-12-27
