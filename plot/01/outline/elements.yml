@@ -61,19 +61,19 @@
 #### 準備
 - item: alice li1 - preparation 1
   preparation event:
-    /alice li1 ply pre 001 --- f - !favora アリスが暴れる神獣をおとなしくさせる[mem-019.md]
+    /alice li1 ply pre 004 --- f - !favora アリスが暴れる神獣をおとなしくさせる[mem-019.md]
     ===
-    /alice li1 evn pre 001 --- b - !threat ローズが奇蹟の力で信者を癒やす
+    /alice li1 evn pre 004 --- b - !threat ローズが奇蹟の力で信者を癒やす
                                           .死した少女を蘇生させる
     ===
-    /alice li1 evn pre 001 --- f - !threat アリスがローズの噂を聞く
+    /alice li1 evn pre 004 --- f - !threat アリスがローズの噂を聞く
                                           .ローズ様は女神のようだ
                                           .ローズ様は恐ろしい魔物も倒される
   performance event:
-    /alice li1 act pre --- 001 f b !ordeal アリスがローズと戦う
-      /alice li1 act pre 002 --- f - !result アリスは子孫への愛情から攻撃できずに逃げ出す
+    /alice li1 act pre --- 004 f b !ordeal アリスがローズと戦う
+      /alice li1 act pre lst --- f - !result アリスは子孫への愛情から攻撃できずに逃げ出す
                                             .ローズが辺りかまわず攻撃し、周囲への被害も考えると逃げるしかなかった
-      /alice li1 act pre lst --- f - !result 〃
+      /----- --- --- --- 005 --- - - -------
 
 
 
@@ -83,10 +83,10 @@
                                           .魔法を発動待機させて静止の声を上げる
                                           .エリーは隠しきれない怯えを漏らしながら引き下がる
     ===
-    /alice li1 ply pre mid 002 f - !backgr アリスの背景
+    /alice li1 ply pre mid 005 f - !backgr アリスの背景
     ===
     /alice li1 ply pre mid --- f - !though アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-    /alice li1 ply pre lst --- f - !though 〃
+    /----- --- --- --- lst --- - - -------
     ===
     /alice li1 ply pre mid --- f - !favora ntt
     ===
@@ -138,38 +138,45 @@
 #### 約束的示唆
 - item: leona li1 - promise
   promise event:
-    /leona li1 ply prm 001 --- f - !gDesir レオナが「前に、進みたいんです」と言う
+    /leona li1 ply prm 006 --- f - !gDesir レオナが「前に、進みたいんです」と言う
                                           .pre 「ボクはなんのために生きてるのか、分かりません。でも死ぬわけにはいかなくて」
                                           .post 「あ、ち、違うんです！　なんでもないです！　気にしないでください」
   resolution event:
-    /leona li1 ply prm --- 001 f - !gDesir レオナが「アリス、ミリア。ボク進めそうです」と言う
+    /leona li1 ply prm --- 006 f - !gDesir レオナが「アリス、ミリア。ボク進めそうです」と言う
 
 
 
 #### 準備
 - item: leona li1 - preparation 1
   preparation event:
-    /leona li1 ply pre 001 --- f b !favora レオナが魔物を倒して強いところを見せる
-      /leona li1 ply pre 001 --- f - !though レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
+    /leona li1 ply pre 007 --- f b !favora レオナが魔物を倒して強いところを見せる
+      /leona li1 ply pre 007 --- f - !favora アリスがレオナの剣術を美しい、完成していると言って褒める
+      /----- --- --- rel 008 --- - - -------
+      /leona li1 ply pre 007 --- f - !though レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
     ===
-    /leona li1 ply pre 001 --- b - !threat エリーがレオナに憎悪を向ける
+    /leona li1 ply pre 007 --- b - !threat エリーがレオナに憎悪を向ける
   performance event:
-    /leona li1 act pre --- 001 f b !ordeal レオナがエリーと戦う
-      /leona li1 ply pre 002 --- f - !backgr エリーの背景（エリーが戦闘中に過去を語る）
-      /leona li1 evn pre 002 --- f - !result レオナがエリーに敗北する
+    /leona li1 act pre --- 007 f b !ordeal レオナがエリーと戦う
+      /leona li1 ply pre 009 --- f - !backgr エリーの背景（エリーが戦闘中に過去を語る）
+      /leona li1 evn pre 009 --- f - !result レオナがエリーに敗北する
 
 
 
 - item: leona li1 - preparation 2
   preparation event:
-    /leona li1 ply pre mid 002 f - !backgr レオナの背景
+    /leona li1 ply pre mid 009 f - !backgr レオナの背景
     ===
     /leona li1 evn pre mid --- b - !threat エリーが余裕ぶってレオナを殺すと言う
     ===
     /leona li1 ply pre mid --- f - !though レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][mem-018.md]
+      /leona li1 ply rel 014 008 f - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
+    ===
+    /leona li1 ply pre mid --- f - !though レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][mem-018.md]
     x n
     ===
-    /leona li1 ply pre mid --- f - !favora レオナがアリスに訓練してもらい上々の出来
+    /leona li1 ply rel --- 014 f - !favora レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
+    /----- --- --- pre mid --- - - -------
+    /leona li1 ply pre lst --- f - ------- レオナがアリスに訓練してもらい「――後は……心の問題かな」と言われる
   performance event:
     /leona li1 act pre --- mid f b !ordeal レオナがエリーと戦う
       /leona li1 evn --- --- --- f - !result レオナがエリーと引き分ける
@@ -215,42 +222,42 @@
 - item: myria li1 - promise a
   promise event:
     order 1
-    /myria li1 ply prm 001 --- f - !though ミリアが「過去に囚われてはいけない」と言う
+    /myria li1 ply prm 010 --- f - !though ミリアが「過去に囚われてはいけない」と言う
   resolution event:
     order 1
-    /myria li1 ply prm --- 001 f - !though ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
+    /myria li1 ply prm --- 010 f - !though ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
 
 
 
 - item: myria li1 - promise b
   promise event:
     order 2
-    /myria li1 ply prm 002 --- f - !gDesir ミリアが「だから私はハイエルフの叡智を求める旅をしているんです」と言う
+    /myria li1 ply prm 011 --- f - !gDesir ミリアが「だから私はハイエルフの叡智を求める旅をしているんです」と言う
                                           .post 「でも、一歩も進めていません……」
   resolution event:
     order 2
-    /myria li1 evn prm --- 002 f - !gDesir ミリアがハイエルフの叡智を得る
+    /myria li1 evn prm --- 011 f - !gDesir ミリアがハイエルフの叡智を得る
 
 
 
 #### 準備
 - item: myria li1 - preparation 1
   preparation event:
-    /myria li1 act pre 001 --- f - !though ミリアが祖母に会いたいという強い思いを吐露する
+    /myria li1 act pre 012 --- f - !though ミリアが祖母に会いたいという強い思いを吐露する
     ===
-    /myria li1 ply pre 001 --- f - !favora お姉さんとして振る舞っていい調子
+    /myria li1 ply pre 012 --- f - !favora お姉さんとして振る舞っていい調子
     ===
-    /myria li1 ply pre 001 --- b - !threat フェイがエルフへの欲望を吐露する
+    /myria li1 ply pre 012 --- b - !threat フェイがエルフへの欲望を吐露する
   performance event:
-    /myria li1 act pre --- 001 f b !ordeal ミリアがフェイと戦う
+    /myria li1 act pre --- 012 f b !ordeal ミリアがフェイと戦う
       /myria li1 evn --- --- --- f - !though フェイがミリアに触れて精神魔法を使い思いを読み取り遷世で祖母に会えると言いミリアが動揺するが拒絶する
-      /myria li1 act pre 002 --- f - !result フェイが「また来る」と言って撤退する
+      /myria li1 act pre 013 --- f - !result フェイが「また来る」と言って撤退する
 
 
 
 - item: myria li1 - preparation 2
   preparation event:
-    /myria li1 ply pre mid 002 f - !backgr ミリアの背景
+    /myria li1 ply pre mid 013 f - !backgr ミリアの背景
     ===
     /myria li1 ply pre mid --- b - !backgr フェイの背景
     ===
@@ -363,9 +370,9 @@
 #### 準備
 - item: rose li1 - preparation 1
   preparation event:
-    /rose  li1 ply pre 001 --- b - 
+    /rose  li1 ply pre 000 --- b - 
   performance event:
-    /rose  li1 evn pre --- 001 f - !
+    /rose  li1 evn pre --- 000 f - !
 
 
 
