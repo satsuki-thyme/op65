@@ -21,11 +21,13 @@
 
 ### プロット
 #### 第1章
-- plot/01/detail-001.yml:      プロット詳細 第1話
-- plot/01/elements.yml:        プロット要素
-- plot/01/information.yml:     情報開示
-- plot/01/narrative-clues.yml: 前兆要素
-- plot/01/outline.yml:         プロット概要
+- plot/01/details/detail-001.yml:      プロット詳細 第1話
+- plot/01/outline/elements.yml:        プロット要素
+- plot/01/outline/information.yml:     情報開示
+- plot/01/outline/memo.md:             プロットメモ
+- plot/01/outline/narrative-clues.yml: 前兆要素
+- plot/01/outline/numbering.yml:       前兆要素の採番
+- plot/01/outline/outline.yml:         プロット概要
 
 ### 設定
 - settings/background.yml: 背景設定
