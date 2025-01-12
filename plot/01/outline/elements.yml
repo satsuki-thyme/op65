@@ -1,9 +1,8 @@
 # プロット要素 第1章
 - ntt ペトラをやる
-- ntt 試練の前に気分を上げる
 - ntt ローズの背景をアリスのプロットにリンクする
 - ntt ペトラのプロットは何のプロットか考える
-## 試練のプロット - li1
+## 試練 - li1
 - group: li1
 
     ###    ##       ####  ######  ########
@@ -17,7 +16,7 @@
 ### アリス
 #### 構成
 - conf: alice li1
-  type: 試練のプロット
+  type: 試練
   theme: 過去と決別して今を選ぶ
 
 
@@ -37,7 +36,7 @@
 - item: alice li1 - promise b
   promise event:
     order 2
-    /alice li1 ply prm 002 --- f - !though アリスが封界の指輪の刻印を見て「ザヴィどうしてるかな」と言う
+    /alice li1 ply prm 002 --- f - !though アリスが封界の指輪の浮き彫りを見て「ザヴィどうしてるかな」と言う
     ===
     order 3
     /alice li1 ply prm 002 --- f - !though アリスがザヴィの死を知って封界の指輪に触れる
@@ -112,7 +111,7 @@
   performance event:
     /alice li1 act pre --- lst f b !ordeal アリスがローズと戦う
       /alice li1 act --- --- --- f - !though アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する
-                                            .ボロボロにされるがレオナとミリアに危険が及びそうになって指輪を外す
+                                            .ボロボロにされるがレオナとミリアに危険が及びそうになって封界の指輪を外す（消滅）
       /alice li1 evn --- --- --- f - !result アリスがローズを倒す
 
 
@@ -130,7 +129,7 @@
 ### レオナ
 #### 構成
 - conf: leona li1
-  type: 試練のプロット
+  type: 試練
   theme: 過去と決別して今を選ぶ
 
 
@@ -213,7 +212,7 @@
 ### ミリア
 #### 構成
 - conf: myria li1
-  type: 試練のプロット
+  type: 試練
   theme: 過去と決別して今を選ぶ
 
 
@@ -299,7 +298,7 @@
 ### ペトラ
 #### 構成
 - conf: petra li1
-  type: 試練のプロットntt
+  type: 試練ntt
   theme: 勇気
   logline: 勇敢を自負する妖精が試練を乗り越えて本当の勇気を手に入れる
 
@@ -352,7 +351,7 @@
 ### ローズ
 #### 構成
 - conf: rose li1
-  type: 導き手のプロット
+  type: 導き手
   theme: 
 
 
@@ -363,7 +362,7 @@
     /rose  li1 ply prm lst --- b - !gDesir ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う
                                           .post エリーとフェイは意味が分からず訝しげにする
   resolution event:
-    /rose  li1 evn prm --- lst f - !gDesir ローズが死んでエルの使徒の封印が解かれる
+    /rose  li1 evn prm --- lst f - !gDesir ローズが死んでエスの使徒の封印が解かれる
 
 
 
