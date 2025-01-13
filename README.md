@@ -24,7 +24,8 @@
 - plot/01/details/detail-001.yml:      プロット詳細 第1話
 - plot/01/outline/elements.yml:        プロット要素
 - plot/01/outline/information.yml:     情報開示
-- plot/01/outline/memo.md:             プロットメモ
+- plot/01/outline/memo.md:             メモ
+- plot/01/outline/meta-memo.md:        メタメモ
 - plot/01/outline/narrative-clues.yml: 前兆要素
 - plot/01/outline/numbering.yml:       前兆要素の採番
 - plot/01/outline/outline.yml:         プロット概要
@@ -38,33 +39,6 @@
 
 ### 歴史
 - settings/history/his-001.md: エス封印に関すること
-
-### メモ
-#### 第1章
-- memo/01/mem-000.md: 一時メモ
-- memo/01/mem-001.md: ローズが蘇生させるシーン
-- memo/01/mem-002.md: マクスの手記
-- memo/01/mem-003.md: SAVE THE CAT
-- memo/01/mem-004.md: 前向きさの発露
-- memo/01/mem-005.md: ヨルとザヴィの話
-- memo/01/mem-006.md: 魔力珠
-- memo/01/mem-007.md: ローズのパワーアップ
-- memo/01/mem-008.md: 封界の指輪
-- memo/01/mem-009.md: アリスとローズの戦闘2
-- memo/01/mem-010.md: アリスとローズの戦闘3
-- memo/01/mem-011.md: 神的事象
-- memo/01/mem-012.md: ローズがザヴィとエスを同一視している
-- memo/01/mem-013.md: エリク
-- memo/01/mem-014.md: 魔力症
-- memo/01/mem-015.md: 出動の理由
-- memo/01/mem-016.md: レオナの悩み
-- memo/01/mem-017.md: ミリアのためらい
-- memo/01/mem-018.md: レオナの訓練
-- memo/01/mem-019.md: 封界の指輪の力
-
-### メモ
-#### 第3章
-- memo/03/mem-001.md: ミリアの帰還
 
 ### 作業管理
 - @work-management/todo.md:       ToDoリスト
@@ -113,6 +87,35 @@
 - thinking-notes/thi-038.md: ローズのプロットは何のプロットか
 
 ### アーカイブ
+#### before-2025-01-13
+- archive/before-2025-01-13/memo/01/mem-000.md: 一時メモ
+- archive/before-2025-01-13/memo/01/mem-001.md: ローズが蘇生させるシーン
+- archive/before-2025-01-13/memo/01/mem-002.md: マクスの手記
+- archive/before-2025-01-13/memo/01/mem-003.md: SAVE THE CAT
+- archive/before-2025-01-13/memo/01/mem-004.md: 前向きさの発露
+- archive/before-2025-01-13/memo/01/mem-005.md: ヨルとザヴィの話
+- archive/before-2025-01-13/memo/01/mem-006.md: 魔力珠
+- archive/before-2025-01-13/memo/01/mem-007.md: ローズのパワーアップ
+- archive/before-2025-01-13/memo/01/mem-008.md: 封界の指輪
+- archive/before-2025-01-13/memo/01/mem-009.md: アリスとローズの戦闘2
+- archive/before-2025-01-13/memo/01/mem-010.md: アリスとローズの戦闘3
+- archive/before-2025-01-13/memo/01/mem-011.md: 神的事象
+- archive/before-2025-01-13/memo/01/mem-012.md: ローズがザヴィとエスを同一視している
+- archive/before-2025-01-13/memo/01/mem-013.md: エリク
+- archive/before-2025-01-13/memo/01/mem-014.md: 魔力症
+- archive/before-2025-01-13/memo/01/mem-015.md: 出動の理由
+- archive/before-2025-01-13/memo/01/mem-016.md: レオナの悩み
+- archive/before-2025-01-13/memo/01/mem-017.md: ミリアのためらい
+- archive/before-2025-01-13/memo/01/mem-018.md: レオナの訓練
+- archive/before-2025-01-13/memo/01/mem-019.md: 封界の指輪の力
+- archive/before-2025-01-13/memo/01/mem-020.md: ローズの噂
+- archive/before-2025-01-13/memo/01/mem-021.md: アリスは子孫への愛情から攻撃できずに逃げ出す
+- archive/before-2025-01-13/memo/01/mem-022.md: アリスがレオナとエリーの戦いに干渉する（強いところを見せる）
+- archive/before-2025-01-13/memo/01/mem-023.md: ローズがパワーアップする
+- archive/before-2025-01-13/memo/01/mem-024.md: アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する
+- archive/before-2025-01-13/memo/01/mem-025.md: レオナが「前に、進みたいんです」と言う
+- archive/before-2025-01-13/memo/03/mem-001.md: ミリアの帰還
+
 #### before-2024-12-27
 - archive/before-2024-12-27/plan/00/init.yml:            初期構想
 - archive/before-2024-12-27/plan/00/title-idea.md:       タイトル案
