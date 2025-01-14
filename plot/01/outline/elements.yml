@@ -54,32 +54,32 @@
     /.                                    アリスはザヴィの真実を明かしたいと強く思っているわけではない
   resolution event:
     order 2
-    /alice li1 evn prm --- r03 f - !gDesi アリスが復活したエスの使徒を抑え魔力珠を手に入れる[memo-019]
+    /alice li1 evn prm --- r03 f - !gDesi アリスが復活したエスの使徒を抑え魔力珠を手に入れる[ref-019]
 
 
 
 #### 準備
 - item: alice li1 - preparation 1
   preparation event:
-    /alice li1 ply pre s04 --- f - !favor アリスが暴れる神獣をおとなしくさせる[memo-019]
+    /alice li1 ply pre s04 --- f - !favor アリスが暴れる神獣をおとなしくさせる[ref-019]
     ===
     /alice li1 evn pre s04 --- b - !threa ローズが奇蹟の力で信者の死んだ少女を蘇生させる
     /rose  li1 inf --- --- --- b - @apost 〃
     ===
-    /alice li1 evn pre s04 --- f - !threa アリスがローズの噂を聞く[memo-020]
+    /alice li1 evn pre s04 --- f - !threa アリスがローズの噂を聞く[ref-020]
   performance event:
     /alice li1 act pre --- r04 f b !ordea アリスがローズと戦う
       /alice li1 ply --- --- --- f - @zavia ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
       /rose  li1 inf --- --- --- f - @es    ローズが封界の指輪を見て「見つけた！」と言って笑む
       /rose  li1 inf --- --- --- f - @es    ローズが遷世して殺されたザヴィに会うと言う
-      /alice li1 act pre lst --- f - !resul アリスは子孫への愛情から攻撃できずに逃げ出す[memo-021]
+      /alice li1 act pre lst --- f - !resul アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
       /                  s05
 
 
 
 - item: alice li1 - preparation 2
   preparation event:
-    /alice li1 ply pre mid --- f - !favor アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[memo-022]
+    /alice li1 ply pre mid --- f - !favor アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
     ===
     /alice li1 ply pre mid r05 f - !backg アリスの背景
     ===
@@ -100,7 +100,7 @@
   preparation event:
     /alice li1 evn pre lst --- b - !threa 邪神ネグドヴァリスが力を示すntt
     ===
-    /alice li1 evn pre lst --- b - !threa ローズがパワーアップする[memo-023]
+    /alice li1 evn pre lst --- b - !threa ローズがパワーアップする[ref-023]
     ===
     /alice li1 ply pre lst --- f - !thoug アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     x n
@@ -108,7 +108,7 @@
     /alice li1 ply pre lst --- f - !favor ntt
   performance event:
     /alice li1 act pre --- lst f b !ordea アリスがローズと戦う
-      /alice li1 act --- --- --- f - !thoug アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[memo-024]
+      /alice li1 act --- --- --- f - !thoug アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
       /alice li1 evn --- --- --- f - !resul アリスがローズを倒す
 
 
@@ -134,7 +134,7 @@
 #### 約束的示唆
 - item: leona li1 - promise
   promise event:
-    /leona li1 ply prm s06 --- f - !gDesi レオナが「前に、進みたいんです」と言う[memo-025]
+    /leona li1 ply prm s06 --- f - !gDesi レオナが「前に、進みたいんです」と言う[ref-025]
   resolution event:
     /leona li1 ply prm --- r06 f - !gDesi レオナが「アリス、ミリア。ボク進めそうです」と言う
 
@@ -162,10 +162,10 @@
     ===
     /leona li1 evn pre mid --- b - !threa エリーが余裕ぶってレオナを殺すと言う
     ===
-    /leona li1 ply pre mid --- f - !thoug レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][memo-018]
+    /leona li1 ply pre mid --- f - !thoug レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
       /leona li1 ply rel s14 r08 f - ------ アリスが「レオナの型は完成しているから型を破るべき」と言う
     ===
-    /leona li1 ply pre mid --- f - !thoug レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][memo-018]
+    /leona li1 ply pre mid --- f - !thoug レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
     x n
     ===
     /leona li1 ply rel --- r14 f - !favor レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
@@ -181,7 +181,7 @@
   preparation event:
     /leona li1 evn pre lst --- b - !threa 邪神ネグドヴァリスが力を示すntt
     ===
-    /leona li1 evn pre lst --- b - !threa エリーがパワーアップして異形になる[memo-026]
+    /leona li1 evn pre lst --- b - !threa エリーがパワーアップして異形になる[ref-026]
     ===
     /leona li1 ply pre lst --- f - !thoug 今一歩、過去から抜け出せない気持ちntt
     ===
@@ -225,7 +225,7 @@
 - item: myria li1 - promise b
   promise event:
     order 2
-    /myria li1 ply prm s11 --- f - !gDesi ミリアが「だから私はハイエルフの叡智を求める旅をしているんです」と言う[memo-027]
+    /myria li1 ply prm s11 --- f - !gDesi ミリアが「だから私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
   resolution event:
     order 2
     /myria li1 evn prm --- r11 f - !gDesi ミリアがハイエルフの叡智を得る
@@ -327,7 +327,7 @@
 #### 約束的示唆
 - item: rose li1 - promise
   promise event:
-    /rose  li1 ply prm lst --- b - !gDesi ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[memo-028]
+    /rose  li1 ply prm lst --- b - !gDesi ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
   resolution event:
     /rose  li1 evn prm --- lst f - !gDesi ローズが死んでエスの使徒の封印が解かれる
 
@@ -369,4 +369,4 @@
   promise event:
     /fei   li1 ply prm lst --- b - フェイが
   resolution event:
-    /fei   li1 act prm --- lst f - フェイがミリアに敗北する[memo-029]
+    /fei   li1 act prm --- lst f - フェイがミリアに敗北する[ref-029]
