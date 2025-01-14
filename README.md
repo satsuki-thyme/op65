@@ -24,11 +24,10 @@
 - plot/01/details/detail-001.yml:      プロット詳細 第1話
 - plot/01/outline/elements.yml:        プロット要素
 - plot/01/outline/information.yml:     情報開示
-- plot/01/outline/memo.md:             メモ
-- plot/01/outline/meta-memo.md:        メタメモ
 - plot/01/outline/narrative-clues.yml: 前兆要素
 - plot/01/outline/numbering.yml:       前兆要素の採番
 - plot/01/outline/outline.yml:         プロット概要
+- plot/01/outline/ref-note.md:         参照ノート
 
 ### 設定
 - settings/background.yml: 背景設定
@@ -42,7 +41,6 @@
 
 ### 作業管理
 - @work-management/todo.md:       ToDoリスト
-- @work-management/notice.md:     注意事項
 - @work-management/idea.md:       アイデア
 - @work-management/storehouse.md: 倉庫
 
@@ -85,6 +83,8 @@
 - thinking-notes/thi-036.md: 後半のペトラとプロット
 - thinking-notes/thi-037.md: サブプロット
 - thinking-notes/thi-038.md: ローズのプロットは何のプロットか
+- thinking-notes/thi-039.md: フェイが幻霊に食べられて死ぬ流れ
+- thinking-notes/thi-040.md: 召喚魔法の契約とは
 
 ### アーカイブ
 #### before-2025-01-13
