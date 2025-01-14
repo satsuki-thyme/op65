@@ -72,7 +72,7 @@
   contents:
     - item: 構造
       contents:
-        - ref: /reference/world.png
+        - ref: reference/world.png
         - 無存界が全てを内包している
         - 外世界が世界を内包している
 
