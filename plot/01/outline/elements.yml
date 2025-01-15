@@ -1,7 +1,4 @@
 # プロット要素 第1章
-- ntt ペトラをやる
-- ntt ローズの背景をアリスのプロットにリンクする
-- ntt ペトラのプロットは何のプロットか考える
 ## 試練 - li1
 - group: li1
 
@@ -241,7 +238,7 @@
     ===
     /myria li1 ply pre s12 --- b - !threa フェイがエルフへの欲望を吐露する
   performance event:
-    /myria li1 act pre --- r12 f b !ordea ミリアがフェイと戦う
+    /myria li1 act pre --- r12 f b !ordea ミリアがフェイと戦う[ref-030]
       /myria li1 evn --- --- --- f - !thoug フェイがミリアに触れて精神魔法を使い思いを読み取り遷世で祖母に会えると言いミリアが動揺するが拒絶する
       /myria li1 act pre s13 --- f - !resul フェイが「また来る」と言って撤退する
 
@@ -272,7 +269,7 @@
     ===
     /myria li1 ply pre lst --- f - !threa フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく
   performance event:
-    /myria li1 act pre --- lst f b !ordea ミリアがフェイと戦う
+    /myria li1 act pre --- lst f b !ordea ミリアがフェイと戦う[ref-029]
       /myria li1 act --- --- --- f - !thoug フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ
       /myria li1 evn --- --- --- f - !resul ミリアがフェイを倒す
 
@@ -317,13 +314,6 @@
  ##     ##  #######   ######  ########
 
 ### ローズ
-#### 構成
-- conf: rose li1
-  type: 導き手
-  theme: 
-
-
-
 #### 約束的示唆
 - item: rose li1 - promise
   promise event:
@@ -347,9 +337,9 @@
 #### 約束的示唆
 - item: erie li1 - promise
   promise event:
-    /erie  li1 ply prm lst --- f - エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
+    /erie  li1 ply prm lst --- f - !thoug エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
   resolution event:
-    /erie  li1 act prm --- lst f - エリーがレオナに敗北する
+    /erie  li1 evn prm --- lst f - !resul エリーがレオナに敗北する
 
 
 
@@ -367,6 +357,6 @@
 #### 約束的示唆
 - item: fei li1 - promise
   promise event:
-    /fei   li1 ply prm lst --- b - フェイが
+    /fei   li1 ply prm lst --- b - !thoug フェイが「慢心は強者の特権」と言う
   resolution event:
-    /fei   li1 act prm --- lst f - フェイがミリアに敗北する[ref-029]
+    /fei   li1 evn prm --- lst f - !resul フェイがミリアに敗北する[ref-029]
