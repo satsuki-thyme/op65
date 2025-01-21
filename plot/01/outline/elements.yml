@@ -225,7 +225,7 @@
     /myria li1 ply prm s11 --- f - !gDesi ミリアが「だから私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
   resolution event:
     order 2
-    /myria li1 evn prm --- r11 f - !gDesi ミリアがハイエルフの叡智を得る
+    /myria li1 evn prm --- r11 f - !gDesi ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
 
 
 
