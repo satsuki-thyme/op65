@@ -34,7 +34,7 @@ detail:
           race: 世界
           gender: 女
           age: 17くらいに見える/17と言っている/年齢という概念はなく強いていうなら永遠
-        existing nature:
+        approximate nature:
           overview:
             - 人生を楽しむための老獪さを持ったリアリスト
             - 今を堪能する幸福原理主義者
@@ -216,7 +216,7 @@ detail:
           race: 葦人
           gender: 女
           age: 19
-        existing nature:
+        approximate nature:
           overview:
             - さっぱりしてお茶目（岩崎さん）
             - 非常時には常識的なことを言って驚いているが内心では動じていない
@@ -398,7 +398,7 @@ detail:
           race: 森人
           gender: 女
           age: 24
-        existing nature:
+        approximate nature:
           overview:
             - 
             - 
@@ -580,7 +580,7 @@ detail:
           race: 翼妖精
           gender: 女
           age: 
-        existing nature:
+        approximate nature:
           overview:
             - 
             - 
@@ -766,7 +766,7 @@ detail:
           race: 
           gender: 女
           age: 
-        existing nature:
+        approximate nature:
           overview:
             - 
             - 
@@ -948,7 +948,7 @@ detail:
           race: 葦人
           gender: 女
           age: 21
-        existing nature:
+        approximate nature:
           overview:
             - 
             - 
@@ -1130,7 +1130,7 @@ detail:
           race: 
           gender: 女
           age: 
-        existing nature:
+        approximate nature:
           overview:
             - 
             - 
