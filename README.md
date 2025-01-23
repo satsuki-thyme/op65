@@ -39,10 +39,8 @@
 ### 歴史
 - settings/history/his-001.md: エス封印に関すること
 
-### 作業管理
-- @work-management/todo.md:       ToDoリスト
-- @work-management/idea.md:       アイデア
-- @work-management/storehouse.md: 倉庫
+### その他
+- todo.md: ToDoリスト
 
 ### 思考ノート
 - thinking-notes/archive/thi-001.md: ミリアのコンフリクト
@@ -85,6 +83,9 @@
 - thinking-notes/thi-038.md: ローズのプロットは何のプロットか
 - thinking-notes/thi-039.md: フェイが幻霊に食べられて死ぬ流れ
 - thinking-notes/thi-040.md: 召喚魔法の契約とは
+- thinking-notes/thi-041.md: タイトルの回収
+- thinking-notes/thi-042.md: 邪神
+- thinking-notes/thi-043.md: 変化のためらいはどんな思考・行動になって表れるか
 
 ### アーカイブ
 #### before-2025-01-13
