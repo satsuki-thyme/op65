@@ -26,8 +26,8 @@
 - plot/01/outline/information.yml:     情報開示
 - plot/01/outline/narrative-clues.yml: 前兆要素
 - plot/01/outline/numbering.yml:       前兆要素の採番
-- plot/01/outline/outline.yml:         プロット概要
 - plot/01/outline/ref-note.md:         参照ノート
+- plot/01/outline/stream.yml:          概要プロット
 
 ### 設定
 - settings/background.yml: 背景設定
@@ -86,6 +86,7 @@
 - thinking-notes/thi-041.md: タイトルの回収
 - thinking-notes/thi-042.md: 邪神
 - thinking-notes/thi-043.md: 変化のためらいはどんな思考・行動になって表れるか
+- thinking-notes/thi-044.md: 何が気分を高めるか、終わりに行くほど気分が高まる構造を考える
 
 ### アーカイブ
 #### before-2025-01-13
