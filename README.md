@@ -11,7 +11,6 @@
 
 #### 第1章
 - plan/01/build.md:           構想
-- plan/01/character-base.yml: キャラクターの基本設計
 - plan/01/init.yml:           初期設定
 - plan/01/theme.yml:          プロット系統別テーマ
 - plan/01/title-idea.md:      タイトル案
@@ -22,12 +21,14 @@
 ### プロット
 #### 第1章
 ##### 概要
-- plot/01/outline/elements.yml:        プロット要素
-- plot/01/outline/information.yml:     情報開示
-- plot/01/outline/narrative-clues.yml: 前兆要素
-- plot/01/outline/numbering.yml:       前兆要素の採番
-- plot/01/outline/ref-note.md:         参照ノート
-- plot/01/outline/stream.yml:          概要プロット
+- plot/01/outline/character-base.yml:      キャラクターの基本設計
+- plot/01/outline/character-portrayal.yml: キャラクター描写
+- plot/01/outline/elements.yml:            プロット要素
+- plot/01/outline/information.yml:         情報開示
+- plot/01/outline/narrative-clues.yml:     前兆要素
+- plot/01/outline/numbering.yml:           前兆要素の採番
+- plot/01/outline/outline.yml:             概要プロット
+- plot/01/outline/ref-note.md:             参照ノート
 
 ##### 詳細
 - plot/01/details/001.yml: プロット詳細 第1話
@@ -43,7 +44,8 @@
 - settings/history/his-001.md: エス封印に関すること
 
 ### その他
-- todo.md: ToDoリスト
+- notes.md: ノート
+- todo.md:  ToDoリスト
 
 ### 思考ノート
 - thinking-notes/archive/thi-001.md: ミリアのコンフリクト
