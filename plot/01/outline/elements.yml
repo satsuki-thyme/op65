@@ -22,94 +22,94 @@
 - item: alice li1 - promise a
   promise event:
       order 1
-      /alice li1 ply prm 001 --- f - thought prm a アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
+      /alice li1 ply prm 001 --- f - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
   resolution event:
       order 3
-      /alice li1 act prm --- 001 f - thought prm a アリスが「いろいろあったけど、上手くやれたかな」と言う
+      /alice li1 act prm --- 001 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
 
 
 
 - item: alice li1 - promise b
   promise event:
       order 2
-      /alice li1 ply prm 002 --- f - thought prm b アリスが封界の指輪の浮き彫りを見て「ザヴィどうしてるかな」と言う
+      /alice li1 ply prm 002 --- f - thought アリスが封界の指輪の浮き彫りを見て「ザヴィどうしてるかな」と言う
       /                  005
       ===
       order 3
-      /alice li1 ply prm 002 --- f - thought prm b アリスがザヴィの死を知って封界の指輪に触れる
+      /alice li1 ply prm 002 --- f - thought アリスがザヴィの死を知って封界の指輪に触れる
   resolution event:
       order 1
-      /alice li1 act prm --- 002 f - thought prm b アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
+      /alice li1 act prm --- 002 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
 
 
 
 - item: alice li1 - promise c
   promise event:
       order 4
-      /alice li1 act prm 003 --- f - gDesire prm c アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
+      /alice li1 act prm 003 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
   resolution event:
       order 2
-      /alice li1 evn prm --- 003 f - gDesire prm c アリスが復活したエスの使徒を抑え魔力珠を手に入れる[ref-019]
+      /alice li1 evn prm --- 003 f - gDesire アリスが復活したエスの使徒を抑え魔力珠を手に入れる[ref-019]
 
 
 
 #### 準備
 - item: alice li1 - preparation 1
   preparation event:
-      /alice li1 ply pre 004 --- f - favorbl pre 1 アリスが暴れる神獣をおとなしくさせる[ref-019]
+      /alice li1 ply pre 004 --- f - favorbl アリスが暴れる神獣をおとなしくさせる[ref-019]
       ===
-      /alice li1 evn pre 004 --- b - threat_ pre 1 ローズが奇蹟の力で信者の死んだ少女を蘇生させる
-      /rose  li1 inf --- --- --- b - @apost_ pre 1 〃
+      /alice li1 evn pre 004 --- b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
+      /rose- li1 inf --- --- --- b - @apost- 〃
       ===
-      /alice li1 evn pre 004 --- f - threat_ pre 1 アリスがローズの噂を聞く[ref-020]
+      /alice li1 evn pre 004 --- f - threat- アリスがローズの噂を聞く[ref-020]
   performance event:
-      /alice li1 act pre --- 004 f b ordeal_ pre 1 アリスがローズと戦う
-        /alice li1 ply --- --- --- f - @zavia_ pre 1 ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
-        /rose  li1 inf --- --- --- f - @es____ pre 1 ローズが封界の指輪を見て「見つけた！」と言って笑む
-        /rose  li1 inf --- --- --- f - @es____ pre 1 ローズが遷世して殺されたザヴィに会うと言う
-        /alice li1 act pre lst --- f - results pre 1 アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+      /alice li1 act pre --- 004 f b ordeal- アリスがローズと戦う
+        /alice li1 ply --- --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
+        /rose- li1 inf --- --- --- f - @es---- ローズが封界の指輪を見て「見つけた！」と言って笑む
+        /rose- li1 inf --- --- --- f - @es---- ローズが遷世して殺されたザヴィに会うと言う
+        /alice li1 act pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
         /                  005
 
 
 
 - item: alice li1 - preparation 2
   preparation event:
-      /alice li1 ply pre mid --- f - favorbl pre 2 アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
+      /alice li1 ply pre mid --- f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
       ===
-      /alice li1 ply pre mid 005 f - bground pre 2 アリスの背景
+      /alice li1 ply pre mid 005 f - bground アリスの背景
       ===
-      /alice li1 ply pre mid --- f - thought pre 2 アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+      /alice li1 ply pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
       /                  lst
       ===
-      /alice li1 ply pre mid --- f - favorbl pre 2 ntt
+      /alice li1 ply pre mid --- f - favorbl ntt
       ===
-      /alice li1 ply pre mid --- b - threat_ pre 2 ローズがアリスについて不気味な発言をするntt
+      /alice li1 ply pre mid --- b - threat- ローズがアリスについて不気味な発言をするntt
   performance event:
-      /alice li1 act pre --- mid f b ordeal_ pre 2 アリスがローズと戦う
-        /alice li1 ply --- --- --- f - others_ pre 2 説得を試みる
-        /alice li1 evn pre lst --- f - results pre 2 アリスが真面に戦えず怪我をする
-        /alice li1 evn --- --- --- f - bground pre 2 ローズが下腹部を押さえて苦しみ始める
+      /alice li1 act pre --- mid f b ordeal- アリスがローズと戦う
+        /alice li1 ply --- --- --- f - others- 説得を試みる
+        /alice li1 evn pre lst --- f - results アリスが真面に戦えず怪我をする
+        /alice li1 evn --- --- --- f - bground ローズが下腹部を押さえて苦しみ始める
 
 
 
 - item: alice li1 - preparation 3
   preparation event:
-      /alice li1 evn pre lst --- b - threat_ pre 3 ローズがパワーアップする[ref-023]
+      /alice li1 evn pre lst --- b - threat- ローズがパワーアップする[ref-023]
       ===
-      /alice li1 ply pre lst --- f - thought pre 3 アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+      /alice li1 ply pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
       x n
       ===
-      /alice li1 ply pre lst --- f - thought pre 3 子を殺すことの倫理的な問題に囚われる
+      /alice li1 ply pre lst --- f - thought 子を殺すことの倫理的な問題に囚われる
       ===
-      /alice li1 ply pre lst --- f - thought pre 3 ローズを倒せないと思い込む => ローズは強い
+      /alice li1 ply pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
       ===
-      /alice li1 ply pre lst --- f - thought pre 3 ローズを殺せば自分はおかしくなってしまうと思い込む
+      /alice li1 ply pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
       ===
-      /alice li1 ply pre lst --- f - favorbl pre 3 ntt
+      /alice li1 ply pre lst --- f - favorbl ntt
   performance event:
-      /alice li1 act pre --- lst f b ordeal_ pre 3 アリスがローズと戦う
-        /alice li1 act --- --- --- f - thought pre 3 アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
-        /alice li1 evn --- --- --- f - results pre 3 アリスがローズを倒す
+      /alice li1 act pre --- lst f b ordeal- アリスがローズと戦う
+        /alice li1 act --- --- --- f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
+        /alice li1 evn --- --- --- f - results アリスがローズを倒す
 
 
 
@@ -134,66 +134,66 @@
 #### 約束的示唆
 - item: leona li1 - promise a
   promise event:
-      /leona li1 ply prm 006 --- f - gDesire prm a レオナが「前に……、進みたいんです」と言う[ref-025]
+      /leona li1 ply prm 006 --- f - gDesire レオナが「前に……、進みたいんです」と言う[ref-025]
   resolution event:
-      /leona li1 ply prm --- 006 f - gDesire prm a レオナが「アリス、ミリア。ボク進めそうです」と言う
+      /leona li1 ply prm --- 006 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
 
 
 
 #### 準備
 - item: leona li1 - preparation 1
   preparation event:
-      /leona li1 ply pre 007 --- f b favorbl pre 1 レオナが魔物を倒して強いところを見せる
-        /leona li1 ply pre 007 --- f - favorbl pre 1 アリスがレオナの剣術を美しい、完成していると言って褒める
+      /leona li1 ply pre 007 --- f b favorbl レオナが魔物を倒して強いところを見せる
+        /leona li1 ply pre 007 --- f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
         /----- --- --- rel 008
-        /leona li1 ply pre 007 --- f - thought pre 1 レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
+        /leona li1 ply pre 007 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
       ===
-      /leona li1 ply pre 007 --- b - threat_ pre 1 エリーがレオナに憎悪を向ける
+      /leona li1 ply pre 007 --- b - threat- エリーがレオナに憎悪を向ける
   performance event:
-      /leona li1 act pre --- 007 f b ordeal_ pre 1 レオナがエリーと戦う
-        /leona li1 ply pre 009 --- f - bground pre 1 エリーの背景（エリーが戦闘中に過去を語る）
-        /leona li1 evn pre 009 --- f - results pre 1 レオナがエリーに敗北する
+      /leona li1 act pre --- 007 f b ordeal- レオナがエリーと戦う
+        /leona li1 ply pre 009 --- f - bground エリーの背景（エリーが戦闘中に過去を語る）
+        /leona li1 evn pre 009 --- f - results レオナがエリーに敗北する
 
 
 
 - item: leona li1 - preparation 2
   preparation event:
-      /leona li1 ply pre mid 009 f - bground pre 2 レオナの背景
+      /leona li1 ply pre mid 009 f - bground レオナの背景
       ===
-      /leona li1 evn pre mid --- b - threat_ pre 2 エリーが余裕ぶってレオナを殺すと言う
+      /leona li1 evn pre mid --- b - threat- エリーが余裕ぶってレオナを殺すと言う
       ===
-      /leona li1 ply pre mid --- f - thought pre 2 レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
-        /leona li1 ply rel 014 008 f - others_ pre 2 アリスが「レオナの型は完成しているから型を破るべき」と言う
+      /leona li1 ply pre mid --- f - thought レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
+        /leona li1 ply rel 014 008 f - others- アリスが「レオナの型は完成しているから型を破るべき」と言う
       ===
-      /leona li1 ply pre mid --- f - thought pre 2 レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
+      /leona li1 ply pre mid --- f - thought レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
       x n
       ===
-      /leona li1 ply rel --- 014 f - favorbl pre 2 レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
+      /leona li1 ply rel --- 014 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
       /----- --- --- pre mid
-      /leona li1 ply pre lst --- f - others_ pre 2 レオナがアリスに訓練してもらい「――後はその剣を超えられるといいんだけど」と言われる
+      /leona li1 ply pre lst --- f - others- レオナがアリスに訓練してもらい「――後はその剣を超えられるといいんだけど」と言われる
       ===
-      /leona li1 ply pre lst --- f - thought pre 2 父王の剣を崩すことを否定する => 自分が至らないだけ
+      /leona li1 ply pre lst --- f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
       ===
-      /leona li1 ply pre lst --- f - thought pre 2 剣の型を崩すと弱くなると思い込む
+      /leona li1 ply pre lst --- f - thought 剣の型を崩すと弱くなると思い込む
   performance event:
-      /leona li1 act pre --- mid f b ordeal_ pre 2 レオナがエリーと戦う
-        /leona li1 evn --- --- --- f - results pre 2 レオナがエリーと引き分ける
+      /leona li1 act pre --- mid f b ordeal- レオナがエリーと戦う
+        /leona li1 evn --- --- --- f - results レオナがエリーと引き分ける
 
 
 
 - item: leona li1 - preparation 3
   preparation event:
-      /leona li1 evn pre lst --- b - threat_ pre 3 エリーがパワーアップして異形になる[ref-026]
+      /leona li1 evn pre lst --- b - threat- エリーがパワーアップして異形になる[ref-026]
       ===
-      /leona li1 ply pre lst --- f - favorbl pre 3 ntt
+      /leona li1 ply pre lst --- f - favorbl ntt
       ===
-      /leona li1 ply pre lst --- f - thought pre 3 エリーといい勝負ができたことで現状維持がいいと思い込む
+      /leona li1 ply pre lst --- f - thought エリーといい勝負ができたことで現状維持がいいと思い込む
       ===
-      /leona li1 ply pre lst --- f - thought pre 3 父王の剣を逸脱するなんてできないと思い込む
+      /leona li1 ply pre lst --- f - thought 父王の剣を逸脱するなんてできないと思い込む
   performance event:
-      /leona li1 act pre --- lst f b ordeal_ pre 3 レオナがエリーと戦う
-        /leona li1 act --- --- --- f - thought pre 3 ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
-        /leona li1 evn --- --- --- f - results pre 3 レオナがエリーを倒す
+      /leona li1 act pre --- lst f b ordeal- レオナがエリーと戦う
+        /leona li1 act --- --- --- f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
+        /leona li1 evn --- --- --- f - results レオナがエリーを倒す
 
 
 
@@ -219,73 +219,73 @@
 - item: myria li1 - promise a
   promise event:
       order 1
-      /myria li1 ply prm 010 --- f - thought prm a ミリアが「過去に囚われてはいけない」と言う
+      /myria li1 ply prm 010 --- f - thought ミリアが「過去に囚われてはいけない」と言う
   resolution event:
       order 1
-      /myria li1 ply prm --- 010 f - thought prm a ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
+      /myria li1 ply prm --- 010 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
 
 
 
 - item: myria li1 - promise b
   promise event:
       order 2
-      /myria li1 ply prm 011 --- f - gDesire prm b ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
+      /myria li1 ply prm 011 --- f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
   resolution event:
       order 2
-      /myria li1 evn prm --- 011 f - gDesire prm b ミリアがハイエルフの叡智[thi-034.mdu]を得て祖母と対面する
+      /myria li1 evn prm --- 011 f - gDesire ミリアがハイエルフの叡智[thi-034.mdu]を得て祖母と対面する
 
 
 
 #### 準備
 - item: myria li1 - preparation 1
   preparation event:
-      /myria li1 ply pre 012 --- f - thought pre 1 ミリアが祖母に会いたいという強い思いを吐露する
+      /myria li1 ply pre 012 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
       ===
-      /myria li1 ply pre 012 --- f - thought pre 1 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
+      /myria li1 ply pre 012 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
       ===
-      /myria li1 ply pre 012 --- f - favorbl pre 1 お姉さんとして振る舞っていい調子
+      /myria li1 ply pre 012 --- f - favorbl お姉さんとして振る舞っていい調子
       ===
-      /myria li1 ply pre 012 --- b - threat_ pre 1 フェイがエルフへの欲望を吐露する
+      /myria li1 ply pre 012 --- b - threat- フェイがエルフへの欲望を吐露する
   performance event:
-      /myria li1 act pre --- 012 f b ordeal_ pre 1 ミリアがフェイと戦う[ref-030]
-        /myria li1 evn --- --- --- f - thought pre 1 フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
-        /myria li1 act pre 013 --- f - results pre 1 フェイが「また来る」と言って撤退する
+      /myria li1 act pre --- 012 f b ordeal- ミリアがフェイと戦う[ref-030]
+        /myria li1 evn --- --- --- f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
+        /myria li1 act pre 013 --- f - results フェイが「また来る」と言って撤退する
 
 
 
 - item: myria li1 - preparation 2
   preparation event:
-      /myria li1 ply pre mid 013 f - bground pre 2 ミリアの背景
+      /myria li1 ply pre mid 013 f - bground ミリアの背景
       ===
-      /myria li1 ply pre mid --- b - bground pre 2 フェイの背景
+      /myria li1 ply pre mid --- b - bground フェイの背景
       ===
-      /myria li1 ply pre mid --- f - thought pre 2 ミリアが祖母を思う
+      /myria li1 ply pre mid --- f - thought ミリアが祖母を思う
       ===
-      /myria li1 ply pre mid --- f - thought pre 2 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
+      /myria li1 ply pre mid --- f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
       ===
-      /myria li1 ply pre mid --- f - favorbl pre 2 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
+      /myria li1 ply pre mid --- f - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
       ===
-      /myria li1 ply pre mid --- b - threat_ pre 2 フェイが取っておきの方法を思ってほくそ笑む
+      /myria li1 ply pre mid --- b - threat- フェイが取っておきの方法を思ってほくそ笑む
   performance event:
-      /myria li1 act pre --- mid f b ordeal_ pre 2 ミリアがフェイと戦う
-        /myria li1 evn --- --- --- f - thought pre 2 フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
-        /myria li1 act --- --- --- f - results pre 2 フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する
+      /myria li1 act pre --- mid f b ordeal- ミリアがフェイと戦う
+        /myria li1 evn --- --- --- f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
+        /myria li1 act --- --- --- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する
 
 
 
 - item: myria li1 - preparation 3
   preparation event:
-      /myria li1 ply pre lst --- f - thought pre 3 ミリアが祖母を大切に思う気持ちを吐露する
+      /myria li1 ply pre lst --- f - thought ミリアが祖母を大切に思う気持ちを吐露する
       ===
-      /myria li1 ply pre lst --- f - thought pre 3 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
+      /myria li1 ply pre lst --- f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
       ===
-      /myria li1 ply pre lst --- f - favorbl pre 3 ミリアが祖母を悲しませるような選択はできないと意気込む
+      /myria li1 ply pre lst --- f - favorbl ミリアが祖母を悲しませるような選択はできないと意気込む
       ===
-      /myria li1 ply pre lst --- f - threat_ pre 3 フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく
+      /myria li1 ply pre lst --- f - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく
   performance event:
-      /myria li1 act pre --- lst f b ordeal_ pre 3 ミリアがフェイと戦う[ref-029]
-        /myria li1 act --- --- --- f - thought pre 3 フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
-        /myria li1 evn --- --- --- f - results pre 3 ミリアがフェイを倒す
+      /myria li1 act pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
+        /myria li1 act --- --- --- f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
+        /myria li1 evn --- --- --- f - results ミリアがフェイを倒す
 
 
 
@@ -311,9 +311,9 @@
 #### 約束的示唆
 - item: myria li1 - promise a
   promise event:
-      /petra li1 ply prm 015 --- f - gDesire prm a ペトラが「私は大物になんです！」と言う
+      /petra li1 ply prm 015 --- f - gDesire ペトラが「私は大物になんです！」と言う
   resolution event:
-      /petra li1 act prm --- 015 f - gDesire prm a ペトラが妖精領主になる
+      /petra li1 act prm --- 015 f - gDesire ペトラが妖精領主になる
 
 
 
@@ -329,11 +329,11 @@
 
 ### ローズ
 #### 約束的示唆
-- item: rose li1 - promise a
+- item: rose-li1 - promise a
   promise event:
-      /rose  li1 ply prm lst --- b - gDesire prm a ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
+      /rose- li1 ply prm lst --- b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
   resolution event:
-      /rose  li1 evn prm --- lst f - gDesire prm a ローズが死んでエスの使徒の封印が解かれる
+      /rose- li1 evn prm --- lst f - gDesire ローズが死んでエスの使徒の封印が解かれる
 
 
 
@@ -349,11 +349,11 @@
 
 ### エリー
 #### 約束的示唆
-- item: erie li1 - promise a
+- item: erie-li1 - promise a
   promise event:
-      /erie  li1 ply prm lst --- f - thought prm a エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
+      /erie- li1 ply prm lst --- f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
   resolution event:
-      /erie  li1 evn prm --- lst f - results prm a エリーがレオナに敗北する
+      /erie- li1 evn prm --- lst f - results エリーがレオナに敗北する
 
 
 
@@ -371,6 +371,6 @@
 #### 約束的示唆
 - item: fei li1 - promise a
   promise event:
-      /fei   li1 ply prm lst --- b - thought prm a フェイが「慢心は強者の特権」と言う
+      /fei-- li1 ply prm lst --- b - thought フェイが「慢心は強者の特権」と言う
   resolution event:
-      /fei   li1 evn prm --- lst f - results prm a フェイがミリアに敗北する[ref-029]
+      /fei-- li1 evn prm --- lst f - results フェイがミリアに敗北する[ref-029]
