@@ -1,51 +1,54 @@
 # 前兆要素の採番
 01:
-   /alice li1 act prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
+      /alice li1 act prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
 
 02:
-   /alice li1 act prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を復活したエスの使徒へ投げる
+      /alice li1 act prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を復活したエスの使徒へ投げる
 
 03:
-   /alice li1 evn prm --- r03 f - gDesire アリスが復活したエスの使徒を抑え魔力珠を手に入れる[memo-019]
+      /alice li1 evn prm --- r03 f - gDesire アリスが復活したエスの使徒を抑え魔力珠を手に入れる[memo-019]
 
 04:
-   /alice li1 act pre --- r04 f b ordeal- アリスがローズと戦う
+      /alice li1 act pre --- r04 f b ordeal- アリスがローズと戦う
 
 05:
-   /alice li1 ply pre mid r05 f - bground アリスの背景
+      /alice li1 ply pre mid r05 f - bground アリスの背景
 
 06:
-   /leona li1 ply prm --- r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
+      /leona li1 ply prm --- r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
 
 07:
-   /leona li1 act pre --- r07 f b ordeal- レオナがエリーと戦う
+      /leona li1 act pre --- r07 f b ordeal- レオナがエリーと戦う
 
 08:
-     /leona li1 ply pre mid r08 f - ------ アリスが「レオナの型は完成しているから型を破るべき」と言う
+      /leona li1 ply pre mid r08 f - ------ アリスが「レオナの型は完成しているから型を破るべき」と言う
 
 09:
-   /leona li1 ply pre mid r09 f - bground レオナの背景
+      /leona li1 ply pre mid r09 f - bground レオナの背景
 
 10:
-   /myria li1 ply prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
+      /myria li1 ply prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
 
 11:
-   /myria li1 evn prm --- r11 f - gDesire ミリアがハイエルフの叡智を得る
+      /myria li1 evn prm --- r11 f - gDesire ミリアがハイエルフの叡智を得る
 
 12:
-   /myria li1 act pre --- r12 f b ordeal- ミリアがフェイと戦う
+      /myria li1 act pre --- r12 f b ordeal- ミリアがフェイと戦う
 
 13:
-   /myria li1 ply pre mid r13 f - bground ミリアの背景
+      /myria li1 ply pre mid r13 f - bground ミリアの背景
 
 14:
-   /leona li1 ply rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
+      /leona li1 ply rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
 
 15:
+      /petra li1 act prm --- r15 f - gDesire ペトラが妖精領主になる
 
 16:
+      /leona li1 ply pre s07 r16 b - threat- エリーがレオナに憎悪を向ける
 
 17:
+      /myria li1 ply pre s12 r17 b - threat- フェイがエルフへの欲望を吐露する => 心を奪うみたいなことを言う
 
 18:
 
