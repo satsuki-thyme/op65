@@ -92,6 +92,7 @@
 - thinking-notes/thi-042.md: 邪神
 - thinking-notes/thi-043.md: 変化のためらいはどんな思考・行動になって表れるか
 - thinking-notes/thi-044.md: 何が気分を高めるか、終わりに行くほど気分が高まる構造を考える
+- thinking-notes/thi-045.md: ローズたちがエロいことをする
 
 ### アーカイブ
 #### before-2025-01-13
