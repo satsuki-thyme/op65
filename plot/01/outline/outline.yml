@@ -56,7 +56,7 @@
         /leona li1 ply leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
         /intsc li0 evn grp11 --- --- --- f - others- ペトラを助ける
       /leona li1 ply erie- pre s07 r16 b - threat- エリーがレオナに憎悪を向け、戦いたいと申し出る
-      /grp21 lov ply mltpl --- --- --- b - others- 戦いの前にローズがエリーにエロい祝福をする
+      /grp21 lov ply mltpl --- --- --- b - others- 戦いの前にローズがエリーにエロい祝福をする[ref-037-1]
       /petra li1 ply petra prm s15 --- f - gDesire ペトラが「私は大物になんです！」と言う
 
 
@@ -95,7 +95,7 @@
         /rose- li2 ply rose- --- --- --- b - others- ローズがエリーをねぎらいアリスについてあの子なら問題ないわと言う
         /fei-- li1 ply fei-- prm lst --- b - thought フェイが「慢心は強者の特権」と言う
         /myria li1 ply fei-- pre s12 r17 b - threat- フェイがエルフへの欲望を吐露する => 心を奪うみたいなことを言う
-        /grp21 lov ply mltpl --- --- --- b - others- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-1]work location
+        /grp21 lov ply mltpl --- --- --- b - others- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
       /leona li1 ply mltpl pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
       /intsc li0 evn mltpl --- --- --- f - others- 〃
 
@@ -146,7 +146,7 @@
         /erie- li2 ply erie- --- --- --- b - others- エリーがフェイに皮肉を言う
         /erie- li2 ply erie- --- --- --- b - others- エリーがアリスについてローズを心配する
         /alice li1 ply rose- pre mid --- b - threat- ローズがアリスについて不気味な発言をするntt
-        /grp21 lov ply mltpl --- --- --- b - others- エロいことをする[ref-037-2]
+        /grp21 lov ply mltpl --- --- --- b - others- エロいことをする[ref-037-3]
       /leona li1 ply leona rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
       /----- --- --- ----- pre mid
       /leona li1 ply leona pre lst --- f - others- レオナがアリスに訓練してもらい「――後はその剣を超えられるといいんだけど」と言われる
@@ -184,7 +184,7 @@
         /leona li1 evn erie- pre mid --- b - threat- エリーが余裕ぶってレオナを殺すと言う
         /erie- li2 ply erie- --- --- --- b - others- エリーがローズの体を気遣う
         /fei-- li2 ply fei-- --- --- --- b - others- フェイがローズをからかう
-        /grp21 lov ply mltpl --- --- --- b - others- エロいことをする[ref-037-3]
+        /.                                           エロいことはしない
 
 
   7:
@@ -239,7 +239,7 @@
       /grp21
         /myria li1 ply fei-- pre lst --- b - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく[ref-035]
         /erie- li2 ply erie- --- --- --- b - others- エリーがフェイに皮肉を言う
-        /grp21 lov ply mltpl --- --- --- b - others- エロいことをする[ref-037-5]
+        /.                                           エロいことはしない
 
 
   3:
@@ -259,7 +259,7 @@
       /intsc li0 evn alice --- --- --- f - others- アリスはレオナのfavoに癒やされる
       /grp21
         /leona li1 evn erie- pre lst --- b - threat- エリーがパワーアップして異形になる[ref-026]
-        /grp21 lov ply mltpl --- --- --- b - others- エロいことをする[ref-037-6]
+        /grp21 lov ply mltpl --- --- --- b - others- エロいことをする[ref-037-5]
 
 
   5:
