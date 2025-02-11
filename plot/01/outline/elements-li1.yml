@@ -1,5 +1,4 @@
-# プロット要素 第1章
-## 試練 - li1
+# プロット要素 第1章 - 試練 li1
 - group: li1
 
     ###    ##       ####  ######  ########
@@ -10,15 +9,15 @@
  ##     ## ##        ##  ##    ## ##
  ##     ## ######## ####  ######  ########
 
-### アリス
-#### 構成
+## アリス
+### 構成
 - conf: alice li1
   type: 試練
   theme: 過去と決別して今を選ぶ
 
 
 
-#### 約束的示唆
+### 約束的示唆
 - item: alice li1 - promise a
   promise event:
       order 1
@@ -53,7 +52,7 @@
 
 
 
-#### 準備
+### 準備
 - item: alice li1 - preparation 1
   preparation event:
       /alice li1 ply pre 004 --- f - favorbl アリスが暴れる神獣をおとなしくさせる[ref-019]
@@ -123,15 +122,15 @@
  ##       ##       ##     ## ##   ### ##     ##
  ######## ########  #######  ##    ## ##     ##
 
-### レオナ
-#### 構成
+## レオナ
+### 構成
 - conf: leona li1
   type: 試練
   theme: 過去と決別して今を選ぶ
 
 
 
-#### 約束的示唆
+### 約束的示唆
 - item: leona li1 - promise a
   promise event:
       /leona li1 ply prm 006 --- f - gDesire レオナが「前に……、進みたいんです」と言う[ref-025]
@@ -140,7 +139,7 @@
 
 
 
-#### 準備
+### 準備
 - item: leona li1 - preparation 1
   preparation event:
       /leona li1 ply pre 007 --- f b favorbl レオナが魔物を倒して強いところを見せる
@@ -207,15 +206,15 @@
  ##     ##    ##    ##    ##   ##  ##     ##
  ##     ##    ##    ##     ## #### ##     ##
 
-### ミリア
-#### 構成
+## ミリア
+### 構成
 - conf: myria li1
   type: 試練
   theme: 過去と決別して今を選ぶ
 
 
 
-#### 約束的示唆
+### 約束的示唆
 - item: myria li1 - promise a
   promise event:
       order 1
@@ -236,7 +235,7 @@
 
 
 
-#### 準備
+### 準備
 - item: myria li1 - preparation 1
   preparation event:
       /myria li1 ply pre 012 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
@@ -299,8 +298,8 @@
  ##        ##          ##    ##    ##  ##     ##
  ##        ########    ##    ##     ## ##     ##
 
-### ペトラ
-#### 構成
+## ペトラ
+### 構成
 - conf: petra li1
   type: 試練
   theme: 勇気
@@ -308,7 +307,7 @@
 
 
 
-#### 約束的示唆
+### 約束的示唆
 - item: myria li1 - promise a
   promise event:
       /petra li1 ply prm 015 --- f - gDesire ペトラが「私は大物になんです！」と言う
@@ -327,8 +326,8 @@
  ##    ##  ##     ## ##    ## ##
  ##     ##  #######   ######  ########
 
-### ローズ
-#### 約束的示唆
+## ローズ
+### 約束的示唆
 - item: rose-li1 - promise a
   promise event:
       /rose- li1 ply prm lst --- b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
@@ -347,8 +346,8 @@
  ##       ##    ##   ##  ##
  ######## ##     ## #### ########
 
-### エリー
-#### 約束的示唆
+## エリー
+### 約束的示唆
 - item: erie-li1 - promise a
   promise event:
       /erie- li1 ply prm lst --- f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
@@ -367,8 +366,8 @@
  ##       ##        ##
  ##       ######## ####
 
-### フェイ
-#### 約束的示唆
+## フェイ
+### 約束的示唆
 - item: fei li1 - promise a
   promise event:
       /fei-- li1 ply prm lst --- b - thought フェイが「慢心は強者の特権」と言う
