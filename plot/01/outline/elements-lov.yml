@@ -1,26 +1,97 @@
 # プロット要素 第1章 - 恋愛 lov
-1: 手をつなぐ
-2: 手をつなぐ
-3: 抱き合う（喜び）
-4: 
-5: 
-6: 
-7: 抱き合う（情感）
-8: 
-9: 
-10: 
-11: 告白
-12: 
-13: 水着回
-14: 
-15: キス
-16: 
-17: 
-18: 
-19: 愛撫
-20: 
-21: 
-22: 
-23: セックス
-24: 
-25: 
+1:
+  event: 
+  plot item:
+      /alice lov act mltpl --- --- --- f - favorbl 手を握る
+2:
+  event: 
+  plot item:
+      /alice lov act mltpl --- --- --- f - favorbl 手をつなぐ
+3:
+  event: アリスの試練
+  plot item:
+      /alice lov ply alice --- --- --- f - thought アリスの、2人といると楽しいという気づき
+      /alice lov act mltpl --- --- --- f - favorbl 抱き合う
+4:
+  event: 
+  plot item:
+      /alice lov act mltpl --- --- --- f - favorbl あーんする
+5:
+  event: レオナの試練
+  plot item:
+      /alice lov act mltpl --- --- --- f - others- アリスが治療する、ミリアが縋り付く
+6:
+  event: レオナの背景
+  plot item:
+      /alice lov ply alice --- --- --- f - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）
+7:
+  event: 
+  plot item:
+      /alice lov act mltpl --- --- --- f - favorbl 恋人つなぎ（指を絡める）
+8:
+  event: ミリアの試練
+  plot item:
+      /alice lov act mltpl --- --- --- f - others- アリスとレオナが戦いに干渉する
+9:
+  event: ミリアの背景
+  plot item:
+      /alice lov ply alice --- --- --- f - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
+10:
+  event: 
+  plot item:
+      /alice lov act mltpl --- --- --- f - favorbl 3人でバックハグ
+11:
+  event: アリスの試練
+  plot item:
+      /alice lov ply alice --- --- --- f - thought アリスの、2人がかけがえのない存在だという気づき
+12:
+  event: アリスの背景
+  plot item:
+      /alice lov ply alice --- --- --- f - thought アリスの、2人に対する独占欲の気づき
+13:
+  event: 水着回
+  plot item:
+14:
+  event: 
+  plot item:
+      /alice lov act mltpl --- --- --- f - favorbl 頭と頬を撫でる
+15:
+  event: レオナの試練
+  plot item:
+16:
+  event: 
+  plot item:
+      /alice lov ply alice --- --- --- f - thought アリスの、2人への思いが強まった気づき
+17:
+  event: ミリアの試練
+  plot item:
+18:
+  event: 
+  plot item:
+      /alice lov ply alice --- --- --- f - thought アリスの、2人を好きだというわがままの認識
+      /alice lov act mltpl --- --- --- f - favorbl アリスが、座っているとき2人の太ももを触る、2人は肩にもたれかかる
+19:
+  event: 
+  plot item:
+      /alice lov ply alice --- --- --- f - thought アリスの、わがままを通そうという決意
+20:
+  event: ミリアの試練
+  plot item:
+21:
+  event: 
+  plot item:
+      /alice lov ply alice --- --- --- f - thought アリスの、ミリアの願いが成就したことで、レオナの試練は予想されるわけで、それが乗り越えられたら告白するという決心
+22:
+  event: レオナの試練
+  plot item:
+23:
+  event: 
+  plot item:
+      /alice lov act mltpl --- --- --- f - favorbl 告白とキス
+24:
+  event: アリスの試練
+  plot item:
+25:
+  event: 
+  plot item:
+      /alice lov ply alice --- --- --- f - thought アリスの、2人といると楽しいということの再認識
