@@ -30,6 +30,7 @@
       background: false
     contents:
       /alice odl ply alice pre s04 --- f - favorbl アリスが暴れる神獣をおとなしくさせる[ref-019]
+      /alice odl ply alice hnt s18 --- f - others- アリスが周囲への害を強く気にする
       /intsc li0 evn mltpl --- --- --- f - others- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
         /myria odl ply myria prm s10 --- f - thought ミリアが「過去に囚われてはいけない」と言う
       /myria odl ply myria prm s11 --- f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
@@ -51,6 +52,7 @@
         /rose- odl inf rose- --- --- --- f - @es---- ローズが遷世して殺されたザヴィに会うと言う
         /alice odl act alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
         /                        s05
+        /                    hnt     r18
       /alice lov ply alice --- --- --- f - thought アリスの、2人といると楽しいという気づき
       /alice lov act mltpl --- --- --- f - favorbl 抱き合う
       /grp21
@@ -88,6 +90,7 @@
         /intsc li0 evn mltpl --- --- --- f - others- 〃
         /erie- odl ply erie- prm lst --- f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
       /alice lov act mltpl --- --- --- f - others- アリスが治療する、ミリアが縋り付く
+      /alice odl ply alice hnt mid --- f - thought ローズが自分たちに目をつけていることに戦いの予感がする
 
 
   6:
@@ -171,6 +174,8 @@
     contents:
       /alice odl ply alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
       /                        lst
+      /alice odl ply alice hnt mid --- f - thought ローズと戦うことになる予感が強くなる
+      /alice odl ply alice hnt mid --- f - thought ローズとは戦えないと悩む
       /alice lov act mltpl --- --- --- f - favorbl 3人でバックハグ
       /intsc li0 evn mltpl --- --- --- f - others- アリスの悩みをレオナとミリアが聞く
       /leona odl ply mltpl pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
@@ -195,7 +200,7 @@
       background: true
     contents:
       /alice odl act alice pre --- mid f b ordeal- アリスがローズと戦う
-        /alice odl ply alice --- --- --- f - others- 説得を試みる
+        /alice odl ply alice hnt --- mid f - others- 説得を試みる
         /alice odl evn alice pre lst --- f - results アリスがまともに戦えず怪我をする
         /alice odl evn rose- pre r05 --- f - bground ローズがアリスの背景に関する情報を言うntt
         /alice odl evn rose- --- --- --- f - @orb--- ローズが下腹部を押さえて苦しみ始める
@@ -210,7 +215,9 @@
       ep: 12
       background: true
     contents:
-      /alice odl ply alice pre mid r05 f - bground アリスの背景
+      /alice odl ply alice --- --- --- f - thought アリスがローズの体を心配する
+      /alice odl ply alice pre lst r05 f - bground アリスの背景
+        /alice odl ply alice pre lst --- f - thought アリスの子に対する愛情
       /intsc li0 evn mltpl --- --- --- f - others- レオナとミリアがアリスの背景を聞く
       /alice lov ply alice --- --- --- f - thought アリスの、2人に対する独占欲の気づき
 
@@ -291,6 +298,7 @@
       background: false
     contents:
       /alice odl ply alice pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+      /alice odl ply alice hnt lst --- f - thought ローズを倒すことになる予感がする
       /intsc li0 evn mltpl --- --- --- f - others- アリスがレオナに逸脱すれば勝てると言う, ミリアは魔法での逸脱を話す
       /leona odl ply leona pre lst --- f - thought 父王の剣を逸脱するなんてできないと思い込む
       /myria odl ply myria pre lst --- f - thought ミリアが祖母を大切に思う気持ちを吐露する
@@ -305,6 +313,7 @@
       background: false
     contents:
       /alice odl ply alice pre lst --- f - thought 子を殺すことの倫理的な問題に囚われる[ref-036]
+      /alice odl ply alice hnt lst --- f - thought ローズを倒さなければ世界が滅びると認識している
       /myria odl ply myria pre lst --- f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
       /intsc li0 evn grp11 --- --- --- f - others- それぞれの思いを抱えつつ表面的には前向きに振る舞う
       /myria odl ply fei-- pre lst --- b - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく[ref-035]
@@ -330,6 +339,7 @@
       background: false
     contents:
       /alice odl ply alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
+      /alice odl ply alice hnt lst --- f - thought ローズを倒すべきだと分かっている
       /leona odl ply leona pre lst --- f - favorbl ミリアとともに具合がいいntt
       /intsc li0 evn alice --- --- --- f - others- アリスはレオナのfavoに癒やされる
       /alice lov ply alice --- --- --- f - thought アリスの、ミリアの願いが成就したことで、レオナの試練は予想されるわけで、それが乗り越えられたら告白するという決心
@@ -358,6 +368,7 @@
     contents:
       /alice odl evn rose- pre lst --- b - threat- ローズがパワーアップする[ref-023]
       /alice odl ply alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
+      /alice odl ply alice hnt lst --- f - thought ローズを倒さないと事は収まらないと分かっている
       /alice lov act mltpl --- --- --- f - favorbl 告白とキス
 
 
@@ -367,7 +378,7 @@
       background: false
     contents:
       /alice odl act alice pre --- lst f b ordeal- アリスがローズと戦う
-        /alice odl act alice --- --- --- f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
+        /alice odl act alice hnt --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
         /alice odl evn alice --- --- --- f - results アリスがローズを倒す
       /alice odl act alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
       /rose- odl evn noCha prm --- lst f - gDesire ローズが死んでエスの使徒の封印が解かれる
