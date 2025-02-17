@@ -23,8 +23,8 @@
 ##### 概要
 - plot/01/outline/character-base.yml:      キャラクターの基本設計
 - plot/01/outline/character-portrayal.yml: キャラクター描写
-- plot/01/outline/elements-lov.yml:        プロット要素 恋愛 lov
-- plot/01/outline/elements-odl.yml:        プロット要素 試練 odl
+- plot/01/outline/elements-love.yml:       プロット要素 恋愛
+- plot/01/outline/elements-ordeal.yml:     プロット要素 試練
 - plot/01/outline/information.yml:         情報開示
 - plot/01/outline/narrative-clues.yml:     前兆要素
 - plot/01/outline/numbering.yml:           前兆要素の採番
