@@ -6,35 +6,11 @@
       - カルツ王国の謀略に巻き込まれてマーク王国を滅ぼし、疲弊したところをカルツ王国に滅ぼされた
 
 
-- item: アリス
-  applicable chapter: continuous
-  contents:
-    - item: 発生から眠りに着くまで
-      ref: thi-017.md
-
-
-- item: エリー
-  applicable chapter: 1
-  contents:
-    - item: 
-      ref: thi-021.md
-
-    - item:
-      - マーク王国の元王女
-
-
 - item: カルツ王国
   applicable chapter: 1, 2
   contents:
     - item: 
       ref: thi-023.md
-
-
-- item: フェイ
-  applicable chapter: 1
-  contents:
-    - item: 
-      ref: thi-022.md
 
 
 - item: マーク王国
@@ -43,37 +19,6 @@
     - item:
       - カルツ王国の謀略にはまってアネス王国を執拗に攻め、結果的にアネス王国に滅ぼされた
       - アネス王国を攻めるようになった頃、王は何かに取り憑かれていた
-
-
-- item: ミリア
-  applicable chapter: continuous
-  contents:
-    - item: 
-      ref: thi-019.md
-
-
-- item: レオナ
-  applicable chapter: continuous
-  contents:
-    - item: 
-      ref: thi-018.md
-
-    - item:
-      - アネス王国の元王女
-
-
-- item: ローズ
-  applicable chapter: 1
-  contents:
-    - item: 
-      ref: thi-020.md
-
-    - item:
-      - 吸血族
-        - 真祖がアリスの作った存在に作り出された
-      - 魔力珠を下腹部に持っている
-        - 無尽蔵に魔力を供給される
-          - 吸血族の身にあっては十全に魔力を操れない
 
 
 - item: 

@@ -71,6 +71,7 @@
         /leona odl ply alice pre s07 --- f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
         /intsc li0 evn alice rel s08 --- f - others- 〃
         /leona odl ply leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
+        /leona odl ply leona hnt s19 --- f - thought このままではいけないという思いが漠然としている
         /intsc li0 evn grp11 --- --- --- f - others- ペトラを助ける
       /petra odl ply petra prm s15 --- f - gDesire ペトラが「私は大物になんです！」と言う
       /grp21
@@ -86,6 +87,7 @@
       /leona odl act leona pre --- r07 f b ordeal- レオナがエリーと戦う
         /leona odl ply erie- pre s09 --- f - bground エリーの背景（エリーが戦闘中に過去を語る）
         /leona odl evn leona pre s09 --- f - results レオナがエリーに敗北する
+        /leona odl ply leona hnt --- r19 f - others- 〃
         /alice odl ply alice pre mid --- f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
         /intsc li0 evn mltpl --- --- --- f - others- 〃
         /erie- odl ply erie- prm lst --- f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
@@ -117,6 +119,7 @@
       /myria odl ply myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
       /intsc li0 evn mltpl --- --- --- f - others- アリスがミリアを慰める
       /myria odl ply myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
+      /myria odl ply myria hnt s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
       /myria odl ply myria pre s12 --- f - favorbl お姉さんとして振る舞っていい調子 => レオナの訓練後
       /intsc li0 evn mltpl --- --- --- f - others- 〃
       /alice lov act mltpl --- --- --- f - favorbl 恋人つなぎ（指を絡める）
@@ -137,7 +140,7 @@
       background: false
     contents:
       /myria odl act myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
-        /myria odl evn myria --- --- --- f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
+        /myria odl evn myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
         /myria odl act fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
         /intsc li0 evn mltpl --- --- --- f - others- アリスとレオナが戦いに干渉する
         /alice lov act mltpl --- --- --- f - others- アリスとレオナが戦いに干渉する
@@ -185,6 +188,7 @@
         /----- --- --- ----- pre mid
         /leona odl ply leona pre lst --- f - others- レオナがアリスに訓練してもらい「――後はその剣を超えられるといいんだけど」と言われる
         /leona odl ply leona pre lst --- f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
+        /leona odl ply leona hnt mid --- f - thought 父王に言われた言葉「俺を超えていけ」がよみがえるどういう意味だったのか
       /grp21
         /myria odl ply fei-- pre mid --- b - bground フェイの背景
         /fei-- li2 ply fei-- --- --- --- b - others- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
@@ -234,7 +238,8 @@
       ep: 14
       background: false
     contents:
-      /leona odl ply leona pre lst --- f - thought 剣の型を崩すと弱くなると思い込む
+      /leona odl ply leona pre lst --- f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
+      /leona odl ply leona hnt mid --- f - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
       /myria odl ply myria pre mid --- f - thought ミリアが祖母を思う
       /leona odl ply mltpl pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
       /intsc li0 evn mltpl --- --- --- f - others- 〃
@@ -253,7 +258,8 @@
       background: false
     contents:
       /leona odl act leona pre --- mid f b ordeal- レオナがエリーと戦う
-        /leona odl evn leona --- --- --- f - results レオナがエリーと引き分ける
+        /leona odl evn leona hnt --- mid f - results レオナがエリーと引き分ける
+        /leona odl ply erie- hnt lst --- f - others- エリーが絶対にこのままでは終わらせないと宣言する
 
 
   8:
@@ -262,9 +268,12 @@
       background: false
     contents:
       /myria odl ply myria pre mid --- f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
+      /myria odl ply myria hnt mid --- f - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
       /intsc li0 evn mltpl --- --- --- f - others- アリスとレオナがミリアを慰める
       /myria odl ply myria pre mid --- f - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
       /leona odl ply leona pre lst --- f - thought エリーといい勝負ができたことで現状維持がいいと思い込む
+      /leona odl ply leona hnt lst --- f - thought エリーがあのままのはずがないという予感がある
+      /leona odl ply leona hnt lst --- f - thought エリーを超えられなかった事実が心の底にわだかまっている
       /alice lov ply alice --- --- --- f - thought アリスの、2人への思いが強まった気づき
       /grp21
         /erie- li2 ply erie- --- --- --- b - others- エリーが悔しそうにする、無様をローズにわびる
@@ -279,7 +288,7 @@
       background: false
     contents:
       /myria odl act myria pre --- mid f b ordeal- ミリアがフェイと戦う
-        /myria odl evn myria --- --- --- f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
+        /myria odl evn myria hnt --- mid f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
         /myria odl act fei-- --- --- --- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する[ref-038]
 
 
@@ -301,6 +310,7 @@
       /alice odl ply alice hnt lst --- f - thought ローズを倒すことになる予感がする
       /intsc li0 evn mltpl --- --- --- f - others- アリスがレオナに逸脱すれば勝てると言う, ミリアは魔法での逸脱を話す
       /leona odl ply leona pre lst --- f - thought 父王の剣を逸脱するなんてできないと思い込む
+      /leona odl ply leona hnt lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
       /myria odl ply myria pre lst --- f - thought ミリアが祖母を大切に思う気持ちを吐露する
       /myria odl ply myria pre lst --- f - favorbl ミリアのいい具合ntt
       /alice lov ply alice --- --- --- f - thought アリスの、2人を好きだというわがままの認識
@@ -315,6 +325,7 @@
       /alice odl ply alice pre lst --- f - thought 子を殺すことの倫理的な問題に囚われる[ref-036]
       /alice odl ply alice hnt lst --- f - thought ローズを倒さなければ世界が滅びると認識している
       /myria odl ply myria pre lst --- f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
+      /myria odl ply myria hnt lst --- f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
       /intsc li0 evn grp11 --- --- --- f - others- それぞれの思いを抱えつつ表面的には前向きに振る舞う
       /myria odl ply fei-- pre lst --- b - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく[ref-035]
       /alice lov ply alice --- --- --- f - thought アリスの、わがままを通そうという決意
@@ -326,7 +337,7 @@
       background: false
     contents:
       /myria odl act myria pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
-        /myria odl act myria --- --- --- f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
+        /myria odl act myria hnt --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
         /myria odl evn myria --- --- --- f - results ミリアがフェイを倒す
       /myria odl ply myria prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
       /myria odl evn myria prm --- r11 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
@@ -354,7 +365,7 @@
       background: false
     contents:
       /leona odl act leona pre --- lst f b ordeal- レオナがエリーと戦う
-        /leona odl act leona --- --- --- f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
+        /leona odl act leona hnt --- lst f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
         /leona odl evn leona --- --- --- f - results レオナがエリーを倒す
         /erie- odl evn erie- prm --- lst f - results エリーがレオナに敗北する
       /leona odl ply leona prm --- r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う

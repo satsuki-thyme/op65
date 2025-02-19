@@ -52,12 +52,14 @@
 
 18:
         /alice odl act alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
-        /                              s05
-        /                          hnt     r18
+        /                            s05
+        /                        hnt r18
 
 19:
+        /leona odl ply leona hnt --- r19 f - others- 〃レオナがエリーに敗北する
 
 20:
+        /myria odl evn myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
 
 21:
 

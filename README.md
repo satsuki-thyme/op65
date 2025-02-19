@@ -21,6 +21,7 @@
 ### プロット
 #### 第1章
 ##### 概要
+- plot/01/outline/background.yml:          背景
 - plot/01/outline/character-base.yml:      キャラクターの基本設計
 - plot/01/outline/character-portrayal.yml: キャラクター描写
 - plot/01/outline/elements-love.yml:       プロット要素 恋愛
