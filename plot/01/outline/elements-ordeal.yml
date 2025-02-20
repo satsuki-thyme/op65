@@ -11,8 +11,8 @@
 ## アリス
 ### 構成
 - item:
-  - item: person
-    name: alice
+  - item: character
+    dn: アリス
 
   - item: conf
     type: 試練
@@ -125,6 +125,29 @@
 
 
 
+### 背景
+  - item: background - ザヴィの親としての愛
+    contents:
+      /alice odl ply alice hnt r05 --- f - others- ザヴィの死を聞いて悲嘆に暮れる
+      ===
+      /alice odl ply rose- hnt r05 --- f - others- ローズがザヴィに言及するntt
+      /alice odl ply alice hnt r05 --- f - others- アリスがザヴィに言及したローズに強く反応する
+
+  - item: background - 封界の指輪、効力（あの者たちの力をはじきます）、外すと壊れる（そのときはまた作ります）
+    contents:
+      /alice odl ply alice hnt r05 --- f - others- アリスが封界の指輪を嵌める
+      ===
+      /alice odl ply alice hnt r05 --- f - others- アリスが封界の指輪でローズの攻撃をいなす
+      /alice odl ply rose- hnt r05 --- f - others- ローズが封界の指輪の効力を見て封界の指輪の名を口にする
+
+  - item: background - 眠りにつく、数千年
+    contents:
+      /alice odl ply alice hnt r05 --- f - others- アリスが眠りから覚めてよく寝た
+      ===
+      /alice odl ply rose- hnt r05 --- f - others- ローズが太古から生きる化け物と言う
+
+
+
 
 
  ##       ########  #######  ##    ##    ###
@@ -138,8 +161,8 @@
 ## レオナ
 ### 構成
 - item:
-  - item: person
-    name: leona
+  - item: character
+    dn: レオナ
 
   - item: conf
     type: 試練
@@ -233,8 +256,8 @@
 ## ミリア
 ### 構成
 - item:
-  - item: person
-    name: myria
+  - item: character
+    dn: ミリア
 
   - item: conf
     type: 試練
@@ -332,8 +355,8 @@
 ## ペトラ
 ### 構成
 - item:
-  - item: person
-    name: petra
+  - item: character
+    dn: ペトラ
 
   - item: conf
     type: 試練
@@ -363,8 +386,8 @@
 
 ## ローズ
 - item:
-  - item: person
-    name: rose
+  - item: character
+    dn: ローズ
 
 ### 約束的示唆
   - item: promise a
@@ -387,8 +410,8 @@
 
 ## エリー
 - item:
-  - item: person
-    name: erie
+  - item: character
+    dn: エリー
 
 ### 約束的示唆
   - item: promise a
@@ -411,8 +434,8 @@
 
 ## フェイ
 - item:
-  - item: person
-    name: fei
+  - item: character
+    dn: フェイ
 
 ### 約束的示唆
   - item: promise a

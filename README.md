@@ -24,6 +24,7 @@
 - plot/01/outline/background.yml:          背景
 - plot/01/outline/character-base.yml:      キャラクターの基本設計
 - plot/01/outline/character-portrayal.yml: キャラクター描写
+- plot/01/outline/elements-li1.yml:        プロット要素 li1
 - plot/01/outline/elements-love.yml:       プロット要素 恋愛
 - plot/01/outline/elements-ordeal.yml:     プロット要素 試練
 - plot/01/outline/information.yml:         情報開示
