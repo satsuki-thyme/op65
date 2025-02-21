@@ -1,4 +1,13 @@
 # 情報開示
+## ストーリー情報
+story information:
+  - 神獣を暴れさせたのは邪神ネグド
+  - エスの使徒を発狂させたのは邪神ネグド
+  - 邪神ネグドはエスの使徒への呪いに縛られて身動きできなくなっている
+  - 邪神ネグドは最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすればもっと原初の存在……
+
+
+
 ## 世界観情報
 worldview information:
   ### 構築
@@ -8,6 +17,7 @@ worldview information:
   ### 持続
   maintaining:
     - 
+
 
 
 ## キャラクター情報
@@ -21,6 +31,8 @@ character information:
     maintaining:
       - 
 
+
+
   - item: レオナ
     ### 構築
     building:
@@ -29,6 +41,8 @@ character information:
     ### 維持
     maintaining:
       - 
+
+
 
   - item: ミリア
     ### 構築
@@ -39,6 +53,8 @@ character information:
     maintaining:
       - 
 
+
+
   - item: ペトラ
     ### 構築
     building:
@@ -47,6 +63,8 @@ character information:
     ### 維持
     maintaining:
       - 
+
+
 
   - item: ローズ
     ### 構築
@@ -57,6 +75,8 @@ character information:
     maintaining:
       - 
 
+
+
   - item: エリー
     ### 構築
     building:
@@ -66,6 +86,8 @@ character information:
     maintaining:
       - 
 
+
+
   - item: フェイ
     ### 構築
     building:
@@ -74,8 +96,3 @@ character information:
     ### 維持
     maintaining:
       - 
-
-
-## ストーリー情報
-story information:
-  - 

@@ -13,11 +13,13 @@
       ep: 1
       background: false
     contents:
+      /alice odl inf alice hnt s05 --- f - others- アリスが地上に出てきて数千年は経ってるかなと言う
       /alice odl ply alice prm s01 --- f - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
-      /alice odl ply alice prm s02 --- f - thought アリスが封界の指輪の浮き彫りを見て「ザヴィどうしてるかな」と言う
-      /                        s05
+      /alice odl ply alice prm s02 --- f - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
+      /          inf       hnt s05         @zavia-
       /intsc li0 evn leona --- --- --- f - @orb--- レオナがアリスに、ザヴィの死を伝える
-      /alice odl ply alice prm s02 --- f - thought アリスがザヴィの死を知って封界の指輪に触れる
+      /alice odl inf alice hnt s05 --- f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
+      /alice odl ply alice prm s02 --- f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
       /alice odl act alice prm s03 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
       /leona odl ply leona prm s06 --- f - gDesire レオナが「前に……、進みたいんです」と言う[ref-025]
       /intsc li0 evn mltpl --- --- --- f - others- アリスの旅にレオナが加わる
@@ -29,7 +31,10 @@
       ep: 2
       background: false
     contents:
-      /alice odl ply alice pre s04 --- f - favorbl アリスが暴れる神獣をおとなしくさせる[ref-019]
+      /alice odl inf alice hnt s05 --- f - others- アリスが神殿を見てあの子たちは元気にしてるみたいねと言う
+      /alice odl ply alice pre s04 --- f - favorbl アリスが暴れる神獣をおとなしくさせる
+      /alice odl inf alice hnt s05 --- f - others- 発狂した神獣を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
+      /alice odl inf alice hnt s05 --- f - others- 神獣が平伏する
       /alice odl ply alice hnt s18 --- f - others- アリスが周囲への害を強く気にする
       /intsc li0 evn mltpl --- --- --- f - others- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
         /myria odl ply myria prm s10 --- f - thought ミリアが「過去に囚われてはいけない」と言う
@@ -46,12 +51,14 @@
       /alice odl evn rose- pre s04 --- b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
       /rose- odl inf rose- --- --- --- b - @apost- 〃
       /alice odl evn alice pre s04 --- f - threat- アリスがローズの噂を聞く[ref-020]
+      /alice odl inf alice hnt s05 --- f - others- アリスはローズの名を知っている
       /alice odl act alice pre --- r04 f b ordeal- アリスがローズと戦う
         /alice odl ply alice --- --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
-        /rose- odl inf rose- --- --- --- f - @es---- ローズが封界の指輪を見て「見つけた！」と言って笑む
+        /alice odl inf alice hnt s05 --- f - @zavia- 封界の指輪がローズの魔法をはじく
+        /rose- odl inf rose- hnt s05 --- f - @es---- ローズが封界の指輪を見て「見つけた！」と言って笑む
         /rose- odl inf rose- --- --- --- f - @es---- ローズが遷世して殺されたザヴィに会うと言う
         /alice odl act alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
-        /                        s05
+        /          inf           s05
         /                    hnt     r18
       /alice lov ply alice --- --- --- f - thought アリスの、2人といると楽しいという気づき
       /alice lov act mltpl --- --- --- f - favorbl 抱き合う
@@ -175,6 +182,7 @@
       ep: 10
       background: true
     contents:
+      /alice odl inf alice hnt s05 --- f - others- アリスが素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
       /alice odl ply alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
       /                        lst
       /alice odl ply alice hnt mid --- f - thought ローズと戦うことになる予感が強くなる
@@ -400,6 +408,6 @@
       ep: 25
       background: false
     contents:
-      /alice odl evn alice prm --- r03 f - gDesire アリスが復活したエスの使徒を抑え魔力珠を手に入れる[ref-019]
+      /alice odl evn alice prm --- r03 f - gDesire アリスが復活したエスの使徒を抑え魔力珠を手に入れる
       /alice odl act alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
       /alice lov ply alice --- --- --- f - thought アリスの、2人といると楽しいということの再認識
