@@ -22,6 +22,7 @@
       /alice odl ply alice prm s02 --- f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
       /alice odl act alice prm s03 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
       /leona odl ply leona prm s06 --- f - gDesire レオナが「前に……、進みたいんです」と言う[ref-025]
+      /leona odl inf leona hnt s09 --- f - others- レオナがここに運命を変える出会いが待っていると言われていてと言う
       /intsc li0 evn mltpl --- --- --- f - others- アリスの旅にレオナが加わる
       /alice lov act mltpl --- --- --- f - favorbl 手を握る
 
@@ -31,6 +32,8 @@
       ep: 2
       background: false
     contents:
+      /leona odl inf mob-- hnt s09 --- f - others- 民が噂話にカルツ王国を出す
+      /leona odl inf alice hnt s09 --- f - others- アリスが所作が洗練されていて王族のようだと言う
       /alice odl inf alice hnt s05 --- f - others- アリスが神殿を見てあの子たちは元気にしてるみたいねと言う
       /alice odl ply alice pre s04 --- f - favorbl アリスが暴れる神獣をおとなしくさせる
       /alice odl inf alice hnt s05 --- f - others- 発狂した神獣を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
@@ -80,7 +83,10 @@
         /leona odl ply leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
         /leona odl ply leona hnt s19 --- f - thought このままではいけないという思いが漠然としている
         /intsc li0 evn grp11 --- --- --- f - others- ペトラを助ける
+      /leona odl inf leona hnt s09 --- f - others- レオナが剣は父に教わったと言う
       /petra odl ply petra prm s15 --- f - gDesire ペトラが「私は大物になんです！」と言う
+      /leona odl inf alice hnt s09 --- f - others- アリスが国は興って亡びるもの、でも妖精の国は続いているわねと言う
+      /leona odl inf leona hnt s09 --- f - others- レオナがアリスの言葉を聞いて悲しそうにする
       /grp21
         /leona odl ply erie- pre s07 r16 b - threat- エリーがレオナに憎悪を向け、戦いたいと申し出る
         /grp21 lov ply mltpl --- --- --- b - others- 戦いの前にローズがエリーにエロい祝福をする[ref-037-1]
@@ -92,7 +98,7 @@
       background: true
     contents:
       /leona odl act leona pre --- r07 f b ordeal- レオナがエリーと戦う
-        /leona odl ply erie- pre s09 --- f - bground エリーの背景（エリーが戦闘中に過去を語る）
+        /leona odl inf erie- hnt s09 --- f - bground エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
         /leona odl evn leona pre s09 --- f - results レオナがエリーに敗北する
         /leona odl ply leona hnt --- r19 f - others- 〃
         /alice odl ply alice pre mid --- f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
@@ -107,7 +113,8 @@
       ep: 6
       background: true
     contents:
-      /leona odl ply leona pre mid r09 f - bground レオナの背景
+      /leona odl ply leona pre mid --- f - bground レオナの背景
+      /                    hnt     r09
       /intsc li0 evn grp11 --- --- --- f - others- アリスとミリアがレオナの背景を聞く
       /intsc li0 evn grp11 --- --- --- f - others- アリスとミリアが落ち込むレオナを慰める
       /alice lov ply alice --- --- --- f - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）

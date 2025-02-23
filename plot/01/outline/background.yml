@@ -21,7 +21,19 @@
 
 - dn: レオナ
   contents:
-    - 
+    - 王女
+      /leona odl inf alice hnt s09 --- f - others- アリスが所作が洗練されていて王族のようだと言う
+    - レイフ王国（エリーの国）の呪いかも
+      /leona odl inf erie- hnt s09 --- f - bground エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
+    - 攻めてきている国 => カルツ王国
+      /leona odl inf mob-- hnt s09 --- f - others- 民が噂話にカルツ王国を出す
+    - アネス王国の最後 => おまえは生き延びるんだ、私たちが敵を食い止める
+      /leona odl inf alice hnt s09 --- f - others- アリスが国は興って亡びるもの、でも妖精の国は続いているわねと言う
+      /leona odl inf leona hnt s09 --- f - others- レオナがアリスの言葉を聞いて悲しそうにする
+    - 父王に剣を学ぶ => おまえは私から全てを学び強くなった
+      /leona odl inf leona hnt s09 --- f - others- レオナが剣は父に教わったと言う
+    - 託宣の巫女の予言 => ◯◯の山で運命を方向づける出会いが待っている
+      /leona odl inf leona hnt s09 --- f - others- レオナがここに運命を変える出会いが待っていると言われていてと言う
 
 
 - dn: ミリア
