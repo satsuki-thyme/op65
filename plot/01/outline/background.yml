@@ -39,7 +39,18 @@
 - dn: ミリア
   contents:
     - 祖母の死の原因を作った
-    - 
+      /leona odl inf leona hnt s09 --- f - others- レオナが自分に力があればと悔しがる
+      /myria odl inf myria hnt s13 --- f - others- レオナが自分に力があればあんなことと悔しがるのを見て共感する
+    - 祖母から森で魔法を教わっていた
+      /myria odl inf myria hnt s13 --- f - others- アリスがミリアの魔法を褒めると祖母から教わったと嬉しそうにした直後に酷く落ち込む
+    - 大怪我を負った妖精が飛んできて祖母に助けてほしいと懇願する
+      /myria odl inf myria hnt s13 --- f - others- ペトラを魔法薬で治療する　妖精を治療する魔法薬は貴重
+      /alice odl inf alice hnt s05 --- f - others- ペトラの治療について封界の指輪を見て物憂げにする
+    - 妖精を助けるのは難しいという祖母に対してミリアが嫌いと言う
+      /petra ??? ??? petra --- --- --- f - others- アリスを嫌いと言う
+      /myria odl inf myria hnt s13 --- f - others- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
+    - 衰弱した妖精を助けるため祖母は特別な薬草を採りに森へ
+      /myria odl inf myria hnt s13 --- f - others- ペトラの治療のときの薬草についての説明で危険なところに生えていると言って悲しそうにする
 
 
 - dn: ローズ

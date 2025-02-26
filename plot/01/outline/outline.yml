@@ -83,8 +83,13 @@
         /leona odl ply leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
         /leona odl ply leona hnt s19 --- f - thought このままではいけないという思いが漠然としている
         /intsc li0 evn grp11 --- --- --- f - others- ペトラを助ける
+      /leona odl inf leona hnt s09 --- f - others- レオナが自分に力があればと悔しがる
+      /myria odl inf myria hnt s13 --- f - others- レオナが自分に力があればあんなことと悔しがるのを見て共感する
       /leona odl inf leona hnt s09 --- f - others- レオナが剣は父に教わったと言う
       /petra odl ply petra prm s15 --- f - gDesire ペトラが「私は大物になんです！」と言う
+      /myria odl inf myria hnt s13 --- f - others- ペトラを魔法薬で治療する　妖精を治療する魔法薬は貴重
+      /alice odl inf alice hnt s05 --- f - others- ペトラの治療について封界の指輪を見て物憂げにする
+      /myria odl inf myria hnt s13 --- f - others- ペトラの治療のときの薬草についての説明で危険なところに生えていると言って悲しそうにする
       /leona odl inf alice hnt s09 --- f - others- アリスが国は興って亡びるもの、でも妖精の国は続いているわねと言う
       /leona odl inf leona hnt s09 --- f - others- レオナがアリスの言葉を聞いて悲しそうにする
       /grp21
@@ -123,6 +128,7 @@
         /intsc li0 evn mltpl rel s14 r08 f - others- アリスが「レオナの型は完成しているから型を破るべき」と言う
       /myria odl ply myria pre s12 --- f - favorbl お姉さんとして振る舞っていい調子 => レオナの訓練後
       /intsc li0 evn mltpl --- --- --- f - others- 〃
+      /myria odl inf myria hnt s13 --- f - others- アリスがミリアの魔法を褒めると祖母から教わったと嬉しそうにした直後に酷く落ち込む
 
 
   7:
@@ -130,6 +136,8 @@
       ep: 7
       background: false
     contents:
+      /petra ??? ??? petra --- --- --- f - others- アリスを嫌いと言う
+      /myria odl inf myria hnt s13 --- f - others- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
       /myria odl ply myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
       /intsc li0 evn mltpl --- --- --- f - others- アリスがミリアを慰める
       /myria odl ply myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
