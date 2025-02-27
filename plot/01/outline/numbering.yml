@@ -62,14 +62,23 @@
         /myria odl evn myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
 
 21:
+      /alice odl ply alice pre lst r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
 
 22:
+      /myria odl ply leona pre mid --- f - favorbl レオナがミリアに甘える[ref-042]
+      /                    rel s23 r22
 
 23:
+      /myria odl ply leona pre lst --- f - favorbl レオナがミリアに甘える[ref-042]
+      /                    rel --- r23
 
 24:
+      /leona odl ply myria pre mid --- f - others- ミリアがレオナを甘やかす[ref-042]
+      /                    rel s25 r24
 
 25:
+      /leona odl ply myria pre lst --- f - others- ミリアがレオナを甘やかす[ref-042]
+      /                    rel     r25
 
 26:
 

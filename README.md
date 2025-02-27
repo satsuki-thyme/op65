@@ -97,6 +97,7 @@
 - thinking-notes/thi-044.md: 何が気分を高めるか、終わりに行くほど気分が高まる構造を考える
 - thinking-notes/thi-045.md: ローズたちがエロいことをする
 - thinking-notes/thi-046.md: アリスがローズとエスと対峙する構図の再構築
+- thinking-notes/thi-047.md: アリスたちが助け合う具体的な内容を作る
 
 ### アーカイブ
 #### before-2025-01-13

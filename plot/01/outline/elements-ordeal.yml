@@ -117,7 +117,9 @@
       /alice odl ply alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
       /alice odl ply alice hnt lst --- f - thought ローズを倒すべきだと分かっている
       ===
-      /alice odl ply alice pre lst --- f - favorbl ntt
+      /alice odl ply multi pre s21 --- f - others- レオナとミリアが何かを作っている[ref-040]
+      ===
+      /alice odl ply alice pre lst r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
     performance event:
       /alice odl act alice pre --- lst f b ordeal- アリスがローズと戦う
         /alice odl act alice hnt --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
@@ -188,6 +190,9 @@
         /leona odl ply leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
         /leona odl ply leona hnt s19 --- f - thought このままではいけないという思いが漠然としている
       ===
+      /leona odl ply myria pre s09 --- f - others- ミリアがレオナを甘やかす[ref-042]
+      /                    rel s24
+      ===
       /leona odl ply leona pre s07 --- b - threat- エリーがレオナに憎悪を向ける
     performance event:
       /leona odl act leona pre --- r07 f b ordeal- レオナがエリーと戦う
@@ -202,10 +207,10 @@
       ===
       /leona odl evn leona pre mid --- b - threat- エリーが余裕ぶってレオナを殺すと言う
       ===
-      /leona odl ply leona pre mid --- f - thought レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
+      /leona odl ply leona pre mid --- f - others- レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
         /leona odl ply leona rel s14 r08 f - others- アリスが「レオナの型は完成しているから型を破るべき」と言う
       ===
-      /leona odl ply leona pre mid --- f - thought レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
+      /leona odl ply leona pre mid --- f - others- レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
       x n
       ===
       /leona odl ply leona rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
@@ -217,6 +222,9 @@
       ===
       /leona odl ply leona pre lst --- f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
       /leona odl ply leona hnt mid --- f - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
+      ===
+      /leona odl ply myria pre mid --- f - others- ミリアがレオナを甘やかす[ref-042]
+      /                    rel s25 r24
     performance event:
       /leona odl act leona pre --- mid f b ordeal- レオナがエリーと戦う
         /leona odl evn leona hnt --- mid f - results レオナがエリーと引き分ける
@@ -236,6 +244,9 @@
       ===
       /leona odl ply leona pre lst --- f - thought 父王の剣を逸脱するなんてできないと思い込む
       /leona odl ply leona hnt lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
+      ===
+      /leona odl ply myria pre lst --- f - others- ミリアがレオナを甘やかす[ref-042]
+      /                    rel     r25
     performance event:
       /leona odl act leona pre --- lst f b ordeal- レオナがエリーと戦う
         /leona odl act leona hnt --- lst f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
@@ -293,8 +304,11 @@
       ===
       /myria odl ply myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
       /myria odl ply myria hnt s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
+      /myria odl ply alice pre lst --- f - others- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
+      /                    rel s21
       ===
-      /myria odl ply myria pre s12 --- f - favorbl お姉さんとして振る舞っていい調子
+      /myria odl ply leona pre s12 --- f - favorbl レオナがミリアに甘える[ref-042]
+      /                    rel s22
       ===
       /myria odl ply myria pre s12 --- b - threat- フェイがエルフへの欲望を吐露する
     performance event:
@@ -314,8 +328,13 @@
       ===
       /myria odl ply myria pre mid --- f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
       /myria odl ply myria hnt mid --- f - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
+      /myria odl ply alice pre lst --- f - others- アリスが不幸に押しつぶされた心では当たり前の償いもできないと言う
+      /                    pre s22 r21
       ===
       /myria odl ply myria pre mid --- f - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
+      ===
+      /myria odl ply leona pre mid --- f - favorbl レオナがミリアに甘える[ref-042]
+      /                    rel s23 r22
       ===
       /myria odl ply myria pre mid --- b - threat- フェイが取っておきの方法を思ってほくそ笑む
     performance event:
@@ -331,8 +350,11 @@
       ===
       /myria odl ply myria pre lst --- f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
       /myria odl ply myria hnt lst --- f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
+      /myria odl ply alice pre lst --- f - others- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
+      /                    rel     r22
       ===
-      /myria odl ply myria pre lst --- f - favorbl ミリアが祖母を悲しませるような選択はできないと意気込む
+      /myria odl ply leona pre lst --- f - favorbl レオナがミリアに甘える[ref-042]
+      /                    rel --- r23
       ===
       /myria odl ply myria pre lst --- f - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく
     performance event:
