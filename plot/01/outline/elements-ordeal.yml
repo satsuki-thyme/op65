@@ -1,4 +1,3 @@
-# プロット要素 第1章 - 試練 ordeal
 
     ###    ##       ####  ######  ########
    ## ##   ##        ##  ##    ## ##
@@ -8,149 +7,103 @@
  ##     ## ##        ##  ##    ## ##
  ##     ## ######## ####  ######  ########
 
-## アリス
-### 構成
-- item:
-  - item: character
-    dn: アリス
-
-  - item: conf
+- item: アリス
+  conf:
     type: 試練
     theme: 過去と決別して今を選ぶ
+  contents:
+    - item: 約束的示唆 a
+      send event:
+        order in send event 1
+        /alice odl ply alice prm s01 --- f - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
+      receive event:
+        order in reveive event 3
+        /alice odl act alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
 
-
-
-### 約束的示唆
-  - item: promise a
-    promise event:
-      order 1
-      /alice odl ply alice prm s01 --- f - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
-    resolution event:
-      order 3
-      /alice odl act alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
-
-
-
-  - item: promise b
-    promise event:
-      order 2
-      /alice odl ply alice prm s02 --- f - thought アリスが封界の指輪の浮き彫りを見て「ザヴィどうしてるかな」と言う
-      /                        s05
-      ===
-      order 3
-      /alice odl ply alice prm s02 --- f - thought アリスがザヴィの死を知って封界の指輪に触れる
-    resolution event:
-      order 1
-      /alice odl act alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
-
-
-
-  - item: promise c
-    promise event:
-      order 4
-      /alice odl act alice prm s03 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
-    resolution event:
-      order 2
-      /alice odl evn alice prm --- r03 f - gDesire アリスが復活したエスの使徒を抑え魔力珠を手に入れる[ref-019]
-
-
-
-### 準備
-  - item: preparation 1 and hints
-    preparation event:
-      /alice odl ply alice pre s04 --- f - favorbl アリスが暴れる神獣をおとなしくさせる[ref-019]
-      /alice odl ply alice hnt s18 --- f - others- アリスが周囲への害を強く気にする
-      ===
-      /alice odl evn alice pre s04 --- b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
-      /rose- odl inf rose- --- --- --- b - @apost- 〃
-      ===
-      /alice odl evn alice pre s04 --- f - threat- アリスがローズの噂を聞く[ref-020]
-    performance event:
-      /alice odl act alice pre --- r04 f b ordeal- アリスがローズと戦う
-        /alice odl ply alice --- --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
-        /rose- odl inf rose- --- --- --- f - @es---- ローズが封界の指輪を見て「見つけた！」と言って笑む
-        /rose- odl inf rose- --- --- --- f - @es---- ローズが遷世して殺されたザヴィに会うと言う
-        /alice odl act alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+    - item: 約束的示唆 b
+      send event:
+        order in send event 2
+        /alice odl ply alice prm s02 --- f - thought アリスが封界の指輪の浮き彫りを見て「ザヴィどうしてるかな」と言う
         /                        s05
+        ===
+        order in send event 3
+        /alice odl ply alice prm s02 --- f - thought アリスがザヴィの死を知って封界の指輪に触れる
+      receive event:
+        order in reveive event 1
+        /alice odl act alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
 
+    - item: 約束的示唆 c
+      send event:
+        order in send event 4
+        /alice odl act alice prm s03 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
+      receive event:
+        order in reveive event 2
+        /alice odl evn alice prm --- r03 f - gDesire アリスが復活したエスの使徒を抑え魔力珠を手に入れる[ref-019]
 
+    - item: 準備 1, ヒント
+      send event:
+        /alice odl ply alice pre s04 --- f - favorbl アリスが暴れる神獣をおとなしくさせる[ref-019]
+        /alice odl ply alice hnt s18 --- f - others- アリスが周囲への害を強く気にする
+        ===
+        /alice odl evn alice pre s04 --- b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
+        /rose- odl inf rose- --- --- --- b - @apost- 〃
+        ===
+        /alice odl evn alice pre s04 --- f - threat- アリスがローズの噂を聞く[ref-020]
+      receive event:
+        /alice odl act alice pre --- r04 f b ordeal- アリスがローズと戦う
+          /alice odl ply alice --- --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
+          /rose- odl inf rose- --- --- --- f - @es---- ローズが封界の指輪を見て「見つけた！」と言って笑む
+          /rose- odl inf rose- --- --- --- f - @es---- ローズが遷世して殺されたザヴィに会うと言う
+          /alice odl act alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+          /                        s05
 
-  - item: preparation 2 and hints
-    preparation event:
-      /alice odl ply alice pre mid --- f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
-      /alice odl ply alice hnt mid --- f - thought ローズが自分たちに目をつけていることに戦いの予感がする
-      ===
-      /alice odl ply alice pre lst r05 f - bground アリスの背景
-      /alice odl ply alice hnt lst --- f - thought アリスの子に対する愛情
-      ===
-      /alice odl ply alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-      /                        lst
-      /alice odl ply alice hnt mid --- f - thought ローズと戦うことになる予感が強くなる
-      ===
-      /alice odl ply alice pre mid --- f - favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
-      /alice odl ply alice hnt mid --- f - thought レオナに戦いを教える一方で自身にローズと戦う覚悟がないことを思う
-      ===
-      /alice odl ply alice pre mid --- b - threat- ローズがアリスについて不気味な発言をするntt
-      /alice odl ply alice hnt mid --- f - thought ローズとは戦えないと悩む
-    performance event:
-      /alice odl act alice pre --- mid f b ordeal- アリスがローズと戦う
-        /alice odl ply alice hnt --- mid f - others- 説得を試みる
-        /alice odl evn alice pre lst --- f - results アリスが真面に戦えず怪我をする
-        /alice odl evn alice --- --- --- f - bground ローズが下腹部を押さえて苦しみ始める
+    - item: 準備 2, ヒント
+      send event:
+        /alice odl ply alice pre mid --- f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
+        /alice odl ply alice hnt mid --- f - thought ローズが自分たちに目をつけていることに戦いの予感がする
+        ===
+        /alice odl ply alice pre lst r05 f - bground アリスの背景
+        /alice odl ply alice hnt lst --- f - thought アリスの子に対する愛情
+        ===
+        /alice odl ply alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+        /                        lst
+        /alice odl ply alice hnt mid --- f - thought ローズと戦うことになる予感が強くなる
+        ===
+        /alice odl ply alice pre mid --- f - favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
+        /alice odl ply alice hnt mid --- f - thought レオナに戦いを教える一方で自身にローズと戦う覚悟がないことを思う
+        ===
+        /alice odl ply alice pre mid --- b - threat- ローズがアリスについて不気味な発言をするntt
+        /alice odl ply alice hnt mid --- f - thought ローズとは戦えないと悩む
+      receive event:
+        /alice odl act alice pre --- mid f b ordeal- アリスがローズと戦う
+          /alice odl ply alice hnt --- mid f - others- 説得を試みる
+          /alice odl evn alice pre lst --- f - results アリスが真面に戦えず怪我をする
+          /alice odl evn alice --- --- --- f - bground ローズが下腹部を押さえて苦しみ始める
 
-
-
-  - item: preparation 3 and hints & hints 3
-    preparation event:
-      /alice odl evn alice pre lst --- b - threat- ローズがパワーアップする[ref-023]
-      ===
-      /alice odl ply alice pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-      /alice odl ply alice hnt lst --- f - thought ローズを倒すことになる予感がする
-      x n
-      ===
-      /alice odl ply alice pre lst --- f - thought 子を殺すことの倫理的な問題に囚われる
-      /alice odl ply alice hnt lst --- f - thought ローズを倒さなければ世界が滅びると認識している
-      ===
-      /alice odl ply alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
-      /alice odl ply alice hnt lst --- f - thought ローズを倒さないと事は収まらないと分かっている
-      ===
-      /alice odl ply alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
-      /alice odl ply alice hnt lst --- f - thought ローズを倒すべきだと分かっている
-      ===
-      /alice odl ply multi pre s21 --- f - others- レオナとミリアが何かを作っている[ref-040]
-      ===
-      /alice odl ply alice pre lst r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
-    performance event:
-      /alice odl act alice pre --- lst f b ordeal- アリスがローズと戦う
-        /alice odl act alice hnt --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
-        /alice odl evn alice --- --- --- f - results アリスがローズを倒す
-
-
-
-### 背景
-  - item: background - ザヴィの親としての愛
-    contents:
-      /alice odl ply alice hnt r05 --- f - others- ザヴィの死を聞いて悲嘆に暮れる
-      ===
-      /alice odl ply rose- hnt r05 --- f - others- ローズがザヴィに言及するntt
-      /alice odl ply alice hnt r05 --- f - others- アリスがザヴィに言及したローズに強く反応する
-
-  - item: background - 封界の指輪、効力（あの者たちの力をはじきます）、外すと壊れる（そのときはまた作ります）
-    contents:
-      /alice odl ply alice hnt r05 --- f - others- アリスが封界の指輪を嵌める
-      ===
-      /alice odl ply alice hnt r05 --- f - others- アリスが封界の指輪でローズの攻撃をいなす
-      /alice odl ply rose- hnt r05 --- f - others- ローズが封界の指輪の効力を見て封界の指輪の名を口にする
-
-  - item: background - 眠りにつく、数千年
-    contents:
-      /alice odl ply alice hnt r05 --- f - others- アリスが眠りから覚めてよく寝た
-      ===
-      /alice odl ply rose- hnt r05 --- f - others- ローズが太古から生きる化け物と言う
-
-
-
-
+    - item: 準備 3, ヒント & hints 3
+      send event:
+        /alice odl evn alice pre lst --- b - threat- ローズがパワーアップする[ref-023]
+        ===
+        /alice odl ply alice pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+        /alice odl ply alice hnt lst --- f - thought ローズを倒すことになる予感がする
+        x n
+        ===
+        /alice odl ply alice pre lst --- f - thought 子を殺すことの倫理的な問題に囚われる
+        /alice odl ply alice hnt lst --- f - thought ローズを倒さなければ世界が滅びると認識している
+        ===
+        /alice odl ply alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
+        /alice odl ply alice hnt lst --- f - thought ローズを倒さないと事は収まらないと分かっている
+        ===
+        /alice odl ply alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
+        /alice odl ply alice hnt lst --- f - thought ローズを倒すべきだと分かっている
+        ===
+        /alice odl ply multi pre s21 --- f - others- レオナとミリアが何かを作っている[ref-040]
+        ===
+        /alice odl ply alice pre lst r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
+      receive event:
+        /alice odl act alice pre --- lst f b ordeal- アリスがローズと戦う
+          /alice odl act alice hnt --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
+          /alice odl evn alice --- --- --- f - results アリスがローズを倒す
 
  ##       ########  #######  ##    ##    ###
  ##       ##       ##     ## ###   ##   ## ##
@@ -160,101 +113,83 @@
  ##       ##       ##     ## ##   ### ##     ##
  ######## ########  #######  ##    ## ##     ##
 
-## レオナ
-### 構成
-- item:
-  - item: character
-    dn: レオナ
-
-  - item: conf
+- item: レオナ
+  conf:
     type: 試練
     theme: 過去と決別して今を選ぶ
+  contents:
+    - item: 約束的示唆 a
+      send event:
+        /leona odl ply leona prm s06 --- f - gDesire レオナが「前に……、進みたいんです」と言う[ref-025]
+      receive event:
+        /leona odl ply leona prm --- r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
 
+    - item: 準備 1, ヒント
+      send event:
+        /leona odl ply leona pre s07 --- f b favorbl レオナが魔物を倒して強いところを見せる
+          /leona odl ply leona pre s07 --- f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
+          /----- --- --- ----- rel s08
+          /leona odl ply leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
+          /leona odl ply leona hnt s19 --- f - thought このままではいけないという思いが漠然としている
+        ===
+        /leona odl ply myria pre s09 --- f - others- ミリアがレオナを甘やかす[ref-042]
+        /                    rel s24
+        ===
+        /leona odl ply leona pre s07 --- b - threat- エリーがレオナに憎悪を向ける
+      receive event:
+        /leona odl act leona pre --- r07 f b ordeal- レオナがエリーと戦う
+          /leona odl ply leona pre s09 --- f - bground エリーの背景（エリーが戦闘中に過去を語る）
+          /leona odl evn leona pre s09 --- f - results レオナがエリーに敗北する
+          /leona odl ply leona hnt --- r19 f - others- 〃
 
+    - item: 準備 2, ヒント
+      send event:
+        /leona odl ply leona pre mid r09 f - bground レオナの背景
+        ===
+        /leona odl evn leona pre mid --- b - threat- エリーが余裕ぶってレオナを殺すと言う
+        ===
+        /leona odl ply leona pre mid --- f - others- レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
+          /leona odl ply leona rel s14 r08 f - others- アリスが「レオナの型は完成しているから型を破るべき」と言う
+        ===
+        /leona odl ply leona pre mid --- f - others- レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
+        x n
+        ===
+        /leona odl ply leona rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
+        /----- --- --- ----- pre mid
+        /leona odl ply leona pre lst --- f - others- レオナがアリスに訓練してもらい「――後はその剣を超えられるといいんだけど」と言われる
+        ===
+        /leona odl ply leona pre lst --- f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
+        /leona odl ply leona hnt mid --- f - thought 父王に言われた言葉「俺を超えていけ」がよみがえるどういう意味だったのか
+        ===
+        /leona odl ply leona pre lst --- f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
+        /leona odl ply leona hnt mid --- f - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
+        ===
+        /leona odl ply myria pre mid --- f - others- ミリアがレオナを甘やかす[ref-042]
+        /                    rel s25 r24
+      receive event:
+        /leona odl act leona pre --- mid f b ordeal- レオナがエリーと戦う
+          /leona odl evn leona hnt --- mid f - results レオナがエリーと引き分ける
+          /leona odl ply erie- hnt lst --- f - others- エリーが絶対にこのままでは終わらせないと宣言する
 
-### 約束的示唆
-  - item: promise a
-    promise event:
-      /leona odl ply leona prm s06 --- f - gDesire レオナが「前に……、進みたいんです」と言う[ref-025]
-    resolution event:
-      /leona odl ply leona prm --- r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
-
-
-
-### 準備
-  - item: preparation 1 and hints
-    preparation event:
-      /leona odl ply leona pre s07 --- f b favorbl レオナが魔物を倒して強いところを見せる
-        /leona odl ply leona pre s07 --- f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
-        /----- --- --- ----- rel s08
-        /leona odl ply leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
-        /leona odl ply leona hnt s19 --- f - thought このままではいけないという思いが漠然としている
-      ===
-      /leona odl ply myria pre s09 --- f - others- ミリアがレオナを甘やかす[ref-042]
-      /                    rel s24
-      ===
-      /leona odl ply leona pre s07 --- b - threat- エリーがレオナに憎悪を向ける
-    performance event:
-      /leona odl act leona pre --- r07 f b ordeal- レオナがエリーと戦う
-        /leona odl ply leona pre s09 --- f - bground エリーの背景（エリーが戦闘中に過去を語る）
-        /leona odl evn leona pre s09 --- f - results レオナがエリーに敗北する
-        /leona odl ply leona hnt --- r19 f - others- 〃
-
-
-  - item: preparation 2 and hints
-    preparation event:
-      /leona odl ply leona pre mid r09 f - bground レオナの背景
-      ===
-      /leona odl evn leona pre mid --- b - threat- エリーが余裕ぶってレオナを殺すと言う
-      ===
-      /leona odl ply leona pre mid --- f - others- レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
-        /leona odl ply leona rel s14 r08 f - others- アリスが「レオナの型は完成しているから型を破るべき」と言う
-      ===
-      /leona odl ply leona pre mid --- f - others- レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
-      x n
-      ===
-      /leona odl ply leona rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
-      /----- --- --- ----- pre mid
-      /leona odl ply leona pre lst --- f - others- レオナがアリスに訓練してもらい「――後はその剣を超えられるといいんだけど」と言われる
-      ===
-      /leona odl ply leona pre lst --- f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
-      /leona odl ply leona hnt mid --- f - thought 父王に言われた言葉「俺を超えていけ」がよみがえるどういう意味だったのか
-      ===
-      /leona odl ply leona pre lst --- f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
-      /leona odl ply leona hnt mid --- f - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
-      ===
-      /leona odl ply myria pre mid --- f - others- ミリアがレオナを甘やかす[ref-042]
-      /                    rel s25 r24
-    performance event:
-      /leona odl act leona pre --- mid f b ordeal- レオナがエリーと戦う
-        /leona odl evn leona hnt --- mid f - results レオナがエリーと引き分ける
-        /leona odl ply erie- hnt lst --- f - others- エリーが絶対にこのままでは終わらせないと宣言する
-
-
-
-  - item: preparation 3 and hints
-    preparation event:
-      /leona odl evn leona pre lst --- b - threat- エリーがパワーアップして異形になる[ref-026]
-      ===
-      /leona odl ply leona pre lst --- f - favorbl ntt
-      ===
-      /leona odl ply leona pre lst --- f - thought エリーといい勝負ができたことで現状維持がいいと思い込む
-      /leona odl ply leona hnt lst --- f - thought エリーがあのままのはずがないという予感がある
-      /leona odl ply leona hnt lst --- f - thought エリーを超えられなかった事実が心の底にわだかまっている
-      ===
-      /leona odl ply leona pre lst --- f - thought 父王の剣を逸脱するなんてできないと思い込む
-      /leona odl ply leona hnt lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
-      ===
-      /leona odl ply myria pre lst --- f - others- ミリアがレオナを甘やかす[ref-042]
-      /                    rel     r25
-    performance event:
-      /leona odl act leona pre --- lst f b ordeal- レオナがエリーと戦う
-        /leona odl act leona hnt --- lst f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
-        /leona odl evn leona --- --- --- f - results レオナがエリーを倒す
-
-
-
-
+    - item: 準備 3, ヒント
+      send event:
+        /leona odl evn leona pre lst --- b - threat- エリーがパワーアップして異形になる[ref-026]
+        ===
+        /leona odl ply leona pre lst --- f - favorbl ntt
+        ===
+        /leona odl ply leona pre lst --- f - thought エリーといい勝負ができたことで現状維持がいいと思い込む
+        /leona odl ply leona hnt lst --- f - thought エリーがあのままのはずがないという予感がある
+        /leona odl ply leona hnt lst --- f - thought エリーを超えられなかった事実が心の底にわだかまっている
+        ===
+        /leona odl ply leona pre lst --- f - thought 父王の剣を逸脱するなんてできないと思い込む
+        /leona odl ply leona hnt lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
+        ===
+        /leona odl ply myria pre lst --- f - others- ミリアがレオナを甘やかす[ref-042]
+        /                    rel     r25
+      receive event:
+        /leona odl act leona pre --- lst f b ordeal- レオナがエリーと戦う
+          /leona odl act leona hnt --- lst f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
+          /leona odl evn leona --- --- --- f - results レオナがエリーを倒す
 
  ##     ## ##    ## ########  ####    ###
  ###   ###  ##  ##  ##     ##  ##    ## ##
@@ -264,107 +199,86 @@
  ##     ##    ##    ##    ##   ##  ##     ##
  ##     ##    ##    ##     ## #### ##     ##
 
-## ミリア
-### 構成
-- item:
-  - item: character
-    dn: ミリア
-
-  - item: conf
+- item: ミリア
+  conf:
     type: 試練
     theme: 過去と決別して今を選ぶ
+  contents:
+    - item: 約束的示唆 a
+      send event:
+        order in send event 1
+        /myria odl ply myria prm s10 --- f - thought ミリアが「過去に囚われてはいけない」と言う
+      receive event:
+        order in receive event 1
+        /myria odl ply myria prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
 
+    - item: 約束的示唆 b
+      send event:
+        order in send event 2
+        /myria odl ply myria prm s11 --- f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
+      receive event:
+        order in receive event 2
+        /myria odl evn myria prm --- r11 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
 
+    - item: 準備 1, ヒント
+      send event:
+        /myria odl ply myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
+        ===
+        /myria odl ply myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
+        /myria odl ply myria hnt s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
+        /myria odl ply alice pre lst --- f - others- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
+        /                    rel s21
+        ===
+        /myria odl ply leona pre s12 --- f - favorbl レオナがミリアに甘える[ref-042]
+        /                    rel s22
+        ===
+        /myria odl ply myria pre s12 --- b - threat- フェイがエルフへの欲望を吐露する
+      receive event:
+        /myria odl act myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
+          /myria odl evn myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
+          /myria odl act myria pre s13 --- f - results フェイが「また来る」と言って撤退する
 
-### 約束的示唆
-  - item: promise a
-    promise event:
-      order 1
-      /myria odl ply myria prm s10 --- f - thought ミリアが「過去に囚われてはいけない」と言う
-    resolution event:
-      order 1
-      /myria odl ply myria prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
+    - item: 準備 2, ヒント
+      send event:
+        /myria odl ply myria pre mid r13 f - bground ミリアの背景
+        ===
+        /myria odl ply myria pre mid --- b - bground フェイの背景
+        ===
+        /myria odl ply myria pre mid --- f - thought ミリアが祖母を思う
+        ===
+        /myria odl ply myria pre mid --- f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
+        /myria odl ply myria hnt mid --- f - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
+        /myria odl ply alice pre lst --- f - others- アリスが不幸に押しつぶされた心では当たり前の償いもできないと言う
+        /                    pre s22 r21
+        ===
+        /myria odl ply myria pre mid --- f - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
+        ===
+        /myria odl ply leona pre mid --- f - favorbl レオナがミリアに甘える[ref-042]
+        /                    rel s23 r22
+        ===
+        /myria odl ply myria pre mid --- b - threat- フェイが取っておきの方法を思ってほくそ笑む
+      receive event:
+        /myria odl act myria pre --- mid f b ordeal- ミリアがフェイと戦う
+          /myria odl evn myria hnt --- mid f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
+          /myria odl act myria --- --- --- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する
 
-
-
-  - item: promise b
-    promise event:
-      order 2
-      /myria odl ply myria prm s11 --- f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
-    resolution event:
-      order 2
-      /myria odl evn myria prm --- r11 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
-
-
-
-### 準備
-  - item: preparation 1 and hints
-    preparation event:
-      /myria odl ply myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
-      ===
-      /myria odl ply myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
-      /myria odl ply myria hnt s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
-      /myria odl ply alice pre lst --- f - others- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
-      /                    rel s21
-      ===
-      /myria odl ply leona pre s12 --- f - favorbl レオナがミリアに甘える[ref-042]
-      /                    rel s22
-      ===
-      /myria odl ply myria pre s12 --- b - threat- フェイがエルフへの欲望を吐露する
-    performance event:
-      /myria odl act myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
-        /myria odl evn myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
-        /myria odl act myria pre s13 --- f - results フェイが「また来る」と言って撤退する
-
-
-
-  - item: preparation 2 and hints
-    preparation event:
-      /myria odl ply myria pre mid r13 f - bground ミリアの背景
-      ===
-      /myria odl ply myria pre mid --- b - bground フェイの背景
-      ===
-      /myria odl ply myria pre mid --- f - thought ミリアが祖母を思う
-      ===
-      /myria odl ply myria pre mid --- f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
-      /myria odl ply myria hnt mid --- f - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
-      /myria odl ply alice pre lst --- f - others- アリスが不幸に押しつぶされた心では当たり前の償いもできないと言う
-      /                    pre s22 r21
-      ===
-      /myria odl ply myria pre mid --- f - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
-      ===
-      /myria odl ply leona pre mid --- f - favorbl レオナがミリアに甘える[ref-042]
-      /                    rel s23 r22
-      ===
-      /myria odl ply myria pre mid --- b - threat- フェイが取っておきの方法を思ってほくそ笑む
-    performance event:
-      /myria odl act myria pre --- mid f b ordeal- ミリアがフェイと戦う
-        /myria odl evn myria hnt --- mid f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
-        /myria odl act myria --- --- --- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する
-
-
-
-  - item: preparation 3 and hints
-    preparation event:
-      /myria odl ply myria pre lst --- f - thought ミリアが祖母を大切に思う気持ちを吐露する
-      ===
-      /myria odl ply myria pre lst --- f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
-      /myria odl ply myria hnt lst --- f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
-      /myria odl ply alice pre lst --- f - others- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
-      /                    rel     r22
-      ===
-      /myria odl ply leona pre lst --- f - favorbl レオナがミリアに甘える[ref-042]
-      /                    rel --- r23
-      ===
-      /myria odl ply myria pre lst --- f - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく
-    performance event:
-      /myria odl act myria pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
-        /myria odl act myria hnt --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
-        /myria odl evn myria --- --- --- f - results ミリアがフェイを倒す
-
-
-
-
+    - item: 準備 3, ヒント
+      send event:
+        /myria odl ply myria pre lst --- f - thought ミリアが祖母を大切に思う気持ちを吐露する
+        ===
+        /myria odl ply myria pre lst --- f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
+        /myria odl ply myria hnt lst --- f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
+        /myria odl ply alice pre lst --- f - others- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
+        /                    rel     r22
+        ===
+        /myria odl ply leona pre lst --- f - favorbl レオナがミリアに甘える[ref-042]
+        /                    rel --- r23
+        ===
+        /myria odl ply myria pre lst --- f - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく
+      receive event:
+        /myria odl act myria pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
+          /myria odl act myria hnt --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
+          /myria odl evn myria --- --- --- f - results ミリアがフェイを倒す
 
  ########  ######## ######## ########     ###
  ##     ## ##          ##    ##     ##   ## ##
@@ -374,29 +288,17 @@
  ##        ##          ##    ##    ##  ##     ##
  ##        ########    ##    ##     ## ##     ##
 
-## ペトラ
-### 構成
-- item:
-  - item: character
-    dn: ペトラ
-
-  - item: conf
+- item: ペトラ
+  conf:
     type: 試練
     theme: 勇気
     logline: 勇敢を自負する妖精が試練を乗り越えて本当の勇気を手に入れる
-
-
-
-### 約束的示唆
-  - item: promise a
-    promise event:
-      /petra odl ply petra prm s15 --- f - gDesire ペトラが「私は大物になんです！」と言う
-    resolution event:
-      /petra odl act petra prm --- r15 f - gDesire ペトラが妖精領主になる
-
-
-
-
+  contents:
+    - item: 約束的示唆 a
+      send event:
+        /petra odl ply petra prm s15 --- f - gDesire ペトラが「私は大物になんです！」と言う
+      receive event:
+        /petra odl act petra prm --- r15 f - gDesire ペトラが妖精領主になる
 
  ########   #######   ######  ########
  ##     ## ##     ## ##    ## ##
@@ -406,21 +308,13 @@
  ##    ##  ##     ## ##    ## ##
  ##     ##  #######   ######  ########
 
-## ローズ
-- item:
-  - item: character
-    dn: ローズ
-
-### 約束的示唆
-  - item: promise a
-    promise event:
-      /rose- odl ply rose- prm lst --- b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
-    resolution event:
-      /rose- odl evn rose- prm --- lst f - gDesire ローズが死んでエスの使徒の封印が解かれる
-
-
-
-
+- item: ローズ
+  contents:
+    - item: 約束的示唆 a
+      send event:
+        /rose- odl ply rose- prm lst --- b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
+      receive event:
+        /rose- odl evn rose- prm --- lst f - gDesire ローズが死んでエスの使徒の封印が解かれる
 
  ######## ########  #### ########
  ##       ##     ##  ##  ##
@@ -430,21 +324,13 @@
  ##       ##    ##   ##  ##
  ######## ##     ## #### ########
 
-## エリー
-- item:
-  - item: character
-    dn: エリー
-
-### 約束的示唆
-  - item: promise a
-    promise event:
-      /erie- odl ply erie- prm lst --- f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
-    resolution event:
-      /erie- odl evn erie- prm --- lst f - results エリーがレオナに敗北する
-
-
-
-
+- item: エリー
+  contents:
+    - item: 約束的示唆 a
+      send event:
+        /erie- odl ply erie- prm lst --- f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
+      receive event:
+        /erie- odl evn erie- prm --- lst f - results エリーがレオナに敗北する
 
  ######## ######## ####
  ##       ##        ##
@@ -454,14 +340,10 @@
  ##       ##        ##
  ##       ######## ####
 
-## フェイ
-- item:
-  - item: character
-    dn: フェイ
-
-### 約束的示唆
-  - item: promise a
-    promise event:
-      /fei-- odl ply fei-- prm lst --- b - thought フェイが「慢心は強者の特権」と言う
-    resolution event:
-      /fei-- odl evn fei-- prm --- lst f - results フェイがミリアに敗北する[ref-029]
+- item: フェイ
+  contents:
+    - item: 約束的示唆 a
+      send event:
+        /fei-- odl ply fei-- prm lst --- b - thought フェイが「慢心は強者の特権」と言う
+      receive event:
+        /fei-- odl evn fei-- prm --- lst f - results フェイがミリアに敗北する[ref-029]
