@@ -64,7 +64,8 @@
     /grp21
       /alice odl ply rose- hnt r05 --- b - others- ローズが太古から生きる化け物と言う
       /rose- odl ply rose- prm lst --- b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
-      /leona odl ply erie- pre s16 --- b - threat- エリーがレオナを睨む
+      /leona odl ply erie- pre s16 --- b - threat- エリーがレオナに憎しみの視線を送る
+      /          inf       hnt s09
       /myria odl ply fei-- pre s17 --- b - threat- フェイがミリアを見て壮絶な笑みを浮かべる
 
 
@@ -89,7 +90,7 @@
     /leona odl inf alice hnt s09 --- f - others- アリスが国は興って亡びるもの、でも妖精の国は続いているわねと言う
     /leona odl inf leona hnt s09 --- f - others- レオナがアリスの言葉を聞いて悲しそうにする
     /grp21
-      /leona odl ply erie- pre s07 r16 b - threat- エリーがレオナに憎悪を向け、戦いたいと申し出る
+      /leona odl ply erie- pre s07 r16 b - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
       /grp21 lov ply multi --- --- --- b - others- 戦いの前にローズがエリーにエロい祝福をする[ref-037-1]
 
 
@@ -146,7 +147,11 @@
       /fei-- li2 ply fei-- --- --- --- b - others- フェイがエリーをからかう
       /rose- li2 ply rose- --- --- --- b - others- ローズがエリーをねぎらいアリスについてあの子なら問題ないわと言う
       /fei-- odl ply fei-- prm lst --- b - thought フェイが「慢心は強者の特権」と言う
-      /myria odl ply fei-- pre s12 r17 b - threat- フェイがエルフへの欲望を吐露する => 心を奪うみたいなことを言う
+      /myria odl ply fei-- pre s12 r17 b - threat- フェイがエルフへの欲望を吐露する => 自分に心酔させると言う
+      /fei-- etc inf rose- hnt s26 --- b - others- ローズがあなたは強くなったわと言う
+      /fei-- etc inf fei-- hnt s26 --- b - others- フェイがローズ様のおかげですと言う
+      /fei-- etc inf rose- hnt s26 --- b - others- ローズがあなたが才能を持っていたからよと言う
+      /fei-- etc inf rose- hnt s26 --- b - others- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
       /grp21 lov ply multi --- --- --- b - others- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
     /leona odl ply multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
     /intsc li0 evn multi --- --- --- f - others- 〃
@@ -205,7 +210,7 @@
       /leona odl ply leona pre lst --- f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
       /leona odl ply leona hnt mid --- f - thought 父王に言われた言葉「俺を超えていけ」がよみがえるどういう意味だったのか
     /grp21
-      /myria odl ply fei-- pre mid --- b - bground フェイの背景
+      /myria odl ply fei-- pre mid r26 b - bground フェイの背景
       /fei-- li2 ply fei-- --- --- --- b - others- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
       /erie- li2 ply erie- --- --- --- b - others- エリーがフェイに皮肉を言う
       /erie- li2 ply erie- --- --- --- b - others- エリーがアリスについてローズを心配する

@@ -6,6 +6,47 @@ story information:
   - 邪神ネグドはエスの使徒への呪いに縛られて身動きできなくなっている
   - 邪神ネグドは最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすればもっと原初の存在……
 
+  - item: 中心の情報
+    contents:
+      - レオナから
+        /noCha etc inf leona --- --- --- f - others- ザヴィは世界を滅ぼそうとして倒された
+      - ローズとの最初の接触
+        /noCha etc inf third --- --- --- f - others- 遷世教団は遷世させたい
+        /noCha etc inf third --- --- --- f - others- 遷世教団は遷世神エスに仕えている
+        /noCha etc inf third --- --- --- f - others- 魔力珠はエリクにある
+        /noCha etc inf rose- --- --- --- f - others- ザヴィはエスの使徒封印のとき死んだ
+        /noCha etc inf rose- --- --- --- f - others- ローズはザヴィに会いたい（ローズ本来の精神が現れて言う）
+        /noCha etc inf rose- --- --- --- f - others- 遷世のために魔力珠が必要（ローズ本来の精神が現れて言う）
+      - エリーから
+        /noCha etc inf erie- --- --- --- f - others- ローズはエスの使徒の封印を解くつもり
+      - フェイから
+        /noCha etc inf work location
+      - 妖精女王から
+        /noCha etc inf third --- --- --- f - others- 魔力珠はエリクにはない
+      - ローズとの2度目の接触
+        /noCha etc inf rose- --- --- --- f - others- 魔力珠はローズの中にある
+        /noCha etc inf rose- --- --- --- f - others- ザヴィはローズが殺した
+        /noCha etc inf rose- --- --- --- f - others- ローズは世界を滅ぼしたい
+        /noCha etc inf rose- --- --- --- f - others- 世界を滅ぼすには魔力珠をエリクに持って行く必要がある
+      - エリーから
+        /noCha etc inf 
+      - フェイから
+        /noCha etc inf 
+      - フェイから
+        /noCha etc inf 
+      - エリーから
+        /noCha etc inf 
+      - ローズとの最後の戦い
+        /noCha etc inf 
+
+        - 
+        - 
+
+      - ラスト
+        - ローズはエスの使徒に乗っ取られてザヴィを殺した
+        - エスの使徒は邪神の呪いで発狂して世界を滅ぼそうとしている
+        - 
+
 
 
 ## 世界観情報
@@ -57,6 +98,10 @@ background information:
         /leona odl inf leona hnt s09 --- f - others- レオナが剣は父に教わったと言う
       - 託宣の巫女の予言 => ◯◯の山で運命を方向づける出会いが待っている
         /leona odl inf leona hnt s09 --- f - others- レオナがここに運命を変える出会いが待っていると言われていてと言う
+      - ===
+      - （エリー）アネスがレイフを滅ぼした
+        /leona odl inf erie- hnt s09 --- b - threat- エリーがレオナに憎しみの視線を送る
+
 
   - item: ミリア
     contents:
@@ -76,15 +121,23 @@ background information:
 
   - item: ローズ
     contents:
-      - エスの使徒の封印に関する諸々
+      - なし
 
   - item: エリー
     contents:
-      - 
+      => レオナの系統
 
   - item: フェイ
     contents:
-      - 
+      - 弱くて迫害されていた
+        /fei-- etc inf rose- hnt s26 --- b - others- ローズがあなたは強くなったわと言う
+      - 拾ってくれたのがローズだった
+        /fei-- etc inf fei-- hnt s26 --- b - others- フェイがローズ様のおかげですと言う
+      - 召喚師としての才能を見出してくれた
+        /fei-- etc inf rose- hnt s26 --- b - others- ローズがあなたが才能を持っていたからよと言う
+      - 体術を教えてくれたのもローズだ
+      - 力を手に入れた今、強いはずの者を言いなりにさせるのが快感
+        /fei-- etc inf rose- hnt s26 --- b - others- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
 
 
 
