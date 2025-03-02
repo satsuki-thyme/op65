@@ -124,12 +124,6 @@
     /myria odl ply myria pre s12 --- f - favorbl お姉さんとして振る舞っていい調子 => レオナの訓練後
     /intsc li0 evn multi --- --- --- f - others- 〃
     /myria odl inf myria hnt s13 --- f - others- アリスがミリアの魔法を褒めると祖母から教わったと嬉しそうにした直後に酷く落ち込む
-
-
-7:
-  meta:
-    background: false
-  contents:
     /petra ??? ??? petra --- --- --- f - others- アリスを嫌いと言う
     /myria odl inf myria hnt s13 --- f - others- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
     /myria odl ply myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
@@ -157,7 +151,7 @@
     /intsc li0 evn multi --- --- --- f - others- 〃
 
 
-8:
+7:
   meta:
     background: false
   contents:
@@ -178,7 +172,7 @@
  ##    ## ##       ##    ##    ##    ###    ##
   ######  ########  ######     ##    ###    #########
 
-9:
+8:
   meta:
     background: true
   contents:
@@ -190,7 +184,7 @@
     /petra odl act petra prm --- r15 f - gDesire ペトラが妖精領主になる
 
 
-10:
+9:
   meta:
     background: true
   contents:
@@ -218,7 +212,7 @@
       /grp21 lov ply multi --- --- --- b - others- エロいことをする[ref-037-3]
 
 
-11:
+10:
   meta:
     background: true
   contents:
@@ -233,7 +227,7 @@
     /intsc li0 evn multi --- --- --- f - others- 〃
 
 
-12:
+11:
   meta:
     background: true
   contents:
@@ -244,13 +238,7 @@
     /alice lov ply alice --- --- --- f - thought アリスの、2人に対する独占欲の気づき
 
 
-13:
-  meta:
-    background: false
-  contents:
-    水着回
-
-14:
+12:
   meta:
     background: false
   contents:
@@ -261,23 +249,30 @@
     /leona odl ply leona --- --- --- f - favorbl レオナがアリスから強くなったと言われる[ref-034]
     /alice odl ply multi pre s21 --- f - others- レオナとミリアが何かを作っている[ref-040]
     /alice lov act multi --- --- --- f - favorbl 頭と頬を撫でる
+
+
+13:
+  meta:
+    background: false
+  contents:
+    水着回
+
+
+14:
+  meta:
+    background: false
+  contents:
     /grp21
       /leona odl evn erie- pre mid --- b - threat- エリーが余裕ぶってレオナを殺すと言う
       /erie- li2 ply erie- --- --- --- b - others- エリーがローズの体を気遣う
       /fei-- li2 ply fei-- --- --- --- b - others- フェイがローズをからかう
       /.                                           エロいことはしない
-
-
-15:
-  meta:
-    background: false
-  contents:
     /leona odl act leona pre --- mid f b ordeal- レオナがエリーと戦う
       /leona odl evn leona hnt --- mid f - results レオナがエリーと引き分ける
       /leona odl ply erie- hnt lst --- f - others- エリーが絶対にこのままでは終わらせないと宣言する
 
 
-16:
+15:
   meta:
     background: false
   contents:
@@ -302,7 +297,7 @@
       /grp21 lov ply multi --- --- --- b - others- エロいことをする[ref-037-4]
 
 
-17:
+16:
   meta:
     background: false
   contents:
@@ -319,7 +314,7 @@
  ##    ## ##       ##    ##    ##    ###    ##     ##
   ######  ########  ######     ##    ###     #######
 
-18:
+17:
   meta:
     background: false
   contents:
@@ -330,12 +325,6 @@
     /leona odl ply leona hnt lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
     /alice lov ply alice --- --- --- f - thought アリスの、2人を好きだというわがままの認識
     /alice lov act multi --- --- --- f - favorbl アリスが、座っているとき2人の太ももを触る、2人は肩にもたれかかる
-
-
-19:
-  meta:
-    background: false
-  contents:
     /alice odl ply alice pre lst --- f - thought 子を殺すことの倫理的な問題に囚われる[ref-036]
     /alice odl ply alice hnt lst --- f - thought ローズを倒さなければ世界が滅びると認識している
     /myria odl ply myria pre lst --- f - thought ミリアが祖母を大切に思う気持ちを吐露する
@@ -353,7 +342,7 @@
     /alice lov ply alice --- --- --- f - thought アリスの、わがままを通そうという決意
 
 
-20:
+18:
   meta:
     background: false
   contents:
@@ -365,7 +354,13 @@
     /fei-- odl evn fei-- prm --- lst f - results フェイがミリアに敗北する[ref-029]
 
 
-21:
+19:
+  meta:
+    background: false
+  contents:
+
+
+20:
   meta:
     background: false
   contents:
@@ -379,7 +374,7 @@
       /grp21 lov ply multi --- --- --- b - others- エロいことをする[ref-037-5]
 
 
-22:
+21:
   meta:
     background: false
   contents:
@@ -391,17 +386,18 @@
     /alice odl ply alice pre lst --- f - favorbl レオナからの惜しみない感謝をミリアと味わうntt
 
 
-23:
+22:
   meta:
     background: false
   contents:
-    /alice odl evn rose- pre lst --- b - threat- ローズがパワーアップする[ref-023]
     /alice odl ply alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
     /alice odl ply alice hnt lst --- f - thought ローズを倒さないと事は収まらないと分かっている
     /alice lov act multi --- --- --- f - favorbl 告白とキス
+    /grp21
+      /alice odl evn rose- pre lst --- b - threat- ローズがパワーアップする[ref-023]
 
 
-24:
+23:
   meta:
     background: false
   contents:
@@ -411,6 +407,12 @@
     /alice odl act alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
     /rose- odl evn noCha prm --- lst f - gDesire ローズが死んでエスの使徒の封印が解かれる
 
+
+24:
+  meta:
+    background: false
+  contents:
+    使徒との戦い ordeal-
 
 25:
   meta:

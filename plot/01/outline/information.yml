@@ -10,42 +10,63 @@ story information:
     contents:
       - レオナから
         /noCha etc inf leona --- --- --- f - others- ザヴィは世界を滅ぼそうとして倒された
+      - 事実から
+        /noCha etc inf fact- --- --- --- f - others- 邪神の呪いで神獣が発狂する
       - ローズとの最初の接触
         /noCha etc inf third --- --- --- f - others- 遷世教団は遷世させたい
         /noCha etc inf third --- --- --- f - others- 遷世教団は遷世神エスに仕えている
         /noCha etc inf third --- --- --- f - others- 魔力珠はエリクにある
+        /noCha etc inf fact- --- --- --- f - others- ローズの力は邪神のもの
         /noCha etc inf rose- --- --- --- f - others- ザヴィはエスの使徒封印のとき死んだ
         /noCha etc inf rose- --- --- --- f - others- ローズはザヴィに会いたい（ローズ本来の精神が現れて言う）
         /noCha etc inf rose- --- --- --- f - others- 遷世のために魔力珠が必要（ローズ本来の精神が現れて言う）
+      - ペトラとの出会い
+        /noCha etc inf fact- --- --- --- f - threat- スパイ妖精の存在
+      - ローズたちのシーン
+
       - エリーから
         /noCha etc inf erie- --- --- --- f - others- ローズはエスの使徒の封印を解くつもり
+      - ローズたちのシーン
+      
       - フェイから
-        /noCha etc inf work location
+        /noCha etc inf 
       - 妖精女王から
-        /noCha etc inf third --- --- --- f - others- 魔力珠はエリクにはない
+        /noCha etc inf third --- --- --- f - others- 魔力珠はエリクにはない => スパイ妖精が見ている
+      - ローズたちのシーン
+        /noCha etc inf rose- --- --- --- b - others- アリスたちが魔力珠がエリクにないと知ってしまった
+        /noCha etc inf rose- --- --- --- b - others- エスの使徒が世界を滅ぼしかけた
+        /noCha etc inf rose- --- --- --- b - others- エスの使徒が世界を滅ぼしかけたときザヴィが封印した
       - ローズとの2度目の接触
         /noCha etc inf rose- --- --- --- f - others- 魔力珠はローズの中にある
         /noCha etc inf rose- --- --- --- f - others- ザヴィはローズが殺した
         /noCha etc inf rose- --- --- --- f - others- ローズは世界を滅ぼしたい
         /noCha etc inf rose- --- --- --- f - others- 世界を滅ぼすには魔力珠をエリクに持って行く必要がある
+      - 水着回
+
+      - ローズたちのシーン
+      
       - エリーから
         /noCha etc inf 
+      - ローズたちのシーン
+      
       - フェイから
         /noCha etc inf 
+      - ？？？
+        /noCha etc inf third --- --- --- f - others- エスの使徒は邪神の呪いで発狂した
       - フェイから
         /noCha etc inf 
+      - ローズたちのシーン
+      
       - エリーから
         /noCha etc inf 
+      - ローズたちのシーン
+      
       - ローズとの最後の戦い
-        /noCha etc inf 
-
-        - 
-        - 
-
-      - ラスト
-        - ローズはエスの使徒に乗っ取られてザヴィを殺した
-        - エスの使徒は邪神の呪いで発狂して世界を滅ぼそうとしている
-        - 
+        /noCha etc inf rose- --- --- --- f - others- ローズはエスの使徒に乗っ取られた
+        /noCha etc inf rose- --- --- --- f - others- ローズが魔力珠を持って死ぬことでエスの使徒の封印が解ける
+        /noCha etc inf rose- --- --- --- f - others- 
+        /noCha etc inf rose- --- --- --- f - others- 
+        /noCha etc inf rose- --- --- --- f - others- 
 
 
 

@@ -21,17 +21,17 @@
 ### プロット
 #### 第1章
 ##### 概要
-- plot/01/outline/background.yml:          背景
-- plot/01/outline/character-base.yml:      キャラクターの基本設計
-- plot/01/outline/character-portrayal.yml: キャラクター描写
-- plot/01/outline/elements-li1.yml:        プロット要素 li1
-- plot/01/outline/elements-love.yml:       プロット要素 恋愛
-- plot/01/outline/elements-ordeal.yml:     プロット要素 試練
-- plot/01/outline/information.yml:         情報開示
-- plot/01/outline/narrative-clues.yml:     前兆要素
-- plot/01/outline/numbering.yml:           前兆要素の採番
-- plot/01/outline/outline.yml:             概要プロット
-- plot/01/outline/ref-note.md:             参照ノート
+- plot/01/outline/background-requirements.yml: 背景の要件
+- plot/01/outline/character-base.yml:          キャラクターの基本設計
+- plot/01/outline/character-portrayal.yml:     キャラクター描写
+- plot/01/outline/elements-li1.yml:            プロット要素 li1
+- plot/01/outline/elements-love.yml:           プロット要素 恋愛
+- plot/01/outline/elements-ordeal.yml:         プロット要素 試練
+- plot/01/outline/information.yml:             情報開示
+- plot/01/outline/narrative-clues.yml:         前兆要素
+- plot/01/outline/numbering.yml:               前兆要素の採番
+- plot/01/outline/outline.yml:                 概要プロット
+- plot/01/outline/ref-note.md:                 参照ノート
 
 ##### 詳細
 - plot/01/details/001.yml: プロット詳細 第1話
