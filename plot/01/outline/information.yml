@@ -9,64 +9,75 @@ story information:
   - item: 中心の情報
     contents:
       - レオナから
-        /noCha etc inf leona --- --- --- f - others- ザヴィは世界を滅ぼそうとして倒された
-      - 事実から
-        /noCha etc inf fact- --- --- --- f - others- 邪神の呪いで神獣が発狂する
+        /noCha etc inf leona --- --- --- f - @zavia- ザヴィは世界を滅ぼそうとして倒された
+      - ミリアとの出会い
+        /noCha etc inf fact- --- --- --- f - @evil-- 邪神の呪いで神獣が発狂する
+        /noCha etc inf myria --- --- --- f - @orb--- 遷世教団は魔力珠を探している
+        /noCha etc inf myria --- --- --- f - @rose-- 遷世教団は遷世させたい
+        /noCha etc inf myria --- --- --- f - @elf--- エリクにハイエルフの叡智がある
       - ローズとの最初の接触
-        /noCha etc inf third --- --- --- f - others- 遷世教団は遷世させたい
-        /noCha etc inf third --- --- --- f - others- 遷世教団は遷世神エスに仕えている
-        /noCha etc inf third --- --- --- f - others- 魔力珠はエリクにある
-        /noCha etc inf fact- --- --- --- f - others- ローズの力は邪神のもの
-        /noCha etc inf rose- --- --- --- f - others- ザヴィはエスの使徒封印のとき死んだ
-        /noCha etc inf rose- --- --- --- f - others- ローズはザヴィに会いたい（ローズ本来の精神が現れて言う）
-        /noCha etc inf rose- --- --- --- f - others- 遷世のために魔力珠が必要（ローズ本来の精神が現れて言う）
+        /noCha etc inf third --- --- --- f - @es---- 遷世教団は遷世神エスに仕えている
+        /noCha etc inf third --- --- --- f - @rose-- 遷世は今の世界を終わらせて新しい世界に移行すること
+        /noCha etc inf third --- --- --- f - @orb--- 魔力珠はエリクにある
+        /noCha etc inf fact- --- --- --- f - @evil-- ローズの力は邪神のもの
+        /noCha etc inf rose- --- --- --- f - @zavia- ローズはザヴィの子
+        /noCha etc inf rose- --- --- --- f - @zavia- ザヴィはエリクで死んだ
+        /noCha etc inf rose- --- --- --- f - @zavia- ザヴィに会って謝らないと……（ローズ本来の精神が現れて言う）
       - ペトラとの出会い
         /noCha etc inf fact- --- --- --- f - threat- スパイ妖精の存在
       - ローズたちのシーン
-
+        /noCha etc inf rose- --- --- --- b - @apostl ローズは自死することができない
       - エリーから
-        /noCha etc inf erie- --- --- --- f - others- ローズはエスの使徒の封印を解くつもり
+        /noCha etc inf erie- --- --- --- f - @rose-- エスの使徒が遷世させてくれる
       - ローズたちのシーン
       
       - フェイから
-        /noCha etc inf 
+        /noCha etc inf fei-- --- --- --- f - @rose-- エスの使徒はエリクにいる
       - 妖精女王から
-        /noCha etc inf third --- --- --- f - others- 魔力珠はエリクにはない => スパイ妖精が見ている
+        /noCha etc inf third --- --- --- f - @orb--- 魔力珠はエリクにはない => スパイ妖精が見ている
+        /noCha etc inf third --- --- --- f - @elf--- エリクは古代ハイエルフの都市国家
       - ローズたちのシーン
-        /noCha etc inf rose- --- --- --- b - others- アリスたちが魔力珠がエリクにないと知ってしまった
-        /noCha etc inf rose- --- --- --- b - others- エスの使徒が世界を滅ぼしかけた
-        /noCha etc inf rose- --- --- --- b - others- エスの使徒が世界を滅ぼしかけたときザヴィが封印した
+        /noCha etc inf rose- --- --- --- b - @orb--- アリスたちが魔力珠がエリクにないと知ってしまった
       - ローズとの2度目の接触
-        /noCha etc inf rose- --- --- --- f - others- 魔力珠はローズの中にある
-        /noCha etc inf rose- --- --- --- f - others- ザヴィはローズが殺した
-        /noCha etc inf rose- --- --- --- f - others- ローズは世界を滅ぼしたい
-        /noCha etc inf rose- --- --- --- f - others- 世界を滅ぼすには魔力珠をエリクに持って行く必要がある
+        /noCha etc inf rose- --- --- --- f - @orb--- 魔力珠はローズの中にある
+        /noCha etc inf rose- --- --- --- f - @zavia- ザヴィはローズが殺した
+        /noCha etc inf rose- --- --- --- f - @orb--- ローズは魔力珠をエリクに持って行く必要がある
       - 水着回
-
+        /noCha etc inf third --- --- --- f - @es---- エスの使徒は邪神によって発狂させられた
+        /                                    @evil--
+        /noCha etc inf third --- --- --- f - @elf--- 古代ハイエルフの国は発狂したエスの使徒に滅ぼされた
+        /                                    @evil--
+      - ローズのシーン
+        /noCha etc inf rose- --- --- --- b - @es---- 望みの全てはエリクの封印に懸かっている
       - ローズたちのシーン
-      
       - エリーから
-        /noCha etc inf 
-      - ローズたちのシーン
-      
-      - フェイから
-        /noCha etc inf 
+        /noCha etc inf erie- --- --- --- f - @es---- 
       - ？？？
-        /noCha etc inf third --- --- --- f - others- エスの使徒は邪神の呪いで発狂した
+        /noCha etc inf third --- --- --- f - @es---- エスの使徒はエリクに封印されている
+        /noCha etc inf third --- --- --- f - @es---- エスの使徒の封印は封印を上回る魔力が内側から放出されることで解ける
+        /noCha etc inf third --- --- --- f - @es---- エスの使徒は力が封印されていて魔力が扱えない => 封印は解けないとの理解
+        /noCha etc inf third --- --- --- f - @evil-- 邪神はエスの使徒への呪いのため自らも身動きが取れない
+      - ローズのシーン
+        /noCha etc inf rose- --- --- --- b - @orb--- エスの使徒の封印は中に魔力珠を送り込めば解ける
+        /                                    @es----
+      - ローズたちのシーン
+      - フェイから
+        /noCha etc inf 
       - フェイから
         /noCha etc inf 
       - ローズたちのシーン
-      
+        /noCha etc inf rose- --- --- --- b - @evil-- ローズがエリーを邪神の権能で強化する => 邪神の陰が見える、エリーは苦しむ
       - エリーから
-        /noCha etc inf 
-      - ローズたちのシーン
-      
+        /noCha etc inf erie- --- --- --- f - @
+      - ローズのシーン
+        /noCha etc inf rose- --- --- --- b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
+        /                                    @es----
+        /noCha etc inf rose- --- --- --- b - @evil-- ローズが自分自身を邪神の権能で強化する => 気持ちよくて悶える「エリーは苦しかったようだけど……」
       - ローズとの最後の戦い
-        /noCha etc inf rose- --- --- --- f - others- ローズはエスの使徒に乗っ取られた
-        /noCha etc inf rose- --- --- --- f - others- ローズが魔力珠を持って死ぬことでエスの使徒の封印が解ける
-        /noCha etc inf rose- --- --- --- f - others- 
-        /noCha etc inf rose- --- --- --- f - others- 
-        /noCha etc inf rose- --- --- --- f - others- 
+        /noCha etc inf rose- --- --- --- f - @zavia- エスの使徒はザヴィが封印した
+        /noCha etc inf rose- --- --- --- f - @es---- エスの使徒は封印される前に残した思念体によってローズを乗っ取った
+        /                                    @apostl
+        /noCha etc inf rose- --- --- --- f - @es---- ローズが魔力珠を持って死ぬことでエスの使徒の封印が解ける
 
 
 
