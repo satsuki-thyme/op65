@@ -1,89 +1,88 @@
 # 情報開示
 ## ストーリー情報
 story information:
-  - 神獣を暴れさせたのは邪神ネグド
-  - エスの使徒に破壊衝動を植え付けたのは邪神ネグド
-  - 邪神ネグドはエスの使徒への呪いに縛られて身動きできなくなっている
-  - 邪神ネグドは最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすればもっと原初の存在……
 
-  - item: 中心の情報
+
+  - item: 統合プロット メイン
     contents:
       - レオナから
-        /integ etc inf leona --- --- --- f - @zavia- ザヴィは世界を滅ぼそうとして倒された
+        /integ li0 inf leona --- --- --- f - @zavia- ザヴィは世界を滅ぼそうとして倒された
       - ミリアとの出会い
-        /integ etc inf fact- --- --- --- f - @evil-- 邪神の呪いで神獣が破壊衝動に突き動かされる
-        /integ etc inf myria --- --- --- f - @orb--- 遷世教団は魔力珠を探している
-        /integ etc inf myria --- --- --- f - @rose-- 遷世教団は遷世させたい
-        /integ etc inf myria --- --- --- f - @elf--- エリクにハイエルフの叡智がある
+        /integ li0 inf fact- --- --- --- f - @evil-- 邪神の呪いで神獣が破壊衝動に突き動かされる
+        /integ li0 inf myria --- --- --- f - @orb--- 遷世教団は魔力珠を探している
+        /integ li0 inf myria --- --- --- f - @rose-- 遷世教団は遷世させたい
+        /integ li0 inf myria --- --- --- f - @elf--- エリクにハイエルフの叡智がある
       - ローズとの最初の接触
-        /integ etc inf third --- --- --- f - @es---- 遷世教団は遷世神エスに仕えている
-        /integ etc inf third --- --- --- f - @rose-- 遷世は今の世界を終わらせて新しい世界に移行すること
-        /integ etc inf third --- --- --- f - @orb--- 魔力珠はエリクにある
-        /integ etc inf rose- --- --- --- f - @zavia- ローズはザヴィの子
-        /integ etc inf rose- --- --- --- f - @zavia- ザヴィはエリクで死んだ
-        /integ etc inf rose- --- --- --- f - @zavia- ザヴィに会って謝らないと……（ローズ本来の精神が現れて言う）
-        /integ etc inf rose- --- --- --- f - @orbPln ローズがアリスは魔力珠を追うと言う
+        /integ li0 inf third --- --- --- f - @es---- 遷世教団は遷世神エスに仕えている
+        /integ li0 inf third --- --- --- f - @rose-- 遷世は今の世界を終わらせて新しい世界に移行すること
+        /integ li0 inf third --- --- --- f - @orb--- 魔力珠はエリクにある
+        /integ li0 inf rose- --- --- --- f - @zavia- ローズはザヴィの子
+        /integ li0 inf rose- --- --- --- f - @zavia- ザヴィはエリクで死んだ
+        /integ li0 inf rose- --- --- --- f - @orbPln ローズがアリスは魔力珠を追うと言う
       - ペトラとの出会い
-        /integ etc inf fact- --- --- --- f - threat- スパイ妖精の存在
+        /integ li0 inf fact- --- --- --- f - threat- スパイ妖精の存在
       - ローズたちのシーン
-        /integ etc inf rose- --- --- --- b - @apostl ローズは自死することができない
-        /integ etc inf rose- --- --- --- b - @apostl ローズが神性を示す[ref-042-2]
+        /integ li0 inf rose- --- --- --- b - @apostl ローズは自死することができない
+        /integ li0 inf rose- --- --- --- b - @apostl ローズが神性を示す[ref-042-2]
+        /integ li0 inf rose- --- --- --- b - @evil-- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすればもっと原初の存在……
       - エリーから
-        /integ etc inf erie- --- --- --- f - @rose-- エスの使徒が遷世させてくれる
       - ローズたちのシーン
       - フェイから
-        /integ etc inf fei-- --- --- --- f - @rose-- エスの使徒はエリクにいる
+        /integ li0 inf fei-- --- --- --- f - @rose-- エスの使徒が遷世させてくれる
       - 妖精女王から
-        /integ etc inf third --- --- --- f - @orb--- 魔力珠はエリクにはない
-        /integ etc inf third --- --- --- b - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
-        /integ etc inf third --- --- --- f - @elf--- エリクは古代ハイエルフの都市国家
+        /integ li0 inf third --- --- --- f - @orb--- 魔力珠はエリクにはない
+        /integ li0 ply third --- --- --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
+        /integ li0 inf third --- --- --- f - @elf--- エリクは古代ハイエルフの都市国家
       - ローズたちのシーン
-        /integ etc inf rose- --- --- --- b - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　アリスは世界を救いたがるはず
-        /integ etc inf rose- --- --- --- b - @apostl ローズが神性を示す[ref-042-4]
+        /integ li0 inf rose- --- --- --- b - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　アリスは世界を救いたがるはず
+        /integ li0 inf rose- --- --- --- b - @apostl ローズが神性を示す[ref-042-4]
       - ローズとの2度目の接触
-        /integ etc inf rose- --- --- --- f - @orb--- 魔力珠はローズの中にある
-        /integ etc inf rose- --- --- --- f - @zavia- ザヴィはローズが殺した
-        /integ etc inf rose- --- --- --- f - @orb--- ローズは魔力珠とともにエリクに行って世界を終わらせる
+        /integ li0 inf rose- --- --- --- f - @orb--- 魔力珠はローズの中にある
+        /integ li0 inf rose- --- --- --- f - @zavia- ザヴィはローズが殺した
+        /integ li0 inf rose- --- --- --- f - @orb--- ローズは魔力珠とともにエリクに行って世界を終わらせる
         /                                    @orbPln
       - 水着回
-        /integ etc inf third --- --- --- f - @es---- エスの使徒は邪神によって世界の破壊を欲するようにさせられた
+        /integ li0 inf third --- --- --- f - @es---- エスの使徒は邪神によって世界の破壊を欲するようにさせられた
         /                                    @evil--
-        /integ etc inf third --- --- --- f - @elf--- 古代ハイエルフの国は破壊衝動に突き動かされたエスの使徒に滅ぼされた
+        /integ li0 inf third --- --- --- f - @elf--- 古代ハイエルフの国は破壊衝動に突き動かされたエスの使徒に滅ぼされた
       - ローズのシーン
-        /integ etc inf rose- --- --- --- b - @es---- 望みの全てはエリクの封印に懸かっている
-        /integ etc inf rose- --- --- --- b - @apostl ローズが神性を示す[ref-042-6]
+        /integ li0 inf rose- --- --- --- b - @es---- 望みの全てはエリクの封印に懸かっている
+        /integ li0 inf rose- rel s27 --- b - @evil-- エスの使徒は封印の中で邪神の呪いに苛まれている
+        /integ li0 inf rose- --- --- --- b - @apostl ローズが神性を示す[ref-042-6]
       - ローズたちのシーン
+        /integ li0 inf rose- rel --- r27 b - @es---- なぜザヴィが封印したのでしょう？に対してザヴィは邪神に呪われていたと言う
       - エリーから
-        /integ etc inf erie- --- --- --- f - @es---- 
-      - ？？？
-        /integ etc inf third --- --- --- f - @es---- エスの使徒はエリクに封印されている
-        /integ etc inf third --- --- --- f - @es---- エスの使徒の封印は封印を上回る魔力が内側から放出されることで解ける
-        /integ etc inf third --- --- --- f - @es---- エスの使徒は力が封印されていて魔力が扱えない => 封印は解けないとの理解
-        /integ etc inf third --- --- --- f - @evil-- 邪神はエスの使徒への呪いのため自らも身動きが取れない
+      - ペトラ
+        /integ li0 inf petra --- --- --- f - @es---- エスの使徒はエリクに封印されている
+        /integ li0 inf petra --- --- --- f - @es---- 封印は内側からの魔力で解けるがエスの使徒は力が封印されていて魔力が扱えない => 封印は解けないとの理解
       - ローズのシーン
-        /integ etc inf rose- --- --- --- b - @orb--- エスの使徒の封印は中に魔力珠を送り込めば解ける
-        /                                    @es----
       - ローズたちのシーン
       - フェイから
-        /integ etc inf 
+        /integ li0 inf fei-- --- --- --- f - @es---- エスの使徒の封印は封印を上回る魔力が内側から放出されることで解ける
       - フェイから
-        /integ etc inf 
-      - ローズたちのシーン
-        /integ etc inf rose- --- --- --- b - @apostl ローズがエリーを強化する
-        /integ etc inf rose- --- --- --- b - @apostl ローズが神性を示す[ref-042-8]
-      - エリーから
-        /integ etc inf erie- --- --- --- f - @
-      - ローズのシーン
-        /integ etc inf rose- --- --- --- b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
+        /integ li0 inf fei-- --- --- --- f - @orbPln ローズはエスの使徒の封印の中に魔力珠を送り込んで封印を解くつもり
         /                                    @es----
-        /integ etc inf rose- --- --- --- b - @apostl ローズが自分自身を強化する
-        /integ etc inf rose- --- --- --- b - @apostl ローズが神性を示す[ref-042-9]
+      - ローズたちのシーン
+        /integ li0 inf rose- --- --- --- b - @apostl ローズがエリーを強化する
+        /integ li0 inf rose- --- --- --- b - @apostl ローズが神性を示す[ref-042-8]
+      - エリーから
+        /integ li0 inf erie- --- --- --- f - @orbPln ローズは死ぬ気でいるから助けてほしい
+      - ローズのシーン
+        /integ li0 inf rose- --- --- --- b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
+        /                                    @es----
+        /integ li0 inf rose- --- --- --- b - @apostl ローズが自分自身を強化する
+        /integ li0 inf rose- --- --- --- b - @apostl ローズが神性を示す[ref-042-9]
       - ローズとの最後の戦い
-        /integ etc inf rose- --- --- --- f - @zavia- エスの使徒はザヴィが封印した
-        /integ etc inf rose- --- --- --- f - @es---- エスの使徒は封印される前に残した思念体によってローズを乗っ取った
+        /integ li0 inf rose- --- --- --- f - @zavia- エスの使徒はザヴィとローズが封印した
+        /integ li0 inf rose- --- --- --- f - @es---- エスの使徒は封印される前に残した思念体によってローズを乗っ取った
         /                                    @apostl
-        /integ etc inf rose- --- --- --- f - @es---- ローズが魔力珠を持って死ぬことでエスの使徒の封印が解ける
+        /integ li0 inf rose- --- --- --- f - @es---- ローズが死ぬことで魔力珠とともにエスの使徒に帰着し魔力珠によって封印が解ける
 
+
+
+  - item: アリスの正体
+    contents:
+      - 
 
 
 ## 世界観情報
@@ -167,14 +166,14 @@ background information:
   - item: フェイ
     contents:
       - 弱くて迫害されていた
-        /fei-- etc inf rose- hnt s26 --- b - others- ローズがあなたは強くなったわと言う
+        /fei-- li0 inf rose- hnt s26 --- b - others- ローズがあなたは強くなったわと言う
       - 拾ってくれたのがローズだった
-        /fei-- etc inf fei-- hnt s26 --- b - others- フェイがローズ様のおかげですと言う
+        /fei-- li0 inf fei-- hnt s26 --- b - others- フェイがローズ様のおかげですと言う
       - 召喚師としての才能を見出してくれた
-        /fei-- etc inf rose- hnt s26 --- b - others- ローズがあなたが才能を持っていたからよと言う
+        /fei-- li0 inf rose- hnt s26 --- b - others- ローズがあなたが才能を持っていたからよと言う
       - 体術を教えてくれたのもローズだ
       - 力を手に入れた今、強いはずの者を言いなりにさせるのが快感
-        /fei-- etc inf rose- hnt s26 --- b - others- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
+        /fei-- li0 inf rose- hnt s26 --- b - others- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
 
 
 
