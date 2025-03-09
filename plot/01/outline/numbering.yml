@@ -3,10 +3,10 @@
       /alice li1 act alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
 
 02:
-      /alice li1 act alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を復活したエスの使徒へ投げる
+      /alice li1 act alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を復活したエスへ投げる
 
 03:
-      /alice li1 evn alice prm --- r03 f - gDesire アリスが復活したエスの使徒を抑え魔力珠を手に入れる[memo-019]
+      /alice li1 evn alice prm --- r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる[memo-019]
 
 04:
       /alice li1 act alice pre --- r04 f b ordeal- アリスがローズと戦う
@@ -87,20 +87,28 @@
         /integ etc inf rose- rel --- r27 b - @es---- なぜザヴィが封印したのでしょう？に対してザヴィは邪神に呪われていたと言う
 
 28:
+        /integ li1 inf noCha hnt --- r28 f - @alice- アリスの力が解放されてエリクが楽園になる
 
 29:
+        /integ li0 inf third hnt --- r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
 
 30:
+        /                            r30     @apostl エスは封印される前に残した思念体によってローズを乗っ取った
 
 31:
+        /integ li0 inf rose- hnt --- r31 f - @zavia- エスはザヴィとローズが封印した
 
 32:
+        /integ li0 inf noCha hnt --- r32 f - @orb--- 魔力珠を手に入れる
 
 33:
+        /integ li0 inf rose- hnt --- r33 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
 
 34:
+        /integ li0 evn myria hnt --- r34 f - @elf--- ミリアがエルフの叡智を得て祖母と再会する
 
 35:
+        /integ li0 inf third hnt --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
 
 36:
 

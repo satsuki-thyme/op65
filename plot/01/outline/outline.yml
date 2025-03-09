@@ -53,7 +53,6 @@
     /alice odl inf alice hnt s05 --- f - others- アリスはローズの名を知っている
     /alice odl act alice pre --- r04 f b ordeal- アリスがローズと戦う
       /alice odl ply alice --- --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
-      /alice odl inf alice hnt s05 --- f - @zavia- 封界の指輪がローズの魔法をはじく
       /rose- odl inf rose- hnt s05 --- f - @es---- ローズが封界の指輪を見て「見つけた！」と言って笑む
       /rose- odl inf rose- --- --- --- f - @es---- ローズが遷世して殺されたザヴィに会うと言う
       /alice odl act alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
@@ -405,7 +404,7 @@
       /alice odl act alice hnt --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
       /alice odl evn alice --- --- --- f - results アリスがローズを倒す
     /alice odl act alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
-    /rose- odl evn noCha prm --- lst f - gDesire ローズが死んでエスの使徒の封印が解かれる
+    /rose- odl evn noCha prm --- lst f - gDesire ローズが死んでエスの封印が解かれる
 
 
 24:
@@ -418,6 +417,6 @@
   meta:
     background: false
   contents:
-    /alice odl evn alice prm --- r03 f - gDesire アリスが復活したエスの使徒を抑え魔力珠を手に入れる
+    /alice odl evn alice prm --- r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる
     /alice odl act alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
     /alice lov ply alice --- --- --- f - thought アリスの、2人といると楽しいということの再認識

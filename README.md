@@ -80,7 +80,7 @@
 - thinking-notes/thi-028.md: 魔法それぞれの特色
 - thinking-notes/thi-029.md: 幻界
 - thinking-notes/thi-030.md: 世界
-- thinking-notes/thi-031.md: ローズがエスの使徒であることの伏線
+- thinking-notes/thi-031.md: ローズがエスであることの伏線
 - thinking-notes/thi-032.md: ローズが死ぬとエスの封印が解けることの伏線
 - thinking-notes/thi-033.md: ローズが魔力珠を内包していることの伏線
 - thinking-notes/thi-034.md: ハイエルフの叡智

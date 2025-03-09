@@ -38,7 +38,7 @@
         /alice odl act alice prm s03 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
       receive event:
         order in reveive event 2
-        /alice odl evn alice prm --- r03 f - gDesire アリスが復活したエスの使徒を抑え魔力珠を手に入れる[ref-019]
+        /alice odl evn alice prm --- r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる[ref-019]
 
     - item: 準備 1, ヒント
       send event:
@@ -314,7 +314,7 @@
       send event:
         /rose- odl ply rose- prm lst --- b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
       receive event:
-        /rose- odl evn rose- prm --- lst f - gDesire ローズが死んでエスの使徒の封印が解かれる
+        /rose- odl evn rose- prm --- lst f - gDesire ローズが死んでエスの封印が解かれる
 
  ######## ########  #### ########
  ##       ##     ##  ##  ##

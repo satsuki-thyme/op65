@@ -232,7 +232,7 @@ details:
       conflict:
         アリス
       background connected to desire:
-        false = 親が殺された, true = 親を殺したのは自分自身で、エスの使徒が邪神に狂わされている
+        false = 親が殺された, true = 親を殺したのは自分自身で、エスが邪神に狂わされている
     plot requirements:
       type:
         導き手
@@ -251,7 +251,7 @@ details:
           contents:
             目的に向かってまっすぐ進む
     what to do:
-      エスの使徒を解放して人族を滅亡させるために死ぬ
+      エスを解放して人族を滅亡させるために死ぬ
 
 
 
