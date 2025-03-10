@@ -24,10 +24,10 @@
 - plot/01/outline/background-requirements.yml: 背景の要件
 - plot/01/outline/character-base.yml:          キャラクターの基本設計
 - plot/01/outline/character-portrayal.yml:     キャラクター描写
-- plot/01/outline/elements-li1.yml:            プロット要素 li1
+- plot/01/outline/elements-integration.yml:    プロット要素 統合
 - plot/01/outline/elements-love.yml:           プロット要素 恋愛
 - plot/01/outline/elements-ordeal.yml:         プロット要素 試練
-- plot/01/outline/information.yml:             情報開示
+- plot/01/outline/information.yml:             提示情報
 - plot/01/outline/narrative-clues.yml:         前兆要素
 - plot/01/outline/numbering.yml:               前兆要素の採番
 - plot/01/outline/outline.yml:                 概要プロット
@@ -90,7 +90,7 @@
 - thinking-notes/thi-038.md: ローズのプロットは何のプロットか
 - thinking-notes/thi-039.md: フェイが幻霊に食べられて死ぬ流れ
 - thinking-notes/thi-040.md: 召喚魔法の契約とは
-- thinking-notes/thi-041.md: タイトルの回収
+- thinking-notes/thi-041.md: 原初の少女
 - thinking-notes/thi-042.md: 邪神
 - thinking-notes/thi-043.md: 変化のためらいはどんな思考・行動になって表れるか
 - thinking-notes/thi-044.md: 何が気分を高めるか、終わりに行くほど気分が高まる構造を考える

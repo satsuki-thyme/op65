@@ -93,7 +93,7 @@
         /integ li0 inf third hnt --- r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
 
 30:
-        /                            r30     @apostl エスは封印される前に残した思念体によってローズを乗っ取った
+        /integ li0 evn noCha hnt --- r30     @rose-- エスは封印される前に残した思念体によってローズを乗っ取ったと知る
 
 31:
         /integ li0 inf rose- hnt --- r31 f - @zavia- エスはザヴィとローズが封印した
