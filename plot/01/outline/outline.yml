@@ -104,7 +104,7 @@
     background: true
   contents:
     /leona odl act leona pre --- r07 f b ordeal- レオナがエリーと戦う
-      /leona odl inf erie- hnt s09 --- f - bground エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
+      /leona odl inf erie- hnt s09 --- f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
       /leona odl evn leona pre s09 --- f - results レオナがエリーに敗北する
       /leona odl ply leona hnt --- r19 f - others- 〃
       /alice odl ply alice pre mid --- f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
@@ -119,7 +119,7 @@
     name: レオナの背景
     background: true
   contents:
-    /leona odl ply leona pre mid --- f - bground レオナの背景
+    /leona odl ply leona pre mid --- f - bGround レオナの背景
     /                    hnt     r09
     /intsc li0 evn grp11 --- --- --- f - others- アリスとミリアがレオナの背景を聞く
     /intsc li0 evn grp11 --- --- --- f - others- アリスとミリアが落ち込むレオナを慰める
@@ -193,7 +193,7 @@
   contents:
     /leona odl ply multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
     /intsc li0 evn multi --- --- --- f - others- 〃
-    /myria odl ply myria pre mid r13 f - bground ミリアの背景
+    /myria odl ply myria pre mid r13 f - bGround ミリアの背景
     /intsc li0 evn multi --- --- --- f - others- アリスとレオナがミリアの背景を聞く
     /alice lov ply alice --- --- --- f - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
     /petra odl act petra prm --- r15 f - gDesire ペトラが妖精領主になる
@@ -220,7 +220,7 @@
       /leona odl ply leona pre lst --- f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
       /leona odl ply leona hnt mid --- f - thought 父王に言われた言葉「俺を超えていけ」がよみがえるどういう意味だったのか
     /grp21
-      /myria odl ply fei-- pre mid r26 b - bground フェイの背景
+      /myria odl ply fei-- pre mid r26 b - bGround フェイの背景
       /fei-- li2 ply fei-- --- --- --- b - others- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
       /erie- li2 ply erie- --- --- --- b - others- エリーがフェイに皮肉を言う
       /erie- li2 ply erie- --- --- --- b - others- エリーがアリスについてローズを心配する
@@ -236,7 +236,7 @@
     /alice odl act alice pre --- mid f b ordeal- アリスがローズと戦う
       /alice odl ply alice hnt --- mid f - others- 説得を試みる
       /alice odl evn alice pre lst --- f - results アリスがまともに戦えず怪我をする
-      /alice odl evn rose- pre r05 --- f - bground ローズがアリスの背景に関する情報を言うntt
+      /alice odl evn rose- pre r05 --- f - bGround ローズがアリスの背景に関する情報を言うntt
       /alice odl evn rose- --- --- --- f - @orb--- ローズが下腹部を押さえて苦しみ始める
     /alice lov ply alice --- --- --- f - thought アリスの、2人がかけがえのない存在だという気づき
     /intsc li0 evn multi --- --- --- f - others- 怪我したアリスをレオナとミリアが心配する
@@ -250,7 +250,7 @@
     background: true
   contents:
     /alice odl ply alice --- --- --- f - thought アリスがローズの体を心配する
-    /alice odl ply alice pre lst r05 f - bground アリスの背景
+    /alice odl ply alice pre lst r05 f - bGround アリスの背景
       /alice odl ply alice pre lst --- f - thought アリスの子に対する愛情
     /intsc li0 evn multi --- --- --- f - others- レオナとミリアがアリスの背景を聞く
     /alice lov ply alice --- --- --- f - thought アリスの、2人に対する独占欲の気づき
