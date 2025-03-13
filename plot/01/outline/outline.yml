@@ -12,18 +12,18 @@
     name: レオナとの出会い
     background: false
   contents:
-    /alice odl inf alice hnt s05 --- f - @alice- アリスが地上に出てきて数千年は経ってるかなと言う
-    /alice odl ply alice prm s01 --- f - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
-    /alice odl ply alice prm s02 --- f - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
-    /          inf       hnt s05         @zavia-
-    /intsc li0 evn leona --- --- --- f - @orb--- レオナがアリスに、ザヴィの死を伝える[ref-043]
-    /alice odl inf alice hnt s05 --- f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
-    /alice odl ply alice prm s02 --- f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
-    /alice odl act alice prm s03 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
-    /leona odl ply leona prm s06 --- f - gDesire レオナが「前に……、進みたいんです」と言う[ref-025]
-    /leona odl inf leona hnt s09 --- f - others- レオナがここに運命を変える出会いが待っていると言われていてと言う
-    /intsc li0 evn multi --- --- --- f - others- アリスの旅にレオナが加わる
-    /alice lov act multi --- --- --- f - favorbl 手を握る
+    /alice odl alice hnt s05 --- f - @alice- アリスが地上に出てきて数千年は経ってるかなと言う
+    /alice odl alice prm s01 --- f - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
+    /alice odl alice prm s02 --- f - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
+    /                hnt s05         @zavia-
+    /intsc li0 leona --- --- --- f - @orb--- レオナがアリスに、ザヴィの死を伝える[ref-043]
+    /alice odl alice hnt s05 --- f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
+    /alice odl alice prm s02 --- f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
+    /alice odl alice prm s03 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
+    /leona odl leona prm s06 --- f - gDesire レオナが「前に……、進みたいんです」と言う[ref-025]
+    /leona odl leona hnt s09 --- f - others- レオナがここに運命を変える出会いが待っていると言われていてと言う
+    /intsc li0 multi --- --- --- f - others- アリスの旅にレオナが加わる
+    /alice lov multi --- --- --- f - favorbl 手を握る
 
 
 2:
@@ -31,18 +31,18 @@
     name: ミリアとの出会い
     background: false
   contents:
-    /leona odl inf mob-- hnt s09 --- f - others- 民が噂話にカルツ王国を出す
-    /leona odl inf alice hnt s09 --- f - @alice- アリスが所作が洗練されていて王族のようだと言う
-    /alice odl inf alice hnt s05 --- f - @alice- アリスが神殿を見てあの子たちは元気にしてるみたいねと言う
-    /alice odl ply alice pre s04 --- f - favorbl アリスが暴れる神獣をおとなしくさせる
-    /alice odl inf alice hnt s05 --- f - @alice- 発狂した神獣を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
-    /alice odl inf alice hnt s05 --- f - @alice- 神獣が平伏する
-    /alice odl ply alice hnt s18 --- f - @alice- アリスが周囲への害を強く気にする
-    /intsc li0 evn multi --- --- --- f - others- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
-      /myria odl ply myria prm s10 --- f - thought ミリアが「過去に囚われてはいけない」と言う
-    /myria odl ply myria prm s11 --- f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
-    /intsc li0 evn multi --- --- --- f - others- アリスの旅にミリアが加わる
-    /alice lov act multi --- --- --- f - favorbl 手をつなぐ
+    /leona odl mob-- hnt s09 --- f - others- 民が噂話にカルツ王国を出す
+    /leona odl alice hnt s09 --- f - @alice- アリスが所作が洗練されていて王族のようだと言う
+    /alice odl alice hnt s05 --- f - @alice- アリスが神殿を見てあの子たちは元気にしてるみたいねと言う
+    /alice odl alice pre s04 --- f - favorbl アリスが暴れる神獣をおとなしくさせる
+    /alice odl alice hnt s05 --- f - @alice- 発狂した神獣を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
+    /alice odl alice hnt s05 --- f - @alice- 神獣が平伏する
+    /alice odl alice hnt s18 --- f - @alice- アリスが周囲への害を強く気にする
+    /intsc li0 multi --- --- --- f - others- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
+      /myria odl myria prm s10 --- f - thought ミリアが「過去に囚われてはいけない」と言う
+    /myria odl myria prm s11 --- f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
+    /intsc li0 multi --- --- --- f - others- アリスの旅にミリアが加わる
+    /alice lov multi --- --- --- f - favorbl 手をつなぐ
 
 
 3:
@@ -50,26 +50,26 @@
     name: ローズとの戦闘 1
     background: false
   contents:
-    /alice odl evn rose- pre s04 --- b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
-    /rose- odl inf rose- --- --- --- b - @apostl 〃
-    /alice odl evn alice pre s04 --- f - threat- アリスがローズの噂を聞く[ref-020]
-    /alice odl inf alice hnt s05 --- f - others- アリスはローズの名を知っている
-    /alice odl act alice pre --- r04 f b ordeal- アリスがローズと戦う
-      /alice odl ply alice --- --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
-      /rose- odl inf rose- hnt s05 --- f - @es---- ローズが封界の指輪を見て「見つけた！」と言って笑む
-      /                                    @alice-
-      /rose- odl inf rose- --- --- --- f - @es---- ローズが遷世して殺されたザヴィに会うと言う
-      /alice odl act alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
-      /          inf           s05
-      /                    hnt     r18
-    /alice lov ply alice --- --- --- f - thought アリスの、2人といると楽しいという気づき
-    /alice lov act multi --- --- --- f - favorbl 抱き合う
+    /alice odl rose- pre s04 --- b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
+    /rose- odl rose- --- --- --- b - @apostl 〃
+    /alice odl alice pre s04 --- f - threat- アリスがローズの噂を聞く[ref-020]
+    /alice odl alice hnt s05 --- f - others- アリスはローズの名を知っている
+    /alice odl alice pre --- r04 f b ordeal- アリスがローズと戦う
+      /alice odl alice --- --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
+      /rose- odl rose- hnt s05 --- f - @es---- ローズが封界の指輪を見て「見つけた！」と言って笑む
+      /                                @alice-
+      /rose- odl rose- --- --- --- f - @es---- ローズが遷世して殺されたザヴィに会うと言う
+      /alice odl alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+      /                    s05
+      /                hnt     r18
+    /alice lov alice --- --- --- f - thought アリスの、2人といると楽しいという気づき
+    /alice lov multi --- --- --- f - favorbl 抱き合う
     /grp21
-      /alice odl ply rose- hnt r05 --- b - @alice- ローズが太古から生きる化け物と言う
-      /rose- odl ply rose- prm lst --- b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
-      /leona odl ply erie- pre s16 --- b - threat- エリーがレオナに憎しみの視線を送る
-      /          inf       hnt s09
-      /myria odl ply fei-- pre s17 --- b - threat- フェイがミリアを見て壮絶な笑みを浮かべる
+      /alice odl rose- hnt r05 --- b - @alice- ローズが太古から生きる化け物と言う
+      /rose- odl rose- prm lst --- b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
+      /leona odl erie- pre s16 --- b - threat- エリーがレオナに憎しみの視線を送る
+      /                hnt s09
+      /myria odl fei-- pre s17 --- b - threat- フェイがミリアを見て壮絶な笑みを浮かべる
 
 
 4:
@@ -77,25 +77,25 @@
     name: ペトラとの出会い
     background: false
   contents:
-    /alice lov act multi --- --- --- f - favorbl あーんする
-    /leona odl ply leona pre s07 --- f b favorbl レオナが魔物を倒して強いところを見せる
-      /leona odl ply alice pre s07 --- f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
-      /intsc li0 evn alice rel s08 --- f - others- 〃
-      /leona odl ply leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
-      /leona odl ply leona hnt s19 --- f - thought このままではいけないという思いが漠然としている
-      /intsc li0 evn grp11 --- --- --- f - others- ペトラを助ける
-    /leona odl inf leona hnt s09 --- f - others- レオナが自分に本当の力があればと悔しがる
-    /myria odl inf myria hnt s13 --- f - others- レオナが自分に本当の力があればあんなことと悔しがるのを見て共感する
-    /leona odl inf leona hnt s09 --- f - others- レオナが剣は父に教わったと言う
-    /petra odl ply petra prm s15 --- f - gDesire ペトラが「私は大物になんです！」と言う
-    /myria odl inf myria hnt s13 --- f - others- ペトラを魔法薬で治療する　妖精を治療する魔法薬は貴重
-    /alice odl inf alice hnt s05 --- f - @alice- ペトラの治療について封界の指輪を見て物憂げにする
-    /myria odl inf myria hnt s13 --- f - others- ペトラの治療のときの薬草についての説明で危険なところに生えていると言って悲しそうにする
-    /leona odl inf alice hnt s09 --- f - others- アリスが国は興って亡びるもの、でも妖精の国は続いているわねと言う
-    /leona odl inf leona hnt s09 --- f - others- レオナがアリスの言葉を聞いて悲しそうにする
+    /alice lov multi --- --- --- f - favorbl あーんする
+    /leona odl leona pre s07 --- f b favorbl レオナが魔物を倒して強いところを見せる
+      /leona odl alice pre s07 --- f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
+      /intsc li0 alice rel s08 --- f - others- 〃
+      /leona odl leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
+      /leona odl leona hnt s19 --- f - thought このままではいけないという思いが漠然としている
+      /intsc li0 grp11 --- --- --- f - others- ペトラを助ける
+    /leona odl leona hnt s09 --- f - others- レオナが自分に本当の力があればと悔しがる
+    /myria odl myria hnt s13 --- f - others- レオナが自分に本当の力があればあんなことと悔しがるのを見て共感する
+    /leona odl leona hnt s09 --- f - others- レオナが剣は父に教わったと言う
+    /petra odl petra prm s15 --- f - gDesire ペトラが「私は大物になんです！」と言う
+    /myria odl myria hnt s13 --- f - others- ペトラを魔法薬で治療する　妖精を治療する魔法薬は貴重
+    /alice odl alice hnt s05 --- f - @alice- ペトラの治療について封界の指輪を見て物憂げにする
+    /myria odl myria hnt s13 --- f - others- ペトラの治療のときの薬草についての説明で危険なところに生えていると言って悲しそうにする
+    /leona odl alice hnt s09 --- f - others- アリスが国は興って亡びるもの、でも妖精の国は続いているわねと言う
+    /leona odl leona hnt s09 --- f - others- レオナがアリスの言葉を聞いて悲しそうにする
     /grp21
-      /leona odl ply erie- pre s07 r16 b - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
-      /grp21 lov ply multi --- --- --- b - others- 戦いの前にローズがエリーにエロい祝福をする[ref-037-1]
+      /leona odl erie- pre s07 r16 b - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
+      /grp21 lov multi --- --- --- b - others- 戦いの前にローズがエリーにエロい祝福をする[ref-037-1]
 
 
 5:
@@ -103,15 +103,15 @@
     name: エリーとの戦闘 1
     background: true
   contents:
-    /leona odl act leona pre --- r07 f b ordeal- レオナがエリーと戦う
-      /leona odl inf erie- hnt s09 --- f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
-      /leona odl evn leona pre s09 --- f - results レオナがエリーに敗北する
-      /leona odl ply leona hnt --- r19 f - others- 〃
-      /alice odl ply alice pre mid --- f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
-      /intsc li0 evn multi --- --- --- f - others- 〃
-      /erie- odl ply erie- prm lst --- f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
-    /alice lov act multi --- --- --- f - others- アリスが治療する、ミリアが縋り付く
-    /alice odl ply alice hnt mid --- f - thought ローズが自分たちに目をつけていることに戦いの予感がする
+    /leona odl leona pre --- r07 f b ordeal- レオナがエリーと戦う
+      /leona odl erie- hnt s09 --- f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
+      /leona odl leona pre s09 --- f - results レオナがエリーに敗北する
+      /leona odl leona hnt --- r19 f - others- 〃
+      /alice odl alice pre mid --- f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
+      /intsc li0 multi --- --- --- f - others- 〃
+      /erie- odl erie- prm lst --- f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
+    /alice lov multi --- --- --- f - others- アリスが治療する、ミリアが縋り付く
+    /alice odl alice hnt mid --- f - thought ローズが自分たちに目をつけていることに戦いの予感がする
 
 
 6:
@@ -119,17 +119,17 @@
     name: レオナの背景
     background: true
   contents:
-    /leona odl ply leona pre mid --- f - bGround レオナの背景
-    /                    hnt     r09
-    /intsc li0 evn grp11 --- --- --- f - others- アリスとミリアがレオナの背景を聞く
-    /intsc li0 evn grp11 --- --- --- f - others- アリスとミリアが落ち込むレオナを慰める
-    /alice lov ply alice --- --- --- f - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）
-    /leona odl ply multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 evn multi --- --- --- f - others- 〃
-      /intsc li0 evn multi rel s14 r08 f - others- アリスが「レオナの型は完成しているから型を破るべき」と言う
-    /myria odl ply myria pre s12 --- f - favorbl お姉さんとして振る舞っていい調子 => レオナの訓練後
-    /intsc li0 evn multi --- --- --- f - others- 〃
-    /myria odl inf myria hnt s13 --- f - others- アリスがミリアの魔法を褒めると祖母から教わったと嬉しそうにした直後に酷く落ち込む
+    /leona odl leona pre mid --- f - bGround レオナの背景
+    /                hnt     r09
+    /intsc li0 grp11 --- --- --- f - others- アリスとミリアがレオナの背景を聞く
+    /intsc li0 grp11 --- --- --- f - others- アリスとミリアが落ち込むレオナを慰める
+    /alice lov alice --- --- --- f - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）
+    /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
+    /intsc li0 multi --- --- --- f - others- 〃
+      /intsc li0 multi rel s14 r08 f - others- アリスが「レオナの型は完成しているから型を破るべき」と言う
+    /myria odl myria pre s12 --- f - favorbl お姉さんとして振る舞っていい調子 => レオナの訓練後
+    /intsc li0 multi --- --- --- f - others- 〃
+    /myria odl myria hnt s13 --- f - others- アリスがミリアの魔法を褒めると祖母から教わったと嬉しそうにした直後に酷く落ち込む
 
 
 7:
@@ -137,31 +137,31 @@
     name: ペトラの試練
     background: false
   contents:
-    /petra ??? ??? petra --- --- --- f - others- アリスを嫌いと言う
-    /myria odl inf myria hnt s13 --- f - others- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
-    /myria odl ply myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
-      /myria odl ply myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
-      /myria odl ply myria hnt s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
-      /myria odl ply alice pre lst --- f - others- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
-      /                    rel s21
-    /myria odl ply leona pre s12 --- f - favorbl レオナがミリアに甘える[ref-042]
-    /                    rel s22
-    /leona odl ply myria pre s09 --- f - others- ミリアがレオナを甘やかす[ref-042]
-    /                    rel s24
-    /alice lov act multi --- --- --- f - favorbl 恋人つなぎ（指を絡める）
+    /petra ??? petra --- --- --- f - others- アリスを嫌いと言う
+    /myria odl myria hnt s13 --- f - others- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
+    /myria odl myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
+      /myria odl myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
+      /myria odl myria hnt s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
+      /myria odl alice pre lst --- f - others- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
+      /                rel s21
+    /myria odl leona pre s12 --- f - favorbl レオナがミリアに甘える[ref-042]
+    /                rel s22
+    /leona odl myria pre s09 --- f - others- ミリアがレオナを甘やかす[ref-042]
+    /                rel s24
+    /alice lov multi --- --- --- f - favorbl 恋人つなぎ（指を絡める）
     /grp21
-      /erie- li2 ply erie- --- --- --- b - others- エリーがアリスの強さについて報告する
-      /fei-- li2 ply fei-- --- --- --- b - others- フェイがエリーをからかう
-      /rose- li2 ply rose- --- --- --- b - others- ローズがエリーをねぎらいアリスについてあの子なら問題ないわと言う
-      /fei-- odl ply fei-- prm lst --- b - thought フェイが「慢心は強者の特権」と言う
-      /myria odl ply fei-- pre s12 r17 b - threat- フェイがエルフへの欲望を吐露する => 自分に心酔させると言う
-      /fei-- etc inf rose- hnt s26 --- b - others- ローズがあなたは強くなったわと言う
-      /fei-- etc inf fei-- hnt s26 --- b - others- フェイがローズ様のおかげですと言う
-      /fei-- etc inf rose- hnt s26 --- b - others- ローズがあなたが才能を持っていたからよと言う
-      /fei-- etc inf rose- hnt s26 --- b - others- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
-      /grp21 lov ply multi --- --- --- b - others- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
-    /leona odl ply multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 evn multi --- --- --- f - others- 〃
+      /erie- li2 erie- --- --- --- b - others- エリーがアリスの強さについて報告する
+      /fei-- li2 fei-- --- --- --- b - others- フェイがエリーをからかう
+      /rose- li2 rose- --- --- --- b - others- ローズがエリーをねぎらいアリスについてあの子なら問題ないわと言う
+      /fei-- odl fei-- prm lst --- b - thought フェイが「慢心は強者の特権」と言う
+      /myria odl fei-- pre s12 r17 b - threat- フェイがエルフへの欲望を吐露する => 自分に心酔させると言う
+      /fei-- etc rose- hnt s26 --- b - others- ローズがあなたは強くなったわと言う
+      /fei-- etc fei-- hnt s26 --- b - others- フェイがローズ様のおかげですと言う
+      /fei-- etc rose- hnt s26 --- b - others- ローズがあなたが才能を持っていたからよと言う
+      /fei-- etc rose- hnt s26 --- b - others- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
+      /grp21 lov multi --- --- --- b - others- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
+    /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
+    /intsc li0 multi --- --- --- f - others- 〃
 
 
 8:
@@ -169,13 +169,13 @@
     name: フェイとの戦闘 1
     background: false
   contents:
-    /myria odl act myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
-      /myria odl evn myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
-      /myria odl act fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
-      /intsc li0 evn multi --- --- --- f - others- アリスとレオナが戦いに干渉する
-      /alice lov act multi --- --- --- f - others- アリスとレオナが戦いに干渉する
-    /leona odl ply multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 evn multi --- --- --- f - others- 〃
+    /myria odl myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
+      /myria odl myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
+      /myria odl fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
+      /intsc li0 multi --- --- --- f - others- アリスとレオナが戦いに干渉する
+      /alice lov multi --- --- --- f - others- アリスとレオナが戦いに干渉する
+    /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
+    /intsc li0 multi --- --- --- f - others- 〃
 
 
   ######  ########  ######  ########         #######
@@ -191,12 +191,12 @@
     name: ペトラが妖精領主になる
     background: true
   contents:
-    /leona odl ply multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 evn multi --- --- --- f - others- 〃
-    /myria odl ply myria pre mid r13 f - bGround ミリアの背景
-    /intsc li0 evn multi --- --- --- f - others- アリスとレオナがミリアの背景を聞く
-    /alice lov ply alice --- --- --- f - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
-    /petra odl act petra prm --- r15 f - gDesire ペトラが妖精領主になる
+    /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
+    /intsc li0 multi --- --- --- f - others- 〃
+    /myria odl myria pre mid r13 f - bGround ミリアの背景
+    /intsc li0 multi --- --- --- f - others- アリスとレオナがミリアの背景を聞く
+    /alice lov alice --- --- --- f - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
+    /petra odl petra prm --- r15 f - gDesire ペトラが妖精領主になる
 
 
 10:
@@ -204,28 +204,28 @@
     name: -
     background: true
   contents:
-    /alice odl inf alice hnt s05 --- f - @alice- アリスが素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
-    /alice odl ply alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-    /                        lst
-    /alice odl ply alice hnt mid --- f - thought ローズと戦うことになる予感が強くなる
-    /alice odl ply alice hnt mid --- f - thought ローズとは戦えないと悩む
-    /alice lov act multi --- --- --- f - favorbl 3人でバックハグ
-    /intsc li0 evn multi --- --- --- f - others- アリスの悩みをレオナとミリアが聞く
-    /leona odl ply multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 evn multi --- --- --- f - others- 〃
-      /alice odl ply alice pre mid --- f - favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
-      /leona odl ply leona rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
-      /----- --- --- ----- pre mid
-      /leona odl ply leona pre lst --- f - others- レオナがアリスに訓練してもらい「――後はその剣を超えられるといいんだけど」と言われる
-      /leona odl ply leona pre lst --- f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
-      /leona odl ply leona hnt mid --- f - thought 父王に言われた言葉「俺を超えていけ」がよみがえるどういう意味だったのか
+    /alice odl alice hnt s05 --- f - @alice- アリスが素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
+    /alice odl alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+    /                    lst
+    /alice odl alice hnt mid --- f - thought ローズと戦うことになる予感が強くなる
+    /alice odl alice hnt mid --- f - thought ローズとは戦えないと悩む
+    /alice lov multi --- --- --- f - favorbl 3人でバックハグ
+    /intsc li0 multi --- --- --- f - others- アリスの悩みをレオナとミリアが聞く
+    /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
+    /intsc li0 multi --- --- --- f - others- 〃
+      /alice odl alice pre mid --- f - favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
+      /leona odl leona rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
+      /----- --- ----- pre mid
+      /leona odl leona pre lst --- f - others- レオナがアリスに訓練してもらい「――後はその剣を超えられるといいんだけど」と言われる
+      /leona odl leona pre lst --- f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
+      /leona odl leona hnt mid --- f - thought 父王に言われた言葉「俺を超えていけ」がよみがえるどういう意味だったのか
     /grp21
-      /myria odl ply fei-- pre mid r26 b - bGround フェイの背景
-      /fei-- li2 ply fei-- --- --- --- b - others- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
-      /erie- li2 ply erie- --- --- --- b - others- エリーがフェイに皮肉を言う
-      /erie- li2 ply erie- --- --- --- b - others- エリーがアリスについてローズを心配する
-      /alice odl ply rose- pre mid --- b - threat- ローズがアリスについて不気味な発言をするntt
-      /grp21 lov ply multi --- --- --- b - others- エロいことをする[ref-037-3]
+      /myria odl fei-- pre mid r26 b - bGround フェイの背景
+      /fei-- li2 fei-- --- --- --- b - others- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
+      /erie- li2 erie- --- --- --- b - others- エリーがフェイに皮肉を言う
+      /erie- li2 erie- --- --- --- b - others- エリーがアリスについてローズを心配する
+      /alice odl rose- pre mid --- b - threat- ローズがアリスについて不気味な発言をするntt
+      /grp21 lov multi --- --- --- b - others- エロいことをする[ref-037-3]
 
 
 11:
@@ -233,15 +233,15 @@
     name: ローズとの戦闘 2
     background: true
   contents:
-    /alice odl act alice pre --- mid f b ordeal- アリスがローズと戦う
-      /alice odl ply alice hnt --- mid f - others- 説得を試みる
-      /alice odl evn alice pre lst --- f - results アリスがまともに戦えず怪我をする
-      /alice odl evn rose- pre r05 --- f - bGround ローズがアリスの背景に関する情報を言うntt
-      /alice odl evn rose- --- --- --- f - @orb--- ローズが下腹部を押さえて苦しみ始める
-    /alice lov ply alice --- --- --- f - thought アリスの、2人がかけがえのない存在だという気づき
-    /intsc li0 evn multi --- --- --- f - others- 怪我したアリスをレオナとミリアが心配する
-    /leona odl ply multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 evn multi --- --- --- f - others- 〃
+    /alice odl alice pre --- mid f b ordeal- アリスがローズと戦う
+      /alice odl alice hnt --- mid f - others- 説得を試みる
+      /alice odl alice pre lst --- f - results アリスがまともに戦えず怪我をする
+      /alice odl rose- pre r05 --- f - bGround ローズがアリスの背景に関する情報を言うntt
+      /alice odl rose- --- --- --- f - @orb--- ローズが下腹部を押さえて苦しみ始める
+    /alice lov alice --- --- --- f - thought アリスの、2人がかけがえのない存在だという気づき
+    /intsc li0 multi --- --- --- f - others- 怪我したアリスをレオナとミリアが心配する
+    /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
+    /intsc li0 multi --- --- --- f - others- 〃
 
 
 12:
@@ -249,11 +249,11 @@
     name: アリスの背景
     background: true
   contents:
-    /alice odl ply alice --- --- --- f - thought アリスがローズの体を心配する
-    /alice odl ply alice pre lst r05 f - bGround アリスの背景
-      /alice odl ply alice pre lst --- f - thought アリスの子に対する愛情
-    /intsc li0 evn multi --- --- --- f - others- レオナとミリアがアリスの背景を聞く
-    /alice lov ply alice --- --- --- f - thought アリスの、2人に対する独占欲の気づき
+    /alice odl alice --- --- --- f - thought アリスがローズの体を心配する
+    /alice odl alice pre lst r05 f - bGround アリスの背景
+      /alice odl alice pre lst --- f - thought アリスの子に対する愛情
+    /intsc li0 multi --- --- --- f - others- レオナとミリアがアリスの背景を聞く
+    /alice lov alice --- --- --- f - thought アリスの、2人に対する独占欲の気づき
 
 
 13:
@@ -268,13 +268,13 @@
     name: -
     background: false
   contents:
-    /leona odl ply leona pre lst --- f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
-    /leona odl ply leona hnt mid --- f - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
-    /leona odl ply multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 evn multi --- --- --- f - others- 〃
-    /leona odl ply leona --- --- --- f - favorbl レオナがアリスから強くなったと言われる[ref-034]
-    /alice odl ply multi pre s21 --- f - others- レオナとミリアが何かを作っている[ref-040]
-    /alice lov act multi --- --- --- f - favorbl 頭と頬を撫でる
+    /leona odl leona pre lst --- f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
+    /leona odl leona hnt mid --- f - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
+    /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
+    /intsc li0 multi --- --- --- f - others- 〃
+    /leona odl leona --- --- --- f - favorbl レオナがアリスから強くなったと言われる[ref-034]
+    /alice odl multi pre s21 --- f - others- レオナとミリアが何かを作っている[ref-040]
+    /alice lov multi --- --- --- f - favorbl 頭と頬を撫でる
 
 
 15:
@@ -283,13 +283,13 @@
     background: false
   contents:
     /grp21
-      /leona odl evn erie- pre mid --- b - threat- エリーが余裕ぶってレオナを殺すと言う
-      /erie- li2 ply erie- --- --- --- b - others- エリーがローズの体を気遣う
-      /fei-- li2 ply fei-- --- --- --- b - others- フェイがローズをからかう
-      /.                                           エロいことはしない
-    /leona odl act leona pre --- mid f b ordeal- レオナがエリーと戦う
-      /leona odl evn leona hnt --- mid f - results レオナがエリーと引き分ける
-      /leona odl ply erie- hnt lst --- f - others- エリーが絶対にこのままでは終わらせないと宣言する
+      /leona odl erie- pre mid --- b - threat- エリーが余裕ぶってレオナを殺すと言う
+      /erie- li2 erie- --- --- --- b - others- エリーがローズの体を気遣う
+      /fei-- li2 fei-- --- --- --- b - others- フェイがローズをからかう
+      /.                                       エロいことはしない
+    /leona odl leona pre --- mid f b ordeal- レオナがエリーと戦う
+      /leona odl leona hnt --- mid f - results レオナがエリーと引き分ける
+      /leona odl erie- hnt lst --- f - others- エリーが絶対にこのままでは終わらせないと宣言する
 
 
 16:
@@ -297,25 +297,25 @@
     name: -
     background: false
   contents:
-    /myria odl ply myria pre mid --- f - thought ミリアが祖母を思う
-      /myria odl ply myria pre mid --- f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
-      /myria odl ply myria hnt mid --- f - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
-      /myria odl ply alice pre lst --- f - others- アリスが不幸に押しつぶされた心では当たり前の償いもできないと言う
-      /                    pre s22 r21
-    /myria odl ply myria pre mid --- f - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
-    /myria odl ply leona pre mid --- f - favorbl レオナがミリアに甘える[ref-042]
-    /                    rel s23 r22
-    /leona odl ply myria pre mid --- f - others- ミリアがレオナを甘やかす[ref-042]
-    /                    rel s25 r24
-    /leona odl ply leona pre lst --- f - thought エリーといい勝負ができたことで現状維持がいいと思い込む
-    /leona odl ply leona hnt lst --- f - thought エリーがあのままのはずがないという予感がある
-    /leona odl ply leona hnt lst --- f - thought エリーを超えられなかった事実が心の底にわだかまっている
-    /alice lov ply alice --- --- --- f - thought アリスの、2人への思いが強まった気づき
+    /myria odl myria pre mid --- f - thought ミリアが祖母を思う
+      /myria odl myria pre mid --- f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
+      /myria odl myria hnt mid --- f - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
+      /myria odl alice pre lst --- f - others- アリスが不幸に押しつぶされた心では当たり前の償いもできないと言う
+      /                pre s22 r21
+    /myria odl myria pre mid --- f - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
+    /myria odl leona pre mid --- f - favorbl レオナがミリアに甘える[ref-042]
+    /                rel s23 r22
+    /leona odl myria pre mid --- f - others- ミリアがレオナを甘やかす[ref-042]
+    /                rel s25 r24
+    /leona odl leona pre lst --- f - thought エリーといい勝負ができたことで現状維持がいいと思い込む
+    /leona odl leona hnt lst --- f - thought エリーがあのままのはずがないという予感がある
+    /leona odl leona hnt lst --- f - thought エリーを超えられなかった事実が心の底にわだかまっている
+    /alice lov alice --- --- --- f - thought アリスの、2人への思いが強まった気づき
     /grp21
-      /erie- li2 ply erie- --- --- --- b - others- エリーが悔しそうにする、無様をローズにわびる
-      /fei-- li2 ply fei-- --- --- --- b - others- フェイがエリーをからかう
-      /myria odl ply fei-- pre mid --- b - threat- フェイが取っておきの方法を思ってほくそ笑む
-      /grp21 lov ply multi --- --- --- b - others- エロいことをする[ref-037-4]
+      /erie- li2 erie- --- --- --- b - others- エリーが悔しそうにする、無様をローズにわびる
+      /fei-- li2 fei-- --- --- --- b - others- フェイがエリーをからかう
+      /myria odl fei-- pre mid --- b - threat- フェイが取っておきの方法を思ってほくそ笑む
+      /grp21 lov multi --- --- --- b - others- エロいことをする[ref-037-4]
 
 
 17:
@@ -323,9 +323,9 @@
     name: フェイとの戦闘 2
     background: false
   contents:
-    /myria odl act myria pre --- mid f b ordeal- ミリアがフェイと戦う
-      /myria odl evn myria hnt --- mid f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
-      /myria odl act fei-- --- --- --- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する[ref-038]
+    /myria odl myria pre --- mid f b ordeal- ミリアがフェイと戦う
+      /myria odl myria hnt --- mid f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
+      /myria odl fei-- --- --- --- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する[ref-038]
 
 
   ######  ########  ######  ########         #######
@@ -341,29 +341,29 @@
     name: -
     background: false
   contents:
-    /alice odl ply alice pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-    /alice odl ply alice hnt lst --- f - thought ローズを倒すことになる予感がする
-    /intsc li0 evn multi --- --- --- f - others- アリスがレオナに逸脱すれば勝てると言う, ミリアは魔法での逸脱を話す
-    /leona odl ply leona pre lst --- f - thought 父王の剣を逸脱するなんてできないと思い込む
-    /leona odl ply leona hnt lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
-    /alice lov ply alice --- --- --- f - thought アリスの、2人を好きだというわがままの認識
-    /alice lov act multi --- --- --- f - favorbl アリスが、座っているとき2人の太ももを触る、2人は肩にもたれかかる
-    /alice odl ply alice pre lst --- f - thought 子を殺すことの倫理的な問題に囚われる[ref-036]
-    /alice odl ply alice hnt lst --- f - thought ローズを倒さなければ世界が滅びると認識している
-    /myria odl ply myria pre lst --- f - thought ミリアが祖母を大切に思う気持ちを吐露する
-      /myria odl ply myria pre lst --- f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
-      /myria odl ply myria hnt lst --- f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
-      /myria odl ply alice pre lst --- f - others- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
-      /                    rel     r22
-    /myria odl ply leona pre lst --- f - favorbl レオナがミリアに甘える[ref-042]
-    /                    rel --- r23
-    /leona odl ply myria pre lst --- f - others- ミリアがレオナを甘やかす[ref-042]
-    /                    rel     r25
-    /intsc li0 evn grp11 --- --- --- f - others- それぞれの思いを抱えつつ表面的には前向きに振る舞う
-    /alice odl ply alice pre lst r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
-    /alice lov ply alice --- --- --- f - thought アリスの、わがままを通そうという決意
+    /alice odl alice pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+    /alice odl alice hnt lst --- f - thought ローズを倒すことになる予感がする
+    /intsc li0 multi --- --- --- f - others- アリスがレオナに逸脱すれば勝てると言う, ミリアは魔法での逸脱を話す
+    /leona odl leona pre lst --- f - thought 父王の剣を逸脱するなんてできないと思い込む
+    /leona odl leona hnt lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
+    /alice lov alice --- --- --- f - thought アリスの、2人を好きだというわがままの認識
+    /alice lov multi --- --- --- f - favorbl アリスが、座っているとき2人の太ももを触る、2人は肩にもたれかかる
+    /alice odl alice pre lst --- f - thought 子を殺すことの倫理的な問題に囚われる[ref-036]
+    /alice odl alice hnt lst --- f - thought ローズを倒さなければ世界が滅びると認識している
+    /myria odl myria pre lst --- f - thought ミリアが祖母を大切に思う気持ちを吐露する
+      /myria odl myria pre lst --- f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
+      /myria odl myria hnt lst --- f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
+      /myria odl alice pre lst --- f - others- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
+      /                rel     r22
+    /myria odl leona pre lst --- f - favorbl レオナがミリアに甘える[ref-042]
+    /                rel --- r23
+    /leona odl myria pre lst --- f - others- ミリアがレオナを甘やかす[ref-042]
+    /                rel     r25
+    /intsc li0 grp11 --- --- --- f - others- それぞれの思いを抱えつつ表面的には前向きに振る舞う
+    /alice odl alice pre lst r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
+    /alice lov alice --- --- --- f - thought アリスの、わがままを通そうという決意
     /grp21
-      /myria odl ply fei-- pre lst --- b - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく[ref-035]
+      /myria odl fei-- pre lst --- b - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく[ref-035]
 
 
 19:
@@ -371,12 +371,12 @@
     name: フェイとの戦闘 3
     background: false
   contents:
-    /myria odl act myria pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
-      /myria odl act myria hnt --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
-      /myria odl evn myria --- --- --- f - results ミリアがフェイを倒す
-    /myria odl ply myria prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
-    /myria odl evn myria prm --- r11 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
-    /fei-- odl evn fei-- prm --- lst f - results フェイがミリアに敗北する[ref-029]
+    /myria odl myria pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
+      /myria odl myria hnt --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
+      /myria odl myria --- --- --- f - results ミリアがフェイを倒す
+    /myria odl myria prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
+    /myria odl myria prm --- r11 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
+    /fei-- odl fei-- prm --- lst f - results フェイがミリアに敗北する[ref-029]
 
 
 20:
@@ -391,14 +391,14 @@
     name: -
     background: false
   contents:
-    /alice odl ply alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
-    /alice odl ply alice hnt lst --- f - thought ローズを倒すべきだと分かっている
-    /leona odl ply leona pre lst --- f - favorbl ミリアとともに具合がいいntt
-    /intsc li0 evn alice --- --- --- f - others- アリスはレオナのfavoに癒やされる
-    /alice lov ply alice --- --- --- f - thought アリスの、ミリアの願いが成就したことで、レオナの試練は予想されるわけで、それが乗り越えられたら告白するという決心
+    /alice odl alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
+    /alice odl alice hnt lst --- f - thought ローズを倒すべきだと分かっている
+    /leona odl leona pre lst --- f - favorbl ミリアとともに具合がいいntt
+    /intsc li0 alice --- --- --- f - others- アリスはレオナのfavoに癒やされる
+    /alice lov alice --- --- --- f - thought アリスの、ミリアの願いが成就したことで、レオナの試練は予想されるわけで、それが乗り越えられたら告白するという決心
     /grp21
-      /leona odl evn erie- pre lst --- b - threat- エリーがパワーアップして異形になる[ref-026]
-      /grp21 lov ply multi --- --- --- b - others- エロいことをする[ref-037-5]
+      /leona odl erie- pre lst --- b - threat- エリーがパワーアップして異形になる[ref-026]
+      /grp21 lov multi --- --- --- b - others- エロいことをする[ref-037-5]
 
 
 22:
@@ -406,12 +406,12 @@
     name: エリーとの戦闘 3
     background: false
   contents:
-    /leona odl act leona pre --- lst f b ordeal- レオナがエリーと戦う
-      /leona odl act leona hnt --- lst f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
-      /leona odl evn leona --- --- --- f - results レオナがエリーを倒す
-      /erie- odl evn erie- prm --- lst f - results エリーがレオナに敗北する
-    /leona odl ply leona prm --- r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
-    /alice odl ply alice pre lst --- f - favorbl レオナからの惜しみない感謝をミリアと味わうntt
+    /leona odl leona pre --- lst f b ordeal- レオナがエリーと戦う
+      /leona odl leona hnt --- lst f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
+      /leona odl leona --- --- --- f - results レオナがエリーを倒す
+      /erie- odl erie- prm --- lst f - results エリーがレオナに敗北する
+    /leona odl leona prm --- r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
+    /alice odl alice pre lst --- f - favorbl レオナからの惜しみない感謝をミリアと味わうntt
 
 
 23:
@@ -419,11 +419,11 @@
     name: -
     background: false
   contents:
-    /alice odl ply alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
-    /alice odl ply alice hnt lst --- f - thought ローズを倒さないと事は収まらないと分かっている
-    /alice lov act multi --- --- --- f - favorbl 告白とキス
+    /alice odl alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
+    /alice odl alice hnt lst --- f - thought ローズを倒さないと事は収まらないと分かっている
+    /alice lov multi --- --- --- f - favorbl 告白とキス
     /grp21
-      /alice odl evn rose- pre lst --- b - threat- ローズがパワーアップする[ref-023]
+      /alice odl rose- pre lst --- b - threat- ローズがパワーアップする[ref-023]
 
 
 24:
@@ -431,11 +431,11 @@
     name: ローズとの戦闘 3
     background: false
   contents:
-    /alice odl act alice pre --- lst f b ordeal- アリスがローズと戦う
-      /alice odl act alice hnt --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
-      /alice odl evn alice --- --- --- f - results アリスがローズを倒す
-    /alice odl act alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
-    /rose- odl evn noCha prm --- lst f - gDesire ローズが死んでエスの封印が解かれる
+    /alice odl alice pre --- lst f b ordeal- アリスがローズと戦う
+      /alice odl alice hnt --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
+      /alice odl alice --- --- --- f - results アリスがローズを倒す
+    /alice odl alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
+    /rose- odl noCha prm --- lst f - gDesire ローズが死んでエスの封印が解かれる
 
 
 25:
@@ -443,6 +443,6 @@
     name: エスとの邂逅
     background: false
   contents:
-    /alice odl evn alice prm --- r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる
-    /alice odl act alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
-    /alice lov ply alice --- --- --- f - thought アリスの、2人といると楽しいということの再認識
+    /alice odl alice prm --- r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる
+    /alice odl alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
+    /alice lov alice --- --- --- f - thought アリスの、2人といると楽しいということの再認識

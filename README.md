@@ -24,6 +24,7 @@
 - plot/01/outline/background-requirements.yml: 背景の要件
 - plot/01/outline/character-base.yml:          キャラクターの基本設計
 - plot/01/outline/character-portrayal.yml:     キャラクター描写
+- plot/01/outline/elements-background.yml:     プロット要素 背景
 - plot/01/outline/elements-integration.yml:    プロット要素 統合
 - plot/01/outline/elements-love.yml:           プロット要素 恋愛
 - plot/01/outline/elements-ordeal.yml:         プロット要素 試練
