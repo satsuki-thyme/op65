@@ -24,11 +24,11 @@
 - plot/01/outline/background-requirements.yml: 背景の要件
 - plot/01/outline/character-base.yml:          キャラクターの基本設計
 - plot/01/outline/character-portrayal.yml:     キャラクター描写
+- plot/01/outline/decoration.yml:              装飾
 - plot/01/outline/elements-background.yml:     プロット要素 背景
 - plot/01/outline/elements-integration.yml:    プロット要素 統合
 - plot/01/outline/elements-love.yml:           プロット要素 恋愛
 - plot/01/outline/elements-ordeal.yml:         プロット要素 試練
-- plot/01/outline/information.yml:             提示情報
 - plot/01/outline/narrative-clues.yml:         前兆要素
 - plot/01/outline/numbering.yml:               前兆要素の採番
 - plot/01/outline/outline.yml:                 概要プロット
