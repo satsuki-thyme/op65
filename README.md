@@ -101,6 +101,7 @@
 - thinking-notes/thi-045.md: ローズたちがエロいことをする
 - thinking-notes/thi-046.md: アリスがローズとエスと対峙する構図の再構築
 - thinking-notes/thi-047.md: アリスたちが助け合う具体的な内容を作る
+- thinking-notes/thi-048.md: 装飾について
 
 ### アーカイブ
 #### before-2025-01-13
