@@ -1,104 +1,218 @@
 # キャラクター描写
 - dn: アリス
   contents:
-    - item: 強気で自由に突き進む
+    - item: ^強気で自由に突き進む
       portrayal:
-        - .[ ] 強気な選択をして実行しようとする
+        - item: 強気な選択をして実行しようとする
+          applicable part:
+            - 
 
-    - item: 慈愛と優しさの気持ちを伝える
+    - item: ^慈愛と優しさの気持ちを伝える
       portrayal:
-        - .[ ] レオナ、ミリア、ペトラの困難に気持ちを伝える
+        - item: レオナ、ミリア、ペトラの困難に気持ちを伝える
+          applicable part:
+            - 
 
-    - item: 感覚的で大雑把だが重要な局面では勘が冴えている
+    - item: ^感覚的で大雑把だが重要な局面では勘が冴えている
       portrayal:
-        - .[ ] 地下から出るときに地面を吹き飛ばしたのはやりすぎだったが気にしない
-        - .[ ] レオナ、ミリア、ペトラの心配にも楽天的に振る舞う
+        - item: 地下から出るときに地面を吹き飛ばしたのはやりすぎだったが気にしない
+          applicable part:
+            - 
+        - item: レオナ、ミリア、ペトラの心配にも楽天的に振る舞うが危機は救う
+          applicable part:
+            - 
+        - item: 選択を間違えない
+          applicable part:
+            - 
+
+    - item: ^癖
+      portrayal:
+        - item: 
+          applicable part:
+            - 
 
 
 - dn: レオナ
   contents:
-    - item: 妹の立ち位置で頑張り屋
+    - item: ^妹の立ち位置で頑張り屋
       portrayal:
-        - .[ ] 自然と世話を焼かれて嬉しげにする
-        - .[ ] 2人に見守られて訓練に邁進する
+        - item: 自然と世話を焼かれて嬉しげにする
+          applicable part:
+            - 
+        - item: 2人に見守られて訓練に邁進する
+          applicable part:
+            - 
 
-    - item: みんなのために貢献する
+    - item: ^みんなのために貢献する
       portrayal:
-        - .[ ] 食材を手に入れてきたり薪を集めてきたりする
+        - item: 食材を手に入れてきたり薪を集めてきたりする
+          applicable part:
+            - 
 
-    - item: バランスを取って落とし所を提案する
+    - item: ^バランスを取って落とし所を提案する
       portrayal:
-        - .[ ] アリスとミリアの折衷案を出す
+        - item: アリスとミリアの折衷案を出す
+          applicable part:
+            - 
+
+    - item: ^癖
+      portrayal:
+        - item: 頬に片手を当てて考える
+          applicable part:
+            - 
+        - item: 自分を抱きしめて困る
+          applicable part:
+            - 
 
 
 - dn: ミリア
   contents:
-    - item: 面倒見のいいお姉さん
+    - item: ^面倒見のいいお姉さん
       portrayal:
-        - .[ ] 野営のとき料理を作る
-        - .[ ] 手洗いの水を出したりする
-        - .[ ] 健康状態をチェックする
+        - item: 野営のとき料理を作る
+          applicable part:
+            - 
+        - item: 手洗いの水を出したりする
+          applicable part:
+            - 
+        - item: 健康状態をチェックする
+          applicable part:
+            - 
 
-    - item: 気づかれないような親切をする
+    - item: ^気づかれないような親切をする
       portrayal:
-        - .[ ] ズレた布団を直してやる
-        - .[ ] レオナの背に付いた糸くずを取り除いたりする
+        - item: ズレた布団を直してやる
+          applicable part:
+            - 
+        - item: レオナの背に付いた糸くずを取り除いたりする
+          applicable part:
+            - 
 
-    - item: 弱気で臆病、思い切った提案に驚いて待ったをかける
+    - item: ^弱気で臆病、思い切った提案に驚いて待ったをかける
       portrayal:
-        - .[ ] アリスの提案に待ったをかける
+        - item: アリスの提案に待ったをかける
+          applicable part:
+            - 
+
+    - item: ^癖
+      portrayal:
+        - item: 唇を触って困る
+          applicable part:
+            - 
 
 
 - dn: ペトラ
   contents:
-    - item: やんちゃな女の子
+    - item: ^やんちゃな女の子
       portrayal:
-        - .[ ] 強気でアリスと意見が合うかもっと過激
-        - .[ ] レオナとミリアには強く出る
-        - .[ ] 一人でどこでも行く
+        - item: 強気でアリスと意見が合うかもっと過激
+          applicable part:
+            - 
+        - item: レオナとミリアには強く出る
+          applicable part:
+            - 
+        - item: 一人でどこでも行く
+          applicable part:
+            - 
 
-    - item: 臆病
+    - item: ^臆病
       portrayal:
-        - .[ ] 急に怖くなるときがある
-        - .[ ] 自分の立場が悪くなるようなことを告白できない
+        - item: 急に怖くなるときがある
+          applicable part:
+            - 
+        - item: 自分の立場が悪くなるようなことを告白できない
+          applicable part:
+            - 
+
+    - item: ^癖
+      portrayal:
+        - item: 
+          applicable part:
+            - 
 
 
 - dn: ローズ
   contents:
-    - item: 傲慢に振る舞って優越感に浸る
+    - item: ^傲慢に振る舞って優越感に浸る
       portrayal:
-        - .[ ] 相手の話をさえぎる
-        - .[ ] 魔法を行使して力を見せつける
+        - item: 相手の話をさえぎる
+          applicable part:
+            - 
+        - item: 魔法を行使して力を見せつける
+          applicable part:
+            - 
 
-    - item: 嫉妬に狂って
+    - item: ^嫉妬に狂って
       portrayal:
-        - .[ ] アリスを大したことなかったと侮る
-        - .[ ] 自分を倒せるアリスに嫉妬して執拗に攻撃する
+        - item: アリスを大したことなかったと侮る
+          applicable part:
+            - 
+        - item: 自分を倒せるアリスに嫉妬して執拗に攻撃する
+          applicable part:
+            - 
 
-    - item: 色欲
+    - item: ^色欲
       portrayal:
-        - .[ ] 「そんな顔されたら我慢できないな」
-        - .[ ] 会話の途中でさりげなく肩や腰に触れる
-        - .[ ] 上手くやったらいい思いをさせてあげるわ
+        - item: 「そんな顔されたら我慢できないな」
+          applicable part:
+            - 
+        - item: 会話の途中でさりげなく肩や腰に触れる
+          applicable part:
+            - 
+        - item: 上手くやったらいい思いをさせてあげるわ
+          applicable part:
+            - 
 
-    - item: 完璧主義でプライドが高いが、ふとした瞬間に弱さが見える
+    - item: ^完璧主義でプライドが高いが、ふとした瞬間に弱さが見える
       portrayal:
-        - .[ ] 魔力珠の痛みに弱さを見せる => エリーとフェイに縋る
+        - item: 魔力珠の痛みに弱さを見せる => エリーとフェイに縋る
+          applicable part:
+            - 
+
+    - item: ^癖
+      portrayal:
+        - item: 
+          applicable part:
+            - 
 
 
 - dn: エリー
   contents:
-    - item: 煮えたぎる思いを秘めながら冷静な言動をする
+    - item: ^煮えたぎる思いを秘めながら冷静な言動をする
       portrayal:
-        - .[ ] ローズとの会話も冷静だが乱れる
-        - .[ ] 冷静な言葉遣いだがレオナについて強い言葉を使う
-        - .[ ] レオナを冷静に糾弾する
+        - item: ローズとの会話も冷静だが乱れる
+          applicable part:
+            - 
+        - item: 冷静な言葉遣いだがレオナについて強い言葉を使う
+          applicable part:
+            - 
+        - item: レオナを冷静に糾弾する
+          applicable part:
+            - 
+
+    - item: ^癖
+      portrayal:
+        - item: 
+          applicable part:
+            - 
 
 
 - dn: フェイ
   contents:
-    - item: 今なお燻るコンプレックスに身を焦がして狂気を発する
+    - item: ^今なお燻るコンプレックスに身を焦がして狂気を発する
       portrayal:
-        - .[ ] ローズの言葉を狂気で解釈して悶える
-        - .[ ] ミリアを傷つけず我が物にしたくて狂気を囁く
-        - .[ ] ミリアを脅しつける
+        - item: ローズの言葉を狂気で解釈して悶える
+          applicable part:
+            - 
+        - item: ミリアを傷つけず我が物にしたくて狂気を囁く
+          applicable part:
+            - 
+        - item: ミリアを脅しつける
+          applicable part:
+            - 
+
+    - item: ^癖
+      portrayal:
+        - item: 
+          applicable part:
+            - 

@@ -1,23 +1,86 @@
-# 提示情報
-## ストーリー情報
-story information:
+# 装飾
+## 世界観装飾
+worldview decoration:
+  - item: 剣
+    applicable part:
+      - 
+  - item: 鎧
+    applicable part:
+      - 
+  - item: 魔法
+    applicable part:
+      - 
+  - item: 石造建築
+    applicable part:
+      - 
+  - item: 石畳もあるところにはある
+    applicable part:
+      - 
+  - item: 森
+    applicable part:
+      - 
+  - item: 城壁
+    applicable part:
+      - 
+  - item: 城
+    applicable part:
+      - 
+  - item: 木扉の窓
+    applicable part:
+      - 
+  - item: 敷物を敷いている露天
+    applicable part:
+      - 
+  - item: 市場
+    applicable part:
+      - 
+  - item: 時間を知らせる鐘の音
+    applicable part:
+      - 
+  - item: 魔物
+    applicable part:
+      - 
+  - item: いろいろな神殿
+    applicable part:
+      - 
+  - item: 食前儀礼
+    applicable part:
+      - 
+  - item: 神への祈り
+    applicable part:
+      - 
+  - item: 川や泉や湖を神聖視する（供物を沈める）
+    applicable part:
+      - 
+  - item: 木や石に触れる
+    applicable part:
+      - 
+  - item: 木を神聖視する
+    applicable part:
+      - 
+  - item: 神殿で供物（花やオリーブオイルやワイン）を捧げる
+    applicable part:
+      - 
+  - item: 神託を受ける
+    applicable part:
+      - 
+  - item: 火による浄化
+    applicable part:
+      - 
+  - item: 木や石に布や装飾品が結んである
+    applicable part:
+      - 
+  - item: 花や植物に話し掛ける
+    applicable part:
+      - 
+  - item: 祭典
+    applicable part:
+      - 
 
 
-## 世界観情報
-worldview information:
-  ### 構築
-  building:
-    - 
-
-  ### 持続
-  maintaining:
-    - 
-
-
-
-## キャラクター情報
-character information:
-- item: アリス
+## キャラクター装飾
+character decoration:
+- dn: アリス
   ### 構築
   building:
     - 
@@ -27,8 +90,7 @@ character information:
     - 
 
 
-
-- item: レオナ
+- dn: レオナ
   ### 構築
   building:
     - 
@@ -38,8 +100,7 @@ character information:
     - 
 
 
-
-- item: ミリア
+- dn: ミリア
   ### 構築
   building:
     - 
@@ -49,8 +110,7 @@ character information:
     - 
 
 
-
-- item: ペトラ
+- dn: ペトラ
   ### 構築
   building:
     - 
@@ -60,8 +120,7 @@ character information:
     - 
 
 
-
-- item: ローズ
+- dn: ローズ
   ### 構築
   building:
     - 
@@ -71,8 +130,7 @@ character information:
     - 
 
 
-
-- item: エリー
+- dn: エリー
   ### 構築
   building:
     - 
@@ -82,8 +140,7 @@ character information:
     - 
 
 
-
-- item: フェイ
+- dn: フェイ
   ### 構築
   building:
     - 
