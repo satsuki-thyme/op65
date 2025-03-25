@@ -27,7 +27,7 @@
 
     - item: ^癖
       portrayal:
-        - item: 
+        - item: 口癖work location
           applicable part:
             - 
 
@@ -57,7 +57,7 @@
 
     - item: ^癖
       portrayal:
-        - item: 頬に片手を当てて考える
+        - item: 人差し指を立てて提案する
           applicable part:
             - 
         - item: 自分を抱きしめて困る
@@ -96,7 +96,7 @@
 
     - item: ^癖
       portrayal:
-        - item: 唇を触って困る
+        - item: 頬に片手を当てて考える
           applicable part:
             - 
 
@@ -126,7 +126,10 @@
 
     - item: ^癖
       portrayal:
-        - item: 
+        - item: 腰に手を当てる
+          applicable part:
+            - 
+        - item: 腕を組む
           applicable part:
             - 
 
