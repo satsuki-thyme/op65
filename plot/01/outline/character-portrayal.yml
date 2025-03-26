@@ -27,7 +27,16 @@
 
     - item: ^癖
       portrayal:
-        - item: 口癖work location
+        - item: 優しく微笑む
+          applicable part:
+            - 
+        - item: 口癖「大丈夫、なんとかなるわ」（ミリアなどの不安に対して）
+          applicable part:
+            - 
+
+    - item: ^外見
+      portrayal:
+        - item: スカイブルーの瞳
           applicable part:
             - 
 
@@ -97,6 +106,9 @@
     - item: ^癖
       portrayal:
         - item: 頬に片手を当てて考える
+          applicable part:
+            - 
+        - item: いいことがあると「精霊の導きね」と言う
           applicable part:
             - 
 
@@ -172,12 +184,6 @@
           applicable part:
             - 
 
-    - item: ^癖
-      portrayal:
-        - item: 
-          applicable part:
-            - 
-
 
 - dn: エリー
   contents:
@@ -193,12 +199,6 @@
           applicable part:
             - 
 
-    - item: ^癖
-      portrayal:
-        - item: 
-          applicable part:
-            - 
-
 
 - dn: フェイ
   contents:
@@ -211,11 +211,5 @@
           applicable part:
             - 
         - item: ミリアを脅しつける
-          applicable part:
-            - 
-
-    - item: ^癖
-      portrayal:
-        - item: 
           applicable part:
             - 
