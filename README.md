@@ -24,7 +24,6 @@
 - plot/01/outline/background-requirements.yml: 背景の要件
 - plot/01/outline/character-base.yml:          キャラクターの基本設計
 - plot/01/outline/character-portrayal.yml:     キャラクター描写
-- plot/01/outline/decoration.yml:              装飾
 - plot/01/outline/elements-background.yml:     プロット要素 背景
 - plot/01/outline/elements-integration.yml:    プロット要素 統合
 - plot/01/outline/elements-love.yml:           プロット要素 恋愛
@@ -33,6 +32,7 @@
 - plot/01/outline/numbering.yml:               前兆要素の採番
 - plot/01/outline/outline.yml:                 概要プロット
 - plot/01/outline/ref-note.md:                 参照ノート
+- plot/01/outline/worldview-decoration.yml:    世界観装飾
 
 ##### 詳細
 - plot/01/details/001.yml:     プロット詳細 第1話
