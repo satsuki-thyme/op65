@@ -8,28 +8,24 @@
   ######  ########  ######     ##    ###     ######
 
 1:
-  meta:
-    name: レオナとの出会い
-    background: false
+  name: レオナとの出会い
+  background: false
   contents:
     /alice odl alice hnt s05 --- f - @alice- アリスが地上に出てきて数千年は経ってるかなと言う
     /alice odl alice prm s01 --- f - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
     /alice odl alice prm s02 --- f - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
     /                hnt s05         @zavia-
-    /intsc li0 leona --- --- --- f - @orb--- レオナがアリスに、ザヴィの死を伝える[ref-043]
     /alice odl alice hnt s05 --- f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
     /alice odl alice prm s02 --- f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
     /alice odl alice prm s03 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
     /leona odl leona prm s06 --- f - gDesire レオナが「前に……、進みたいんです」と言う[ref-025]
     /leona odl leona hnt s09 --- f - others- レオナがここに運命を変える出会いが待っていると言われていてと言う
-    /intsc li0 multi --- --- --- f - others- アリスの旅にレオナが加わる
     /alice lov multi --- --- --- f - favorbl 手を握る
 
 
 2:
-  meta:
-    name: ミリアとの出会い
-    background: false
+  name: ミリアとの出会い
+  background: false
   contents:
     /leona odl mob-- hnt s09 --- f - others- 民が噂話にカルツ王国を出す
     /leona odl alice hnt s09 --- f - @alice- アリスが所作が洗練されていて王族のようだと言う
@@ -38,17 +34,14 @@
     /alice odl alice hnt s05 --- f - @alice- 発狂した神獣を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
     /alice odl alice hnt s05 --- f - @alice- 神獣が平伏する
     /alice odl alice hnt s18 --- f - @alice- アリスが周囲への害を強く気にする
-    /intsc li0 multi --- --- --- f - others- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
       /myria odl myria prm s10 --- f - thought ミリアが「過去に囚われてはいけない」と言う
     /myria odl myria prm s11 --- f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
-    /intsc li0 multi --- --- --- f - others- アリスの旅にミリアが加わる
     /alice lov multi --- --- --- f - favorbl 手をつなぐ
 
 
 3:
-  meta:
-    name: ローズとの戦闘 1
-    background: false
+  name: ローズとの戦闘 1
+  background: false
   contents:
     /alice odl rose- pre s04 --- b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
     /rose- odl rose- --- --- --- b - @apostl 〃
@@ -73,17 +66,15 @@
 
 
 4:
-  meta:
-    name: ペトラとの出会い
-    background: false
+  name: ペトラとの出会い
+  background: false
   contents:
     /alice lov multi --- --- --- f - favorbl あーんする
     /leona odl leona pre s07 --- f b favorbl レオナが魔物を倒して強いところを見せる
       /leona odl alice pre s07 --- f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
-      /intsc li0 alice rel s08 --- f - others- 〃
+      /                rel s08
       /leona odl leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
       /leona odl leona hnt s19 --- f - thought このままではいけないという思いが漠然としている
-      /intsc li0 grp11 --- --- --- f - others- ペトラを助ける
     /leona odl leona hnt s09 --- f - others- レオナが自分に本当の力があればと悔しがる
     /myria odl myria hnt s13 --- f - others- レオナが自分に本当の力があればあんなことと悔しがるのを見て共感する
     /leona odl leona hnt s09 --- f - others- レオナが剣は父に教わったと言う
@@ -99,43 +90,35 @@
 
 
 5:
-  meta:
-    name: エリーとの戦闘 1
-    background: true
+  name: エリーとの戦闘 1
+  background: true
   contents:
     /leona odl leona pre --- r07 f b ordeal- レオナがエリーと戦う
       /leona odl erie- hnt s09 --- f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
       /leona odl leona pre s09 --- f - results レオナがエリーに敗北する
       /leona odl leona hnt --- r19 f - others- 〃
       /alice odl alice pre mid --- f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
-      /intsc li0 multi --- --- --- f - others- 〃
       /erie- odl erie- prm lst --- f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
     /alice lov multi --- --- --- f - others- アリスが治療する、ミリアが縋り付く
     /alice odl alice hnt mid --- f - thought ローズが自分たちに目をつけていることに戦いの予感がする
 
 
 6:
-  meta:
-    name: レオナの背景
-    background: true
+  name: レオナの背景
+  background: true
   contents:
     /leona odl leona pre mid --- f - bGround レオナの背景
     /                hnt     r09
-    /intsc li0 grp11 --- --- --- f - others- アリスとミリアがレオナの背景を聞く
-    /intsc li0 grp11 --- --- --- f - others- アリスとミリアが落ち込むレオナを慰める
     /alice lov alice --- --- --- f - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）
     /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 multi --- --- --- f - others- 〃
-      /intsc li0 multi rel s14 r08 f - others- アリスが「レオナの型は完成しているから型を破るべき」と言う
+      /leona odl alice rel s14 r08 f - others- アリスが「レオナの型は完成しているから型を破るべき」と言う
     /myria odl myria pre s12 --- f - favorbl お姉さんとして振る舞っていい調子 => レオナの訓練後
-    /intsc li0 multi --- --- --- f - others- 〃
     /myria odl myria hnt s13 --- f - others- アリスがミリアの魔法を褒めると祖母から教わったと嬉しそうにした直後に酷く落ち込む
 
 
 7:
-  meta:
-    name: ペトラの試練
-    background: false
+  name: ペトラの試練
+  background: false
   contents:
     /petra ??? petra --- --- --- f - others- アリスを嫌いと言う
     /myria odl myria hnt s13 --- f - others- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
@@ -161,21 +144,18 @@
       /fei-- etc rose- hnt s26 --- b - others- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
       /grp21 lov multi --- --- --- b - others- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
     /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 multi --- --- --- f - others- 〃
 
 
 8:
-  meta:
-    name: フェイとの戦闘 1
-    background: false
+  name: フェイとの戦闘 1
+  background: false
   contents:
     /myria odl myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
       /myria odl myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
       /myria odl fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
-      /intsc li0 multi --- --- --- f - others- アリスとレオナが戦いに干渉する
-      /alice lov multi --- --- --- f - others- アリスとレオナが戦いに干渉する
+      /myria odl alice --- --- --- f - others- アリスが戦いに干渉する
+      /myria odl leona --- --- --- f - others- レオナが戦いに干渉する
     /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 multi --- --- --- f - others- 〃
 
 
   ######  ########  ######  ########         #######
@@ -187,22 +167,18 @@
   ######  ########  ######     ##    ###    #########
 
 9:
-  meta:
-    name: ペトラが妖精領主になる
-    background: true
+  name: ペトラが妖精領主になる
+  background: true
   contents:
     /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 multi --- --- --- f - others- 〃
     /myria odl myria pre mid r13 f - bGround ミリアの背景
-    /intsc li0 multi --- --- --- f - others- アリスとレオナがミリアの背景を聞く
     /alice lov alice --- --- --- f - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
     /petra odl petra prm --- r15 f - gDesire ペトラが妖精領主になる
 
 
 10:
-  meta:
-    name: -
-    background: true
+  name: -
+  background: true
   contents:
     /alice odl alice hnt s05 --- f - @alice- アリスが素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
     /alice odl alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
@@ -210,9 +186,7 @@
     /alice odl alice hnt mid --- f - thought ローズと戦うことになる予感が強くなる
     /alice odl alice hnt mid --- f - thought ローズとは戦えないと悩む
     /alice lov multi --- --- --- f - favorbl 3人でバックハグ
-    /intsc li0 multi --- --- --- f - others- アリスの悩みをレオナとミリアが聞く
     /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 multi --- --- --- f - others- 〃
       /alice odl alice pre mid --- f - favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
       /leona odl leona rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
       /----- --- ----- pre mid
@@ -229,9 +203,8 @@
 
 
 11:
-  meta:
-    name: ローズとの戦闘 2
-    background: true
+  name: ローズとの戦闘 2
+  background: true
   contents:
     /alice odl alice pre --- mid f b ordeal- アリスがローズと戦う
       /alice odl alice hnt --- mid f - others- 説得を試みる
@@ -239,48 +212,40 @@
       /alice odl rose- pre r05 --- f - bGround ローズがアリスの背景に関する情報を言うntt
       /alice odl rose- --- --- --- f - @orb--- ローズが下腹部を押さえて苦しみ始める
     /alice lov alice --- --- --- f - thought アリスの、2人がかけがえのない存在だという気づき
-    /intsc li0 multi --- --- --- f - others- 怪我したアリスをレオナとミリアが心配する
     /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 multi --- --- --- f - others- 〃
 
 
 12:
-  meta:
-    name: アリスの背景
-    background: true
+  name: アリスの背景
+  background: true
   contents:
     /alice odl alice --- --- --- f - thought アリスがローズの体を心配する
     /alice odl alice pre lst r05 f - bGround アリスの背景
       /alice odl alice pre lst --- f - thought アリスの子に対する愛情
-    /intsc li0 multi --- --- --- f - others- レオナとミリアがアリスの背景を聞く
     /alice lov alice --- --- --- f - thought アリスの、2人に対する独占欲の気づき
 
 
 13:
-  meta:
-    name: 水着回
-    background: false
+  name: 水着回
+  background: false
   contents:
 
 
 14:
-  meta:
-    name: -
-    background: false
+  name: -
+  background: false
   contents:
     /leona odl leona pre lst --- f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
     /leona odl leona hnt mid --- f - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
     /leona odl multi pre mid --- f - others- レオナがアリスに訓練してもらう[ref-018]
-    /intsc li0 multi --- --- --- f - others- 〃
     /leona odl leona --- --- --- f - favorbl レオナがアリスから強くなったと言われる[ref-034]
     /alice odl multi pre s21 --- f - others- レオナとミリアが何かを作っている[ref-040]
     /alice lov multi --- --- --- f - favorbl 頭と頬を撫でる
 
 
 15:
-  meta:
-    name: エリーとの戦闘 2
-    background: false
+  name: エリーとの戦闘 2
+  background: false
   contents:
     /grp21
       /leona odl erie- pre mid --- b - threat- エリーが余裕ぶってレオナを殺すと言う
@@ -293,9 +258,8 @@
 
 
 16:
-  meta:
-    name: -
-    background: false
+  name: -
+  background: false
   contents:
     /myria odl myria pre mid --- f - thought ミリアが祖母を思う
       /myria odl myria pre mid --- f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
@@ -319,9 +283,8 @@
 
 
 17:
-  meta:
-    name: フェイとの戦闘 2
-    background: false
+  name: フェイとの戦闘 2
+  background: false
   contents:
     /myria odl myria pre --- mid f b ordeal- ミリアがフェイと戦う
       /myria odl myria hnt --- mid f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
@@ -337,13 +300,12 @@
   ######  ########  ######     ##    ###     #######
 
 18:
-  meta:
-    name: -
-    background: false
+  name: -
+  background: false
   contents:
     /alice odl alice pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     /alice odl alice hnt lst --- f - thought ローズを倒すことになる予感がする
-    /intsc li0 multi --- --- --- f - others- アリスがレオナに逸脱すれば勝てると言う, ミリアは魔法での逸脱を話す
+    /leona odl alice --- --- --- f - others- アリスがレオナに逸脱すれば勝てると言う, ミリアは魔法での逸脱を話す
     /leona odl leona pre lst --- f - thought 父王の剣を逸脱するなんてできないと思い込む
     /leona odl leona hnt lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
     /alice lov alice --- --- --- f - thought アリスの、2人を好きだというわがままの認識
@@ -359,7 +321,6 @@
     /                rel --- r23
     /leona odl myria pre lst --- f - others- ミリアがレオナを甘やかす[ref-042]
     /                rel     r25
-    /intsc li0 grp11 --- --- --- f - others- それぞれの思いを抱えつつ表面的には前向きに振る舞う
     /alice odl alice pre lst r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
     /alice lov alice --- --- --- f - thought アリスの、わがままを通そうという決意
     /grp21
@@ -367,9 +328,8 @@
 
 
 19:
-  meta:
-    name: フェイとの戦闘 3
-    background: false
+  name: フェイとの戦闘 3
+  background: false
   contents:
     /myria odl myria pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
       /myria odl myria hnt --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
@@ -380,21 +340,18 @@
 
 
 20:
-  meta:
-    name: -
-    background: false
+  name: -
+  background: false
   contents:
 
 
 21:
-  meta:
-    name: -
-    background: false
+  name: -
+  background: false
   contents:
     /alice odl alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
     /alice odl alice hnt lst --- f - thought ローズを倒すべきだと分かっている
     /leona odl leona pre lst --- f - favorbl ミリアとともに具合がいいntt
-    /intsc li0 alice --- --- --- f - others- アリスはレオナのfavoに癒やされる
     /alice lov alice --- --- --- f - thought アリスの、ミリアの願いが成就したことで、レオナの試練は予想されるわけで、それが乗り越えられたら告白するという決心
     /grp21
       /leona odl erie- pre lst --- b - threat- エリーがパワーアップして異形になる[ref-026]
@@ -402,9 +359,8 @@
 
 
 22:
-  meta:
-    name: エリーとの戦闘 3
-    background: false
+  name: エリーとの戦闘 3
+  background: false
   contents:
     /leona odl leona pre --- lst f b ordeal- レオナがエリーと戦う
       /leona odl leona hnt --- lst f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
@@ -415,9 +371,8 @@
 
 
 23:
-  meta:
-    name: -
-    background: false
+  name: -
+  background: false
   contents:
     /alice odl alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
     /alice odl alice hnt lst --- f - thought ローズを倒さないと事は収まらないと分かっている
@@ -427,9 +382,8 @@
 
 
 24:
-  meta:
-    name: ローズとの戦闘 3
-    background: false
+  name: ローズとの戦闘 3
+  background: false
   contents:
     /alice odl alice pre --- lst f b ordeal- アリスがローズと戦う
       /alice odl alice hnt --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
@@ -439,9 +393,8 @@
 
 
 25:
-  meta:
-    name: エスとの邂逅
-    background: false
+  name: エスとの邂逅
+  background: false
   contents:
     /alice odl alice prm --- r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる
     /alice odl alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う

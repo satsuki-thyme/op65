@@ -11,7 +11,8 @@
 1:
   name: レオナとの出会い
   contents:
-    /integ inf leona hnt s31 --- f - @zavia- ザヴィは世界を滅ぼそうとして倒された
+    /integ evn alice --- --- --- f - ------- アリスが地下から出てくる
+    /integ inf leona hnt s31 --- f - @zavia- ザヴィは世界を滅ぼそうとして倒された[ref-043]
 
 
 2:
@@ -21,6 +22,8 @@
     /integ inf myria hnt s32 --- f - @orb--- 遷世教団は魔力珠を探している
     /integ inf myria hnt s29 --- f - @es---- 遷世教団は遷世させたい
     /integ inf myria hnt s34 --- f - @elf--- エリクにハイエルフの叡智がある
+    /integ evn multi --- --- --- f - others- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
+    /integ evn multi --- --- --- f - others- アリスの旅にミリアが加わる
 
 
 3:
@@ -42,6 +45,7 @@
     /integ inf fact- --- --- --- f - threat- スパイ妖精の存在
     /integ inf rose- hnt s30 --- b - @rose-- ローズは自死することができない
     /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-2]
+    /integ evn grp11 --- --- --- f - others- ペトラを助ける
 
 
 5:
