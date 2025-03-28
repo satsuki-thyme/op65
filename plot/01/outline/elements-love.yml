@@ -19,7 +19,7 @@
 5:
   event: レオナの試練
   plot item:
-    /alice lov mltpl --- --- --- f - others- アリスが治療する、ミリアが縋り付く
+    /alice lov mltpl --- --- --- f - ------- アリスが治療する、ミリアが縋り付く
 6:
   event: レオナの背景
   plot item:
@@ -31,7 +31,7 @@
 8:
   event: ミリアの試練
   plot item:
-    /alice lov mltpl --- --- --- f - others- アリスとレオナが戦いに干渉する
+    /alice lov mltpl --- --- --- f - ------- アリスとレオナが戦いに干渉する
 9:
   event: ミリアの背景
   plot item:
