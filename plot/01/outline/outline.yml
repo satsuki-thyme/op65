@@ -9,10 +9,12 @@
 
 1:
   name: レオナとの出会い
+  main event: アリスが地下から出てくる
   background: false
   contents:
     /integ evn alice --- --- --- f - ------- アリスが地下から出てくる
     /integ evn grp11 --- --- --- f - ------- アリスの旅にレオナが加わる
+    /integ evn leona --- --- --- f - ------- レオナは{◯◯神}の修道会で活動している
     /integ inf leona hnt s31 --- f - @zavia- ザヴィは世界を滅ぼそうとして倒された[ref-043]
     /alice odl alice hnt s05 --- f - @alice- アリスが地上に出てきて数千年は経ってるかなと言う
     /alice odl alice prm s01 --- f - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
@@ -28,8 +30,10 @@
 
 2:
   name: ミリアとの出会い
+  main event: ミリアを神獣の暴走から助ける
   background: false
   contents:
+    /integ evn alice --- --- --- f - ------- 手持ちの宝石を換金する
     /integ evn multi --- --- --- f - ------- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
     /integ evn grp11 --- --- --- f - ------- アリスの旅にミリアが加わる
     /integ inf fact- --- --- --- f - @evil-- 邪神の呪いで神獣が破壊衝動に突き動かされる
@@ -50,16 +54,18 @@
 
 3:
   name: ローズとの戦闘 1
+  main event: 遷世教団の神殿に忍び込んで調べる
   background: false
   contents:
+    /integ evn grp11 --- --- --- f - ------- 遷世教団の神殿に忍び込む
     /integ inf rose- hnt s28 --- b - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすればもっと原初の存在……
     /                --- ---         @evil--
     /integ inf third hnt s29 --- f - @es---- 遷世教団は遷世神エスに仕えている
     /integ inf third hnt s29 --- f - @es---- 遷世は今の世界を終わらせて新しい世界に移行すること
     /integ inf third hnt s32 --- f - @orb--- 魔力珠はエリクにある
+    /integ inf third hnt s32 --- f - @orb--- エリクは東にある
     /integ inf rose- hnt s31 --- f - @zavia- ローズはザヴィの子
     /integ inf rose- hnt s31 --- f - @zavia- ザヴィはエリクで死んだ
-    /integ inf rose- hnt s33 --- f - @orbPln ローズがアリスは魔力珠を追うと言う
     /alice odl rose- pre s04 --- b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
     /rose- odl rose- --- --- --- b - @apostl 〃
     /alice odl alice pre s04 --- f - threat- アリスがローズの噂を聞く[ref-020]
@@ -80,16 +86,20 @@
       /leona odl erie- pre s16 --- b - threat- エリーがレオナに憎しみの視線を送る
       /                hnt s09
       /myria odl fei-- pre s17 --- b - threat- フェイがミリアを見て壮絶な笑みを浮かべる
+      /integ inf rose- hnt s33 --- f - @orbPln ローズがアリスは魔力珠を追うと言う
 
 
 4:
   name: ペトラとの出会い
+  main event: 妖精の森に誘われて訪れる
   background: false
   contents:
+    /integ evn grp11 --- --- --- f - ------- 妖精の森を訪れる
+    /integ evn grp11 --- --- --- f - ------- 妖精の森が妖精でいっぱいになっていると言われる
+    /integ evn grp11 --- --- --- f - ------- 魔物に追われているペトラを助ける
     /integ evn grp11 --- --- --- f - ------- アリスの旅にペトラが加わる
+    /integ inf third hnt s36 --- f - ------- 妖精女王の名が出る
     /integ inf fact- --- --- --- f - threat- スパイ妖精の存在
-    /integ inf rose- hnt s30 --- b - @rose-- ローズは自死することができない
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-2]
     /alice lov multi --- --- --- f - favorbl あーんする
     /leona odl leona pre s07 --- f b favorbl レオナが魔物を倒して強いところを見せる
       /leona odl alice pre s07 --- f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
@@ -108,12 +118,16 @@
     /grp21
       /leona odl erie- pre s07 r16 b - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
       /grp21 lov multi --- --- --- b - ------- 戦いの前にローズがエリーにエロい祝福をする[ref-037-1]
+      /integ inf rose- hnt s30 --- b - @rose-- ローズは自死することができない
+      /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-2]
 
 
 5:
   name: エリーとの戦闘 1
+  main event: 
   background: true
   contents:
+    /leona odl leona pre s07 --- f - favorbl 盗賊騎士を強気に抑える、通行料の相場を言って認めさせる、妖精から取らせない
     /leona odl leona pre --- r07 f b ordeal- レオナがエリーと戦う
       /leona odl erie- hnt s09 --- f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
       /leona odl leona pre s09 --- f - results レオナがエリーに敗北する
@@ -126,6 +140,7 @@
 
 6:
   name: レオナの背景
+  main event: 
   background: true
   contents:
     /leona odl leona pre mid --- f - bGround レオナの背景
@@ -139,6 +154,7 @@
 
 7:
   name: ペトラの試練
+  main event: 
   background: false
   contents:
     /petra ??? petra --- --- --- f - ------- アリスを嫌いと言う
@@ -169,6 +185,7 @@
 
 8:
   name: フェイとの戦闘 1
+  main event: 
   background: false
   contents:
     /integ inf fei-- hnt s29 --- f - @es---- エスが遷世させてくれる
@@ -190,6 +207,7 @@
 
 9:
   name: ペトラが妖精領主になる
+  main event: 
   background: true
   contents:
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
@@ -200,8 +218,10 @@
 
 10:
   name: -
+  main event: 
   background: true
   contents:
+    /integ evn grp11 hnt --- r36 f - ------- 妖精女王に謁見する
     /integ inf third hnt s32 --- f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
     /integ inf third hnt s33 --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
     /integ inf third hnt s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
@@ -231,6 +251,7 @@
 
 11:
   name: ローズとの戦闘 2
+  main event: 
   background: true
   contents:
     /integ inf rose- hnt s32 --- f - @orb--- 魔力珠はローズの中にある
@@ -248,6 +269,7 @@
 
 12:
   name: アリスの背景
+  main event: 
   background: true
   contents:
     /alice odl alice --- --- --- f - thought アリスがローズの体を心配する
@@ -258,6 +280,7 @@
 
 13:
   name: 水着回
+  main event: 
   background: false
   contents:
     /integ inf third hnt s29 --- f - @es---- エスは邪神によって世界の破壊を欲するようにさせられた
@@ -267,6 +290,7 @@
 
 14:
   name: -
+  main event: 
   background: false
   contents:
     /leona odl leona pre lst --- f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
@@ -279,6 +303,7 @@
 
 15:
   name: エリーとの戦闘 2
+  main event: 
   background: false
   contents:
     /integ inf rose- hnt s33 --- b - @orbPln 望みの全てはエリクの封印に懸かっている
@@ -297,6 +322,7 @@
 
 16:
   name: -
+  main event: 
   background: false
   contents:
     /integ inf petra hnt s29 --- f - @es---- エスはエリクに封印されている
@@ -324,6 +350,7 @@
 
 17:
   name: フェイとの戦闘 2
+  main event: 
   background: false
   contents:
     /integ inf fei-- hnt s33 --- f - @orbPln エスの封印は封印を上回る魔力が内側から放出されることで解ける
@@ -342,6 +369,7 @@
 
 18:
   name: -
+  main event: 
   background: false
   contents:
     /alice odl alice pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
@@ -370,6 +398,7 @@
 
 19:
   name: フェイとの戦闘 3
+  main event: 
   background: false
   contents:
     /integ inf fei-- hnt s33 --- f - @orbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
@@ -384,12 +413,14 @@
 
 20:
   name: -
+  main event: 
   background: false
   contents:
 
 
 21:
   name: -
+  main event: 
   background: false
   contents:
     /integ inf rose- hnt s30 --- b - @rose-- ローズがエリーを強化する
@@ -405,6 +436,7 @@
 
 22:
   name: エリーとの戦闘 3
+  main event: 
   background: false
   contents:
     /integ inf erie- hnt s33 --- f - @orbPln ローズは死ぬ気でいるから助けてほしい
@@ -418,6 +450,7 @@
 
 23:
   name: -
+  main event: 
   background: false
   contents:
     /integ inf rose- hnt s32 --- b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
@@ -432,6 +465,7 @@
 
 24:
   name: ローズとの戦闘 3
+  main event: 
   background: false
   contents:
     /integ inf rose- hnt --- r31 f - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
@@ -448,6 +482,7 @@
 
 25:
   name: エスとの邂逅
+  main event: 
   background: false
   contents:
     /integ inf noCha hnt --- r32 f - @orb--- 魔力珠を手に入れる
