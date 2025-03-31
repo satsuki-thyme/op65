@@ -102,6 +102,8 @@
 - thinking-notes/thi-047.md: アリスたちが助け合う具体的な内容を作る
 - thinking-notes/thi-048.md: 装飾について
 - thinking-notes/thi-049.md: 統合プロットの下書き
+- thinking-notes/thi-050.md: 第7話 統合イベント
+- thinking-notes/thi-051.md: 素直になれない気持ちに立ち向かう勇気
 
 ### アーカイブ
 #### before-2025-01-13

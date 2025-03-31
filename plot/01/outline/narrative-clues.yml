@@ -1,119 +1,120 @@
 # 前兆要素の採番
 01:
-      /alice li1 alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
+    /alice li1 alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
 
 02:
-      /alice li1 alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を復活したエスへ投げる
+    /alice li1 alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を復活したエスへ投げる
 
 03:
-      /alice li1 alice prm --- r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる[memo-019]
+    /alice li1 alice prm --- r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる[memo-019]
 
 04:
-      /alice li1 alice pre --- r04 f b ordeal- アリスがローズと戦う
+    /alice li1 alice pre --- r04 f b ordeal- アリスがローズと戦う
 
 05:
-      /alice li1 alice pre mid r05 f - bground アリスの背景
+    /alice li1 alice pre mid r05 f - bground アリスの背景
 
 06:
-      /leona li1 leona prm --- r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
+    /leona li1 leona prm --- r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
 
 07:
-      /leona li1 leona pre --- r07 f b ordeal- レオナがエリーと戦う
+    /leona li1 leona pre --- r07 f b ordeal- レオナがエリーと戦う
 
 08:
-      /leona li1 leona pre mid r08 f - ------ アリスが「レオナの型は完成しているから型を破るべき」と言う
+    /leona li1 leona pre mid r08 f - ------ アリスが「レオナの型は完成しているから型を破るべき」と言う
 
 09:
-      /leona li1 leona pre mid r09 f - bground レオナの背景
+    /leona li1 leona pre mid r09 f - bground レオナの背景
 
 10:
-      /myria li1 myria prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
+    /myria li1 myria prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
 
 11:
-      /myria li1 myria prm --- r11 f - gDesire ミリアがハイエルフの叡智を得る
+    /myria li1 myria prm --- r11 f - gDesire ミリアがハイエルフの叡智を得る
 
 12:
-      /myria li1 myria pre --- r12 f b ordeal- ミリアがフェイと戦う
+    /myria li1 myria pre --- r12 f b ordeal- ミリアがフェイと戦う
 
 13:
-      /myria li1 myria pre mid r13 f - bground ミリアの背景
+    /myria li1 myria pre mid r13 f - bground ミリアの背景
 
 14:
-      /leona li1 leona rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
+    /leona li1 leona rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
 
 15:
-      /petra li1 petra prm --- r15 f - gDesire ペトラが妖精領主になる
+    /petra li1 petra prm --- r15 f - gDesire ペトラが妖精領主になる
 
 16:
-      /leona li1 leona pre s07 r16 b - threat- エリーがレオナに憎悪を向ける
+    /leona li1 leona pre s07 r16 b - threat- エリーがレオナに憎悪を向ける
 
 17:
-      /myria li1 myria pre s12 r17 b - threat- フェイがエルフへの欲望を吐露する => 心を奪うみたいなことを言う
+    /myria li1 myria pre s12 r17 b - threat- フェイがエルフへの欲望を吐露する => 心を奪うみたいなことを言う
 
 18:
-        /alice odl alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
-        /                        s05
-        /                    hnt r18
+    /alice odl alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+    /            s05
+    /          hnt r18
 
 19:
-        /leona odl leona hnt --- r19 f - ------- 〃レオナがエリーに敗北する
+    /leona odl leona hnt --- r19 f - ------- 〃レオナがエリーに敗北する
 
 20:
-        /myria odl myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
+    /myria odl myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
 
 21:
-      /alice odl alice pre lst r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
+    /alice odl alice pre lst r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
 
 22:
-      /myria odl leona pre mid --- f - favorbl レオナがミリアに甘える[ref-042]
-      /                rel s23 r22
+    /myria odl leona pre mid --- f - favorbl レオナがミリアに甘える[ref-042]
+    /        rel s23 r22
 
 23:
-      /myria odl leona pre lst --- f - favorbl レオナがミリアに甘える[ref-042]
-      /                rel --- r23
+    /myria odl leona pre lst --- f - favorbl レオナがミリアに甘える[ref-042]
+    /        rel --- r23
 
 24:
-      /leona odl myria pre mid --- f - ------- ミリアがレオナを甘やかす[ref-042]
-      /                rel s25 r24
+    /leona odl myria pre mid --- f - ------- ミリアがレオナを甘やかす[ref-042]
+    /        rel s25 r24
 
 25:
-      /leona odl myria pre lst --- f - ------- ミリアがレオナを甘やかす[ref-042]
-      /                rel     r25
+    /leona odl myria pre lst --- f - ------- ミリアがレオナを甘やかす[ref-042]
+    /        rel     r25
 
 26:
-      /myria odl fei-- pre mid r26 b - bground フェイの背景
+    /myria odl fei-- pre mid r26 b - bground フェイの背景
 
 27:
-        /integ etc rose- rel --- r27 b - @es---- なぜザヴィが封印したのでしょう？に対してザヴィは邪神に呪われていたと言う
+    /integ etc rose- rel --- r27 b - @es---- なぜザヴィが封印したのでしょう？に対してザヴィは邪神に呪われていたと言う
 
 28:
-        /integ li1 noCha hnt --- r28 f - @alice- アリスの力が解放されてエリクが楽園になる
+    /integ li1 noCha hnt --- r28 f - @alice- アリスの力が解放されてエリクが楽園になる
 
 29:
-        /integ li0 third hnt --- r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
+    /integ li0 third hnt --- r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
 
 30:
-        /integ li0 noCha hnt --- r30     @rose-- エスは封印される前に残した思念体によってローズを乗っ取ったと知る
+    /integ li0 noCha hnt --- r30     @rose-- エスは封印される前に残した思念体によってローズを乗っ取ったと知る
 
 31:
-        /integ li0 rose- hnt --- r31 f - @zavia- エスはザヴィとローズが封印した
+    /integ li0 rose- hnt --- r31 f - @zavia- エスはザヴィとローズが封印した
 
 32:
-        /integ li0 noCha hnt --- r32 f - @orb--- 魔力珠を手に入れる
+    /integ li0 noCha hnt --- r32 f - @orb--- 魔力珠を手に入れる
 
 33:
-        /integ li0 rose- hnt --- r33 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
+    /integ li0 rose- hnt --- r33 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
 
 34:
-        /integ li0 myria hnt --- r34 f - @elf--- ミリアがエルフの叡智を得て祖母と再会する
+    /integ li0 myria hnt --- r34 f - @elf--- ミリアがエルフの叡智を得て祖母と再会する
 
 35:
-        /integ li0 third hnt --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
+    /integ li0 third hnt --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
 
 36:
     /integ evn grp11 hnt --- r36 f - ------- 妖精女王に謁見する
 
 37:
+    /petra odl petra pre --- r37 f - ------- アリスに石碑のことを伝えたい気持ちに素直になる
 
 38:
 
