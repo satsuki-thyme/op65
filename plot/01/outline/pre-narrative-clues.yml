@@ -1,0 +1,21 @@
+# 前兆要素準備
+- item: 001
+  resolution: 000 xxx
+  narrative-clues:
+    - 002 神獣の発狂を治してやる
+
+- item: 002
+  resolution: 000 xxx
+  narrative-clues:
+    - 007 妖精に◯◯をもらう
+
+- item: 003
+  resolution: 000 xxx
+  narrative-clues:
+    - 007 ドラゴンとの対話
+
+- item: 
+  resolution: 000 xxx
+  narrative-clues:
+    - 000 xxx
+

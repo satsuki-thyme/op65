@@ -6,7 +6,6 @@
        ## ##       ##          ##              ##
  ##    ## ##       ##    ##    ##    ###       ##
   ######  ########  ######     ##    ###     ######
-a: 前半で得たものが後半を乗り切るのに役立つntt
 
 1:
   name: レオナとの出会い
@@ -116,6 +115,7 @@ a: 前半で得たものが後半を乗り切るのに役立つntt
   narrative clues: 
   contents:
     /integ evn grp11 --- --- --- f - ------- 妖精の森を訪れる
+    /integ evn fact- --- --- --- f - ------- 妖精のポヤポヤした様子を描く => ペトラがポヤポヤしていても領主になれる理由
     /integ evn grp11 --- --- --- f - ------- 妖精の森が妖精でいっぱいになっていると言われる
     /integ evn grp11 --- --- --- f - ------- 魔物に追われているペトラを助ける
     /integ evn grp11 --- --- --- f - ------- アリスの旅にペトラが加わる
@@ -185,7 +185,7 @@ a: 前半で得たものが後半を乗り切るのに役立つntt
 
 7:
   name: ペトラの試練
-  integration event: 
+  integration event: 妖精の森近くにやってきたドラゴンと対話する
   location: 道
   objective:
     start: 街
@@ -193,7 +193,8 @@ a: 前半で得たものが後半を乗り切るのに役立つntt
     top: 東 / エリク
   narrative clues: 
   contents:
-    /petra ??? petra --- --- --- f - ------- アリスを嫌いと言う
+    /integ evn grp11 --- --- --- f - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
+    /petra odl petra --- --- --- f - ------- アリスを嫌いと言う
     /myria odl myria hnt s13 --- f - ------- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
     /myria odl myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
       /myria odl myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
@@ -221,7 +222,7 @@ a: 前半で得たものが後半を乗り切るのに役立つntt
 
 8:
   name: フェイとの戦闘 1
-  integration event: 
+  integration event: work location
   location: 
   objective:
     start: 

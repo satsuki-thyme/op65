@@ -30,6 +30,7 @@
 - plot/01/outline/elements-ordeal.yml:         プロット要素 試練
 - plot/01/outline/narrative-clues.yml:         前兆要素の採番
 - plot/01/outline/outline.yml:                 概要プロット
+- plot/01/outline/pre-narrative-clues.yml:     前兆要素の準備
 - plot/01/outline/ref-note.md:                 参照ノート
 - plot/01/outline/worldview-decoration.yml:    世界観装飾
 
