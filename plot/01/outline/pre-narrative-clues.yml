@@ -2,17 +2,27 @@
 - item: 001
   resolution: 000 xxx
   narrative-clues:
-    - 002 神獣の発狂を治してやる
+    - 001 石碑にヘストエリアの文字
 
 - item: 002
   resolution: 000 xxx
   narrative-clues:
-    - 007 妖精に◯◯をもらう
+    - 002 神獣の発狂を治してやる
 
 - item: 003
   resolution: 000 xxx
   narrative-clues:
+    - 007 妖精に◯◯をもらう
+
+- item: 004
+  resolution: 000 xxx
+  narrative-clues:
     - 007 ドラゴンとの対話
+
+- item: 005
+  resolution: 000 xxx
+  narrative-clues:
+    - 000 xxx
 
 - item: 
   resolution: 000 xxx

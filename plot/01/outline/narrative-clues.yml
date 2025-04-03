@@ -52,8 +52,8 @@
 
 18:
     /alice odl alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
-    /            s05
-    /          hnt r18
+    /                    s05
+    /                hnt     r18
 
 19:
     /leona odl leona hnt --- r19 f - ------- 〃レオナがエリーに敗北する
@@ -66,19 +66,19 @@
 
 22:
     /myria odl leona pre mid --- f - favorbl レオナがミリアに甘える[ref-042]
-    /        rel s23 r22
+    /                rel s23 r22
 
 23:
     /myria odl leona pre lst --- f - favorbl レオナがミリアに甘える[ref-042]
-    /        rel --- r23
+    /                rel     r23
 
 24:
     /leona odl myria pre mid --- f - ------- ミリアがレオナを甘やかす[ref-042]
-    /        rel s25 r24
+    /                rel s25 r24
 
 25:
     /leona odl myria pre lst --- f - ------- ミリアがレオナを甘やかす[ref-042]
-    /        rel     r25
+    /                rel     r25
 
 26:
     /myria odl fei-- pre mid r26 b - bground フェイの背景
@@ -117,6 +117,8 @@
     /petra odl petra pre --- r37 f - ------- アリスに石碑のことを伝えたい気持ちに素直になる
 
 38:
+    /myria odl myria prm s11 --- f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
+    /                pre     r38
 
 39:
 

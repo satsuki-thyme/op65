@@ -9,6 +9,7 @@
 
 1:
   name: レオナとの出会い
+  elapsed days: 0
   integration event: アリスが地下から出てくる
   location: 森
   objective:
@@ -25,6 +26,7 @@
     /alice odl alice prm s01 --- f - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
     /alice odl alice prm s02 --- f - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
     /                hnt s05         @zavia-
+    /integ evn alice fsh s39 --- f - @es---- ヘストエリアの神殿はなくなっちゃったんだねと言う[ref-045]
     /alice odl alice hnt s05 --- f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
     /alice odl alice prm s02 --- f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
     /alice odl alice prm s03 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
@@ -35,13 +37,14 @@
 
 2:
   name: ミリアとの出会い
+  elapsed days: 1
   integration event: ミリアを神獣の暴走から助ける
   location: 街
   objective:
     start: 宿
     end: 遷世教団の神殿
     top: エリク
-  narrative clues: 神獣
+  narrative clues: 神獣の発狂を治してやる
   contents:
     /integ evn alice --- --- --- f - ------- 手持ちの宝石を換金する
     /integ evn multi --- --- --- f - ------- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
@@ -58,12 +61,15 @@
     /alice odl alice hnt s05 --- f - @alice- 神獣が平伏する
     /alice odl alice hnt s18 --- f - @alice- アリスが周囲への害を強く気にする
       /myria odl myria prm s10 --- f - thought ミリアが「過去に囚われてはいけない」と言う
+    /myria odl myria pre s38 --- f - thought 強い精霊信仰 => 精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
     /myria odl myria prm s11 --- f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
+    /                pre     r38
     /alice lov multi --- --- --- f - favorbl 手をつなぐ
 
 
 3:
   name: ローズとの戦闘 1
+  elapsed days: 2
   integration event: 遷世教団の神殿に忍び込んで調べる
   location: 遷世教団の神殿
   objective:
@@ -106,6 +112,7 @@
 
 4:
   name: ペトラとの出会い
+  elapsed days: 3
   integration event: ペトラを助けて妖精の森に行く
   location: 危険な近道
   objective:
@@ -145,6 +152,7 @@
 
 5:
   name: エリーとの戦闘 1
+  elapsed days: 4
   integration event: 盗賊騎士の関門
   location: 通常の道
   objective:
@@ -166,6 +174,7 @@
 
 6:
   name: レオナの背景
+  elapsed days: 5
   integration event: 祭り
   location: 街
   objective:
@@ -185,13 +194,14 @@
 
 7:
   name: ペトラの試練
+  elapsed days: 6
   integration event: 妖精の森近くにやってきたドラゴンと対話する
   location: 道
   objective:
     start: 街
     end: 街
     top: 東 / エリク
-  narrative clues: 
+  narrative clues: 妖精に◯◯をもらう, ドラゴンとの対話
   contents:
     /integ evn grp11 --- --- --- f - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
     /petra odl petra --- --- --- f - ------- アリスを嫌いと言う
@@ -222,20 +232,21 @@
 
 8:
   name: フェイとの戦闘 1
-  integration event: work location
-  location: 
+  elapsed days: 7
+  integration event: 
+  location: 街の近く
   objective:
-    start: 
-    end: 
-    top: 
+    start: 街
+    end: 街
+    top: 東 / エリク
   narrative clues: 
   contents:
-    /integ inf fei-- hnt s29 --- f - @es---- エスが遷世させてくれる
     /myria odl myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
       /myria odl myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
       /myria odl fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
       /myria odl alice --- --- --- f - ------- アリスが戦いに干渉する
       /myria odl leona --- --- --- f - ------- レオナが戦いに干渉する
+      /integ inf fei-- hnt s29 --- f - @es---- エスが遷世させてくれるntt(遷世教団の神殿で分かることでは？)
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
 
 
@@ -249,6 +260,7 @@
 
 9:
   name: ペトラが妖精領主になる
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -265,6 +277,7 @@
 
 10:
   name: -
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -303,6 +316,7 @@
 
 11:
   name: ローズとの戦闘 2
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -326,6 +340,7 @@
 
 12:
   name: アリスの背景
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -342,6 +357,7 @@
 
 13:
   name: 水着回
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -357,6 +373,7 @@
 
 14:
   name: -
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -375,6 +392,7 @@
 
 15:
   name: エリーとの戦闘 2
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -399,6 +417,7 @@
 
 16:
   name: -
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -432,6 +451,7 @@
 
 17:
   name: フェイとの戦闘 2
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -456,6 +476,7 @@
 
 18:
   name: -
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -490,6 +511,7 @@
 
 19:
   name: フェイとの戦闘 3
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -510,6 +532,7 @@
 
 20:
   name: -
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -522,6 +545,7 @@
 
 21:
   name: -
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -530,8 +554,6 @@
     top: 
   narrative clues: 
   contents:
-    /integ inf rose- hnt s30 --- b - @rose-- ローズがエリーを強化する
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-8]
     /alice odl alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
     /alice odl alice hnt lst --- f - thought ローズを倒すべきだと分かっている
     /leona odl leona pre lst --- f - favorbl ミリアとともに具合がいいntt
@@ -539,10 +561,13 @@
     /grp21
       /leona odl erie- pre lst --- b - threat- エリーがパワーアップして異形になる[ref-026]
       /grp21 lov multi --- --- --- b - ------- エロいことをする[ref-037-5]
+      /integ inf rose- hnt s30 --- b - @rose-- ローズがエリーを強化する
+      /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-8]
 
 
 22:
   name: エリーとの戦闘 3
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -562,6 +587,7 @@
 
 23:
   name: -
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -570,18 +596,19 @@
     top: 
   narrative clues: 
   contents:
-    /integ inf rose- hnt s32 --- b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが自分自身を強化する
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-9]
     /alice odl alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
     /alice odl alice hnt lst --- f - thought ローズを倒さないと事は収まらないと分かっている
     /alice lov multi --- --- --- f - favorbl 告白とキス
     /grp21
       /alice odl rose- pre lst --- b - threat- ローズがパワーアップする[ref-023]
+      /integ inf rose- hnt s32 --- b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
+      /integ inf rose- hnt s30 --- b - @rose-- ローズが自分自身を強化する
+      /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-9]
 
 
 24:
   name: ローズとの戦闘 3
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -604,6 +631,7 @@
 
 25:
   name: エスとの邂逅
+  elapsed days: 
   integration event: 
   location: 
   objective:
@@ -612,6 +640,7 @@
     top: 
   narrative clues: 
   contents:
+    /integ evn alice fsh --- r39 f - @es---- エス＝ヘストエリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
     /integ inf noCha hnt --- r32 f - @orb--- 魔力珠を手に入れる
     /integ inf third hnt --- r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
     /integ inf third hnt --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
