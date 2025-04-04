@@ -62,7 +62,7 @@
 8:
   name: フェイとの戦闘 1
   contents:
-    /integ inf fei-- hnt s29 --- f - @es---- エスが遷世させてくれる
+    /integ inf fei-- hnt s29 --- f - @es---- エスはエリクに封印されている
 
 
 9:
@@ -117,7 +117,6 @@
 16:
   name:
   contents:
-    /integ inf petra hnt s29 --- f - @es---- エスはエリクに封印されている
     /integ inf petra hnt s33 --- f - @orbPln 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
 
 

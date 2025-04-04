@@ -17,6 +17,8 @@
     end: 街
     top: エリク
   narrative clues: 石碑にヘストエリアの文字
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn alice --- --- --- f - ------- アリスが地下から出てくる
     /integ evn grp11 --- --- --- f - ------- アリスの旅にレオナが加わる
@@ -45,7 +47,10 @@
     end: 遷世教団の神殿
     top: エリク
   narrative clues: 神獣の発狂を治してやる
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ evn myria pre s11 --- f - ------- ミリアの精霊魔法が弱いことを印象づける
     /integ evn alice --- --- --- f - ------- 手持ちの宝石を換金する
     /integ evn multi --- --- --- f - ------- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
     /integ evn grp11 --- --- --- f - ------- アリスの旅にミリアが加わる
@@ -77,6 +82,8 @@
     end: 東
     top: エリク
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn grp11 --- --- --- f - ------- 遷世教団の神殿に忍び込む
     /integ inf rose- hnt s28 --- b - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすればもっと原初の存在……
@@ -120,6 +127,8 @@
     end: 街
     top: 東 / エリク
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn grp11 --- --- --- f - ------- 妖精の森を訪れる
     /integ evn fact- --- --- --- f - ------- 妖精のポヤポヤした様子を描く => ペトラがポヤポヤしていても領主になれる理由
@@ -160,6 +169,8 @@
     end: 街
     top: 東 / エリク
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /leona odl leona pre s07 --- f - favorbl 盗賊騎士を強気に抑える、通行料の相場を言って認めさせる、妖精から取らせない
     /leona odl leona pre --- r07 f b ordeal- レオナがエリーと戦う
@@ -182,6 +193,8 @@
     end: 次の街
     top: 東 / エリク
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /leona odl leona pre mid --- f - bGround レオナの背景
     /                hnt     r09
@@ -202,6 +215,8 @@
     end: 街
     top: 東 / エリク
   narrative clues: 妖精に◯◯をもらう, ドラゴンとの対話
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn grp11 --- --- --- f - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
     /petra odl petra --- --- --- f - ------- アリスを嫌いと言う
@@ -240,13 +255,15 @@
     end: 街
     top: 東 / エリク
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /myria odl myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
       /myria odl myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
       /myria odl fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
       /myria odl alice --- --- --- f - ------- アリスが戦いに干渉する
       /myria odl leona --- --- --- f - ------- レオナが戦いに干渉する
-      /integ inf fei-- hnt s29 --- f - @es---- エスが遷世させてくれるntt(遷世教団の神殿で分かることでは？)
+      /integ inf fei-- hnt s29 --- f - @es---- エスはエリクに封印されている
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
 
 
@@ -268,6 +285,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
     /myria odl myria pre mid r13 f - bGround ミリアの背景
@@ -285,6 +304,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn grp11 hnt --- r36 f - ------- 妖精女王に謁見する
     /integ inf third hnt s32 --- f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
@@ -324,6 +345,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ inf rose- hnt s32 --- f - @orb--- 魔力珠はローズの中にある
     /integ inf rose- hnt s31 --- f - @zavia- ザヴィはローズが殺した
@@ -348,6 +371,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice odl alice --- --- --- f - thought アリスがローズの体を心配する
     /alice odl alice pre lst r05 f - bGround アリスの背景
@@ -365,6 +390,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ inf third hnt s29 --- f - @es---- エスは邪神によって世界の破壊を欲するようにさせられた
     /                                @evil--
@@ -381,6 +408,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /leona odl leona pre lst --- f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
     /leona odl leona hnt mid --- f - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
@@ -400,6 +429,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ inf rose- hnt s33 --- b - @orbPln 望みの全てはエリクの封印に懸かっている
     /integ inf rose- hnt s33 --- b - @orbPln エスは封印の中で邪神の呪いに苛まれている
@@ -425,8 +456,9 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ inf petra hnt s29 --- f - @es---- エスはエリクに封印されている
     /integ inf petra hnt s33 --- f - @orbPln 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
     /myria odl myria pre mid --- f - thought ミリアが祖母を思う
       /myria odl myria pre mid --- f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
@@ -459,6 +491,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ inf fei-- hnt s33 --- f - @orbPln エスの封印は封印を上回る魔力が内側から放出されることで解ける
     /myria odl myria pre --- mid f b ordeal- ミリアがフェイと戦う
@@ -484,7 +518,10 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /myria odl myria pre lst --- f - ------- ミリアがアリスから魔法をファンブルさせる魔法を教わる
     /alice odl alice pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     /alice odl alice hnt lst --- f - thought ローズを倒すことになる予感がする
     /leona odl alice --- --- --- f - ------- アリスがレオナに逸脱すれば勝てると言う, ミリアは魔法での逸脱を話す
@@ -519,14 +556,17 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ inf fei-- hnt s33 --- f - @orbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
-    /integ inf myria hnt --- r34 f - @elf--- ミリアがエルフの叡智を得て祖母と再会する
+    /integ inf myria hnt --- r34 f - @elf--- ミリアがハイエルフの叡智を得て祖母と再会する
     /myria odl myria pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
       /myria odl myria hnt --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
       /myria odl myria --- --- --- f - results ミリアがフェイを倒す
     /myria odl myria prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
     /myria odl myria prm --- r11 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
+    /                pre
     /fei-- odl fei-- prm --- lst f - results フェイがミリアに敗北する[ref-029]
 
 
@@ -540,6 +580,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
 
 
@@ -553,6 +595,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice odl alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
     /alice odl alice hnt lst --- f - thought ローズを倒すべきだと分かっている
@@ -575,6 +619,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ inf erie- hnt s33 --- f - @orbPln ローズは死ぬ気でいるから助けてほしい
     /leona odl leona pre --- lst f b ordeal- レオナがエリーと戦う
@@ -595,6 +641,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice odl alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
     /alice odl alice hnt lst --- f - thought ローズを倒さないと事は収まらないと分かっている
@@ -616,6 +664,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ inf rose- hnt --- r31 f - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
     /integ inf rose- hnt s29 --- f - @es---- エスは封印される前に残した思念体によってローズを乗っ取った
@@ -639,6 +689,8 @@
     end: 
     top: 
   narrative clues: 
+  note:
+    - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn alice fsh --- r39 f - @es---- エス＝ヘストエリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
     /integ inf noCha hnt --- r32 f - @orb--- 魔力珠を手に入れる
