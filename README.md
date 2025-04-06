@@ -107,6 +107,7 @@
 - thinking-notes/thi-051.md: 素直になれない気持ちに立ち向かう勇気
 - thinking-notes/thi-052.md: 第8話 統合イベント ミリアのイベント
 - thinking-notes/thi-053.md: ミリアの魔法の具合はどうなのか
+- thinking-notes/thi-054.md: エス＝ヘストエリアのヒント
 
 ### アーカイブ
 #### before-2025-01-13
