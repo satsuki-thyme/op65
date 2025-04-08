@@ -28,7 +28,7 @@
     /alice odl alice prm s01 --- f - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
     /alice odl alice prm s02 --- f - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
     /                hnt s05         @zavia-
-    /integ evn alice fsh s39 --- f - @es---- ヘストエリアの神殿はなくなっちゃったんだねと言う[ref-045]
+    /integ evn alice fsh s39 --- f - @hesthe ヘストエリアの神殿はなくなっちゃったんだねと言う[ref-045]
     /alice odl alice hnt s05 --- f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
     /alice odl alice prm s02 --- f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
     /alice odl alice prm s03 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
@@ -86,6 +86,7 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn grp11 --- --- --- f - ------- 遷世教団の神殿に忍び込む
+    /integ evn grp11 --- --- --- f - @hesthe エスの神珠から感じられる神気に思い当たりがある、はっきり思い出せない（ヘストエリア）
     /integ inf rose- hnt s28 --- b - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすればもっと原初の存在……
     /                --- ---         @evil--
     /integ inf third hnt s29 --- f - @es---- 遷世教団は遷世神エスに仕えている
@@ -100,9 +101,9 @@
     /alice odl alice hnt s05 --- f - ------- アリスはローズの名を知っている
     /alice odl alice pre --- r04 f b ordeal- アリスがローズと戦う
       /alice odl alice --- --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
-      /rose- odl rose- hnt s05 --- f - @es---- ローズが封界の指輪を見て「見つけた！」と言って笑む
+      /rose- odl rose- hnt s05 --- f - @orbPln ローズが封界の指輪を見て「見つけた！」と言って笑む
       /                                @alice-
-      /rose- odl rose- --- --- --- f - @es---- ローズが遷世して殺されたザヴィに会うと言う
+      /rose- odl rose- --- --- --- f - @rose-- ローズが遷世して殺されたザヴィに会うと言う
       /alice odl alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
       /                    s05
       /                hnt     r18
@@ -219,6 +220,7 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn grp11 --- --- --- f - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
+    /integ evn grp11 --- --- --- f - @hesthe ペトラが見つけた碑文「エス＝◯◯◯◯リア」
     /petra odl petra --- --- --- f - ------- アリスを嫌いと言う
     /myria odl myria hnt s13 --- f - ------- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
     /myria odl myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
@@ -230,6 +232,7 @@
     /                rel s22
     /leona odl myria pre s09 --- f - ------- ミリアがレオナを甘やかす[ref-042]
     /                rel s24
+    /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
     /alice lov multi --- --- --- f - favorbl 恋人つなぎ（指を絡める）
     /grp21
       /erie- li2 erie- --- --- --- b - ------- エリーがアリスの強さについて報告する
@@ -242,7 +245,6 @@
       /fei-- etc rose- hnt s26 --- b - ------- ローズがあなたが才能を持っていたからよと言う
       /fei-- etc rose- hnt s26 --- b - ------- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
       /grp21 lov multi --- --- --- b - ------- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
-    /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
 
 
 8:
@@ -256,6 +258,7 @@
     top: 東 / エリク
   narrative clues: 
   note:
+    - エスがエリクに封印されていることをどうやって知るか考える
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /myria odl myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
@@ -263,7 +266,7 @@
       /myria odl fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
       /myria odl alice --- --- --- f - ------- アリスが戦いに干渉する
       /myria odl leona --- --- --- f - ------- レオナが戦いに干渉する
-      /integ inf fei-- hnt s29 --- f - @es---- エスはエリクに封印されている
+      /integ inf ????? hnt s29 --- f - @es---- エスはエリクに封印されている
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
 
 
@@ -295,7 +298,7 @@
 
 
 10:
-  name: -
+  name: 精霊女王への謁見
   elapsed days: 
   integration event: 
   location: 
@@ -311,6 +314,7 @@
     /integ inf third hnt s32 --- f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
     /integ inf third hnt s33 --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
     /integ inf third hnt s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
+    /integ inf third hnt s39 --- f - @hesthe アリスが妖精女王にエスについて尋ねると
     /integ inf rose- hnt s33 --- b - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　アリスは世界を救いたがるはず
     /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-4]
     /alice odl alice hnt s05 --- f - @alice- アリスが素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
@@ -372,6 +376,7 @@
     top: 
   narrative clues: 
   note:
+    - 水着の用意について考える
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice odl alice --- --- --- f - thought アリスがローズの体を心配する
@@ -391,10 +396,12 @@
     top: 
   narrative clues: 
   note:
+    - 水着の用意について考える
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ inf third hnt s29 --- f - @es---- エスは邪神によって世界の破壊を欲するようにさせられた
     /                                @evil--
+    /integ inf alice hnt s39 --- f - @es---- アリスが邪神の呪いなら解呪できるかもしれないと言う
     /integ inf third hnt s34 --- f - @elf--- 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
 
 
