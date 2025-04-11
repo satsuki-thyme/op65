@@ -66,7 +66,7 @@
     /alice odl alice hnt s05 --- f - @ring-- 発狂した神獣を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
     /alice li1 alice hnt s28 --- f - @alice- 発狂した神獣を鎮める
     /alice li1 alice hnt s28 --- f - @alice- 建物が壊れたことは気にしない
-    /alice li1 third --- --- --- f - ------- 神獣は平伏しない
+    /alice li1 third hnt s28 --- f - @alice- 神獣は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
     /alice odl alice hnt s18 --- f - ------- アリスが周囲への害を強く気にする
       /myria odl myria prm s10 --- f - thought ミリアが「過去に囚われてはいけない」と言う
     /myria odl myria pre s38 --- f - thought 強い精霊信仰 => 精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
@@ -105,7 +105,6 @@
     /alice odl alice pre --- r04 f b ordeal- アリスがローズと戦う
       /alice odl alice --- --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
       /rose- odl rose- hnt s05 --- f - @orbPln ローズが封界の指輪を見て「見つけた！」と言って笑む
-      /rose- odl rose- --- --- --- f - @rose-- ローズが遷世して殺されたザヴィに会うと言う
       /alice odl alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
       /                    s05
       /                hnt     r18
@@ -157,8 +156,8 @@
     /grp21
       /leona odl erie- pre s07 r16 b - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
       /grp21 lov multi --- --- --- b - ------- 戦いの前にローズがエリーにエロい祝福をする[ref-037-1]
-      /integ inf rose- hnt s30 --- b - @rose-- ローズは自死することができない
-      /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-2]
+      /rose- li1 rose- hnt s30 --- b - @rose-- ローズは自死することができない
+      /rose- li1 rose- hnt s30 --- b - @rose-- ローズが鉢植えの遅れている蕾を開花させる
 
 
 5:
@@ -260,7 +259,7 @@
     top: 東 / エリク
   narrative clues: 
   note:
-    - エスがエリクに封印されていることをどうやって知るか考える
+    - エスがエリクに封印されていることをどうやって知るか考える（元々フェイからだったが考え直す）
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /myria odl myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
@@ -268,7 +267,7 @@
       /myria odl fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
       /myria odl alice --- --- --- f - ------- アリスが戦いに干渉する
       /myria odl leona --- --- --- f - ------- レオナが戦いに干渉する
-      /integ inf ????? hnt s29 --- f - @es---- エスはエリクに封印されている
+      /integ inf fei-- hnt s29 --- f - @es---- エスはエリクに封印されている
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
 
 
@@ -316,9 +315,10 @@
     /integ inf third hnt s32 --- f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
     /integ inf third hnt s33 --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
     /integ inf third hnt s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
+    /alice li1 third hnt s28 --- f - @alice- 妖精女王はアリスになんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
     /integ inf third hnt s39 --- f - @hesthe アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
     /integ inf rose- hnt s33 --- b - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-4]
+    /rose- li1 rose- hnt s30 --- b - @rose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
     /alice odl alice hnt s05 --- f - @ring-- アリスが妖精女王に素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
     /alice odl alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     /                    lst
@@ -385,6 +385,7 @@
     /alice odl alice pre lst r05 f - bGround アリスの背景
       /alice odl alice pre lst --- f - thought アリスの子に対する愛情
     /alice lov alice --- --- --- f - thought アリスの、2人に対する独占欲の気づき
+    /alice li1 alice hnt s28 --- f - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
 
 
 13:
@@ -403,7 +404,7 @@
   contents:
     /integ inf third hnt s29 --- f - @es---- エスは邪神によって世界の破壊を欲するようにさせられた
     /                                @evil--
-    /integ inf alice hnt s39 --- f - @es---- アリスが邪神の呪いなら解呪できるかもしれないと言う
+    /integ inf alice hnt s39 --- f - @es---- アリスが邪神の呪いなら解呪できると思うと言う
     /integ inf third hnt s34 --- f - @elf--- 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
 
 
@@ -445,7 +446,7 @@
     /integ inf rose- hnt s33 --- b - @orbPln 望みの全てはエリクの封印に懸かっている
     /integ inf rose- hnt s33 --- b - @orbPln エスは封印の中で邪神の呪いに苛まれている
     /                hnt s29         @es----
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-6]
+    /rose- li1 rose- hnt s30 --- b - @rose-- ローズが神殿教会のバルコニーに立つと晴れる
     /grp21
       /leona odl erie- pre mid --- b - threat- エリーが余裕ぶってレオナを殺すと言う
       /erie- li2 erie- --- --- --- b - ------- エリーがローズの体を気遣う
@@ -469,6 +470,7 @@
   note:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /alice li1 alice hnt s28 --- f - @alice- 動物と話ができる
     /integ inf petra hnt s33 --- f - @orbPln 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
     /myria odl myria pre mid --- f - thought ミリアが祖母を思う
       /myria odl myria pre mid --- f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
@@ -594,6 +596,7 @@
   note:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /alice li1 alice hnt s28 --- f - @alice- 花を結実させる
 
 
 21:
@@ -616,8 +619,8 @@
     /grp21
       /leona odl erie- pre lst --- b - threat- エリーがパワーアップして異形になる[ref-026]
       /grp21 lov multi --- --- --- b - ------- エロいことをする[ref-037-5]
-      /integ inf rose- hnt s30 --- b - @rose-- ローズがエリーを強化する
-      /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-8]
+      /rose- li1 rose- hnt s30 --- b - @rose-- ローズがエリーを強化する
+      /rose- li1 rose- hnt s30 --- b - @rose-- ローズに後光が射す
 
 
 22:
@@ -661,8 +664,8 @@
     /grp21
       /alice odl rose- pre lst --- b - threat- ローズがパワーアップする[ref-023]
       /integ inf rose- hnt s32 --- b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
-      /integ inf rose- hnt s30 --- b - @rose-- ローズが自分自身を強化する
-      /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-9]
+      /rose- li1 rose- hnt s30 --- b - @rose-- ローズが自分自身を強化する
+      /rose- li1 rose- hnt s30 --- b - @rose-- ローズの強化にともなって妖精が生まれては祝福して消えていく
 
 
 24:
@@ -679,10 +682,10 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ inf rose- hnt --- r31 f - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
-    /integ inf rose- hnt s29 --- f - @es---- エスは封印される前に残した思念体によってローズを乗っ取った
-    /integ inf third hnt --- r30     @rose-- エスは封印される前に残した思念体によってローズを乗っ取ったと知る
+    /rose- li1 rose- hnt --- r30 f - @rose-- ローズがエスは封印される前に残した思念体によってローズを乗っ取ったと告白する
+    /                hnt s29 ---     @es---- ローズがエスは封印される前に残した思念体によってローズを乗っ取ったと告白する
     /integ inf rose- hnt --- r33 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
-    /alice li1 alice hnt --- r28 f - @alice- アリスの力が解放されてエリクが楽園になる
+    /alice li1 alice hnt s28 --- f - @alice- アリスの力が解放されてエリクが楽園になる
     /integ evn rose- --- --- --- f - @hesthe ローズが古代の主神ヘスト゠エリアの力はこんなものではない、とか言う
     /alice odl alice pre --- lst f b ordeal- アリスがローズと戦う
       /alice odl alice hnt --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
@@ -709,6 +712,7 @@
     /integ inf third hnt --- r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
     /integ inf third hnt --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
     /alice li1 alice --- --- --- f - @alice- 新しい指輪を生み出して嵌めて楽園の広がりを止める
+    /alice li1 third hnt --- r28 f - @alice- ヘスト゠エリアがアリス様と言って敬う
     /alice odl alice prm --- r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる
     /alice odl alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
     /alice lov alice --- --- --- f - thought アリスの、2人といると楽しいということの再認識

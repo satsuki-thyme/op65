@@ -1,13 +1,5 @@
 # プロット要素 サブ
 
-    ###    ##       ####  ######  ########
-   ## ##   ##        ##  ##    ## ##
-  ##   ##  ##        ##  ##       ##
- ##     ## ##        ##  ##       ######
- ######### ##        ##  ##       ##
- ##     ## ##        ##  ##    ## ##
- ##     ## ######## ####  ######  ########
-
 - item:
   dn: アリス
   contents:
@@ -16,7 +8,29 @@
     /alice li1 alice hnt s28 --- f - @alice- アリスが地上に出てきてずいぶん経ったみたいと言う
     /alice li1 alice hnt s28 --- f - @alice- アリスが所作が洗練されていて王族のようだと言う
     /alice li1 alice hnt s28 --- f - @alice- 発狂した神獣を鎮める
+    /alice li1 third hnt s28 --- f - @alice- 神獣は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
     /alice li1 rose- hnt s28 --- b - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
     /alice li1 alice hnt s28 --- f - @alice- アリスがレオナをつい本気で治療して指輪が熱を持って気づく
-    /alice li1 alice hnt --- r28 f - @alice- アリスの力が解放されてエリクが楽園になる
+    /alice li1 third hnt s28 --- f - @alice- 妖精女王はアリスになんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
+    /alice li1 alice hnt s28 --- f - @alice- 動物と話ができる
+    /alice li1 alice hnt s28 --- f - @alice- 花を結実させる
+    /alice li1 alice hnt s28 --- f - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
+    /alice li1 alice hnt s28 --- f - @alice- アリスの力が解放されてエリクが楽園になる
     /alice li1 alice --- --- --- f - @alice- 新しい指輪を生み出して嵌めて楽園の広がりを止める
+    /alice li1 third hnt --- r28 f - @alice- ヘスト゠エリアがアリス様と言って敬う
+
+
+
+- item:
+  dn: ローズ
+  contents:
+    ^li1 - ローズが神の眷属であること
+    /rose- li1 rose- hnt s30 --- b - @rose-- ローズは自死することができない
+    /rose- li1 rose- hnt s30 --- b - @rose-- ローズが鉢植えの遅れている蕾を開花させる
+    /rose- li1 rose- hnt s30 --- b - @rose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
+    /rose- li1 rose- hnt s30 --- b - @rose-- ローズが神殿教会のバルコニーに立つと晴れる
+    /rose- li1 rose- hnt s30 --- b - @rose-- ローズがエリーを強化する
+    /rose- li1 rose- hnt s30 --- b - @rose-- ローズに後光が射す
+    /rose- li1 rose- hnt s30 --- b - @rose-- ローズが自分自身を強化する
+    /rose- li1 rose- hnt s30 --- b - @rose-- ローズの強化にともなって妖精が生まれては祝福して消えていく
+    /rose- li1 rose- hnt --- r30 f - @rose-- ローズがエスは封印される前に残した思念体によってローズを乗っ取ったと告白する
