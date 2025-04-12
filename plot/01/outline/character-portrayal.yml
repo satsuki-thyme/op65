@@ -27,12 +27,18 @@
 
     - item: ^母性
       portrayal:
-        - item: 
+        - item: 慈愛の表情でレオナとミリアを抱きしめ頭を撫でる、二人は安心の顔をする
+          applicable part:
+            - 
+        - item: 寝顔を微笑みで眺める
           applicable part:
             - 
 
     - item: ^天真爛漫
       portrayal:
+        - item: 動物と話す、鳥と歌う、星と話す
+          applicable part:
+            - 
         - item: 
           applicable part:
             - 
