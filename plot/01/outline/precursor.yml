@@ -1,4 +1,4 @@
-# 前兆要素の採番
+# 前駆体の採番
 01:
     /alice li1 alice prm --- r01 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
 
@@ -53,13 +53,13 @@
 18:
     /alice odl alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
     /                    s05
-    /                hnt     r18
+    /                fct     r18
 
 19:
-    /leona odl leona hnt --- r19 f - ------- 〃レオナがエリーに敗北する
+    /leona odl leona fct --- r19 f - ------- 〃レオナがエリーに敗北する
 
 20:
-    /myria odl myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
+    /myria odl myria fct --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
 
 21:
     /alice odl alice pre lst r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
@@ -105,13 +105,13 @@
     /integ li0 rose- hnt --- r33 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
 
 34:
-    /integ li0 myria hnt --- r34 f - @elf--- ミリアがエルフの叡智を得て祖母と再会する
+    /integ li0 myria fct --- r34 f - @elf--- ミリアがエルフの叡智を得て祖母と再会する
 
 35:
-    /integ li0 third hnt --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
+    /integ li0 third rel --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
 
 36:
-    /integ evn grp11 hnt --- r36 f - ------- 妖精女王に謁見する
+    /integ evn grp11 eye --- r36 f - ------- 妖精女王に謁見する
 
 37:
     /petra odl petra pre --- r37 f - ------- アリスに石碑のことを伝えたい気持ちに素直になる
@@ -124,7 +124,7 @@
     /integ evn alice fsh --- r39 f - @es---- エス＝ヘスト゠エリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
 
 40:
-    /integ inf erie- hnt s33 r40 f - @orbPln ローズは死ぬ気でいるから助けてほしい
+    /integ inf erie- pre s33 r40 f - @orbPln ローズは死ぬ気でいるから助けてほしい
 
 41:
 
