@@ -59,7 +59,7 @@
     /integ inf myria fsh s32 --- f - @orb--- 遷世教団は魔力珠を探している
     /integ inf myria fsh s29 --- f - @es---- 遷世教団は遷世させたい
     /integ inf myria fsh s34 --- f - @elf--- エリクにハイエルフの叡智がある
-    /leona odl mob-- hnt s09 --- f - ------- 民が噂話にカルツ王国を出す
+    /leona odl third hnt s09 --- f - ------- 民が噂話にカルツ王国を出す
     /leona odl alice hnt s09 --- f - ------- アリスが所作が洗練されていて王族のようだと言う
     /alice li1 alice fsh s28 --- f - @alice- アリスが所作が洗練されていて王族のようだと言う
     /alice odl alice pre s04 --- f - favorbl アリスが暴れる神獣をおとなしくさせる
@@ -67,7 +67,7 @@
     /alice li1 alice fsh s28 --- f - @alice- 発狂した神獣を鎮める
     /alice li1 alice fsh s28 --- f - @alice- 建物が壊れたことは気にしない
     /alice li1 third fsh s28 --- f - @alice- 神獣は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
-    /alice odl alice hnt s18 --- f - ------- アリスが周囲への害を強く気にする
+    /alice odl alice fct s18 --- f - ------- アリスが周囲への害を強く気にする
       /myria odl myria prm s10 --- f - thought ミリアが「過去に囚われてはいけない」と言う
     /myria odl myria pre s38 --- f - thought 強い精霊信仰 => 精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
     /myria odl myria prm s11 --- f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
@@ -107,7 +107,7 @@
       /rose- odl rose- fsh s05 --- b - @orbPln ローズが封界の指輪を見て「見つけた！」と言って笑む
       /alice odl alice pre lst --- f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
       /                    s05
-      /                hnt     r18
+      /                fct     r18
     /alice lov alice --- --- --- f - thought アリスの、2人といると楽しいという気づき
     /alice lov multi --- --- --- f - favorbl 抱き合う
     /grp21
@@ -133,18 +133,18 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn grp11 --- --- --- f - ------- 妖精の森を訪れる
-    /integ evn fact- --- --- --- f - ------- 妖精のポヤポヤした様子を描く => ペトラがポヤポヤしていても領主になれる理由
+    /integ evn third --- --- --- f - ------- 妖精のポヤポヤした様子を描く => ペトラがポヤポヤしていても領主になれる理由
     /integ evn grp11 --- --- --- f - ------- 妖精の森が妖精でいっぱいになっていると言われる
     /integ evn grp11 --- --- --- f - ------- 魔物に追われているペトラを助ける
     /integ evn grp11 --- --- --- f - ------- アリスの旅にペトラが加わる
-    /integ inf third hnt s36 --- f - ------- 妖精女王の名が出る
-    /integ inf fact- --- --- --- f - threat- スパイ妖精の存在
+    /integ inf third eye s36 --- f - ------- 妖精女王の名が出る
+    /integ inf third --- --- --- f - threat- スパイ妖精の存在
     /alice lov multi --- --- --- f - favorbl あーんする
     /leona odl leona pre s07 --- f b favorbl レオナが魔物を倒して強いところを見せる
       /leona odl alice pre s07 --- f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
       /                rel s08
       /leona odl leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
-      /leona odl leona hnt s19 --- f - thought このままではいけないという思いが漠然としている
+      /leona odl leona fct s19 --- f - thought このままではいけないという思いが漠然としている
     /leona odl leona hnt s09 --- f - ------- レオナが自分に本当の力があればと悔しがる
     /myria odl myria hnt s13 --- f - ------- レオナが自分に本当の力があればあんなことと悔しがるのを見て共感する
     /leona odl leona hnt s09 --- f - ------- レオナが剣は父に教わったと言う
@@ -178,7 +178,7 @@
     /leona odl leona pre --- r07 f b ordeal- レオナがエリーと戦う
       /leona odl erie- hnt s09 --- f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
       /leona odl leona pre s09 --- f - results レオナがエリーに敗北する
-      /leona odl leona hnt --- r19 f - ------- 〃
+      /leona odl leona fct --- r19 f - ------- 〃
       /alice odl alice pre mid --- f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
       /alice li1 alice fsh s28 --- f - @alice- アリスがレオナをつい本気で治療して指輪が熱を持って気づく
       /erie- odl erie- prm lst --- f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
@@ -227,7 +227,7 @@
     /myria odl myria hnt s13 --- f - ------- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
     /myria odl myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
       /myria odl myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
-      /myria odl myria hnt s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
+      /myria odl myria fct s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
       /myria odl alice pre lst --- f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
       /                rel s21
     /myria odl leona pre s12 --- f - favorbl レオナがミリアに甘える[ref-042]
@@ -264,7 +264,7 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /myria odl myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
-      /myria odl myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
+      /myria odl myria fct --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
       /myria odl fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
       /myria odl alice --- --- --- f - ------- アリスが戦いに干渉する
       /myria odl leona --- --- --- f - ------- レオナが戦いに干渉する
@@ -312,7 +312,7 @@
   note:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ evn grp11 hnt --- r36 f - ------- 妖精女王に謁見する
+    /integ evn grp11 eye --- r36 f - ------- 妖精女王に謁見する
     /integ inf third fsh s32 --- f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
     /rose- li2 third fsh s33 --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
     /integ inf third fsh s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
@@ -454,7 +454,7 @@
       /.                                       エロいことはしない
     /leona odl leona pre --- mid f b ordeal- レオナがエリーと戦う
       /leona odl leona hnt --- mid f - results レオナがエリーと引き分ける
-      /leona odl erie- hnt lst --- f - ------- エリーが絶対にこのままでは終わらせないと宣言する
+      /leona odl erie- fct lst --- f - ------- エリーが絶対にこのままでは終わらせないと宣言する
 
 
 16:
@@ -483,8 +483,8 @@
     /leona odl myria pre mid --- f - ------- ミリアがレオナを甘やかす[ref-042]
     /                rel s25 r24
     /leona odl leona pre lst --- f - thought エリーといい勝負ができたことで現状維持がいいと思い込む
-    /leona odl leona hnt lst --- f - thought エリーがあのままのはずがないという予感がある
-    /leona odl leona hnt lst --- f - thought エリーを超えられなかった事実が心の底にわだかまっている
+    /leona odl leona fct lst --- f - thought エリーがあのままのはずがないという予感がある
+    /leona odl leona fct lst --- f - thought エリーを超えられなかった事実が心の底にわだかまっている
     /alice lov alice --- --- --- f - thought アリスの、2人への思いが強まった気づき
     /grp21
       /erie- li2 erie- --- --- --- b - ------- エリーが悔しそうにする、無様をローズにわびる
@@ -536,17 +536,17 @@
     /integ evn third --- --- --- f - @hesthe 石碑にエス＝ヘス◯◯◯◯と書かれている
     /myria odl myria pre lst --- f - ------- ミリアがアリスから魔法をファンブルさせる魔法を教わる
     /alice odl alice pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-    /alice odl alice hnt lst --- f - thought ローズを倒すことになる予感がする
+    /alice odl alice fct lst --- f - thought ローズを倒すことになる予感がする
     /leona odl alice --- --- --- f - ------- アリスがレオナに逸脱すれば勝てると言う, ミリアは魔法での逸脱を話す
     /leona odl leona pre lst --- f - thought 父王の剣を逸脱するなんてできないと思い込む
-    /leona odl leona hnt lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
+    /leona odl leona fct lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
     /alice lov alice --- --- --- f - thought アリスの、2人を好きだというわがままの認識
     /alice lov multi --- --- --- f - favorbl アリスが、座っているとき2人の太ももを触る、2人は肩にもたれかかる
     /alice odl alice pre lst --- f - thought 子を殺すことの倫理的な問題に囚われる[ref-036]
-    /alice odl alice hnt lst --- f - thought ローズを倒さなければ世界が滅びると認識している
+    /alice odl alice fct lst --- f - thought ローズを倒さなければ世界が滅びると認識している
     /myria odl myria pre lst --- f - thought ミリアが祖母を大切に思う気持ちを吐露する
       /myria odl myria pre lst --- f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
-      /myria odl myria hnt lst --- f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
+      /myria odl myria fct lst --- f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
       /myria odl alice pre lst --- f - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
       /                rel     r22
     /myria odl leona pre lst --- f - favorbl レオナがミリアに甘える[ref-042]
@@ -575,7 +575,7 @@
   contents:
     /integ inf myria fsh --- r34 f - @elf--- ミリアがハイエルフの叡智を得て祖母と再会する
     /myria odl myria pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
-      /myria odl myria hnt --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
+      /myria odl myria fct --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
       /myria odl myria --- --- --- f - results ミリアがフェイを倒す
     /myria odl myria prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
     /myria odl myria prm --- r11 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
@@ -613,7 +613,7 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice odl alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
-    /alice odl alice hnt lst --- f - thought ローズを倒すべきだと分かっている
+    /alice odl alice fct lst --- f - thought ローズを倒すべきだと分かっている
     /leona odl leona pre lst --- f - favorbl ミリアとともに具合がいいntt
     /alice lov alice --- --- --- f - thought アリスの、ミリアの願いが成就したことで、レオナの試練は予想されるわけで、それが乗り越えられたら告白するという決心
     /grp21
@@ -637,9 +637,9 @@
   note:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /rose- li2 erie- fsh s33 r40 f - @orbPln ローズは死ぬ気でいるから助けてほしい
+    /rose- li2 erie- pre s33 r40 f - @orbPln ローズは死ぬ気でいるから助けてほしい
     /leona odl leona pre --- lst f b ordeal- レオナがエリーと戦う
-      /leona odl leona hnt --- lst f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
+      /leona odl leona fct --- lst f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
       /leona odl leona --- --- --- f - results レオナがエリーを倒す
       /erie- odl erie- prm --- lst f - results エリーがレオナに敗北する
     /leona odl leona prm --- r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
@@ -660,7 +660,7 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice odl alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
-    /alice odl alice hnt lst --- f - thought ローズを倒さないと事は収まらないと分かっている
+    /alice odl alice fct lst --- f - thought ローズを倒さないと事は収まらないと分かっている
     /alice lov multi --- --- --- f - favorbl 告白とキス
     /grp21
       /alice odl rose- pre lst --- b - threat- ローズがパワーアップする[ref-023]
@@ -689,7 +689,7 @@
     /alice li1 alice fsh s28 --- f - @alice- アリスの力が解放されてエリクが楽園になる
     /integ evn rose- --- --- --- f - @hesthe ローズが古代の主神ヘスト゠エリアの力はこんなものではない、とか言う
     /alice odl alice pre --- lst f b ordeal- アリスがローズと戦う
-      /alice odl alice hnt --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
+      /alice odl alice fct --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
       /alice odl alice --- --- --- f - results アリスがローズを倒す
     /alice odl alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
     /rose- odl third prm --- lst f - gDesire ローズが死んでエスの封印が解かれる

@@ -39,13 +39,13 @@
         - item: 動物と話す、鳥と歌う、星と話す
           applicable part:
             - 
-        - item: 
+        - item: 物事を大ごととして捉えない
           applicable part:
             - 
 
     - item: ^好奇心旺盛
       portrayal:
-        - item: 
+        - item: 街にあるものやレオナとミリアが持っているもので初めて見るものに興味を持つ
           applicable part:
             - 
 
@@ -54,7 +54,7 @@
         - item: 優しく微笑む
           applicable part:
             - 
-        - item: 口癖「大丈夫、なんとかなるわ」（ミリアなどの不安に対して）
+        - item: 口癖「大丈夫、なんとかなるよ」（ミリアなどの不安に対して）
           applicable part:
             - 
 

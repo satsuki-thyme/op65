@@ -41,7 +41,7 @@
 
     ^準備 1, ヒント - send event
     /alice odl alice pre s04 --- f - favorbl アリスが暴れる神獣をおとなしくさせる[ref-019]
-    /alice odl alice hnt s18 --- f - ------- アリスが周囲への害を強く気にする
+    /alice odl alice fct s18 --- f - ------- アリスが周囲への害を強く気にする
         ===
     /alice odl alice pre s04 --- b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
     /rose- odl rose- --- --- --- b - @apostl 〃
@@ -61,7 +61,7 @@
     /alice odl alice hnt mid --- f - thought ローズが自分たちに目をつけていることに戦いの予感がする
         ===
     /alice odl alice pre lst r05 f - bground アリスの背景
-    /alice odl alice hnt lst --- f - thought アリスの子に対する愛情
+    /alice odl alice fct lst --- f - thought アリスの子に対する愛情
         ===
     /alice odl alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     /                    lst
@@ -83,17 +83,17 @@
     /alice odl alice pre lst --- b - threat- ローズがパワーアップする[ref-023]
         ===
     /alice odl alice pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-    /alice odl alice hnt lst --- f - thought ローズを倒すことになる予感がする
+    /alice odl alice fct lst --- f - thought ローズを倒すことになる予感がする
         x n
         ===
     /alice odl alice pre lst --- f - thought 子を殺すことの倫理的な問題に囚われる
-    /alice odl alice hnt lst --- f - thought ローズを倒さなければ世界が滅びると認識している
+    /alice odl alice fct lst --- f - thought ローズを倒さなければ世界が滅びると認識している
         ===
     /alice odl alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
-    /alice odl alice hnt lst --- f - thought ローズを倒さないと事は収まらないと分かっている
+    /alice odl alice fct lst --- f - thought ローズを倒さないと事は収まらないと分かっている
         ===
     /alice odl alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
-    /alice odl alice hnt lst --- f - thought ローズを倒すべきだと分かっている
+    /alice odl alice fct lst --- f - thought ローズを倒すべきだと分かっている
         ===
     /alice odl multi pre s21 --- f - ------- レオナとミリアが何かを作っている[ref-040]
         ===
@@ -101,7 +101,7 @@
 
     ^準備 3, ヒント & hints 3 - receive event
     /alice odl alice pre --- lst f b ordeal- アリスがローズと戦う
-      /alice odl alice hnt --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
+      /alice odl alice fct --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
       /alice odl alice --- --- --- f - results アリスがローズを倒す
 
  ##       ########  #######  ##    ##    ###
@@ -126,7 +126,7 @@
       /leona odl leona pre s07 --- f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
       /----- --- ----- rel s08
       /leona odl leona pre s07 --- f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
-      /leona odl leona hnt s19 --- f - thought このままではいけないという思いが漠然としている
+      /leona odl leona fct s19 --- f - thought このままではいけないという思いが漠然としている
         ===
     /leona odl myria pre s09 --- f - ------- ミリアがレオナを甘やかす[ref-042]
     /                rel s24
@@ -137,7 +137,7 @@
     /leona odl leona pre --- r07 f b ordeal- レオナがエリーと戦う
       /leona odl leona pre s09 --- f - bground エリーの背景（エリーが戦闘中に過去を語る）
       /leona odl leona pre s09 --- f - results レオナがエリーに敗北する
-      /leona odl leona hnt --- r19 f - ------- 〃
+      /leona odl leona fct --- r19 f - ------- 〃
 
     ^準備 2, ヒント - send event
     /leona odl leona pre mid r09 f - bground レオナの背景
@@ -166,7 +166,7 @@
     ^準備 2, ヒント - receive event
     /leona odl leona pre --- mid f b ordeal- レオナがエリーと戦う
       /leona odl leona hnt --- mid f - results レオナがエリーと引き分ける
-      /leona odl erie- hnt lst --- f - ------- エリーが絶対にこのままでは終わらせないと宣言する
+      /leona odl erie- fct lst --- f - ------- エリーが絶対にこのままでは終わらせないと宣言する
 
     ^準備 3, ヒント - send event
     /leona odl leona pre lst --- b - threat- エリーがパワーアップして異形になる[ref-026]
@@ -174,18 +174,18 @@
     /leona odl leona pre lst --- f - favorbl ntt
         ===
     /leona odl leona pre lst --- f - thought エリーといい勝負ができたことで現状維持がいいと思い込む
-    /leona odl leona hnt lst --- f - thought エリーがあのままのはずがないという予感がある
-    /leona odl leona hnt lst --- f - thought エリーを超えられなかった事実が心の底にわだかまっている
+    /leona odl leona fct lst --- f - thought エリーがあのままのはずがないという予感がある
+    /leona odl leona fct lst --- f - thought エリーを超えられなかった事実が心の底にわだかまっている
         ===
     /leona odl leona pre lst --- f - thought 父王の剣を逸脱するなんてできないと思い込む
-    /leona odl leona hnt lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
+    /leona odl leona fct lst --- f - thought 父王の剣を乗り越えられたら何かが得られる気がする
         ===
     /leona odl myria pre lst --- f - ------- ミリアがレオナを甘やかす[ref-042]
     /                rel     r25
 
     ^準備 3, ヒント - receive event
     /leona odl leona pre --- lst f b ordeal- レオナがエリーと戦う
-      /leona odl leona hnt --- lst f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
+      /leona odl leona fct --- lst f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
       /leona odl leona --- --- --- f - results レオナがエリーを倒す
 
  ##     ## ##    ## ########  ####    ###
@@ -219,7 +219,7 @@
     /myria odl myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
         ===
     /myria odl myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
-    /myria odl myria hnt s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
+    /myria odl myria fct s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
     /myria odl alice pre lst --- f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
     /                rel s21
         ===
@@ -230,7 +230,7 @@
 
     ^準備 1, ヒント - receive event
     /myria odl myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
-      /myria odl myria hnt --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
+      /myria odl myria fct --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
       /myria odl myria pre s13 --- f - results フェイが「また来る」と言って撤退する
 
     ^準備 2, ヒント - send event
@@ -261,7 +261,7 @@
     /myria odl myria pre lst --- f - thought ミリアが祖母を大切に思う気持ちを吐露する
         ===
     /myria odl myria pre lst --- f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
-    /myria odl myria hnt lst --- f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
+    /myria odl myria fct lst --- f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
     /myria odl alice pre lst --- f - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
     /                rel     r22
         ===
@@ -272,7 +272,7 @@
 
     ^準備 3, ヒント - receive event
     /myria odl myria pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
-      /myria odl myria hnt --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
+      /myria odl myria fct --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
       /myria odl myria --- --- --- f - results ミリアがフェイを倒す
 
  ########  ######## ######## ########     ###

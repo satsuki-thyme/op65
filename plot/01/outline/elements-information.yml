@@ -20,7 +20,7 @@
     /integ inf fact- --- --- --- f - @evil-- 邪神の呪いで神獣が破壊衝動に突き動かされる
     /integ inf myria hnt s32 --- f - @orb--- 遷世教団は魔力珠を探している
     /integ inf myria hnt s29 --- f - @es---- 遷世教団は遷世させたい
-    /integ inf myria hnt s34 --- f - @elf--- エリクにハイエルフの叡智がある
+    /integ inf myria fct s34 --- f - @elf--- エリクにハイエルフの叡智がある
 
 
 3:
@@ -75,7 +75,7 @@
   contents:
     /integ inf third hnt s32 --- f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
     /integ inf third hnt s33 --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
-    /integ inf third hnt s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
+    /integ inf third fct s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
     /integ inf rose- hnt s33 --- b - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　アリスは世界を救いたがるはず
     /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-4]
 
@@ -99,7 +99,7 @@
   contents:
     /integ inf third hnt s29 --- f - @es---- エスは邪神によって世界の破壊を欲するようにさせられた
     /                                @evil--
-    /integ inf third hnt s34 --- f - @elf--- 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
+    /integ inf third fct s34 --- f - @elf--- 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
 
 
 14:
@@ -133,7 +133,7 @@
   name: フェイとの戦闘 3
   contents:
     /integ inf fei-- hnt s33 --- f - @orbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
-    /integ inf myria hnt --- r34 f - @elf--- ミリアがエルフの叡智を得て祖母と再会する
+    /integ inf myria fct --- r34 f - @elf--- ミリアがエルフの叡智を得て祖母と再会する
 
 
 20:
@@ -175,7 +175,7 @@
   contents:
     /integ inf noCha hnt --- r32 f - @orb--- 魔力珠を手に入れる
     /integ inf third hnt --- r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
-    /integ inf third hnt --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
+    /integ inf third rel --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
 
 
 
