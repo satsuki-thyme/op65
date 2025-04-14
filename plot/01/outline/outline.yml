@@ -137,7 +137,7 @@
     /integ evn grp11 --- --- --- f - ------- 妖精の森が妖精でいっぱいになっていると言われる
     /integ evn grp11 --- --- --- f - ------- 魔物に追われているペトラを助ける
     /integ evn grp11 --- --- --- f - ------- アリスの旅にペトラが加わる
-    /integ inf third eye s36 --- f - ------- 妖精女王の名が出る
+    /integ inf third cat s36 --- f - ------- 妖精女王の名が出る
     /integ inf third --- --- --- f - threat- スパイ妖精の存在
     /alice lov multi --- --- --- f - favorbl あーんする
     /leona odl leona pre s07 --- f b favorbl レオナが魔物を倒して強いところを見せる
@@ -247,6 +247,7 @@
       /fei-- etc rose- hnt s26 --- b - ------- ローズがあなたが才能を持っていたからよと言う
       /fei-- etc rose- hnt s26 --- b - ------- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
       /grp21 lov multi --- --- --- b - ------- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
+      /integ inf rose- fsh s29 --- b - @es---- エスはエリクに封印されている
 
 
 8:
@@ -268,7 +269,6 @@
       /myria odl fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
       /myria odl alice --- --- --- f - ------- アリスが戦いに干渉する
       /myria odl leona --- --- --- f - ------- レオナが戦いに干渉する
-      /integ inf fei-- fsh s29 --- f - @es---- エスはエリクに封印されている
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
 
 
@@ -312,7 +312,7 @@
   note:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ evn grp11 eye --- r36 f - ------- 妖精女王に謁見する
+    /integ evn grp11 cat --- r36 f - ------- 妖精女王に謁見する
     /integ inf third fsh s32 --- f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
     /rose- li2 third fsh s33 --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
     /integ inf third fsh s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる

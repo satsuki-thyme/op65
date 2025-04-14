@@ -22,6 +22,11 @@
 - item: 005
   resolution: 000 xxx
   narrative-clues:
+    - 001 レオナは{◯◯神}の修道会で活動している
+
+- item: 006
+  resolution: 000 xxx
+  narrative-clues:
     - 000 xxx
 
 - item: 
