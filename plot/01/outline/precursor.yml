@@ -127,18 +127,25 @@
     /integ inf erie- pre s33 r40 f - @orbPln ローズは死ぬ気でいるから助けてほしい
 
 41:
+    /integ inf myria fsh s32 r41 f - @orb--- 遷世教団は魔力珠を探している
 
 42:
+    /integ inf third fsh s29 r42 f - @es---- 遷世教団は遷世神エスに仕えている
 
 43:
+      /integ inf rose- fsh s29 r43 b - @es---- エスはエリクに封印されている
 
 44:
+    /integ inf third fsh s32 r44 f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
 
 45:
+    /integ inf rose- fsh s31 r45 f - @zavia- ザヴィはローズが殺した
 
 46:
+    /integ inf third fsh s29 r46 f - @es---- エスは邪神の呪いによって世界の破壊を欲する眷属にされた
 
 47:
+      /integ inf rose- fsh s32 r47 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
 
 48:
 

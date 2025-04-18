@@ -35,6 +35,7 @@
     /alice odl alice prm s03 --- f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
     /leona odl leona prm s06 --- f - gDesire レオナが「前に……、進みたいんです」と言う[ref-025]
     /leona odl leona hnt s09 --- f - ------- レオナがここに運命を変える出会いが待っていると言われていてと言う
+    /integ inf leona cat s41 --- f - @orb--- 遷世教団の話題を出す
     /alice lov multi --- --- --- f - favorbl 手を握る
 
 
@@ -55,10 +56,11 @@
     /integ evn alice --- --- --- f - ------- 手持ちの宝石を換金する
     /integ evn multi --- --- --- f - ------- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
     /integ evn grp11 --- --- --- f - ------- アリスの旅にミリアが加わる
-    /integ inf alice --- --- --- f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
-    /integ inf myria fsh s32 --- f - @orb--- 遷世教団は魔力珠を探している
+    /integ inf alice rel s35 --- f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
+    /integ inf alice rel s05 --- f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
+    /integ inf myria fsh s32 r41 f - @orb--- 遷世教団は魔力珠を探している
     /integ inf myria fsh s29 --- f - @es---- 遷世教団は遷世させたい
-    /integ inf myria fsh s34 --- f - @elf--- エリクにハイエルフの叡智がある
+    /integ inf myria rel s34 --- f - @elf--- エリクにハイエルフの叡智がある
     /leona odl third hnt s09 --- f - ------- 民が噂話にカルツ王国を出す
     /leona odl alice hnt s09 --- f - ------- アリスが所作が洗練されていて王族のようだと言う
     /alice li1 alice fsh s28 --- f - @alice- アリスが所作が洗練されていて王族のようだと言う
@@ -70,8 +72,9 @@
     /alice odl alice fct s18 --- f - ------- アリスが周囲への害を強く気にする
       /myria odl myria prm s10 --- f - thought ミリアが「過去に囚われてはいけない」と言う
     /myria odl myria pre s38 --- f - thought 強い精霊信仰 => 精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
+    /myria odl myria pre --- r38 f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
     /myria odl myria prm s11 --- f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
-    /                pre     r38
+    /integ inf grp11 cat s42 --- f - @orb--- 遷世教団が何をしているのか謎だと話す
     /alice lov multi --- --- --- f - favorbl 手をつなぐ
 
 
@@ -91,8 +94,8 @@
     /integ evn grp11 --- --- --- f - ------- 遷世教団の神殿に忍び込む
     /integ evn grp11 --- --- --- f - @hesthe エスの神珠から感じられる神気に思い当たりがある、はっきり思い出せない　私の記憶は古いからね（ヘスト゠エリア）
     /alice li1 rose- fsh s28 --- b - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
-    /alice li1 rose- fsh s28 --- b - @evil-- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
-    /integ inf third fsh s29 --- f - @es---- 遷世教団は遷世神エスに仕えている
+    /alice li1 rose- rel s35 --- b - @evil-- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
+    /integ inf third fsh s29 r42 f - @es---- 遷世教団は遷世神エスに仕えている
     /integ inf third fsh s29 --- f - @es---- 遷世は今の世界を終わらせて新しい世界に移行すること
     /integ inf third fsh s32 --- f - @orb--- 魔力珠はエリクにある
     /integ inf third fsh s32 --- f - @orb--- エリクは東にある
@@ -211,7 +214,7 @@
 7:
   name: ペトラの試練
   elapsed days: 6
-  integration event: 妖精の森近くにやってきたドラゴンと対話する
+  integration event: 妖精の森近くにやってきたドラゴンとペトラが対話する
   location: 道
   objective:
     start: 街
@@ -229,12 +232,13 @@
       /myria odl myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
       /myria odl myria fct s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
       /myria odl alice pre lst --- f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
-      /                rel s21
+      /myria odl alice rel s21 --- f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
     /myria odl leona pre s12 --- f - favorbl レオナがミリアに甘える[ref-042]
-    /                rel s22
+    /myria odl leona rel s22 --- f - favorbl レオナがミリアに甘える[ref-042]
     /leona odl myria pre s09 --- f - ------- ミリアがレオナを甘やかす[ref-042]
-    /                rel s24
+    /leona odl myria rel s24 --- f - ------- ミリアがレオナを甘やかす[ref-042]
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
+    /integ evn third cat s43 --- f - @es---- ドラゴンにエスについて聞くといずこかに封印されていると言う
     /alice lov multi --- --- --- f - favorbl 恋人つなぎ（指を絡める）
     /grp21
       /erie- li2 erie- --- --- --- b - ------- エリーがアリスの強さについて報告する
@@ -247,7 +251,7 @@
       /fei-- etc rose- hnt s26 --- b - ------- ローズがあなたが才能を持っていたからよと言う
       /fei-- etc rose- hnt s26 --- b - ------- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
       /grp21 lov multi --- --- --- b - ------- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
-      /integ inf rose- fsh s29 --- b - @es---- エスはエリクに封印されている
+      /integ inf rose- fsh s29 r43 b - @es---- エスはエリクに封印されている
 
 
 8:
@@ -296,6 +300,7 @@
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
     /myria odl myria pre mid r13 f - bGround ミリアの背景
     /alice lov alice --- --- --- f - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
+    /integ evn alice cat s44 --- f - @orb--- 魔力珠をローズがすぐに取りに行かないのは何か変と話す
     /petra odl petra prm --- r15 f - gDesire ペトラが妖精領主になる
 
 
@@ -310,12 +315,13 @@
     top: 
   narrative clues: 
   note:
+    - 次の場所へのフックが必要
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ evn grp11 cat --- r36 f - ------- 妖精女王に謁見する
-    /integ inf third fsh s32 --- f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
+    /integ evn grp11 --- --- r36 f - ------- 妖精女王に謁見する
+    /integ inf third fsh s32 r44 f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
     /rose- li2 third fsh s33 --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
-    /integ inf third fsh s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
+    /integ inf third rel s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
     /alice li1 third fsh s28 --- f - @alice- 妖精女王はアリスになんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
     /integ inf third fsh s39 --- f - @hesthe アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
     /rose- li2 rose- fsh s33 --- b - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
@@ -355,8 +361,9 @@
   note:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ evn alice cat s45 --- f - @zavia- ザヴィが倒される相手なんているんだろうかと疑問を言う
     /integ inf rose- fsh s32 --- f - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
-    /integ inf rose- fsh s31 --- f - @zavia- ザヴィはローズが殺した
+    /integ inf rose- fsh s31 r45 f - @zavia- ザヴィはローズが殺した
     /integ inf rose- fsh s32 --- f - @orb--- ローズは魔力珠とともにエリクに行って世界を終わらせる
     /rose- li2 rose- fsh s33 --- f - @orbPln ローズは魔力珠とともにエリクに行って世界を終わらせる
     /alice odl alice pre --- mid f b ordeal- アリスがローズと戦う
@@ -383,9 +390,11 @@
   contents:
     /alice odl alice --- --- --- f - thought アリスがローズの体を心配する
     /alice odl alice pre lst r05 f - bGround アリスの背景
+    /alice odl alice rel --- r05 f - bGround アリスの背景
       /alice odl alice pre lst --- f - thought アリスの子に対する愛情
     /alice lov alice --- --- --- f - thought アリスの、2人に対する独占欲の気づき
     /alice li1 alice fsh s28 --- f - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
+    /integ evn alice cat s46 --- f - @es---- 神が世界を滅ぼそうとするだろうか、邪なあの子ならともかく
 
 
 13:
@@ -402,10 +411,10 @@
     - 水着の用意について考える
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ inf third fsh s29 --- f - @es---- エスは邪神の呪いによって世界の破壊を欲する眷属にされた
-    /integ inf third fsh s29 --- f - @evil-- エスは邪神の呪いによって世界の破壊を欲する眷属にされた
+    /integ inf third fsh s29 r46 f - @es---- エスは邪神の呪いによって世界の破壊を欲する眷属にされた
+    /integ inf third rel s35 --- f - @evil-- エスは邪神の呪いによって世界の破壊を欲する眷属にされた
     /integ inf alice fsh s39 --- f - @es---- アリスが邪神の呪いなら解呪できると思うと言う
-    /integ inf third fsh s34 --- f - @elf--- 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
+    /integ inf third rel s34 --- f - @elf--- 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
 
 
 14:
@@ -573,13 +582,13 @@
   note:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ inf myria fsh --- r34 f - @elf--- ミリアがハイエルフの叡智を得て祖母と再会する
     /myria odl myria pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
       /myria odl myria fct --- lst f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
       /myria odl myria --- --- --- f - results ミリアがフェイを倒す
     /myria odl myria prm --- r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
     /myria odl myria prm --- r11 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
-    /                pre
+    /myria odl myria pre --- r11 f - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
+    /myria odl myria rel --- r34 f - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     /fei-- odl fei-- prm --- lst f - results フェイがミリアに敗北する[ref-029]
 
 
@@ -661,10 +670,12 @@
   contents:
     /alice odl alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
     /alice odl alice fct lst --- f - thought ローズを倒さないと事は収まらないと分かっている
+    /integ evn alice cat s47 --- f - @orb--- ローズと魔力珠を分離しないと、と言う
+    /integ evn alice cat s31 --- f - @zavia- ザヴィだけで神を封印できるかどうか、協力者がいたかも
     /alice lov multi --- --- --- f - favorbl 告白とキス
     /grp21
       /alice odl rose- pre lst --- b - threat- ローズがパワーアップする[ref-023]
-      /integ inf rose- fsh s32 --- b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
+      /integ inf rose- fsh s32 r47 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
       /rose- li1 rose- fsh s30 --- b - @rose-- ローズが自分自身を強化する
       /rose- li1 rose- fsh s30 --- b - @rose-- ローズの強化にともなって妖精が生まれては祝福して消えていく
 
@@ -709,9 +720,9 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn alice fsh --- r39 f - @es---- エス＝ヘスト゠エリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
-    /integ inf third fsh --- r32 f - @orb--- 魔力珠を手に入れる
-    /integ inf third fsh --- r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
-    /integ inf third fsh --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
+    /integ evn third fsh --- r32 f - @orb--- 魔力珠を手に入れる
+    /integ evn third fsh --- r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
+    /integ inf third rel --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
     /alice li1 alice --- --- --- f - @alice- 新しい指輪を生み出して嵌めて楽園の広がりを止める
     /alice li1 third fsh --- r28 f - @alice- ヘスト゠エリアがアリス様と言って敬う
     /alice odl alice prm --- r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる
