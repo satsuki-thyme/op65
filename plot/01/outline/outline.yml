@@ -251,7 +251,6 @@
       /fei-- etc rose- hnt s26 --- b - ------- ローズがあなたが才能を持っていたからよと言う
       /fei-- etc rose- hnt s26 --- b - ------- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
       /grp21 lov multi --- --- --- b - ------- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
-      /integ inf rose- fsh s29 r43 b - @es---- エスはエリクに封印されている
 
 
 8:
@@ -265,11 +264,10 @@
     top: 東 / エリク
   narrative clues: 
   note:
-    - エスがエリクに封印されていることをどうやって知るか考える（元々フェイからだったが考え直す）
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /myria odl myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
-      /myria odl myria fct --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
+      /myria odl myria fct --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
       /myria odl fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
       /myria odl alice --- --- --- f - ------- アリスが戦いに干渉する
       /myria odl leona --- --- --- f - ------- レオナが戦いに干渉する
@@ -285,7 +283,7 @@
   ######  ########  ######     ##    ###    #########
 
 9:
-  name: ペトラが妖精領主になる
+  name: -
   elapsed days: 
   integration event: 
   location: 
@@ -301,7 +299,6 @@
     /myria odl myria pre mid r13 f - bGround ミリアの背景
     /alice lov alice --- --- --- f - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
     /integ evn alice cat s44 --- f - @orb--- 魔力珠をローズがすぐに取りに行かないのは何か変と話す
-    /petra odl petra prm --- r15 f - gDesire ペトラが妖精領主になる
 
 
 10:
@@ -318,6 +315,7 @@
     - 次の場所へのフックが必要
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ inf third fsh s29 r43 b - @es---- 妖精女王がエスはエリクに封印されていると言う
     /integ evn grp11 --- --- r36 f - ------- 妖精女王に謁見する
     /integ inf third fsh s32 r44 f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
     /rose- li2 third fsh s33 --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
@@ -326,7 +324,7 @@
     /integ inf third fsh s39 --- f - @hesthe アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
     /rose- li2 rose- fsh s33 --- b - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
     /rose- li1 rose- fsh s30 --- b - @rose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
-    /alice odl alice fsh s05 --- f - @ring-- アリスが妖精女王に素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
+    /alice odl alice fsh s05 --- f - @ring-- アリスが妖精女王に素敵な指輪をよく見せてほしいと言われ_もったいぶりつつ_、_外せない_からこのままでと言う[ref-039]
     /alice odl alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     /                    lst
     /alice odl alice hnt mid --- f - thought ローズと戦うことになる予感が強くなる
@@ -385,7 +383,7 @@
     top: 
   narrative clues: 
   note:
-    - 水着の用意について考える
+    - 水着の用意について考える => アリスが昔はあったと言って作る
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice odl alice --- --- --- f - thought アリスがローズの体を心配する
@@ -418,7 +416,7 @@
 
 
 14:
-  name: -
+  name: ペトラが妖精領主になる
   elapsed days: 
   integration event: エスの大破壊の痕跡
   location: 
@@ -437,6 +435,7 @@
     /leona odl leona --- --- --- f - favorbl レオナがアリスから強くなったと言われる[ref-034]
     /alice odl multi pre s21 --- f - ------- レオナとミリアが何かを作っている[ref-040]
     /alice lov multi --- --- --- f - favorbl 頭と頬を撫でる
+    /petra odl petra prm --- r15 f - gDesire ペトラが妖精領主になる
 
 
 15:
@@ -703,6 +702,7 @@
       /alice odl alice fct --- lst f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
       /alice odl alice --- --- --- f - results アリスがローズを倒す
     /alice odl alice prm --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
+    /alice odl alice hnt --- r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
     /rose- odl third prm --- lst f - gDesire ローズが死んでエスの封印が解かれる
 
 
