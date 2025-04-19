@@ -51,8 +51,8 @@
 - settings/history/his-001.md: エス封印に関すること
 
 ### その他
-- notes.md: ノート
-- todo.md:  ToDoリスト
+- etc/notes.md: ノート
+- etc/todo.md:  ToDoリスト
 
 ### 思考ノート
 - thinking-notes/thi-001.md: ミリアのコンフリクト
@@ -110,6 +110,7 @@
 - thinking-notes/thi-053.md: ミリアの魔法の具合はどうなのか
 - thinking-notes/thi-054.md: エス＝ヘストエリアのヒント
 - thinking-notes/thi-055.md: アリスが原初の少女であるヒント
+- thinking-notes/thi-056.md: アリスが指輪を大切にしている様子
 
 ### アーカイブ
 #### before-2025-01-13
