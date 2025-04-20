@@ -10,6 +10,10 @@
 1:
   name: レオナとの出会い
   elapsed days: 0
+  time:
+    start: 朝
+    end: 朝
+    notes: 
   integration event: アリスが地下から出てくる
   location: 森
   objective:
@@ -42,6 +46,10 @@
 2:
   name: ミリアとの出会い
   elapsed days: 1
+  time:
+    start: 朝
+    end: 朝
+    notes: 1泊した翌日の朝
   integration event: ミリアを神獣の暴走から助ける
   location: 街
   objective:
@@ -81,6 +89,10 @@
 3:
   name: ローズとの戦闘 1
   elapsed days: 2
+  time:
+    start: 午前
+    end: 午前
+    notes: 1泊した翌日の午前
   integration event: 遷世教団の神殿に忍び込んで調べる
   location: 遷世教団の神殿
   objective:
@@ -125,6 +137,10 @@
 4:
   name: ペトラとの出会い
   elapsed days: 3
+  time:
+    start: 午前
+    end: 午後
+    notes: 1泊した翌日の午前から始まる
   integration event: ペトラを助けて妖精の森に行く
   location: 危険な近道
   objective:
@@ -167,6 +183,10 @@
 5:
   name: エリーとの戦闘 1
   elapsed days: 4
+  time:
+    start: 午前
+    end: 午前
+    notes: 1泊した翌日の午前
   integration event: 盗賊騎士の関門
   location: 通常の道
   objective:
@@ -190,8 +210,12 @@
 
 
 6:
-  name: レオナの背景
+  name: レオナの背景, レオナの訓練
   elapsed days: 5
+  time:
+    start: 朝
+    end: 昼
+    notes: 街に着いて1泊した翌日の朝
   integration event: 祭り
   location: 街
   objective:
@@ -203,7 +227,7 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /leona odl leona pre mid --- f - bGround レオナの背景
-    /                hnt     r09
+    /leona odl leona hnt --- r09 f - bGround レオナの背景
     /alice lov alice --- --- --- f - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
       /leona odl alice rel s14 r08 f - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
@@ -213,8 +237,12 @@
 
 7:
   name: ペトラの試練
-  elapsed days: 6
-  integration event: 妖精の森近くにやってきたドラゴンとペトラが対話する
+  elapsed days: 6, 7
+  time:
+    start: 午前
+    end: 午前
+    notes: 街で1泊した翌日の午前から始まって妖精の森で1泊した午前で終わる
+  integration event: 妖精の森近くにやってきたドラゴンとペトラが対話す
   location: 道
   objective:
     start: 街
@@ -228,17 +256,12 @@
     /integ evn grp11 --- --- --- f - @hesthe ペトラが見つけた碑文「エス＝◯◯◯◯リア」
     /petra odl petra --- --- --- f - ------- アリスを嫌いと言う
     /myria odl myria hnt s13 --- f - ------- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
-    /myria odl myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
-      /myria odl myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
-      /myria odl myria fct s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
-      /myria odl alice pre lst --- f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
-      /myria odl alice rel s21 --- f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
+    /integ evn third cat s43 --- f - @es---- ドラゴンにエスについて聞くといずこかに封印されていると言う
     /myria odl leona pre s12 --- f - favorbl レオナがミリアに甘える[ref-042]
     /myria odl leona rel s22 --- f - favorbl レオナがミリアに甘える[ref-042]
     /leona odl myria pre s09 --- f - ------- ミリアがレオナを甘やかす[ref-042]
     /leona odl myria rel s24 --- f - ------- ミリアがレオナを甘やかす[ref-042]
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
-    /integ evn third cat s43 --- f - @es---- ドラゴンにエスについて聞くといずこかに封印されていると言う
     /alice lov multi --- --- --- f - favorbl 恋人つなぎ（指を絡める）
     /grp21
       /erie- li2 erie- --- --- --- b - ------- エリーがアリスの強さについて報告する
@@ -255,17 +278,26 @@
 
 8:
   name: フェイとの戦闘 1
-  elapsed days: 7
-  integration event: 
+  elapsed days: 8
+  time:
+    start: 昼
+    end: 昼
+    notes: 妖精の森でさらに1泊した翌日の昼
+  integration event: 魔法使いのおばあさん => 元気の出る精霊石（ミリアの祖母が使っていた）[thi-052]
   location: 街の近く
   objective:
     start: 街
     end: 街
     top: 東 / エリク
-  narrative clues: 
+  narrative clues: 魔法使いのお礼の品
   note:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /myria odl myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
+      /myria odl myria pre s12 --- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
+      /myria odl myria fct s20 --- f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
+      /myria odl alice pre lst --- f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
+      /myria odl alice rel s21 --- f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
     /myria odl myria pre --- r12 f b ordeal- ミリアがフェイと戦う[ref-030]
       /myria odl myria fct --- r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
       /myria odl fei-- pre s13 --- f - results フェイが「また来る」と言って撤退する
@@ -283,14 +315,18 @@
   ######  ########  ######     ##    ###    #########
 
 9:
-  name: -
-  elapsed days: 
+  name: ミリアの背景
+  elapsed days: 8
+  time:
+    start: 夕方
+    end: 
+    notes: フェイとの戦闘を終えたその日の夕方
   integration event: 
-  location: 
+  location: 街
   objective:
     start: 
     end: 
-    top: 
+    top: 東 / エリク
   narrative clues: 
   note:
     - ミリアが普段使うのは弱い精霊魔法
@@ -304,6 +340,10 @@
 10:
   name: 妖精女王への謁見
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -349,6 +389,10 @@
 11:
   name: ローズとの戦闘 2
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -375,6 +419,10 @@
 12:
   name: アリスの背景
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -398,6 +446,10 @@
 13:
   name: 水着回
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -418,6 +470,10 @@
 14:
   name: ペトラが妖精領主になる
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: エスの大破壊の痕跡
   location: 
   objective:
@@ -441,6 +497,10 @@
 15:
   name: エリーとの戦闘 2
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -468,6 +528,10 @@
 16:
   name: -
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -505,6 +569,10 @@
 17:
   name: フェイとの戦闘 2
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -531,6 +599,10 @@
 18:
   name: -
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -571,6 +643,10 @@
 19:
   name: フェイとの戦闘 3
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -594,6 +670,10 @@
 20:
   name: -
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -610,6 +690,10 @@
 21:
   name: -
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -635,6 +719,10 @@
 22:
   name: エリーとの戦闘 3
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -657,6 +745,10 @@
 23:
   name: -
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -682,6 +774,10 @@
 24:
   name: ローズとの戦闘 3
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
@@ -709,6 +805,10 @@
 25:
   name: エスとの邂逅
   elapsed days: 
+  time:
+    start: 
+    end: 
+    notes: 
   integration event: 
   location: 
   objective:
