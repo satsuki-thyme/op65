@@ -14,7 +14,9 @@
     start: 朝
     end: 朝
     notes: 
-  integration event: アリスが地下から出てくる
+  integratioin:
+    event: アリスが地下から出てくる
+    note: 
   location: 森
   objective:
     start: 冒険
@@ -50,7 +52,9 @@
     start: 朝
     end: 朝
     notes: 1泊した翌日の朝
-  integration event: ミリアを神獣の暴走から助ける
+  integratioin:
+    event: ミリアを神獣の暴走から助ける
+    note: 
   location: 街
   objective:
     start: 宿
@@ -93,7 +97,9 @@
     start: 午前
     end: 午前
     notes: 1泊した翌日の午前
-  integration event: 遷世教団の神殿に忍び込んで調べる
+  integratioin:
+    event: 遷世教団の神殿に忍び込んで調べる
+    note: 
   location: 遷世教団の神殿
   objective:
     start: エリクの情報
@@ -141,7 +147,9 @@
     start: 午前
     end: 午後
     notes: 1泊した翌日の午前から始まる
-  integration event: ペトラを助けて妖精の森に行く
+  integratioin:
+    event: ペトラを助けて妖精の森に行く
+    note: 
   location: 危険な近道
   objective:
     start: 街
@@ -151,6 +159,7 @@
   note:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /myria li1 myria fct s48 --- f - @spirit 強力な精霊との出会い「また会うでしょう」
     /integ evn grp11 --- --- --- f - ------- 妖精の森を訪れる
     /integ evn third --- --- --- f - ------- 妖精のポヤポヤした様子を描く => ペトラがポヤポヤしていても領主になれる理由
     /integ evn grp11 --- --- --- f - ------- 妖精の森が妖精でいっぱいになっていると言われる
@@ -187,7 +196,9 @@
     start: 午前
     end: 午前
     notes: 1泊した翌日の午前
-  integration event: 盗賊騎士の関門
+  integratioin:
+    event: 盗賊騎士の関門
+    note: 
   location: 通常の道
   objective:
     start: 街
@@ -213,10 +224,12 @@
   name: レオナの背景, レオナの訓練
   elapsed days: 5
   time:
-    start: 朝
+    start: 遅い朝
     end: 昼
     notes: 街に着いて1泊した翌日の朝
-  integration event: 祭り
+  integratioin:
+    event: 祭り
+    note: 
   location: 街
   objective:
     start: 祭りへの参加
@@ -242,7 +255,9 @@
     start: 午前
     end: 午前
     notes: 街で1泊した翌日の午前から始まって妖精の森で1泊した午前で終わる
-  integration event: 妖精の森近くにやってきたドラゴンとペトラが対話す
+  integratioin:
+    event: 妖精の森近くにやってきたドラゴンとペトラが対話す
+    note: 
   location: 道
   objective:
     start: 街
@@ -283,7 +298,9 @@
     start: 昼
     end: 昼
     notes: 妖精の森でさらに1泊した翌日の昼
-  integration event: 魔法使いのおばあさん => 元気の出る精霊石（ミリアの祖母が使っていた）[thi-052]
+  integratioin:
+    event: 魔法使いのおばあさん => 元気の出る精霊石（ミリアの祖母が使っていた）[thi-052]
+    note: 
   location: 街の近く
   objective:
     start: 街
@@ -316,60 +333,29 @@
 
 9:
   name: ミリアの背景
-  elapsed days: 8
+  elapsed days: 9
   time:
-    start: 夕方
-    end: 
-    notes: フェイとの戦闘を終えたその日の夕方
-  integration event: 
+    start: 朝
+    end: 昼前
+    notes: フェイとの戦闘を終え1泊した翌日の朝
+  integratioin:
+    event: ミリアの精霊との契約の儀
+    note: 魔力泉、妖精の多い街[thi-057]
   location: 街
   objective:
-    start: 
-    end: 
+    start: 休息
+    end: 次の街
     top: 東 / エリク
   narrative clues: 
   note:
     - ミリアが普段使うのは弱い精霊魔法
+    - アリスとレオナは朝から訓練で、ミリアが遅い朝
   contents:
-    /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
+    /myria li1 myria fct s48 --- f - @spirit 強力な精霊の拒絶、契約の申し出、契約の儀を試す => できない
     /myria odl myria pre mid r13 f - bGround ミリアの背景
     /alice lov alice --- --- --- f - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
     /integ evn alice cat s44 --- f - @orb--- 魔力珠をローズがすぐに取りに行かないのは何か変と話す
-
-
-10:
-  name: 妖精女王への謁見
-  elapsed days: 
-  time:
-    start: 
-    end: 
-    notes: 
-  integration event: 
-  location: 
-  objective:
-    start: 
-    end: 
-    top: 
-  narrative clues: 
-  note:
-    - 次の場所へのフックが必要
-    - ミリアが普段使うのは弱い精霊魔法
-  contents:
-    /integ inf third fsh s29 r43 b - @es---- 妖精女王がエスはエリクに封印されていると言う
-    /integ evn grp11 --- --- r36 f - ------- 妖精女王に謁見する
-    /integ inf third fsh s32 r44 f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
-    /rose- li2 third fsh s33 --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
-    /integ inf third rel s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
-    /alice li1 third fsh s28 --- f - @alice- 妖精女王はアリスになんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
-    /integ inf third fsh s39 --- f - @hesthe アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
-    /rose- li2 rose- fsh s33 --- b - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
-    /rose- li1 rose- fsh s30 --- b - @rose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
-    /alice odl alice fsh s05 --- f - @ring-- アリスが妖精女王に素敵な指輪をよく見せてほしいと言われ_もったいぶりつつ_、_外せない_からこのままでと言う[ref-039]
-    /alice odl alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-    /                    lst
-    /alice odl alice hnt mid --- f - thought ローズと戦うことになる予感が強くなる
-    /alice odl alice hnt mid --- f - thought ローズとは戦えないと悩む
-    /alice lov multi --- --- --- f - favorbl 3人でバックハグ
+    /integ evn grp11 pre s36 --- f - ------- 妖精女王に呼ばれる
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
       /alice odl alice pre mid --- f - favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
       /leona odl leona rel --- r14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
@@ -377,7 +363,44 @@
       /leona odl leona pre lst --- f - ------- レオナがアリスに訓練してもらい「――後はその剣を超えられるといいんだけど」と言われる
       /leona odl leona pre lst --- f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
       /leona odl leona hnt mid --- f - thought 父王に言われた言葉「俺を超えていけ」がよみがえるどういう意味だったのか
+
+
+10:
+  name: 
+  elapsed days: 9
+  time:
+    start: 昼
+    end: 昼すぎ
+    notes: 街から近くの森へ移動してキノコサークルに入って転移して
+  integratioin:
+    event: 妖精女王への謁見
+    note: 
+  location: 妖精の国
+  objective:
+    start: 妖精女王との謁見
+    end: 街に戻る
+    top: 東 / エリク
+  narrative clues: 
+  note:
+    - 次の場所へのフックが必要
+    - ミリアが普段使うのは弱い精霊魔法
+  contents:
+    /integ inf third fsh s29 r43 f - @es---- 妖精女王がエスはエリクに封印されていると言う
+    /integ evn grp11 --- --- r36 f - ------- 妖精女王に謁見する
+    /integ inf third fsh s32 r44 f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
+    /rose- li2 third fsh s33 --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
+    /integ inf third rel s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
+    /alice li1 third fsh s28 --- f - @alice- 妖精女王はアリスになんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
+    /integ inf third fsh s39 --- f - @hesthe アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
+    /alice odl alice fsh s05 --- f - @ring-- アリスが妖精女王に素敵な指輪をよく見せてほしいと言われ_もったいぶりつつ_、_外せない_からこのままでと言う[ref-039]
+    /alice odl alice pre mid --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+    /alice odl alice pre lst --- f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+    /alice odl alice hnt mid --- f - thought ローズと戦うことになる予感が強くなる
+    /alice odl alice hnt mid --- f - thought ローズとは戦えないと悩む
+    /alice lov multi --- --- --- f - favorbl 3人でバックハグ
     /grp21
+      /rose- li2 rose- fsh s33 --- b - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
+      /rose- li1 rose- fsh s30 --- b - @rose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
       /myria odl fei-- pre mid r26 b - bGround フェイの背景
       /fei-- li2 fei-- --- --- --- b - ------- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
       /erie- li2 erie- --- --- --- b - ------- エリーがフェイに皮肉を言う
@@ -393,7 +416,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -423,7 +448,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -450,7 +477,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -474,7 +503,9 @@
     start: 
     end: 
     notes: 
-  integration event: エスの大破壊の痕跡
+  integratioin:
+    event: エスの大破壊の痕跡
+    note: 
   location: 
   objective:
     start: 
@@ -501,7 +532,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -532,7 +565,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -573,7 +608,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -603,7 +640,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -647,7 +686,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -674,7 +715,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -694,7 +737,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -723,7 +768,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -749,7 +796,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -778,7 +827,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
@@ -809,7 +860,9 @@
     start: 
     end: 
     notes: 
-  integration event: 
+  integratioin:
+    event: 
+    note: 
   location: 
   objective:
     start: 
