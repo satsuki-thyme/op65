@@ -212,6 +212,7 @@
     /leona odl leona pre s07 --- f - favorbl 盗賊騎士を強気に抑える、通行料の相場を言って認めさせる、妖精から取らせない
     /leona odl leona pre --- r07 f b ordeal- レオナがエリーと戦う
       /leona odl erie- hnt s09 --- f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
+      /leona etc leona rel s51 --- f - ------- レオナがエリーに剣を折られる
       /leona odl leona pre s09 --- f - results レオナがエリーに敗北する
       /leona odl leona fct --- r19 f - ------- 〃
       /alice odl alice pre mid --- f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
@@ -242,6 +243,7 @@
   contents:
     /leona odl leona pre mid --- f - bGround レオナの背景
     /leona odl leona hnt --- r09 f - bGround レオナの背景
+    /leona etc leona rel s51 --- f - ------- レオナがイマイチの剣を買う（折れた剣は直せないとのこと）
     /alice lov alice --- --- --- f - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
       /leona odl alice rel s14 r08 f - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
@@ -273,6 +275,7 @@
     /petra odl petra --- --- --- f - ------- アリスを嫌いと言う
     /myria odl myria hnt s13 --- f - ------- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
     /integ evn third cat s43 --- f - @es---- ドラゴンにエスについて聞くといずこかに封印されていると言う
+    /leona etc leona rel s51 --- f - ------- ドラゴン「{ドラゴン}」がレオナの魂が剣士{剣士}に似ているが、あれ以上に強い輝きを放っていると言う
     /myria odl leona pre s12 --- f - favorbl レオナがミリアに甘える[ref-042]
     /myria odl leona rel s22 --- f - favorbl レオナがミリアに甘える[ref-042]
     /leona odl myria pre s09 --- f - ------- ミリアがレオナを甘やかす[ref-042]
@@ -289,6 +292,7 @@
       /fei-- etc fei-- hnt s26 --- b - ------- フェイがローズ様のおかげですと言う
       /fei-- etc rose- hnt s26 --- b - ------- ローズがあなたが才能を持っていたからよと言う
       /fei-- etc rose- hnt s26 --- b - ------- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
+      /integ inf rose- hnt s50 --- b - @orb--- 下腹部を押さえて苦しむがすぐに治まる
       /grp21 lov multi --- --- --- b - ------- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
 
 
@@ -352,6 +356,7 @@
     - ミリアが普段使うのは弱い精霊魔法
     - アリスとレオナは朝から訓練で、ミリアが遅い朝
   contents:
+    /leona etc leona rel s51 --- f - ------- 邪悪なドラゴン「{ドラゴン}」と戦った剣士の伝説を聞く[ref-050]
     /myria li1 myria fct s48 --- f - @spirit 強力な精霊の拒絶、契約の申し出、契約の儀を試す => できない
     /myria odl myria pre mid r13 f - bGround ミリアの背景
     /alice lov alice --- --- --- f - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
@@ -421,17 +426,19 @@
   integratioin:
     event: 
     note: 
-  location: 
+  location: 道、滝の近く
   objective:
-    start: 
-    end: 
-    top: 東 / エリク
+    start: 街
+    end: 街
+    top: 東 / エリク（エリクに魔力珠の手掛かりがあるかもしれないしミリアのためにもエリクには行く）
   narrative clues: 
   note:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /leona etc leona rel --- r51 f - ------- レオナが滝の裏の洞窟にあった剣を抜く（レオナには滝の裏が光って見える）[ref-049]
     /integ evn alice cat s45 --- f - @zavia- ザヴィが倒される相手なんているんだろうかと疑問を言う
     /integ inf rose- fsh s32 --- f - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
+    /integ inf rose- hnt --- r50 f - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
     /integ inf rose- fsh s31 r45 f - @zavia- ザヴィはローズが殺した
     /integ inf rose- fsh s32 --- f - @orb--- ローズは魔力珠とともにエリクに行って世界を終わらせる
     /rose- li2 rose- fsh s33 --- f - @orbPln ローズは魔力珠とともにエリクに行って世界を終わらせる

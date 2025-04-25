@@ -113,6 +113,7 @@
 - thinking-notes/thi-056.md: アリスが指輪を大切にしている様子
 - thinking-notes/thi-057.md: 第9話 統合イベント
 - thinking-notes/thi-058.md: 第10話 イベント
+- thinking-notes/thi-059.md: 第11話 統合イベント
 
 ### アーカイブ
 #### before-2025-01-13
