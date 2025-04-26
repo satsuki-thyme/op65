@@ -20,7 +20,7 @@
   location: 森
   objective:
     start: 冒険
-    end: 街
+    end: 街1
     top: エリク
   narrative clues: 石碑にヘスト゠エリアの文字
   note:
@@ -55,7 +55,7 @@
   integratioin:
     event: ミリアを神獣の暴走から助ける
     note: 
-  location: 街
+  location: 街1
   objective:
     start: 宿
     end: 遷世教団の神殿
@@ -65,11 +65,11 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn myria pre s11 --- f - ------- ミリアの精霊魔法が弱いことを印象づける
-    /integ evn alice --- --- --- f - ------- 手持ちの宝石を換金する
+    /integ evn alice --- --- --- f - ------- 手持ちの宝石を換金する（大きな宝石商、アリスの身なりは高級品で仕立てがいい）
     /integ evn multi --- --- --- f - ------- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
     /integ evn grp11 --- --- --- f - ------- アリスの旅にミリアが加わる
     /integ inf alice rel s35 --- f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
-    /integ inf alice rel s05 --- f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
+    /integ inf alice rel s52 --- f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
     /integ inf myria fsh s32 r41 f - @orb--- 遷世教団は魔力珠を探している
     /integ inf myria fsh s29 --- f - @es---- 遷世教団は遷世させたい
     /integ inf myria rel s34 --- f - @elf--- エリクにハイエルフの叡智がある
@@ -101,7 +101,7 @@
   integratioin:
     event: 遷世教団の神殿に忍び込んで調べる
     note: 
-  location: 遷世教団の神殿
+  location: 遷世教団の神殿 / 街1
   objective:
     start: エリクの情報
     end: 東
@@ -147,14 +147,14 @@
   time:
     start: 午前
     end: 午後
-    notes: 1泊した翌日の午前から始まる
+    notes: 街1で1泊した翌日の午前
   integratioin:
     event: ペトラを助けて妖精の森に行く
     note: 
-  location: 危険な近道
+  location: 妖精の森 / 危険な近道
   objective:
-    start: 街
-    end: 街
+    start: 街2
+    end: 街2
     top: 東 / エリク
   narrative clues: 
   note:
@@ -196,14 +196,14 @@
   time:
     start: 午前
     end: 午前
-    notes: 1泊した翌日の午前
+    notes: 街2に1泊した翌日の午前
   integratioin:
     event: 盗賊騎士の関門
     note: 
-  location: 通常の道
+  location: 道
   objective:
-    start: 街
-    end: 街
+    start: 街3
+    end: 街3
     top: 東 / エリク
   narrative clues: 
   note:
@@ -228,14 +228,14 @@
   time:
     start: 遅い朝
     end: 昼
-    notes: 街に着いて1泊した翌日の朝
+    notes: 街3に着いて1泊した翌日の朝
   integratioin:
     event: 祭り
     note: 
-  location: 街
+  location: 街3
   objective:
     start: 祭りへの参加
-    end: 次の街
+    end: 街4
     top: 東 / エリク
   narrative clues: 
   note:
@@ -257,14 +257,14 @@
   time:
     start: 午前
     end: 午前
-    notes: 街で1泊した翌日の午前から始まって妖精の森で1泊した午前で終わる
+    notes: 街4で1泊した翌日の午前から始まって妖精の森で1泊した午前で終わる
   integratioin:
     event: 妖精の森近くにやってきたドラゴンとペトラが対話す
     note: 
-  location: 道
+  location: 妖精の森 / 道
   objective:
-    start: 街
-    end: 街
+    start: 街5
+    end: 街5
     top: 東 / エリク
   narrative clues: 妖精に◯◯をもらう, ドラゴンとの対話
   note:
@@ -304,12 +304,12 @@
     end: 昼
     notes: 妖精の森でさらに1泊した翌日の昼
   integratioin:
-    event: 魔法使いのおばあさん => 元気の出る精霊石（ミリアの祖母が使っていた）[thi-052]
+    event: 魔法使いの老婆 => 元気の出る精霊石（ミリアの祖母が使っていた）を老婆にあげる[thi-052]
     note: 
-  location: 街の近く
+  location: 街5の近く
   objective:
-    start: 街
-    end: 街
+    start: 街5
+    end: 街5
     top: 東 / エリク
   narrative clues: 魔法使いのお礼の品
   note:
@@ -342,14 +342,14 @@
   time:
     start: 朝
     end: 昼前
-    notes: フェイとの戦闘を終え1泊した翌日の朝
+    notes: フェイとの戦闘を終え街5に1泊した翌日の朝
   integratioin:
     event: ミリアの精霊との契約の儀とその失敗
     note: 魔力泉、妖精の多い街[thi-057]
-  location: 魔力泉の街
+  location: 街5（魔力泉の街）
   objective:
     start: 休息
-    end: 次の街
+    end: 街6
     top: 東 / エリク
   narrative clues: 
   note:
@@ -377,14 +377,14 @@
   time:
     start: 昼
     end: 昼すぎ
-    notes: 街から近くの森へ移動してキノコサークルに入って転移して
+    notes: 街5（魔力泉の街）から近くの森へ移動してキノコサークルに入って転移して
   integratioin:
     event: 妖精女王への謁見
     note: 植物が大きく見えるくらいアリスたちは縮んでいる, ペトラの頑張りを褒められる
-  location: 妖精の国, 魔力泉の街
+  location: 妖精の国 / 街5（魔力泉の街）
   objective:
     start: 妖精女王との謁見
-    end: 街に戻る
+    end: 街5に戻る
     top: 東 / エリク
   narrative clues: 
   note:
@@ -420,16 +420,16 @@
   declaration: ローズとの戦闘 2
   elapsed days: 10
   time:
-    start: 朝
-    end: 
-    notes: 魔力泉の街で1泊して翌日
+    start: 昼
+    end: 昼
+    notes: 街5（魔力泉の街）で1泊して翌日
   integratioin:
-    event: 
+    event: 滝の裏の剣を抜く
     note: 
-  location: 道、滝の近く
+  location: 滝 / 道
   objective:
-    start: 街
-    end: 街
+    start: 街6
+    end: 街6
     top: 東 / エリク（エリクに魔力珠の手掛かりがあるかもしれないしミリアのためにもエリクには行く）
   narrative clues: 
   note:
@@ -452,15 +452,15 @@
 
 12:
   declaration: アリスの背景
-  elapsed days: 
+  elapsed days: 11
   time:
-    start: 
+    start: 朝
     end: 
-    notes: 
+    notes: 街6に着いて1泊して翌日
   integratioin:
     event: 
     note: 
-  location: 
+  location: 街6, 近くに湖がある
   objective:
     start: 
     end: 
@@ -472,11 +472,10 @@
   contents:
     /alice odl alice --- --- --- f - thought アリスがローズの体を心配する
     /alice odl alice pre lst r05 f - bGround アリスの背景
-    /alice odl alice rel --- r05 f - bGround アリスの背景
+    /alice odl alice rel --- r52 f - bGround アリスの背景
       /alice odl alice pre lst --- f - thought アリスの子に対する愛情
     /alice lov alice --- --- --- f - thought アリスの、2人に対する独占欲の気づき
-    /alice li1 alice fsh s28 --- f - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
-    /integ evn alice cat s46 --- f - @es---- 神が世界を滅ぼそうとするだろうか、邪なあの子ならともかく
+    /integ evn alice cat s46 --- f - @es---- 神が世界を終わらせようとするだろうか、邪なあの子ならともかく
 
 
 13:
@@ -565,6 +564,7 @@
     /leona odl leona pre --- mid f b ordeal- レオナがエリーと戦う
       /leona odl leona hnt --- mid f - results レオナがエリーと引き分ける
       /leona odl erie- fct lst --- f - ------- エリーが絶対にこのままでは終わらせないと宣言する
+    /alice li1 alice fsh s28 --- f - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
 
 
 16:
