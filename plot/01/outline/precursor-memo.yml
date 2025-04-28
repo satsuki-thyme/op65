@@ -1,41 +1,40 @@
 # 前駆体のメモ
-- item: 001
+- item: 
   resolution: 000 xxx
   narrative-clues:
-    - 1 石碑にヘスト゠エリアの文字
-
-- item: 002
-  resolution: 10 神獣が現れてアリスの身に危険が迫っていると言う
-  narrative-clues:
-    - 2 神獣の発狂を治してやる
-
-- item: 003
-  resolution: 000 xxx
-  narrative-clues:
-    - 7 妖精に◯◯をもらう
-
-- item: 004
-  resolution: 000 xxx
-  narrative-clues:
-    - 7 ドラゴンとの対話
-
-- item: 005
-  resolution: 000 xxx
-  narrative-clues:
-    - 1 レオナは{◯◯神}の修道会で活動している
-
-- item: 006
-  resolution: 000 xxx
-  narrative-clues:
-    - 8 魔法使いの老婆から◯◯をもらう
+    - 0 xxx
 
 - item: 007
   resolution: 000 xxx
   narrative-clues:
     - 0 xxx
 
-- item: 
+- item: 006
   resolution: 000 xxx
   narrative-clues:
-    - 0 xxx
+    - 8 魔法使いの老婆から◯◯をもらう
 
+- item: 005
+  resolution: 000 xxx
+  narrative-clues:
+    - 1 レオナは{◯◯神}の修道会で活動している
+
+- item: 004
+  resolution: 000 xxx
+  narrative-clues:
+    - 7 ドラゴンとの対話
+
+- item: 003
+  resolution: 000 xxx
+  narrative-clues:
+    - 7 妖精に◯◯をもらう
+
+- item: 002
+  resolution: 10 神獣が現れてアリスの身に危険が迫っていると言う
+  narrative-clues:
+    - 2 神獣の発狂を治してやる
+
+- item: 001
+  resolution: 000 xxx
+  narrative-clues:
+    - 1 石碑にヘスト゠エリアの文字

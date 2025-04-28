@@ -276,6 +276,8 @@
     /myria odl myria hnt s13 --- f - ------- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
     /integ evn third cat s43 --- f - @es---- ドラゴンにエスについて聞くといずこかに封印されていると言う
     /leona etc leona rel s51 --- f - ------- ドラゴン「{ドラゴン}」がレオナの魂が剣士{剣士}に似ているが、あれ以上に強い輝きを放っていると言う
+    /integ evn third rel s54 --- f - ------- ドラゴンは神に属する者の動きが活発になっているから様子を見ている
+    /integ evn third rel s54 --- f - ------- アリスに{ドラゴンアイテム}をくれる
     /myria odl leona pre s12 --- f - favorbl レオナがミリアに甘える[ref-042]
     /myria odl leona rel s22 --- f - favorbl レオナがミリアに甘える[ref-042]
     /leona odl myria pre s09 --- f - ------- ミリアがレオナを甘やかす[ref-042]
@@ -356,6 +358,7 @@
     - ミリアが普段使うのは弱い精霊魔法
     - アリスとレオナは朝から訓練で、ミリアが遅い朝
   contents:
+    /integ evn grp11 rel s53 --- f - ------- 街6の湖の水運について話を聞く => 船で渡りたい
     /leona etc leona rel s51 --- f - ------- 邪悪なドラゴン「{ドラゴン}」と戦った剣士の伝説を聞く[ref-050]
     /myria li1 myria fct s48 --- f - @spirit 強力な精霊の拒絶、契約の申し出、契約の儀を試す => できない
     /myria odl myria pre mid r13 f - bGround ミリアの背景
@@ -445,7 +448,7 @@
     /alice odl alice pre --- mid f b ordeal- アリスがローズと戦う
       /alice odl alice hnt --- mid f - ------- 説得を試みる
       /alice odl alice pre lst --- f - results アリスがまともに戦えず怪我をする
-      /alice odl rose- pre s05 --- f - bGround ローズがアリスの背景に関する情報を言うntt
+      /alice odl rose- pre s05 --- f - @alice- ローズがアリスを太古から生きる化け物と言う
     /alice lov alice --- --- --- f - thought アリスの、2人がかけがえのない存在だという気づき
     /leona odl multi pre mid --- f - ------- レオナがアリスに訓練してもらう[ref-018]
 
@@ -460,16 +463,18 @@
   integratioin:
     event: 
     note: 
-  location: 街6, 近くに湖がある
+  location: 街6, 湖に隣接
   objective:
-    start: 
-    end: 
-    top: 
+    start: 街7（対岸の街）
+    end: 街7（対岸の街）
+    top: 東 / エリク
   narrative clues: 
   note:
     - 水着の用意について考える => アリスが昔はあったと言って作る
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ evn third rel s54 --- f - ------- 水棲のドラゴンが神に属する者の動きが活発になっている、変化の予兆だ、我にも役割が与えられているだろう
+    /integ evn grp11 rel --- r53 f - ------- 湖を船で渡りたい
     /alice odl alice --- --- --- f - thought アリスがローズの体を心配する
     /alice odl alice pre lst r05 f - bGround アリスの背景
     /alice odl alice rel --- r52 f - bGround アリスの背景
@@ -498,6 +503,7 @@
     - 水着の用意について考える
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ evn third rel --- r54 f - ------- 水棲ドラゴンが{ドラゴン}の{ドラゴンアイテム}を感知して湖底洞窟の祠に連れていってくれる
     /integ inf third fsh s29 r46 f - @es---- エスは邪神の呪いによって世界の破壊を欲する眷属にされた
     /integ inf third rel s35 --- f - @evil-- エスは邪神の呪いによって世界の破壊を欲する眷属にされた
     /integ inf alice fsh s39 --- f - @es---- アリスが邪神の呪いなら解呪できると思うと言う
