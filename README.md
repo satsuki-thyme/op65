@@ -32,7 +32,7 @@
 - plot/01/outline/outline.yml:                 概要プロット
 - plot/01/outline/precursor-memo.yml:          前駆体のメモ
 - plot/01/outline/precursor.yml:               前駆体の採番
-- plot/01/outline/ref-note.md:                 参照ノート
+- plot/01/outline/ref-note.yml:                参照ノート
 - plot/01/outline/worldview-decoration.yml:    世界観装飾
 
 ##### 詳細
