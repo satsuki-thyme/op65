@@ -51,8 +51,8 @@
 - settings/history/his-001.md: エス封印に関すること
 
 ### その他
-- etc/notes.md: ノート
-- etc/todo.md:  ToDoリスト
+- etc/notes.yml: ノート
+- etc/todo.md:   ToDoリスト
 
 ### 思考ノート
 - thinking-notes/thi-001.md: ミリアのコンフリクト
@@ -115,6 +115,7 @@
 - thinking-notes/thi-058.md: 第10話 イベント
 - thinking-notes/thi-059.md: 第11話 統合イベント
 - thinking-notes/thi-060.md: 第12話 統合イベント
+- thinking-notes/thi-061.md: 第13話 イベント
 
 ### アーカイブ
 #### before-2025-01-13
