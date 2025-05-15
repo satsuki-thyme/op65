@@ -470,7 +470,6 @@
     top: 東 / エリク
   narrative clues: 
   note:
-    - 水着の用意について考える => アリスが昔はあったと言って作る
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn third rel s54 --- f - ------- 水棲のドラゴンが神に属する者の動きが活発になっている、変化の予兆だ、我にも役割が与えられているだろう
@@ -483,6 +482,8 @@
     /alice lov alice --- --- --- f - thought アリスの、2人に対する独占欲の気づき
     /integ evn alice cat s46 --- f - @es---- 神が世界を終わらせようとするだろうか、邪なあの子ならともかく
     /integ evn third rel --- r54 f - ------- 水棲ドラゴンが{ドラゴン}の{ドラゴンアイテム}を感知して湖底洞窟の祠に連れていってくれる
+    /integ evn noCha rel s56 --- f - ------- 砂浜の描写
+    /integ evn noCha rel s55 --- f - ------- 湖底の街の描写
     /integ inf third fsh s29 r46 f - @es---- エスは邪神の呪いによって世界の破壊を欲する眷属にされた
     /integ inf third rel s35 --- f - @evil-- エスは邪神の呪いによって世界の破壊を欲する眷属にされた
     /integ inf alice fsh s39 --- f - @es---- アリスが邪神の呪いなら解呪できると思うと言う
@@ -491,25 +492,27 @@
 
 13:
   declaration: 水着回
-  elapsed days: 
+  elapsed days: 12
   time:
-    start: 
-    end: 
-    notes: 
+    start: 朝
+    end: 昼
+    notes: 夕方に終わるのが理想的だが、そんな長引くだろうか
   integratioin:
-    event: 
+    event: 水着回
     note: 
-  location: 
+  location: 湖の砂浜, 湖底
   objective:
-    start: 
-    end: 
-    top: 
+    start: 遊ぶ
+    end: 街に帰る
+    top: 東 / エリク
   narrative clues: 
   note:
-    - 水着の用意について考える
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-
+    /integ evn alice --- --- --- f - ------- 昨夜アリスは縫い物をしていた、水着を作っていた
+    /integ evn grp11 rel --- r56 f - ------- ボートを借りて砂浜に行って楽しむ => えちちなシーンを量産する
+    /integ evn third --- --- --- f - ------- 精霊が現れて摂ってきてほしいと言われて取りに行く[thi-061]
+    /integ evn noCha rel --- r55 f - ------- 湖底の街
 
 14:
   declaration: ペトラが妖精領主になる
