@@ -13,17 +13,22 @@
   time:
     start: 朝
     end: 朝
-    notes: 
+    notes: -
   integratioin:
     event: アリスが地下から出てくる
-    note: 
+    objective: 
+      start: 冒険
+      middle: -
+      end: 魔力珠
+      top: 魔力珠
+    notes: -
   location: 森
-  objective:
-    start: 冒険
+  destination:
+    start: -
+    middle: -
     end: 街1
     top: エリク
-  narrative clues: 石碑にヘスト゠エリアの文字
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn alice --- --- --- f - ------- アリスが地下から出てくる
@@ -54,14 +59,19 @@
     notes: 1泊した翌日の朝
   integratioin:
     event: ミリアを神獣の暴走から助ける
-    note: 
+    objective: 
+      start: エリクの情報
+      middle: ミリアの救助
+      end: 遷世教団への潜入
+      top: 魔力珠
+    notes: -
   location: 街1
-  objective:
+  destination:
     start: 宿
+    middle: 街へ繰り出す
     end: 遷世教団の神殿
     top: エリク
-  narrative clues: 神獣の発狂を治してやる
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn myria pre s11 --- f - ------- ミリアの精霊魔法が弱いことを印象づける
@@ -100,14 +110,19 @@
     notes: 1泊した翌日の午前
   integratioin:
     event: 遷世教団の神殿に忍び込んで調べる
-    note: 
+    objective: 
+      start: エリクの情報
+      middle: -
+      end: 東へ
+      top: 魔力珠
+    notes: -
   location: 遷世教団の神殿 / 街1
-  objective:
-    start: エリクの情報
-    end: 東
-    top: エリク
-  narrative clues: 
-  note:
+  destination:
+    start: 遷世教団の神殿
+    middle: -
+    end: 逃亡
+    top: 東 / エリク
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn grp11 --- --- --- f - ------- 遷世教団の神殿に忍び込む
@@ -150,14 +165,19 @@
     notes: 街1で1泊した翌日の午前
   integratioin:
     event: ペトラを助けて妖精の森に行く
-    note: 
+    objective: 
+      start: 街2に行く
+      middle: ペトラを助ける
+      end: 街2に行く
+      top: 魔力珠
+    notes: -
   location: 妖精の森 / 危険な近道
-  objective:
+  destination:
     start: 街2
+    middle: 妖精の森
     end: 街2
     top: 東 / エリク
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /myria li1 myria fct s48 --- f - @spirit 強力な精霊との出会い「また会うでしょう」
@@ -199,14 +219,19 @@
     notes: 街2に1泊した翌日の午前
   integratioin:
     event: 盗賊騎士の関門
-    note: 
+    objective: 
+      start: 関門を越える
+      middle: エリーを倒す
+      end: 街3に行く
+      top: 魔力珠
+    notes: -
   location: 道
-  objective:
+  destination:
     start: 街3
+    middle: 街3
     end: 街3
     top: 東 / エリク
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /leona odl leona pre s07 --- f - favorbl 盗賊騎士を強気に抑える、通行料の相場を言って認めさせる、妖精から取らせない
@@ -231,14 +256,19 @@
     notes: 街3に着いて1泊した翌日の朝
   integratioin:
     event: 祭り
-    note: 
+    objective: 
+      start: 祭りを楽しむ, 剣を買う
+      middle: -
+      end: レオナの訓練
+      top: 魔力珠
+    notes: -
   location: 街3
-  objective:
+  destination:
     start: 祭りへの参加
+    middle: -
     end: 街4
     top: 東 / エリク
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /leona odl leona pre mid --- f - bGround レオナの背景
@@ -259,15 +289,20 @@
     end: 午前
     notes: 街4で1泊した翌日の午前から始まって妖精の森で1泊した午前で終わる
   integratioin:
-    event: 妖精の森近くにやってきたドラゴンとペトラが対話す
-    note: 
+    event: 妖精の森近くにやってきたドラゴンとペトラが対話する
+    objective: 
+      start: 街5に行く
+      middle: 妖精を助ける
+      end: 街5に行く
+      top: 魔力珠
+    notes: -
   location: 妖精の森 / 道
-  objective:
+  destination:
     start: 街5
+    middle: 妖精の森
     end: 街5
     top: 東 / エリク
-  narrative clues: 妖精に◯◯をもらう, ドラゴンとの対話
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn grp11 --- --- --- f - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
@@ -307,14 +342,19 @@
     notes: 妖精の森でさらに1泊した翌日の昼
   integratioin:
     event: 魔法使いの老婆 => 元気の出る精霊石（ミリアの祖母が使っていた）を老婆にあげる[thi-052]
-    note: 
+    objective: 
+      start: 魔法使いの老婆を助ける
+      middle: フェイを倒す
+      end: 街5に行く
+      top: 魔力珠
+    notes: -
   location: 街5の近く
-  objective:
-    start: 街5
+  destination:
+    start: 魔法使いの老婆の家
+    middle: 街5
     end: 街5
     top: 東 / エリク
-  narrative clues: 魔法使いのお礼の品
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /myria odl myria pre s12 --- f - thought ミリアが祖母に会いたいという強い思いを吐露する
@@ -347,14 +387,19 @@
     notes: フェイとの戦闘を終え街5に1泊した翌日の朝
   integratioin:
     event: ミリアの精霊との契約の儀とその失敗
-    note: 魔力泉、妖精の多い街[thi-057]
+    objective: 
+      start: 魔力泉を堪能する、休息する
+      middle: ミリアが精霊と契約する
+      end: 街6に行く
+      top: 魔力珠
+    notes: 魔力泉、妖精の多い街[thi-057]
   location: 街5（魔力泉の街）
-  objective:
-    start: 休息
+  destination:
+    start: ここ
+    middle: ここ
     end: 街6
     top: 東 / エリク
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
     - アリスとレオナは朝から訓練で、ミリアが遅い朝
   contents:
@@ -383,15 +428,19 @@
     notes: 街5（魔力泉の街）から近くの森へ移動してキノコサークルに入って転移して
   integratioin:
     event: 妖精女王への謁見
-    note: 植物が大きく見えるくらいアリスたちは縮んでいる, ペトラの頑張りを褒められる
+    objective: 
+      start: 妖精女王への謁見
+      middle: 魔力珠やエスの情報
+      end: 街5に戻る
+      top: 魔力珠
+    notes: 植物が大きく見えるくらいアリスたちは縮んでいる, ペトラの頑張りを褒められる
   location: 妖精の国 / 街5（魔力泉の街）
-  objective:
+  destination:
     start: 妖精女王との謁見
+    middle: -
     end: 街5に戻る
     top: 東 / エリク
-  narrative clues: 
-  note:
-    - 次の場所へのフックが必要
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn grp11 rel --- r49 f - ------- 神獣が現れてアリスの身に危険が迫っていると言う（上位存在が関係していてはっきり未来が見えない）
@@ -428,14 +477,19 @@
     notes: 街5（魔力泉の街）で1泊して翌日
   integratioin:
     event: 滝の裏の剣を抜く
-    note: 
+    objective: 
+      start: 滝を見る, 滝の裏に行く
+      middle: ローズを説得する
+      end: 街6に行く
+      top: 魔力珠
+    notes: -
   location: 滝 / 道
-  objective:
-    start: 街6
+  destination:
+    start: 滝の裏
+    middle: -
     end: 街6
     top: 東 / エリク（エリクに魔力珠の手掛かりがあるかもしれないしミリアのためにもエリクには行く）
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /leona etc leona rel --- r51 f - ------- レオナが滝の裏の洞窟にあった剣を抜く（レオナには滝の裏が光って見える）[ref-049]
@@ -462,14 +516,19 @@
     notes: 街6に着いて1泊して翌日
   integratioin:
     event: 水棲のドラゴン
-    note: 
+    objective: 
+      start: 湖を渡って向こう岸の街7に行きたい
+      middle: 湖底の洞窟
+      end: 街7に行く
+      top: 魔力珠
+    notes: -
   location: 街6, 湖に隣接
-  objective:
+  destination:
     start: 街7（対岸の街）
-    end: 街7（対岸の街）
+    middle: 湖底の洞窟
+    end: 街7（対岸の街）, アリスは砂浜に行きたくなっている
     top: 東 / エリク
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn third rel s54 --- f - ------- 水棲のドラゴンが神に属する者の動きが活発になっている、変化の予兆だ、我にも役割が与えられているだろう
@@ -499,14 +558,19 @@
     notes: 夕方に終わるのが理想的だが、そんな長引くだろうか
   integratioin:
     event: 水着回
-    note: 
+    objective: 
+      start: 水遊び
+      middle: 精霊を助ける
+      end: 街6に帰る
+      top: 魔力珠
+    notes: -
   location: 湖の砂浜, 湖底
-  objective:
-    start: 遊ぶ
-    end: 街に帰る
+  destination:
+    start: 砂浜
+    middle: 湖底の街
+    end: 街6に帰る
     top: 東 / エリク
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn alice --- --- --- f - ------- 昨夜アリスは縫い物をしていた、水着を作っていた
@@ -516,21 +580,26 @@
 
 14:
   declaration: ペトラが妖精領主になる
-  elapsed days: 
+  elapsed days: 15
   time:
     start: 
     end: 
     notes: 
   integratioin:
     event: エスの大破壊の痕跡
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn third --- --- --- f - @hesthe エスの大破壊の痕跡の名所で流転の現象が起こっている[ref-047]
@@ -552,14 +621,19 @@
     notes: 
   integratioin:
     event: 
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /rose- li2 rose- fsh s33 --- b - @orbPln 望みの全てはエリクの封印に懸かっている
@@ -586,14 +660,19 @@
     notes: 
   integratioin:
     event: 
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice li1 alice fsh s28 --- f - @alice- 動物と話ができる
@@ -629,14 +708,19 @@
     notes: 
   integratioin:
     event: 
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /myria odl myria pre --- mid f b ordeal- ミリアがフェイと戦う
@@ -661,14 +745,19 @@
     notes: 
   integratioin:
     event: 
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn third --- --- --- f - @hesthe 石碑にエス＝ヘス◯◯◯◯と書かれている
@@ -707,14 +796,19 @@
     notes: 
   integratioin:
     event: 
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /myria odl myria pre --- lst f b ordeal- ミリアがフェイと戦う[ref-029]
@@ -736,14 +830,19 @@
     notes: 
   integratioin:
     event: 
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice li1 alice fsh s28 --- f - @alice- 花を結実させる
@@ -758,14 +857,19 @@
     notes: 
   integratioin:
     event: 
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice odl alice pre lst --- f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
@@ -789,14 +893,19 @@
     notes: 
   integratioin:
     event: 
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /rose- li2 erie- pre s33 r40 f - @orbPln ローズは死ぬ気でいるから助けてほしい
@@ -817,14 +926,19 @@
     notes: 
   integratioin:
     event: 
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice odl alice pre lst --- f - thought ローズを倒せないと思い込む => ローズは強い
@@ -848,14 +962,19 @@
     notes: 
   integratioin:
     event: 
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ inf rose- fsh --- r31 f - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
@@ -881,14 +1000,19 @@
     notes: 
   integratioin:
     event: 
-    note: 
+    objective: 
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes: 
   location: 
-  objective:
+  destination:
     start: 
+    middle: 
     end: 
     top: 
-  narrative clues: 
-  note:
+  notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn alice fsh --- r39 f - @es---- エス＝ヘスト゠エリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
