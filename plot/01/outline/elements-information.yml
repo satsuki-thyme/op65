@@ -11,37 +11,37 @@
 1:
   name: レオナとの出会い
   contents:
-    /integ inf leona hnt s31 --- f - @zavia- ザヴィは世界を滅ぼそうとして倒された[ref-043]
+    /integ inf leona hnt s31 --- f - - @zavia- ザヴィは世界を滅ぼそうとして倒された[ref-043]
 
 
 2:
   name: ミリアとの出会い
   contents:
-    /integ inf fact- --- --- --- f - @evil-- 邪神の呪いで神獣が破壊衝動に突き動かされる
-    /integ inf myria hnt s32 --- f - @orb--- 遷世教団は魔力珠を探している
-    /integ inf myria hnt s29 --- f - @es---- 遷世教団は遷世させたい
-    /integ inf myria fct s34 --- f - @elf--- エリクにハイエルフの叡智がある
+    /integ inf fact- --- --- --- f - - @evil-- 邪神の呪いで神獣が破壊衝動に突き動かされる
+    /integ inf myria hnt s32 --- f - - @orb--- 遷世教団は魔力珠を探している
+    /integ inf myria hnt s29 --- f - - @es---- 遷世教団は遷世させたい
+    /integ inf myria fct s34 --- f - - @elf--- エリクにハイエルフの叡智がある
 
 
 3:
   name: ローズとの戦闘 1
   contents:
-    /integ inf rose- hnt s28 --- b - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすればもっと原初の存在……
-    /                --- ---         @evil--
-    /integ inf third hnt s29 --- f - @es---- 遷世教団は遷世神エスに仕えている
-    /integ inf third hnt s29 --- f - @es---- 遷世は今の世界を終わらせて新しい世界に移行すること
-    /integ inf third hnt s32 --- f - @orb--- 魔力珠はエリクにある
-    /integ inf rose- hnt s31 --- f - @zavia- ローズはザヴィの子
-    /integ inf rose- hnt s31 --- f - @zavia- ザヴィはエリクで死んだ
-    /integ inf rose- hnt s33 --- f - @orbPln ローズがアリスは魔力珠を追うと言う
+    /integ inf rose- hnt s28 --- b - - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすればもっと原初の存在……
+    /                --- ---         - @evil--
+    /integ inf third hnt s29 --- f - - @es---- 遷世教団は遷世神エスに仕えている
+    /integ inf third hnt s29 --- f - - @es---- 遷世は今の世界を終わらせて新しい世界に移行すること
+    /integ inf third hnt s32 --- f - - @orb--- 魔力珠はエリクにある
+    /integ inf rose- hnt s31 --- f - - @zavia- ローズはザヴィの子
+    /integ inf rose- hnt s31 --- f - - @zavia- ザヴィはエリクで死んだ
+    /integ inf rose- hnt s33 --- f - - @orbPln ローズがアリスは魔力珠を追うと言う
 
 
 4:
   name: ペトラとの出会い
   contents:
-    /integ inf fact- --- --- --- f - threat- スパイ妖精の存在
-    /integ inf rose- hnt s30 --- b - @rose-- ローズは自死することができない
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-2]
+    /integ inf fact- --- --- --- f - - threat- スパイ妖精の存在
+    /integ inf rose- hnt s30 --- b - - @rose-- ローズは自死することができない
+    /integ inf rose- hnt s30 --- b - - @rose-- ローズが神性を示す[ref-042-2]
 
 
 5:
@@ -62,7 +62,7 @@
 8:
   name: フェイとの戦闘 1
   contents:
-    /integ inf fei-- hnt s29 --- f - @es---- エスはエリクに封印されている
+    /integ inf fei-- hnt s29 --- f - - @es---- エスはエリクに封印されている
 
 
 9:
@@ -73,20 +73,20 @@
 10:
   name:
   contents:
-    /integ inf third hnt s32 --- f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
-    /integ inf third hnt s33 --- f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
-    /integ inf third fct s34 --- f - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
-    /integ inf rose- hnt s33 --- b - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　アリスは世界を救いたがるはず
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-4]
+    /integ inf third hnt s32 --- f - - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
+    /integ inf third hnt s33 --- f - - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
+    /integ inf third fct s34 --- f - - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
+    /integ inf rose- hnt s33 --- b - - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　アリスは世界を救いたがるはず
+    /integ inf rose- hnt s30 --- b - - @rose-- ローズが神性を示す[ref-042-4]
 
 
 11:
   name: ローズとの戦闘 2
   contents:
-    /integ inf rose- hnt s32 --- f - @orb--- 魔力珠はローズの中にある
-    /integ inf rose- hnt s31 --- f - @zavia- ザヴィはローズが殺した
-    /integ inf rose- hnt s32 --- f - @orb--- ローズは魔力珠とともにエリクに行って世界を終わらせる
-    /                hnt s33         @orbPln
+    /integ inf rose- hnt s32 --- f - - @orb--- 魔力珠はローズの中にある
+    /integ inf rose- hnt s31 --- f - - @zavia- ザヴィはローズが殺した
+    /integ inf rose- hnt s32 --- f - - @orb--- ローズは魔力珠とともにエリクに行って世界を終わらせる
+    /                hnt s33         - @orbPln
 
 
 12:
@@ -97,9 +97,9 @@
 13:
   name: 水着回
   contents:
-    /integ inf third hnt s29 --- f - @es---- エスは邪神によって世界の破壊を欲するようにさせられた
-    /                                @evil--
-    /integ inf third fct s34 --- f - @elf--- 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
+    /integ inf third hnt s29 --- f - - @es---- エスは邪神によって世界の破壊を欲するようにさせられた
+    /                                - @evil--
+    /integ inf third fct s34 --- f - - @elf--- 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
 
 
 14:
@@ -108,22 +108,22 @@
 15:
   name: エリーとの戦闘 2
   contents:
-    /integ inf rose- hnt s33 --- b - @orbPln 望みの全てはエリクの封印に懸かっている
-    /integ inf rose- hnt s33 --- b - @orbPln エスは封印の中で邪神の呪いに苛まれている
-    /                hnt s29         @es----
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-6]
+    /integ inf rose- hnt s33 --- b - - @orbPln 望みの全てはエリクの封印に懸かっている
+    /integ inf rose- hnt s33 --- b - - @orbPln エスは封印の中で邪神の呪いに苛まれている
+    /                hnt s29         - @es----
+    /integ inf rose- hnt s30 --- b - - @rose-- ローズが神性を示す[ref-042-6]
 
 
 16:
   name:
   contents:
-    /integ inf petra hnt s33 --- f - @orbPln 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
+    /integ inf petra hnt s33 --- f - - @orbPln 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
 
 
 17:
   name: フェイとの戦闘 2
   contents:
-    /integ inf fei-- hnt s33 --- f - @orbPln エスの封印は封印を上回る魔力が内側から放出されることで解ける
+    /integ inf fei-- hnt s33 --- f - - @orbPln エスの封印は封印を上回る魔力が内側から放出されることで解ける
 
 
 18:
@@ -132,8 +132,8 @@
 19:
   name: フェイとの戦闘 3
   contents:
-    /integ inf fei-- hnt s33 --- f - @orbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
-    /integ inf myria fct --- r34 f - @elf--- ミリアがエルフの叡智を得て祖母と再会する
+    /integ inf fei-- hnt s33 --- f - - @orbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
+    /integ inf myria fct --- r34 f - - @elf--- ミリアがエルフの叡智を得て祖母と再会する
 
 
 20:
@@ -142,37 +142,37 @@
 21:
   name: 
   contents:
-    /integ inf rose- hnt s30 --- b - @rose-- ローズがエリーを強化する
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-8]
+    /integ inf rose- hnt s30 --- b - - @rose-- ローズがエリーを強化する
+    /integ inf rose- hnt s30 --- b - - @rose-- ローズが神性を示す[ref-042-8]
 
 
 22:
   name: エリーとの戦闘 3
   contents:
-    /integ inf erie- hnt s33 --- f - @orbPln ローズは死ぬ気でいるから助けてほしい
+    /integ inf erie- hnt s33 --- f - - @orbPln ローズは死ぬ気でいるから助けてほしい
 
 
 23:
   name: 
   contents:
-    /integ inf rose- hnt s32 --- b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが自分自身を強化する
-    /integ inf rose- hnt s30 --- b - @rose-- ローズが神性を示す[ref-042-9]
+    /integ inf rose- hnt s32 --- b - - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
+    /integ inf rose- hnt s30 --- b - - @rose-- ローズが自分自身を強化する
+    /integ inf rose- hnt s30 --- b - - @rose-- ローズが神性を示す[ref-042-9]
 
 
 24:
   name: ローズとの戦闘 3
   contents:
-    /integ inf rose- hnt --- r31 f - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
-    /integ inf rose- hnt s29 --- f - @es---- エスは封印される前に残した思念体によってローズを乗っ取った
-    /integ inf noCha hnt --- r30     @rose-- エスは封印される前に残した思念体によってローズを乗っ取ったと知る
-    /integ inf rose- hnt --- r33 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
-    /integ inf noCha hnt --- r28 f - @alice- アリスの力が解放されてエリクが楽園になる
+    /integ inf rose- hnt --- r31 f - - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
+    /integ inf rose- hnt s29 --- f - - @es---- エスは封印される前に残した思念体によってローズを乗っ取った
+    /integ inf noCha hnt --- r30     - @rose-- エスは封印される前に残した思念体によってローズを乗っ取ったと知る
+    /integ inf rose- hnt --- r33 f - - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
+    /integ inf noCha hnt --- r28 f - - @alice- アリスの力が解放されてエリクが楽園になる
 
 
 25:
   name: エスとの邂逅
   contents:
-    /integ inf noCha hnt --- r32 f - @orb--- 魔力珠を手に入れる
-    /integ inf third hnt --- r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
-    /integ inf third rel --- r35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
+    /integ inf noCha hnt --- r32 f - - @orb--- 魔力珠を手に入れる
+    /integ inf third hnt --- r29 f - - @es---- エスの呪いを解いてエスから世界の趨勢を知る
+    /integ inf third rel --- r35 f - - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない

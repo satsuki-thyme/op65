@@ -4,26 +4,26 @@
   contents:
 
     ザヴィの親としての愛
-    /alice odl alice hnt s31 --- f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
+    /alice odl alice hnt s31 --- f - - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
 
     封界の指輪、効力（アリスの力を極限まで抑えます）、外すと壊れる（そのときはまた作ります）
-    /alice odl alice hnt s31 --- f - @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
-    /alice odl alice hnt s05 --- f - @alice- ローズが封界の指輪の名を出す
-    /alice odl alice hnt s05 --- f - @alice- アリスが素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
-    /alice odl alice hnt s05 --- f - @alice- 破壊衝動に突き動かされた神獣を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
+    /alice odl alice hnt s31 --- f - - @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
+    /alice odl alice hnt s05 --- f - - @alice- ローズが封界の指輪の名を出す
+    /alice odl alice hnt s05 --- f - - @alice- アリスが素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
+    /alice odl alice hnt s05 --- f - - @alice- 破壊衝動に突き動かされた神獣を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
 
     眠りにつく、数千年
-    /alice odl alice hnt s05 --- f - @alice- アリスが地上に出てきて数千年は経ってるかなと言う
-    /alice odl rose- hnt r05 --- b - @alice- ローズが太古から生きる化け物と言う
+    /alice odl alice hnt s05 --- f - - @alice- アリスが地上に出てきて数千年は経ってるかなと言う
+    /alice odl rose- hnt r05 --- b - - @alice- ローズが太古から生きる化け物と言う
 
     ローズ => ザヴィが子を成すと言う名前はローズ
     /alice odl alice hnt s05 --- f - ------- アリスはローズの名を知っている
 
     エスなどとの関わり => あの者たちの王も寂しがっていました
-    /alice odl alice hnt s05 --- f - @alice- アリスが神殿を見てあの子たちは元気にしてるみたいねと言う
+    /alice odl alice hnt s05 --- f - - @alice- アリスが神殿を見てあの子たちは元気にしてるみたいねと言う
 
     原初の少女 => ザヴィ「アリスは根源の存在」
-    /alice odl alice hnt s05 --- f - @alice- 神獣が平伏する
+    /alice odl alice hnt s05 --- f - - @alice- 神獣が平伏する
 
 
 - item:
@@ -34,7 +34,7 @@
     /leona odl alice hnt s09 --- f - ------- アリスが所作が洗練されていて王族のようだと言う
 
     レイフ王国（エリーの国）の呪いかも
-    /leona odl erie- hnt s09 --- f - bground エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
+    /leona odl erie- hnt s09 --- f - - bground エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
 
     攻めてきている国 => カルツ王国
     /leona odl mob-- hnt s09 --- f - ------- 民が噂話にカルツ王国を出す
@@ -50,7 +50,7 @@
     /leona odl leona hnt s09 --- f - ------- レオナがここに運命を変える出会いが待っていると言われていてと言う
 
     （エリー）アネスがレイフを滅ぼした
-    /leona odl erie- hnt s09 --- b - threat- エリーがレオナに憎しみの視線を送る
+    /leona odl erie- hnt s09 --- b - - threat- エリーがレオナに憎しみの視線を送る
 
 
 - item:
