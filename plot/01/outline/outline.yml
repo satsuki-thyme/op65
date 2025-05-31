@@ -306,13 +306,15 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn grp11 --- --- --- f - - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
-    /integ evn grp11 --- --- --- f - - @hesthe ペトラが見つけた碑文「エス＝◯◯◯◯リア」
+    /integ evn petra --- --- --- f - - @hesthe ペトラが見つけた碑文「エス＝◯◯◯◯リア」
+    /integ evn petra --- --- --- f - - @rose-- ペトラが見つけた碑文「エスの使徒と人間の少女の関係」
     /petra odl petra --- --- --- f - - ------- アリスを嫌いと言う
     /myria odl myria hnt s13 --- f - - ------- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
     /integ evn third cat s43 --- f - - @es---- ドラゴンにエスについて聞くといずこかに封印されていると言う
     /leona etc leona rel s51 --- f - - ------- ドラゴン「{ドラゴン}」がレオナの魂が剣士{剣士}に似ているが、あれ以上に強い輝きを放っていると言う
     /integ evn third rel s54 --- f - - ------- ドラゴンは神に属する者の動きが活発になっているから様子を見ている
-    /integ evn third rel s54 --- f - - ------- アリスに{ドラゴンアイテム}をくれる
+    /integ evn third rel s54 --- f - - ------- アリスに{ドラゴン}が{ドラゴンアイテム}をくれる
+    /integ evn grp11 --- --- --- f - - ------- アリスに妖精が{妖精アイテム}をくれる
     /myria odl leona pre s12 --- f - - favorbl レオナがミリアに甘える[ref-042]
     /myria odl leona rel s22 --- f - - favorbl レオナがミリアに甘える[ref-042]
     /leona odl myria pre s09 --- f - - ------- ミリアがレオナを甘やかす[ref-042]
@@ -357,6 +359,7 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ evn myria --- --- --- f - - ------- ミリアが魔法使いのおばあちゃんからエルフの耳飾りをもらう（ハイエルフの印）
     /myria odl myria pre s12 --- f - - thought ミリアが祖母に会いたいという強い思いを吐露する
       /myria odl myria pre s12 --- f - - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
       /myria odl myria fct s20 --- f - - thought 罪悪感にこだわる自分の異常さは薄々分かっている
@@ -593,16 +596,18 @@
       end: 
       top: 
     notes: 外輪山の外はショボショボ農地、中は鉄鋼の街
-  location: 街8
+  location: 街8（エスの大破壊の痕跡の名所）
   destination:
     start: 
     middle: 
     end: 
-    top: / 東 / エリク
+    top: 東 / カルダ / エリク
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ evn third --- --- --- f - - @hesthe エスの大破壊の痕跡の名所で流転の現象が起こっている[ref-047]
+    /integ evn third --- --- --- f - - ------- エルフの老婆からカルダからエリクにいけると聞く
+    /integ evn alice --- --- --- f - - ------- エルフの老婆が指輪を欲するが外せないのと言って断る
+    /integ evn myria --- --- --- f - - ------- エルフの老婆とミリアの耳飾り（ハイエルフの印）で話がつく
     /leona odl leona pre lst --- f - - thought 剣の型を崩すと弱くなると思い込む　型は絶対
     /leona odl leona hnt mid --- f - - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
     /leona odl multi pre mid --- f - - ------- レオナがアリスに訓練してもらう[ref-018]

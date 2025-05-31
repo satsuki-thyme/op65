@@ -10,9 +10,9 @@
     - 0 xxx
 
 - item: 006
-  resolution: 000 xxx
+  resolution: 14 エルフの老婆とミリアの耳飾り（ハイエルフの印）で話がつく
   narrative-clues:
-    - 8 魔法使いの老婆から◯◯をもらう
+    - 8 ミリアが魔法使いの老婆からエルフの耳飾り（ハイエルフの印）をもらう
 
 - item: 005
   resolution: 000 xxx
@@ -20,14 +20,14 @@
     - 1 レオナは{◯◯神}の修道会で活動している
 
 - item: 004
-  resolution: 000 xxx
+  resolution: 12 水棲ドラゴンが{ドラゴン}の{ドラゴンアイテム}を感知して湖底洞窟の祠に連れていってくれる
   narrative-clues:
-    - 7 ドラゴンとの対話
+    - 7 アリスに{ドラゴンアイテム}をくれる
 
 - item: 003
   resolution: 000 xxx
   narrative-clues:
-    - 7 妖精に◯◯をもらう
+    - 7 アリスに妖精が{妖精アイテム}をくれる
 
 - item: 002
   resolution: 10 神獣が現れてアリスの身に危険が迫っていると言う
@@ -35,6 +35,6 @@
     - 2 神獣の発狂を治してやる
 
 - item: 001
-  resolution: 000 xxx
+  resolution: 7 ペトラが見つけた碑文「エス＝◯◯◯◯リア」
   narrative-clues:
     - 1 石碑にヘスト゠エリアの文字
