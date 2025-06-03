@@ -28,6 +28,7 @@
     middle: -
     end: 街1
     top: エリク
+  mood: 新たな始まりの予感
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -71,6 +72,7 @@
     middle: 街へ繰り出す
     end: 遷世教団の神殿
     top: エリク
+  mood: ハプニング, 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -86,10 +88,11 @@
     /leona odl third hnt s09 --- f - - ------- 民が噂話にカルツ王国を出す
     /leona odl alice hnt s09 --- f - - ------- アリスが所作が洗練されていて王族のようだと言う
     /alice li1 alice fsh s28 --- f - - @alice- アリスが所作が洗練されていて王族のようだと言う
-    /alice odl alice pre s04 --- f - - favorbl アリスが暴れる神獣をおとなしくさせる
-    /alice odl alice fsh s05 --- f - - @ring-- 発狂した神獣を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
-    /alice li1 alice fsh s28 --- f - - @alice- 発狂した神獣を鎮める
-    /alice li1 alice rel s49 --- f - - ------- 発狂した神獣を鎮める
+    /integ evn grp11 --- --- --- f b - ------- 発狂した神獣と対峙する
+      /alice odl alice pre s04 --- f - - favorbl アリスが暴れる神獣をおとなしくさせる
+      /alice odl alice fsh s05 --- f - - @ring-- 発狂した神獣を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
+      /alice li1 alice fsh s28 --- f - - @alice- 発狂した神獣を鎮める
+      /alice li1 alice rel s49 --- f - - ------- 発狂した神獣を鎮める
     /alice li1 alice fsh s28 --- f - - @alice- 建物が壊れたことは気にしない
     /alice li1 third fsh s28 --- f - - @alice- 神獣は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
     /alice odl alice fct s18 --- f - - ------- アリスが周囲への害を強く気にする
@@ -122,6 +125,7 @@
     middle: -
     end: 逃亡
     top: 東 / エリク
+  mood: 敵対の予感, 戦闘（負け）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -177,6 +181,7 @@
     middle: 妖精の森
     end: 街2
     top: 東 / エリク
+  mood: 不思議, 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -231,6 +236,7 @@
     middle: 街3
     end: 街3
     top: 東 / エリク
+  mood: 時代物, 戦闘（負け）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -268,6 +274,7 @@
     middle: -
     end: 街4
     top: 東 / エリク
+  mood: 落ち込みからの脱却, 苦しい過去
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -289,7 +296,7 @@
     end: 午前
     notes: 街4で1泊した翌日の午前から始まって妖精の森で1泊した午前で終わる
   integratioin:
-    event: 妖精の森近くにやってきたドラゴンとペトラが対話する
+    event: 妖精の森近くにやってきたドラゴンとアリスが対話する
     objective: 
       start: 街5に行く
       middle: 妖精を助ける
@@ -302,6 +309,7 @@
     middle: 妖精の森
     end: 街5
     top: 東 / エリク
+  mood: 不思議, 秘密の解明
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -356,6 +364,7 @@
     middle: 街5
     end: 街5
     top: 東 / エリク
+  mood: 善行, 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -402,6 +411,7 @@
     middle: ここ
     end: 街6
     top: 東 / エリク
+  mood: 弛緩した時間, 苦しい過去
   notes:
     - ミリアが普段使うのは弱い精霊魔法
     - アリスとレオナは朝から訓練で、ミリアが遅い朝
@@ -443,6 +453,7 @@
     middle: -
     end: 街5に戻る
     top: 東 / エリク
+  mood: 立派な舞台, ハプニング
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -450,7 +461,7 @@
     /integ inf third fsh s29 r43 f - - @es---- 妖精女王がエスはエリクに封印されていると言う
     /integ evn grp11 --- --- r36 f - - ------- 妖精女王に謁見する
     /integ inf third fsh s32 r44 f - - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
-    /rose- li2 third fsh s33 --- f - - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる => 魔力路（パス）を追わせる => 上位存在に阻害される
+    /rose- li2 third fsh s33 --- f - - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる => 魔力路（パス）を追わせる => 上位存在（神か神に連なる者）に阻害される
     /integ inf third rel s34 --- f - - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
     /alice li1 third fsh s28 --- f - - @alice- 妖精女王は指輪を見てアリスになんとなく気づく（高位の存在）がアリスがお戯れをなどと言って好待遇を拒否する
     /integ inf third fsh s39 --- f - - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
@@ -492,6 +503,7 @@
     middle: -
     end: 街6
     top: 東 / エリク（エリクに魔力珠の手掛かりがあるかもしれないしミリアの -ためにもエリクには行く）
+  mood: 不思議な体験, 戦闘（負け）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -531,6 +543,7 @@
     middle: 湖底の洞窟
     end: 街7（対岸の街）, アリスは砂浜に行きたくなっている
     top: 東 / エリク
+  mood: 不思議な体験, 秘匿された過去
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -573,6 +586,7 @@
     middle: 湖底の街
     end: 街6に帰る
     top: 東 / エリク
+  mood: えちち
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -602,6 +616,7 @@
     middle: -
     end: 街9
     top: 東 / カルダ / エリク
+  mood: 街の様子, 古の伝説, 別れ
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -642,6 +657,7 @@
     middle: 
     end: 
     top: 
+  mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -681,6 +697,7 @@
     middle: 
     end: 
     top: 
+  mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -729,6 +746,7 @@
     middle: 
     end: 
     top: 
+  mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -766,6 +784,7 @@
     middle: 
     end: 
     top: 
+  mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -817,6 +836,7 @@
     middle: 
     end: 
     top: 
+  mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -851,6 +871,7 @@
     middle: 
     end: 
     top: 
+  mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -878,6 +899,7 @@
     middle: 
     end: 
     top: 
+  mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -914,6 +936,7 @@
     middle: 
     end: 
     top: 
+  mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -947,6 +970,7 @@
     middle: 
     end: 
     top: 
+  mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -983,6 +1007,7 @@
     middle: 
     end: 
     top: 
+  mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -1021,6 +1046,7 @@
     middle: 
     end: 
     top: 
+  mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
