@@ -115,8 +115,9 @@
 - thinking-notes/thi-058.md: 第10話 イベント
 - thinking-notes/thi-059.md: 第11話 統合イベント
 - thinking-notes/thi-060.md: 第12話 統合イベント
-- thinking-notes/thi-061.md: 第13話 イベント
-- thinking-notes/thi-062.md: 第14話 イベント
+- thinking-notes/thi-061.md: 第13話 統合イベント
+- thinking-notes/thi-062.md: 第14話 統合イベント
+- thinking-notes/thi-063.md: 第15話 統合イベント
 
 ### アーカイブ
 #### before-2025-01-13

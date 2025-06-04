@@ -26,7 +26,7 @@
   destination:
     start: -
     middle: -
-    end: 街1
+    end: 居住地1
     top: エリク
   mood: 新たな始まりの予感
   notes:
@@ -66,7 +66,7 @@
       end: 遷世教団への潜入
       top: 魔力珠
     notes: -
-  location: 街1
+  location: 居住地1
   destination:
     start: 宿
     middle: 街へ繰り出す
@@ -119,7 +119,7 @@
       end: 東へ
       top: 魔力珠
     notes: -
-  location: 遷世教団の神殿 / 街1
+  location: 遷世教団の神殿 / 居住地1
   destination:
     start: 遷世教団の神殿
     middle: -
@@ -166,20 +166,20 @@
   time:
     start: 午前
     end: 午後
-    notes: 街1で1泊した翌日の午前
+    notes: 居住地1で1泊した翌日の午前
   integratioin:
     event: ペトラを助けて妖精の森に行く
     objective: 
-      start: 街2に行く
+      start: 居住地2に行く
       middle: ペトラを助ける
-      end: 街2に行く
+      end: 居住地2に行く
       top: 魔力珠
     notes: -
-  location: 妖精の森 / 危険な近道
+  location: 妖精の森（居住地ext1） / 危険な近道
   destination:
-    start: 街2
-    middle: 妖精の森
-    end: 街2
+    start: 居住地2
+    middle: 妖精の森（居住地ext1）
+    end: 居住地2
     top: 東 / エリク
   mood: 不思議, 戦闘（勝ち）
   notes:
@@ -206,7 +206,7 @@
     /myria odl myria hnt s13 --- f - - ------- ペトラを魔法薬で治療する　妖精を治療する魔法薬は貴重
     /alice odl alice fsh s05 --- f - - @ring-- ペトラの治療について封界の指輪を見て物憂げにする
     /myria odl myria hnt s13 --- f - - ------- ペトラの治療のときの薬草についての説明で危険なところに生えていると言って悲しそうにする
-    /leona odl alice hnt s09 --- f - - ------- アリスが国は興って亡びるもの、でも妖精の国は続いているわねと言う
+    /leona odl alice hnt s09 --- f - - ------- アリスが国は興って亡びるもの、でも妖精の国（居住地ext4）は続いているわねと言う
     /leona odl leona hnt s09 --- f - - ------- レオナがアリスの言葉を聞いて悲しそうにする
     /grp21
       /leona odl erie- pre s07 r16 b - - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
@@ -221,20 +221,20 @@
   time:
     start: 午前
     end: 午前
-    notes: 街2に1泊した翌日の午前
+    notes: 居住地2に1泊した翌日の午前
   integratioin:
     event: 盗賊騎士の関門
     objective: 
       start: 関門を越える
       middle: エリーを倒す
-      end: 街3に行く
+      end: 居住地3に行く
       top: 魔力珠
     notes: -
   location: 道
   destination:
-    start: 街3
-    middle: 街3
-    end: 街3
+    start: 居住地3
+    middle: 居住地3
+    end: 居住地3
     top: 東 / エリク
   mood: 時代物, 戦闘（負け）
   notes:
@@ -259,7 +259,7 @@
   time:
     start: 遅い朝
     end: 昼
-    notes: 街3に着いて1泊した翌日の朝
+    notes: 居住地3に着いて1泊した翌日の朝
   integratioin:
     event: 祭り
     objective: 
@@ -268,11 +268,11 @@
       end: レオナの訓練
       top: 魔力珠
     notes: -
-  location: 街3
+  location: 居住地3
   destination:
     start: 祭りへの参加
     middle: -
-    end: 街4
+    end: 居住地4
     top: 東 / エリク
   mood: 落ち込みからの脱却, 苦しい過去
   notes:
@@ -294,20 +294,20 @@
   time:
     start: 午前
     end: 午前
-    notes: 街4で1泊した翌日の午前から始まって妖精の森で1泊した午前で終わる
+    notes: 居住地4で1泊した翌日の午前から始まって妖精の森で1泊した午前で終わる
   integratioin:
-    event: 妖精の森近くにやってきたドラゴンとアリスが対話する
+    event: 妖精の森（居住地ext2）近くにやってきたドラゴンとアリスが対話する
     objective: 
-      start: 街5に行く
+      start: 居住地5に行く
       middle: 妖精を助ける
-      end: 街5に行く
+      end: 居住地5に行く
       top: 魔力珠
     notes: -
   location: 妖精の森 / 道
   destination:
-    start: 街5
-    middle: 妖精の森
-    end: 街5
+    start: 居住地5
+    middle: 妖精の森（居住地ext2）
+    end: 居住地5
     top: 東 / エリク
   mood: 不思議, 秘密の解明
   notes:
@@ -349,20 +349,20 @@
   time:
     start: 昼
     end: 昼
-    notes: 妖精の森でさらに1泊した翌日の昼
+    notes: 妖精の森（居住地ext2）でさらに1泊した翌日の昼
   integratioin:
     event: 魔法使いの老婆 => 元気の出る精霊石（ミリアの祖母が使っていた）を老婆にあげる[thi-052]
     objective: 
       start: 魔法使いの老婆を助ける
       middle: フェイを倒す
-      end: 街5に行く
+      end: 居住地5に行く
       top: 魔力珠
     notes: -
-  location: 街5の近く
+  location: 居住地5の近く
   destination:
-    start: 魔法使いの老婆の家
-    middle: 街5
-    end: 街5
+    start: 魔法使いの老婆の家（居住地ext3）
+    middle: 居住地5
+    end: 居住地5
     top: 東 / エリク
   mood: 善行, 戦闘（勝ち）
   notes:
@@ -396,27 +396,27 @@
   time:
     start: 朝
     end: 昼前
-    notes: フェイとの戦闘を終え街5に1泊した翌日の朝
+    notes: フェイとの戦闘を終え居住地5に1泊した翌日の朝
   integratioin:
     event: ミリアの精霊との契約の儀とその失敗
     objective: 
       start: 魔力泉を堪能する、休息する
       middle: ミリアが精霊と契約する
-      end: 街6に行く
+      end: 居住地6に行く
       top: 魔力珠
     notes: 魔力泉、妖精の多い街[thi-057]
-  location: 街5（魔力泉の街）
+  location: 居住地5（魔力泉の街）
   destination:
     start: ここ
     middle: ここ
-    end: 街6
+    end: 居住地6
     top: 東 / エリク
   mood: 弛緩した時間, 苦しい過去
   notes:
     - ミリアが普段使うのは弱い精霊魔法
     - アリスとレオナは朝から訓練で、ミリアが遅い朝
   contents:
-    /integ evn grp11 rel s53 --- f - - ------- 街6の湖の水運について話を聞く => 船で渡りたい
+    /integ evn grp11 rel s53 --- f - - ------- 居住地6の湖の水運について話を聞く => 船で渡りたい
     /leona etc leona rel s51 --- f - - ------- 邪悪なドラゴン「{ドラゴン}」と戦った剣士の伝説を聞く[ref-050]
     /myria li1 myria fct s48 --- f - - @spirit 強力な精霊の拒絶、契約の申し出、契約の儀を試す => できない
     /myria odl myria pre mid r13 f - - bGround ミリアの背景
@@ -438,20 +438,20 @@
   time:
     start: 昼
     end: 昼すぎ
-    notes: 街5（魔力泉の街）から近くの森へ移動してキノコサークルに入って転移して
+    notes: 居住地5（魔力泉の街）から近くの森へ移動してキノコサークルに入って転移して
   integratioin:
     event: 妖精女王への謁見
     objective: 
       start: 妖精女王への謁見
       middle: 魔力珠やエスの情報
-      end: 街5に戻る
+      end: 居住地5に戻る
       top: 魔力珠
     notes: 植物が大きく見えるくらいアリスたちは縮んでいる, ペトラの頑張りを褒められる
-  location: 妖精の国 / 街5（魔力泉の街）
+  location: 妖精の国（居住地ext4） / 居住地5（魔力泉の街）
   destination:
     start: 妖精女王との謁見
     middle: -
-    end: 街5に戻る
+    end: 居住地5に戻る
     top: 東 / エリク
   mood: 立派な舞台, ハプニング
   notes:
@@ -488,20 +488,20 @@
   time:
     start: 昼
     end: 昼
-    notes: 街5（魔力泉の街）で1泊して翌日
+    notes: 居住地5（魔力泉の街）で1泊して翌日
   integratioin:
     event: 滝の裏の剣を抜く
     objective: 
       start: 滝を見る, 滝の裏に行く
       middle: ローズを説得する
-      end: 街6に行く
+      end: 居住地6に行く
       top: 魔力珠
     notes: -
   location: 滝 / 道
   destination:
     start: 滝の裏
     middle: -
-    end: 街6
+    end: 居住地6
     top: 東 / エリク（エリクに魔力珠の手掛かりがあるかもしれないしミリアの -ためにもエリクには行く）
   mood: 不思議な体験, 戦闘（負け）
   notes:
@@ -528,20 +528,20 @@
   time:
     start: 朝
     end: 昼
-    notes: 街6に着いて1泊して翌日
+    notes: 居住地6に着いて1泊して翌日
   integratioin:
     event: 水棲のドラゴン
     objective: 
-      start: 湖を渡って向こう岸の街7に行きたい
+      start: 湖を渡って向こう岸の居住地7に行きたい
       middle: 湖底の洞窟
-      end: 街7に行く
+      end: 居住地7に行く
       top: 魔力珠
     notes: -
-  location: 街6, 湖に隣接
+  location: 居住地6, 湖に隣接
   destination:
-    start: 街7（対岸の街）
+    start: 居住地7（対岸の街）
     middle: 湖底の洞窟
-    end: 街7（対岸の街）, アリスは砂浜に行きたくなっている
+    end: 居住地7（対岸の街）, アリスは砂浜に行きたくなっている
     top: 東 / エリク
   mood: 不思議な体験, 秘匿された過去
   notes:
@@ -577,14 +577,14 @@
     objective: 
       start: 水遊び
       middle: 精霊を助ける
-      end: 街6に帰る
+      end: 居住地6に帰る
       top: 魔力珠
     notes: -
   location: 湖の砂浜, 湖底
   destination:
     start: 砂浜
     middle: 湖底の街
-    end: 街6に帰る
+    end: 居住地6に帰る
     top: 東 / エリク
   mood: えちち
   notes:
@@ -601,7 +601,7 @@
   time:
     start: 昼前
     end: 朝
-    notes: 街8で2泊して翌々日の朝出発する
+    notes: 居住地8で2泊して翌々日の朝出発する
   integratioin:
     event: エスの大破壊の痕跡
     objective: 
@@ -610,11 +610,11 @@
       end: -
       top: 魔力珠
     notes: 外輪山の外はショボショボ農地、中は鉄鋼の街
-  location: 街8（エスの大破壊の痕跡の名所）
+  location: 居住地8（エスの大破壊の痕跡の名所）
   destination:
-    start: 街8
+    start: 居住地8
     middle: -
-    end: 街9
+    end: 居住地9
     top: 東 / カルダ / エリク
   mood: 街の様子, 古の伝説, 別れ
   notes:
@@ -638,25 +638,25 @@
 
 15:
   declaration: エリーとの戦闘 2
-  elapsed days: 
+  elapsed days: 18
   time:
-    start: 
-    end: 
-    notes: 
+    start: 昼前
+    end: 昼
+    notes: 居住地8にもう1泊して翌日
   integratioin:
     event: 
     objective: 
       start: 
       middle: 
       end: 
-      top: 
+      top: 魔力珠
     notes: 
-  location: 
+  location: 居住地9への道の途中の村（居住地ext5）
   destination:
-    start: 
-    middle: 
-    end: 
-    top: 
+    start: 居住地9
+    middle: -
+    end: 居住地9
+    top: 東 / カルダ / エリク
   mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -664,7 +664,7 @@
     /grp21
       /rose- li2 rose- fsh s33 --- b - - @orbPln 望みの全てはエリクの封印に懸かっている
       /rose- li2 rose- fsh s33 --- b - - @orbPln エスは封印の中で邪神の呪いに苛まれている
-      /rose- li2 rose- fsh s29     b   - @es---- エスは封印の中で邪神の呪いに苛まれている
+      /rose- li2 rose- fsh s29     b - - @es---- エスは封印の中で邪神の呪いに苛まれている
       /rose- li1 rose- fsh s30 --- b - - @rose-- ローズが神殿教会のバルコニーに立つと晴れる
       /leona odl erie- pre mid --- b - - threat- エリーが余裕ぶってレオナを殺すと言う
       /erie- li2 erie- --- --- --- b - - ------- エリーがローズの体を気遣う
