@@ -618,9 +618,11 @@
     top: 東 / カルダ / エリク
   mood: 街の様子, 古の伝説, 別れ
   notes:
+    - 近くの村に特別な牛がいることを聞く
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /[thi-062]
+    /integ evn petra rel s58 --- f - - @es---- 妖精図書館でエスのことを調べると言う
     /integ evn third --- --- --- f - - @es---- エスとザヴィとザヴィの従者の戦いの伝説
     /integ evn third --- --- --- f - - @zavia- エスとザヴィとザヴィの従者の戦いの伝説
     /integ evn third --- --- --- f - - ------- エルフの老婆からカルダからエリクにいけると聞く
@@ -644,21 +646,22 @@
     end: 昼
     notes: 居住地8にもう1泊して翌日
   integratioin:
-    event: 
+    event: 村に視察に来ていた領主の息子からの横柄でしつこいレオナへの求婚
     objective: 
-      start: 
-      middle: 
-      end: 
+      start: 牛肉
+      middle: 領主の息子からの解放
+      end: 牛肉
       top: 魔力珠
-    notes: 
+    notes: 村には特別な食用の牛がいる
   location: 居住地9への道の途中の村（居住地ext5）
   destination:
     start: 居住地9
     middle: -
     end: 居住地9
     top: 東 / カルダ / エリク
-  mood: 
+  mood: 憤懣, 戦闘（引き分け）
   notes:
+    - 領主の息子はエリーとの戦いを見て縮み上がる
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /grp21
@@ -673,11 +676,10 @@
     /leona odl leona pre --- mid f b - ordeal- レオナがエリーと戦う
       /leona odl leona hnt --- mid f - - results レオナがエリーと引き分ける
       /leona odl erie- fct lst --- f - - ------- エリーが絶対にこのままでは終わらせないと宣言する
-    /alice li1 alice fsh s28 --- f - - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
 
 
 16:
-  declaration: -
+  declaration: 野営
   elapsed days: 
   time:
     start: 
@@ -691,18 +693,17 @@
       end: 
       top: 
     notes: 
-  location: 
+  location: 居住地9への途中の森
   destination:
-    start: 
-    middle: 
-    end: 
-    top: 
+    start: 野営に適した場所（ググること）
+    middle: -
+    end: 居住地9
+    top: 東 / カルダ / エリク
   mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /alice li1 alice fsh s28 --- f - - @alice- 動物と話ができる
-    /rose- li2 petra fsh s33 --- f - - @orbPln 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
     /myria odl myria pre mid --- f - - thought ミリアが祖母を思う
       /myria odl myria pre mid --- f - - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
       /myria odl myria hnt mid --- f - - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
@@ -753,6 +754,8 @@
     /myria odl myria pre --- mid f b - ordeal- ミリアがフェイと戦う
       /myria odl myria hnt --- mid f - - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
       /myria odl fei-- --- --- --- f - - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する[ref-038]
+    /alice li1 alice rel s58 --- f - - @es---- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
+    /alice li1 alice fsh s28 --- f - - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
 
 
   ######  ########  ######  ########         #######
@@ -788,6 +791,9 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ evn petra hnt --- r57 f - - ------- ペトラが妖精図書館で調べたエスのことを教えに来てくれる
+    /integ evn petra rel --- r58 f - - @es---- 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
+    /rose- li2 petra fsh s33 --- f - - @orbPln 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
     /integ evn third --- --- --- f - - @hestel 石碑にエス＝ヘス◯◯◯◯と書かれている
     /myria odl myria pre lst --- f - - ------- ミリアがアリスから魔法をファンブルさせる魔法を教わる
     /alice odl alice pre lst --- f - - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
