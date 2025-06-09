@@ -185,7 +185,7 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /myria li1 myria fct s48 --- f - - @spirit 強力な精霊との出会い「また会うでしょう」
+    /myria li1 myria fct s48 --- f - - @spirit 強力な精霊（星の精霊）との出会い「また会うでしょう」[ref-051]
     /integ evn grp11 --- --- --- f - - ------- 妖精の森を訪れる
     /integ evn third --- --- --- f - - ------- 妖精のポヤポヤした様子を描く => ペトラがポヤポヤしていても領主になれる理由
     /integ evn grp11 --- --- --- f - - ------- 妖精の森が妖精でいっぱいになっていると言われる
@@ -418,7 +418,7 @@
   contents:
     /integ evn grp11 rel s53 --- f - - ------- 居住地6の湖の水運について話を聞く => 船で渡りたい
     /leona etc leona rel s51 --- f - - ------- 邪悪なドラゴン「{ドラゴン}」と戦った剣士の伝説を聞く[ref-050]
-    /myria li1 myria fct s48 --- f - - @spirit 強力な精霊の拒絶、契約の申し出、契約の儀を試す => できない
+    /myria li1 myria fct s48 --- f - - @spirit 強力な精霊（星の精霊）の拒絶、契約の申し出、契約の儀を試す => できない[ref-052]
     /myria odl myria pre mid r13 f - - bGround ミリアの背景
     /alice lov alice --- --- --- f - - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
     /integ evn alice cat s44 --- f - - @orb--- 魔力珠をローズがすぐに取りに行かないのは何か変と話す
