@@ -119,6 +119,7 @@
 - thinking-notes/thi-062.md: 第14話 統合イベント
 - thinking-notes/thi-063.md: 第15話 統合イベント
 - thinking-notes/thi-064.md: 第16話 統合イベント
+- thinking-notes/thi-065.md: 第17話 統合イベント
 
 ### アーカイブ
 #### before-2025-01-13
