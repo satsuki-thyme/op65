@@ -33,6 +33,7 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn alice --- --- --- f - - ------- アリスが地下から出てくる
+    /integ evn alice --- --- --- f b - ------- 狼の親子に襲われる一件
     /integ evn grp11 --- --- --- f - - ------- アリスの旅にレオナが加わる
     /integ evn leona --- --- --- f - - ------- レオナは{◯◯神}の修道会で活動している
     /integ inf leona fsh s31 --- f - - @zavia- ザヴィは世界を滅ぼそうとして倒された[ref-043]
@@ -40,15 +41,18 @@
     /alice li1 alice fsh s28 --- f - - @alice- アリスが地上に出てきてずいぶん経ったみたいと言う
     /alice odl alice prm s01 --- f - - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
     /alice odl alice prm s02 --- f - - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
-    /                fsh s05         - @zavia-
+    /alice odl alice fsh s05 --- f - - @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
     /integ evn alice fsh s39 --- f - - @hestel ヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
+    /integ evn multi --- --- --- f - - ------- 街へ歩きながら話をする
+    /integ evn alice --- --- --- f - - ------- アリスはレオナと手をつなぎたい
+    /integ evn leona --- --- --- f b - ------- 魔物をレオナが倒す
     /alice odl alice fsh s05 --- f - - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
     /alice odl alice prm s02 --- f - - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
     /alice odl alice prm s03 --- f - - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
-    /leona odl leona prm s06 --- f - - gDesire レオナが「前に……、進みたいんです」と言う[ref-025]
+    /leona odl leona prm s06 --- f - - gDesire レオナが「過去と決着をつけて、前に……、進みたいんです」と言う[ref-025]
     /leona odl leona hnt s09 --- f - - ------- レオナがここに運命を変える出会いが待っていると言われていてと言う
     /integ inf leona cat s41 --- f - - @orb--- 遷世教団の話題を出す
-    /alice lov multi --- --- --- f - - favorbl 手を握る
+    /alice lov multi --- --- --- f - - favorbl 手をつなぐ
 
 
 2:
@@ -379,6 +383,7 @@
       /myria odl fei-- pre s13 --- f - - results フェイが「また来る」と言って撤退する
       /myria odl alice --- --- --- f - - ------- アリスが戦いに干渉する
       /myria odl leona --- --- --- f - - ------- レオナが戦いに干渉する
+      /myria odl myria pre s60 --- f - - ------- ミリアがこの先フェイとの戦闘に干渉しないでと言う
     /leona odl multi pre mid --- f - - ------- レオナがアリスに訓練してもらう[ref-018]
 
 
@@ -636,6 +641,7 @@
     /alice lov multi --- --- --- f - - favorbl 頭と頬を撫でる
     /petra odl petra prm --- r15 f - - gDesire ペトラが妖精領主になる
     /petra etc alice hnt s57 --- f - - ------- アリスがペトラに転移のネックレスを渡す
+    /petra etc petra rel s59 --- f - - ------- ペトラがお返しに妖精の蜜飴を渡す「みんなで食べてね」
 
 
 15:
@@ -700,7 +706,7 @@
     middle: -
     end: 居住地9
     top: 東 / カルダ / エリク
-  mood: しっとり
+  mood: しっとり, 感情的
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -748,23 +754,25 @@
       start: 
       middle: 
       end: 
-      top: 
+      top: 魔力珠
     notes: 
-  location: 
+  location: 居住地9の手前の森の特別な場所 work location
   destination:
-    start: 
-    middle: 
-    end: 
-    top: 
-  mood: 
+    start: 居住地9
+    middle: -
+    end: 居住地9
+    top: 東 / ガルダ / エリク
+  mood: 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /myria odl myria pre --- mid f b - ordeal- ミリアがフェイと戦う
+      /myria odl multi pre --- r60 f - ------- アリスとレオナは静観する
       /myria odl myria hnt --- mid f - - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
       /myria odl fei-- --- --- --- f - - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する[ref-038]
     /alice li1 alice rel s58 --- f - - @es---- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
     /alice li1 alice fsh s28 --- f - - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
+    /alice etc third rel --- r59 f - - ------- ペトラの蜜飴をなめさせて縁故をつなぐ
 
 
   ######  ########  ######  ########         #######
@@ -854,6 +862,7 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /myria odl myria pre --- lst f b - ordeal- ミリアがフェイと戦う[ref-029]
+      /myria odl multi pre --- r60 f - ------- アリスとレオナは静観する
       /myria odl myria fct --- lst f - - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
       /myria odl myria --- --- --- f - - results ミリアがフェイを倒す
     /myria odl myria prm --- r10 f - - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
