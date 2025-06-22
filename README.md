@@ -35,6 +35,17 @@
 - plot/01/outline/ref-note.yml:                参照ノート
 - plot/01/outline/worldview-decoration.yml:    世界観装飾
 
+###### 統合プロット
+- plot/01/outline/integration/int-009.md: 統合プロット 第9話
+- plot/01/outline/integration/int-010.md: 統合プロット 第10話
+- plot/01/outline/integration/int-011.md: 統合プロット 第11話
+- plot/01/outline/integration/int-012.md: 統合プロット 第12話
+- plot/01/outline/integration/int-013.md: 統合プロット 第13話
+- plot/01/outline/integration/int-014.md: 統合プロット 第14話
+- plot/01/outline/integration/int-015.md: 統合プロット 第15話
+- plot/01/outline/integration/int-016.md: 統合プロット 第16話
+- plot/01/outline/integration/int-017.md: 統合プロット 第17話
+
 ##### 詳細
 - plot/01/details/001.yml:     プロット詳細 第1話
 - plot/01/details/ref-001.yml: プロット参照 アリスの背景
@@ -111,15 +122,6 @@
 - thinking-notes/thi-054.md: エス＝ヘストエリアのヒント
 - thinking-notes/thi-055.md: アリスが原初の少女であるヒント
 - thinking-notes/thi-056.md: アリスが指輪を大切にしている様子
-- thinking-notes/thi-057.md: 第9話 統合イベント
-- thinking-notes/thi-058.md: 第10話 イベント
-- thinking-notes/thi-059.md: 第11話 統合イベント
-- thinking-notes/thi-060.md: 第12話 統合イベント
-- thinking-notes/thi-061.md: 第13話 統合イベント
-- thinking-notes/thi-062.md: 第14話 統合イベント
-- thinking-notes/thi-063.md: 第15話 統合イベント
-- thinking-notes/thi-064.md: 第16話 統合イベント
-- thinking-notes/thi-065.md: 第17話 統合イベント
 
 ### アーカイブ
 #### before-2025-01-13
