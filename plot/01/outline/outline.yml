@@ -157,6 +157,7 @@
     /alice lov multi --- --- --- f - - favorbl 抱き合う
     /grp21
       /rose- odl rose- prm lst --- b - - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
+      /rose- etc rose- pre s07 --- b - - threat- ローズが手足はむしっておいたほうがいい。仲間の女は殺せと言う
       /leona odl erie- pre s16 --- b - - threat- エリーがレオナに憎しみの視線を送る
       /                hnt s09
       /myria odl fei-- pre s17 --- b - - threat- フェイがミリアを見て壮絶な笑みを浮かべる
@@ -288,6 +289,7 @@
     /alice lov alice --- --- --- f - - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）
     /leona odl multi pre mid --- f - - ------- レオナがアリスに訓練してもらう[ref-018]
       /leona odl alice rel s14 r08 f - - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
+    /leona odl leona pre s61 --- f - - thought レオナがアリスに戦いに手を出さないでと言う
     /myria odl myria pre s12 --- f - - favorbl お姉さんとして振る舞っていい調子 => レオナの訓練後
     /myria odl myria hnt s13 --- f - - ------- アリスがミリアの魔法を褒めると祖母から教わったと嬉しそうにした直後に酷く落ち込む
 
@@ -376,8 +378,8 @@
     /myria odl myria pre s12 --- f - - thought ミリアが祖母に会いたいという強い思いを吐露する
       /myria odl myria pre s12 --- f - - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
       /myria odl myria fct s20 --- f - - thought 罪悪感にこだわる自分の異常さは薄々分かっている
-      /myria odl alice pre lst --- f - - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
-      /myria odl alice rel s21 --- f - - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
+      /myria odl alice pre lst --- f - - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
+      /myria odl alice rel s62 --- f - - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
     /myria odl myria pre --- r12 f b - ordeal- ミリアがフェイと戦う[ref-030]
       /myria odl myria fct --- r20 f - - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
       /myria odl fei-- pre s13 --- f - - results フェイが「また来る」と言って撤退する
@@ -409,7 +411,7 @@
       middle: ミリアが精霊と契約する
       end: 居住地6に行く
       top: 魔力珠
-    notes: 魔力泉、妖精の多い街[thi-057]
+    notes: 魔力泉、妖精の多い街
   location: 居住地5（魔力泉の街）
   destination:
     start: ここ
@@ -626,7 +628,6 @@
     - 近くの村に特別な牛がいることを聞く
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /[thi-062]
     /integ evn petra rel s58 --- f - - @es---- 妖精図書館でエスのことを調べると言う
     /integ evn third --- --- --- f - - @es---- エスとザヴィとザヴィの従者の戦いの伝説
     /integ evn third --- --- --- f - - @zavia- エスとザヴィとザヴィの従者の戦いの伝説
@@ -670,7 +671,6 @@
     - 領主の息子はエリーとの戦いを見て縮み上がる
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /[thi-063]
     /grp21
       /rose- li2 rose- fsh s33 --- b - - @orbPln 望みの全てはエリクの封印に懸かっている
       /rose- li2 rose- fsh s33 --- b - - @orbPln エスは封印の中で邪神の呪いに苛まれている
@@ -681,6 +681,7 @@
       /fei-- li2 fei-- --- --- --- b - - ------- フェイがローズをからかう
       /.                               -         エロいことはしない
     /leona odl leona pre --- mid f b - ordeal- レオナがエリーと戦う
+      /leona odl leona pre --- r61 f - - ------- レオナがアリスに手を出さないよう言ってあると言う
       /leona odl leona hnt --- mid f - - results レオナがエリーと引き分ける
       /leona odl erie- fct lst --- f - - ------- エリーが絶対にこのままでは終わらせないと宣言する
 
@@ -700,7 +701,7 @@
       end: -
       top: 魔力珠
     notes: -
-  location: 居住地9への途中の森の野営地（場所6）
+  location: 居住地9への途中の森の野営地（場所6）花が咲き乱れる草原の手前
   destination:
     start: 野営に適した場所（ググること）
     middle: -
@@ -710,14 +711,15 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /[thi-064]
+    /integ evn multi --- --- --- f - - ------- レオナとミリアは老婆と対立的に話を進める、むきになる
+    /integ evn grp11 --- --- --- f - - ------- 明日日が昇ったら蜂妖精の蜂蜜を探してみましょう
     /alice li1 alice fsh s28 --- f - - @alice- 動物と話ができる
     /integ evn third --- --- --- f - - ------- 老婆は問い掛ける、自分が一番欲していることは何？　手に入れるために乗り越えないといけないのは何？
     /myria odl myria pre mid --- f - - thought ミリアが祖母を思う
       /myria odl myria pre mid --- f - - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
       /myria odl myria hnt mid --- f - - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
       /myria odl third pre lst --- f - - ------- 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
-      /                pre s22 r21
+      /myria odl third pre s22 r62 f - - ------- 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
     /myria odl myria pre mid --- f - - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
     /myria odl leona pre mid --- f - - favorbl レオナがミリアに甘える[ref-042]
     /                rel s23 r22
@@ -739,24 +741,25 @@
       /myria odl fei-- pre mid --- b - - threat- フェイが取っておきの方法を思ってほくそ笑む
       /grp21 lov multi --- --- --- b - - ------- エロいことをする[ref-037-4]
       /rose- li2 rose- fsh s33 --- b - - @orbPln エスの封印は封印を上回る魔力が内側から放出されることで解ける
+    /alice odl multi pre s21 --- f - - ------- レオナとミリアがまた何かを作っている[ref-040]
 
 
 17:
   declaration: フェイとの戦闘 2
-  elapsed days: 
+  elapsed days: 19
   time:
-    start: 
-    end: 
-    notes: 
+    start: 朝
+    end: 午前中
+    notes: 野営地で1泊して翌朝
   integratioin:
-    event: 
+    event: 蜂妖精の蜂蜜を探して食べる
     objective: 
-      start: 
-      middle: 
-      end: 
+      start: 蜂妖精の蜂蜜
+      middle: -
+      end: -
       top: 魔力珠
-    notes: 
-  location: 居住地9の手前の森の特別な場所 work location
+    notes: -
+  location: 野営地（場所6）の近く花が咲き乱れる草原
   destination:
     start: 居住地9
     middle: -
@@ -766,8 +769,10 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ evn grp11 --- --- --- f - - ------- 3人で肩車して上のほうのハニカムから採る全部採るアリスの瓶（陶器、木とコルクのフタ）、俺たちのを持っていけと喧嘩になって両方持っていく
     /myria odl myria pre --- mid f b - ordeal- ミリアがフェイと戦う
-      /myria odl multi pre --- r60 f - ------- アリスとレオナは静観する
+      /myria odl multi pre --- r60 f - ------- ミリアが2人は手を出さないと宣言し、アリスとレオナは静観する
+      /integ evn myria --- --- --- f - - ------- 草花の亜精霊（人型でない光の粒）に助けられる
       /myria odl myria hnt --- mid f - - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
       /myria odl fei-- --- --- --- f - - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する[ref-038]
     /alice li1 alice rel s58 --- f - - @es---- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
@@ -824,11 +829,11 @@
       /myria odl myria pre lst --- f - - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
       /myria odl myria fct lst --- f - - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
       /myria odl alice pre lst --- f - - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
-      /                rel     r22
+      /myria odl alice rel --- r22 f - - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
     /myria odl leona pre lst --- f - - favorbl レオナがミリアに甘える[ref-042]
-    /                rel --- r23
+    /myria odl leona rel --- r23 f - - favorbl レオナがミリアに甘える[ref-042]
     /leona odl myria pre lst --- f - - ------- ミリアがレオナを甘やかす[ref-042]
-    /                rel     r25
+    /leona odl myria rel --- r25 f - - ------- ミリアがレオナを甘やかす[ref-042]
     /alice odl alice pre lst r21 f - - favorbl レオナとミリアから贈り物をもらう[ref-040]
     /alice lov alice --- --- --- f - - thought アリスの、わがままを通そうという決意
     /grp21
