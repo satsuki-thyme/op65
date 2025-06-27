@@ -1,4 +1,4 @@
-# プロット要素 サブ
+# プロット要素 サブプロット系統
 
 - item:
   dn: アリス
@@ -45,8 +45,8 @@
   dn: ミリア
   contents:
     ^li1 - 強い精霊と契約する
-    /myria li1 myria fct s48 --- f - - @spirit 強力な精霊との出会い
-    /myria li1 myria fct s48 --- f - - @spirit 強力な精霊の拒絶
+    done/myria li1 myria fct s48 --- f - - @spirit 強力な精霊との出会い
+    done/myria li1 myria fct s48 --- f - - @spirit 強力な精霊の拒絶
     /myria li1 myria fct s48 --- f - - @spirit 強力な精霊とのふれあい
     /myria li1 myria fct --- r48 f - - @spirit 強力な精霊との契約
 
