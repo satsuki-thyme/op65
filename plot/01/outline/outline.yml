@@ -32,14 +32,22 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ mod third --- --- --- f - - ------- 深い森、妖精、魔物の息遣い、
+    /integ mod third --- --- --- f - - ------- 深い森
+    /integ mod third --- --- --- f - - ------- 妖精
+    /integ mod third --- --- --- f - - ------- 魔物の息遣い
+    /integ mod third --- --- --- f - - ------- 列柱の先が少し突き出している
+    /integ mod alice --- --- --- f - - ------- 魔法の発動
     /integ evn alice --- --- --- f - - ------- アリスが地下から出てくる
     /integ evn alice --- --- --- f b - ------- 狼の親子に襲われる一件
     /integ evn alice fsh s39 --- f - - @hestel ヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
     /alice odl alice prm s02 --- f - - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
     /alice odl alice fsh s05 --- f - - @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
     /alice li1 alice fsh s28 --- f - - @alice- アリスが地上に出てきてずいぶん経ったみたいと言う長い年月（2000年くらい（天地戦争を含む必要がある））寝ていたこと
+    /alice mod alice --- --- --- f - - ------- アリスは白いワンピースを着ている
     /alice mod alice --- --- --- f - - ------- アリスは短剣を携えている
+    /leona mod leona --- --- --- f - - ------- レオナは青紫のボディフィットシャツと黒いホットパンツを身に付けている
+    /leona mod leona --- --- --- f - - ------- レオナは剣を携えている
+    /leona mod leona --- --- --- f - - ------- レオナは胸と肘から先、膝から先に部分鎧を装着している
     /alice mod leona --- --- --- f - - ------- あなたは精霊？　妖精？　それとも妖魔か何か？　顔が整いすぎている
     /leona mod alice --- --- --- f - - ------- 人のこと言えないでしょ
     /integ evn multi --- --- --- f - - ------- 敵視するレオナとやりとりしてアリスの腹が鳴ると打ち解ける
@@ -85,6 +93,13 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ mod third --- --- --- f - - ------- 外観、市城壁
+    /integ mod third --- --- --- f - - ------- 外観、城
+    /integ mod third --- --- --- f - - ------- 街の紹介
+    /integ mod third --- --- --- f - - ------- 街の中、大通りは石畳
+    /integ mod third --- --- --- f - - ------- 街の中、石造建築
+    /integ mod third --- --- --- f - - ------- 街の中、木造建築
+    /integ mod third --- --- --- f - - ------- 街の中、鎧窓
     /integ evn myria pre s11 --- f - - ------- ミリアの精霊魔法が弱いことを印象づける
     /integ evn alice --- --- --- f - - ------- 手持ちの宝石を換金する（大きな宝石商、アリスの身なりは高級品で仕立てがいい）
     /integ evn multi --- --- --- f - - ------- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する

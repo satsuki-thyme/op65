@@ -2,51 +2,59 @@
 
 - item: 剣
   applicable part:
-    - 
+    1
 
 - item: 鎧
   applicable part:
-    - 
+    1
 
 - item: 魔法
   applicable part:
-    - 
+    1
+
+- item: 精霊
+  applicable part:
+    1
 
 - item: 妖精
   applicable part:
-    - 
+    1
 
-- item: 石造建築
+- item: 魔物
   applicable part:
-    - 
+    1
 
-- item: 木造建築
+- item: 妖魔
   applicable part:
-    - 
-
-- item: 石畳もあるところにはある
-  applicable part:
-    - 
+    1
 
 - item: 森
   applicable part:
-    - 
+    1
 
 - item: 城壁
   applicable part:
-    - 
+    2
 
 - item: 城
   applicable part:
-    - 
+    2
 
-- item: 木扉の窓
+- item: 石畳もあるところにはある
   applicable part:
-    - 
+    2
 
-- item: 民族感（舞踏、弦楽器、ドラム）
+- item: 石造建築
   applicable part:
-    - 
+    2
+
+- item: 木造建築
+  applicable part:
+    2
+
+- item: 鎧窓
+  applicable part:
+    2
 
 - item: 敷物を敷いている露天
   applicable part:
@@ -60,13 +68,9 @@
   applicable part:
     - 
 
-- item: 魔物
-  applicable part:
-    - 
-
 - item: いろいろな神殿
   applicable part:
-    - 
+    1
 
 - item: 食前儀礼
   applicable part:
@@ -111,3 +115,8 @@
 - item: 祭典
   applicable part:
     - 
+
+- item: 民族感（舞踏、弦楽器、ドラム）
+  applicable part:
+    - 
+
