@@ -12,7 +12,15 @@
   applicable part:
     - 
 
+- item: 妖精
+  applicable part:
+    - 
+
 - item: 石造建築
+  applicable part:
+    - 
+
+- item: 木造建築
   applicable part:
     - 
 
@@ -33,6 +41,10 @@
     - 
 
 - item: 木扉の窓
+  applicable part:
+    - 
+
+- item: 民族感（舞踏、弦楽器、ドラム）
   applicable part:
     - 
 

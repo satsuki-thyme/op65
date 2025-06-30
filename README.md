@@ -122,6 +122,7 @@
 - thinking-notes/thi-054.md: エス＝ヘストエリアのヒント
 - thinking-notes/thi-055.md: アリスが原初の少女であるヒント
 - thinking-notes/thi-056.md: アリスが指輪を大切にしている様子
+- thinking-notes/thi-057.md: 見せたい世界観
 
 ### アーカイブ
 #### before-2025-01-13
