@@ -45,10 +45,10 @@
   dn: ミリア
   contents:
     ^li1 - 強い精霊と契約する
-    done/myria li1 myria fct s48 --- f - - @spirit 強力な精霊との出会い
-    done/myria li1 myria fct s48 --- f - - @spirit 強力な精霊の拒絶
-    /myria li1 myria fct s48 --- f - - @spirit 強力な精霊とのふれあい
-    /myria li1 myria fct --- r48 f - - @spirit 強力な精霊との契約
+    done/myria li1 myria rel s48 --- f - - @spirit 強力な精霊との出会い
+    done/myria li1 myria rel s48 --- f - - @spirit 強力な精霊の拒絶
+    /myria li1 myria rel s48 --- f - - @spirit 強力な精霊とのふれあい
+    /myria li1 myria rel --- r48 f - - @spirit 強力な精霊との契約
 
 
 - item:

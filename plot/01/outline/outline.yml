@@ -715,7 +715,7 @@
     end: 夜更け
     notes: -
   integratioin:
-    event: あの精霊と老婆の来訪
+    event: 大精霊と老婆の来訪
     objective: 
       start: -
       middle: -
@@ -732,6 +732,7 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ evn third --- --- --- f - - @spirit 大精霊が現れてミリアを見つめ、もう少しねと言う
     /integ evn multi --- --- --- f - - ------- レオナとミリアは老婆と対立的に話を進める、むきになる
     /integ evn grp11 --- --- --- f - - ------- 明日日が昇ったら蜂妖精の蜂蜜を探してみましょう
     /alice li1 alice fsh s28 --- f - - @alice- 動物と話ができる
@@ -798,7 +799,7 @@
       /myria odl fei-- --- --- --- f - - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する[ref-038]
     /alice li1 alice rel s58 --- f - - @es---- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
     /alice li1 alice fsh s28 --- f - - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
-    /alice etc third rel --- r59 f - - ------- ペトラの蜜飴をなめさせて縁故をつなぐ
+    /alice etc third rel --- r59 f - - ------- ペトラにもらった妖精の蜜飴をなめさせて縁故をつなぐ
 
 
   ######  ########  ######  ########         #######
@@ -810,35 +811,35 @@
   ######  ########  ######     ##    ###     #######
 
 18:
-  declaration: -
-  elapsed days: 
+  declaration: 合宿
+  elapsed days: 20, 21, 22
   time:
-    start: 
-    end: 
-    notes: 
+    start: 朝
+    end: 夕
+    notes: フェイと戦ってそのまま野営地でもう1泊して翌日
   integratioin:
-    event: 
+    event: 訓練
     objective: 
-      start: 
-      middle: 
-      end: 
-      top: 
-    notes: 
-  location: 
+      start: 強くなる
+      middle: 強くなる
+      end: 強くなる
+      top: 魔力珠
+    notes: -
+  location: 野営地の草原の反対側
   destination:
-    start: 
-    middle: 
-    end: 
-    top: 
-  mood: 
+    start: -
+    middle: -
+    end: 居住地9
+    top: 東 / ガルダ / エリク
+  mood: 和やかな中にそれぞれの思い
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ evn petra hnt --- r57 f - - ------- ペトラが妖精図書館で調べたエスのことを教えに来てくれる
+    /integ evn petra rel --- r58 f - - @hestel 古文書にエス＝ヘス◯◯◯◯と書かれている
     /integ evn petra rel --- r58 f - - @es---- 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
     /rose- li2 petra fsh s33 --- f - - @orbPln 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
-    /integ evn third --- --- --- f - - @hestel 石碑にエス＝ヘス◯◯◯◯と書かれている
-    /myria odl myria pre lst --- f - - ------- ミリアがアリスから魔法をファンブルさせる魔法を教わる
+    /myria odl myria pre lst --- f - - ------- ミリアがアリスから魔法を発動過誤（ファンブル）させる魔法を教わる
     /alice odl alice pre lst --- f - - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     /alice odl alice fct lst --- f - - thought ローズを倒すことになる予感がする
     /leona odl alice --- --- --- f - - ------- アリスがレオナに逸脱すれば勝てると言う, ミリアは魔法での逸脱を話す
@@ -864,11 +865,11 @@
 
 19:
   declaration: フェイとの戦闘 3
-  elapsed days: 
+  elapsed days: 23
   time:
-    start: 
-    end: 
-    notes: 
+    start: 朝
+    end: 朝
+    notes: 合宿明けの朝
   integratioin:
     event: 
     objective: 
@@ -877,12 +878,12 @@
       end: 
       top: 
     notes: 
-  location: 
+  location: 野営地（場所6）の近く花が咲き乱れる草原
   destination:
-    start: 
-    middle: 
-    end: 
-    top: 
+    start: 居住地9
+    middle: -
+    end: 居住地9
+    top: 東 / ガルダ / エリク
   mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -899,26 +900,26 @@
 
 
 20:
-  declaration: -
-  elapsed days: 
+  declaration: 大精霊との融合
+  elapsed days: 30
   time:
     start: 
     end: 
     notes: 
   integratioin:
-    event: 
+    event: ガルダの場所を知る
     objective: 
       start: 
       middle: 
       end: 
       top: 
     notes: 
-  location: 
+  location: 居住地10
   destination:
-    start: 
-    middle: 
-    end: 
-    top: 
+    start: ガルダ
+    middle: ガルダ
+    end: ガルダ
+    top: ガルダ / エリク
   mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -934,7 +935,7 @@
     end: 
     notes: 
   integratioin:
-    event: 
+    event: 道なき道を行く
     objective: 
       start: 
       middle: 
@@ -971,7 +972,7 @@
     end: 
     notes: 
   integratioin:
-    event: 
+    event: ガルダに到着する
     objective: 
       start: 
       middle: 
@@ -986,7 +987,7 @@
     top: 
   mood: 
   notes:
-    - ミリアが普段使うのは弱い精霊魔法
+    - 
   contents:
     /rose- li2 erie- pre s33 r40 f - - @orbPln ローズは死ぬ気でいるから助けてほしい
     /leona odl leona pre --- lst f b - ordeal- レオナがエリーと戦う
@@ -998,14 +999,14 @@
 
 
 23:
-  declaration: -
+  declaration: ハイエルフの叡智を得る
   elapsed days: 
   time:
     start: 
     end: 
     notes: 
   integratioin:
-    event: 
+    event: エリクに到着する
     objective: 
       start: 
       middle: 
@@ -1020,7 +1021,7 @@
     top: 
   mood: 
   notes:
-    - ミリアが普段使うのは弱い精霊魔法
+    - 
   contents:
     /alice odl alice pre lst --- f - - thought ローズを倒せないと思い込む => ローズは強い
     /alice odl alice fct lst --- f - - thought ローズを倒さないと事は収まらないと分かっている
@@ -1057,7 +1058,7 @@
     top: 
   mood: 
   notes:
-    - ミリアが普段使うのは弱い精霊魔法
+    - 
   contents:
     /integ inf rose- fsh --- r31 f - - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
     /rose- li1 rose- fsh --- r30 f - - @rose-- ローズがエスは封印される直前に使徒をローズと融合させたことを告白する
@@ -1096,7 +1097,7 @@
     top: 
   mood: 
   notes:
-    - ミリアが普段使うのは弱い精霊魔法
+    - 
   contents:
     /integ evn alice fsh --- r39 f - - @es---- エス＝ヘスト゠エリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
     /integ evn third fsh --- r32 f - - @orb--- 魔力珠を手に入れる
