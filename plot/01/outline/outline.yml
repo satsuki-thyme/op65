@@ -450,7 +450,7 @@
     /myria odl myria pre mid r13 f - - bGround ミリアの背景
     /alice lov alice --- --- --- f - - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
     /integ evn alice cat s44 --- f - - @orb--- 魔力珠をローズがすぐに取りに行かないのは何か変と話す
-    /integ evn grp11 pre s36 --- f - - ------- 妖精女王に呼ばれる
+    /integ evn third pre s36 --- f - - ------- 妖精女王にペトラが呼ばれる
     /leona odl multi pre mid --- f - - ------- レオナがアリスに訓練してもらう[ref-018]
       /alice odl alice pre mid --- f - - favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
       /leona odl leona rel --- r14 f - - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
@@ -488,12 +488,13 @@
     /integ evn grp11 rel --- r49 f - - ------- 神獣が現れてアリスの身に危険が迫っていると言う（上位存在が関係していてはっきり未来が見えない）
     /integ inf third fsh s29 r43 f - - @es---- 妖精女王がエスはエリクに封印されていると言う
     /integ evn grp11 --- --- r36 f - - ------- 妖精女王に謁見する
+    /petra odl third pre s62 --- f - - ------- 妖精女王から妖精領主になるならいつでも言いなさいと言われる
     /integ inf third fsh s32 r44 f - - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
     /rose- li2 third fsh s33 --- f - - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる => 魔力路（パス）を追わせる => 上位存在（神か神に連なる者）に阻害される
     /integ inf third rel s34 --- f - - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
-    /alice li1 third fsh s28 --- f - - @alice- 妖精女王は指輪を見てアリスになんとなく気づく（高位の存在）がアリスがお戯れをなどと言って好待遇を拒否する
+    /alice odl alice fsh s05 --- f - - @ring-- アリスが妖精女王に素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
+    /alice li1 third fsh s28 --- f - - @alice- 妖精女王は指輪を検分してアリス（高位の存在）になんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
     /integ inf third fsh s39 --- f - - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
-    /alice odl alice fsh s05 --- f - - @ring-- アリスが妖精女王に素敵な指輪をよく見せてほしいと言われ_もったいぶりつつ_、_外せない_からこのままでと言う[ref-039]
     /alice odl alice pre mid --- f - - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     /alice odl alice pre lst --- f - - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     /alice odl alice hnt mid --- f - - thought ローズと戦うことになる予感が強くなる
@@ -642,7 +643,7 @@
   destination:
     start: 居住地8
     middle: -
-    end: 居住地9
+    end: 居住地10
     top: 東 / カルダ / エリク
   mood: 街の様子, 古の伝説, 別れ
   notes:
@@ -652,7 +653,7 @@
     /integ evn petra rel s58 --- f - - @es---- 妖精図書館でエスのことを調べると言う
     /integ evn third --- --- --- f - - @es---- エスとザヴィとザヴィの従者の戦いの伝説
     /integ evn third --- --- --- f - - @zavia- エスとザヴィとザヴィの従者の戦いの伝説
-    /integ evn third --- --- --- f - - ------- エルフの老婆からカルダからエリクにいけると聞く
+    /integ evn third --- --- --- f - - ------- エルフの老婆からカルダからエリクにいける、カルダに関わる情報が居住地10にあると聞く
     /integ evn alice --- --- --- f - - ------- エルフの老婆が指輪を欲するが外せないのと言って断る
     /integ evn myria --- --- --- f - - ------- エルフの老婆とミリアの耳飾り（ハイエルフの印）で話がつく
     /leona odl leona pre lst --- f - - thought 剣の型を崩すと弱くなると思い込む　型は絶対
@@ -662,6 +663,7 @@
     /alice odl multi pre s21 --- f - - ------- レオナとミリアが何かを作っている[ref-040]
     /alice lov multi --- --- --- f - - favorbl 頭と頬を撫でる
     /petra odl petra prm --- r15 f - - gDesire ペトラが妖精領主になる
+    /petra odl petra pre --- r62 f - - gDesire ペトラが妖精領主になる
     /petra etc alice hnt s57 --- f - - ------- アリスがペトラに転移のネックレスを渡す
     /petra etc petra rel s59 --- f - - ------- ペトラがお返しに妖精の蜜飴を渡す「みんなで食べてね」
 
@@ -674,22 +676,22 @@
     end: 昼
     notes: 居住地8にもう1泊して翌日
   integratioin:
-    event: 村に視察に来ていた領主の息子からの横柄でしつこいレオナへの求婚
+    event: 村長の息子からの横柄でしつこいレオナへの求婚
     objective: 
       start: 牛肉
-      middle: 領主の息子からの解放
+      middle: 村長の息子からの解放
       end: 牛肉
       top: 魔力珠
     notes: 村には特別な食用の牛がいる
-  location: 居住地9への道の途中の村（場所5）
+  location: 居住地9（居住地10への道の途中の村）
   destination:
-    start: 居住地9
+    start: 居住地10
     middle: -
-    end: 居住地9
+    end: 居住地10
     top: 東 / カルダ / エリク
   mood: 憤懣, 戦闘（引き分け）
   notes:
-    - 領主の息子はエリーとの戦いを見て縮み上がる
+    - 村長の息子はエリーとの戦いを見て縮み上がる
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /grp21
@@ -722,11 +724,11 @@
       end: -
       top: 魔力珠
     notes: -
-  location: 居住地9への途中の森の野営地（場所6）花が咲き乱れる草原の手前
+  location: 居住地10への途中の森の野営地（場所5）花が咲き乱れる草原の手前
   destination:
     start: 野営に適した場所（ググること）
     middle: -
-    end: 居住地9
+    end: 居住地10
     top: 東 / カルダ / エリク
   mood: しっとり, 感情的
   notes:
@@ -781,12 +783,12 @@
       end: -
       top: 魔力珠
     notes: -
-  location: 野営地（場所6）の近く花が咲き乱れる草原
+  location: 野営地（場所5）の近く花が咲き乱れる草原
   destination:
-    start: 居住地9
+    start: 居住地10
     middle: -
-    end: 居住地9
-    top: 東 / ガルダ / エリク
+    end: 居住地10
+    top: 東 / カルダ / エリク
   mood: 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -796,7 +798,7 @@
       /myria odl multi pre --- r60 f - ------- ミリアが2人は手を出さないと宣言し、アリスとレオナは静観する
       /integ evn myria --- --- --- f - - ------- 草花の亜精霊（人型でない光の粒）に助けられる
       /myria odl myria hnt --- mid f - - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
-      /myria odl fei-- --- --- --- f - - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する[ref-038]
+      /myria odl fei-- --- --- --- f - - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
     /alice li1 alice rel s58 --- f - - @es---- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
     /alice li1 alice fsh s28 --- f - - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
     /alice etc third rel --- r59 f - - ------- ペトラにもらった妖精の蜜飴をなめさせて縁故をつなぐ
@@ -829,8 +831,8 @@
   destination:
     start: -
     middle: -
-    end: 居住地9
-    top: 東 / ガルダ / エリク
+    end: 居住地10
+    top: 東 / カルダ / エリク
   mood: 和やかな中にそれぞれの思い
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -858,8 +860,8 @@
     /leona odl myria rel --- r25 f - - ------- ミリアがレオナを甘やかす[ref-042]
     /alice odl alice pre lst r21 f - - favorbl レオナとミリアから贈り物をもらう[ref-040]
     /alice lov alice --- --- --- f - - thought アリスの、わがままを通そうという決意
+    /myria odl fei-- pre lst --- b - - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく[ref-035]
     /grp21
-      /myria odl fei-- pre lst --- b - - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく[ref-035]
       /rose- li2 rose- fsh s33 --- b - - @orbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
 
 
@@ -878,12 +880,12 @@
       end: 
       top: 
     notes: 
-  location: 野営地（場所6）の近く花が咲き乱れる草原
+  location: 野営地（場所5）の近く花が咲き乱れる草原
   destination:
-    start: 居住地9
+    start: 居住地10
     middle: -
-    end: 居住地9
-    top: 東 / ガルダ / エリク
+    end: 居住地10
+    top: 東 / カルダ / エリク
   mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -893,9 +895,6 @@
       /myria odl myria fct --- lst f - - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
       /myria odl myria --- --- --- f - - results ミリアがフェイを倒す
     /myria odl myria prm --- r10 f - - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
-    /myria odl myria prm --- r11 f - - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
-    /myria odl myria pre --- r11 f - - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
-    /myria odl myria rel --- r34 f - - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     /fei-- odl fei-- prm --- lst f - - results フェイがミリアに敗北する[ref-029]
 
 
@@ -907,19 +906,19 @@
     end: 
     notes: 
   integratioin:
-    event: ガルダの場所を知る
+    event: カルダの場所を知る
     objective: 
       start: 
       middle: 
       end: 
       top: 
     notes: 
-  location: 居住地10
+  location: 居住地11
   destination:
-    start: ガルダ
-    middle: ガルダ
-    end: ガルダ
-    top: ガルダ / エリク
+    start: カルダ
+    middle: カルダ
+    end: カルダ
+    top: カルダ / エリク
   mood: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -972,7 +971,7 @@
     end: 
     notes: 
   integratioin:
-    event: ガルダに到着する
+    event: カルダに到着する
     objective: 
       start: 
       middle: 
@@ -1028,6 +1027,9 @@
     /integ evn alice cat s47 --- f - - @orb--- ローズと魔力珠を分離しないと、と言う
     /integ evn alice cat s31 --- f - - @zavia- ザヴィだけで神を封印できるかどうか、協力者がいたかも
     /alice lov multi --- --- --- f - - favorbl 告白とキス
+    /myria odl myria prm --- r11 f - - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
+    /myria odl myria pre --- r11 f - - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
+    /myria odl myria rel --- r34 f - - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     /grp21
       /alice odl rose- pre lst --- b - - threat- ローズがパワーアップする[ref-023]
       /integ inf rose- fsh s32 r47 b - - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
