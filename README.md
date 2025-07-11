@@ -1,26 +1,37 @@
 # 原初の少女の幻想譚
+
 ## 文書
+
 ### 本文
+
 #### 第1章
+
 - text/01/001.txt: タイトル未定
 
 ### 計画
+
 #### 全体
+
 - plan/00/init.yml:      初期設定
 - plan/00/title-idea.md: タイトル案
 
 #### 第1章
+
 - plan/01/build.md:      構想
 - plan/01/init.yml:      初期設定
 - plan/01/theme.yml:     プロット系統別テーマ
 - plan/01/title-idea.md: タイトル案
 
 #### 第2章
+
 - plan/02/init.yml:      初期設定
 
 ### プロット
+
 #### 第1章
+
 ##### 概要
+
 - plot/01/outline/background-requirements.yml: 背景の要件
 - plot/01/outline/character-base.yml:          キャラクターの基本設計
 - plot/01/outline/character-portrayal.yml:     キャラクター描写
@@ -36,6 +47,7 @@
 - plot/01/outline/worldview-decoration.yml:    世界観装飾
 
 ###### 統合プロット
+
 - plot/01/outline/integration/int-009.md: 統合プロット 第9話
 - plot/01/outline/integration/int-010.md: 統合プロット 第10話
 - plot/01/outline/integration/int-011.md: 統合プロット 第11話
@@ -47,25 +59,30 @@
 - plot/01/outline/integration/int-017.md: 統合プロット 第17話
 
 ##### 詳細
+
 - plot/01/details/001.yml:     プロット詳細 第1話
 - plot/01/details/ref-001.yml: プロット参照 アリスの背景
 - plot/01/details/ref-002.yml: プロット参照 レオナの背景
 - plot/01/details/ref-003.yml: プロット参照 ミリアの背景
 
 ### 設定
+
 - settings/background.yml: 背景設定
 - settings/characters.yml: キャラクター設定
 - settings/subject.yml:    主体設定
 - settings/place.yml:      場所設定
 
 ### 歴史
+
 - settings/history/his-001.md: エス封印に関すること
 
 ### その他
+
 - etc/notes.yml: ノート
 - etc/todo.md:   ToDoリスト
 
 ### 思考ノート
+
 - thinking-notes/thi-001.md: ミリアのコンフリクト
 - thinking-notes/thi-002.md: ローズの過去
 - thinking-notes/thi-003.md: フェイの過去
@@ -125,7 +142,9 @@
 - thinking-notes/thi-057.md: 見せたい世界観
 
 ### アーカイブ
+
 #### before-2025-01-13
+
 - archive/before-2025-01-13/memo/01/mem-000.md: 一時メモ
 - archive/before-2025-01-13/memo/01/mem-001.md: ローズが蘇生させるシーン
 - archive/before-2025-01-13/memo/01/mem-002.md: マクスの手記
@@ -155,6 +174,7 @@
 - archive/before-2025-01-13/memo/03/mem-001.md: ミリアの帰還
 
 #### before-2024-12-27
+
 - archive/before-2024-12-27/plan/00/init.yml:            初期構想
 - archive/before-2024-12-27/plan/00/title-idea.md:       タイトル案
 - archive/before-2024-12-27/plan/01/character-base.yml:  キャラクターの基本設計 第1章
@@ -168,6 +188,7 @@
 - archive/before-2024-12-27/plot/01/outline-extract.yml: プロット概要 抽出作業用
 
 #### before-2024-07-08
+
 - archive/before-2024-07-08/settings/settings-001.md: 遷世教団
 - archive/before-2024-07-08/settings/settings-002.md: 精霊の性質
 - archive/before-2024-07-08/settings/settings-003.md: 魔法リザーブ
@@ -175,6 +196,7 @@
 - archive/before-2024-07-08/settings/settings-005.md: 魔力郷
 
 #### before-2024-06-29
+
 - archive/before-2024-06-29/text/001.txt: はじまり
 - archive/before-2024-06-29/text/002.txt: 精霊の勇気
 - archive/before-2024-06-29/text/003.txt: 洗礼を受ける者
