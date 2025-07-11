@@ -28,7 +28,7 @@
     middle: -
     end: 居住地1
     top: エリク
-  mood: 新たな始まりの予感
+  tone: 新たな始まりの予感
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -89,7 +89,7 @@
     middle: 街へ繰り出す
     end: 遷世教団の神殿
     top: エリク
-  mood: ハプニング, 戦闘（勝ち）
+  tone: ハプニング, 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -149,7 +149,7 @@
     middle: -
     end: 逃亡
     top: 東 / エリク
-  mood: 敵対の予感, 戦闘（負け）
+  tone: 敵対の予感, 戦闘（負け）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -206,7 +206,7 @@
     middle: 妖精の森（場所1）
     end: 居住地2
     top: 東 / エリク
-  mood: 不思議, 戦闘（勝ち）
+  tone: 不思議, 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -261,7 +261,7 @@
     middle: 居住地3
     end: 居住地3
     top: 東 / エリク
-  mood: 時代物, 戦闘（負け）
+  tone: 時代物, 戦闘（負け）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -299,7 +299,7 @@
     middle: -
     end: 居住地4
     top: 東 / エリク
-  mood: 落ち込みからの脱却, 苦しい過去
+  tone: 落ち込みからの脱却, 苦しい過去
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -335,7 +335,7 @@
     middle: 妖精の森（場所2）
     end: 居住地5
     top: 東 / エリク
-  mood: 不思議, 秘密の解明
+  tone: 不思議, 秘密の解明
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -391,7 +391,7 @@
     middle: 居住地5
     end: 居住地5
     top: 東 / エリク
-  mood: 善行, 戦闘（勝ち）
+  tone: 善行, 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -439,7 +439,7 @@
     middle: ここ
     end: 居住地6
     top: 東 / エリク
-  mood: 弛緩した時間, 苦しい過去
+  tone: 弛緩した時間, 苦しい過去
   notes:
     - ミリアが普段使うのは弱い精霊魔法
     - アリスとレオナは朝から訓練で、ミリアが遅い朝
@@ -481,7 +481,7 @@
     middle: -
     end: 居住地5に戻る
     top: 東 / エリク
-  mood: 立派な舞台, ハプニング
+  tone: 立派な舞台, ハプニング
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -532,7 +532,7 @@
     middle: -
     end: 居住地6
     top: 東 / エリク（エリクに魔力珠の手掛かりがあるかもしれないしミリアの -ためにもエリクには行く）
-  mood: 不思議な体験, 戦闘（負け）
+  tone: 不思議な体験, 戦闘（負け）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -572,7 +572,7 @@
     middle: 湖底の洞窟
     end: 居住地7（対岸の街）, アリスは砂浜に行きたくなっている
     top: 東 / エリク
-  mood: 不思議な体験, 秘匿された過去
+  tone: 不思議な体験, 秘匿された過去
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -615,7 +615,7 @@
     middle: 湖底の街
     end: 居住地6に帰る
     top: 東 / エリク
-  mood: えちち
+  tone: えちち
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -645,7 +645,7 @@
     middle: -
     end: 居住地10
     top: 東 / カルダ / エリク
-  mood: 街の様子, 古の伝説, 別れ
+  tone: 街の様子, 古の伝説, 別れ
   notes:
     - 近くの村に特別な牛がいることを聞く
     - ミリアが普段使うのは弱い精霊魔法
@@ -689,7 +689,7 @@
     middle: -
     end: 居住地10
     top: 東 / カルダ / エリク
-  mood: 憤懣, 戦闘（引き分け）
+  tone: 憤懣, 戦闘（引き分け）
   notes:
     - 村長の息子はエリーとの戦いを見て縮み上がる
     - ミリアが普段使うのは弱い精霊魔法
@@ -730,7 +730,7 @@
     middle: -
     end: 居住地10
     top: 東 / カルダ / エリク
-  mood: しっとり, 感情的
+  tone: しっとり, 感情的
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -789,7 +789,7 @@
     middle: -
     end: 居住地10
     top: 東 / カルダ / エリク
-  mood: 戦闘（勝ち）
+  tone: 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -833,7 +833,7 @@
     middle: -
     end: 居住地10
     top: 東 / カルダ / エリク
-  mood: 和やかな中にそれぞれの思い
+  tone: 和やかな中にそれぞれの思い
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -886,7 +886,7 @@
     middle: -
     end: 居住地10
     top: 東 / カルダ / エリク
-  mood: 
+  tone: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -919,7 +919,7 @@
     middle: カルダ
     end: カルダ
     top: カルダ / エリク
-  mood: 
+  tone: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -947,7 +947,7 @@
     middle: 
     end: 
     top: 
-  mood: 
+  tone: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
@@ -984,7 +984,7 @@
     middle: 
     end: 
     top: 
-  mood: 
+  tone: 
   notes:
     - 
   contents:
@@ -1018,7 +1018,7 @@
     middle: 
     end: 
     top: 
-  mood: 
+  tone: 
   notes:
     - 
   contents:
@@ -1058,7 +1058,7 @@
     middle: 
     end: 
     top: 
-  mood: 
+  tone: 
   notes:
     - 
   contents:
@@ -1097,7 +1097,7 @@
     middle: 
     end: 
     top: 
-  mood: 
+  tone: 
   notes:
     - 
   contents:
