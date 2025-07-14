@@ -14,6 +14,12 @@
     start: 朝
     end: 朝
     notes: -
+  location: p1 森
+  destination:
+    start: -
+    middle: -
+    end: p2 街
+    top: p26 エリク
   integratioin:
     event: アリスが地下から出てくる
     objective: 
@@ -22,20 +28,14 @@
       end: 魔力珠
       top: 魔力珠
     notes: -
-  location: 森
-  destination:
-    start: -
-    middle: -
-    end: 居住地1
-    top: エリク
   tone: 新たな始まりの予感
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ mod third --- --- --- f - - ------- 深い森
-    /integ mod third --- --- --- f - - ------- 妖精
-    /integ mod third --- --- --- f - - ------- 魔物の息遣い
-    /integ mod third --- --- --- f - - ------- 列柱の先が少し突き出している
+    /integ mod noCha --- --- --- f - - ------- 森の様子、深い緑の中に新緑が目につくラクスの木とアルマータの木の混交林
+    /integ mod noCha --- --- --- f - - ------- 妖精
+    /integ mod noCha --- --- --- f - - ------- 魔物の息遣い
+    /integ mod noCha --- --- --- f - - ------- 列柱の先が少し突き出している
     /integ mod alice --- --- --- f - - ------- 魔法の発動
     /integ evn alice --- --- --- f - - ------- アリスが地下から出てくる「やるぞ、おー！」
     /integ evn alice --- --- --- f b - ------- 狼の親子に襲われる一件
@@ -75,31 +75,32 @@
     start: 朝
     end: 朝
     notes: 1泊した翌日の朝
-  integratioin:
-    event: ミリアを神獣の暴走から助ける
-    objective: 
-      start: エリクの情報
-      middle: ミリアの救助
-      end: 遷世教団への潜入
-      top: 魔力珠
-    notes: -
-  location: 居住地1
+  location: p2 街
   destination:
     start: 宿
     middle: 街へ繰り出す
     end: 遷世教団の神殿
-    top: エリク
+    top: p26 エリク
+  integratioin:
+    event: ミリアを神獣の暴走から助ける
+    objective: 
+      start: p26 エリクの情報
+      middle: ミリアの救助
+      end: 遷世教団への潜入
+      top: 魔力珠
+    notes: -
   tone: ハプニング, 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ mod third --- --- --- f - - ------- 外観、市城壁
-    /integ mod third --- --- --- f - - ------- 外観、城
-    /integ mod third --- --- --- f - - ------- 街の紹介
-    /integ mod third --- --- --- f - - ------- 街の中、大通りは石畳
-    /integ mod third --- --- --- f - - ------- 街の中、石造建築
-    /integ mod third --- --- --- f - - ------- 街の中、木造建築
-    /integ mod third --- --- --- f - - ------- 街の中、鎧窓
+    /integ mod noCha --- --- --- f - - ------- 都市の外観、市城壁
+    /integ mod noCha --- --- --- f - - ------- 都市の外観、城
+    /integ mod noCha --- --- --- f - - ------- 街の紹介
+    /integ mod noCha --- --- --- f - - ------- 街の中、人々の様子
+    /integ mod noCha --- --- --- f - - ------- 街の中、大通りは石畳
+    /integ mod noCha --- --- --- f - - ------- 街の中、石造建築があちらこちらにある
+    /integ mod noCha --- --- --- f - - ------- 街の中、木造建築が主流
+    /integ mod noCha --- --- --- f - - ------- 街の中、鎧窓
     /integ evn myria pre s11 --- f - - ------- ミリアの精霊魔法が弱いことを印象づける
     /integ evn alice --- --- --- f - - ------- 手持ちの宝石を換金する（大きな宝石商、アリスの身なりは高級品で仕立てがいい）
     /integ evn multi --- --- --- f - - ------- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
@@ -108,7 +109,7 @@
     /integ inf alice rel s52 --- f - - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
     /integ inf myria fsh s32 r41 f - - @orb--- 遷世教団は魔力珠を探している
     /integ inf myria fsh s29 --- f - - @es---- 遷世教団は遷世させたい
-    /integ inf myria rel s34 --- f - - @elf--- エリクにハイエルフの叡智がある
+    /integ inf myria rel s34 --- f - - @elf--- p26 エリクにハイエルフの叡智がある
     /leona odl third hnt s09 --- f - - ------- 民が噂話にカルツ王国を出す
     /leona odl alice hnt s09 --- f - - ------- アリスが所作が洗練されていて王族のようだと言う
     /alice li1 alice fsh s28 --- f - - @alice- アリスが所作が洗練されていて王族のようだと言う
@@ -135,34 +136,39 @@
     start: 午前
     end: 午前
     notes: 1泊した翌日の午前
+  location: p3 遷世教団の神殿 . p2 街
+  destination:
+    start: p3 遷世教団の神殿
+    middle: -
+    end: 逃亡
+    top: 東 / p26 エリク
   integratioin:
     event: 遷世教団の神殿に忍び込んで調べる
     objective: 
-      start: エリクの情報
+      start: p26 エリクの情報
       middle: -
       end: 東へ
       top: 魔力珠
     notes: -
-  location: 遷世教団の神殿 / 居住地1
-  destination:
-    start: 遷世教団の神殿
-    middle: -
-    end: 逃亡
-    top: 東 / エリク
   tone: 敵対の予感, 戦闘（負け）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ mod noCha --- --- --- f - - ------- 神殿の外観
+    /integ mod noCha --- --- --- f - - ------- 神殿の内観
+    /integ mod noCha --- --- --- f - - ------- 神殿内の人の様子、関係者の衣装
+    /integ mod noCha --- --- --- f - - ------- 神殿内の人の様子、外来者の衣装
+    /integ mod noCha --- --- --- f - - ------- 信者は粗末な白いローブをまとっている、アリスたちは似たものを外で買ってしれっと来ている
     /integ evn grp11 --- --- --- f - - ------- 遷世教団の神殿に忍び込む
     /integ evn grp11 --- --- --- f - - @hestel エスの神珠から感じられる神気に思い当たりがある、はっきり思い出せない　私の記憶は古いからね（ヘスト゠エリア）
     /alice li1 rose- fsh s28 --- b - - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
     /alice li1 rose- rel s35 --- b - - @evil-- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
     /integ inf third fsh s29 r42 f - - @es---- 遷世教団は遷世神エスに仕えている
     /integ inf third fsh s29 --- f - - @es---- 遷世は今の世界を終わらせて新しい世界に移行すること
-    /integ inf third fsh s32 --- f - - @orb--- 魔力珠はエリクにある
-    /integ inf third fsh s32 --- f - - @orb--- エリクは東にある
+    /integ inf third fsh s32 --- f - - @orb--- 魔力珠はp26 エリクにある
+    /integ inf third fsh s32 --- f - - @orb--- p26 エリクは東にある
     /integ inf rose- fsh s31 --- f - - @zavia- ローズはザヴィの子
-    /integ inf rose- fsh s31 --- f - - @zavia- ザヴィはエリクで死んだ
+    /integ inf rose- fsh s31 --- f - - @zavia- ザヴィはp26 エリクで死んだ
     /alice odl rose- pre s04 --- b - - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
     /rose- odl rose- --- --- --- b - - @apostl 〃
     /alice odl alice pre s04 --- f - - threat- アリスがローズの噂を聞く[ref-020]
@@ -191,25 +197,28 @@
   time:
     start: 午前
     end: 午後
-    notes: 居住地1で1泊した翌日の午前
+    notes: p2 街に1泊した翌日の午前
+  location: p5 妖精の森 . p4 危険な近道
+  destination:
+    start: p7 街
+    middle: p5 妖精の森
+    end: p7 街
+    top: 東 / p26 エリク
   integratioin:
     event: ペトラを助けて妖精の森に行く
     objective: 
-      start: 居住地2に行く
+      start: p7 街に行く
       middle: ペトラを助ける
-      end: 居住地2に行く
+      end: p7 街に行く
       top: 魔力珠
     notes: -
-  location: 妖精の森（場所1） / 危険な近道
-  destination:
-    start: 居住地2
-    middle: 妖精の森（場所1）
-    end: 居住地2
-    top: 東 / エリク
   tone: 不思議, 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ mod noCha --- --- --- f - - ------- 森の様子、若葉が多く目につくラクスの木とアルマータの木の混交林
+    /integ mod noCha --- --- --- f - - ------- 道の様子、腐葉土、木が生えていないというだけの道
+    /integ mod noCha --- --- --- f - - ------- 妖精の様子
     /myria li1 myria fct s48 --- f - - @spirit 強力な精霊（星の精霊）との出会い「また会うでしょう」[ref-051]
     /integ evn grp11 --- --- --- f - - ------- 妖精の森を訪れる
     /integ evn third --- --- --- f - - ------- 妖精のポヤポヤした様子を描く => ペトラがポヤポヤしていても領主になれる理由
@@ -246,25 +255,29 @@
   time:
     start: 午前
     end: 午前
-    notes: 居住地2に1泊した翌日の午前
+    notes: p5 妖精の森に1泊した翌日の午前
+  location: p6 道
+  destination:
+    start: p7 街
+    middle: p7 街
+    end: p7 街
+    top: 東 / p26 エリク
   integratioin:
     event: 盗賊騎士の関門
     objective: 
       start: 関門を越える
       middle: エリーを倒す
-      end: 居住地3に行く
+      end: p7 街に行く
       top: 魔力珠
     notes: -
-  location: 道
-  destination:
-    start: 居住地3
-    middle: 居住地3
-    end: 居住地3
-    top: 東 / エリク
   tone: 時代物, 戦闘（負け）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ mod noCha --- --- --- f - - ------- 森の様子、萌えだした新緑が目を引く、アルマータの木とエキノスの木とエルヒダの木の混交林
+    /integ mod noCha --- --- --- f - - ------- 道の様子、踏み固められたわだちのある黄褐色の地面でときおり穴がある
+    /integ mod noCha --- --- --- f - - ------- 関門の外観
+    /integ mod noCha --- --- --- f - - ------- 盗賊騎士の衣装
     /leona odl leona pre s07 --- f - - favorbl 盗賊騎士を強気に抑える、通行料の相場を言って認めさせる、妖精から取らせない
     /leona odl leona pre --- r07 f b - ordeal- レオナがエリーと戦う
       /leona odl erie- hnt s09 --- f - - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
@@ -284,7 +297,13 @@
   time:
     start: 遅い朝
     end: 昼
-    notes: 居住地3に着いて1泊した翌日の朝
+    notes: p7 街に着いて1泊した翌日の朝
+  location: p7 街
+  destination:
+    start: 祭りへの参加
+    middle: -
+    end: 居住地4
+    top: 東 / p26 エリク
   integratioin:
     event: 祭り
     objective: 
@@ -293,16 +312,15 @@
       end: レオナの訓練
       top: 魔力珠
     notes: -
-  location: 居住地3
-  destination:
-    start: 祭りへの参加
-    middle: -
-    end: 居住地4
-    top: 東 / エリク
   tone: 落ち込みからの脱却, 苦しい過去
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ mod noCha --- --- --- f - - ------- 宿の部屋の様子、窓から見下ろすと宿屋の庭木、亜麻色のシーツのベッドには藁が詰まっている
+    /integ mod noCha --- --- --- f - - ------- 街の中の様子、小さな街、道は舗装されず地面がむき出しになっている
+    /integ mod noCha --- --- --- f - - ------- 祭りの様子、色とりどりの衣装に着飾った女たち
+    /integ mod noCha --- --- --- f - - ------- 街の開け放たれた鎧窓から幼子が通りを見ている
+    /integ mod noCha --- --- --- f - - ------- 木造建築がほとんど
     /leona odl leona pre mid --- f - - bGround レオナの背景
     /leona odl leona hnt --- r09 f - - bGround レオナの背景
     /leona etc leona rel s51 --- f - - ------- レオナがイマイチの剣を買う（折れた剣は直せないとのこと）
@@ -321,24 +339,26 @@
     start: 午前
     end: 午前
     notes: 居住地4で1泊した翌日の午前から始まって妖精の森で1泊した午前で終わる
+  location: p9 妖精の森 . p8 道
+  destination:
+    start: p12 魔力泉の街
+    middle: 妖精の森（場所2）
+    end: p12 魔力泉の街
+    top: 東 / p26 エリク
   integratioin:
-    event: 妖精の森（場所2）近くにやってきたドラゴンとアリスが対話する
+    event: p9 妖精の森近くにやってきたドラゴンとアリスが対話する
     objective: 
-      start: 居住地5に行く
+      start: p12 魔力泉の街に行く
       middle: 妖精を助ける
-      end: 居住地5に行く
+      end: p12 魔力泉の街に行く
       top: 魔力珠
     notes: -
-  location: 妖精の森 / 道
-  destination:
-    start: 居住地5
-    middle: 妖精の森（場所2）
-    end: 居住地5
-    top: 東 / エリク
   tone: 不思議, 秘密の解明
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ mod noCha --- --- --- f - - ------- 森の様子、明るい葉色の中にもさらに明るい若葉が繁っているエルヒダの木の純林となった
+    /integ mod noCha --- --- --- f - - ------- 道の様子、踏み固められたわだちのある黒褐色の地面、ところどころ木の根が張りだして馬車は大変そうだ
     /integ evn grp11 --- --- --- f - - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
     /integ evn petra --- --- --- f - - @hestel ペトラが見つけた碑文「エス＝◯◯◯◯リア」
     /integ evn petra --- --- --- f - - @rose-- ペトラが見つけた碑文「エスの使徒と人間の少女の関係」
@@ -376,25 +396,28 @@
   time:
     start: 昼
     end: 昼
-    notes: 妖精の森（場所2）でさらに1泊した翌日の昼
+    notes: p9 妖精の森でさらに1泊した翌日の昼
+  location: p11 魔法使いの老婆の家 . p10 森
+  destination:
+    start: p12 魔力泉の街
+    middle: p11 魔法使いの老婆の家
+    end: p12 魔力泉の街
+    top: 東 / p26 エリク
   integratioin:
     event: 魔法使いの老婆 => 元気の出る精霊石（ミリアの祖母が使っていた）を老婆にあげる[thi-052]
     objective: 
       start: 魔法使いの老婆を助ける
       middle: フェイを倒す
-      end: 居住地5に行く
+      end: p12 魔力泉の街に行く
       top: 魔力珠
     notes: -
-  location: 居住地5の近く
-  destination:
-    start: 魔法使いの老婆の家（場所3）
-    middle: 居住地5
-    end: 居住地5
-    top: 東 / エリク
   tone: 善行, 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ mod noCha --- --- --- f - - ------- 森の様子、森の中は比較的明るいエルヒダの木の純林だ
+    /integ mod noCha --- --- --- f - - ------- 道の様子、黒褐色の土、わだち
+    /integ mod noCha --- --- --- f - - ------- 老婆の家の様子、拳ほどの石を積み上げて街壁とした
     /integ evn myria --- --- --- f - - ------- ミリアが魔法使いのおばあちゃんからエルフの耳飾りをもらう（ハイエルフの印）
     /myria odl myria pre s12 --- f - - thought ミリアが祖母に会いたいという強い思いを吐露する
       /myria odl myria pre s12 --- f - - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
@@ -424,27 +447,31 @@
   time:
     start: 朝
     end: 昼前
-    notes: フェイとの戦闘を終え居住地5に1泊した翌日の朝
+    notes: フェイとの戦闘を終えp12 魔力泉の街に1泊した翌日の朝
+  location: p12 魔力泉の街
+  destination:
+    start: -
+    middle: -
+    end: p15 湖畔の街
+    top: 東 / p26 エリク
   integratioin:
     event: ミリアの精霊との契約の儀とその失敗
     objective: 
       start: 魔力泉を堪能する、休息する
       middle: ミリアが精霊と契約する
-      end: 居住地6に行く
+      end: p15 湖畔の街に行く
       top: 魔力珠
     notes: 魔力泉、妖精の多い街
-  location: 居住地5（魔力泉の街）
-  destination:
-    start: ここ
-    middle: ここ
-    end: 居住地6
-    top: 東 / エリク
   tone: 弛緩した時間, 苦しい過去
   notes:
     - ミリアが普段使うのは弱い精霊魔法
     - アリスとレオナは朝から訓練で、ミリアが遅い朝
   contents:
-    /integ evn grp11 rel s53 --- f - - ------- 居住地6の湖の水運について話を聞く => 船で渡りたい
+    /integ mod noCha --- --- --- f - - ------- 街の様子、魔力の密度が高い、街の人は肌つやがいい、妖精の姿が目につく
+    /integ mod noCha --- --- --- f - - ------- 大通りには石が敷き詰められている
+    /integ mod noCha --- --- --- f - - ------- 石造りの家屋が多いように見受けられる
+    /integ mod noCha --- --- --- f - - ------- 木造建築が主流だが
+    /integ evn grp11 rel s53 --- f - - ------- p15 湖畔の街の湖の水運について話を聞く => 船で渡りたい
     /leona etc leona rel s51 --- f - - ------- 邪悪なドラゴン「{ドラゴン}」と戦った剣士の伝説を聞く[ref-050]
     /myria li1 myria fct s48 --- f - - @spirit 強力な精霊（星の精霊）の拒絶、契約の申し出、契約の儀を試す => できない[ref-052]
     /myria odl myria pre mid r13 f - - bGround ミリアの背景
@@ -466,32 +493,33 @@
   time:
     start: 昼
     end: 昼すぎ
-    notes: 居住地5（魔力泉の街）から近くの森へ移動してキノコサークルに入って転移して
+    notes: p12 魔力泉の街から近くの森へ移動してキノコサークルに入って転移して
+  location: p13 妖精の国
+  destination:
+    start: 妖精女王との謁見
+    middle: -
+    end: p12 魔力泉の街に戻る
+    top: 東 / p26 エリク
   integratioin:
     event: 妖精女王への謁見
     objective: 
       start: 妖精女王への謁見
       middle: 魔力珠やエスの情報
-      end: 居住地5に戻る
+      end: p12 魔力泉の街に戻る
       top: 魔力珠
     notes: 植物が大きく見えるくらいアリスたちは縮んでいる, ペトラの頑張りを褒められる
-  location: 妖精の国（場所4） / 居住地5（魔力泉の街）
-  destination:
-    start: 妖精女王との謁見
-    middle: -
-    end: 居住地5に戻る
-    top: 東 / エリク
   tone: 立派な舞台, ハプニング
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ mod noCha --- --- --- f - - ------- 
     /integ evn grp11 rel --- r49 f - - ------- 神獣が現れてアリスの身に危険が迫っていると言う（上位存在が関係していてはっきり未来が見えない）
-    /integ inf third fsh s29 r43 f - - @es---- 妖精女王がエスはエリクに封印されていると言う
+    /integ inf third fsh s29 r43 f - - @es---- 妖精女王がエスはp26 エリクに封印されていると言う
     /integ evn grp11 --- --- r36 f - - ------- 妖精女王に謁見する
     /petra odl third pre s62 --- f - - ------- 妖精女王から妖精領主になるならいつでも言いなさいと言われる
-    /integ inf third fsh s32 r44 f - - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
+    /integ inf third fsh s32 r44 f - - @orb--- 妖精女王から魔力珠はp26 エリクから何者かによって持ち去られていると言われる
     /rose- li2 third fsh s33 --- f - - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる => 魔力路（パス）を追わせる => 上位存在（神か神に連なる者）に阻害される
-    /integ inf third rel s34 --- f - - @elf--- 妖精女王からエリクは古代ハイエルフの都市国家と言われる
+    /integ inf third rel s34 --- f - - @elf--- 妖精女王からp26 エリクは古代ハイエルフの都市国家と言われる
     /alice odl alice fsh s05 --- f - - @ring-- アリスが妖精女王に素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
     /alice li1 third fsh s28 --- f - - @alice- 妖精女王は指輪を検分してアリス（高位の存在）になんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
     /integ inf third fsh s39 --- f - - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
@@ -501,7 +529,7 @@
     /alice odl alice hnt mid --- f - - thought ローズとは戦えないと悩む
     /alice lov multi --- --- --- f - - favorbl 3人でバックハグ
     /grp21
-      /rose- li2 rose- fsh s33 --- b - - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
+      /rose- li2 rose- fsh s33 --- b - - @orbPln アリスたちが魔力珠がp26 エリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
       /rose- li1 rose- fsh s30 --- b - - @rose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
       /myria odl fei-- pre mid r26 b - - bGround フェイの背景
       /fei-- li2 fei-- --- --- --- b - - ------- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
@@ -517,21 +545,21 @@
   time:
     start: 昼
     end: 昼
-    notes: 居住地5（魔力泉の街）で1泊して翌日
+    notes: p12 魔力泉の街（魔力泉の街）で1泊して翌日
+  location: p14 滝
+  destination:
+    start: 滝の裏
+    middle: -
+    end: p15 湖畔の街
+    top: 東 / p26 エリク（p26 エリクに魔力珠の手掛かりがあるかもしれないしミリアの -ためにもp26 エリクには行く）
   integratioin:
     event: 滝の裏の剣を抜く
     objective: 
       start: 滝を見る, 滝の裏に行く
       middle: ローズを説得する
-      end: 居住地6に行く
+      end: p15 湖畔の街に行く
       top: 魔力珠
     notes: -
-  location: 滝 / 道
-  destination:
-    start: 滝の裏
-    middle: -
-    end: 居住地6
-    top: 東 / エリク（エリクに魔力珠の手掛かりがあるかもしれないしミリアの -ためにもエリクには行く）
   tone: 不思議な体験, 戦闘（負け）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -541,8 +569,8 @@
     /integ inf rose- fsh s32 --- f - - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
     /integ inf rose- hnt --- r50 f - - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
     /integ inf rose- fsh s31 r45 f - - @zavia- ザヴィはローズが殺した
-    /integ inf rose- fsh s32 --- f - - @orb--- ローズは魔力珠とともにエリクに行って世界を終わらせる
-    /rose- li2 rose- fsh s33 --- f - - @orbPln ローズは魔力珠とともにエリクに行って世界を終わらせる
+    /integ inf rose- fsh s32 --- f - - @orb--- ローズは魔力珠とともにp26 エリクに行って世界を終わらせる
+    /rose- li2 rose- fsh s33 --- f - - @orbPln ローズは魔力珠とともにp26 エリクに行って世界を終わらせる
     /alice odl alice pre --- mid f b - ordeal- アリスがローズと戦う
       /alice odl alice hnt --- mid f - - ------- 説得を試みる
       /alice odl alice pre lst --- f - - results アリスがまともに戦えず怪我をする
@@ -557,7 +585,13 @@
   time:
     start: 朝
     end: 昼
-    notes: 居住地6に着いて1泊して翌日
+    notes: p15 湖畔の街に着いて1泊して翌日
+  location: p15 湖畔の街, p16 湖底の洞窟
+  destination:
+    start: 居住地7（対岸の街）
+    middle: 湖底の洞窟
+    end: 居住地7（対岸の街）, アリスは砂浜に行きたくなっている
+    top: 東 / p26 エリク
   integratioin:
     event: 水棲のドラゴン
     objective: 
@@ -566,12 +600,6 @@
       end: 居住地7に行く
       top: 魔力珠
     notes: -
-  location: 居住地6, 湖に隣接
-  destination:
-    start: 居住地7（対岸の街）
-    middle: 湖底の洞窟
-    end: 居住地7（対岸の街）, アリスは砂浜に行きたくなっている
-    top: 東 / エリク
   tone: 不思議な体験, 秘匿された過去
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -601,20 +629,20 @@
     start: 朝
     end: 昼
     notes: 夕方に終わるのが理想的だが、そんな長引くだろうか
+  location: p17 湖の砂浜, p18 湖底の街跡
+  destination:
+    start: p17 湖の砂浜
+    middle: p18 湖底の街跡
+    end: p15 湖畔の街
+    top: 東 / p26 エリク
   integratioin:
     event: 水着回
     objective: 
       start: 水遊び
       middle: 精霊を助ける
-      end: 居住地6に帰る
+      end: p15 湖畔の街に帰る
       top: 魔力珠
     notes: -
-  location: 湖の砂浜, 湖底
-  destination:
-    start: 砂浜
-    middle: 湖底の街
-    end: 居住地6に帰る
-    top: 東 / エリク
   tone: えちち
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -630,21 +658,21 @@
   time:
     start: 昼前
     end: 朝
-    notes: 居住地8で2泊して翌々日の朝出発する
+    notes: p19 大破壊の街で2泊して翌々日の朝出発する
+  location: p19 大破壊の街, p13 妖精の国
+  destination:
+    start: p19 大破壊の街
+    middle: -
+    end: p24 街
+    top: 東 / p25 カルダ / p26 エリク
   integratioin:
     event: エスの大破壊の痕跡
     objective: 
-      start: エスの情報, エリクの情報
+      start: エスの情報, p26 エリクの情報
       middle: 妖精のリング
       end: -
       top: 魔力珠
     notes: 外輪山の外はショボショボ農地、中は鉄鋼の街
-  location: 居住地8（エスの大破壊の痕跡の名所）
-  destination:
-    start: 居住地8
-    middle: -
-    end: 居住地10
-    top: 東 / カルダ / エリク
   tone: 街の様子, 古の伝説, 別れ
   notes:
     - 近くの村に特別な牛がいることを聞く
@@ -653,7 +681,7 @@
     /integ evn petra rel s58 --- f - - @es---- 妖精図書館でエスのことを調べると言う
     /integ evn third --- --- --- f - - @es---- エスとザヴィとザヴィの従者の戦いの伝説
     /integ evn third --- --- --- f - - @zavia- エスとザヴィとザヴィの従者の戦いの伝説
-    /integ evn third --- --- --- f - - ------- エルフの老婆からカルダからエリクにいける、カルダに関わる情報が居住地10にあると聞く
+    /integ evn third --- --- --- f - - ------- エルフの老婆からp25 カルダからp26 エリクにいける、p25 カルダに関わる情報がp24 街にあると聞く
     /integ evn alice --- --- --- f - - ------- エルフの老婆が指輪を欲するが外せないのと言って断る
     /integ evn myria --- --- --- f - - ------- エルフの老婆とミリアの耳飾り（ハイエルフの印）で話がつく
     /leona odl leona pre lst --- f - - thought 剣の型を崩すと弱くなると思い込む　型は絶対
@@ -674,7 +702,13 @@
   time:
     start: 昼前
     end: 昼
-    notes: 居住地8にもう1泊して翌日
+    notes: p19 大破壊の街にもう1泊して翌日
+  location: p20 村（p24 街への道の途中の村）
+  destination:
+    start: p24 街
+    middle: -
+    end: p24 街
+    top: 東 / p25 カルダ / p26 エリク
   integratioin:
     event: 村長の息子からの横柄でしつこいレオナへの求婚
     objective: 
@@ -683,19 +717,13 @@
       end: 牛肉
       top: 魔力珠
     notes: 村には特別な食用の牛がいる
-  location: 居住地9（居住地10への道の途中の村）
-  destination:
-    start: 居住地10
-    middle: -
-    end: 居住地10
-    top: 東 / カルダ / エリク
   tone: 憤懣, 戦闘（引き分け）
   notes:
     - 村長の息子はエリーとの戦いを見て縮み上がる
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /grp21
-      /rose- li2 rose- fsh s33 --- b - - @orbPln 望みの全てはエリクの封印に懸かっている
+      /rose- li2 rose- fsh s33 --- b - - @orbPln 望みの全てはp26 エリクの封印に懸かっている
       /rose- li2 rose- fsh s33 --- b - - @orbPln エスは封印の中で邪神の呪いに苛まれている
       /rose- li2 rose- fsh s29     b - - @es---- エスは封印の中で邪神の呪いに苛まれている
       /rose- li1 rose- fsh s30 --- b - - @rose-- ローズが神殿教会のバルコニーに立つと晴れる
@@ -716,25 +744,25 @@
     start: 夕方
     end: 夜更け
     notes: -
+  location: p21 野営地（p24 街への途中の森）
+  destination:
+    start: 野営に適した場所（ググること）
+    middle: -
+    end: p24 街
+    top: 東 / p25 カルダ / p26 エリク
   integratioin:
-    event: 大精霊と老婆の来訪
+    event: 星の精霊と老婆の来訪
     objective: 
       start: -
       middle: -
       end: -
       top: 魔力珠
     notes: -
-  location: 居住地10への途中の森の野営地（場所5）花が咲き乱れる草原の手前
-  destination:
-    start: 野営に適した場所（ググること）
-    middle: -
-    end: 居住地10
-    top: 東 / カルダ / エリク
   tone: しっとり, 感情的
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ evn third --- --- --- f - - @spirit 大精霊が現れてミリアを見つめ、もう少しねと言う
+    /integ evn third --- --- --- f - - @spirit 星の精霊が現れてミリアを見つめ、もう少しねと言う
     /integ evn multi --- --- --- f - - ------- レオナとミリアは老婆と対立的に話を進める、むきになる
     /integ evn grp11 --- --- --- f - - ------- 明日日が昇ったら蜂妖精の蜂蜜を探してみましょう
     /alice li1 alice fsh s28 --- f - - @alice- 動物と話ができる
@@ -774,7 +802,13 @@
   time:
     start: 朝
     end: 午前中
-    notes: 野営地で1泊して翌朝
+    notes: p21 野営地で1泊して翌朝
+  location: p22 草原（野営地の近く）
+  destination:
+    start: p24 街
+    middle: -
+    end: p24 街
+    top: 東 / p25 カルダ / p26 エリク
   integratioin:
     event: 蜂妖精の蜂蜜を探して食べる
     objective: 
@@ -783,12 +817,6 @@
       end: -
       top: 魔力珠
     notes: -
-  location: 野営地（場所5）の近く花が咲き乱れる草原
-  destination:
-    start: 居住地10
-    middle: -
-    end: 居住地10
-    top: 東 / カルダ / エリク
   tone: 戦闘（勝ち）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -819,6 +847,12 @@
     start: 朝
     end: 夕
     notes: フェイと戦ってそのまま野営地でもう1泊して翌日
+  location: p23 森（野営地の近く）
+  destination:
+    start: -
+    middle: -
+    end: p24 街
+    top: 東 / p25 カルダ / p26 エリク
   integratioin:
     event: 訓練
     objective: 
@@ -827,12 +861,6 @@
       end: 強くなる
       top: 魔力珠
     notes: -
-  location: 野営地の草原の反対側
-  destination:
-    start: -
-    middle: -
-    end: 居住地10
-    top: 東 / カルダ / エリク
   tone: 和やかな中にそれぞれの思い
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -872,6 +900,12 @@
     start: 朝
     end: 朝
     notes: 合宿明けの朝
+  location: p22 草原（野営地の近く）
+  destination:
+    start: p24 街
+    middle: -
+    end: p24 街
+    top: 東 / p25 カルダ / p26 エリク
   integratioin:
     event: 
     objective: 
@@ -880,12 +914,6 @@
       end: 
       top: 
     notes: 
-  location: 野営地（場所5）の近く花が咲き乱れる草原
-  destination:
-    start: 居住地10
-    middle: -
-    end: 居住地10
-    top: 東 / カルダ / エリク
   tone: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -899,26 +927,26 @@
 
 
 20:
-  declaration: 大精霊との融合
+  declaration: 星の精霊との融合
   elapsed days: 30
   time:
     start: 
     end: 
     notes: 
+  location: p24 街
+  destination:
+    start: p25 カルダ
+    middle: p25 カルダ
+    end: p25 カルダ
+    top: p25 カルダ / p26 エリク
   integratioin:
-    event: カルダの場所を知る
+    event: p25 カルダの場所を知る
     objective: 
       start: 
       middle: 
       end: 
       top: 
     notes: 
-  location: 居住地11
-  destination:
-    start: カルダ
-    middle: カルダ
-    end: カルダ
-    top: カルダ / エリク
   tone: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -933,6 +961,12 @@
     start: 
     end: 
     notes: 
+  location: p24 森
+  destination:
+    start: 
+    middle: 
+    end: 
+    top: 
   integratioin:
     event: 道なき道を行く
     objective: 
@@ -941,12 +975,6 @@
       end: 
       top: 
     notes: 
-  location: 
-  destination:
-    start: 
-    middle: 
-    end: 
-    top: 
   tone: 
   notes:
     - ミリアが普段使うのは弱い精霊魔法
@@ -970,20 +998,20 @@
     start: 
     end: 
     notes: 
+  location: p25 カルダ
+  destination:
+    start: 
+    middle: 
+    end: 
+    top: 
   integratioin:
-    event: カルダに到着する
+    event: p25 カルダに到着する
     objective: 
       start: 
       middle: 
       end: 
       top: 
     notes: 
-  location: 
-  destination:
-    start: 
-    middle: 
-    end: 
-    top: 
   tone: 
   notes:
     - 
@@ -1004,20 +1032,20 @@
     start: 
     end: 
     notes: 
+  location: p26 エリク
+  destination:
+    start: 
+    middle: 
+    end: 
+    top: 
   integratioin:
-    event: エリクに到着する
+    event: p26 エリクに到着する
     objective: 
       start: 
       middle: 
       end: 
       top: 
     notes: 
-  location: 
-  destination:
-    start: 
-    middle: 
-    end: 
-    top: 
   tone: 
   notes:
     - 
@@ -1044,6 +1072,12 @@
     start: 
     end: 
     notes: 
+  location: p26 エリク
+  destination:
+    start: 
+    middle: 
+    end: 
+    top: 
   integratioin:
     event: 
     objective: 
@@ -1052,12 +1086,6 @@
       end: 
       top: 
     notes: 
-  location: 
-  destination:
-    start: 
-    middle: 
-    end: 
-    top: 
   tone: 
   notes:
     - 
@@ -1066,7 +1094,7 @@
     /rose- li1 rose- fsh --- r30 f - - @rose-- ローズがエスは封印される直前に使徒をローズと融合させたことを告白する
     /                fsh s29 ---     - @es---- ローズがエスは封印される直前に使徒をローズと融合させたことを告白する
     /rose- li2 rose- fsh --- r33 f - - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
-    /alice li1 alice fsh s28 --- f - - @alice- アリスの力が解放されてエリクが楽園になる
+    /alice li1 alice fsh s28 --- f - - @alice- アリスの力が解放されてp26 エリクが楽園になる
     /integ evn rose- --- --- --- f - - @hestel ローズが古代の主神ヘスト゠エリアの力はこんなものではない、とか言う
     /alice odl alice pre --- lst f b - ordeal- アリスがローズと戦う
       /alice odl alice fct --- lst f - - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
@@ -1083,6 +1111,12 @@
     start: 
     end: 
     notes: 
+  location: p26 エリク
+  destination:
+    start: 
+    middle: 
+    end: 
+    top: 
   integratioin:
     event: 
     objective: 
@@ -1091,12 +1125,6 @@
       end: 
       top: 
     notes: 
-  location: 
-  destination:
-    start: 
-    middle: 
-    end: 
-    top: 
   tone: 
   notes:
     - 
