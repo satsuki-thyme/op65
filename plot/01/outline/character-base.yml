@@ -41,7 +41,7 @@ details:
       type:
         試練
       contents:
-        title:
+        theme:
           過去と決別して今を選べるか
         inner self that confront (weaknesses):
           過去とのつながりであるローズに執着する自分
@@ -91,7 +91,7 @@ details:
       type:
         試練
       contents:
-        title:
+        theme:
           かつての幸せだった思い出に見切りをつけて前進できるか
         inner self that confront (weaknesses):
           強くなりたいのに変化が怖い => 勇気が必要
@@ -140,7 +140,7 @@ details:
       type:
         試練
       contents:
-        title:
+        theme:
           過去への誘惑を断ち切って今を選べるか
         inner self that confront (weaknesses):
           祖母への罪悪感に囚われたままの心
@@ -188,7 +188,7 @@ details:
     plot requirements:
       type: 試練
       contents:
-        title:
+        theme:
           勇気を振り絞ることができるか
         inner self that confront (weaknesses):
           臆病な自分
