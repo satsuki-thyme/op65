@@ -1,253 +1,164 @@
 # プロット要素 情景描写
 - item: p1 森
   episode: 1
+  tone: 神秘的, フレッシュ, 生命の息吹
   description:
-    -
-
-- item: p2 街
-  episode: 2, 3
-  description:
-    -
-
-- item: p3 遷世教団の神殿
-  episode: 3
-  description:
-    -
+    /integ mod noCha --- --- --- f - - ------- 
 
 - item: p4 危険な近道
   episode: 4
+  tone: 野性的, 危険
   description:
-    -
+    /integ mod noCha --- --- --- f - - ------- 
 
 - item: p5 妖精の森
   episode: 4
+  tone: 不思議, 異界
   description:
-    -
+    /integ mod noCha --- --- --- f - - ------- 
 
 - item: p6 道
   episode: 5
+  tone: 不穏, 怪しい
   description:
-    -
-
-- item: p7 街
-  episode: 6
-  description:
-    -
+    /integ mod noCha --- --- --- f - - ------- 
 
 - item: p8 道
   episode: 7
+  tone: 
   description:
-    -
+    /integ mod noCha --- --- --- f - - ------- 
 
 - item: p9 妖精の森
   episode: 7
+  tone: 
   description:
-    -
+    /integ mod noCha --- --- --- f - - ------- 
 
 - item: p10 森
   episode: 8
+  tone: 
   description:
-    -
-
-- item: p11 魔法使いの老婆の家
-  episode: 8
-  description:
-    -
-
-- item: p12 魔力泉の街
-  episode: 9
-  description:
-    -
-
-- item: p13 妖精の国
-  episode: 10, 14
-  description:
-    -
+    /integ mod noCha --- --- --- f - - ------- 
 
 - item: p14 滝
   episode: 11
+  tone: 
   description:
-    -
-
-- item: p15 湖畔の街
-  episode: 12
-  description:
-    -
-
-- item: p16 湖底の洞窟
-  episode: 12
-  description:
-    -
-
-- item: p17 湖の砂浜
-  episode: 13
-  description:
-    -
-
-- item: p18 湖底の街跡
-  episode: 13
-  description:
-    -
-
-- item: p19 大破壊の街
-  episode: 14
-  description:
-    -
-
-- item: p20 村
-  episode: 
-  description:
-    -
-
+    /integ mod noCha --- --- --- f - - ------- 
 
 - item: p21 野営地
   episode: 16
+  tone: 
   description:
-    -
-
-- item: p22 草原（野営地の近く）
-  episode: 17, 19
-  description:
-    -
+    /integ mod noCha --- --- --- f - - ------- 
 
 - item: p23 森（野営地の近く）
   episode: 18
+  tone: 
   description:
-    -
+    /integ mod noCha --- --- --- f - - ------- 
 
-- item: p24 
-  episode: 21
+- item: p2 街
+  episode: 2, 3
+  tone: 
   description:
-    -
+    /integ mod noCha --- --- --- f - - ------- 
+
+
+
+
+- item: p7 街
+  episode: 6
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
+- item: p12 魔力泉の街
+  episode: 9
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
+- item: p13 妖精の国
+  episode: 10, 14
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
+- item: p15 湖畔の街
+  episode: 12
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
+- item: p18 湖底の街跡
+  episode: 13
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
+- item: p19 大破壊の街
+  episode: 14
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
+- item: p20 村
+  episode: 
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
+- item: p24 街
+  episode: 21
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
 
 - item: p25 カルダ
   episode: 22
+  tone: 
   description:
-    -
+    /integ mod noCha --- --- --- f - - ------- 
+
+
+
+
+- item: p3 遷世教団の神殿
+  episode: 3
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
+- item: p11 魔法使いの老婆の家
+  episode: 8
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
+- item: p16 湖底の洞窟
+  episode: 12
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
+- item: p17 湖の砂浜
+  episode: 13
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
+- item: p22 草原（野営地の近く）
+  episode: 17, 19
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
 
 - item: p26 エリク
   episode: 23, 24, 25
+  tone: 
   description:
-    -
-
-- item: p27 
-  episode: 
-  description:
-    -
-
-- item: p28 
-  episode: 
-  description:
-    -
-
-- item: p29 
-  episode: 
-  description:
-    -
-
-- item: p30 
-  episode: 
-  description:
-    -
-
-- item: p31 
-  episode: 
-  description:
-    -
-
-- item: p32 
-  episode: 
-  description:
-    -
-
-- item: p33 
-  episode: 
-  description:
-    -
-
-- item: p34 
-  episode: 
-  description:
-    -
-
-- item: p35 
-  episode: 
-  description:
-    -
-
-- item: p36 
-  episode: 
-  description:
-    -
-
-- item: p37 
-  episode: 
-  description:
-    -
-
-- item: p38 
-  episode: 
-  description:
-    -
-
-- item: p39 
-  episode: 
-  description:
-    -
-
-- item: p40 
-  episode: 
-  description:
-    -
-- item: p41 
-  episode: 
-  description:
-    -
-
-- item: p42 
-  episode: 
-  description:
-    -
-
-- item: p43 
-  episode: 
-  description:
-    -
-
-- item: p44 
-  episode: 
-  description:
-    -
-
-- item: p45 
-  episode: 
-  description:
-    -
-
-- item: p46 
-  episode: 
-  description:
-    -
-
-- item: p47 
-  episode: 
-  description:
-    -
-
-- item: p48 
-  episode: 
-  description:
-    -
-
-- item: p49 
-  episode: 
-  description:
-    -
-
-- item: p50 
-  episode: 
-  description:
-    -
-
+    /integ mod noCha --- --- --- f - - ------- 
 
 
