@@ -25,48 +25,48 @@
 
 - item: p8 道
   episode: 7
-  tone: 
+  tone: 不思議のムード（あやしめ）
   description:
     /integ mod noCha --- --- --- f - - ------- 
 
 - item: p9 妖精の森
   episode: 7
-  tone: 
+  tone: 不思議, 混乱
   description:
     /integ mod noCha --- --- --- f - - ------- 
 
 - item: p10 森
   episode: 8
-  tone: 
+  tone: 明るい, 先行きの不安
   description:
     /integ mod noCha --- --- --- f - - ------- 
 
 - item: p14 滝
   episode: 11
-  tone: 
+  tone: 神聖な, 荘厳な
   description:
     /integ mod noCha --- --- --- f - - ------- 
 
 - item: p21 野営地
   episode: 16
-  tone: 
+  tone: 不思議の来訪
   description:
     /integ mod noCha --- --- --- f - - ------- 
 
 - item: p23 森（野営地の近く）
   episode: 18
-  tone: 
+  tone: はつらつ, 強い意思
   description:
     /integ mod noCha --- --- --- f - - ------- 
+
+
+
 
 - item: p2 街
   episode: 2, 3
   tone: 
   description:
     /integ mod noCha --- --- --- f - - ------- 
-
-
-
 
 - item: p7 街
   episode: 6

@@ -342,7 +342,7 @@
   location: p9 妖精の森 . p8 道
   destination:
     start: p12 魔力泉の街
-    middle: 妖精の森（場所2）
+    middle: p9 妖精の森
     end: p12 魔力泉の街
     top: 東 / p26 エリク
   integratioin:
