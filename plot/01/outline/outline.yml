@@ -82,7 +82,7 @@
     end: 遷世教団の神殿
     top: p26 エリク
   integratioin:
-    event: ミリアを神獣の暴走から助ける
+    event: ミリアを水の大精霊の暴走から助ける
     objective: 
       start: p26 エリクの情報
       middle: ミリアの救助
@@ -103,7 +103,7 @@
     /integ mod noCha --- --- --- f - - ------- 街の中、鎧窓
     /integ evn myria pre s11 --- f - - ------- ミリアの精霊魔法が弱いことを印象づける
     /integ evn alice --- --- --- f - - ------- 手持ちの宝石を換金する（大きな宝石商、アリスの身なりは高級品で仕立てがいい）
-    /integ evn multi --- --- --- f - - ------- レオナが神獣を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
+    /integ evn multi --- --- --- f - - ------- レオナが水の大精霊を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
     /integ evn grp11 --- --- --- f - - ------- アリスの旅にミリアが加わる
     /integ inf alice rel s35 --- f - - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
     /integ inf alice rel s52 --- f - - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
@@ -113,13 +113,13 @@
     /leona odl third hnt s09 --- f - - ------- 民が噂話にカルツ王国を出す
     /leona odl alice hnt s09 --- f - - ------- アリスが所作が洗練されていて王族のようだと言う
     /alice li1 alice fsh s28 --- f - - @alice- アリスが所作が洗練されていて王族のようだと言う
-    /integ evn grp11 --- --- --- f b - ------- 発狂した神獣と対峙する
-      /alice odl alice pre s04 --- f - - favorbl アリスが暴れる神獣をおとなしくさせる
-      /alice odl alice fsh s05 --- f - - @ring-- 発狂した神獣を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
-      /alice li1 alice fsh s28 --- f - - @alice- 発狂した神獣を鎮める
-      /alice li1 alice rel s49 --- f - - ------- 発狂した神獣を鎮める
+    /integ evn grp11 --- --- --- f b - ------- 発狂した水の大精霊と対峙する
+      /alice odl alice pre s04 --- f - - favorbl アリスが暴れる水の大精霊をおとなしくさせる
+      /alice odl alice fsh s05 --- f - - @ring-- 発狂した水の大精霊を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
+      /alice li1 alice fsh s28 --- f - - @alice- 発狂した水の大精霊を鎮める
+      /alice li1 alice rel s49 --- f - - ------- 発狂した水の大精霊を鎮める
     /alice li1 alice fsh s28 --- f - - @alice- 建物が壊れたことは気にしない
-    /alice li1 third fsh s28 --- f - - @alice- 神獣は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
+    /alice li1 third fsh s28 --- f - - @alice- 水の大精霊は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
     /alice odl alice fct s18 --- f - - ------- アリスが周囲への害を強く気にする
       /myria odl myria prm s10 --- f - - thought ミリアが「過去に囚われてはいけない」と言う
     /myria odl myria pre s38 --- f - - thought 強い精霊信仰 => 精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
@@ -219,7 +219,7 @@
     /integ mod noCha --- --- --- f - - ------- 森の様子、若葉が多く目につくラクスの木とアルマータの木の混交林
     /integ mod noCha --- --- --- f - - ------- 道の様子、腐葉土、木が生えていないというだけの道
     /integ mod noCha --- --- --- f - - ------- 妖精の様子
-    /myria li1 myria fct s48 --- f - - @spirit 強力な精霊（星の精霊）との出会い「また会うでしょう」[ref-051]
+    /myria li1 myria fct s48 --- f - - @spirit 星の大精霊との出会い「また会うでしょう」[ref-051]
     /integ evn grp11 --- --- --- f - - ------- 妖精の森を訪れる
     /integ evn third --- --- --- f - - ------- 妖精のポヤポヤした様子を描く => ペトラがポヤポヤしていても領主になれる理由
     /integ evn grp11 --- --- --- f - - ------- 妖精の森が妖精でいっぱいになっていると言われる
@@ -473,7 +473,7 @@
     /integ mod noCha --- --- --- f - - ------- 木造建築が主流だが
     /integ evn grp11 rel s53 --- f - - ------- p15 湖畔の街の湖の水運について話を聞く => 船で渡りたい
     /leona etc leona rel s51 --- f - - ------- 邪悪なドラゴン「{ドラゴン}」と戦った剣士の伝説を聞く[ref-050]
-    /myria li1 myria fct s48 --- f - - @spirit 強力な精霊（星の精霊）の拒絶、契約の申し出、契約の儀を試す => できない[ref-052]
+    /myria li1 myria fct s48 --- f - - @spirit 星の大精霊の拒絶、契約の申し出、契約の儀を試す => できない[ref-052]
     /myria odl myria pre mid r13 f - - bGround ミリアの背景
     /alice lov alice --- --- --- f - - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
     /integ evn alice cat s44 --- f - - @orb--- 魔力珠をローズがすぐに取りに行かないのは何か変と話す
@@ -513,7 +513,7 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /integ mod noCha --- --- --- f - - ------- 
-    /integ evn grp11 rel --- r49 f - - ------- 神獣が現れてアリスの身に危険が迫っていると言う（上位存在が関係していてはっきり未来が見えない）
+    /integ evn grp11 rel --- r49 f - - ------- 水の大精霊が現れてアリスの身に危険が迫っていると言う（上位存在が関係していてはっきり未来が見えない）
     /integ inf third fsh s29 r43 f - - @es---- 妖精女王がエスはp26 エリクに封印されていると言う
     /integ evn grp11 --- --- r36 f - - ------- 妖精女王に謁見する
     /petra odl third pre s62 --- f - - ------- 妖精女王から妖精領主になるならいつでも言いなさいと言われる
@@ -751,7 +751,7 @@
     end: p24 街
     top: 東 / p25 カルダ / p26 エリク
   integratioin:
-    event: 星の精霊と老婆の来訪
+    event: 星の大精霊と老婆の来訪
     objective: 
       start: -
       middle: -
@@ -762,7 +762,7 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ evn third --- --- --- f - - @spirit 星の精霊が現れてミリアを見つめ、もう少しねと言う
+    /myria li1 third fct s48 --- f - - @spirit 星の大精霊が現れてミリアを見つめ、もう少しねと言う
     /integ evn multi --- --- --- f - - ------- レオナとミリアは老婆と対立的に話を進める、むきになる
     /integ evn grp11 --- --- --- f - - ------- 明日日が昇ったら蜂妖精の蜂蜜を探してみましょう
     /alice li1 alice fsh s28 --- f - - @alice- 動物と話ができる
@@ -823,7 +823,7 @@
   contents:
     /integ evn grp11 --- --- --- f - - ------- 3人で肩車して上のほうのハニカムから採る全部採るアリスの瓶（陶器、木とコルクのフタ）、俺たちのを持っていけと喧嘩になって両方持っていく
     /myria odl myria pre --- mid f b - ordeal- ミリアがフェイと戦う
-      /myria odl multi pre --- r60 f - ------- ミリアが2人は手を出さないと宣言し、アリスとレオナは静観する
+      /myria odl multi pre --- r60 f - - ------- ミリアが2人は手を出さないと宣言し、アリスとレオナは静観する
       /integ evn myria --- --- --- f - - ------- 草花の亜精霊（人型でない光の粒）に助けられる
       /myria odl myria hnt --- mid f - - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
       /myria odl fei-- --- --- --- f - - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
@@ -865,6 +865,7 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /myria odl third pre s62 --- f - - ------- 最終日の夕方、占い師を含む一団が野営する
     /integ evn petra hnt --- r57 f - - ------- ペトラが妖精図書館で調べたエスのことを教えに来てくれる
     /integ evn petra rel --- r58 f - - @hestel 古文書にエス＝ヘス◯◯◯◯と書かれている
     /integ evn petra rel --- r58 f - - @es---- 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
@@ -907,18 +908,22 @@
     end: p24 街
     top: 東 / p25 カルダ / p26 エリク
   integratioin:
-    event: 
+    event: 占い
     objective: 
-      start: 
-      middle: 
-      end: 
-      top: 
+      start: -
+      middle: フェイを倒す
+      end: p24 街に行く
+      top: フェイを倒す
     notes: 
-  tone: 
+  tone: 神秘的, 戦闘（勝ちだが後味が悪い）
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /myria odl third pre --- r62 f - - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
+    /myria odl third rel s34 --- f - - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
+    /myria odl third hnt lst --- f - - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
     /myria odl myria pre --- lst f b - ordeal- ミリアがフェイと戦う[ref-029]
+    /myria odl myria hnt --- lst f b - ordeal- ミリアがフェイと戦う[ref-029]
       /myria odl multi pre --- r60 f - ------- アリスとレオナは静観する
       /myria odl myria fct --- lst f - - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
       /myria odl myria --- --- --- f - - results ミリアがフェイを倒す
@@ -927,7 +932,7 @@
 
 
 20:
-  declaration: 星の精霊との融合
+  declaration: 星の大精霊との融合
   elapsed days: 30
   time:
     start: 
@@ -940,7 +945,7 @@
     end: p25 カルダ
     top: p25 カルダ / p26 エリク
   integratioin:
-    event: p25 カルダの場所を知る
+    event: 大火災をミリアが水の大精霊ウンディーネの力を操って収める
     objective: 
       start: 
       middle: 
@@ -951,6 +956,10 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /myria li1 alice --- --- --- f - - ------- アリスが水の大精霊にお願いする
+    /myria li1 myria fct s48 --- f - - @spirit 大火災をミリアが水の大精霊の力を操って収める
+    /myria li1 myria fct --- r48 f - - @spirit 星の大精霊と契約する
+    /integ evn grp11 --- --- --- f - - ------- p25 カルダの場所を知る
     /alice li1 alice fsh s28 --- f - - @alice- 花を結実させる
 
 

@@ -148,10 +148,10 @@
       /integ inf rose- fsh s32 r47 b - - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
 
 48:
-    /myria li1 myria fct --- r48 f - - @spirit 強力な精霊と契約する
+    /myria li1 myria fct --- r48 f - - @spirit 星の大精霊と契約する
 
 49:
-    /integ evn grp11 rel --- r49 f - ------- 神獣が現れてアリスの身に危険が迫っていると言う
+    /integ evn grp11 rel --- r49 f - ------- 水の大精霊が現れてアリスの身に危険が迫っていると言う
 
 50:
     /integ inf rose- fsh s32 r50 f - - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
@@ -190,6 +190,7 @@
       /leona odl leona pre --- r61 f - - ------- レオナがアリスに手を出さないよう言ってあると言う
 
 62:
+    /myria odl third pre --- r62 f - - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
 
 63:
 
