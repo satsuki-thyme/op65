@@ -59,6 +59,12 @@
   description:
     /integ mod noCha --- --- --- f - - ------- 
 
+- item: p25 森
+  episode: 21
+  tone: 
+  description:
+    /integ mod noCha --- --- --- f - - ------- 
+
 
 
 
@@ -114,9 +120,9 @@
   episode: 20
   tone: work location
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- --- --- f - - ------- 鍛冶の街、火の精霊の街
 
-- item: p25 カルダ
+- item: p26 カルダ
   episode: 22
   tone: 
   description:
@@ -155,7 +161,7 @@
   description:
     /integ mod noCha --- --- --- f - - ------- 
 
-- item: p26 エリク
+- item: p27 エリク
   episode: 23, 24, 25
   tone: 
   description:

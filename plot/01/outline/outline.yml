@@ -19,7 +19,7 @@
     start: -
     middle: -
     end: p2 街
-    top: p26 エリク
+    top: p27 エリク
   integratioin:
     event: アリスが地下から出てくる
     objective: 
@@ -80,11 +80,11 @@
     start: 宿
     middle: 街へ繰り出す
     end: 遷世教団の神殿
-    top: p26 エリク
+    top: p27 エリク
   integratioin:
     event: ミリアを水の大精霊の暴走から助ける
     objective: 
-      start: p26 エリクの情報
+      start: p27 エリクの情報
       middle: ミリアの救助
       end: 遷世教団への潜入
       top: 魔力珠
@@ -109,7 +109,7 @@
     /integ inf alice rel s52 --- f - - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
     /integ inf myria fsh s32 r41 f - - @orb--- 遷世教団は魔力珠を探している
     /integ inf myria fsh s29 --- f - - @es---- 遷世教団は遷世させたい
-    /integ inf myria rel s34 --- f - - @elf--- p26 エリクにハイエルフの叡智がある
+    /integ inf myria rel s34 --- f - - @elf--- p27 エリクにハイエルフの叡智がある
     /leona odl third hnt s09 --- f - - ------- 民が噂話にカルツ王国を出す
     /leona odl alice hnt s09 --- f - - ------- アリスが所作が洗練されていて王族のようだと言う
     /alice li1 alice fsh s28 --- f - - @alice- アリスが所作が洗練されていて王族のようだと言う
@@ -141,11 +141,11 @@
     start: p3 遷世教団の神殿
     middle: -
     end: 逃亡
-    top: 東 / p26 エリク
+    top: 東 / p27 エリク
   integratioin:
     event: 遷世教団の神殿に忍び込んで調べる
     objective: 
-      start: p26 エリクの情報
+      start: p27 エリクの情報
       middle: -
       end: 東へ
       top: 魔力珠
@@ -165,10 +165,10 @@
     /alice li1 rose- rel s35 --- b - - @evil-- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
     /integ inf third fsh s29 r42 f - - @es---- 遷世教団は遷世神エスに仕えている
     /integ inf third fsh s29 --- f - - @es---- 遷世は今の世界を終わらせて新しい世界に移行すること
-    /integ inf third fsh s32 --- f - - @orb--- 魔力珠はp26 エリクにある
-    /integ inf third fsh s32 --- f - - @orb--- p26 エリクは東にある
+    /integ inf third fsh s32 --- f - - @orb--- 魔力珠はp27 エリクにある
+    /integ inf third fsh s32 --- f - - @orb--- p27 エリクは東にある
     /integ inf rose- fsh s31 --- f - - @zavia- ローズはザヴィの子
-    /integ inf rose- fsh s31 --- f - - @zavia- ザヴィはp26 エリクで死んだ
+    /integ inf rose- fsh s31 --- f - - @zavia- ザヴィはp27 エリクで死んだ
     /alice odl rose- pre s04 --- b - - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
     /rose- odl rose- --- --- --- b - - @apostl 〃
     /alice odl alice pre s04 --- f - - threat- アリスがローズの噂を聞く[ref-020]
@@ -203,7 +203,7 @@
     start: p7 街
     middle: p5 妖精の森
     end: p7 街
-    top: 東 / p26 エリク
+    top: 東 / p27 エリク
   integratioin:
     event: ペトラを助けて妖精の森に行く
     objective: 
@@ -261,7 +261,7 @@
     start: p7 街
     middle: p7 街
     end: p7 街
-    top: 東 / p26 エリク
+    top: 東 / p27 エリク
   integratioin:
     event: 盗賊騎士の関門
     objective: 
@@ -303,7 +303,7 @@
     start: 祭りへの参加
     middle: -
     end: 居住地4
-    top: 東 / p26 エリク
+    top: 東 / p27 エリク
   integratioin:
     event: 祭り
     objective: 
@@ -344,7 +344,7 @@
     start: p12 魔力泉の街
     middle: p9 妖精の森
     end: p12 魔力泉の街
-    top: 東 / p26 エリク
+    top: 東 / p27 エリク
   integratioin:
     event: p9 妖精の森近くにやってきたドラゴンとアリスが対話する
     objective: 
@@ -402,7 +402,7 @@
     start: p12 魔力泉の街
     middle: p11 魔法使いの老婆の家
     end: p12 魔力泉の街
-    top: 東 / p26 エリク
+    top: 東 / p27 エリク
   integratioin:
     event: 魔法使いの老婆 => 元気の出る精霊石（ミリアの祖母が使っていた）を老婆にあげる[thi-052]
     objective: 
@@ -453,7 +453,7 @@
     start: -
     middle: -
     end: p15 湖畔の街
-    top: 東 / p26 エリク
+    top: 東 / p27 エリク
   integratioin:
     event: ミリアの精霊との契約の儀とその失敗
     objective: 
@@ -499,7 +499,7 @@
     start: 妖精女王との謁見
     middle: -
     end: p12 魔力泉の街に戻る
-    top: 東 / p26 エリク
+    top: 東 / p27 エリク
   integratioin:
     event: 妖精女王への謁見
     objective: 
@@ -514,12 +514,12 @@
   contents:
     /integ mod noCha --- --- --- f - - ------- 
     /integ evn grp11 rel --- r49 f - - ------- 水の大精霊が現れてアリスの身に危険が迫っていると言う（上位存在が関係していてはっきり未来が見えない）
-    /integ inf third fsh s29 r43 f - - @es---- 妖精女王がエスはp26 エリクに封印されていると言う
+    /integ inf third fsh s29 r43 f - - @es---- 妖精女王がエスはp27 エリクに封印されていると言う
     /integ evn grp11 --- --- r36 f - - ------- 妖精女王に謁見する
     /petra odl third pre s62 --- f - - ------- 妖精女王から妖精領主になるならいつでも言いなさいと言われる
-    /integ inf third fsh s32 r44 f - - @orb--- 妖精女王から魔力珠はp26 エリクから何者かによって持ち去られていると言われる
+    /integ inf third fsh s32 r44 f - - @orb--- 妖精女王から魔力珠はp27 エリクから何者かによって持ち去られていると言われる
     /rose- li2 third fsh s33 --- f - - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる => 魔力路（パス）を追わせる => 上位存在（神か神に連なる者）に阻害される
-    /integ inf third rel s34 --- f - - @elf--- 妖精女王からp26 エリクは古代ハイエルフの都市国家と言われる
+    /integ inf third rel s34 --- f - - @elf--- 妖精女王からp27 エリクは古代ハイエルフの都市国家と言われる
     /alice odl alice fsh s05 --- f - - @ring-- アリスが妖精女王に素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
     /alice li1 third fsh s28 --- f - - @alice- 妖精女王は指輪を検分してアリス（高位の存在）になんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
     /integ inf third fsh s39 --- f - - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
@@ -529,7 +529,7 @@
     /alice odl alice hnt mid --- f - - thought ローズとは戦えないと悩む
     /alice lov multi --- --- --- f - - favorbl 3人でバックハグ
     /grp21
-      /rose- li2 rose- fsh s33 --- b - - @orbPln アリスたちが魔力珠がp26 エリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
+      /rose- li2 rose- fsh s33 --- b - - @orbPln アリスたちが魔力珠がp27 エリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
       /rose- li1 rose- fsh s30 --- b - - @rose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
       /myria odl fei-- pre mid r26 b - - bGround フェイの背景
       /fei-- li2 fei-- --- --- --- b - - ------- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
@@ -551,7 +551,7 @@
     start: 滝の裏
     middle: -
     end: p15 湖畔の街
-    top: 東 / p26 エリク（p26 エリクに魔力珠の手掛かりがあるかもしれないしミリアの -ためにもp26 エリクには行く）
+    top: 東 / p27 エリク（p27 エリクに魔力珠の手掛かりがあるかもしれないしミリアの -ためにもp27 エリクには行く）
   integratioin:
     event: 滝の裏の剣を抜く
     objective: 
@@ -569,8 +569,8 @@
     /integ inf rose- fsh s32 --- f - - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
     /integ inf rose- hnt --- r50 f - - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
     /integ inf rose- fsh s31 r45 f - - @zavia- ザヴィはローズが殺した
-    /integ inf rose- fsh s32 --- f - - @orb--- ローズは魔力珠とともにp26 エリクに行って世界を終わらせる
-    /rose- li2 rose- fsh s33 --- f - - @orbPln ローズは魔力珠とともにp26 エリクに行って世界を終わらせる
+    /integ inf rose- fsh s32 --- f - - @orb--- ローズは魔力珠とともにp27 エリクに行って世界を終わらせる
+    /rose- li2 rose- fsh s33 --- f - - @orbPln ローズは魔力珠とともにp27 エリクに行って世界を終わらせる
     /alice odl alice pre --- mid f b - ordeal- アリスがローズと戦う
       /alice odl alice hnt --- mid f - - ------- 説得を試みる
       /alice odl alice pre lst --- f - - results アリスがまともに戦えず怪我をする
@@ -591,7 +591,7 @@
     start: 居住地7（対岸の街）
     middle: 湖底の洞窟
     end: 居住地7（対岸の街）, アリスは砂浜に行きたくなっている
-    top: 東 / p26 エリク
+    top: 東 / p27 エリク
   integratioin:
     event: 水棲のドラゴン
     objective: 
@@ -634,7 +634,7 @@
     start: p17 湖の砂浜
     middle: p18 湖底の街跡
     end: p15 湖畔の街
-    top: 東 / p26 エリク
+    top: 東 / p27 エリク
   integratioin:
     event: 水着回
     objective: 
@@ -664,11 +664,11 @@
     start: p19 大破壊の街
     middle: -
     end: p24 街
-    top: 東 / p25 カルダ / p26 エリク
+    top: 東 / p26 カルダ / p27 エリク
   integratioin:
     event: エスの大破壊の痕跡
     objective: 
-      start: エスの情報, p26 エリクの情報
+      start: エスの情報, p27 エリクの情報
       middle: 妖精のリング
       end: -
       top: 魔力珠
@@ -681,7 +681,7 @@
     /integ evn petra rel s58 --- f - - @es---- 妖精図書館でエスのことを調べると言う
     /integ evn third --- --- --- f - - @es---- エスとザヴィとザヴィの従者の戦いの伝説
     /integ evn third --- --- --- f - - @zavia- エスとザヴィとザヴィの従者の戦いの伝説
-    /integ evn third --- --- --- f - - ------- エルフの老婆からp25 カルダからp26 エリクにいける、p25 カルダに関わる情報がp24 街にあると聞く
+    /integ evn third --- --- --- f - - ------- エルフの老婆からp26 カルダからp27 エリクにいける、p26 カルダに関わる情報がp24 街にあると聞く
     /integ evn alice --- --- --- f - - ------- エルフの老婆が指輪を欲するが外せないのと言って断る
     /integ evn myria --- --- --- f - - ------- エルフの老婆とミリアの耳飾り（ハイエルフの印）で話がつく
     /leona odl leona pre lst --- f - - thought 剣の型を崩すと弱くなると思い込む　型は絶対
@@ -708,7 +708,7 @@
     start: p24 街
     middle: -
     end: p24 街
-    top: 東 / p25 カルダ / p26 エリク
+    top: 東 / p26 カルダ / p27 エリク
   integratioin:
     event: 村長の息子からの横柄でしつこいレオナへの求婚
     objective: 
@@ -723,7 +723,7 @@
     - ミリアが普段使うのは弱い精霊魔法
   contents:
     /grp21
-      /rose- li2 rose- fsh s33 --- b - - @orbPln 望みの全てはp26 エリクの封印に懸かっている
+      /rose- li2 rose- fsh s33 --- b - - @orbPln 望みの全てはp27 エリクの封印に懸かっている
       /rose- li2 rose- fsh s33 --- b - - @orbPln エスは封印の中で邪神の呪いに苛まれている
       /rose- li2 rose- fsh s29     b - - @es---- エスは封印の中で邪神の呪いに苛まれている
       /rose- li1 rose- fsh s30 --- b - - @rose-- ローズが神殿教会のバルコニーに立つと晴れる
@@ -749,7 +749,7 @@
     start: 野営に適した場所（ググること）
     middle: -
     end: p24 街
-    top: 東 / p25 カルダ / p26 エリク
+    top: 東 / p26 カルダ / p27 エリク
   integratioin:
     event: 星の大精霊と老婆の来訪
     objective: 
@@ -808,7 +808,7 @@
     start: p24 街
     middle: -
     end: p24 街
-    top: 東 / p25 カルダ / p26 エリク
+    top: 東 / p26 カルダ / p27 エリク
   integratioin:
     event: 蜂妖精の蜂蜜を探して食べる
     objective: 
@@ -852,7 +852,7 @@
     start: -
     middle: -
     end: p24 街
-    top: 東 / p25 カルダ / p26 エリク
+    top: 東 / p26 カルダ / p27 エリク
   integratioin:
     event: 訓練
     objective: 
@@ -906,7 +906,7 @@
     start: p24 街
     middle: -
     end: p24 街
-    top: 東 / p25 カルダ / p26 エリク
+    top: 東 / p26 カルダ / p27 エリク
   integratioin:
     event: 占い
     objective: 
@@ -935,42 +935,45 @@
   declaration: 星の大精霊との融合
   elapsed days: 30
   time:
-    start: 
-    end: 
-    notes: 
+    start: 朝
+    end: 昼前
+    notes: 前日に街に到着して1泊して翌日
   location: p24 街
   destination:
-    start: p25 カルダ
-    middle: p25 カルダ
-    end: p25 カルダ
-    top: p25 カルダ / p26 エリク
+    start: p26 カルダ
+    middle: p26 カルダ
+    end: p26 カルダ
+    top: p26 カルダ / p27 エリク
   integratioin:
     event: 大火災をミリアが水の大精霊ウンディーネの力を操って収める
     objective: 
-      start: 
-      middle: 
-      end: 
-      top: 
+      start: p26 カルダの場所
+      middle: 消火
+      end: p26 カルダに行く
+      top: 魔力珠
     notes: 
-  tone: 
+  tone: 期待, 緊急事態, 戸惑い
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ mod noCha --- --- --- f - - ------- 鍛冶の街、火の精霊の街
     /myria li1 alice --- --- --- f - - ------- アリスが水の大精霊にお願いする
     /myria li1 myria fct s48 --- f - - @spirit 大火災をミリアが水の大精霊の力を操って収める
+    /myria li1 third --- --- --- f - - ------- 老爺は自宅が燃えるなら自分も燃えて死ぬと言う
+    /integ evn third --- --- --- f - - ------- 水の大精霊が大精霊ともなると自尊心も枯れますが成長途中の精霊の中には気位の高い者もいますと言う
     /myria li1 myria fct --- r48 f - - @spirit 星の大精霊と契約する
-    /integ evn grp11 --- --- --- f - - ------- p25 カルダの場所を知る
+    /integ evn grp11 --- --- --- f - - ------- p26 カルダの場所を知る
     /alice li1 alice fsh s28 --- f - - @alice- 花を結実させる
 
 
 21:
   declaration: -
-  elapsed days: 
+  elapsed days: 31
   time:
     start: 
     end: 
-    notes: 
-  location: p24 森
+    notes: p24 街に1泊して翌日
+  location: p25 森
   destination:
     start: 
     middle: 
@@ -986,7 +989,7 @@
     notes: 
   tone: 
   notes:
-    - ミリアが普段使うのは弱い精霊魔法
+    - 
   contents:
     /alice odl alice pre lst --- f - - thought ローズを殺せば自分はおかしくなってしまうと思い込む
     /alice odl alice fct lst --- f - - thought ローズを倒すべきだと分かっている
@@ -1007,14 +1010,14 @@
     start: 
     end: 
     notes: 
-  location: p25 カルダ
+  location: p26 カルダ
   destination:
     start: 
     middle: 
     end: 
     top: 
   integratioin:
-    event: p25 カルダに到着する
+    event: p26 カルダに到着する
     objective: 
       start: 
       middle: 
@@ -1041,14 +1044,14 @@
     start: 
     end: 
     notes: 
-  location: p26 エリク
+  location: p27 エリク
   destination:
     start: 
     middle: 
     end: 
     top: 
   integratioin:
-    event: p26 エリクに到着する
+    event: p27 エリクに到着する
     objective: 
       start: 
       middle: 
@@ -1081,7 +1084,7 @@
     start: 
     end: 
     notes: 
-  location: p26 エリク
+  location: p27 エリク
   destination:
     start: 
     middle: 
@@ -1103,7 +1106,7 @@
     /rose- li1 rose- fsh --- r30 f - - @rose-- ローズがエスは封印される直前に使徒をローズと融合させたことを告白する
     /                fsh s29 ---     - @es---- ローズがエスは封印される直前に使徒をローズと融合させたことを告白する
     /rose- li2 rose- fsh --- r33 f - - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
-    /alice li1 alice fsh s28 --- f - - @alice- アリスの力が解放されてp26 エリクが楽園になる
+    /alice li1 alice fsh s28 --- f - - @alice- アリスの力が解放されてp27 エリクが楽園になる
     /integ evn rose- --- --- --- f - - @hestel ローズが古代の主神ヘスト゠エリアの力はこんなものではない、とか言う
     /alice odl alice pre --- lst f b - ordeal- アリスがローズと戦う
       /alice odl alice fct --- lst f - - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
@@ -1120,7 +1123,7 @@
     start: 
     end: 
     notes: 
-  location: p26 エリク
+  location: p27 エリク
   destination:
     start: 
     middle: 
