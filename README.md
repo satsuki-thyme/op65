@@ -59,6 +59,7 @@
 - plot/01/outline/integration/int-016.md: 統合プロット 第16話
 - plot/01/outline/integration/int-017.md: 統合プロット 第17話
 - plot/01/outline/integration/int-020.md: 統合プロット 第20話
+- plot/01/outline/integration/int-021.md: 統合プロット 第21話
 
 ##### 詳細
 

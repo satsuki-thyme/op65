@@ -366,9 +366,9 @@
     /petra odl petra --- --- --- f - - ------- アリスを嫌いと言う
     /myria odl myria hnt s13 --- f - - ------- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
     /integ evn third cat s43 --- f - - @es---- ドラゴンにエスについて聞くといずこかに封印されていると言う
-    /leona etc leona rel s51 --- f - - ------- ドラゴン「{ドラゴン}」がレオナの魂が剣士{剣士}に似ているが、あれ以上に強い輝きを放っていると言う
-    /integ evn third rel s54 --- f - - ------- ドラゴンは神に属する者の動きが活発になっているから様子を見ている
-    /integ evn third rel s54 --- f - - ------- アリスに{ドラゴン}が{ドラゴンアイテム}をくれる
+    /leona etc leona rel s51 --- f - - @fencer ドラゴン「バルドロード」がレオナの魂が、かつて戦って敗北した竜克の女剣士レイティア・アルテノートに似ているが、あれ以上に強い輝きを放っていると言う
+    /integ evn third rel s54 --- f - - ------- ドラゴンはエンシェントドラゴンと同格程度の者の動きが活発になっているから様子を見ている
+    /integ evn third rel s54 --- f - - ------- アリスにバルドロードが{ドラゴンアイテム}をくれる
     /integ evn grp11 --- --- --- f - - ------- アリスに妖精が{妖精アイテム}をくれる
     /myria odl leona pre s12 --- f - - favorbl レオナがミリアに甘える[ref-042]
     /myria odl leona rel s22 --- f - - favorbl レオナがミリアに甘える[ref-042]
@@ -472,7 +472,7 @@
     /integ mod noCha --- --- --- f - - ------- 石造りの家屋が多いように見受けられる
     /integ mod noCha --- --- --- f - - ------- 木造建築が主流だが
     /integ evn grp11 rel s53 --- f - - ------- p15 湖畔の街の湖の水運について話を聞く => 船で渡りたい
-    /leona etc leona rel s51 --- f - - ------- 邪悪なドラゴン「{ドラゴン}」と戦った剣士の伝説を聞く[ref-050]
+    /leona etc leona rel s51 --- f - - @fencer 邪悪なドラゴンと戦った竜克の女剣士の伝説を聞く[ref-050]
     /myria li1 myria fct s48 --- f - - @spirit 星の大精霊の拒絶、契約の申し出、契約の儀を試す => できない[ref-052]
     /myria odl myria pre mid r13 f - - bGround ミリアの背景
     /alice lov alice --- --- --- f - - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
@@ -551,7 +551,7 @@
     start: 滝の裏
     middle: -
     end: p15 湖畔の街
-    top: 東 / p27 エリク（p27 エリクに魔力珠の手掛かりがあるかもしれないしミリアの -ためにもp27 エリクには行く）
+    top: 東 / p27 エリク（p27 エリクに魔力珠の手掛かりがあるかもしれないしミリアのためにもp27 エリクには行く）
   integratioin:
     event: 滝の裏の剣を抜く
     objective: 
@@ -564,7 +564,7 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /leona etc leona rel --- r51 f - - ------- レオナが滝の裏の洞窟にあった剣を抜く（レオナには滝の裏が光って見える）[ref-049]
+    /leona etc leona rel s51 --- f - - @fencer レオナが滝の裏の洞窟にあった剣を抜く（レオナには滝の裏が光って見える）[ref-049]
     /integ evn alice cat s45 --- f - - @zavia- ザヴィが倒される相手なんているんだろうかと疑問を言う
     /integ inf rose- fsh s32 --- f - - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
     /integ inf rose- hnt --- r50 f - - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
@@ -613,7 +613,7 @@
       /alice odl alice pre lst --- f - - thought アリスの子に対する愛情
     /alice lov alice --- --- --- f - - thought アリスの、2人に対する独占欲の気づき
     /integ evn alice cat s46 --- f - - @es---- 神が世界を終わらせようとするだろうか、邪なあの子ならともかく
-    /integ evn third rel --- r54 f - - ------- 水棲ドラゴンが{ドラゴン}の{ドラゴンアイテム}を感知して湖底洞窟の祠に連れていってくれる
+    /integ evn third rel --- r54 f - - ------- 水棲ドラゴンがバルドロードの{ドラゴンアイテム}を感知して湖底洞窟の祠に連れていってくれる
     /integ evn noCha rel s56 --- f - - ------- 砂浜の描写
     /integ evn noCha rel s55 --- f - - ------- 湖底の街の描写
     /integ inf third fsh s29 r46 f - - @es---- エスは邪神の呪いによって世界の破壊を欲するようにされた
@@ -733,6 +733,7 @@
       /.                               -         エロいことはしない
     /leona odl leona pre --- mid f b - ordeal- レオナがエリーと戦う
       /leona odl leona pre --- r61 f - - ------- レオナがアリスに手を出さないよう言ってあると言う
+      /leona odl leona rel s51 --- f - - @fencer 剣からエリーへの対処のヒントを感じる
       /leona odl leona hnt --- mid f - - results レオナがエリーと引き分ける
       /leona odl erie- fct lst --- f - - ------- エリーが絶対にこのままでは終わらせないと宣言する
 
@@ -876,6 +877,7 @@
     /leona odl alice --- --- --- f - - ------- アリスがレオナに逸脱すれば勝てると言う, ミリアは魔法での逸脱を話す
     /leona odl leona pre lst --- f - - thought 父王の剣を逸脱するなんてできないと思い込む
     /leona odl leona fct lst --- f - - thought 父王の剣を乗り越えられたら何かが得られる気がする
+    /leona odl leona rel s51 --- f - - @fencer 悩んでいると剣が輝きを放って応援されているように感じる
     /alice lov alice --- --- --- f - - thought アリスの、2人を好きだというわがままの認識
     /alice lov multi --- --- --- f - - favorbl アリスが、座っているとき2人の太ももを触る、2人は肩にもたれかかる
     /myria odl myria pre lst --- f - - thought ミリアが祖母を大切に思う気持ちを吐露する
@@ -1032,6 +1034,7 @@
     /leona odl leona pre --- lst f b - ordeal- レオナがエリーと戦う
       /leona odl leona fct --- lst f - - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
       /leona odl leona --- --- --- f - - results レオナがエリーを倒す
+      /leona odl leona rel --- r51 f - - @fencer 剣に封じられていた竜克の女剣士レイティア・アルテノートの力を受け継ぐ
       /erie- odl erie- prm --- lst f - - results エリーがレオナに敗北する
     /leona odl leona prm --- r06 f - - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
     /alice odl alice pre lst --- f - - favorbl レオナからの惜しみない感謝をミリアと味わうntt
