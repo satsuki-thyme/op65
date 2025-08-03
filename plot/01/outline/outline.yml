@@ -57,6 +57,7 @@
     /alice li1 alice fsh s28 --- f - - @alice- 魔法を無詠唱で使って詠唱が必要なことに気づく
     /alice odl alice prm s01 --- f - - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
     /integ evn multi --- --- --- f - - ------- 街へ歩きながら話をする
+    /leona li1 leona rel s51 --- f - - @fencer レオナはドラゴンを倒した剣士の家系だと話す
     /integ evn alice --- --- --- f - - ------- アリスはレオナと手をつなぎたい
     /integ evn leona --- --- --- f b - ------- 魔物をレオナが倒す
     /alice odl alice fsh s05 --- f - - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
