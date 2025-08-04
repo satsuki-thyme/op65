@@ -326,7 +326,8 @@
     /leona odl leona hnt --- r09 f - - bGround レオナの背景
     /leona li1 leona rel s51 --- f - - @fencer レオナがイマイチの剣を買う（折れた剣は直せないとのこと）
     /alice lov alice --- --- --- f - - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）
-    /leona odl multi pre mid --- f - - ------- レオナがアリスに訓練してもらう[ref-018]
+    /leona odl multi pre mid --- f - - ------- レオナがアリスに訓練してもらう[ref-018] => ひととおり動きが見たいので演武を
+    /leona odl multi rel s63 --- f - - ------- レオナがアリスに訓練してもらう[ref-018] => ひととおり動きが見たいので演武を
       /leona odl alice rel s14 r08 f - - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
     /leona odl leona pre s61 --- f - - thought レオナがアリスに戦いに手を出さないでと言う
     /myria odl myria pre s12 --- f - - favorbl お姉さんとして振る舞っていい調子 => レオナの訓練後
@@ -994,6 +995,7 @@
   notes:
     - 
   contents:
+    /leona li1 leona rel --- r63 f - - @fencer レオナが演武をする
     /alice odl alice pre lst --- f - - thought ローズを殺せば自分はおかしくなってしまうと思い込む
     /alice odl alice fct lst --- f - - thought ローズを倒すべきだと分かっている
     /leona odl leona pre lst --- f - - favorbl ミリアとともに具合がいいntt
