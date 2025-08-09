@@ -38,6 +38,7 @@
     /integ mod noCha --- --- --- f - - ------- 列柱の先が少し突き出している
     /integ mod alice --- --- --- f - - ------- 魔法の発動
     /integ evn alice --- --- --- f - - ------- アリスが地下から出てくる「やるぞ、おー！」
+    /integ evn third --- --- --- f - - @o'dorg 老爺が東を訪ねアリスがあっちと指し示し少しして東と西はどっちがどっちだっけ？と言うも老爺を望んで物知り顔でまいっかと言う
     /integ evn alice --- --- --- f b - ------- 狼の親子に襲われる一件
     /integ evn alice fsh s39 --- f - - @hestel ヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
     /alice odl alice prm s02 --- f - - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
@@ -769,12 +770,12 @@
     /integ evn multi --- --- --- f - - ------- レオナとミリアは老婆と対立的に話を進める、むきになる
     /integ evn grp11 --- --- --- f - - ------- 明日日が昇ったら蜂妖精の蜂蜜を探してみましょう
     /alice li1 alice fsh s28 --- f - - @alice- 動物と話ができる
-    /integ evn third --- --- --- f - - ------- 老婆は問い掛ける、自分が一番欲していることは何？　手に入れるために乗り越えないといけないのは何？
+    /integ evn third --- --- --- f - - @o'dorg 老婆は問い掛ける、自分が一番欲していることは何？　手に入れるために乗り越えないといけないのは何？
     /myria odl myria pre mid --- f - - thought ミリアが祖母を思う
       /myria odl myria pre mid --- f - - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
       /myria odl myria hnt mid --- f - - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
-      /myria odl third pre lst --- f - - ------- 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
-      /myria odl third pre s22 r62 f - - ------- 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
+      /myria odl third pre lst --- f - - @o'dorg 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
+      /myria odl third pre s22 r62 f - - @o'dorg 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
     /myria odl myria pre mid --- f - - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
     /myria odl leona pre mid --- f - - favorbl レオナがミリアに甘える[ref-042]
     /                rel s23 r22
@@ -960,6 +961,7 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
+    /integ evn third rel s64 --- f - - @o'dorg 物語の主人公には越えねばならない谷がある　谷とはものの例えじゃが実際の谷かもしれん
     /integ mod noCha --- --- --- f - - ------- 鍛冶の街、火の精霊の街
     /myria li1 alice --- --- --- f - - ------- アリスが水の大精霊にお願いする
     /myria li1 myria fct s48 --- f - - @spirit 大火災をミリアが水の大精霊の力を操って収める
