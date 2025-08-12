@@ -770,7 +770,7 @@
     /integ evn multi --- --- --- f - - ------- レオナとミリアは老婆と対立的に話を進める、むきになる
     /integ evn grp11 --- --- --- f - - ------- 明日日が昇ったら蜂妖精の蜂蜜を探してみましょう
     /alice li1 alice fsh s28 --- f - - @alice- 動物と話ができる
-    /integ evn third --- --- --- f - - @o'dorg 老婆は問い掛ける、自分が一番欲していることは何？　手に入れるために乗り越えないといけないのは何？
+    /myria odl third --- --- --- f - - @o'dorg 老婆は問い掛ける、自分が一番欲していることは何？　手に入れるために乗り越えないといけないのは何？
     /myria odl myria pre mid --- f - - thought ミリアが祖母を思う
       /myria odl myria pre mid --- f - - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
       /myria odl myria hnt mid --- f - - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
@@ -961,7 +961,7 @@
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ evn third rel s64 --- f - - @o'dorg 物語の主人公には越えねばならない谷がある　谷とはものの例えじゃが実際の谷かもしれん
+    /leona li1 third rel s64 --- f - - @o'dorg 物語の主人公には越えねばならない谷がある　谷とはものの例えじゃが実際の谷かもしれん
     /integ mod noCha --- --- --- f - - ------- 鍛冶の街、火の精霊の街
     /myria li1 alice --- --- --- f - - ------- アリスが水の大精霊にお願いする
     /myria li1 myria fct s48 --- f - - @spirit 大火災をミリアが水の大精霊の力を操って収める
@@ -973,27 +973,27 @@
 
 
 21:
-  declaration: -
+  declaration: レオナの剣舞
   elapsed days: 31
   time:
-    start: 
-    end: 
+    start: 午前半ば
+    end: 夕方前
     notes: p24 街に1泊して翌日
   location: p25 森
   destination:
-    start: 
-    middle: 
-    end: 
-    top: 
+    start: p26 ガルダ
+    middle: p26 ガルダ
+    end: -
+    top: p26 ガルダ / p27 エリク
   integratioin:
     event: 道なき道を行く
     objective: 
-      start: 
-      middle: 
-      end: 
-      top: 
+      start: p26 ガルダに行きたい
+      middle: p26 ガルダに行きたい
+      end: 野営
+      top: 魔力珠
     notes: 
-  tone: 
+  tone: 不思議
   notes:
     - 
   contents:
