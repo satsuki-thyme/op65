@@ -560,7 +560,7 @@
       start: 滝を見る, 滝の裏に行く
       middle: ローズを説得する
       end: p15 湖畔の街に行く
-      top: 魔力珠
+      top: 魔力珠 => p27 エリク
     notes: -
   tone: 不思議な体験, 戦闘（負け）
   notes:
@@ -601,7 +601,7 @@
       start: 湖を渡って向こう岸の居住地7に行きたい
       middle: 湖底の洞窟
       end: 居住地7に行く
-      top: 魔力珠
+      top: p27 エリク
     notes: -
   tone: 不思議な体験, 秘匿された過去
   notes:
@@ -644,7 +644,7 @@
       start: 水遊び
       middle: 精霊を助ける
       end: p15 湖畔の街に帰る
-      top: 魔力珠
+      top: p27 エリク
     notes: -
   tone: えちち
   notes:
@@ -674,7 +674,7 @@
       start: エスの情報, p27 エリクの情報
       middle: 妖精のリング
       end: -
-      top: 魔力珠
+      top: p27 エリク
     notes: 外輪山の外はショボショボ農地、中は鉄鋼の街
   tone: 街の様子, 古の伝説, 別れ
   notes:
@@ -718,7 +718,7 @@
       start: 牛肉
       middle: 村長の息子からの解放
       end: 牛肉
-      top: 魔力珠
+      top: p27 エリク
     notes: 村には特別な食用の牛がいる
   tone: 憤懣, 戦闘（引き分け）
   notes:
@@ -760,7 +760,7 @@
       start: -
       middle: -
       end: -
-      top: 魔力珠
+      top: p27 エリク
     notes: -
   tone: しっとり, 感情的
   notes:
@@ -819,7 +819,7 @@
       start: 蜂妖精の蜂蜜
       middle: -
       end: -
-      top: 魔力珠
+      top: p27 エリク
     notes: -
   tone: 戦闘（勝ち）
   notes:
@@ -863,7 +863,7 @@
       start: 強くなる
       middle: 強くなる
       end: 強くなる
-      top: 魔力珠
+      top: p27 エリク
     notes: -
   tone: 和やかな中にそれぞれの思い
   notes:
@@ -918,7 +918,7 @@
       start: -
       middle: フェイを倒す
       end: p24 街に行く
-      top: フェイを倒す
+      top: p27 エリク
     notes: 
   tone: 神秘的, 戦闘（勝ちだが後味が悪い）
   notes:
@@ -955,7 +955,7 @@
       start: p26 カルダの場所
       middle: 消火
       end: p26 カルダに行く
-      top: 魔力珠
+      top: p27 エリク
     notes: 
   tone: 期待, 緊急事態, 戸惑い
   notes:
@@ -991,7 +991,7 @@
       start: p26 ガルダに行きたい
       middle: p26 ガルダに行きたい
       end: 野営
-      top: 魔力珠
+      top: p27 エリク
     notes: 
   tone: 不思議
   notes:
@@ -1012,30 +1012,30 @@
 
 22:
   declaration: エリーとの戦闘 3
-  elapsed days: 
+  elapsed days: 36
   time:
     start: 
     end: 
-    notes: 
+    notes: 5日移動して到着
   location: p26 カルダ
   destination:
-    start: 
-    middle: 
-    end: 
-    top: 
+    start: p27 エリク
+    middle: p27 エリク
+    end: p27 エリク
+    top: p27 エリク
   integratioin:
     event: p26 カルダに到着する
     objective: 
-      start: 
-      middle: 
-      end: 
-      top: 
+      start: p27 エリクへの道
+      middle: エリーの打倒
+      end: p27 エリクへの道
+      top: p27 エリク
     notes: 
-  tone: 
+  tone: 期待, 意気込む
   notes:
     - 
   contents:
-    /rose- li2 erie- pre s33 r40 f - - @orbPln ローズは死ぬ気でいるから助けてほしい
+    /rose- li2 erie- pre s33 r40 f - - @orbPln ローズは死ぬ気でいる
     /leona odl leona pre --- lst f b - ordeal- レオナがエリーと戦う
       /leona odl leona fct --- lst f - - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
       /leona odl leona --- --- --- f - - results レオナがエリーを倒す
