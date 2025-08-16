@@ -2,96 +2,96 @@
 1:
   event: 
   plot item:
-    /alice lov mltpl --- --- --- f - - favorbl 手を握る
+    /alice lov mltpl --- ---  f - - favorbl 手を握る
 2:
   event: 
   plot item:
-    /alice lov mltpl --- --- --- f - - favorbl 手をつなぐ
+    /alice lov mltpl --- ---  f - - favorbl 手をつなぐ
 3:
   event: アリスの試練
   plot item:
-    /alice lov alice --- --- --- f - - thought アリスの、2人といると楽しいという気づき
-    /alice lov mltpl --- --- --- f - - favorbl 抱き合う
+    /alice lov alice --- ---  f - - thought アリスの、2人といると楽しいという気づき
+    /alice lov mltpl --- ---  f - - favorbl 抱き合う
 4:
   event: 
   plot item:
-    /alice lov mltpl --- --- --- f - - favorbl あーんする
+    /alice lov mltpl --- ---  f - - favorbl あーんする
 5:
   event: レオナの試練
   plot item:
-    /alice lov mltpl --- --- --- f - ------- アリスが治療する、ミリアが縋り付く
+    /alice lov mltpl --- ---  f - ------- アリスが治療する、ミリアが縋り付く
 6:
   event: レオナの背景
   plot item:
-    /alice lov alice --- --- --- f - - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）
+    /alice lov alice --- ---  f - - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）
 7:
   event: 
   plot item:
-    /alice lov mltpl --- --- --- f - - favorbl 恋人つなぎ（指を絡める）
+    /alice lov mltpl --- ---  f - - favorbl 恋人つなぎ（指を絡める）
 8:
   event: ミリアの試練
   plot item:
-    /alice lov mltpl --- --- --- f - ------- アリスとレオナが戦いに干渉する
+    /alice lov mltpl --- ---  f - ------- アリスとレオナが戦いに干渉する
 9:
   event: ミリアの背景
   plot item:
-    /alice lov alice --- --- --- f - - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
+    /alice lov alice --- ---  f - - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
 10:
   event: 
   plot item:
-    /alice lov mltpl --- --- --- f - - favorbl 3人でバックハグ
+    /alice lov mltpl --- ---  f - - favorbl 3人でバックハグ
 11:
   event: アリスの試練
   plot item:
-    /alice lov alice --- --- --- f - - thought アリスの、2人がかけがえのない存在だという気づき
+    /alice lov alice --- ---  f - - thought アリスの、2人がかけがえのない存在だという気づき
 12:
   event: アリスの背景
   plot item:
-    /alice lov alice --- --- --- f - - thought アリスの、2人に対する独占欲の気づき
+    /alice lov alice --- ---  f - - thought アリスの、2人に対する独占欲の気づき
 13:
   event: 水着回
   plot item:
 14:
   event: 
   plot item:
-    /alice lov mltpl --- --- --- f - - favorbl 頭と頬を撫でる
+    /alice lov mltpl --- ---  f - - favorbl 頭と頬を撫でる
 15:
   event: レオナの試練
   plot item:
 16:
   event: 
   plot item:
-    /alice lov alice --- --- --- f - - thought アリスの、2人への思いが強まった気づき
+    /alice lov alice --- ---  f - - thought アリスの、2人への思いが強まった気づき
 17:
   event: ミリアの試練
   plot item:
 18:
   event: 
   plot item:
-    /alice lov alice --- --- --- f - - thought アリスの、2人を好きだというわがままの認識
-    /alice lov mltpl --- --- --- f - - favorbl アリスが、座っているとき2人の太ももを触る、2人は肩にもたれかかる
+    /alice lov alice --- ---  f - - thought アリスの、2人を好きだというわがままの認識
+    /alice lov mltpl --- ---  f - - favorbl アリスが、座っているとき2人の太ももを触る、2人は肩にもたれかかる
 19:
   event: 
   plot item:
-    /alice lov alice --- --- --- f - - thought アリスの、わがままを通そうという決意
+    /alice lov alice --- ---  f - - thought アリスの、わがままを通そうという決意
 20:
   event: ミリアの試練
   plot item:
 21:
   event: 
   plot item:
-    /alice lov alice --- --- --- f - - thought アリスの、ミリアの願いが成就したことで、レオナの試練は予想されるわけで、それが乗り越えられたら告白するという決心
+    /alice lov alice --- ---  f - - thought アリスの、ミリアの願いが成就したことで、レオナの試練は予想されるわけで、それが乗り越えられたら告白するという決心
 22:
   event: レオナの試練
   plot item:
 23:
   event: 
   plot item:
-    /alice lov mltpl --- --- --- f - - favorbl 告白とキス
+    /alice lov mltpl --- ---  f - - favorbl 告白とキス
 24:
   event: アリスの試練
   plot item:
 25:
   event: 
   plot item:
-    /alice lov alice --- --- --- f - - thought アリスの、2人といると楽しいということの再認識
+    /alice lov alice --- ---  f - - thought アリスの、2人といると楽しいということの再認識

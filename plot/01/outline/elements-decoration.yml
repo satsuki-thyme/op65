@@ -3,67 +3,67 @@
   episode: 1
   tone: 神秘的, フレッシュ, 生命の息吹
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p4 危険な近道
   episode: 4
   tone: 野性的, 危険
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p5 妖精の森
   episode: 4
   tone: 不思議, 異界
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p6 道
   episode: 5
   tone: 不穏, 怪しい
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p8 道
   episode: 7
   tone: 不思議のムード（あやしめ）
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p9 妖精の森
   episode: 7
   tone: 不思議, 混乱
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p10 森
   episode: 8
   tone: 明るい, 先行きの不安
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p14 滝
   episode: 11
   tone: 神聖な, 荘厳な
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p21 野営地
   episode: 16
   tone: 不思議の来訪
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p23 森（野営地の近く）
   episode: 18
   tone: はつらつ, 強い意思
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p25 森
   episode: 21
   tone: 
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 
 
@@ -72,61 +72,61 @@
   episode: 2, 3
   tone: 明るい, 栄光の道
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p7 街
   episode: 6
   tone: レオナと対照的な華やぎ
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p12 魔力泉の街
   episode: 9
   tone: 明るい, 新しいこと
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p13 妖精の国
   episode: 10, 14
   tone: 不思議, 奇妙
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p15 湖畔の街
   episode: 12
   tone: おしゃれ, 華やぎ
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p18 湖底の街跡
   episode: 13
   tone: 不思議, 幻想
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p19 大破壊の街
   episode: 14
   tone: 繁栄, 明るい
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p20 村
   episode: 15
   tone: 栄えた村, 案外いい暮らし
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p24 街
   episode: 20
   tone: work location
   description:
-    /integ mod noCha --- --- --- f - - ------- 鍛冶の街、火の精霊の街
+    /integ mod noCha --- ---  f - - ------- 鍛冶の街、火の精霊の街
 
 - item: p26 カルダ
   episode: 22
   tone: 
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 
 
@@ -135,36 +135,36 @@
   episode: 3
   tone: 
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p11 魔法使いの老婆の家
   episode: 8
   tone: 
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p16 湖底の洞窟
   episode: 12
   tone: 
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p17 湖の砂浜
   episode: 13
   tone: 
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p22 草原（野営地の近く）
   episode: 17, 19
   tone: 
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 - item: p27 エリク
   episode: 23, 24, 25
   tone: 
   description:
-    /integ mod noCha --- --- --- f - - ------- 
+    /integ mod noCha --- ---  f - - ------- 
 
 
