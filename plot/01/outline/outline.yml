@@ -232,6 +232,7 @@
     /integ inf third cat s36 f - - ------- 妖精女王の名が出る
     /integ inf third --- --- f - - threat- スパイ妖精の存在
     /alice lov multi --- --- f - - favorbl あーんする
+    /leona odl third pre s07 f - - @o'dorg オー゠ドルグがレオナに失敗は学ぶためにあると言う
     /leona odl leona pre s07 f b - favorbl レオナが魔物を倒して強いところを見せる
       /leona odl alice pre s07 f - - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
       /                rel c08
@@ -377,6 +378,7 @@
     /integ evn third rel c54 f - - ------- ドラゴンはエンシェントドラゴンと同格程度の者の動きが活発になっているから様子を見ている
     /integ evn third rel c54 f - - ------- アリスにバルドロードが{ドラゴンアイテム}をくれる
     /integ evn grp11 --- --- f - - ------- アリスに妖精が{妖精アイテム}をくれる
+    /myria odl third pre s65 f - - @o'dorg オー゠ドルグがミリアに自分が何を求めているのかよく感じることじゃと言う
     /myria odl leona pre s12 f - - favorbl レオナがミリアに甘える[ref-042]
     /myria odl leona rel c22 f - - favorbl レオナがミリアに甘える[ref-042]
     /leona odl myria pre s09 f - - ------- ミリアがレオナを甘やかす[ref-042]
@@ -698,7 +700,8 @@
     /integ evn third --- --- f - - @zavia- エスとザヴィとザヴィの従者の戦いの伝説
     /integ evn third --- --- f - - ------- エルフの老婆からp26 カルダからp27 エリクにいける、p26 カルダに関わる情報がp24 街にあると聞く
     /integ evn alice --- --- f - - ------- エルフの老婆が指輪を欲するが外せないのと言って断る
-    /integ evn myria --- --- f - - ------- エルフの老婆とミリアの耳飾り（ハイエルフの印）で話がつく
+    /integ evn alice --- --- f - - ------- エルフの老婆とアリスの{妖精アイテム}で話がつく
+    /leona odl leona pre s64 f - - @o'dorg オー゠ドルグがレオナに人は変化を恐れる　恐れを打ち破って前へ進むには何が必要か、よく考えることじゃと言う
     /leona odl leona pre sls f - - thought 剣の型を崩すと弱くなると思い込む　型は絶対
     /leona odl leona hnt smd f - - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
     /leona odl multi pre smd f - - ------- レオナがアリスに訓練してもらう[ref-018]
@@ -706,7 +709,6 @@
     /alice odl multi pre s21 f - - ------- レオナとミリアが何かを作っている[ref-040]
     /alice lov multi --- --- f - - favorbl 頭と頬を撫でる
     /petra odl petra prm r15 f - - gDesire ペトラが妖精領主になる
-    /petra odl petra pre r62 f - - gDesire ペトラが妖精領主になる
     /petra etc alice hnt s57 f - - ------- アリスがペトラに転移のネックレスを渡す
     /petra etc petra rel c59 f - - ------- ペトラがお返しに妖精の蜜飴を渡す「みんなで食べてね」
 
@@ -740,7 +742,7 @@
     /grp21
       /rose- li2 rose- fsh s33 b - - @orbPln 望みの全てはp27 エリクの封印に懸かっている
       /rose- li2 rose- fsh s33 b - - @orbPln エスは封印の中で邪神の呪いに苛まれている
-      /rose- li2 rose- fsh s29    b - - @es---- エスは封印の中で邪神の呪いに苛まれている
+      /rose- li2 rose- fsh s29 b - - @es---- エスは封印の中で邪神の呪いに苛まれている
       /rose- li1 rose- fsh s30 b - - @rose-- ローズが神殿教会のバルコニーに立つと晴れる
       /leona odl erie- pre smd b - - threat- エリーが余裕ぶってレオナを殺すと言う
       /erie- li2 erie- --- --- b - - ------- エリーがローズの体を気遣う
@@ -782,13 +784,11 @@
     /integ evn multi --- --- f - - ------- レオナとミリアは老婆と対立的に話を進める、むきになる
     /integ evn grp11 --- --- f - - ------- 明日日が昇ったら蜂妖精の蜂蜜を探してみましょう
     /alice li1 alice fsh s28 f - - @alice- 動物と話ができる
-    /myria odl third --- --- f - - @o'dorg 老婆は問い掛ける、自分が一番欲していることは何？　手に入れるために乗り越えないといけないのは何？
+    /myria odl third pre s65 f - - @o'dorg 老婆は問い掛ける、自分が一番欲していることは何？　手に入れるために乗り越えないといけないのは何？
     /myria odl myria pre smd f - - thought ミリアが祖母を思う
       /myria odl myria pre smd f - - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
       /myria odl myria hnt smd f - - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
-      /myria odl third pre sls f - - @o'dorg 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
-      /myria odl third pre s22 f - - @o'dorg 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
-      /myria odl third pre r62 f - - @o'dorg 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
+      /myria odl third pre s65 f - - @o'dorg 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
     /myria odl myria pre smd f - - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
     /myria odl leona pre smd f - - favorbl レオナがミリアに甘える[ref-042]
     /                rel c23 r22
@@ -945,6 +945,7 @@
     /myria odl myria hnt rls f b - ordeal- ミリアがフェイと戦う[ref-029]
       /myria odl multi pre r60 f - ------- アリスとレオナは静観する
       /myria odl myria fct rls f - - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
+      /myria odl myria pre r65 f - - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
       /myria odl myria --- --- f - - results ミリアがフェイを倒す
     /myria odl myria prm r10 f - - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
     /fei-- odl fei-- prm rls f - - results フェイがミリアに敗北する[ref-029]
@@ -980,7 +981,7 @@
     /myria li1 alice --- --- f - - ------- アリスが水の大精霊にお願いする
     /myria li1 myria fct s48 f - - @spirit 大火災をミリアが水の大精霊の力を操って収める
     /myria li1 third --- --- f - - ------- 老爺は自宅が燃えるなら自分も燃えて死ぬと言う
-    /integ evn third --- --- f - - ------- 水の大精霊が大精霊ともなると自尊心も枯れますが成長途中の精霊の中には気位の高い者もいますと言う
+    /integ evn third --- --- f - - ------- 水の大精霊が大火災となった原因の火の精霊について、大精霊ともなると自尊心も枯れますが成長途中の精霊の中には気位の高い者もいますと言う
     /myria li1 myria fct r48 f - - @spirit 星の大精霊と契約する
     /integ evn grp11 --- --- f - - ------- p26 カルダの場所を知る
     /alice li1 alice fsh s28 f - - @alice- 花を結実させる
@@ -1051,8 +1052,10 @@
   contents:
     /rose- li2 erie- pre s33 f - - @orbPln ローズは死ぬ気でいる
     /rose- li2 erie- pre r40 f - - @orbPln ローズは死ぬ気でいる
+    /leona odl third pre s64 f - - @o'dorg オー゠ドルグがレオナに人が追い求めるべきものは一つしかない、いろいろな形をしておるが一つしかないんじゃよと言う
     /leona odl leona pre rls f b - ordeal- レオナがエリーと戦う
-      /leona odl leona fct rls f - - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
+      /leona odl leona fct rls f - - thought ピンチでアリスたちとの幸せを掴みたいと願い、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
+      /leona odl leona pre r64 f - - @o'dorg ピンチでアリスたちとの幸せを掴みたいと願い、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
       /leona odl leona --- --- f - - results レオナがエリーを倒す
       /leona odl leona rel c51 f - - @fencer 剣に封じられていた竜克の女剣士レイティア・アルテノートの力を受け継ぐ
       /erie- odl erie- prm rls f - - results エリーがレオナに敗北する

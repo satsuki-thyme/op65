@@ -1,21 +1,21 @@
 # 前駆体のメモ
 - item: 
-  resolution: 000 xxx
+  resolution: 00 xxx
   precursor:
     - 0 xxx
 
 - item: 007
-  resolution: 000 xxx
+  resolution: 00 xxx
   precursor:
     - 17 蜂蜜を採取する
 
 - item: 006
-  resolution: 14 エルフの老婆とミリアの耳飾り（ハイエルフの印）で話がつく
+  resolution: 00 xxx
   precursor:
     - 8 ミリアが魔法使いの老婆からエルフの耳飾り（ハイエルフの印）をもらう
 
 - item: 005
-  resolution: 000 xxx
+  resolution: 00 xxx
   precursor:
     - 1 レオナは{◯◯神}の修道会で活動している
 
@@ -25,12 +25,14 @@
     - 7 アリスに{ドラゴンアイテム}をくれる
 
 - item: 003
-  resolution: 000 xxx
+  resolution: 14 エルフの老婆とアリスの{妖精アイテム}で話がつく
   precursor:
     - 7 アリスに妖精が{妖精アイテム}をくれる
 
 - item: 002
-  resolution: 10 水の大精霊が現れてアリスの身に危険が迫っていると言う
+  resolution:
+    - 10 水の大精霊が現れてアリスの身に危険が迫っていると言う
+    - 20 アリスが水の大精霊にお願いする
   precursor:
     - 2 水の大精霊の発狂を治してやる
 
