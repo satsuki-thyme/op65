@@ -377,7 +377,7 @@
     /leona li1 leona rel c51 f - - @fencer ドラゴン「バルドロード」がレオナの魂が、かつて戦って敗北した竜克の女剣士レイティア・アルテノートに似ているが、あれ以上に強い輝きを放っていると言う
     /integ evn third rel c54 f - - ------- ドラゴンはエンシェントドラゴンと同格程度の者の動きが活発になっているから様子を見ている
     /integ evn third rel c54 f - - ------- アリスにバルドロードが{ドラゴンアイテム}をくれる
-    /integ evn grp11 --- --- f - - ------- アリスに妖精が{妖精アイテム}をくれる
+    /integ evn grp11 --- --- f - - ------- 妖精がアリスに{妖精アイテム}をくれる
     /myria odl third pre s65 f - - @o'dorg オー゠ドルグがミリアに自分が何を求めているのかよく感じることじゃと言う
     /myria odl leona pre s12 f - - favorbl レオナがミリアに甘える[ref-042]
     /myria odl leona rel c22 f - - favorbl レオナがミリアに甘える[ref-042]
@@ -428,7 +428,7 @@
     /integ mod noCha --- --- f - - ------- 森の様子、森の中は比較的明るいエルヒダの木の純林だ
     /integ mod noCha --- --- f - - ------- 道の様子、黒褐色の土、わだち
     /integ mod noCha --- --- f - - ------- 老婆の家の様子、拳ほどの石を積み上げて街壁とした
-    /integ evn myria --- --- f - - ------- ミリアが魔法使いのおばあちゃんからエルフの耳飾りをもらう（ハイエルフの印）
+    /integ evn myria rel c67 f - - ------- ミリアが魔法使いのおばあちゃんからエルフの耳飾りをもらう（ハイエルフの印）
     /myria odl myria pre s12 f - - thought ミリアが祖母に会いたいという強い思いを吐露する
       /myria odl myria pre s12 f - - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
       /myria odl myria fct s20 f - - thought 罪悪感にこだわる自分の異常さは薄々分かっている
@@ -668,6 +668,7 @@
     /integ evn grp11 rel c56 f - - ------- ボートを借りて砂浜に行って楽しむ => えちちなシーンを量産する
     /integ evn third --- --- f - - ------- 精霊が現れて摂ってきてほしいと言われて取りに行く[thi-061]
     /integ evn noCha rel c55 f - - ------- 湖底の街
+    /integ evn alice rel c66 f - - ------- 湖底の街でアリスが指輪を拾う
 
 14:
   declaration: ペトラが妖精領主になる
@@ -700,7 +701,7 @@
     /integ evn third --- --- f - - @zavia- エスとザヴィとザヴィの従者の戦いの伝説
     /integ evn third --- --- f - - ------- エルフの老婆からp26 カルダからp27 エリクにいける、p26 カルダに関わる情報がp24 街にあると聞く
     /integ evn alice --- --- f - - ------- エルフの老婆が指輪を欲するが外せないのと言って断る
-    /integ evn alice --- --- f - - ------- エルフの老婆とアリスの{妖精アイテム}で話がつく
+    /integ evn alice rel c66 f - - ------- エルフの老婆とアリスが湖底の街で拾った指輪で話がつく
     /leona odl leona pre s64 f - - @o'dorg オー゠ドルグがレオナに人は変化を恐れる　恐れを打ち破って前へ進むには何が必要か、よく考えることじゃと言う
     /leona odl leona pre sls f - - thought 剣の型を崩すと弱くなると思い込む　型は絶対
     /leona odl leona hnt smd f - - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
@@ -1046,7 +1047,7 @@
       end: p27 エリクへの道
       top: p27 エリク
     notes: 
-  tone: 期待, 意気込む
+  tone: 期待, レオナの悩みが深くなる, 勝利
   notes:
     - 
   contents:
@@ -1088,6 +1089,8 @@
   notes:
     - 
   contents:
+    /integ etc noCha rel c34 f - - ------- エルフの都市は破壊され尽くしている
+    /integ evn myria rel c67 f - - ------- エルフの耳飾りがハイエルフの叡智へと誘う
     /alice odl alice pre sls f - - thought ローズを倒せないと思い込む => ローズは強い
     /alice odl alice fct sls f - - thought ローズを倒さないと事は収まらないと分かっている
     /integ evn alice cat s47 f - - @orb--- ローズと魔力珠を分離しないと、と言う

@@ -49,18 +49,19 @@
 
 ###### 統合プロット
 
-- plot/01/outline/integration/int-009.md: 統合プロット 第9話
-- plot/01/outline/integration/int-010.md: 統合プロット 第10話
-- plot/01/outline/integration/int-011.md: 統合プロット 第11話
-- plot/01/outline/integration/int-012.md: 統合プロット 第12話
-- plot/01/outline/integration/int-013.md: 統合プロット 第13話
-- plot/01/outline/integration/int-014.md: 統合プロット 第14話
-- plot/01/outline/integration/int-015.md: 統合プロット 第15話
-- plot/01/outline/integration/int-016.md: 統合プロット 第16話
-- plot/01/outline/integration/int-017.md: 統合プロット 第17話
-- plot/01/outline/integration/int-020.md: 統合プロット 第20話
-- plot/01/outline/integration/int-021.md: 統合プロット 第21話
-- plot/01/outline/integration/int-022.md: 統合プロット 第22話
+- plot/01/outline/integration/int-009.md: 統合イベント 基礎設計 第9話
+- plot/01/outline/integration/int-010.md: 統合イベント 基礎設計 第10話
+- plot/01/outline/integration/int-011.md: 統合イベント 基礎設計 第11話
+- plot/01/outline/integration/int-012.md: 統合イベント 基礎設計 第12話
+- plot/01/outline/integration/int-013.md: 統合イベント 基礎設計 第13話
+- plot/01/outline/integration/int-014.md: 統合イベント 基礎設計 第14話
+- plot/01/outline/integration/int-015.md: 統合イベント 基礎設計 第15話
+- plot/01/outline/integration/int-016.md: 統合イベント 基礎設計 第16話
+- plot/01/outline/integration/int-017.md: 統合イベント 基礎設計 第17話
+- plot/01/outline/integration/int-020.md: 統合イベント 基礎設計 第20話
+- plot/01/outline/integration/int-021.md: 統合イベント 基礎設計 第21話
+- plot/01/outline/integration/int-022.md: 統合イベント 基礎設計 第22話
+- plot/01/outline/integration/int-023.md: 統合イベント 基礎設計 第23話
 
 ##### 詳細
 
