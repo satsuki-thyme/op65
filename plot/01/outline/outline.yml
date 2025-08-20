@@ -103,7 +103,7 @@
     /integ mod noCha --- --- f - - ------- 街の中、石造建築があちらこちらにある
     /integ mod noCha --- --- f - - ------- 街の中、木造建築が主流
     /integ mod noCha --- --- f - - ------- 街の中、鎧窓
-    /integ evn myria pre s11 f - - ------- ミリアの精霊魔法が弱いことを印象づける
+    /integ evn myria pre s65 f - - ------- ミリアの精霊魔法が弱いことを印象づける
     /integ evn alice --- --- f - - ------- 手持ちの宝石を換金する（大きな宝石商、アリスの身なりは高級品で仕立てがいい）
     /integ evn multi --- --- f - - ------- レオナが水の大精霊を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
     /integ evn grp11 --- --- f - - ------- アリスの旅にミリアが加わる
@@ -1052,7 +1052,7 @@
   contents:
     /rose- li2 erie- pre s33 f - - @orbPln ローズは死ぬ気でいる
     /rose- li2 erie- pre r40 f - - @orbPln ローズは死ぬ気でいる
-    /leona odl third pre s64 f - - @o'dorg オー゠ドルグがレオナに人が追い求めるべきものは一つしかない、いろいろな形をしておるが一つしかないんじゃよと言う
+    /leona odl third pre s64 f - - @o'dorg オー゠ドルグがレオナに何が一番大切か、じゃ　前に進みたいんじゃろう？　置いていかねばならんものもあると言う
     /leona odl leona pre rls f b - ordeal- レオナがエリーと戦う
       /leona odl leona fct rls f - - thought ピンチでアリスたちとの幸せを掴みたいと願い、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
       /leona odl leona pre r64 f - - @o'dorg ピンチでアリスたちとの幸せを掴みたいと願い、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
@@ -1065,11 +1065,11 @@
 
 23:
   declaration: ハイエルフの叡智を得る
-  elapsed days: 
+  elapsed days: 37
   time:
-    start: 
+    start: 朝
     end: 
-    notes: 
+    notes: p26 カルダで1泊して翌日
   location: p27 エリク
   destination:
     start: 
@@ -1094,7 +1094,7 @@
     /integ evn alice cat s31 f - - @zavia- ザヴィだけで神を封印できるかどうか、協力者がいたかも
     /alice lov multi --- --- f - - favorbl 告白とキス
     /myria odl myria prm r11 f - - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
-    /myria odl myria pre r11 f - - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
+    /myria odl myria pre r65 f - - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     /myria odl myria rel c34 f - - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     /grp21
       /alice odl rose- pre sls b - - threat- ローズがパワーアップする[ref-023]
