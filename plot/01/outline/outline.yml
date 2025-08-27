@@ -20,37 +20,26 @@
     middle: -
     end: p2 街
     top: p27 エリク
-  integratioin:
+  integration:
     event: アリスが地下から出てくる
     objective: 
       start: 冒険
       middle: -
-      end: 魔力珠
-      top: 魔力珠
+      end: -
+      top: -
     notes: -
   tone: 新たな始まりの予感
   notes:
     - ミリアが普段使うのは弱い精霊魔法
   contents:
-    /integ mod noCha --- --- f - - ------- 森の様子、深い緑の中に新緑が目につくラクスの木とアルマータの木の混交林
-    /integ mod noCha --- --- f - - ------- 妖精
-    /integ mod noCha --- --- f - - ------- 魔物の息遣い
-    /integ mod noCha --- --- f - - ------- 列柱の先が少し突き出している
-    /integ mod alice --- --- f - - ------- 魔法の発動
     /integ evn alice --- --- f - - ------- アリスが地下から出てくる「やるぞ、おー！」
-    /integ evn third --- --- f - - @o'dorg 老爺が東を訪ねアリスがあっちと指し示し少しして東と西はどっちがどっちだっけ？と言うも老爺を望んで物知り顔でまいっかと言う
+    /integ evn third --- --- f - - @o'dorg オー゠ドルグが東を訪ねアリスがあっちと指し示し少しして東と西はどっちがどっちだっけ？と言うも老爺を望んで物知り顔でまいっかと言う
+    /leona odl third rel c69 f - - @o'dorg オー゠ドルグが前に進みたいと願っている娘が来るはずじゃと言う
     /integ evn alice --- --- f b - ------- 狼の親子に襲われる一件
     /integ evn alice fsh s39 f - - @hestel ヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
     /alice odl alice prm s02 f - - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
     /alice odl alice fsh s05 f - - @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
     /alice li1 alice fsh s28 f - - @alice- アリスが地上に出てきてずいぶん経ったみたいと言う長い年月（2000年くらい（天地戦争を含む必要がある））寝ていたこと
-    /alice mod alice --- --- f - - ------- アリスは白いワンピースを着ている
-    /alice mod alice --- --- f - - ------- アリスは短剣を携えている
-    /leona mod leona --- --- f - - ------- レオナは青紫のボディフィットシャツと黒いホットパンツを身に付けている
-    /leona mod leona --- --- f - - ------- レオナは剣を携えている
-    /leona mod leona --- --- f - - ------- レオナは胸と肘から先、膝から先に部分鎧を装着している
-    /alice mod leona --- --- f - - ------- あなたは精霊？　妖精？　それとも妖魔か何か？　顔が整いすぎている
-    /leona mod alice --- --- f - - ------- 人のこと言えないでしょ
     /integ evn multi --- --- f - - ------- 敵視するレオナとやりとりしてアリスの腹が鳴ると打ち解ける
     /integ evn grp11 --- --- f - - ------- アリスの旅にレオナが加わる
     /integ evn leona --- --- f - - ------- レオナは{◯◯神}の修道会で活動している
@@ -64,7 +53,8 @@
     /alice odl alice fsh s05 f - - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
     /alice odl alice prm s02 f - - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
     /alice odl alice prm s03 f - - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
-    /leona odl leona prm s06 f - - gDesire レオナが「過去と決着をつけて、前に……、進みたいんです」と言う[ref-025]
+    /leona odl alice prm s06 f - - gDesire アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
+    /leona odl alice rel c69 f - - gDesire アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
     /leona odl leona hnt s09 f - - ------- レオナがここに運命を変える出会いが待っていると言われていてと言う
     /integ inf leona cat s41 f - - @orb--- 遷世教団の話題を出す
     /alice lov multi --- --- f - - favorbl 手をつなぐ
@@ -83,13 +73,13 @@
     middle: 街へ繰り出す
     end: 遷世教団の神殿
     top: p27 エリク
-  integratioin:
+  integration:
     event: ミリアを水の大精霊の暴走から助ける
     objective: 
       start: p27 エリクの情報
       middle: ミリアの救助
       end: 遷世教団への潜入
-      top: 魔力珠
+      top: -
     notes: -
   tone: ハプニング, 戦闘（勝ち）
   notes:
@@ -145,13 +135,13 @@
     middle: -
     end: 逃亡
     top: 東 / p27 エリク
-  integratioin:
+  integration:
     event: 遷世教団の神殿に忍び込んで調べる
     objective: 
       start: p27 エリクの情報
       middle: -
       end: 東へ
-      top: 魔力珠
+      top: -
     notes: -
   tone: 敵対の予感, 戦闘（負け）
   notes:
@@ -208,13 +198,13 @@
     middle: p5 妖精の森
     end: p7 街
     top: 東 / p27 エリク
-  integratioin:
+  integration:
     event: ペトラを助けて妖精の森に行く
     objective: 
       start: p7 街に行く
       middle: ペトラを助ける
       end: p7 街に行く
-      top: 魔力珠
+      top: -
     notes: -
   tone: 不思議, 戦闘（勝ち）
   notes:
@@ -268,13 +258,13 @@
     middle: p7 街
     end: p7 街
     top: 東 / p27 エリク
-  integratioin:
+  integration:
     event: 盗賊騎士の関門
     objective: 
       start: 関門を越える
       middle: エリーを倒す
       end: p7 街に行く
-      top: 魔力珠
+      top: -
     notes: -
   tone: 時代物, 戦闘（負け）
   notes:
@@ -310,13 +300,13 @@
     middle: -
     end: 居住地4
     top: 東 / p27 エリク
-  integratioin:
+  integration:
     event: 祭り
     objective: 
       start: 祭りを楽しむ, 剣を買う
       middle: -
       end: レオナの訓練
-      top: 魔力珠
+      top: -
     notes: -
   tone: 落ち込みからの脱却, 苦しい過去
   notes:
@@ -353,13 +343,13 @@
     middle: p9 妖精の森
     end: p12 魔力泉の街
     top: 東 / p27 エリク
-  integratioin:
+  integration:
     event: p9 妖精の森近くにやってきたドラゴンとアリスが対話する
     objective: 
       start: p12 魔力泉の街に行く
       middle: 妖精を助ける
       end: p12 魔力泉の街に行く
-      top: 魔力珠
+      top: -
     notes: -
   tone: 不思議, 秘密の解明
   notes:
@@ -413,13 +403,13 @@
     middle: p11 魔法使いの老婆の家
     end: p12 魔力泉の街
     top: 東 / p27 エリク
-  integratioin:
+  integration:
     event: 魔法使いの老婆 => 元気の出る精霊石（ミリアの祖母が使っていた）を老婆にあげる[thi-052]
     objective: 
       start: 魔法使いの老婆を助ける
       middle: フェイを倒す
       end: p12 魔力泉の街に行く
-      top: 魔力珠
+      top: -
     notes: -
   tone: 善行, 戦闘（勝ち）
   notes:
@@ -464,13 +454,13 @@
     middle: -
     end: p15 湖畔の街
     top: 東 / p27 エリク
-  integratioin:
+  integration:
     event: ミリアの精霊との契約の儀とその失敗
     objective: 
       start: 魔力泉を堪能する、休息する
       middle: ミリアが精霊と契約する
       end: p15 湖畔の街に行く
-      top: 魔力珠
+      top: -
     notes: 魔力泉、妖精の多い街
   tone: 弛緩した時間, 苦しい過去
   notes:
@@ -511,13 +501,13 @@
     middle: -
     end: p12 魔力泉の街に戻る
     top: 東 / p27 エリク
-  integratioin:
+  integration:
     event: 妖精女王への謁見
     objective: 
       start: 妖精女王への謁見
       middle: 魔力珠やエスの情報
       end: p12 魔力泉の街に戻る
-      top: 魔力珠
+      top: -
     notes: 植物が大きく見えるくらいアリスたちは縮んでいる, ペトラの頑張りを褒められる
   tone: 立派な舞台, ハプニング
   notes:
@@ -565,13 +555,13 @@
     middle: -
     end: p15 湖畔の街
     top: 東 / p27 エリク（p27 エリクに魔力珠の手掛かりがあるかもしれないしミリアのためにもp27 エリクには行く）
-  integratioin:
+  integration:
     event: 滝の裏の剣を抜く
     objective: 
       start: 滝を見る, 滝の裏に行く
       middle: ローズを説得する
       end: p15 湖畔の街に行く
-      top: 魔力珠 => p27 エリク
+      top: p27 エリク
     notes: -
   tone: 不思議な体験, 戦闘（負け）
   notes:
@@ -607,7 +597,7 @@
     middle: 湖底の洞窟
     end: 居住地7（対岸の街）, アリスは砂浜に行きたくなっている
     top: 東 / p27 エリク
-  integratioin:
+  integration:
     event: 水棲のドラゴン
     objective: 
       start: 湖を渡って向こう岸の居住地7に行きたい
@@ -652,7 +642,7 @@
     middle: p18 湖底の街跡
     end: p15 湖畔の街
     top: 東 / p27 エリク
-  integratioin:
+  integration:
     event: 水着回
     objective: 
       start: 水遊び
@@ -683,7 +673,7 @@
     middle: -
     end: p24 街
     top: 東 / p26 カルダ / p27 エリク
-  integratioin:
+  integration:
     event: エスの大破壊の痕跡
     objective: 
       start: エスの情報, p27 エリクの情報
@@ -727,7 +717,7 @@
     middle: -
     end: p24 街
     top: 東 / p26 カルダ / p27 エリク
-  integratioin:
+  integration:
     event: 村長の息子からの横柄でしつこいレオナへの求婚
     objective: 
       start: 牛肉
@@ -769,7 +759,7 @@
     middle: -
     end: p24 街
     top: 東 / p26 カルダ / p27 エリク
-  integratioin:
+  integration:
     event: 星の大精霊と老婆の来訪
     objective: 
       start: -
@@ -827,7 +817,7 @@
     middle: -
     end: p24 街
     top: 東 / p26 カルダ / p27 エリク
-  integratioin:
+  integration:
     event: 蜂妖精の蜂蜜を探して食べる
     objective: 
       start: 蜂妖精の蜂蜜
@@ -871,7 +861,7 @@
     middle: -
     end: p24 街
     top: 東 / p26 カルダ / p27 エリク
-  integratioin:
+  integration:
     event: 訓練
     objective: 
       start: 強くなる
@@ -927,7 +917,7 @@
     middle: -
     end: p24 街
     top: 東 / p26 カルダ / p27 エリク
-  integratioin:
+  integration:
     event: 占い
     objective: 
       start: -
@@ -965,7 +955,7 @@
     middle: p26 カルダ
     end: p26 カルダ
     top: p26 カルダ / p27 エリク
-  integratioin:
+  integration:
     event: 大火災をミリアが水の大精霊ウンディーネの力を操って収める
     objective: 
       start: p26 カルダの場所
@@ -1001,7 +991,7 @@
     middle: p26 カルダ
     end: -
     top: p26 カルダ / p27 エリク
-  integratioin:
+  integration:
     event: 道なき道を行く
     objective: 
       start: p26 カルダに行きたい
@@ -1039,7 +1029,7 @@
     middle: p27 エリク
     end: p27 エリク
     top: p27 エリク
-  integratioin:
+  integration:
     event: p26 カルダに到着する
     objective: 
       start: p27 エリクへの道
@@ -1051,6 +1041,7 @@
   notes:
     - 
   contents:
+    /leona odl leona rel c69 f - - ------- レオナがアリスから前に進みたいんじゃないの？と言われる
     /integ evn erie- --- --- f - - ------- アリスたちが広場に出たときエリーが転移してくる
     /rose- li2 erie- pre s33 f - - @orbPln ローズは死ぬ気でいる
     /rose- li2 erie- pre r40 f - - @orbPln ローズは死ぬ気でいる
@@ -1070,26 +1061,27 @@
   elapsed days: 37
   time:
     start: 朝
-    end: work location
+    end: 昼前
     notes: p26 カルダで1泊して翌日
   location: p27 エリク
   destination:
-    start: 
-    middle: 
-    end: 
-    top: 
-  integratioin:
-    event: p27 エリクに到着する
+    start: ハイエルフの叡智のある場所
+    middle: ハイエルフの叡智のある場所
+    end: 地上
+    top: ハイエルフの叡智のある場所
+  integration:
+    event: -
     objective: 
-      start: 
-      middle: 
-      end: 
-      top: 
-    notes: 
-  tone: 
+      start: -
+      middle: -
+      end: -
+      top: -
+    notes: -
+  tone: 神秘
   notes:
     - 
   contents:
+    /integ mod noCha rel c68 f - - ------- 島の中央の大きな木
     /integ etc noCha rel c34 f - - ------- エルフの都市は破壊され尽くしている
     /integ evn myria rel c67 f - - ------- エルフの耳飾りがハイエルフの叡智へと誘う
     /alice odl alice pre sls f - - thought ローズを倒せないと思い込む => ローズは強い
@@ -1110,29 +1102,30 @@
 
 24:
   declaration: ローズとの戦闘 3
-  elapsed days: 
+  elapsed days: 37
   time:
-    start: 
-    end: 
-    notes: 
+    start: 昼前
+    end: 昼すぎ
+    notes: ハイエルフの叡智を手に入れてその足で
   location: p27 エリク
   destination:
-    start: 
-    middle: 
-    end: 
-    top: 
-  integratioin:
-    event: 
+    start: 島の中央の大きな木のたもと
+    middle: -
+    end: -
+    top: -
+  integration:
+    event: -
     objective: 
-      start: 
-      middle: 
-      end: 
-      top: 
-    notes: 
-  tone: 
+      start: -
+      middle: -
+      end: -
+      top: -
+    notes: -
+  tone: 対決
   notes:
     - 
   contents:
+    /integ etc alice rel c68 f - - ------- アリスが島の中央の大きな木のたもとにローズがいると分かる
     /integ inf rose- fsh r31 f - - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
     /rose- li1 rose- fsh r30 f - - @rose-- ローズがエスは封印される直前に使徒をローズと融合させたことを告白する
     /               fsh s29     - @es---- ローズがエスは封印される直前に使徒をローズと融合させたことを告白する
@@ -1148,26 +1141,26 @@
 
 25:
   declaration: エスとの邂逅
-  elapsed days: 
+  elapsed days: 37
   time:
-    start: 
-    end: 
-    notes: 
+    start: 午後
+    end: 午後
+    notes: ローズを倒してその続き
   location: p27 エリク
   destination:
-    start: 
-    middle: 
-    end: 
-    top: 
-  integratioin:
-    event: 
+    start: -
+    middle: -
+    end: -
+    top: -
+  integration:
+    event: -
     objective: 
-      start: 
-      middle: 
-      end: 
-      top: 
-    notes: 
-  tone: 
+      start: -
+      middle: -
+      end: -
+      top: -
+    notes: -
+  tone: 戦闘, 安らぎ
   notes:
     - 
   contents:

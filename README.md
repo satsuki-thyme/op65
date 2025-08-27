@@ -49,6 +49,8 @@
 
 ###### 統合プロット
 
+- plot/01/outline/integration/int-001.md: 統合イベント 基礎設計 第1話
+- plot/01/outline/integration/int-008.md: 統合イベント 基礎設計 第8話
 - plot/01/outline/integration/int-009.md: 統合イベント 基礎設計 第9話
 - plot/01/outline/integration/int-010.md: 統合イベント 基礎設計 第10話
 - plot/01/outline/integration/int-011.md: 統合イベント 基礎設計 第11話
@@ -63,9 +65,13 @@
 - plot/01/outline/integration/int-022.md: 統合イベント 基礎設計 第22話
 - plot/01/outline/integration/int-023.md: 統合イベント 基礎設計 第23話
 
+##### 基礎設計
+
+- plot/01/build/bld-001.md: 基礎設計 第1話
+
 ##### 詳細
 
-- plot/01/details/001.yml:     プロット詳細 第1話
+- plot/01/details/det-001.yml: プロット詳細 第1話
 - plot/01/details/ref-001.yml: プロット参照 アリスの背景
 - plot/01/details/ref-002.yml: プロット参照 レオナの背景
 - plot/01/details/ref-003.yml: プロット参照 ミリアの背景
