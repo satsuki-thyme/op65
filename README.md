@@ -32,49 +32,44 @@
 
 ##### 概要
 
-- plot/01/outline/background-requirements.yml: 背景の要件
-- plot/01/outline/character-base.yml:          キャラクターの基本設計
-- plot/01/outline/character-portrayal.yml:     キャラクター描写
-- plot/01/outline/elements-decoration.yml:     プロット要素 情景描写
-- plot/01/outline/elements-background.yml:     プロット要素 背景
-- plot/01/outline/elements-information.yml:    プロット要素 情報
-- plot/01/outline/elements-love.yml:           プロット要素 恋愛
-- plot/01/outline/elements-ordeal.yml:         プロット要素 試練
-- plot/01/outline/elements-sub.yml:            プロット要素 サブ
-- plot/01/outline/outline.yml:                 概要プロット
-- plot/01/outline/precursor-memo.yml:          前駆体のメモ
-- plot/01/outline/precursor.yml:               前駆体の採番
-- plot/01/outline/ref-note.yml:                参照ノート
-- plot/01/outline/worldview-decoration.yml:    世界観装飾
+- plot/01/background-requirements.yml: 背景の要件
+- plot/01/character-base.yml:          キャラクターの基本設計
+- plot/01/character-portrayal.yml:     キャラクター描写
+- plot/01/elements-decoration.yml:     プロット要素 情景描写
+- plot/01/elements-background.yml:     プロット要素 背景
+- plot/01/elements-information.yml:    プロット要素 情報
+- plot/01/elements-love.yml:           プロット要素 恋愛
+- plot/01/elements-ordeal.yml:         プロット要素 試練
+- plot/01/elements-sub.yml:            プロット要素 サブ
+- plot/01/plot.yml:                    プロット
+- plot/01/precursor-memo.yml:          前駆体のメモ
+- plot/01/precursor.yml:               前駆体の採番
+- plot/01/ref-note.yml:                参照ノート
+- plot/01/worldview-decoration.yml:    世界観装飾
 
 ###### 統合プロット
 
-- plot/01/outline/integration/int-001.md: 統合イベント 基礎設計 第1話
-- plot/01/outline/integration/int-008.md: 統合イベント 基礎設計 第8話
-- plot/01/outline/integration/int-009.md: 統合イベント 基礎設計 第9話
-- plot/01/outline/integration/int-010.md: 統合イベント 基礎設計 第10話
-- plot/01/outline/integration/int-011.md: 統合イベント 基礎設計 第11話
-- plot/01/outline/integration/int-012.md: 統合イベント 基礎設計 第12話
-- plot/01/outline/integration/int-013.md: 統合イベント 基礎設計 第13話
-- plot/01/outline/integration/int-014.md: 統合イベント 基礎設計 第14話
-- plot/01/outline/integration/int-015.md: 統合イベント 基礎設計 第15話
-- plot/01/outline/integration/int-016.md: 統合イベント 基礎設計 第16話
-- plot/01/outline/integration/int-017.md: 統合イベント 基礎設計 第17話
-- plot/01/outline/integration/int-020.md: 統合イベント 基礎設計 第20話
-- plot/01/outline/integration/int-021.md: 統合イベント 基礎設計 第21話
-- plot/01/outline/integration/int-022.md: 統合イベント 基礎設計 第22話
-- plot/01/outline/integration/int-023.md: 統合イベント 基礎設計 第23話
-
-##### 基礎設計
-
-- plot/01/build/bld-001.md: 基礎設計 第1話
+- plot/01/integration/int-001.md: 統合イベント 基礎設計 第1話
+- plot/01/integration/int-008.md: 統合イベント 基礎設計 第8話
+- plot/01/integration/int-009.md: 統合イベント 基礎設計 第9話
+- plot/01/integration/int-010.md: 統合イベント 基礎設計 第10話
+- plot/01/integration/int-011.md: 統合イベント 基礎設計 第11話
+- plot/01/integration/int-012.md: 統合イベント 基礎設計 第12話
+- plot/01/integration/int-013.md: 統合イベント 基礎設計 第13話
+- plot/01/integration/int-014.md: 統合イベント 基礎設計 第14話
+- plot/01/integration/int-015.md: 統合イベント 基礎設計 第15話
+- plot/01/integration/int-016.md: 統合イベント 基礎設計 第16話
+- plot/01/integration/int-017.md: 統合イベント 基礎設計 第17話
+- plot/01/integration/int-020.md: 統合イベント 基礎設計 第20話
+- plot/01/integration/int-021.md: 統合イベント 基礎設計 第21話
+- plot/01/integration/int-022.md: 統合イベント 基礎設計 第22話
+- plot/01/integration/int-023.md: 統合イベント 基礎設計 第23話
 
 ##### 詳細
 
-- plot/01/details/det-001.yml: プロット詳細 第1話
-- plot/01/details/ref-001.yml: プロット参照 アリスの背景
-- plot/01/details/ref-002.yml: プロット参照 レオナの背景
-- plot/01/details/ref-003.yml: プロット参照 ミリアの背景
+- plot/01/compornet/com-001.yml: 子プロット アリスの背景
+- plot/01/compornet/com-002.yml: 子プロット レオナの背景
+- plot/01/compornet/com-003.yml: 子プロット ミリアの背景
 
 ### 設定
 
