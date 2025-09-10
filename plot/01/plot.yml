@@ -34,23 +34,6 @@
   notes:
     - 
   element:
-        /integ evn multi --- --- f - - ------- 敵視するレオナとやりとりしてアリスの腹が鳴ると打ち解ける
-        /integ evn grp11 --- --- f - - ------- アリスの旅にレオナが加わる
-        /integ evn leona --- --- f - - ------- レオナは{◯◯神}の修道会で活動している
-        /integ inf leona fsh s31 f - - @zavia- ザヴィは世界を滅ぼそうとして倒された[ref-043]
-        /alice li1 alice fsh s28 f - - @alice- 魔法を無詠唱で使って詠唱が必要なことに気づく
-        /integ evn multi --- --- f - - ------- 街へ歩きながら話をする
-        /leona li1 leona rel c51 f - - @fencer レオナはドラゴンを倒した剣士の家系だと話す
-        /integ evn alice --- --- f - - ------- アリスはレオナと手をつなぎたい
-        /integ evn leona --- --- f b - ------- 魔物をレオナが倒す
-        /alice odl alice fsh s05 f - - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
-        /alice odl alice prm s02 f - - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
-        /alice odl alice prm s03 f - - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
-        /leona odl alice prm s06 f - - gDesire アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
-        /leona odl alice rel c69 f - - gDesire アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
-        /leona odl leona hnt s09 f - - ------- レオナがここに運命を変える出会いが待っていると言われていてと言う
-        /integ inf leona cat s41 f - - @orb--- 遷世教団の話題を出す
-        /alice lov multi --- --- f - - favorbl 手をつなぐ
   assembly:
     1:
       gist:
@@ -60,14 +43,21 @@
         - ミステリアス => 不思議な言葉が多い
         - 狼とのやり取り
       contents:
-        /integ mod work location
-        /integ evn alice --- --- f - - ------- アリスが地下から出てくる「やるぞ、おー！」
-        /integ evn alice --- --- f b - ------- 狼の親子に襲われる一件
+        /integ evn noCha --- --- f - - ------- 地面が爆散する　鳥たちが飛び立つ　魔法の残滓
+        /integ mod noCha --- --- f - - ------- 深い森（神秘的, フレッシュ, 生命の息吹）
+        /integ evn alice --- --- f - - ------- 塵が風魔法で吹き飛ばされてアリスが地下から飛び出てくる「やるぞ、おー！」
+        /integ mod alice --- --- f - - ------- 空色のショート、虹彩は晩紺色、上はボディラインの見える軍服のようなデザイン、下はミニスカートがパニエで膨らんでいる
+        /integ mod alice --- --- f - - ------- 小柄の痩せ型で胸はレモンほどの膨らみ
+        /integ mod alice --- --- f - - ------- 腰背に大振りのナイフ
+        /alice odl alice prm s01 f - - thought アリスが「全部まとめて満足の冒険ができるかな？」と言う[ref-032]
         /integ evn alice fsh s39 f - - @hestel ヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
+        /integ evn alice --- --- f - - ------- 空腹
+        /integ evn alice --- --- f b - ------- 狼の親子に襲われる一件
+        /alice li1 alice fsh s28 f - - @alice- 魔法を無詠唱で使って詠唱が必要なことに気づく
         /alice odl alice prm s02 f - - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
         /alice odl alice fsh s05 f - - @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
-        /alice li1 alice fsh s28 f - - @alice- アリスが地上に出てきて少し時間が経過したみたいと言う長い年月（3000年くらい（天地戦争を含む必要がある））寝ていたこと
-        /alice odl alice prm s01 f - - thought アリスが「新しい人生になるのかな。きっと上手くいく」と言う[ref-032]
+        /alice odl alice fsh s05 f - - @zavia- アリスが世界にザヴィの気配がしないことに気付く
+        /alice li1 alice fsh s28 f - - @alice- アリスが地上に出てきて少し時間が経過したみたいと言う長い年月（5000年くらい（天地戦争を含む必要がある））寝ていたこと
         /leona odl third rel c69 f - - @o'dorg オー゠ドルグが前に進みたいと願っている娘が来るはずじゃと言う
         /integ evn third --- --- f - - @o'dorg オー゠ドルグが東を訪ねアリスがあっちと指し示し少しして東と西はどっちがどっちだっけ？と言うも老爺を望んで物知り顔でまいっかと言う
 
@@ -79,6 +69,15 @@
         - 二人のやり取り
         - バトル
       contents:
+        /integ evn leona --- --- f - - ------- レオナ登場
+        /integ mod leona --- --- f - - ------- 栗色のボブ、虹彩は濃茶色、上は体にフィットしたノースリーブの上に胸甲をして下はホットパンツ
+        /integ mod leona --- --- f - - ------- アリスより身長が高く胸は小振りなリンゴほど
+        /integ evn multi --- --- f - - ------- 敵視するレオナとやりとり（人族にしては美しすぎる）してアリスの腹が鳴ると打ち解ける
+        /leona odl leona hnt s09 f - - ------- レオナがここに運命を変える出会いが待っていると言われていてと言う「あなたがそうなの？」
+        /leona odl leona --- --- f - - ------- 回想シーンで剣戟の音が聞え煙がくすぶる中で占術師がこの印象を覚えておいてくださいと言ったところで回想が途切れる
+        /integ evn leona --- --- f b - ------- 魔物をレオナが倒す
+        /leona odl alice rel c14 f - - ------- アリスがレオナの剣を褒める
+        /leona li1 leona rel c51 f - - @fencer レオナはドラゴンを倒した剣士の家系だと話す
 
     3:
       gist:
@@ -87,6 +86,12 @@
         - 世界の神秘
         - アリスの感情の推移
       contents:
+        /integ evn alice --- --- f - - ------- アリスがザヴィについて尋ねる
+        /integ inf leona fsh s31 f - - @zavia- ザヴィは世界を滅ぼそうとして倒された[ref-043]
+        /alice odl alice fsh s05 f - - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
+        /alice odl alice prm s02 f - - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
+        /integ inf leona cat s41 f - - @orb--- 遷世教団の話題を出す　ザヴィを倒した人が遷世教団を作った
+        /alice odl alice prm s03 f - - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
 
     4:
       gist:
@@ -95,6 +100,12 @@
       intarest:
         - 葛藤 => イマイチ信用していないレオナ
       contents:
+        /leona odl alice --- --- f - - ------- アリスがレオナを旅に誘う
+        /leona odl alice prm s06 f - - gDesire アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった「前に、進みたいです」[ref-025]
+        /leona odl alice rel c69 f - - gDesire アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった「前に、進みたいです」[ref-025]
+        /leona odl leona --- --- f - - ------- レオナの回想シーンで占術師がこの印象を覚えておいてくださいと言ったシーンが思い出される
+        /integ evn grp11 --- --- f - - ------- アリスの旅にレオナが加わる
+        /alice lov multi --- --- f - - favorbl 手をつなぐ
 
 
 2:
@@ -171,7 +182,7 @@
   location: p3 遷世教団の神殿 . p2 街
   location tone:
     p2: 明るい, 栄光の道
-    p3: work location
+    p3: 思いのほか明るい, 小楽園, 狂信
   destination:
     start: p3 遷世教団の神殿
     middle: -
@@ -195,7 +206,7 @@
         /integ mod noCha --- --- f - - ------- 神殿内の人の様子、外来者の衣装
         /integ mod noCha --- --- f - - ------- 信者は粗末な白いローブをまとっている、アリスたちは似たものを外で買ってしれっと来ている
         /integ evn grp11 --- --- f - - ------- 遷世教団の神殿に忍び込む
-        /integ evn grp11 --- --- f - - @hestel エスの神珠から感じられる神気に思い当たりがある、はっきり思い出せない　私の記憶は古いからね（ヘスト゠エリア）
+        /integ evn grp11 rel c58 f - - @hestel エスの神珠から感じられる神気に思い当たりがある、はっきり思い出せない　私の記憶は古いからね（ヘスト゠エリア）
         /alice li1 rose- fsh s28 b - - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
         /alice li1 rose- rel c35 b - - @evil-- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
         /integ inf third fsh s29 f - - @es---- 遷世教団は遷世神エスに仕えている
@@ -409,7 +420,7 @@
         /integ mod noCha --- --- f - - ------- 森の様子、明るい葉色の中にもさらに明るい若葉が繁っているエルヒダの木の純林となった
         /integ mod noCha --- --- f - - ------- 道の様子、踏み固められたわだちのある黒褐色の地面、ところどころ木の根が張りだして馬車は大変そうだ
         /integ evn grp11 --- --- f - - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
-        /integ evn petra --- --- f - - @hestel ペトラが見つけた碑文「エス＝◯◯◯◯リア」
+        /integ evn petra rel c58 f - - @hestel ペトラが見つけた碑文「エス＝◯◯◯◯リア」
         /integ evn petra --- --- f - - @rose-- ペトラが見つけた碑文「エスの使徒と特別な人間の少女の関係」
         /petra odl alice --- --- f - - ------- アリス「人生を切り開くには危険を冒さないといけないの。その勇気を持てるかどうかが鍵になるんだよ」
         /petra odl petra --- --- f - - ------- アリスを嫌いと言う
@@ -451,6 +462,7 @@
   location: p11 魔法使いの老婆の家 . p10 森
   location tone:
     p10: 明るい, 先行きの不安
+    p11: 薄暗い, 生活空間は散らかっているが魔法の部屋は整然としている
   destination:
     start: p12 魔力泉の街
     middle: p11 魔法使いの老婆の家
@@ -582,6 +594,7 @@
         /alice odl alice fsh s05 f - - @ring-- アリスが妖精女王に素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
         /alice li1 third fsh s28 f - - @alice- 妖精女王は指輪を検分してアリス（高位の存在）になんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
         /integ inf third fsh s39 f - - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
+        /integ inf third rel c58 f - - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
         /alice odl alice pre smd f - - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
         /alice odl alice pre sls f - - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
         /alice odl alice hnt smd f - - thought ローズと戦うことになる予感が強くなる
@@ -656,6 +669,7 @@
   location: p15 湖畔の街, p16 湖底の洞窟
   location tone:
     p15: おしゃれ, 華やぎ
+    p16: 
   destination:
     start: 居住地7（対岸の街）
     middle: 湖底の洞窟
@@ -686,11 +700,12 @@
         /integ evn third rel c54 f - - ------- 水棲ドラゴンがバルドロードの{ドラゴンアイテム}を感知して湖底洞窟の祠に連れていってくれる
         /integ evn noCha rel c56 f - - ------- 砂浜の描写
         /integ evn noCha rel c55 f - - ------- 湖底の街の描写
-        /integ inf third fsh s29 f - - @es---- エスは邪神の呪いによって世界の破壊を欲するようにされた
-        /integ inf third fsh r46 f - - @es---- エスは邪神の呪いによって世界の破壊を欲するようにされた
-        /integ inf third rel c35 f - - @evil-- エスは邪神の呪いによって世界の破壊を欲するようにされた
+        /integ inf noCha rel c58 f - - @hestel 祠の文字エス＝◯◯◯゠エ◯◯
+        /integ inf noCha fsh s29 f - - @es---- 祠の古文書 => エスは邪神の呪いによって世界の破壊を欲するようにされた
+        /integ inf noCha fsh r46 f - - @es---- 祠の古文書 => エスは邪神の呪いによって世界の破壊を欲するようにされた
+        /integ inf noCha rel c35 f - - @evil-- 祠の古文書 => エスは邪神の呪いによって世界の破壊を欲するようにされた
         /integ inf alice fsh s39 f - - @es---- アリスが邪神の呪いなら解呪できると思うと言う
-        /integ inf third rel c34 f - - @elf--- 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
+        /integ inf noCha rel c34 f - - @elf--- 祠の古文書 => 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
 
 
 13:
@@ -702,6 +717,7 @@
     notes: 夕方に終わるのが理想的だが、そんな長引くだろうか
   location: p17 湖の砂浜, p18 湖底の街跡
   location tone:
+    p17: 照りつける太陽, 秘密の砂浜
     p18: 不思議, 幻想
   destination:
     start: p17 湖の砂浜
@@ -885,6 +901,8 @@
     end: 午前中
     notes: p21 野営地で1泊して翌朝
   location: p22 草原（野営地の近く）
+  location tone:
+    p22: ところどころにまとまって草花, 明るい, 風が吹き抜ける
   destination:
     start: p24 街
     middle: -
@@ -987,6 +1005,8 @@
     end: 朝
     notes: 合宿明けの朝
   location: p22 草原（野営地の近く）
+  location tone:
+    p22: ところどころにまとまって草花, 明るい, 風が吹き抜ける
   destination:
     start: p24 街
     middle: -
@@ -1063,6 +1083,8 @@
     end: 夕方前
     notes: p24 街に1泊して翌日
   location: p25 森
+  location tone:
+    p25: 祝福の地, 明るい, 色鮮やか
   destination:
     start: p26 カルダ
     middle: p26 カルダ
@@ -1101,6 +1123,8 @@
     end: 
     notes: 5日移動して到着
   location: p26 カルダ
+  location tone:
+    p26: 苔むした遺跡, 建造物の存在がかすかに感じられる
   destination:
     start: p27 エリク
     middle: p27 エリク
@@ -1141,6 +1165,8 @@
     end: 昼前
     notes: p26 カルダで1泊して翌日
   location: p27 エリク
+  location tone:
+    p27: 荒廃の地, 草も木も苔もない, 涸れた川、泉
   destination:
     start: ハイエルフの叡智のある場所
     middle: ハイエルフの叡智のある場所
@@ -1185,6 +1211,8 @@
     end: 昼すぎ
     notes: ハイエルフの叡智を手に入れてその足で
   location: p27 エリク
+  location tone:
+    p27: 荒廃の地, 草も木も苔もない, 涸れた川、泉, 後に楽園
   destination:
     start: 島の中央の大きな木のたもと
     middle: -
@@ -1226,6 +1254,8 @@
     end: 午後
     notes: ローズを倒してその続き
   location: p27 エリク
+  location tone:
+    p27: 楽園
   destination:
     start: -
     middle: -
@@ -1249,7 +1279,7 @@
         /integ inf third rel c35 f - - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
         /alice li1 alice --- --- f - - @alice- 新しい指輪を生み出して嵌めて楽園の広がりを止める
         /alice li1 third fsh r28 f - - @alice- ヘスト゠エリアがアリス様と言って敬う
-        /alice li1 third --- --- f - - @hestel ヘスト゠エリアがアリス様と言って敬う
+        /alice li1 third rel c58 f - - @hestel ヘスト゠エリアがアリス様と言って敬う
         /alice odl alice prm r03 f - - gDesire アリスが復活したエスを抑え魔力珠を手に入れる
-        /alice odl alice prm r01 f - - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
+        /alice odl alice prm r01 f - - thought アリスが「いろいろあったけど、全部まとめて大満足だよ！」と言う
         /alice lov alice --- --- f - - thought アリスの、2人といると楽しいということの再認識
