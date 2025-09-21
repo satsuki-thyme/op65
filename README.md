@@ -38,6 +38,7 @@
 - plot/01/elements-decoration.yml:     プロット要素 情景描写
 - plot/01/elements-background.yml:     プロット要素 背景
 - plot/01/elements-information.yml:    プロット要素 情報
+- plot/01/elements-intersection.yml:   プロット要素 交差
 - plot/01/elements-love.yml:           プロット要素 恋愛
 - plot/01/elements-ordeal.yml:         プロット要素 試練
 - plot/01/elements-sub.yml:            プロット要素 サブ

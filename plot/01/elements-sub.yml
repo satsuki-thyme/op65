@@ -4,78 +4,78 @@
   dn: アリス
   contents:
     ^li1 - アリスが原初の少女であること
-    done/alice li1 alice hnt s28 f - @alice- 魔法を無詠唱で使って詠唱が必要なことに気づく
-    done/alice li1 alice hnt s28 f - @alice- アリスが地上に出てきてずいぶん経ったみたいと言う
-    done/alice li1 alice hnt s28 f - @alice- アリスが所作が洗練されていて王族のようだと言う
-    done/alice li1 alice hnt s28 f - @alice- 発狂した水の大精霊を鎮める
-    done/alice li1 third hnt s28 f - @alice- 水の大精霊は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
-    done/alice li1 rose- hnt s28 b - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
-    done/alice li1 alice hnt s28 f - @alice- アリスがレオナをつい本気で治療して指輪が熱を持って気づく
-    done/alice li1 third hnt s28 f - @alice- 妖精女王はアリスになんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
-    done/alice li1 alice hnt s28 f - @alice- 動物と話ができる
-    done/alice li1 alice hnt s28 f - @alice- 花を結実させる
-    done/alice li1 alice hnt s28 f - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
-    done/alice li1 alice hnt s28 f - @alice- アリスの力が解放されてエリクが楽園になる
-    done/alice li1 alice --- --- f - @alice- 新しい指輪を生み出して嵌めて楽園の広がりを止める
-    done/alice li1 third hnt r28 f - @alice- ヘスト゠エリアがアリス様と言って敬う
+    done/alice li1 alice hnt s28 f - lice- 魔法を無詠唱で使って詠唱が必要なことに気づく
+    done/alice li1 alice hnt s28 f - lice- アリスが地上に出てきてずいぶん経ったみたいと言う
+    done/alice li1 alice hnt s28 f - lice- アリスが所作が洗練されていて王族のようだと言う
+    done/alice li1 alice hnt s28 f - lice- 発狂した水の大精霊を鎮める
+    done/alice li1 third hnt s28 f - lice- 水の大精霊は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
+    done/alice li1 rose- hnt s28 b - lice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
+    done/alice li1 alice hnt s28 f - lice- アリスがレオナをつい本気で治療して指輪が熱を持って気づく
+    done/alice li1 third hnt s28 f - lice- 妖精女王はアリスになんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
+    done/alice li1 alice hnt s28 f - lice- 動物と話ができる
+    done/alice li1 alice hnt s28 f - lice- 花を結実させる
+    done/alice li1 alice hnt s28 f - lice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
+    done/alice li1 alice hnt s28 f - lice- アリスの力が解放されてエリクが楽園になる
+    done/alice li1 alice --- --- f - lice- 新しい指輪を生み出して嵌めて楽園の広がりを止める
+    done/alice li1 third hnt r28 f - lice- ヘスト゠エリアがアリス様と言って敬う
 
     ^li1 - アリスが原初の少女であること - アリス、博愛で慈愛が深い
-    /alice li1 alice hnt s28 f - - @alice- 食事の前の感謝の捧げ方が深い
-    /alice li1 alice hnt s28 f - - @alice- 動物が寄ってきて懐く
-    /alice li1 alice hnt s28 f - - @alice- 犯罪者にも寛容
-    /alice li1 alice hnt s28 f - - @alice- 可哀相な子供に恵む
+    /alice li1 alice hnt s28 f - @alice- 食事の前の感謝の捧げ方が深い
+    /alice li1 alice hnt s28 f - @alice- 動物が寄ってきて懐く
+    /alice li1 alice hnt s28 f - @alice- 犯罪者にも寛容
+    /alice li1 alice hnt s28 f - @alice- 可哀相な子供に恵む
 
     ^li1 - アリスが原初の少女であること - アリス、地母神のような愛と威厳
-    /alice li1 alice hnt s28 f - - @alice- 粗暴な男もおとなしくなる
+    /alice li1 alice hnt s28 f - @alice- 粗暴な男もおとなしくなる
 
     ^li1 - アリスが原初の少女であること - アリス、謎の話をする
-    /alice li1 alice hnt s28 f - - @alice- レオナの剣を見てアレキアのフェイダーズみたいな剣ね、などと言う
-    /alice li1 alice hnt s28 f - - @alice- ミリアの魔法を見てリケルが見たら喜びそうね、などと言う
-    /alice li1 alice hnt s28 f - - @alice- ミリアが精霊魔法を使えない理由を言う
-    /alice li1 alice hnt s28 f - - @alice- 新商品を見てエリスニアのビッケのほうが先だったわ、などと言う
-    /alice li1 alice hnt s28 f - - @alice- 歴史はだいたい分かったとして、デュオリアの神殿はなくなっちゃったのね、などと言う
-    /alice li1 alice hnt s28 f - - @alice- レオナと言葉の確認をする
+    /alice li1 alice hnt s28 f - @alice- レオナの剣を見てアレキアのフェイダーズみたいな剣ね、などと言う
+    /alice li1 alice hnt s28 f - @alice- ミリアの魔法を見てリケルが見たら喜びそうね、などと言う
+    /alice li1 alice hnt s28 f - @alice- ミリアが精霊魔法を使えない理由を言う
+    /alice li1 alice hnt s28 f - @alice- 新商品を見てエリスニアのビッケのほうが先だったわ、などと言う
+    /alice li1 alice hnt s28 f - @alice- 歴史はだいたい分かったとして、デュオリアの神殿はなくなっちゃったのね、などと言う
+    /alice li1 alice hnt s28 f - @alice- レオナと言葉の確認をする
 
 
     ^li2 - ザヴィへの愛から指輪が大切であること
-    /alice li2 alice hnt s02 f - - @ring-- 指輪を対価に情報を渡すと言われて強く拒否する
+    /alice li2 alice hnt s02 f - @ring-- 指輪を対価に情報を渡すと言われて強く拒否する
 
 
 - item:
   dn: ミリア
   contents:
     ^li1 - 強い精霊と契約する
-    done/myria li1 myria rel c48 f - - @spirit 強力な精霊との出会い
-    done/myria li1 myria rel c48 f - - @spirit 強力な精霊の拒絶
-    done/myria li1 myria rel c48 f - - @spirit 強力な精霊とのふれあい
-    done/myria li1 myria rel c48 f - - @spirit 強力な精霊との契約
+    done/myria li1 myria rel c48 f - @spirit 強力な精霊との出会い
+    done/myria li1 myria rel c48 f - @spirit 強力な精霊の拒絶
+    done/myria li1 myria rel c48 f - @spirit 強力な精霊とのふれあい
+    done/myria li1 myria rel c48 f - @spirit 強力な精霊との契約
 
 
 - item:
   dn: ローズ
   contents:
     ^li1 - ローズが神の眷属であること
-    done/rose- li1 rose- hnt s30 b - @rose-- ローズは自死することができない
-    done/rose- li1 rose- hnt s30 b - @rose-- ローズが鉢植えの遅れている蕾を開花させる
-    done/rose- li1 rose- hnt s30 b - @rose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
-    done/rose- li1 rose- hnt s30 b - @rose-- ローズが神殿教会のバルコニーに立つと晴れる
-    done/rose- li1 rose- hnt s30 b - @rose-- ローズがエリーを強化する
-    done/rose- li1 rose- hnt s30 b - @rose-- ローズに後光が射す
-    done/rose- li1 rose- hnt s30 b - @rose-- ローズが自分自身を強化する
-    done/rose- li1 rose- hnt s30 b - @rose-- ローズの強化にともなって妖精が生まれては祝福して消えていく
-    done/rose- li1 rose- hnt r30 f - @rose-- ローズがエスは封印される直前に使徒をローズに融合させたと告白する
+    done/rose- li1 rose- hnt s30 b - ose-- ローズは自死することができない
+    done/rose- li1 rose- hnt s30 b - ose-- ローズが鉢植えの遅れている蕾を開花させる
+    done/rose- li1 rose- hnt s30 b - ose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
+    done/rose- li1 rose- hnt s30 b - ose-- ローズが神殿教会のバルコニーに立つと晴れる
+    done/rose- li1 rose- hnt s30 b - ose-- ローズがエリーを強化する
+    done/rose- li1 rose- hnt s30 b - ose-- ローズに後光が射す
+    done/rose- li1 rose- hnt s30 b - ose-- ローズが自分自身を強化する
+    done/rose- li1 rose- hnt s30 b - ose-- ローズの強化にともなって妖精が生まれては祝福して消えていく
+    done/rose- li1 rose- hnt r30 f - ose-- ローズがエスは封印される直前に使徒をローズに融合させたと告白する
 
     ^li2 - ローズの計画
-    done/rose- odl rose- hnt s05 b - @orbPln ローズが封界の指輪を見て「見つけた！」と言って笑む
-    done/rose- li2 rose- hnt s33 b - @orbPln ローズがアリスは魔力珠を追うと言う
-    done/rose- li2 third hnt s33 f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
-    done/rose- li2 rose- hnt s33 b - @orbPln アリスたちが魔力珠がエリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
-    done/rose- li2 rose- hnt s33 f - @orbPln ローズは魔力珠とともにエリクに行って世界を終わらせる
-    done/rose- li2 rose- hnt s33 b - @orbPln 望みの全てはエリクの封印に懸かっている
-    done/rose- li2 rose- hnt s33 b - @orbPln エスは封印の中で邪神の呪いに苛まれている
-    done/rose- li2 petra hnt s33 f - @orbPln 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
-    done/rose- li2 rose- hnt s33 b - @orbPln エスの封印は封印を上回る魔力が内側から放出されることで解ける
-    done/rose- li2 rose- hnt s33 b - @orbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
-    done/rose- li2 erie- pre s40 b - @orbPln エリーがローズが死ぬ気でいると悟る
+    done/rose- odl rose- hnt s05 b - rbPln ローズが封界の指輪を見て「見つけた！」と言って笑む
+    done/rose- li2 rose- hnt s33 b - rbPln ローズがアリスは魔力珠を追うと言う
+    done/rose- li2 third hnt s33 f - rbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる
+    done/rose- li2 rose- hnt s33 b - rbPln アリスたちが魔力珠がエリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
+    done/rose- li2 rose- hnt s33 f - rbPln ローズは魔力珠とともにエリクに行って世界を終わらせる
+    done/rose- li2 rose- hnt s33 b - rbPln 望みの全てはエリクの封印に懸かっている
+    done/rose- li2 rose- hnt s33 b - rbPln エスは封印の中で邪神の呪いに苛まれている
+    done/rose- li2 petra hnt s33 f - rbPln 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
+    done/rose- li2 rose- hnt s33 b - rbPln エスの封印は封印を上回る魔力が内側から放出されることで解ける
+    done/rose- li2 rose- hnt s33 b - rbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
+    done/rose- li2 erie- pre s40 b - rbPln エリーがローズが死ぬ気でいると悟る
     done/rose- li2 erie- pre s33 r40 f - @orbPln ローズは死ぬ気でいる
-    done/rose- li2 rose- hnt r33 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
+    done/rose- li2 rose- hnt r33 f - rbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
