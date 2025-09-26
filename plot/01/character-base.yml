@@ -20,17 +20,16 @@ details:
  ##     ## ##        ##  ##    ## ##
  ##     ## ######## ####  ######  ########
 
-  - item: アリス
+  - dn: アリス
     charm:
-      title:
+      contents:
         強気かわいい
-      entity:
-        predicament:
-          果敢に立ち向かう
-        normaly:
-          意のままに振る舞う
+      predicament:
+        果敢に立ち向かう
+      normaly:
+        意のままに振る舞う
     desire:
-      title:
+      contents:
         魔力珠を手に入れたい（ザヴィが作り出した）
         世界を崩壊から救いたい
       conflict:
@@ -70,17 +69,16 @@ details:
  ##       ##       ##     ## ##   ### ##     ##
  ######## ########  #######  ##    ## ##     ##
 
-  - item: レオナ
+  - dn: レオナ
     charm:
-      title:
+      contents:
         明るいさばさば（岩崎さん）かわいい
-      entity:
-        predicament:
-          屈しない
-        normaly:
-          前向き
+      predicament:
+        屈しない
+      normaly:
+        前向き
     desire:
-      title:
+      contents:
         前進したい
         強くなりたい
       conflict:
@@ -120,17 +118,16 @@ details:
  ##     ##    ##    ##    ##   ##  ##     ##
  ##     ##    ##    ##     ## #### ##     ##
 
-  - item: ミリア
+  - dn: ミリア
     charm:
-      title:
+      contents:
         おとなしいお姉さんかわいい
-      entity:
-        predicament:
-          受け流す、受容する、許す
-        normaly:
-          面倒見がいい
+      predicament:
+        受け流す、受容する、許す
+      normaly:
+        面倒見がいい
     desire:
-      title:
+      contents:
         ハイエルフの叡智が欲しい
       conflict:
         フェイ
@@ -169,17 +166,16 @@ details:
  ##        ##          ##    ##    ##  ##     ##
  ##        ########    ##    ##     ## ##     ##
 
-  - item: ペトラ
+  - dn: ペトラ
     charm:
-      title:
+      contents:
         やんちゃかわいい
-      entity:
-        predicament:
-          怯える
-        normaly:
-          はしゃいでいる
+      predicament:
+        怯える
+      normaly:
+        はしゃいでいる
     desire:
-      title:
+      contents:
         名声を得たい
       conflict:
         臆病な自分
@@ -217,17 +213,16 @@ details:
  ##    ##  ##     ## ##    ## ##
  ##     ##  #######   ######  ########
 
-  - item: ローズ
+  - dn: ローズ
     charm:
-      title:
+      contents:
         傲慢妖艶
-      entity:
-        predicament:
-          諦めない
-        normaly:
-          意のままに振る舞う
+      predicament:
+        諦めない
+      normaly:
+        意のままに振る舞う
     desire:
-      title:
+      contents:
         false = 遷世したい, true = 人族を滅亡させたい
       conflict:
         アリス
@@ -265,17 +260,16 @@ details:
  ##       ##    ##   ##  ##
  ######## ##     ## #### ########
 
-  - item: エリー
+  - dn: エリー
     charm:
-      title:
+      contents:
         冷徹妖艶
-      entity:
-        predicament:
-          冷徹の下の煮えたぎる情熱
-        normaly:
-          冷静沈着
+      predicament:
+        冷徹の下の煮えたぎる情熱
+      normaly:
+        冷静沈着
     desire:
-      title:
+      contents:
         レオナに復讐したい
       conflict:
         レオナ
@@ -313,17 +307,16 @@ details:
  ##       ##        ##
  ##       ######## ####
 
-  - item: フェイ
+  - dn: フェイ
     charm:
-      title:
+      contents:
         壮絶妖艶
-      entity:
-        predicament:
-          散り様が美しい
-        normaly:
-          派手
+      predicament:
+        散り様が美しい
+      normaly:
+        派手
     desire:
-      title:
+      contents:
         ミリアを手に入れたい
       conflict:
         ミリアがなびかない
