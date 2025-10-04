@@ -147,6 +147,7 @@
 - thinking-notes/thi-055.md: アリスが原初の少女であるヒント
 - thinking-notes/thi-056.md: アリスが指輪を大切にしている様子
 - thinking-notes/thi-057.md: 見せたい世界観
+- thinking-notes/thi-058.md: アリスとミリアの関係
 
 ### アーカイブ
 

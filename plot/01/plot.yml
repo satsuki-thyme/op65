@@ -7,8 +7,8 @@
  ##    ## ##       ##    ##    ##    ###       ##
   ######  ########  ######     ##    ###     ######  assembly:
 1:
+  summary: レオナとの出会い
   header:
-    summary: レオナとの出会い
     elapsed days: 0
     time:
       start: 朝
@@ -49,13 +49,13 @@
         /integ mod alice --- --- f - ------- 空色のショート、虹彩は晩紺色、上はボディラインの見える軍服のようなデザイン、下はミニスカートがパニエで膨らんでいる
         /integ mod alice --- --- f - ------- 小柄の痩せ型で胸はレモンほどの膨らみ
         /integ mod alice --- --- f - ------- 腰背に大振りのナイフ
-        /alice odl alice prm s01 f - thought アリスが「全部まとめて満足の冒険ができるかな？」と言う[ref-032]
+        /alice odl alice prm s01 f - ------- アリスが「全部まとめて満足の冒険ができるかな？」と言う[ref-032]
         /alice odl alice --- --- f - ------- ザヴィの存在を感じないことに不安を漏らす
         /integ evn alice fsh s39 f - @hestel ヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
         /integ evn alice --- --- f - ------- 空腹
         /integ evn alice rel c72 f b ------- 狼の親子に襲われる一件
         /alice li1 alice fsh s28 f - @alice- 魔法を無詠唱で使って詠唱が必要なことに気づく
-        /alice odl alice prm s02 f - thought アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
+        /alice odl alice prm s02 f - ------- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
         /alice odl alice fsh s05 f - @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
         /alice odl alice fsh s05 f - @zavia- アリスが世界にザヴィの気配がしないことに気付く
         /alice li1 alice fsh s28 f - @alice- アリスが地上に出てきて少し時間が経過したみたいと言う長い年月（5000年くらい（天地戦争を含む必要がある））寝ていたこと
@@ -71,7 +71,7 @@
         - バトル
       contents:
         /integ evn leona --- --- f - ------- レオナ登場
-        /integ mod leona --- --- f - ------- 栗色のボブ、虹彩は濃茶色、上は体にフィットしたノースリーブの上に胸甲をして下はホットパンツ
+        /integ mod leona --- --- f - ------- 栗色のボブ、虹彩は濃茶色、上は裾を切り詰めたタンクトップの上に胸甲をして下はホットパンツ
         /integ mod leona --- --- f - ------- アリスより身長が高く胸は小振りなリンゴほど
         /integ evn multi --- --- f - ------- 敵視するレオナとやりとり（人族にしては美しすぎる）してアリスの腹が鳴ると打ち解ける
         /leona odl leona hnt s09 f - ------- レオナがここに運命を変える出会いが待っていると言われていてと言う「あなたがそうなの？」
@@ -110,8 +110,8 @@
 
 
 2:
+  summary: ミリアとの出会い, 水の大精霊を沈静化する
   header:
-    summary: ミリアとの出会い, 水の大精霊を沈静化する
     elapsed days: 1
     time:
       start: 昼前
@@ -185,7 +185,7 @@
           /alice odl alice pre s04 f - favorbl レオナが引き付けている間にアリスが暴れる水の大精霊をおとなしくさせる
           /alice li1 alice fsh s28 f - @alice- 発狂した水の大精霊を鎮める
           /alice li1 third fsh s28 f - @alice- 水の大精霊は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
-          /myria odl myria pre s38 f - thought 強い精霊信仰 => 精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
+          /myria odl myria pre s38 f - ------- 強い精霊信仰 => 精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
           /integ evn alice rel c49 f - ------- 水の大精霊と交友を持つ
           /integ inf alice rel c35 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
           /integ inf alice rel c52 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
@@ -212,8 +212,8 @@
 
 
 3:
+  summary: アリス 試練 1, 遷世教団の神殿に忍び込む
   header:
-    summary: アリスの試練 1, 遷世教団の神殿に忍び込む
     elapsed days: 2
     time:
       start: 午前
@@ -315,8 +315,8 @@
 
 
 4:
+  summary: ペトラとの出会い, 星の大精霊との出会い
   header:
-    summary: ペトラとの出会い, 星の大精霊との出会い
     elapsed days: 3
     time:
       start: 午前
@@ -410,8 +410,8 @@
 
 
 5:
+  summary: レオナ 試練 1, 盗賊騎士の関門
   header:
-    summary: レオナの試練 1, 盗賊騎士の関門
     elapsed days: 4
     time:
       start: 午前
@@ -488,8 +488,8 @@
 
 
 6:
+  summary: レオナの背景, 祭り（中身がないぞ）, イマイチの剣を買う
   header:
-    summary: レオナの背景, 祭り（中身がないぞ）, イマイチの剣を買う
     elapsed days: 5
     time:
       start: 遅い朝
@@ -566,8 +566,8 @@
 
 
 7:
+  summary: ペトラ 試練, 妖精の森でのドラゴン「バルドロード」との対話
   header:
-    summary: ペトラの試練, 妖精の森でのドラゴン「バルドロード」との対話
     elapsed days: 6, 7
     time:
       start: 午前
@@ -663,8 +663,8 @@
 
 
 8:
+  summary: ミリア 試練 1, 魔法使いの老婆を助ける
   header:
-    summary: ミリアの試練 1, 魔法使いの老婆を助ける
     elapsed days: 8
     time:
       start: 昼
@@ -701,11 +701,10 @@
           /myria odl alice pre sls f - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
           /myria odl alice rel c62 f - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
         /myria odl myria pre r12 f b ordeal- ミリアがフェイと戦う[ref-030]
-          /myria odl myria fct r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
+          /myria odl myria fct r20 f - thought フェイが幻霊を召喚してミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
           /myria odl fei-- pre s13 f - results フェイが「また来る」と言って撤退する
           /myria odl alice --- --- f - ------- アリスが戦いに干渉する
           /myria odl leona --- --- f - ------- レオナが戦いに干渉する
-          /myria odl myria pre s60 f - ------- ミリアがこの先フェイとの戦闘に干渉しないでと言う
         /leona odl multi pre smd f - ------- レオナがアリスに訓練してもらう[ref-018]
   assembly:
     1:
@@ -752,8 +751,8 @@
 
 
 9:
+  summary: ミリアの背景, 魔力泉の街, ミリアが星の大精霊と契約できない
   header:
-    summary: ミリアの背景, 魔力泉の街, ミリアが星の大精霊と契約できない
     elapsed days: 9
     time:
       start: 朝
@@ -832,8 +831,8 @@
 
 
 10:
+  summary: 妖精女王への謁見, 
   header:
-    summary: 妖精女王への謁見, 
     elapsed days: 9
     time:
       start: 昼
@@ -927,8 +926,8 @@
 
 
 11:
+  summary: アリス 試練 2
   header:
-    summary: ローズとの戦闘 2
     elapsed days: 10
     time:
       start: 昼
@@ -1008,8 +1007,8 @@
 
 
 12:
+  summary: アリスの背景
   header:
-    summary: アリスの背景
     elapsed days: 11
     time:
       start: 朝
@@ -1094,8 +1093,8 @@
 
 
 13:
+  summary: 水着回
   header:
-    summary: 水着回
     elapsed days: 12
     time:
       start: 朝
@@ -1163,8 +1162,8 @@
 
 
 14:
+  summary: ペトラが妖精領主になる
   header:
-    summary: ペトラが妖精領主になる
     elapsed days: 15, 16, 17
     time:
       start: 昼前
@@ -1244,8 +1243,8 @@
 
 
 15:
+  summary: レオナ 試練 2
   header:
-    summary: エリーとの戦闘 2
     elapsed days: 18
     time:
       start: 昼前
@@ -1322,8 +1321,8 @@
 
 
 16:
+  summary: 野営
   header:
-    summary: 野営
     elapsed days: 18
     time:
       start: 夕方
@@ -1416,8 +1415,8 @@
 
 
 17:
+  summary: ミリア 試練 2
   header:
-    summary: フェイとの戦闘 2
     elapsed days: 19
     time:
       start: 朝
@@ -1445,7 +1444,6 @@
   elements:
         /integ evn grp11 --- --- f - ------- 3人で肩車して上のほうのハニカムから採る全部採るアリスの瓶（陶器、木とコルクのフタ）、俺たちのを持っていけと喧嘩になって両方持っていく
         /myria odl myria pre rmd f b ordeal- ミリアがフェイと戦う
-          /myria odl multi pre r60 f - ------- ミリアが2人は手を出さないと宣言し、アリスとレオナは静観する
           /integ evn myria --- --- f - ------- 草花の亜精霊（人型でない光の粒）に助けられる
           /myria odl myria hnt rmd f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
           /myria odl fei-- --- --- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
@@ -1497,8 +1495,8 @@
 
 
 18:
+  summary: 合宿
   header:
-    summary: 合宿
     elapsed days: 20, 21, 22
     time:
       start: 朝
@@ -1589,8 +1587,8 @@
 
 
 19:
+  summary: ミリア 試練 3
   header:
-    summary: フェイとの戦闘 3
     elapsed days: 23
     time:
       start: 朝
@@ -1663,8 +1661,8 @@
 
 
 20:
+  summary: 星の大精霊との融合
   header:
-    summary: 星の大精霊との融合
     elapsed days: 30
     time:
       start: 朝
@@ -1735,8 +1733,8 @@
 
 
 21:
+  summary: レオナの演武
   header:
-    summary: レオナの演武
     elapsed days: 31
     time:
       start: 午前半ば
@@ -1766,7 +1764,7 @@
         /alice odl alice pre sls f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
         /alice odl alice fct sls f - thought ローズを倒すべきだと分かっている
         /leona odl leona pre sls f - favorbl ミリアとともに具合がいいntt
-        /alice lov alice --- --- f - thought アリスの、ミリアの願いが成就したことで、レオナの試練は予想されるわけで、それが乗り越えられたら告白するという決心
+        /alice lov alice --- --- f - thought アリスの、ミリアの願いが成就したことで、レオナ 試練は予想されるわけで、それが乗り越えられたら告白するという決心
         /grp21
           /leona odl erie- pre sls b - threat- エリーがパワーアップして異形になる[ref-026]
           /grp21 lov multi --- --- b - ------- エロいことをする[ref-037-5]
@@ -1809,8 +1807,8 @@
 
 
 22:
+  summary: レオナ 試練 3
   header:
-    summary: エリーとの戦闘 3
     elapsed days: 36
     time:
       start: 
@@ -1842,8 +1840,8 @@
         /rose- li2 erie- pre r40 f - @orbPln ローズは死ぬ気でいる
         /leona odl third pre s64 f - @o'dorg オー゠ドルグがレオナに何が一番大切か、じゃ　前に進みたいんじゃろう？　置いていかねばならんものもあると言う
         /leona odl leona pre rls f b ordeal- レオナがエリーと戦う
-          /leona odl leona fct rls f - thought ピンチでアリスたちとの幸せを掴みたいと願い、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
-          /leona odl leona pre r64 f - @o'dorg ピンチでアリスたちとの幸せを掴みたいと願い、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
+          /leona odl leona fct rls f - thought ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
+          /leona odl leona pre r64 f - @o'dorg ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
           /leona odl leona --- --- f - results レオナがエリーを倒す
           /leona odl leona rel c51 f - @fencer 剣に封じられていた竜克の女剣士レイティア・アルテノートの力を受け継ぐ
           /erie- odl erie- prm rls f - results エリーがレオナに敗北する
@@ -1885,8 +1883,8 @@
 
 
 23:
+  summary: ハイエルフの叡智を得る
   header:
-    summary: ハイエルフの叡智を得る
     elapsed days: 37
     time:
       start: 朝
@@ -1965,8 +1963,8 @@
 
 
 24:
+  summary: アリス 試練 3
   header:
-    summary: ローズとの戦闘 3
     elapsed days: 37
     time:
       start: 昼前
@@ -2042,8 +2040,8 @@
 
 
 25:
+  summary: エスとの邂逅
   header:
-    summary: エスとの邂逅
     elapsed days: 37
     time:
       start: 午後
