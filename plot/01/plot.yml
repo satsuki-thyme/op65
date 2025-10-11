@@ -91,6 +91,9 @@
         /integ inf leona fsh s31 f - @zavia- ザヴィは世界を滅ぼそうとして倒された[ref-043]
         /alice odl alice fsh s05 f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
         /alice odl alice prm s02 f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
+        /alice in> leona --- --- f - ------- アリスがザヴィのことで泣き崩れる（信頼関係の構築）
+        /leona in< alice --- --- f - ------- アリスがザヴィのことで泣き崩れる（信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ inf leona cat s41 f - @orb--- 遷世教団の話題を出す　ザヴィを倒した人が遷世教団を作った
         /alice odl alice prm s03 f - gDesire アリスがザヴィに関係する魔力珠を探す旅をすることにする[ref-033]
 
@@ -104,6 +107,9 @@
         /leona odl alice --- --- f - ------- アリスがレオナを旅に誘う
         /leona odl alice prm s06 f - gDesire アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった「前に、進みたいです」[ref-025]
         /leona odl alice rel c69 f - gDesire アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった「前に、進みたいです」[ref-025]
+        /alice in> leona --- --- f - ------- レオナに前に進みたいと打ち明けられる（信頼関係の構築）
+        /leona in< alice --- --- f - ------- アリスに前に進みたいとつい話してしまう（信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /leona odl leona --- --- f - ------- レオナの回想シーンで占術師がこの印象を覚えておいてくださいと言ったシーンが思い出される
         /integ evn grp11 --- --- f - ------- アリスの旅にレオナが加わる
         /alice lov multi --- --- f - favorbl 手をつなぐ
@@ -169,9 +175,9 @@
       contents:
         /integ evn alice --- --- f - ------- ミリアを見付けて可愛いと言う
         /integ evn grp11 --- --- f b ------- 発狂した水の大精霊と対峙する
-          /alice odl alice fct s18 f - ------- アリスが周囲への害を強く気にする
-          /integ evn myria --- --- f - ------- ミリアが水の大精霊と対峙して跳ね飛ばされる
-          /integ evn myria pre s65 f - ------- アリスが見抜いて期待し、期待外れ　ミリアの精霊魔法が弱いことを印象づける
+        /alice odl alice fct s18 f - ------- アリスが周囲への害を強く気にする
+        /integ evn myria --- --- f - ------- ミリアが水の大精霊と対峙して跳ね飛ばされる
+        /integ evn myria pre s65 f - ------- アリスが見抜いて期待し、期待外れ　ミリアの精霊魔法が弱いことを印象づける
     3:
       gist:
         - バトル佳境
@@ -180,15 +186,24 @@
         - バトル
         - 水の大精霊と訳ありな感じのアリス
       contents:
-          /integ evn grp11 --- --- f - ------- アリスとレオナが水の大精霊と対峙する
-          /alice odl alice fsh s05 f - @ring-- 発狂した水の大精霊を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
-          /alice odl alice pre s04 f - favorbl レオナが引き付けている間にアリスが暴れる水の大精霊をおとなしくさせる
-          /alice li1 alice fsh s28 f - @alice- 発狂した水の大精霊を鎮める
-          /alice li1 third fsh s28 f - @alice- 水の大精霊は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
-          /myria odl myria pre s38 f - ------- 強い精霊信仰 => 精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
-          /integ evn alice rel c49 f - ------- 水の大精霊と交友を持つ
-          /integ inf alice rel c35 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
-          /integ inf alice rel c52 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
+        /integ evn grp11 --- --- f - ------- アリスとレオナが水の大精霊と対峙する
+        /alice odl alice fsh s05 f - @ring-- 発狂した水の大精霊を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
+        /alice odl alice pre s04 f - favorbl レオナが引き付けている間にアリスが暴れる水の大精霊をおとなしくさせる
+        /alice li1 alice fsh s28 f - @alice- 発狂した水の大精霊を鎮める
+        /alice in> leona --- --- f - ------- レオナとの共闘で水の大精霊を沈静化する（信頼関係の構築）
+        /leona in< alice --- --- f - ------- アリスとの共闘で水の大精霊を沈静化する（信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
+        /alice in> myria --- --- f - ------- ミリアが、精神逆転でエルフを憎む水の大精霊に襲われたところを間一髪でアリスに助けられる（信頼関係の構築）
+        /myria in< alice --- --- f - ------- アリスが、精神逆転でエルフを憎む水の大精霊に襲われたミリアを間一髪で助ける（信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
+        /leona in> myria --- --- f - ------- ミリアが、精神逆転でエルフを憎む水の大精霊に襲われたところをアリスとレオナに助けられる（信頼関係の構築）
+        /myria in< leona --- --- f - ------- レオナが、精神逆転でエルフを憎む水の大精霊に襲われたミリアをアリスとともに助ける（信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
+        /alice li1 third fsh s28 f - @alice- 水の大精霊は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
+        /myria odl myria pre s38 f - ------- 強い精霊信仰 => 精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
+        /integ evn alice rel c49 f - ------- 水の大精霊と交友を持つ
+        /integ inf alice rel c35 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
+        /integ inf alice rel c52 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
         /integ evn multi --- --- f - ------- 衛兵が来て面倒事を避けるためにアリスがレオナとミリアを連れて逃げる
         /alice lov multi --- --- f - favorbl 手をつなぐ
     4:
@@ -245,6 +260,10 @@
         /integ mod noCha --- --- f - ------- 神殿内の人の様子、関係者の衣装
         /integ mod noCha --- --- f - ------- 神殿内の人の様子、外来者の衣装
         /integ mod noCha --- --- f - ------- 信者は粗末な白いローブをまとっている、アリスたちは似たものを外で買ってしれっと来ている
+        /alice in> multi --- --- f - ------- 三人で潜入作戦をして逃げる（信頼関係の構築）
+        /leona in- multi --- --- f - ------- 三人で潜入作戦をして逃げる（信頼関係の構築）
+        /myria in< multi --- --- f - ------- 三人で潜入作戦をして逃げる（信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ evn grp11 --- --- f - ------- 遷世教団の神殿に忍び込む
         /integ evn grp11 rel c58 f - @hestel エスの神珠から感じられる神気に思い当たりがある、はっきり思い出せない　私の記憶は古いからね（ヘスト゠エリア）
         /alice odl alice pre s04 b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
@@ -263,22 +282,21 @@
         /alice odl alice pre s04 f - threat- アリスがローズの噂を聞く[ref-020]
         /alice odl alice hnt s05 f - ------- アリスはローズの名を知っている
         /alice odl alice pre r04 f b ordeal- アリスがローズと戦う
-          /alice odl alice --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
-          /rose- odl rose- fsh s05 b - @orbPln ローズが封界の指輪を見て「見つけた！」と言って笑む
-          /alice odl alice pre sls f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
-          /alice odl alice fsh s05 f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
-          /alice odl alice fct r18 f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+        /alice odl alice --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
+        /rose- odl rose- fsh s05 b - @orbPln ローズが封界の指輪を見て「見つけた！」と言って笑む
+        /alice odl alice pre sls f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+        /alice odl alice fsh s05 f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+        /alice odl alice fct r18 f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
         /integ evn alice hnt s50 f - @rose-- ローズの体が普通の人族＋αの力しかないのに魔力が異常に多いと気付く
         /alice lov alice --- --- f - thought アリスの、2人といると楽しいという気づき
         /alice lov multi --- --- f - favorbl 抱き合う
-        /grp21
-          /rose- odl rose- prm sls b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
-          /rose- etc rose- pre s07 b - threat- ローズが手足はむしっておいたほうがいい。仲間の女は殺せと言う
-          /leona odl erie- pre s16 b - threat- エリーがレオナに憎しみの視線を送る
-          /leona odl erie- hnt s09 b - threat- エリーがレオナに憎しみの視線を送る
-          /myria odl fei-- pre s17 b - threat- フェイがミリアを見て壮絶な笑みを浮かべる
-          /rose- li2 rose- fsh s33 b - @orbPln ローズがアリスは魔力珠を追うと言う
-          /rose- li2 rose- fsh s33 b - @orbPln ローズが使徒は死して神の元に還ると言う
+        /rose- odl rose- prm sls b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
+        /rose- etc rose- pre s07 b - threat- ローズが手足はむしっておいたほうがいい。仲間の女は殺せと言う
+        /leona odl erie- pre s16 b - threat- エリーがレオナに憎しみの視線を送る
+        /leona odl erie- hnt s09 b - threat- エリーがレオナに憎しみの視線を送る
+        /myria odl fei-- pre s17 b - threat- フェイがミリアを見て壮絶な笑みを浮かべる
+        /rose- li2 rose- fsh s33 b - @orbPln ローズがアリスは魔力珠を追うと言う
+        /rose- li2 rose- fsh s33 b - @orbPln ローズが使徒は死して神の元に還ると言う
   assembly:
     1:
       gist:
@@ -346,6 +364,13 @@
         /integ mod noCha --- --- f - ------- 森の様子、若葉が多く目につくラクスの木とアルマータの木の混交林
         /integ mod noCha --- --- f - ------- 道の様子、腐葉土、木が生えていないというだけの道
         /integ mod noCha --- --- f - ------- 妖精の様子
+        /integ evn grp11 rel s74 f - ------- 道に迷う
+        /grp11 in> petra --- --- f - ------- ペトラがアリスたちに助けられる（信頼関係の構築）
+        /petra in< grp11 --- --- f - ------- アリスたちがペトラを助ける（信頼関係の構築）
+        /grp11 pst petra --- --- f - ------- ペトラがアリスたちに懐く（信頼関係の構築）
+        /grp11 in> petra rel r74 f - ------- アリスたちに後で道を教えると約束する（信頼関係の構築）
+        /petra in< grp11 rel r74 f - ------- ペトラが道を教えると約束してくれる（信頼関係の構築）
+        /petra pst grp11 --- --- f - ------- ペトラに案内されて妖精の森に行く（信頼関係の構築）
         /myria li1 myria fct s48 f - @spirit 星の大精霊との出会い「また会うでしょう」[ref-051]
         /integ evn grp11 --- --- f - ------- 妖精の森を訪れる
         /integ evn third --- --- f - ------- 妖精のポヤポヤした様子を描く => ペトラがポヤポヤしていても領主になれる理由
@@ -357,8 +382,8 @@
         /alice lov multi --- --- f - favorbl あーんする
         /leona odl third pre s07 f - @o'dorg オー゠ドルグがレオナに失敗は学ぶためにあると言う
         /leona odl leona pre s07 f b favorbl レオナが魔物を倒して強いところを見せる
-          /leona odl leona pre s07 f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
-          /leona odl leona fct s19 f - thought このままではいけないという思いが漠然としている
+        /leona odl leona pre s07 f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
+        /leona odl leona fct s19 f - thought このままではいけないという思いが漠然としている
         /leona odl leona hnt s09 f - ------- レオナが自分に本当の力があればと悔しがる
         /myria odl myria hnt s13 f - ------- レオナが自分に本当の力があればあんなことと悔しがるのを見て共感する
         /leona odl leona hnt s09 f - ------- レオナが剣は父に教わったと言う
@@ -368,12 +393,11 @@
         /myria odl myria hnt s13 f - ------- ペトラの治療のときの薬草についての説明で危険なところに生えていると言って悲しそうにする
         /leona odl alice hnt s09 f - ------- アリスが国は興って亡びるもの、でも妖精の国（場所4）は続いているわねと言う
         /leona odl leona hnt s09 f - ------- レオナがアリスの言葉を聞いて悲しそうにする
-        /grp21
-          /leona odl erie- pre s07 b - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
-          /leona odl erie- pre r16 b - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
-          /grp21 lov multi --- --- b - ------- 戦いの前にローズがエリーにエロい祝福をする[ref-037-1]
-          /rose- li1 rose- fsh s30 b - @rose-- ローズは自死することができない
-          /rose- li1 rose- fsh s30 b - @rose-- ローズが鉢植えの遅れている蕾を開花させる
+        /leona odl erie- pre s07 b - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
+        /leona odl erie- pre r16 b - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
+        /grp21 lov multi --- --- b - ------- 戦いの前にローズがエリーにエロい祝福をする[ref-037-1]
+        /rose- li1 rose- fsh s30 b - @rose-- ローズは自死することができない
+        /rose- li1 rose- fsh s30 b - @rose-- ローズが鉢植えの遅れている蕾を開花させる
   assembly:
     1:
       gist:
@@ -441,15 +465,18 @@
         /integ mod noCha --- --- f - ------- 道の様子、踏み固められたわだちのある黄褐色の地面でときおり穴がある
         /integ mod noCha --- --- f - ------- 関門の外観
         /integ mod noCha --- --- f - ------- 盗賊騎士の衣装
+        /alice in> leona --- --- f - ------- レオナがアリスに命を救われる（信頼関係の構築）
+        /leona in< alice --- --- f - ------- アリスがレオナの命を救う（信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /leona odl leona pre s07 f - favorbl 盗賊騎士を強気に抑える、通行料の相場を言って認めさせる、妖精から取らせない
         /leona odl leona pre r07 f b ordeal- レオナがエリーと戦う
-          /leona odl erie- hnt s09 f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
-          /leona li1 leona rel c51 f - @fencer レオナがエリーに剣を折られる
-          /leona odl leona pre s09 f - results レオナがエリーに敗北する
-          /leona odl leona fct r19 f - ------- 〃
-          /alice odl alice pre smd f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
-          /alice li1 alice fsh s28 f - @alice- アリスがレオナをつい本気で治療して指輪が熱を持って気づく
-          /erie- odl erie- prm sls f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
+        /leona odl erie- hnt s09 f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
+        /leona li1 leona rel c51 f - @fencer レオナがエリーに剣を折られる
+        /leona odl leona pre s09 f - results レオナがエリーに敗北する
+        /leona odl leona fct r19 f - ------- 〃
+        /alice odl alice pre smd f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
+        /alice li1 alice fsh s28 f - @alice- アリスがレオナをつい本気で治療して指輪が熱を持って気づく
+        /erie- odl erie- prm sls f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
         /alice lov multi --- --- f - ------- アリスが治療する、ミリアが縋り付く
         /alice odl alice hnt smd f - thought ローズが自分たちに目をつけていることに戦いの予感がする
   assembly:
@@ -520,14 +547,18 @@
         /integ mod noCha --- --- f - ------- 祭りの様子、色とりどりの衣装に着飾った女たち
         /integ mod noCha --- --- f - ------- 街の開け放たれた鎧窓から幼子が通りを見ている
         /integ mod noCha --- --- f - ------- 木造建築がほとんど
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /leona odl leona pre smd f - bGround レオナの背景
         /leona odl leona hnt r09 f - bGround レオナの背景
         /leona li1 leona rel c51 f - @fencer レオナがイマイチの剣を買う（折れた剣は直せないとのこと）
         /alice lov alice --- --- f - thought アリスの、レオナへの思いがザヴィに対して感じなかったものだと気づく（たとえザヴィが強すぎて心配の余地がなかったのだとしても）
         /leona odl multi pre smd f - ------- レオナがアリスに訓練してもらう[ref-018] => ひととおり動きが見たいので演武を
         /leona odl multi rel c63 f - ------- レオナがアリスに訓練してもらう[ref-018] => ひととおり動きが見たいので演武を
-          /leona odl alice rel c14 f - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
-          /leona odl alice rel c08 f - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
+        /leona odl alice rel c14 f - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
+        /leona odl alice rel c08 f - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
         /leona odl leona pre s61 f - thought レオナがアリスに戦いに手を出さないでと言う
         /myria odl myria hnt s13 f - ------- アリスがミリアの魔法を褒めると祖母から教わったと嬉しそうにした直後に酷く落ち込む
   assembly:
@@ -596,6 +627,12 @@
   elements:
         /integ mod noCha --- --- f - ------- 森の様子、明るい葉色の中にもさらに明るい若葉が繁っているエルヒダの木の純林となった
         /integ mod noCha --- --- f - ------- 道の様子、踏み固められたわだちのある黒褐色の地面、ところどころ木の根が張りだして馬車は大変そうだ
+        /alice in> petra --- --- f - ------- （対立）
+        /petra in< alice --- --- f - ------- （対立）
+        /multi pst multi --- --- f - ------- （対立）
+        /alice in> petra --- --- f - ------- （和解）
+        /petra in< alice --- --- f - ------- （和解）
+        /multi pst multi --- --- f - ------- （和解）
         /integ evn grp11 --- --- f - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
         /integ evn petra rel c58 f - @hestel ペトラが見つけた碑文「エス＝◯◯◯◯リア」
         /integ evn petra --- --- f - @rose-- ペトラが見つけた碑文「エスの使徒と特別な人間の少女の関係」
@@ -614,19 +651,18 @@
         /leona odl myria rel c24 f - ------- ミリアがレオナを甘やかす[ref-042]
         /leona odl multi pre smd f - ------- レオナがアリスに訓練してもらう[ref-018]
         /alice lov multi --- --- f - favorbl 恋人つなぎ（指を絡める）
-        /grp21
-          /erie- li2 erie- --- --- b - ------- エリーがアリスの強さについて報告する
-          /fei-- li2 fei-- --- --- b - ------- フェイがエリーをからかう
-          /rose- li2 rose- --- --- b - ------- ローズがエリーをねぎらいアリスについてあの子なら問題ないわと言う
-          /fei-- odl fei-- prm sls b - thought フェイが「慢心は強者の特権」と言う
-          /myria odl fei-- pre s12 b - threat- フェイがエルフへの欲望を吐露する => 自分に心酔させると言う
-          /myria odl fei-- pre r17 b - threat- フェイがエルフへの欲望を吐露する => 自分に心酔させると言う
-          /fei-- etc rose- hnt s26 b - ------- ローズがあなたは強くなったわと言う
-          /fei-- etc fei-- hnt s26 b - ------- フェイがローズ様のおかげですと言う
-          /fei-- etc rose- hnt s26 b - ------- ローズがあなたが才能を持っていたからよと言う
-          /fei-- etc rose- hnt s26 b - ------- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
-          /integ inf rose- hnt s50 b - @orb--- 下腹部を押さえて苦しむがすぐに治まる
-          /grp21 lov multi --- --- b - ------- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
+        /erie- li2 erie- --- --- b - ------- エリーがアリスの強さについて報告する
+        /fei-- li2 fei-- --- --- b - ------- フェイがエリーをからかう
+        /rose- li2 rose- --- --- b - ------- ローズがエリーをねぎらいアリスについてあの子なら問題ないわと言う
+        /fei-- odl fei-- prm sls b - thought フェイが「慢心は強者の特権」と言う
+        /myria odl fei-- pre s12 b - threat- フェイがエルフへの欲望を吐露する => 自分に心酔させると言う
+        /myria odl fei-- pre r17 b - threat- フェイがエルフへの欲望を吐露する => 自分に心酔させると言う
+        /fei-- etc rose- hnt s26 b - ------- ローズがあなたは強くなったわと言う
+        /fei-- etc fei-- hnt s26 b - ------- フェイがローズ様のおかげですと言う
+        /fei-- etc rose- hnt s26 b - ------- ローズがあなたが才能を持っていたからよと言う
+        /fei-- etc rose- hnt s26 b - ------- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
+        /integ inf rose- hnt s50 b - @orb--- 下腹部を押さえて苦しむがすぐに治まる
+        /grp21 lov multi --- --- b - ------- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
   assembly:
     1:
       gist:
@@ -694,17 +730,21 @@
         /integ mod noCha --- --- f - ------- 森の様子、森の中は比較的明るいエルヒダの木の純林だ
         /integ mod noCha --- --- f - ------- 道の様子、黒褐色の土、わだち
         /integ mod noCha --- --- f - ------- 老婆の家の様子、拳ほどの石を積み上げて街壁とした
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ evn myria rel c67 f - ------- ミリアが魔法使いのおばあちゃんからエルフの耳飾りをもらう（ハイエルフの印）
         /myria odl myria pre s12 f - thought ミリアが祖母に会いたいという強い思いを吐露する
-          /myria odl myria pre s12 f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
-          /myria odl myria fct s20 f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
-          /myria odl alice pre sls f - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
-          /myria odl alice rel c62 f - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
+        /myria odl myria pre s12 f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
+        /myria odl myria fct s20 f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
+        /myria odl alice pre sls f - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
+        /myria odl alice rel c62 f - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
         /myria odl myria pre r12 f b ordeal- ミリアがフェイと戦う[ref-030]
-          /myria odl myria fct r20 f - thought フェイが幻霊を召喚してミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
-          /myria odl fei-- pre s13 f - results フェイが「また来る」と言って撤退する
-          /myria odl alice --- --- f - ------- アリスが戦いに干渉する
-          /myria odl leona --- --- f - ------- レオナが戦いに干渉する
+        /myria odl myria fct r20 f - thought フェイが幻霊を召喚してミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
+        /myria odl fei-- pre s13 f - results フェイが「また来る」と言って撤退する
+        /myria odl alice --- --- f - ------- アリスが戦いに干渉する
+        /myria odl leona --- --- f - ------- レオナが戦いに干渉する
         /leona odl multi pre smd f - ------- レオナがアリスに訓練してもらう[ref-018]
   assembly:
     1:
@@ -783,6 +823,10 @@
         /integ mod noCha --- --- f - ------- 大通りには石が敷き詰められている
         /integ mod noCha --- --- f - ------- 石造りの家屋が多いように見受けられる
         /integ mod noCha --- --- f - ------- 木造建築が主流だが
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ evn grp11 rel c53 f - ------- p15 湖畔の街の湖の水運について話を聞く => 船で渡りたい
         /leona li1 leona rel c51 f - @fencer 邪悪なドラゴンと戦った竜克の女剣士の伝説を聞く[ref-050]
         /myria li1 myria fct s48 f - @spirit 星の大精霊の拒絶、契約の申し出、契約の儀を試す => できない[ref-052]
@@ -792,9 +836,9 @@
         /integ evn alice cat s44 f - @orb--- 魔力珠をローズがすぐに取りに行かないのは何か変と話す
         /integ evn third pre s36 f - ------- 妖精女王にペトラが呼ばれる
         /leona odl multi pre smd f - ------- レオナがアリスに訓練してもらう[ref-018]
-          /alice odl alice pre smd f - favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
-          /leona odl leona rel c14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
-          /----- --- ----- pre smd
+        /alice odl alice pre smd f - favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
+        /leona odl leona rel c14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
+        /----- --- ----- pre smd
   assembly:
     1:
       gist:
@@ -831,7 +875,7 @@
 
 
 10:
-  summary: 妖精女王への謁見, 
+  summary: 妖精女王への謁見
   header:
     elapsed days: 9
     time:
@@ -858,6 +902,9 @@
     notes:
       - ミリアが普段使うのは弱い精霊魔法
   elements:
+        /alice in> leona --- --- f - ------- アリスがレオナに型を破るべきと強く主張し、父王の型は破れないと言い張るレオナに、アリスが破れないのは勇気がないからだと言い放ち、ショックを受けたレオナと仲違いする（対立）
+        /leona in< alice --- --- f - ------- アリスがレオナに型を破るべきと強く主張し、父王の型は破れないと言い張るレオナに、アリスが破れないのは勇気がないからだと言い放ち、ショックを受けたレオナと仲違いする（対立）
+        /multi pst multi --- --- f - ------- （対立）
         /integ evn grp11 rel c49 f - ------- 水の大精霊が現れてアリスの身に危険が迫っていると言う（上位存在が関係していてはっきり未来が見えない）
         /integ inf third fsh s29 f - @es---- 妖精女王がエスはp27 エリクに封印されていると言う
         /integ inf third fsh r43 f - @es---- 妖精女王がエスはp27 エリクに封印されていると言う
@@ -880,16 +927,15 @@
         /leona int alice --- --- f - ------- アリスに型を破るべきと強く言われて仲違いする
         /leona odl leona pre sls f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
         /leona odl leona hnt smd f - thought 父王に言われた言葉「俺を超えていけ」がよみがえるどういう意味だったのか
-        /grp21
-          /rose- li2 rose- fsh s33 b - @orbPln アリスたちが魔力珠がp27 エリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
-          /rose- li1 rose- fsh s30 b - @rose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
-          /myria odl fei-- pre smd b - bGround フェイの背景
-          /myria odl fei-- pre r26 b - bGround フェイの背景
-          /fei-- li2 fei-- --- --- b - ------- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
-          /erie- li2 erie- --- --- b - ------- エリーがフェイに皮肉を言う
-          /erie- li2 erie- --- --- b - ------- エリーがアリスについてローズを心配する
-          /alice odl rose- pre smd b - threat- ローズがアリスについて不気味な発言をするntt
-          /grp21 lov multi --- --- b - ------- エロいことをする[ref-037-3]
+        /rose- li2 rose- fsh s33 b - @orbPln アリスたちが魔力珠がp27 エリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
+        /rose- li1 rose- fsh s30 b - @rose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
+        /myria odl fei-- pre smd b - bGround フェイの背景
+        /myria odl fei-- pre r26 b - bGround フェイの背景
+        /fei-- li2 fei-- --- --- b - ------- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
+        /erie- li2 erie- --- --- b - ------- エリーがフェイに皮肉を言う
+        /erie- li2 erie- --- --- b - ------- エリーがアリスについてローズを心配する
+        /alice odl rose- pre smd b - threat- ローズがアリスについて不気味な発言をするntt
+        /grp21 lov multi --- --- b - ------- エロいことをする[ref-037-3]
   assembly:
     1:
       gist:
@@ -953,6 +999,9 @@
     notes:
       - ミリアが普段使うのは弱い精霊魔法
   elements:
+        /alice in> leona --- --- f - ------- レオナが、ローズに敗北したアリスを心から心配したことで仲直りするが剣の型は変えないと言う（和解）
+        /leona in< alice --- --- f - ------- アリスが、レオナに謝罪され自分も謝罪して仲直りし、レオナが決めたことならそれでいいと言う（和解）
+        /multi pst multi --- --- f - ------- （和解）
         /leona li1 leona rel c51 f - @fencer レオナが滝の裏の洞窟にあった剣を抜く（レオナには滝の裏が光って見える）[ref-049]
         /leona li1 alice rel c51 f - @fencer アリスがこの剣には何かが封じられている悪いものではないと言う
         /integ evn alice cat s45 f - @zavia- ザヴィが倒される相手なんているんだろうかと疑問を言う
@@ -965,10 +1014,10 @@
         /integ inf rose- fsh s32 f - @orb--- ローズは魔力珠とともにp27 エリクに行って世界を終わらせる
         /rose- li2 rose- fsh s33 f - @orbPln ローズは魔力珠とともにp27 エリクに行って世界を終わらせる
         /alice odl alice pre rmd f b ordeal- アリスがローズと戦う
-          /integ evn alice cat s70 f - @rose-- やはりローズの体は普通の人族なのに魔力の量が異常だと言う
-          /alice odl alice hnt rmd f - ------- 説得を試みる
-          /alice odl alice pre sls f - results アリスがまともに戦えず怪我をする
-          /alice odl rose- fsh s05 f - @alice- ローズがアリスを太古から生きる化け物と言う
+        /integ evn alice cat s70 f - @rose-- やはりローズの体は普通の人族なのに魔力の量が異常だと言う
+        /alice odl alice hnt rmd f - ------- 説得を試みる
+        /alice odl alice pre sls f - results アリスがまともに戦えず怪我をする
+        /alice odl rose- fsh s05 f - @alice- ローズがアリスを太古から生きる化け物と言う
         /alice lov alice --- --- f - thought アリスの、2人がかけがえのない存在だという気づき
         /leona odl multi pre smd f - ------- レオナがアリスに訓練してもらう[ref-018]
   assembly:
@@ -1035,6 +1084,10 @@
     notes:
       - ミリアが普段使うのは弱い精霊魔法
   elements:
+        /leona in> alice --- --- f - ------- アリスが、レオナとミリアに自分の来歴や悩みを話す（信頼関係の構築）
+        /myria in- alice --- --- f - ------- アリスが、レオナとミリアに自分の来歴や悩みを話す（信頼関係の構築）
+        /alice in< multi --- --- f - ------- レオナとミリアが、アリスの悩みを聞いて応援する（信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ evn third rel c54 f - ------- 水棲のドラゴンが神に属する者の動きが活発になっている、変化の予兆だ、我にも役割が与えられているだろう
         /integ evn grp11 rel c53 f - ------- 湖を船で渡るのを楽しみたい
         /integ evn third --- --- f - ------- 水棲のドラゴンから魚を増やし豊漁となる竪琴を街の人向けにもらう
@@ -1044,7 +1097,7 @@
         /alice odl alice pre sls f - bGround アリスの背景
         /alice odl alice pre r05 f - bGround アリスの背景
         /alice odl alice rel c52 f - bGround アリスの背景
-          /alice odl alice pre sls f - thought アリスの子に対する愛情
+        /alice odl alice pre sls f - thought アリスの子に対する愛情
         /alice lov alice --- --- f - thought アリスの、2人に対する独占欲の気づき
         /integ evn alice cat s46 f - @es---- 神が世界を終わらせようとするだろうか、邪なあの子ならともかく
         /integ evn third rel c54 f - ------- 水棲ドラゴンがバルドロードの{ドラゴンアイテム}を感知して湖底洞窟の祠に連れていってくれる
@@ -1205,7 +1258,7 @@
         /alice odl multi pre s21 f - ------- レオナとミリアが何かを作っている[ref-040]
         /alice lov multi --- --- f - favorbl 頭と頬を撫でる
         /petra odl petra prm r15 f - gDesire ペトラが妖精領主になる
-        /petra etc alice hnt s57 f - ------- アリスがペトラに転移のネックレスを渡す
+        /petra etc alice hnt s57 f - ------- アリスがペトラに転移のネックレスを渡す「妖精ならそれを使って縁故のある人のいる場所に転移できるよ」
         /petra etc petra rel c59 f - ------- ペトラがお返しに妖精の蜜飴を渡す「みんなで食べてね」
   assembly:
     1:
@@ -1271,20 +1324,19 @@
       - 村長の息子はエリーとの戦いを見て縮み上がる
       - ミリアが普段使うのは弱い精霊魔法
   elements:
-        /grp21
-          /rose- li2 rose- fsh s33 b - @orbPln 望みの全てはp27 エリクの封印に懸かっている
-          /rose- li2 rose- fsh s33 b - @orbPln エスは封印の中で邪神の呪いに苛まれている
-          /rose- li2 rose- fsh s29 b - @es---- エスは封印の中で邪神の呪いに苛まれている
-          /rose- li1 rose- fsh s30 b - @rose-- ローズが神殿教会のバルコニーに立つと晴れる
-          /leona odl erie- pre smd b - threat- エリーが余裕ぶってレオナを殺すと言う
-          /erie- li2 erie- --- --- b - ------- エリーがローズの体を気遣う
-          /fei-- li2 fei-- --- --- b - ------- フェイがローズをからかう
-          /.                             -         エロいことはしない
+        /rose- li2 rose- fsh s33 b - @orbPln 望みの全てはp27 エリクの封印に懸かっている
+        /rose- li2 rose- fsh s33 b - @orbPln エスは封印の中で邪神の呪いに苛まれている
+        /rose- li2 rose- fsh s29 b - @es---- エスは封印の中で邪神の呪いに苛まれている
+        /rose- li1 rose- fsh s30 b - @rose-- ローズが神殿教会のバルコニーに立つと晴れる
+        /leona odl erie- pre smd b - threat- エリーが余裕ぶってレオナを殺すと言う
+        /erie- li2 erie- --- --- b - ------- エリーがローズの体を気遣う
+        /fei-- li2 fei-- --- --- b - ------- フェイがローズをからかう
+        /.                             -         エロいことはしない
         /leona odl leona pre rmd f b ordeal- レオナがエリーと戦う
-          /leona odl leona pre r61 f - ------- レオナがアリスに手を出さないよう言ってあると言う
-          /leona odl leona rel c51 f - @fencer 剣からエリーへの対処のヒントを感じる
-          /leona odl leona hnt rmd f - results レオナがエリーと引き分ける
-          /leona odl erie- fct sls f - ------- エリーが絶対にこのままでは終わらせないと宣言する
+        /leona odl leona pre r61 f - ------- レオナがアリスに手を出さないよう言ってあると言う
+        /leona odl leona rel c51 f - @fencer 剣からエリーへの対処のヒントを感じる
+        /leona odl leona hnt rmd f - results レオナがエリーと引き分ける
+        /leona odl erie- fct sls f - ------- エリーが絶対にこのままでは終わらせないと宣言する
   assembly:
     1:
       gist:
@@ -1321,7 +1373,7 @@
 
 
 16:
-  summary: 野営
+  summary: 野営, 星の大精霊の訪問
   header:
     elapsed days: 18
     time:
@@ -1354,14 +1406,16 @@
         /alice li1 alice fsh s28 f - @alice- 動物と話ができる
         /myria odl third pre s65 f - @o'dorg 老婆は問い掛ける、自分が一番欲していることは何？　手に入れるために乗り越えないといけないのは何？
         /myria odl myria pre smd f - thought ミリアが祖母を思う
-          /myria odl myria pre smd f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
-          /myria odl myria hnt smd f - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
-          /myria odl third pre s65 f - @o'dorg 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
+        /myria odl myria pre smd f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
+        /myria odl myria hnt smd f - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
+        /myria odl third pre s65 f - @o'dorg 老婆が不幸に押しつぶされた心では当たり前の償いもできない。怖いことだと思うけど、自由の翼で飛び立たねば償いに辿り着けないと言う
         /myria odl myria pre smd f - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
         /myria odl leona pre smd f - favorbl レオナがミリアに甘える[ref-042]
-        /                rel c23 r22
+        /myria odl leona rel r22 f - favorbl レオナがミリアに甘える[ref-042]
+        /myria odl leona rel c23 f - favorbl レオナがミリアに甘える[ref-042]
         /leona odl myria pre smd f - ------- ミリアがレオナを甘やかす[ref-042]
-        /                rel c25 r24
+        /leona odl myria rel r24 f - ------- ミリアがレオナを甘やかす[ref-042]
+        /leona odl myria rel c25 f - ------- ミリアがレオナを甘やかす[ref-042]
         /leona odl leona pre sls f - thought エリーといい勝負ができたことで現状維持がいいと思い込む
         /leona odl leona fct sls f - thought エリーがあのままのはずがないという予感がある
         /leona odl leona fct sls f - thought エリーを超えられなかった事実が心の底にわだかまっている
@@ -1372,12 +1426,11 @@
         /integ evn third --- --- f - ------- 老婆が最後に皆さんに、自分の中の恐怖に敏感になって。それを見つけたら勇気を持って立ち向かうのよと言う
         /alice lov alice --- --- f - thought アリスの、2人への思いが強まった気づき
         /integ evn alice --- --- f - ------- 今夜は考え込んで寝付きが悪そうね、少しお酒を飲みましょ
-        /grp21
-          /erie- li2 erie- --- --- b - ------- エリーが悔しそうにする、無様をローズにわびる
-          /fei-- li2 fei-- --- --- b - ------- フェイがエリーをからかう
-          /myria odl fei-- pre smd b - threat- フェイが取っておきの方法を思ってほくそ笑む
-          /grp21 lov multi --- --- b - ------- エロいことをする[ref-037-4]
-          /rose- li2 rose- fsh s33 b - @orbPln エスの封印は封印を上回る魔力が内側から放出されることで解ける
+        /erie- li2 erie- --- --- b - ------- エリーが悔しそうにする、無様をローズにわびる
+        /fei-- li2 fei-- --- --- b - ------- フェイがエリーをからかう
+        /myria odl fei-- pre smd b - threat- フェイが取っておきの方法を思ってほくそ笑む
+        /grp21 lov multi --- --- b - ------- エロいことをする[ref-037-4]
+        /rose- li2 rose- fsh s33 b - @orbPln エスの封印は封印を上回る魔力が内側から放出されることで解ける
         /alice odl multi pre s21 f - ------- レオナとミリアがまた何かを作っている[ref-040]
   assembly:
     1:
@@ -1444,9 +1497,9 @@
   elements:
         /integ evn grp11 --- --- f - ------- 3人で肩車して上のほうのハニカムから採る全部採るアリスの瓶（陶器、木とコルクのフタ）、俺たちのを持っていけと喧嘩になって両方持っていく
         /myria odl myria pre rmd f b ordeal- ミリアがフェイと戦う
-          /integ evn myria --- --- f - ------- 草花の亜精霊（人型でない光の粒）に助けられる
-          /myria odl myria hnt rmd f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
-          /myria odl fei-- --- --- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
+        /integ evn myria --- --- f - ------- 草花の亜精霊（人型でない光の粒）に助けられる
+        /myria odl myria hnt rmd f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
+        /myria odl fei-- --- --- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
         /alice li1 alice rel c58 f - @es---- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
         /alice li1 alice fsh s28 f - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
         /alice etc third rel c59 f - ------- ペトラにもらった妖精の蜜飴をなめさせて縁故をつなぐ
@@ -1522,6 +1575,10 @@
     notes:
       - ミリアが普段使うのは弱い精霊魔法
   elements:
+        /alice in> multi --- --- f - ------- 合宿の成果を試すために洞窟の魔物を倒しに行く（信頼関係の構築）
+        /leona in- multi --- --- f - ------- 合宿の成果を試すために洞窟の魔物を倒しに行く（信頼関係の構築）
+        /myria in< multi --- --- f - ------- 合宿の成果を試すために洞窟の魔物を倒しに行く（信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /myria odl third pre s62 f - ------- 最終日の夕方、占い師を含む一団が野営する
         /integ evn petra hnt r57 f - ------- ペトラが妖精図書館で調べたエスのことを教えに来てくれる
         /integ evn petra rel c58 f - @hestel 古文書にエス＝ヘス◯◯◯◯と書かれている
@@ -1537,10 +1594,10 @@
         /alice lov alice --- --- f - thought アリスの、2人を好きだというわがままの認識
         /alice lov multi --- --- f - favorbl アリスが、座っているとき2人の太ももを触る、2人は肩にもたれかかる
         /myria odl myria pre sls f - thought ミリアが祖母を大切に思う気持ちを吐露する
-          /myria odl myria pre sls f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
-          /myria odl myria fct sls f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
-          /myria odl alice pre sls f - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
-          /myria odl alice rel c22 f - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
+        /myria odl myria pre sls f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
+        /myria odl myria fct sls f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
+        /myria odl alice pre sls f - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
+        /myria odl alice rel c22 f - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
         /myria odl leona pre sls f - favorbl レオナがミリアに甘える[ref-042]
         /myria odl leona rel c23 f - favorbl レオナがミリアに甘える[ref-042]
         /leona odl myria pre sls f - ------- ミリアがレオナを甘やかす[ref-042]
@@ -1549,8 +1606,7 @@
         /alice odl alice pre r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
         /alice lov alice --- --- f - thought アリスの、わがままを通そうという決意
         /myria odl fei-- pre sls b - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく[ref-035]
-        /grp21
-          /rose- li2 rose- fsh s33 b - @orbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
+        /rose- li2 rose- fsh s33 b - @orbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
   assembly:
     1:
       gist:
@@ -1619,10 +1675,10 @@
         /myria odl third hnt sls f - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
         /myria odl myria pre rls f b ordeal- ミリアがフェイと戦う[ref-029]
         /myria odl myria hnt rls f b ordeal- ミリアがフェイと戦う[ref-029]
-          /myria odl multi pre r60 f - ----- アリスとレオナは静観する
-          /myria odl myria fct rls f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
-          /myria odl myria pre r65 f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
-          /myria odl myria --- --- f - results ミリアがフェイを倒す
+        /myria odl multi pre r60 f - ----- アリスとレオナは静観する
+        /myria odl myria fct rls f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
+        /myria odl myria pre r65 f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
+        /myria odl myria --- --- f - results ミリアがフェイを倒す
         /myria odl myria prm r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
         /fei-- odl fei-- prm rls f - results フェイがミリアに敗北する[ref-029]
   assembly:
@@ -1688,6 +1744,9 @@
     notes:
       - ミリアが普段使うのは弱い精霊魔法
   elements:
+        /alice in> myria --- --- f - ------- 関係性の変化（守る者・守られる者 => 共に戦う者）
+        /myria in< alice --- --- f - ------- 関係性の変化（守る者・守られる者 => 共に戦う者）
+        /multi pst multi --- --- f - ------- 関係性の変化（守る者・守られる者 => 共に戦う者）
         /leona li1 third rel c64 f - @o'dorg 物語の主人公には越えねばならない谷がある　谷とはものの例えじゃが実際の谷かもしれん
         /integ mod noCha --- --- f - ------- 鍛冶の街、火の精霊の街
         /myria li1 alice rel c49 f - ------- アリスが水の大精霊にお願いする
@@ -1765,12 +1824,11 @@
         /alice odl alice fct sls f - thought ローズを倒すべきだと分かっている
         /leona odl leona pre sls f - favorbl ミリアとともに具合がいいntt
         /alice lov alice --- --- f - thought アリスの、ミリアの願いが成就したことで、レオナ 試練は予想されるわけで、それが乗り越えられたら告白するという決心
-        /grp21
-          /leona odl erie- pre sls b - threat- エリーがパワーアップして異形になる[ref-026]
-          /grp21 lov multi --- --- b - ------- エロいことをする[ref-037-5]
-          /rose- li1 rose- fsh s30 b - @rose-- ローズがエリーを強化する
-          /rose- li1 rose- fsh s30 b - @rose-- ローズに後光が射す
-          /rose- li2 erie- pre s40 b - @orbPln エリーがローズが死ぬ気でいると悟る
+        /leona odl erie- pre sls b - threat- エリーがパワーアップして異形になる[ref-026]
+        /grp21 lov multi --- --- b - ------- エロいことをする[ref-037-5]
+        /rose- li1 rose- fsh s30 b - @rose-- ローズがエリーを強化する
+        /rose- li1 rose- fsh s30 b - @rose-- ローズに後光が射す
+        /rose- li2 erie- pre s40 b - @orbPln エリーがローズが死ぬ気でいると悟る
   assembly:
     1:
       gist:
@@ -1840,11 +1898,11 @@
         /rose- li2 erie- pre r40 f - @orbPln ローズは死ぬ気でいる
         /leona odl third pre s64 f - @o'dorg オー゠ドルグがレオナに何が一番大切か、じゃ　前に進みたいんじゃろう？　置いていかねばならんものもあると言う
         /leona odl leona pre rls f b ordeal- レオナがエリーと戦う
-          /leona odl leona fct rls f - thought ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
-          /leona odl leona pre r64 f - @o'dorg ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
-          /leona odl leona --- --- f - results レオナがエリーを倒す
-          /leona odl leona rel c51 f - @fencer 剣に封じられていた竜克の女剣士レイティア・アルテノートの力を受け継ぐ
-          /erie- odl erie- prm rls f - results エリーがレオナに敗北する
+        /leona odl leona fct rls f - thought ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
+        /leona odl leona pre r64 f - @o'dorg ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
+        /leona odl leona --- --- f - results レオナがエリーを倒す
+        /leona odl leona rel c51 f - @fencer 剣に封じられていた竜克の女剣士レイティア・アルテノートの力を受け継ぐ
+        /erie- odl erie- prm rls f - results エリーがレオナに敗北する
         /leona odl leona prm r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
         /alice odl alice pre sls f - favorbl レオナからの惜しみない感謝をミリアと味わうntt
   assembly:
@@ -1911,6 +1969,10 @@
       - 
   elements:
         /integ mod noCha rel c68 f - ------- 島の中央の大きな木
+        /alice in> multi --- --- f - ------- ハイエルフの叡智を得るために協力する（信頼関係の構築）
+        /leona in- multi --- --- f - ------- ハイエルフの叡智を得るために協力する（信頼関係の構築）
+        /myria in< multi --- --- f - ------- ハイエルフの叡智を得るために協力する（信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ etc noCha rel c34 f - ------- エルフの都市は破壊され尽くしている
         /integ evn myria rel c67 f - ------- エルフの耳飾りがハイエルフの叡智へと誘う
         /alice odl alice pre sls f - thought ローズを倒せないと思い込む => ローズは強い
@@ -1921,12 +1983,11 @@
         /myria odl myria prm r11 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
         /myria odl myria pre r65 f - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
         /myria odl myria rel c34 f - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
-        /grp21
-          /alice odl rose- pre sls b - threat- ローズがパワーアップする[ref-023]
-          /integ inf rose- fsh s32 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
-          /integ inf rose- fsh r47 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
-          /rose- li1 rose- fsh s30 b - @rose-- ローズが自分自身を強化する
-          /rose- li1 rose- fsh s30 b - @rose-- ローズの強化にともなって妖精が生まれては祝福して消えていく
+        /alice odl rose- pre sls b - threat- ローズがパワーアップする[ref-023]
+        /integ inf rose- fsh s32 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
+        /integ inf rose- fsh r47 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
+        /rose- li1 rose- fsh s30 b - @rose-- ローズが自分自身を強化する
+        /rose- li1 rose- fsh s30 b - @rose-- ローズの強化にともなって妖精が生まれては祝福して消えていく
   assembly:
     1:
       gist:
@@ -1998,9 +2059,9 @@
         /rose- li2 rose- cat r71 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
         /alice li1 alice fsh s28 f - @alice- アリスの力が解放されてp27 エリクが楽園になる
         /alice odl alice pre rls f b ordeal- アリスがローズと戦う
-          /alice odl alice fct rls f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
-          /alice odl alice --- --- f - results アリスがローズを倒す
-          /integ evn alice cat s71 f - @orbPln アリスがどうやってエスの封印を解くつもりなのか尋ねる
+        /alice odl alice fct rls f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
+        /alice odl alice --- --- f - results アリスがローズを倒す
+        /integ evn alice cat s71 f - @orbPln アリスがどうやってエスの封印を解くつもりなのか尋ねる
         /alice odl alice prm r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
         /alice odl alice hnt r02 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
         /rose- odl third prm rls f - gDesire ローズが死んでエスの封印が解かれる
