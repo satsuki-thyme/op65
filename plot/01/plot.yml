@@ -50,11 +50,13 @@
         /integ mod alice --- --- f - ------- 小柄の痩せ型で胸はレモンほどの膨らみ
         /integ mod alice --- --- f - ------- 腰背に大振りのナイフ
         /alice odl alice prm s01 f - ------- アリスが「全部まとめて満足の冒険ができるかな？」と言う[ref-032]
-        /alice odl alice --- --- f - ------- ザヴィの存在を感じないことに不安を漏らす
-        /integ evn alice fsh s39 f - @hestel ヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
+        /alice odl alice --- --- f - ------- アリスがザヴィの存在を感じないことに不安を漏らす
+        /integ evn alice fsh s39 f - @hestel アリスがヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
         /integ evn alice --- --- f - ------- 空腹
-        /integ evn alice rel c72 f b ------- 狼の親子に襲われる一件
-        /alice li1 alice fsh s28 f - @alice- 魔法を無詠唱で使って詠唱が必要なことに気づく
+        /integ evn alice --- --- f b ------- 狼の親子に襲われる一件
+        /integ evn alice --- --- f - ------- アリスが狼に、仲間に好かれる魔法を使う
+        /integ evn alice rel c72 f - ------- アリスがカラスを呼び狼の様子を見ておくように言う
+        /alice li1 alice fsh s28 f - @alice- アリスが魔法を無詠唱で使って詠唱が必要なことに気づく
         /alice odl alice prm s02 f - ------- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
         /alice odl alice fsh s05 f - @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
         /alice odl alice fsh s05 f - @zavia- アリスが世界にザヴィの気配がしないことに気付く
@@ -152,7 +154,7 @@
         - カラス目線
         - 食事シーン
       contents:
-        /integ evn alice rel c72 f - ------- カラス目線で都市を見下ろして街の中を紹介してアリスの元にやってきてオオカミの無事を伝える
+        /integ evn alice rel c72 f - ------- カラス目線で都市を見下ろして街の中を紹介してアリスの元にやってきて狼の無事を伝える
         /integ mod noCha --- --- f - ------- 都市の外観、市城壁
         /integ mod noCha --- --- f - ------- 都市の外観、城
         /integ mod noCha --- --- f - ------- 街の中、人々の様子
@@ -164,7 +166,7 @@
         /leona odl alice hnt s09 f - ------- アリスが所作が洗練されていて王族のようだと言う
         /alice li1 alice fsh s28 f - @alice- アリスが所作が洗練されていて王族のようだと言う
         /integ evn alice --- --- f - ------- 手持ちの宝石を換金する（地の文でサッと）
-        /leona odl third hnt s09 f - ------- 店主「あんたたちもカルツ王国から来た口か」
+        /leona odl third hnt s09 f - ------- アリスが店を指定、アリス「素敵な街だね」店主「あんたたちもカルツ王国から来た口か」　レオナ強く否定「違います！」
     2:
       gist:
         - 暴れだす水の大精霊とミリアの危機
@@ -204,7 +206,7 @@
         /integ evn alice rel c49 f - ------- 水の大精霊と交友を持つ
         /integ inf alice rel c35 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
         /integ inf alice rel c52 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
-        /integ evn multi --- --- f - ------- 衛兵が来て面倒事を避けるためにアリスがレオナとミリアを連れて逃げる
+        /integ evn multi --- --- f - ------- 衛兵が来てアリス「ああいう人は面倒って決まってるんだから」面倒事を避けるためにアリスがレオナとミリアを連れて逃げる
         /alice lov multi --- --- f - favorbl 手をつなぐ
     4:
       gist:
@@ -296,7 +298,7 @@
         /leona odl erie- hnt s09 b - threat- エリーがレオナに憎しみの視線を送る
         /myria odl fei-- pre s17 b - threat- フェイがミリアを見て壮絶な笑みを浮かべる
         /rose- li2 rose- fsh s33 b - @orbPln ローズがアリスは魔力珠を追うと言う
-        /rose- li2 rose- fsh s33 b - @orbPln ローズが使徒は死して神の元に還ると言う
+        /rose- li2 rose- fsh s33 b - @orbPln ローズが私はいずれ神の元に還ると言う
   assembly:
     1:
       gist:
@@ -635,7 +637,7 @@
         /multi pst multi --- --- f - ------- （和解）
         /integ evn grp11 --- --- f - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
         /integ evn petra rel c58 f - @hestel ペトラが見つけた碑文「エス＝◯◯◯◯リア」
-        /integ evn petra --- --- f - @rose-- ペトラが見つけた碑文「エスの使徒と特別な人間の少女の関係」
+        /integ evn petra --- --- f - @rose-- ペトラが見つけた碑文「エスと特別な人間の少女の関係」
         /petra odl alice --- --- f - ------- アリス「人生を切り開くには危険を冒さないといけないの。その勇気を持てるかどうかが鍵になるんだよ」
         /petra odl petra --- --- f - ------- アリスを嫌いと言う
         /myria odl myria hnt s13 f - ------- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
@@ -1084,9 +1086,9 @@
     notes:
       - ミリアが普段使うのは弱い精霊魔法
   elements:
-        /leona in> alice --- --- f - ------- アリスが、レオナとミリアに自分の来歴や悩みを話す（信頼関係の構築）
-        /myria in- alice --- --- f - ------- アリスが、レオナとミリアに自分の来歴や悩みを話す（信頼関係の構築）
-        /alice in< multi --- --- f - ------- レオナとミリアが、アリスの悩みを聞いて応援する（信頼関係の構築）
+        /alice in> multi --- --- f - ------- レオナとミリアが、アリスの悩みを聞いて応援する（信頼関係の構築）
+        /leona in- alice --- --- f - ------- アリスが、レオナとミリアに自分の来歴や悩みを話す（信頼関係の構築）
+        /myria in< alice --- --- f - ------- アリスが、レオナとミリアに自分の来歴や悩みを話す（信頼関係の構築）
         /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ evn third rel c54 f - ------- 水棲のドラゴンが神に属する者の動きが活発になっている、変化の予兆だ、我にも役割が与えられているだろう
         /integ evn grp11 rel c53 f - ------- 湖を船で渡るのを楽しみたい
@@ -1179,6 +1181,10 @@
         /integ evn third --- --- f - ------- 精霊が現れて摂ってきてほしいと言われて取りに行く[thi-061]
         /integ evn noCha rel c55 f - ------- 湖底の街
         /integ evn alice rel c66 f - ------- 湖底の街でアリスが指輪を拾う
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
   assembly:
     1:
       gist:
@@ -1250,6 +1256,10 @@
         /integ evn third rel c73 f - ------- エルフの老婆からp26 カルダからp27 エリクに行ける、p26 カルダに関わる情報がp24 街にあると聞く
         /integ evn alice --- --- f - ------- エルフの老婆が指輪を欲するが外せないのと言って断る
         /integ evn alice rel c66 f - ------- エルフの老婆とアリスが湖底の街で拾った指輪で話がつく
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /leona odl leona pre s64 f - @o'dorg オー゠ドルグがレオナに人は変化を恐れる　恐れを打ち破って前へ進むには何が必要か、よく考えることじゃと言う
         /leona odl leona pre sls f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
         /leona odl leona hnt smd f - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
@@ -1328,6 +1338,10 @@
         /rose- li2 rose- fsh s33 b - @orbPln エスは封印の中で邪神の呪いに苛まれている
         /rose- li2 rose- fsh s29 b - @es---- エスは封印の中で邪神の呪いに苛まれている
         /rose- li1 rose- fsh s30 b - @rose-- ローズが神殿教会のバルコニーに立つと晴れる
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /leona odl erie- pre smd b - threat- エリーが余裕ぶってレオナを殺すと言う
         /erie- li2 erie- --- --- b - ------- エリーがローズの体を気遣う
         /fei-- li2 fei-- --- --- b - ------- フェイがローズをからかう
@@ -1400,6 +1414,10 @@
     notes:
       - ミリアが普段使うのは弱い精霊魔法
   elements:
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /myria li1 third fct s48 f - @spirit 星の大精霊が現れてミリアを見つめ、もう少しねと言う
         /integ evn multi --- --- f - ------- レオナとミリアは老婆と対立的に話を進める、むきになる
         /integ evn grp11 --- --- f - ------- 明日日が昇ったら蜂妖精の蜂蜜を探してみましょう
@@ -1495,6 +1513,10 @@
     notes:
       - ミリアが普段使うのは弱い精霊魔法
   elements:
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ evn grp11 --- --- f - ------- 3人で肩車して上のほうのハニカムから採る全部採るアリスの瓶（陶器、木とコルクのフタ）、俺たちのを持っていけと喧嘩になって両方持っていく
         /myria odl myria pre rmd f b ordeal- ミリアがフェイと戦う
         /integ evn myria --- --- f - ------- 草花の亜精霊（人型でない光の粒）に助けられる
@@ -1670,6 +1692,10 @@
     notes:
       - ミリアが普段使うのは弱い精霊魔法
   elements:
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /myria odl third pre r62 f - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
         /myria odl third rel c34 f - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
         /myria odl third hnt sls f - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
@@ -1819,6 +1845,10 @@
     notes:
       - 
   elements:
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /leona li1 leona rel c63 f - @fencer レオナが演武をする
         /alice odl alice pre sls f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
         /alice odl alice fct sls f - thought ローズを倒すべきだと分かっている
@@ -1892,6 +1922,10 @@
     notes:
       - 
   elements:
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /leona odl leona rel c69 f - ------- レオナがアリスから前に進みたいんじゃないの？と言われる
         /integ evn erie- --- --- f - ------- アリスたちが広場に出たときエリーが転移してくる
         /rose- li2 erie- pre s33 f - @orbPln ローズは死ぬ気でいる
@@ -2051,10 +2085,14 @@
     notes:
       - 
   elements:
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ etc alice rel c68 f - ------- アリスが島の中央の大きな木のたもとにローズがいると分かる
         /integ inf rose- fsh r31 f - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
-        /rose- li1 rose- fsh r30 f - @rose-- ローズがエスは封印される直前に使徒をローズと融合させたことを告白する
-        /rose- li1 rose- fsh s29 f - @es---- ローズがエスは封印される直前に使徒をローズと融合させたことを告白する
+        /rose- li1 rose- fsh r30 f - @rose-- ローズがエスは封印される直前に自身の一部とローズと融合させたことを告白する
+        /rose- li1 rose- fsh s29 f - @es---- ローズがエスは封印される直前に自身の一部とローズと融合させたことを告白する
         /rose- li2 rose- fsh r33 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
         /rose- li2 rose- cat r71 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
         /alice li1 alice fsh s28 f - @alice- アリスの力が解放されてp27 エリクが楽園になる
@@ -2128,6 +2166,10 @@
     notes:
       - 
   elements:
+        /alice in> multi --- --- f - ------- （信頼関係の構築）
+        /leona in- multi --- --- f - ------- （信頼関係の構築）
+        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ evn alice fsh r39 f - @es---- エス＝ヘスト゠エリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
         /integ evn third fsh r32 f - @orb--- 魔力珠を手に入れる
         /integ evn third fsh r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
@@ -2138,3 +2180,36 @@
         /alice odl alice prm r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる
         /alice odl alice prm r01 f - thought アリスが「いろいろあったけど、全部まとめて大満足だよ！」と言う
         /alice lov alice --- --- f - thought アリスの、2人といると楽しいということの再認識
+  assembly:
+    1:
+      gist:
+        - 
+        - 
+      intarest:
+        - 
+        - 
+      contents:
+    2:
+      gist:
+        - 
+        - 
+      intarest:
+        - 
+        - 
+      contents:
+    3:
+      gist:
+        - 
+        - 
+      intarest:
+        - 
+        - 
+      contents:
+    4:
+      gist:
+        - 
+        - 
+      intarest:
+        - 
+        - 
+      contents:

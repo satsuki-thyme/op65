@@ -84,8 +84,8 @@
 
 ### その他
 
-- etc/notes.yml: ノート
-- etc/todo.md:   ToDoリスト
+- etc/notes.md: ノート
+- etc/todo.md:  ToDoリスト
 
 ### 思考ノート
 
@@ -148,6 +148,7 @@
 - thinking-notes/thi-057.md: 見せたい世界観
 - thinking-notes/thi-058.md: アリスとミリアの関係
 - thinking-notes/thi-059.md: ペトラが3人の信頼を得る
+- thinking-notes/thi-060.md: 妖精の森の秘密
 
 ### アーカイブ
 
