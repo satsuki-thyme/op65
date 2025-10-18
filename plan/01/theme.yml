@@ -1,5 +1,5 @@
 # プロット系統別テーマ
-- plot lineage: grp01 li1
+- plot lineage: grp01 ordeal
   contents: 今を生きる
   gist:
     持ち物を手放して道を切り開く
@@ -12,7 +12,7 @@
       退職後の新生活　仕事への執着を手放し、新たな趣味や生活スタイルを模索する
       壊れた船を捨てて泳ぐ　船に執着せずに泳ぐことを選ぶ物語は、古い安全策や信念を手放す象徴
 
-- plot lineage: alice li1
+- plot lineage: alice ordeal
   contents: 過去と決別して、最終的に今を選択する
   gist:
     レオナとミリアといるとき今起こっている出来事、柔らかな風、日差し、土の匂いを感じて自然に微笑む姿を描く
@@ -21,7 +21,7 @@
     レオナとミリアが過去を乗り越える姿を見て感じるところがある
     今の幸福であるレオナとミリアを守ってローズを殺す
 
-- plot lineage: leona li1
+- plot lineage: leona ordeal
   contents: 過去と決別して、最終的に今を選択する
   gist:
     アリスといるとき今起こっている出来事、柔らかな風、日差し、土の匂いを感じて自然に微笑む姿を描く
@@ -29,7 +29,7 @@
     守られて安堵していた過去に縛られて、変化を拒み新しい自分を受け入れられないので強くなれない
     今の幸福であるアリスとミリアと一緒にいたいから強くなって眼前の敵を倒す
 
-- plot lineage: myria li1
+- plot lineage: myria ordeal
   contents: 過去と決別して、最終的に今を選択する
   gist:
     アリスといるとき今起こっている出来事、柔らかな風、日差し、土の匂いを感じて自然に微笑む姿を描く
@@ -37,17 +37,17 @@
     心残りな死別をした祖母への思いから、今に注力できないことで流されがちでフェイの誘いに動揺する
     今の幸せであるアリスとレオナと一緒にいることを選んで、強引に連れ去ろうとするフェイを倒す
 
-- plot lineage: rose li1
+- plot lineage: rose ordeal
   contents: 過去に囚われて身を滅ぼす
   gist:
     ザヴィへの思いに囚われて遷世（世界の消滅と再生）を企図して討たれる
 
-- plot lineage: erie li1
+- plot lineage: erie ordeal
   contents: 過去に囚われて身を滅ぼす
   gist:
     奪われた過去に囚われレオナに復讐せんとして討たれる
 
-- plot lineage: fei li1
+- plot lineage: fei ordeal
   contents: 過去に囚われて身を滅ぼす
   gist:
     能力が低いとして迫害された過去を引きずっていて魔法力の象徴とも言えるエルフを従えることに執着して討たれる

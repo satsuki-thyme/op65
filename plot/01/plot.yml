@@ -373,6 +373,7 @@
         /grp11 in> petra rel r74 f - ------- アリスたちに後で道を教えると約束する（信頼関係の構築）
         /petra in< grp11 rel r74 f - ------- ペトラが道を教えると約束してくれる（信頼関係の構築）
         /petra pst grp11 --- --- f - ------- ペトラに案内されて妖精の森に行く（信頼関係の構築）
+        /integ evn petra --- --- f - ------- ペトラに道を教えてもらう
         /myria li1 myria fct s48 f - @spirit 星の大精霊との出会い「また会うでしょう」[ref-051]
         /integ evn grp11 --- --- f - ------- 妖精の森を訪れる
         /integ evn third --- --- f - ------- 妖精のポヤポヤした様子を描く => ペトラがポヤポヤしていても領主になれる理由
@@ -467,6 +468,7 @@
         /integ mod noCha --- --- f - ------- 道の様子、踏み固められたわだちのある黄褐色の地面でときおり穴がある
         /integ mod noCha --- --- f - ------- 関門の外観
         /integ mod noCha --- --- f - ------- 盗賊騎士の衣装
+        /integ evn third --- --- f - ------- 盗賊騎士の関所を越える
         /alice in> leona --- --- f - ------- レオナがアリスに命を救われる（信頼関係の構築）
         /leona in< alice --- --- f - ------- アリスがレオナの命を救う（信頼関係の構築）
         /multi pst multi --- --- f - ------- （信頼関係の構築）
@@ -549,9 +551,14 @@
         /integ mod noCha --- --- f - ------- 祭りの様子、色とりどりの衣装に着飾った女たち
         /integ mod noCha --- --- f - ------- 街の開け放たれた鎧窓から幼子が通りを見ている
         /integ mod noCha --- --- f - ------- 木造建築がほとんど
-        /alice in> multi --- --- f - ------- （信頼関係の構築）
-        /leona in- multi --- --- f - ------- （信頼関係の構築）
-        /myria in< multi --- --- f - ------- （信頼関係の構築）
+        /integ evn noCha --- --- f - ------- 祭り
+        /integ evn leona --- --- f - ------- 祭りでレオナは無理をして明るく振る舞う
+        /integ evn leona rel c51 f - @fencer レオナが剣技を試す出し物で凄い結果を出す（だが寂しげな瞬間がある）
+        /integ evn myria fct s48 f - @spirit 魔法力を試す出し物で凄い結果が出る
+        /integ evn noCha --- --- f - ------- 市城壁に沿って人気のない森で休憩、遠くに祭りの賑わいが聞えてくる
+        /alice in> multi --- --- f - ------- レオナの背景を共有する（信頼関係の構築）
+        /leona in- multi --- --- f - ------- レオナの背景を共有する（信頼関係の構築）
+        /myria in< multi --- --- f - ------- レオナの背景を共有する（信頼関係の構築）
         /multi pst multi --- --- f - ------- （信頼関係の構築）
         /leona odl leona pre smd f - bGround レオナの背景
         /leona odl leona hnt r09 f - bGround レオナの背景

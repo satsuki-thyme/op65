@@ -62,7 +62,7 @@
     /                fct     r18
 
 19:
-    /leona odl leona fct r19 f - ----- 〃レオナがエリーに敗北する
+    /leona odl leona fct r19 f - ------- 〃レオナがエリーに敗北する
 
 20:
     /myria odl myria fct r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
@@ -80,11 +80,11 @@
     /                rel     r23
 
 24:
-    /leona odl myria pre smd f - ----- ミリアがレオナを甘やかす[ref-042]
+    /leona odl myria pre smd f - ------- ミリアがレオナを甘やかす[ref-042]
     /                rel c25 r24
 
 25:
-    /leona odl myria pre sls f - ----- ミリアがレオナを甘やかす[ref-042]
+    /leona odl myria pre sls f - ------- ミリアがレオナを甘やかす[ref-042]
     /                rel     r25
 
 26:
@@ -119,10 +119,10 @@
     /integ li0 third rel c35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
 
 36:
-    /integ evn grp11 eye r36 f - ----- 妖精女王に謁見する
+    /integ evn grp11 eye r36 f - ------- 妖精女王に謁見する
 
 37:
-    /petra odl petra pre r37 f - ----- アリスに石碑のことを伝えたい気持ちに素直になる
+    /petra odl petra pre r37 f - ------- アリスに石碑のことを伝えたい気持ちに素直になる
 
 38:
     /myria odl myria prm s11 f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
@@ -174,22 +174,22 @@
     /integ inf rose- fsh r50 f - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
 
 51:
-    /leona etc leona rel c51 f - ----- レオナが滝の裏の洞窟にあった剣を抜く
+    /leona etc leona rel c51 f - @fencer レオナが滝の裏の洞窟にあった剣を抜く
 
 52:
     /alice odl alice rel c52 f - bGround アリスの背景
 
 53:
-    /integ evn grp11 rel c53 f - ----- 湖を船で渡りたい
+    /integ evn grp11 rel c53 f - ------- 湖を船で渡りたい
 
 54:
-    /integ evn third rel c54 f - ----- 水棲ドラゴンが湖底洞窟の祠に連れていってくれる
+    /integ evn third rel c54 f - ------- 水棲ドラゴンが湖底洞窟の祠に連れていってくれる
 
 55:
-    /integ evn noCha rel c55 f - ----- 湖底の街
+    /integ evn noCha rel c55 f - ------- 湖底の街
 
 56:
-    /integ evn grp11 rel c56 f - ----- ボートを借りて砂浜に行く
+    /integ evn grp11 rel c56 f - ------- ボートを借りて砂浜に行く
 
 57:
     /integ evn petra hnt r57 f - ------- ペトラが妖精図書館で調べたエスのことを教えに来てくれる

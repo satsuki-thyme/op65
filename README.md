@@ -50,6 +50,8 @@
 ###### 統合プロット
 
 - plot/01/integration/int-001.md: 統合イベント 基礎設計 第1話
+- plot/01/integration/int-006.md: 統合イベント 基礎設計 第6話
+- plot/01/integration/int-007.md: 統合イベント 基礎設計 第7話
 - plot/01/integration/int-008.md: 統合イベント 基礎設計 第8話
 - plot/01/integration/int-009.md: 統合イベント 基礎設計 第9話
 - plot/01/integration/int-010.md: 統合イベント 基礎設計 第10話
