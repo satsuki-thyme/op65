@@ -1712,6 +1712,7 @@
         /myria odl myria fct rls f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
         /myria odl myria pre r65 f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
         /myria odl myria --- --- f - results ミリアがフェイを倒す
+        /integ evn third --- --- f - ------- フェイを食べた幻霊は不味いと言って飛び去っていく
         /myria odl myria prm r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
         /fei-- odl fei-- prm rls f - results フェイがミリアに敗北する[ref-029]
   assembly:
