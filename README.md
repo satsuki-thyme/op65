@@ -151,6 +151,7 @@
 - thinking-notes/thi-058.md: アリスとミリアの関係
 - thinking-notes/thi-059.md: ペトラが3人の信頼を得る
 - thinking-notes/thi-060.md: 妖精の森の秘密
+- thinking-notes/thi-061.md: エスがヘスト゠エリアであることで生まれる謎 => 伏線
 
 ### アーカイブ
 
