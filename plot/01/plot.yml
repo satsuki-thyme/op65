@@ -51,7 +51,7 @@
         /integ mod alice --- --- f - ------- 腰背に大振りのナイフ
         /alice odl alice prm s01 f - ------- アリスが「全部まとめて満足の冒険ができるかな？」と言う[ref-032]
         /alice odl alice --- --- f - ------- アリスがザヴィの存在を感じないことに不安を漏らす
-        /integ evn alice hnt s39 f - @hestel アリスがヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
+        /integ evn alice fsh s39 f - @hestel アリスがヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
         /integ evn alice --- --- f - ------- 空腹
         /integ evn alice --- --- f b ------- 狼の親子に襲われる一件
         /integ evn alice --- --- f - ------- アリスが狼に、仲間に好かれる魔法を使う
@@ -206,7 +206,7 @@
         /integ evn alice rel c49 f - ------- 水の大精霊と交友を持つ
         /integ inf alice rel c35 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
         /integ inf alice rel c52 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
-        /integ inf alice hnt s39 f - @hestel 流転の神ヘスト゠エリアや精霊のように移ろう存在の呪いは解きやすいと言う
+        /integ inf alice fsh s39 f - @hestel 流転の神ヘスト゠エリアや精霊のように移ろう存在の呪いは解きやすいと言う
         /integ evn multi --- --- f - ------- 衛兵が来てアリス「ああいう人は面倒って決まってるんだから」面倒事を避けるためにアリスがレオナとミリアを連れて逃げる
         /alice lov multi --- --- f - favorbl 手をつなぐ
     4:
@@ -268,13 +268,13 @@
         /myria in< multi --- --- f - ------- 三人で潜入作戦をして逃げる（信頼関係の構築）
         /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ evn grp11 --- --- f - ------- 遷世教団の神殿に忍び込む
-        /integ evn grp11 hnt s39 f - @hestel エスの神珠から感じられる神気に思い当たりがある、はっきり思い出せない　私の記憶は古いからね（ヘスト゠エリア）
+        /integ evn grp11 fsh s39 f - @hestel エスの神珠から感じられる神気に思い当たりがある、はっきり思い出せない　私の記憶は古いからね（ヘスト゠エリア）
         /alice odl alice pre s04 b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
         /rose- odl rose- --- --- b - @apostl ローズが奇蹟の力で信者の死んだ少女を蘇生させる
         /alice li1 rose- hnt s28 b - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
         /alice li1 rose- rel c35 b - @evil-- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
         /integ inf third hnt s29 f - @es---- 遷世教団は遷世神エスに仕えている
-        /integ inf third cat r42 f - @es---- 遷世教団は遷世神エスに仕えている
+        /                cat r42             遷世教団は遷世神エスに仕えている
         /integ inf third hnt s29 f - @es---- 遷世は今の世界を終わらせて新しい世界に移行すること
         /integ inf third hnt s32 f - @orb--- 魔力珠はp27 エリクにある
         /integ inf third hnt s32 f - @orb--- p27 エリクは東にある
@@ -290,7 +290,7 @@
         /alice odl alice pre sls f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
         /alice odl alice pre s05 f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
         /alice odl alice fct r18 f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
-        /integ evn alice hnt s50 f - @rose-- ローズの体が普通の人族＋αの力しかないのに魔力が異常に多いと気付く
+        /integ evn alice hnt s50 f - @roseMy ローズの体が普通の人族＋αの力しかないのに魔力が異常に多いと気付く
         /alice lov alice --- --- f - thought アリスの、2人といると楽しいという気づき
         /alice lov multi --- --- f - favorbl 抱き合う
         /rose- odl rose- prm sls b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
@@ -400,8 +400,8 @@
         /leona odl erie- pre s07 b - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
         /leona odl erie- pre r16 b - threat- エリーがレオナに憎悪を向け（簡単には死なせないくらいに）、戦いたいと申し出る
         /grp21 lov multi --- --- b - ------- 戦いの前にローズがエリーにエロい祝福をする[ref-037-1]
-        /rose- li1 rose- hnt s30 b - @rose-- ローズは自死することができない
-        /rose- li1 rose- hnt s30 b - @rose-- ローズが鉢植えの遅れている蕾を開花させる
+        /rose- li1 rose- hnt s30 b - @roseMy ローズは自死することができない
+        /rose- li1 rose- fsh s75 b - @roseDi ローズが鉢植えの遅れている蕾を開花させる
   assembly:
     1:
       gist:
@@ -644,12 +644,12 @@
         /petra in< alice --- --- f - ------- （和解）
         /multi pst multi --- --- f - ------- （和解）
         /integ evn grp11 --- --- f - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
-        /integ evn petra hnt s39 f - @hestel ペトラが見つけた碑文「エス＝◯◯◯◯リア」アリスがこれは神の名が移ろっていく時期に見られる様式だと言う
-        /integ evn petra --- --- f - @rose-- ペトラが見つけた碑文「エスと特別な人間の少女の関係」
+        /integ evn petra fsh s39 f - @hestel ペトラが見つけた碑文「エス＝◯◯◯◯リア」アリスがこれは神の名が移ろっていく時期に見られる様式だと言う
+        /integ evn petra hnt s30 f - @roseMy ペトラが見つけた碑文「エスと特別な人間の少女の関係」
         /petra odl alice --- --- f - ------- アリス「人生を切り開くには危険を冒さないといけないの。その勇気を持てるかどうかが鍵になるんだよ」
         /petra odl petra --- --- f - ------- アリスを嫌いと言う
         /myria odl myria hnt s13 f - ------- ペトラがアリスを嫌いと言ったとき悲しそうにして、言わないでと懇願する
-        /integ evn third cat s43 f - @es---- ドラゴンにエスについて聞くといずこかに封印されていると言う
+        /integ evn third cat s43 f - ------- ドラゴンにエスについて聞くといずこかに封印されていると言う
         /leona li1 leona rel c51 f - @fencer ドラゴン「バルドロード」がレオナの魂が、かつて戦って敗北した竜克の女剣士レイティア・アルテノートに似ているが、あれ以上に強い輝きを放っていると言う
         /integ evn third rel c54 f - ------- ドラゴンはエンシェントドラゴンと同格程度の者の動きが活発になっているから様子を見ている
         /integ evn third rel c54 f - ------- アリスにバルドロードが{ドラゴンアイテム}をくれる
@@ -917,7 +917,7 @@
         /multi pst multi --- --- f - ------- （対立）
         /integ evn grp11 rel c49 f - ------- 水の大精霊が現れてアリスの身に危険が迫っていると言う（上位存在が関係していてはっきり未来が見えない）
         /integ inf third hnt s29 f - @es---- 妖精女王がエスはp27 エリクに封印されていると言う
-        /integ inf third cat r43 f - @es---- 妖精女王がエスはp27 エリクに封印されていると言う
+        /                cat r43             妖精女王がエスはp27 エリクに封印されていると言う
         /integ evn grp11 rel c36 f - ------- 妖精女王に謁見する
         /petra odl third pre s62 f - ------- 妖精女王から妖精領主になるならいつでも言いなさいと言われる
         /integ inf third hnt s32 f - @orb--- 妖精女王から魔力珠はp27 エリクから何者かによって持ち去られていると言われる
@@ -926,8 +926,8 @@
         /integ inf third rel c34 f - @elf--- 妖精女王からp27 エリクは古代ハイエルフの都市国家と言われる
         /alice odl alice pre s05 f - @ring-- アリスが妖精女王に素敵な指輪をよく見せてほしいと言われ_外せない_からこのままでと言う[ref-039]
         /alice li1 third hnt s28 f - @alice- 妖精女王は指輪を検分してアリス（高位の存在）になんとなく気づくがアリスがお戯れをなどと言って好待遇を拒否する
-        /integ inf third hnt s39 f - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
-        /integ inf third hnt s39 f - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
+        /integ inf third fsh s39 f - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
+        /integ inf third fsh s39 f - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
         /alice odl alice pre smd f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
         /alice odl alice pre sls f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
         /alice odl alice hnt smd f - thought ローズと戦うことになる予感が強くなる
@@ -938,7 +938,7 @@
         /leona odl leona pre sls f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
         /leona odl leona hnt smd f - thought 父王に言われた言葉「俺を超えていけ」がよみがえるどういう意味だったのか
         /rose- li2 rose- hnt s33 b - @orbPln アリスたちが魔力珠がp27 エリクにないと知ってしまった　世界が窮地だと知ればアリスは世界を救いたがるはず
-        /rose- li1 rose- hnt s30 b - @rose-- ローズがスパイ妖精を解任して消滅させる　妖精は安らかに消滅する
+        /rose- li1 rose- fsh s75 b - @roseDi ローズがスパイ妖精を解任して時間を移ろわせて消滅させる　妖精は安らか
         /myria odl fei-- pre smd b - bGround フェイの背景
         /myria odl fei-- pre r26 b - bGround フェイの背景
         /fei-- li2 fei-- --- --- b - ------- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
@@ -1016,15 +1016,15 @@
         /leona li1 alice rel c51 f - @fencer アリスがこの剣には何かが封じられている悪いものではないと言う
         /integ evn alice cat s45 f - @zavia- ザヴィが倒される相手なんているんだろうかと疑問を言う
         /integ inf rose- hnt s32 f - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
-        /integ inf rose- hnt r50 f - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
-        /integ inf rose- hnt r50 f - @rose-- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
-        /integ inf rose- cat r70 f - @rose-- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
+        /                hnt r50     @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
+        /                hnt s30     @roseMy ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
+        /                cat r70             ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
         /integ inf rose- hnt s31 f - @zavia- ザヴィはローズが殺した
         /integ inf rose- cat r45 f - @zavia- ザヴィはローズが殺した
         /integ inf rose- hnt s32 f - @orb--- ローズは魔力珠とともにp27 エリクに行って世界を終わらせる
         /rose- li2 rose- hnt s33 f - @orbPln ローズは魔力珠とともにp27 エリクに行って世界を終わらせる
         /alice odl alice pre rmd f b ordeal- アリスがローズと戦う
-        /integ evn alice cat s70 f - @rose-- やはりローズの体は普通の人族なのに魔力の量が異常だと言う
+        /integ evn alice cat s70 f - @roseMy やはりローズの体は普通の人族なのに魔力の量が異常だと言う
         /alice odl alice hnt rmd f - ------- 説得を試みる
         /alice odl alice pre sls f - results アリスがまともに戦えず怪我をする
         /alice odl rose- pre s05 f - @alice- ローズがアリスを太古から生きる化け物と言う
@@ -1109,15 +1109,15 @@
         /alice odl alice rel c52 f - bGround アリスの背景
         /alice odl alice pre sls f - thought アリスの子に対する愛情
         /alice lov alice --- --- f - thought アリスの、2人に対する独占欲の気づき
-        /integ evn alice cat s46 f - @es---- 神が世界を終わらせようとするだろうか、邪なあの子ならともかく
+        /integ evn alice cat s46 f - ------- 神が世界を終わらせようとするだろうか、邪なあの子ならともかく
         /integ evn third rel c54 f - ------- 水棲ドラゴンがバルドロードの{ドラゴンアイテム}を感知して湖底洞窟の祠に連れていってくれる
         /integ evn third rel c73 f - ------- 水棲ドラゴンがp19 大破壊の街のエルフがそなたらの旅の鍵になるだろうと言う
         /integ evn noCha rel c56 f - ------- 砂浜の描写
         /integ evn noCha rel c55 f - ------- 湖底の街の描写
         /integ inf noCha hnt s29 f - @es---- 祠の古文書 => エスは邪神の呪いによって世界の破壊を欲するようにされた
-        /integ inf noCha cat r46 f - @es---- 祠の古文書 => エスは邪神の呪いによって世界の破壊を欲するようにされた
-        /integ inf noCha rel c35 f - @evil-- 祠の古文書 => エスは邪神の呪いによって世界の破壊を欲するようにされた
-        /integ inf alice hnt s39 f - @es---- アリスが邪神の呪いなら解呪できると思うと言う
+        /                cat r46             祠の古文書 => エスは邪神の呪いによって世界の破壊を欲するようにされた
+        /                rel c35     @evil-- 祠の古文書 => エスは邪神の呪いによって世界の破壊を欲するようにされた
+        /integ inf alice hnt s29 f - @es---- アリスが邪神の呪いなら解呪できると思うと言う
         /integ inf noCha rel c34 f - @elf--- 祠の古文書 => 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
   assembly:
     1:
@@ -1257,8 +1257,8 @@
       - 近くの村に特別な牛がいることを聞く
       - ミリアが普段使うのは弱い精霊魔法
   elements:
-        /integ evn petra hnt s39 f - @es---- 妖精図書館でエスのことを調べると言う
-        /integ evn third --- --- f - @es---- エスとザヴィとザヴィの従者の戦いの伝説
+        /integ evn petra hnt s29 f - @es---- 妖精図書館でエスのことを調べると言う
+        /integ evn third hnt s29 f - @es---- エスとザヴィとザヴィの従者の戦いの伝説
         /integ evn third --- --- f - @zavia- エスとザヴィとザヴィの従者の戦いの伝説
         /integ evn third rel c73 f - ------- エルフの老婆からp26 カルダからp27 エリクに行ける、p26 カルダに関わる情報がp24 街にあると聞く
         /integ evn alice --- --- f - ------- エルフの老婆が指輪を欲するが外せないのと言って断る
@@ -1344,7 +1344,7 @@
         /rose- li2 rose- hnt s33 b - @orbPln 望みの全てはp27 エリクの封印に懸かっている
         /rose- li2 rose- hnt s33 b - @orbPln エスは封印の中で邪神の呪いに苛まれている
         /rose- li2 rose- hnt s29 b - @es---- エスは封印の中で邪神の呪いに苛まれている
-        /rose- li1 rose- hnt s30 b - @rose-- ローズが神殿教会のバルコニーに立つと晴れる
+        /rose- li1 rose- fsh s75 b - @roseDi ローズが神殿教会のバルコニーに立つと空が移ろって晴れる
         /alice in> multi --- --- f - ------- （信頼関係の構築）
         /leona in- multi --- --- f - ------- （信頼関係の構築）
         /myria in< multi --- --- f - ------- （信頼関係の構築）
@@ -1529,7 +1529,7 @@
         /integ evn myria --- --- f - ------- 草花の亜精霊（人型でない光の粒）に助けられる
         /myria odl myria hnt rmd f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
         /myria odl fei-- --- --- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
-        /alice li1 alice hnt s39 f - @es---- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
+        /alice li1 alice --- --- f - ------- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
         /alice li1 alice hnt s28 f - @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
         /alice etc third rel c59 f - ------- ペトラにもらった妖精の蜜飴をなめさせて縁故をつなぐ
   assembly:
@@ -1610,9 +1610,9 @@
         /multi pst multi --- --- f - ------- （信頼関係の構築）
         /myria odl third pre s62 f - ------- 最終日の夕方、占い師を含む一団が野営する
         /integ evn petra hnt r57 f - ------- ペトラが妖精図書館で調べたエスのことを教えに来てくれる
-        /integ evn petra hnt s39 f - @hestel 古文書にエス＝ヘス◯◯◯◯と書かれている
-        /integ evn petra hnt s39 f - @es---- 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
-        /integ evn petra hnt s39 f - @hestel 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
+        /integ evn petra fsh s39 f - @hestel 古文書にエス＝ヘス◯◯◯◯と書かれている
+        /integ evn petra hnt s29 f - @es---- 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
+        /integ evn petra fsh s39 f - @hestel 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
         /rose- li2 petra hnt s33 f - @orbPln 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
         /myria odl myria pre sls f - ------- ミリアがアリスから魔法を発動過誤（ファンブル）させる魔法を教わる
         /alice odl alice pre sls f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
@@ -1865,8 +1865,8 @@
         /alice lov alice --- --- f - thought アリスの、ミリアの願いが成就したことで、レオナ 試練は予想されるわけで、それが乗り越えられたら告白するという決心
         /leona odl erie- pre sls b - threat- エリーがパワーアップして異形になる[ref-026]
         /grp21 lov multi --- --- b - ------- エロいことをする[ref-037-5]
-        /rose- li1 rose- hnt s30 b - @rose-- ローズがエリーを強化する
-        /rose- li1 rose- hnt s30 b - @rose-- ローズに後光が射す
+        /rose- li1 rose- hnt s30 b - @roseMy ローズがエリーを強化する
+        /rose- li1 rose- hnt s30 b - @roseDi ローズに後光が射す
         /rose- li2 erie- pre s40 b - @orbPln エリーがローズが死ぬ気でいると悟る
   assembly:
     1:
@@ -2029,8 +2029,8 @@
         /alice odl rose- pre sls b - threat- ローズがパワーアップする[ref-023]
         /integ inf rose- hnt s32 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
         /integ inf rose- cat r47 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
-        /rose- li1 rose- hnt s30 b - @rose-- ローズが自分自身を強化する
-        /rose- li1 rose- hnt s30 b - @rose-- ローズの強化にともなって妖精が生まれては祝福して消えていく
+        /rose- li1 rose- hnt s30 b - @roseMy ローズが自分自身を強化する
+        /rose- li1 rose- hnt s30 b - @roseDi ローズの強化にともなって妖精が生まれては祝福して消えていく
   assembly:
     1:
       gist:
@@ -2100,8 +2100,8 @@
         /multi pst multi --- --- f - ------- （信頼関係の構築）
         /integ etc alice rel c68 f - ------- アリスが島の中央の大きな木のたもとにローズがいると分かる
         /integ inf rose- hnt r31 f - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
-        /rose- li1 rose- hnt r30 f - @rose-- ローズがエスは封印される直前に自身の一部とローズと融合させたことを告白する
-        /rose- li1 rose- hnt s29 f - @es---- ローズがエスは封印される直前に自身の一部とローズと融合させたことを告白する
+        /rose- li1 rose- hnt r30 f - @roseMy （ローズの謎）ローズがエスは封印される直前に自身の使徒とローズと融合させたことを告白する
+        /                fsh r75     @roseDi （ローズの神性）ローズがエスは封印される直前に自身の使徒とローズと融合させたことを告白する
         /rose- li2 rose- hnt r33 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
         /rose- li2 rose- cat r71 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
         /alice li1 alice hnt s28 f - @alice- アリスの力が解放されてp27 エリクが楽園になる
@@ -2179,13 +2179,14 @@
         /leona in- multi --- --- f - ------- （信頼関係の構築）
         /myria in< multi --- --- f - ------- （信頼関係の構築）
         /multi pst multi --- --- f - ------- （信頼関係の構築）
-        /integ evn alice hnt r39 f - @es---- エス＝ヘスト゠エリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
+        /integ evn alice fsh s39 f - @hestel エス＝ヘスト゠エリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
         /integ evn third hnt r32 f - @orb--- 魔力珠を手に入れる
-        /integ evn third hnt r29 f - @es---- エスの呪いを解いてエスから世界の趨勢を知る
+        /integ evn third --- --- f - ------- ヘスト゠エリアから世界の趨勢を知る
         /integ inf third rel c35 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
         /alice li1 alice --- --- f - @alice- 新しい指輪を生み出して嵌めて楽園の広がりを止める
         /alice li1 third hnt r28 f - @alice- ヘスト゠エリアがアリス様と言って敬う
-        /alice li1 third hnt r39 f - @hestel ヘスト゠エリアがアリス様と言って敬う
+        /integ evn third fsh r39 f - @hestel （ヘストの謎）ヘスト゠エリアがアリス様と言って敬う
+        /integ evn third hnt r29 f - @es---- （エスの謎）エスはヘスト゠エリアだった
         /alice odl alice prm r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる
         /alice odl alice prm r01 f - thought アリスが「いろいろあったけど、全部まとめて大満足だよ！」と言う
         /alice lov alice --- --- f - thought アリスの、2人といると楽しいということの再認識
