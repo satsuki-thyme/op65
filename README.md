@@ -41,9 +41,9 @@
 - plot/01/elements-love.yml:           プロット要素 恋愛
 - plot/01/elements-ordeal.yml:         プロット要素 試練
 - plot/01/elements-sub.yml:            プロット要素 サブ
+- plot/01/numbering.yml:               採番
 - plot/01/plot.yml:                    プロット
-- plot/01/precursor-memo.yml:          前駆体のメモ
-- plot/01/precursor.yml:               前駆体の採番
+- plot/01/precursor.yml:               前駆体メモ
 - plot/01/ref-note.yml:                参照ノート
 - plot/01/worldview-decoration.yml:    世界観装飾
 
