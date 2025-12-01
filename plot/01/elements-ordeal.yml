@@ -40,75 +40,75 @@
         /alice odl alice prm r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる[ref-019]
 
     body event:
-      _試練 1
+      "試練 1
         ^send event
-        /alice odl alice pre s04 f - favorbl アリスが暴れる水の大精霊をおとなしくさせる[ref-019]
-        /alice odl alice rel c18 f - ------- アリスが周囲への害を強く気にする
+        /alice odl alice tPhs04 f - favorbl アリスが暴れる水の大精霊をおとなしくさせる[ref-019]
+        /alice odl alice con c18 f - ------- アリスが周囲への害を強く気にする
             ===
-        /alice odl alice pre s04 b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
+        /alice odl alice tPhs04 b - threat- ローズが奇蹟の力で信者の死んだ少女を蘇生させる
         /rose- odl rose- --- --- b - @apostl ローズが奇蹟の力で信者の死んだ少女を蘇生させる
             ===
-        /alice odl alice pre s04 f - threat- アリスがローズの噂を聞く[ref-020]
+        /alice odl alice tPhs04 f - threat- アリスがローズの噂を聞く[ref-020]
 
         ^receive event
-        /alice odl alice pre r04 f b ordeal- アリスがローズと戦う
+        /alice odl alice tPhr04 f b ordeal- アリスがローズと戦う
           /alice odl alice --- --- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
           /rose- odl rose- --- --- f - @es---- ローズが封界の指輪を見て「見つけた！」と言って笑む
           /rose- odl rose- --- --- f - @es---- ローズが遷世して殺されたザヴィに会うと言う
-          /alice odl alice pre sls f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
-          /alice odl alice pre s05 f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+          /alice odl alice tPhsls f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+          /alice odl alice tPhs05 f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
 
-      _試練 2
+      "試練 2
         ^send event
-        /alice odl alice pre smd f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
+        /alice odl alice tPhsmd f - favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
         /alice odl alice hnt smd f - thought ローズが自分たちに目をつけていることに戦いの予感がする
             ===
-        /alice odl alice pre smd f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-        /alice odl alice pre sls f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+        /alice odl alice tPhsmd f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+        /alice odl alice tPhsls f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
         /alice odl alice hnt smd f - thought ローズと戦うことになる予感が強くなる
             ===
-        /alice odl alice pre smd f - favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
+        /alice odl alice tPhsmd f - favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
         /alice odl alice hnt smd f - thought レオナに戦いを教える一方で自身にローズと戦う覚悟がないことを思う
             ===
-        /alice odl alice pre smd b - threat- ローズがアリスについて不気味な発言をするntt
+        /alice odl alice tPhsmd b - threat- ローズがアリスについて不気味な発言をするntt
         /alice odl alice hnt smd f - thought ローズとは戦えないと悩む
 
         ^receive event
-        /alice odl alice pre rmd f b ordeal- アリスがローズと戦う
+        /alice odl alice tPhrmd f b ordeal- アリスがローズと戦う
           /alice odl alice hnt rmd f - ------- 説得を試みる
-          /alice odl alice pre sls f - results アリスが真面に戦えず怪我をする
+          /alice odl alice tPhsls f - results アリスが真面に戦えず怪我をする
           /alice odl alice --- --- f - bground ローズが下腹部を押さえて苦しみ始める
 
         ^back event
-        /alice odl alice pre sls f - bground アリスの背景
-        /alice odl alice pre r05 f - bground アリスの背景
-        /alice odl alice rel sls f - thought アリスの子に対する愛情
+        /alice odl alice tPhsls f - bground アリスの背景
+        /alice odl alice tPhr05 f - bground アリスの背景
+        /alice odl alice con sls f - thought アリスの子に対する愛情
 
-      _試練 3
+      "試練 3
         ^send event
-        /alice odl alice pre sls b - threat- ローズがパワーアップする[ref-023]
+        /alice odl alice tPhsls b - threat- ローズがパワーアップする[ref-023]
             ===
-        /alice odl alice pre sls f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-        /alice odl alice rel sls f - thought ローズを倒すことになる予感がする
+        /alice odl alice tPhsls f - thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+        /alice odl alice con sls f - thought ローズを倒すことになる予感がする
             x n
             ===
-        /alice odl alice pre sls f - thought 子を殺すことの倫理的な問題に囚われる
-        /alice odl alice rel sls f - thought ローズを倒さなければ世界が滅びると認識している
+        /alice odl alice tPhsls f - thought 子を殺すことの倫理的な問題に囚われる
+        /alice odl alice con sls f - thought ローズを倒さなければ世界が滅びると認識している
             ===
-        /alice odl alice pre sls f - thought ローズを倒せないと思い込む => ローズは強い
-        /alice odl alice rel sls f - thought ローズを倒さないと事は収まらないと分かっている
+        /alice odl alice tPhsls f - thought ローズを倒せないと思い込む => ローズは強い
+        /alice odl alice con sls f - thought ローズを倒さないと事は収まらないと分かっている
             ===
-        /alice odl alice pre sls f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
-        /alice odl alice rel sls f - thought ローズを倒すべきだと分かっている
+        /alice odl alice tPhsls f - thought ローズを殺せば自分はおかしくなってしまうと思い込む
+        /alice odl alice con sls f - thought ローズを倒すべきだと分かっている
             ===
-        /alice odl multi pre s21 f - ------- レオナとミリアが何かを作っている[ref-040]
+        /alice odl multi tPhs21 f - ------- レオナとミリアが何かを作っている[ref-040]
             ===
-        /alice odl alice pre sls f - favorbl レオナとミリアから贈り物をもらう[ref-040]
-        /alice odl alice pre r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
+        /alice odl alice tPhsls f - favorbl レオナとミリアから贈り物をもらう[ref-040]
+        /alice odl alice tPhr21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
 
         ^receive event
-        /alice odl alice pre rls f b ordeal- アリスがローズと戦う
-          /alice odl alice rel rls f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
+        /alice odl alice tPhrls f b ordeal- アリスがローズと戦う
+          /alice odl alice con rls f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
           /alice odl alice --- --- f - results アリスがローズを倒す
 
  ##       ########  #######  ##    ##    ###
@@ -129,77 +129,77 @@
         /leona odl leona prm r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
 
     body event:
-      _試練 1
+      "試練 1
         ^send event
-        /leona odl leona pre s07 f b favorbl レオナが魔物を倒して強いところを見せる
-          /leona odl leona pre s07 f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
-          /leona odl leona rel c08 f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
-          /leona odl leona pre s07 f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
-          /leona odl leona rel c19 f - thought このままではいけないという思いが漠然としている
+        /leona odl leona tPhs07 f b favorbl レオナが魔物を倒して強いところを見せる
+          /leona odl leona tPhs07 f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
+          /leona odl leona con c08 f - favorbl アリスがレオナの剣術を美しい、完成していると言って褒める
+          /leona odl leona tPhs07 f - thought レオナが上手くやれていると思いつつ気持ちには過去に囚われている影が
+          /leona odl leona con c19 f - thought このままではいけないという思いが漠然としている
             ===
-        /leona odl myria pre s09 f - ------- ミリアがレオナを甘やかす[ref-042]
-        /leona odl myria rel c24 f - ------- ミリアがレオナを甘やかす[ref-042]
+        /leona odl myria tPhs09 f - ------- ミリアがレオナを甘やかす[ref-042]
+        /leona odl myria con c24 f - ------- ミリアがレオナを甘やかす[ref-042]
             ===
-        /leona odl leona pre s07 b - threat- エリーがレオナに憎悪を向ける
+        /leona odl leona tPhs07 b - threat- エリーがレオナに憎悪を向ける
 
         ^receive event
-        /leona odl leona pre r07 f b ordeal- レオナがエリーと戦う
-          /leona odl leona pre s09 f - bground エリーの背景（エリーが戦闘中に過去を語る）
-          /leona odl leona pre s09 f - results レオナがエリーに敗北する
-          /leona odl leona rel c19 f - ------- 〃
+        /leona odl leona tPhr07 f b ordeal- レオナがエリーと戦う
+          /leona odl leona tPhs09 f - bground エリーの背景（エリーが戦闘中に過去を語る）
+          /leona odl leona tPhs09 f - results レオナがエリーに敗北する
+          /leona odl leona con c19 f - ------- 〃
 
-      _試練 2
+      "試練 2
         ^send event
-        /leona odl leona pre smd f - bground レオナの背景
-        /leona odl leona pre r09 f - bground レオナの背景
+        /leona odl leona tPhsmd f - bground レオナの背景
+        /leona odl leona tPhr09 f - bground レオナの背景
             ===
-        /leona odl leona pre smd b - threat- エリーが余裕ぶってレオナを殺すと言う
+        /leona odl leona tPhsmd b - threat- エリーが余裕ぶってレオナを殺すと言う
             ===
-        /leona odl leona pre smd f - ------- レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
-          /leona odl leona rel c14 f - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
-          /leona odl leona rel c08 f - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
+        /leona odl leona tPhsmd f - ------- レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
+          /leona odl leona con c14 f - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
+          /leona odl leona con c08 f - ------- アリスが「レオナの型は完成しているから型を破るべき」と言う
             ===
-        /leona odl leona pre smd f - ------- レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
+        /leona odl leona tPhsmd f - ------- レオナがアリスに訓練してもらう[毎度の訓練の表現を工夫する][ref-018]
             x n
             ===
-        /leona odl leona rel c14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
-        /leona odl leona pre smd f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
+        /leona odl leona con c14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
+        /leona odl leona tPhsmd f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
             ===
-        /leona odl leona pre sls f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
+        /leona odl leona tPhsls f - thought 父王の剣を崩すことを否定する => 自分が至らないだけ
         /leona odl leona hnt smd f - thought 父王に言われた言葉「俺を超えていけ」がよみがえるどういう意味だったのか
             ===
-        /leona odl leona pre sls f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
+        /leona odl leona tPhsls f - thought 剣の型を崩すと弱くなると思い込む　型は絶対
         /leona odl leona hnt smd f - thought 絶対だと思っていた王国の滅亡　絶対なんてあるんだろうか
             ===
-        /leona odl myria pre smd f - ------- ミリアがレオナを甘やかす[ref-042]
-        /leona odl myria rel c25 f - ------- ミリアがレオナを甘やかす[ref-042]
-        /leona odl myria rel c24 f - ------- ミリアがレオナを甘やかす[ref-042]
+        /leona odl myria tPhsmd f - ------- ミリアがレオナを甘やかす[ref-042]
+        /leona odl myria con c25 f - ------- ミリアがレオナを甘やかす[ref-042]
+        /leona odl myria con c24 f - ------- ミリアがレオナを甘やかす[ref-042]
 
         ^receive event
-        /leona odl leona pre rmd f b ordeal- レオナがエリーと戦う
+        /leona odl leona tPhrmd f b ordeal- レオナがエリーと戦う
           /leona odl leona hnt rmd f - results レオナがエリーと引き分ける
-          /leona odl erie- rel sls f - ------- エリーが絶対にこのままでは終わらせないと宣言する
+          /leona odl erie- con sls f - ------- エリーが絶対にこのままでは終わらせないと宣言する
 
-      _試練 3
+      "試練 3
         ^send event
-        /leona odl leona pre sls b - threat- エリーがパワーアップして異形になる[ref-026]
+        /leona odl leona tPhsls b - threat- エリーがパワーアップして異形になる[ref-026]
             ===
-        /leona odl leona pre sls f - favorbl ntt
+        /leona odl leona tPhsls f - favorbl ntt
             ===
-        /leona odl leona pre sls f - thought エリーといい勝負ができたことで現状維持がいいと思い込む
-        /leona odl leona rel sls f - thought エリーがあのままのはずがないという予感がある
-        /leona odl leona rel sls f - thought エリーを超えられなかった事実が心の底にわだかまっている
+        /leona odl leona tPhsls f - thought エリーといい勝負ができたことで現状維持がいいと思い込む
+        /leona odl leona con sls f - thought エリーがあのままのはずがないという予感がある
+        /leona odl leona con sls f - thought エリーを超えられなかった事実が心の底にわだかまっている
             ===
-        /leona odl leona pre sls f - thought 父王の剣を逸脱するなんてできないと思い込む
-        /leona odl leona rel sls f - thought 父王の剣を乗り越えられたら何かが得られる気がする
+        /leona odl leona tPhsls f - thought 父王の剣を逸脱するなんてできないと思い込む
+        /leona odl leona con sls f - thought 父王の剣を乗り越えられたら何かが得られる気がする
             ===
-        /leona odl myria pre sls f - ------- ミリアがレオナを甘やかす[ref-042]
-        /leona odl myria rel sls f - ------- ミリアがレオナを甘やかす[ref-042]
-        /leona odl myria rel c25 f - ------- ミリアがレオナを甘やかす[ref-042]
+        /leona odl myria tPhsls f - ------- ミリアがレオナを甘やかす[ref-042]
+        /leona odl myria con sls f - ------- ミリアがレオナを甘やかす[ref-042]
+        /leona odl myria con c25 f - ------- ミリアがレオナを甘やかす[ref-042]
 
         ^receive event
-        /leona odl leona pre rls f b ordeal- レオナがエリーと戦う
-          /leona odl leona rel rls f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
+        /leona odl leona tPhrls f b ordeal- レオナがエリーと戦う
+          /leona odl leona con rls f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
           /leona odl leona --- --- f - results レオナがエリーを倒す
 
  ##     ## ##    ## ########  ####    ###
@@ -230,70 +230,70 @@
         /myria odl myria prm r11 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
 
     body event:
-      _試練 1
+      "試練 1
         ^send event
-        /myria odl myria pre s12 f - thought ミリアが祖母に会いたいという強い思いを吐露する
+        /myria odl myria tPhs12 f - thought ミリアが祖母に会いたいという強い思いを吐露する
             ===
-        /myria odl myria pre s12 f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
-        /myria odl myria rel c20 f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
-        /myria odl alice pre sls f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
-        /myria odl alice rel c21 f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
+        /myria odl myria tPhs12 f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
+        /myria odl myria con c20 f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
+        /myria odl alice tPhsls f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
+        /myria odl alice con c21 f - ------- アリスがあなたが不幸でいる限り贖罪はできないのよと言う
             ===
-        /myria odl leona pre s12 f - favorbl レオナがミリアに甘える[ref-042]
-        /myria odl leona rel c22 f - favorbl レオナがミリアに甘える[ref-042]
+        /myria odl leona tPhs12 f - favorbl レオナがミリアに甘える[ref-042]
+        /myria odl leona con c22 f - favorbl レオナがミリアに甘える[ref-042]
             ===
-        /myria odl myria pre s12 b - threat- フェイがエルフへの欲望を吐露する
+        /myria odl myria tPhs12 b - threat- フェイがエルフへの欲望を吐露する
 
         ^receive event
-        /myria odl myria pre r12 f b ordeal- ミリアがフェイと戦う[ref-030]
-          /myria odl myria rel c20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
-          /myria odl myria pre s13 f - results フェイが「また来る」と言って撤退する
+        /myria odl myria tPhr12 f b ordeal- ミリアがフェイと戦う[ref-030]
+          /myria odl myria con c20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
+          /myria odl myria tPhs13 f - results フェイが「また来る」と言って撤退する
 
-      _試練 2
+      "試練 2
         ^send event
-        /myria odl myria pre smd f - bground ミリアの背景
-        /myria odl myria pre r13 f - bground ミリアの背景
+        /myria odl myria tPhsmd f - bground ミリアの背景
+        /myria odl myria tPhr13 f - bground ミリアの背景
             ===
-        /myria odl myria pre smd b - bground フェイの背景
+        /myria odl myria tPhsmd b - bground フェイの背景
             ===
-        /myria odl myria pre smd f - thought ミリアが祖母を思う
+        /myria odl myria tPhsmd f - thought ミリアが祖母を思う
             ===
-        /myria odl myria pre smd f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
+        /myria odl myria tPhsmd f - thought 祖母への罪悪感を捨てたら自分は自分でいられないと思い込む
         /myria odl myria hnt smd f - thought 罪悪感に縛られて身動きが取れないままでいいとは思わない、だけど
-        /myria odl alice pre sls f - ------- アリスが不幸に押しつぶされた心では当たり前の償いもできないと言う
-        /myria odl alice pre s22 f - ------- アリスが不幸に押しつぶされた心では当たり前の償いもできないと言う
-        /myria odl alice pre r21 f - ------- アリスが不幸に押しつぶされた心では当たり前の償いもできないと言う
+        /myria odl alice tPhsls f - ------- アリスが不幸に押しつぶされた心では当たり前の償いもできないと言う
+        /myria odl alice tPhs22 f - ------- アリスが不幸に押しつぶされた心では当たり前の償いもできないと言う
+        /myria odl alice tPhr21 f - ------- アリスが不幸に押しつぶされた心では当たり前の償いもできないと言う
             ===
-        /myria odl myria pre smd f - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
+        /myria odl myria tPhsmd f - favorbl 遷世なんてとんでもなくてフェイの襲来にも心揺れるところはないと笑顔で言う
             ===
-        /myria odl leona pre smd f - favorbl レオナがミリアに甘える[ref-042]
-        /myria odl leona rel c23 f - favorbl レオナがミリアに甘える[ref-042]
-        /myria odl leona rel c22 f - favorbl レオナがミリアに甘える[ref-042]
+        /myria odl leona tPhsmd f - favorbl レオナがミリアに甘える[ref-042]
+        /myria odl leona con c23 f - favorbl レオナがミリアに甘える[ref-042]
+        /myria odl leona con c22 f - favorbl レオナがミリアに甘える[ref-042]
             ===
-        /myria odl myria pre smd b - threat- フェイが取っておきの方法を思ってほくそ笑む
+        /myria odl myria tPhsmd b - threat- フェイが取っておきの方法を思ってほくそ笑む
 
         ^receive event
-        /myria odl myria pre rmd f b ordeal- ミリアがフェイと戦う
+        /myria odl myria tPhrmd f b ordeal- ミリアがフェイと戦う
           /myria odl myria hnt rmd f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
           /myria odl myria --- --- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する
 
-      _試練 3
+      "試練 3
         ^send event
-        /myria odl myria pre sls f - thought ミリアが祖母を大切に思う気持ちを吐露する
+        /myria odl myria tPhsls f - thought ミリアが祖母を大切に思う気持ちを吐露する
             ===
-        /myria odl myria pre sls f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
-        /myria odl myria rel sls f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
-        /myria odl alice pre sls f - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
-        /myria odl alice rel c22 f - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
+        /myria odl myria tPhsls f - thought 祖母への罪悪感を捨てるわけにいかないから前に進むことはムリだと思い込む
+        /myria odl myria con sls f - thought 祖母がそんなことを望むのか、と思うものの、死者の言葉を騙ってはいけないと戒める
+        /myria odl alice tPhsls f - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
+        /myria odl alice con c22 f - ------- アリスが幸せを掴んだ十全のあなたで罪を背負って生きるのよと言う
             ===
-        /myria odl leona pre sls f - favorbl レオナがミリアに甘える[ref-042]
-        /myria odl leona rel c23 f - favorbl レオナがミリアに甘える[ref-042]
+        /myria odl leona tPhsls f - favorbl レオナがミリアに甘える[ref-042]
+        /myria odl leona con c23 f - favorbl レオナがミリアに甘える[ref-042]
             ===
-        /myria odl myria pre sls f - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく
+        /myria odl myria tPhsls f - threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく
 
         ^receive event
-        /myria odl myria pre rls f b ordeal- ミリアがフェイと戦う[ref-029]
-          /myria odl myria rel rls f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
+        /myria odl myria tPhrls f b ordeal- ミリアがフェイと戦う[ref-029]
+          /myria odl myria con rls f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
           /myria odl myria --- --- f - results ミリアがフェイを倒す
 
  ########  ######## ######## ########     ###
@@ -314,10 +314,10 @@
         /petra odl petra prm r15 f - gDesire ペトラが妖精領主になる
 
         ^send event
-        /petra odl petra pre s37 f - ------- アリスに敵に立ち向かう勇気もあれば素直になれない気持ちに立ち向かう勇気だってあるのよと言われる
+        /petra odl petra tPhs37 f - ------- アリスに敵に立ち向かう勇気もあれば素直になれない気持ちに立ち向かう勇気だってあるのよと言われる
 
         ^reveive event
-        /petra odl petra pre r37 f - ------- アリスに石碑のことを伝えたい気持ちに素直になる
+        /petra odl petra tPhr37 f - ------- アリスに石碑のことを伝えたい気持ちに素直になる
 
  ########   #######   ######  ########
  ##     ## ##     ## ##    ## ##

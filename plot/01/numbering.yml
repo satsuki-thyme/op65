@@ -9,22 +9,22 @@
         /alice li1 alice prm r03 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる[memo-019]
 
 04:
-        /alice li1 alice tPh r04 f b ordeal- アリスがローズと戦う
+        /alice li1 alice tPh m04 f b ordeal- アリスがローズと戦う
 
 05:
-        /alice li1 alice tPh r05 f - bground アリスの背景
+        /alice li1 alice tPh m05 f - bground アリスの背景
 
 06:
         /leona li1 leona prm r06 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
 
 07:
-        /leona li1 leona tPh r07 f b ordeal- レオナがエリーと戦う
+        /leona li1 leona tPh m07 f b ordeal- レオナがエリーと戦う
 
 08:
-        /leona li1 leona tPh r08 f - ---- アリスが「レオナの型は完成しているから型を破るべき」と言う
+        /leona li1 leona tPh m08 f - ---- アリスが「レオナの型は完成しているから型を破るべき」と言う
 
 09:
-        /leona li1 leona tPh r09 f - bground レオナの背景
+        /leona li1 leona tPh m09 f - bground レオナの背景
 
 10:
         /myria li1 myria prm r10 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
@@ -33,10 +33,10 @@
         /myria li1 myria prm r11 f - gDesire ミリアがハイエルフの叡智を得る
 
 12:
-        /myria li1 myria tPh r12 f b ordeal- ミリアがフェイと戦う
+        /myria li1 myria tPh m12 f b ordeal- ミリアがフェイと戦う
 
 13:
-        /myria li1 myria tPh r13 f - bground ミリアの背景
+        /myria li1 myria tPh m13 f - bground ミリアの背景
 
 14:
         /leona li1 leona con c14 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
@@ -45,10 +45,10 @@
         /petra li1 petra prm r15 f - gDesire ペトラが妖精領主になる
 
 16:
-        /leona li1 leona tPh r16 b - threat- エリーがレオナに憎悪を向ける
+        /leona li1 leona tPh m16 b - threat- エリーがレオナに憎悪を向ける
 
 17:
-        /myria li1 myria tPh r17 b - threat- フェイがエルフへの欲望を吐露する => 心を奪うみたいなことを言う
+        /myria li1 myria tPh m17 b - threat- フェイがエルフへの欲望を吐露する => 心を奪うみたいなことを言う
 
 18:
         /alice odl alice fct r18 f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
@@ -60,7 +60,7 @@
         /myria odl myria fct r20 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
 
 21:
-        /alice odl alice tPh r21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
+        /alice odl alice tPh m21 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
 
 22:
         /myria odl leona con c22 f - favorbl レオナがミリアに甘える[ref-042]
@@ -75,7 +75,7 @@
         /leona odl myria con c25 f - ------- ミリアがレオナを甘やかす[ref-042]
 
 26:
-        /myria odl fei-- tPh r26 b - bground フェイの背景
+        /myria odl fei-- tPh m26 b - bground フェイの背景
 
 27:
         /integ etc rose- con c27 b - @es---- なぜザヴィが封印したのでしょう？に対してザヴィは邪神に呪われていたと言う
@@ -108,16 +108,16 @@
         /integ evn grp11 con c36 f - ------- 妖精女王に謁見する
 
 37:
-        /petra odl petra tPh r37 f - ------- アリスに石碑のことを伝えたい気持ちに素直になる
+        /petra odl petra tPh m37 f - ------- アリスに石碑のことを伝えたい気持ちに素直になる
 
 38:
-        /myria odl myria tPh r38 f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
+        /myria odl myria con c38 f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
 
 39:
         /integ evn alice hnt r39 f - @es---- エス＝ヘスト゠エリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
 
 40:
-        /integ inf erie- tPh r40 f - @orbPln ローズは死ぬ気でいる
+        /integ inf erie- tPh m40 f - @orbPln ローズは死ぬ気でいる
 
 41:
         /integ inf myria cat r41 f - @orb--- 遷世教団は魔力珠を探している
@@ -180,19 +180,19 @@
     omit
 
 61:
-        /leona odl leona tPh r61 f - ------- レオナがアリスに手を出さないよう言ってあると言う
+        /leona odl leona tPh m61 f - ------- レオナがアリスに手を出さないよう言ってあると言う
 
 62:
-        /myria odl third tPh r62 f - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
+        /myria odl third tPh m62 f - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
 
 63:
         /leona li1 leona con c63 f - @fencer レオナが演武をする
 
 64:
-        /leona odl leona tPh r64 f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
+        /leona odl leona tPh m64 f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
 
 65:
-        /myria odl myria tPh r65 f - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
+        /myria odl myria tPh m65 f - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
 
 66:
         /integ evn alice con c66 f - ------- エルフの老婆とアリスが湖底の街で拾った指輪で話がつく
@@ -229,37 +229,37 @@
         /                con c76             ローズが鳥籠の鳥を若返らせる
 
 77:
-        /alice odl alice tPh r77 f b ordeal- アリスがローズと戦う
+        /alice odl alice tPh m77 f b ordeal- アリスがローズと戦う
 
 78:
         /alice odl alice con c78 f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
 
 79:
-        /leona odl leona tPh r79 f b ordeal- レオナがエリーと戦う
+        /leona odl leona tPh m79 f b ordeal- レオナがエリーと戦う
 
 80:
         /leona odl leona con c80 f - thought ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
 
 81:
-        /myria odl myria tPh r81 f b ordeal- ミリアがフェイと戦う[ref-029]
+        /myria odl myria tPh m81 f b ordeal- ミリアがフェイと戦う[ref-029]
 
 82:
         /myria odl myria con c82 f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
 
 83:
-        /alice odl alice tPh r83 f b ordeal- アリスがローズと戦う
+        /alice odl alice tPh m83 f b ordeal- アリスがローズと戦う
 
 84:
         /alice odl alice hnt r84 f - ------- 説得を試みる
 
 85:
-        /leona odl leona tPh r85 f - results レオナがエリーと引き分ける
+        /leona odl leona tPh m85 f - results レオナがエリーと引き分ける
 
 86:
-        /leona odl leona tPh r86 f b ordeal- レオナがエリーと戦う
+        /leona odl leona tPh m86 f b ordeal- レオナがエリーと戦う
 
 87:
-        /myria odl myria tPh r87 f b ordeal- ミリアがフェイと戦う
+        /myria odl myria tPh m87 f b ordeal- ミリアがフェイと戦う
 
 88:
         /myria odl myria con c88 f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
