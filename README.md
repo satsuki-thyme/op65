@@ -86,8 +86,7 @@
 
 ### その他
 
-- etc/search-string.md: 検索の文字列
-- etc/todo.md:          ToDoリスト
+- etc/management.md: 作業管理
 
 ### 思考ノート
 
