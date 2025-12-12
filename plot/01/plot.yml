@@ -395,7 +395,7 @@
         /integ evn alice hnt s050 f - @roseMy ローズの体が普通の人族＋αの力しかないのに魔力が異常に多いと気付く
         /alice lov alice --- ---- f - thought アリスの、2人といると楽しいという気づき
         /alice lov multi tPh t004 f t favorbl 無事を喜んだりして抱き合う
-        /rose- odl rose- prm sls b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
+        /rose- odl rose- prm sls  b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
         /rose- etc rose- tPh e007 b - threat- ローズが手足はむしっておいたほうがいい。仲間の女は殺せと言う
         /leona odl erie- con c016 b - threat- エリーがレオナに憎しみの視線を送る
         &                hnt s009             エリーがレオナに憎しみの視線を送る
@@ -630,7 +630,7 @@
         /leona odl leona con c019 f - ------- 〃
         /alice odl alice tPh e083 f e favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
         /alice li1 alice hnt s028 f - @alice- アリスがレオナをつい本気で治療して指輪が熱を持って気づく
-        /erie- odl erie- prm sls f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
+        /erie- odl erie- prm sls  f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
         /alice lov multi tPh t007 f - ------- アリスが治療する、ミリアが縋り付く
         /alice odl alice hnt s084 f - thought ローズが自分たちに目をつけていることに戦いの予感がする
   assembly:
@@ -829,10 +829,10 @@
         /integ mod noCha --- ---- f - ------- 森の様子、明るい葉色の中にもさらに明るい若葉が繁っているエルヒダの木の純林となった
         /integ mod noCha --- ---- f - ------- 道の様子、踏み固められたわだちのある黒褐色の地面、ところどころ木の根が張りだして馬車は大変そうだ
         /alice in> petra --- ---- f - ------- （対立）
-        &petra in< alice --- ---- f - ------- （対立）
+        /petra in< alice --- ---- f - ------- （対立）
         /multi pst multi --- ---- f - ------- （対立）
         /alice in> petra --- ---- f - ------- （和解）
-        &petra in< alice --- ---- f - ------- （和解）
+        /petra in< alice --- ---- f - ------- （和解）
         /multi pst multi --- ---- f - ------- （和解）
         /integ evn grp11 --- ---- f - ------- 妖精が大変大変と言って困っているので声をかける[ref-044]
         /integ evn petra fsh s039 f - @hestel ペトラが見つけた碑文「エス = ◯◯◯◯リア」アリスがこれは神の名が移ろっていく時期に見られる様式だと言う
@@ -844,7 +844,7 @@
         /leona li1 leona con c051 f - @fencer ドラゴン「バルドロード」がレオナの魂が、かつて戦って敗北した竜克の女剣士レイティア・アルテノートに似ているが、あれ以上に強い輝きを放っていると言う
         /integ evn third con c054 f - ------- ドラゴンはエンシェントドラゴンと同格程度の者の動きが活発になっているから様子を見ている
         /integ evn third con c054 f - ------- アリスにバルドロードが'ドラゴンアイテム'をくれる
-        /integ evn grp11 --- ---- f - ------- 妖精がアリスに'妖精アイテム'をくれる
+        /integ evn grp11 --- ---- f - ------- 妖精が'妖精アイテム'が落ちているところを教えてくれる
         /myria odl third tPh e065 f - @o'dorg オー゠ドルグがミリアに自分が何を求めているのかよく感じることじゃと言う
         /myria odl leona tPh e012 f e favorbl レオナがミリアに甘える[ref-042]
         &                con c022             レオナがミリアに甘える[ref-042]
@@ -856,7 +856,7 @@
         &                con c076             ローズが鳥籠の鳥を若返らせる
         /erie- li2 erie- --- ---- b - ------- エリーがアリスの強さについて報告する
         /rose- li2 rose- --- ---- b - ------- ローズがエリーをねぎらいアリスについてあの子なら問題ないわと言う
-        /fei-- odl fei-- prm sls b - thought フェイが「慢心は強者の特権」と言う
+        /fei-- odl fei-- prm sls  b - thought フェイが「慢心は強者の特権」と言う
         /myria odl fei-- tPh e012 b e threat- フェイがエルフへの欲望を吐露する => 自分に心酔させると言う
         &                con c017             フェイがエルフへの欲望を吐露する => 自分に心酔させると言う
         /fei-- etc rose- hnt s026 b - ------- ローズがあなたは強くなったわと言う
@@ -1073,7 +1073,6 @@
         /leona odl multi tPh e085 f - ------- レオナがアリスに訓練してもらう[ref-018]
         /alice odl alice tPh e083 f e favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
         /leona odl leona con c014 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
-        /----- ---- ----- tPh smd
   assembly:
     - scene: 1
       gist:
@@ -1166,7 +1165,7 @@
         /integ inf third hnt s029 f - @es---- 妖精女王がエスはp27 エリクに封印されていると言う
         &                cat r043             妖精女王がエスはp27 エリクに封印されていると言う
         /integ evn grp11 con c036 f - ------- 妖精女王に謁見する
-        /petra odl third con c f - ------- 妖精女王から妖精領主になるならいつでも言いなさいと言われる
+        /petra odl third con c093 f - ------- 妖精女王から妖精領主になるならいつでも言いなさいと言われる
         /integ inf third hnt s032 f - @orb--- 妖精女王から魔力珠はp27 エリクから何者かによって持ち去られていると言われる
         &integ inf third cat r044 f - @orb--- 妖精女王から魔力珠はp27 エリクから何者かによって持ち去られていると言われる
         /rose- li2 third hnt s033 f - @orbPln スパイ妖精が見ている => 見つかって転移結晶で逃げる => 魔力路（パス）を追わせる => 上位存在（神か神に連なる者）に阻害される
@@ -1176,7 +1175,7 @@
         /integ inf third fsh s039 f - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
         &integ inf third fsh s039 f - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
         /alice odl alice tPh e083 f e thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-        &                tPh sls             アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+        &                tPh sls              アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
         /alice odl alice hnt s084 f - thought ローズと戦うことになる予感が強くなる
         /alice odl alice hnt s084 f - thought ローズとは戦えないと悩む
         /alice lov multi --- ---- f - favorbl 3人でバックハグ
@@ -1281,8 +1280,6 @@
         /leona in< alice --- ---- f - ------- アリスが、レオナに謝罪され自分も謝罪して仲直りし、レオナが決めたことならそれでいいと言う（和解）
         /multi pst multi --- ---- f - ------- （和解）
         /leona odl leona con c061 f - ------- レオナがアリスに戦いに手を出さないでと言う
-        /leona li1 leona con c051 f - @fencer レオナが滝の裏の洞窟にあった剣を抜く（レオナには滝の裏が光って見える）[ref-049]
-        /leona li1 alice con c051 f - @fencer アリスがこの剣には何かが封じられている悪いものではないと言う
         /integ evn alice cat s045 f - @zavia- ザヴィが倒される相手なんているんだろうかと疑問を言う
         /integ inf rose- hnt s032 f - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
         &                hnt r050     @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
@@ -1412,6 +1409,8 @@
         /                con c035     @evil-- 祠の古文書 => エスは邪神の呪いによって世界の破壊を欲するようにされた
         /integ inf alice hnt s029 f - @es---- アリスが邪神の呪いなら解呪できると思うと言う
         /integ inf noCha con c034 f - @elf--- 祠の古文書 => 古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
+        /leona li1 leona con c051 f - @fencer レオナが祠の向こうの隠し部屋にあった剣を抜く（レオナには壁が光って見える）[ref-049]
+        /leona li1 alice con c051 f - @fencer アリスがこの剣には何かが封じられている悪いものではないと言う
   assembly:
     - scene: 1
       gist:
@@ -1610,6 +1609,7 @@
         /alice odl multi con c021 f - ------- レオナとミリアが何かを作っている[ref-040]
         /alice lov multi --- ---- f - favorbl 頭と頬を撫でる
         /petra odl petra prm r015 f - gDesire ペトラが妖精領主になる
+        &                con c093             ペトラが妖精領主になる
         /petra etc alice hnt s057 f - ------- アリスがペトラに転移のネックレスを渡す「妖精ならそれを使って縁故のある人のいる場所に転移できるよ」
         /petra etc petra con c059 f - ------- ペトラがお返しに妖精の蜜飴を渡す「みんなで食べてね」
   assembly:
@@ -2144,7 +2144,7 @@
         &multi pst multi --- ---- f - ------- （信頼関係の構築）
         /myria odl third con c062 f - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
         &                con c034             占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
-        /myria odl third hnt sls f - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
+        /myria odl third hnt sls  f - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
         /myria odl myria tPh m081 f m ordeal- ミリアがフェイと戦う 3[ref-029]
         &                hnt rls             ミリアがフェイと戦う 3[ref-029]
         /myria odl multi con c060 f - ------- アリスとレオナは静観する
