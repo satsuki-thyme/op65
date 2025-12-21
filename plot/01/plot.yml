@@ -12,10 +12,7 @@
 1:
   summary: レオナとの出会い
   header:
-    unpredictability of the end:
-      - アリスの冒険はどうなるか
-      - アリスは魔力珠を手に入れられるか
-    battle: true
+    battle: false
     erros: 
     elapsed days: 0
     time:
@@ -50,11 +47,20 @@
         - アリスの全体欲求の提示
         - ヘスト゠エリアの伏線
         - オーブプランの伏線
-      unpredictability of the end:
-        - アリスは空腹を癒やして冒険に出発できるのか
+      destiny:
+        - item:
+          dn: アリス
+          desire: 冒険したい
+          results: pending
+        - item:
+          dn: アリス
+          desire: 食事をしたい
+          results: pending
       intarest:
         - ミステリアス => 不思議な言葉が多い
         - 狼とのやり取り
+      unpredictability of the end:
+        - アリスは空腹を癒やして冒険に出発できるのか
       contents:
         /integ evn noCha --- ---- f - ------- 地面が爆散する　鳥たちが飛び立つ　魔法の残滓
         /integ mod noCha --- ---- f - ------- 深い森（神秘的, フレッシュ, 生命の息吹）
@@ -71,11 +77,16 @@
     - scene: 1-2
       gist:
         - 狼の親子に襲われそうになり返り討ちにして食料にしようとするが見逃す
-      unpredictability of the end:
-        - アリスの空腹は癒やせるのか
+      destiny:
+        - item:
+          dn: アリス
+          desire: 食事がしたい
+          results: false
       intarest:
         - 戦闘
         - アリスの懊悩
+      unpredictability of the end:
+        - アリスの空腹は癒やせるのか
       contents:
         /integ evn alice --- ---- f m ------- 狼の親子に襲われる一件
         /integ evn alice --- ---- f - ------- アリスが狼に、仲間に好かれる魔法を使う
@@ -86,11 +97,20 @@
       gist:
         - ザヴィの名とアリスのザヴィへの思い
         - オー゠ドルグによる前置き
-      unpredictability of the end:
-        - アリスは空腹を癒やせるか
+      destiny:
+        - item:
+          dn: アリス
+          desire: 食事がしたい
+          results: false
+        - item:
+          dn: アリス
+          desire: ザヴィに会いたい
+          results: pending
       intarest:
         - アリスの強い思い
         - オー゠ドルグのユーモラスさ
+      unpredictability of the end:
+        - アリスは空腹を癒やせるか
       contents:
         /alice li1 alice hnt s028 f - @alice- アリスが魔法を無詠唱で使って詠唱が必要なことに気づく　ザヴィに言われていた
         /alice odl alice prm s002 f - ------- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
@@ -103,12 +123,21 @@
       gist:
         - レオナが登場して紹介のシーン
         - レオナがアリスを妖魔か精霊と間違えて警戒する
-      unpredictability of the end:
-        - レオナの過去とは
-        - アリスは空腹を癒やせるか
+      destiny:
+        - item:
+          dn: アリス
+          desire: 食事がしたい
+          results: false
+        - item:
+          dn: レオナ
+          desire: アリスが何者か知りたい
+          results: false
       intarest:
         - レオナの勘違い
         - アリスとレオナの噛み合わない会話（食料のアリス、警戒のレオナ）
+      unpredictability of the end:
+        - レオナの過去とは
+        - アリスは空腹を癒やせるか
       contents:
         /integ evn leona --- ---- f - ------- レオナ登場
         /integ mod leona --- ---- f - ------- 栗色のボブ、虹彩は濃茶色、上は裾を切り詰めたタンクトップの上に胸甲をして下はホットパンツ（ここで美少女と書かない）
@@ -122,29 +151,53 @@
         - レオナの魔物との戦闘
         - アリスがレオナの剣の腕を褒める
         - 女剣士レイティア・アルテノートの伏線
-      unpredictability of the end:
-        - アリスの空腹は癒やせるのか
+      destiny:
+        - item:
+          dn: アリス
+          desire: 食事がしたい
+          results: false
+        - item:
+          dn: レオナ
+          desire: アリスが何者か知りたい
+          results: false
       intarest:
         - 戦闘
+      unpredictability of the end:
+        - アリスの空腹は癒やせるのか
       contents:
         /integ evn leona tPh m091 f m ------- 魔物nttをレオナが倒す
         /leona odl alice con c014 f - ------- アリスがレオナの剣を褒める
         &                tPh t091 f t         アリスがレオナの剣を褒める
         /leona li1 leona con c051 f - @fencer レオナはドラゴンを倒した剣士の家系だと話す
+        /integ evn leona --- ---- f - ------- それはともかくあなたは何者なの？
+        /integ evn alice --- ---- f - ------- 誰でもないよぅ
         /integ evn alice --- ---- f - ------- 空腹描写
 
     - scene: 1-6
       gist:
         - アリスがザヴィについて知って旅の目的を定めるシーン
         - アリスがザヴィについて死って泣き崩れ慰められる
-      unpredictability of the end:
-        - アリスは魔力珠を手に入れられるか
-        - アリスは空腹を癒やせるか
+      destiny:
+        - item:
+          dn: アリス
+          desire: ザヴィに会いたい
+          results: false
+        - item:
+          dn: アリス
+          desire: 食事がしたい
+          results: false
+        - item:
+          dn: レオナ
+          desire: アリスが何者か知りたい
+          results: false
       intarest:
         - アリスの感情の推移と百合展開
         - ザヴィの伝説
+      unpredictability of the end:
+        - アリスは魔力珠を手に入れられるか
+        - アリスは空腹を癒やせるか
       contents:
-        /integ evn alice --- ---- f - ------- アリスがザヴィについて尋ねる（ザヴィの明確な特徴ntt）
+        /integ evn alice --- ---- f - ------- アリスがふと思い出してザヴィについて尋ねる（ザヴィの明確な特徴ntt）
         /integ inf leona hnt s031 f - @zavia- ザヴィは魔力珠を使って世界を滅ぼそうとして倒された[ref-043]
         /alice odl alice tPh e005 f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
         /alice odl alice prm s002 f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
@@ -153,19 +206,31 @@
         /multi pst multi --- ---- f - ------- レオナがアリスを慰める（信頼関係の構築）
         /integ inf leona cat s041 f - @orb--- 遷世教団の話題を出す　ザヴィを倒した人が遷世教団を作った
         /alice odl alice prm s003 f - gDesire アリスがザヴィが使ったという魔力珠を探す旅をすることにする[ref-033]
+        /integ evn leona --- ---- f - ------- それはともかくあなたは何者なの？
+        /integ evn alice --- ---- f - ------- 空腹描写
 
     - scene: 1-7
       gist:
         - レオナが旅に同行するか悩んで決心するシーン
         - レオナの全体欲求の提示
         - アリスが食料にありつける
-      unpredictability of the end:
-        - アリスとレオナの旅はどうなるのか
+      destiny:
+        - item:
+          dn: アリス
+          desire: 食事がしたい
+          results: true
+        - item:
+          dn: レオナ
+          desire: アリスが何者か知りたい
+          results: true
       intarest:
         - レオナの葛藤
         - 百合展開
+      unpredictability of the end:
+        - アリスは魔力珠を手に入れられるか
+        - アリスとレオナの旅はどうなるのか
       contents:
-        /leona odl alice --- ---- f - ------- アリスが空腹を堪えつつレオナを旅に誘うが探し人なのか分からず葛藤する
+        /leona odl alice --- ---- f - ------- アリスが空腹を堪えつつレオナを旅に誘うがレオナはアリスが探し人なのか分からず葛藤する
         /leona odl alice prm s006 f - gDesire アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
         &                con c069             アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
         /leona odl leona --- ---- f - ------- レオナの回想シーンで占術師がこの印象を覚えておいてくださいと言ったシーンが思い出される
@@ -192,9 +257,6 @@
 2:
   summary: ミリアとの出会い, 水の大精霊を沈静化する
   header:
-    unpredictability of the end:
-      - 魔力珠の在処は分かるのか
-      - 遷世教団の教会神殿に忍び込んでも大丈夫なのか
     battle: true
     erros: 
     elapsed days: 1
@@ -227,11 +289,16 @@
       gist:
         - 街の内外、時間の説明
         - アリスたちの現状
-      unpredictability of the end:
-        - 魔力珠の在処は分かるのか
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - カラス目線
         - アリスとぎこちないレオナの食事シーン
+      unpredictability of the end:
+        - 魔力珠の在処は分かるのか
       contents:
         /integ evn alice con c072 f - ------- カラス目線で都市を見下ろして街の中を紹介してアリスの元にやってきて狼の無事を伝える
         /integ mod noCha --- ---- f - ------- 都市の外観、市城壁
@@ -253,11 +320,16 @@
       gist:
         - 暴れだす水の大精霊とミリアの危機
         - バトル開始　まずは呼び掛けから
-      unpredictability of the end:
-        - 暴れる水の大精霊に跳ね飛ばされたミリアは大丈夫なのか
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 神と友達感覚のアリス
         - バトル
+      unpredictability of the end:
+        - 暴れる水の大精霊に跳ね飛ばされたミリアは大丈夫なのか
       contents:
         /integ evn alice --- ---- f - ------- ミリアを見付けて可愛いと言う
         /integ evn grp11 tPh m090 f m ------- 発狂した水の大精霊と対峙する
@@ -268,11 +340,16 @@
       gist:
         - バトル佳境
         - 水の大精霊がひれ伏す
-      unpredictability of the end:
-        - アリスたちは衛兵から逃げられるのか
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - バトル
         - 水の大精霊と訳ありな感じのアリス
+      unpredictability of the end:
+        - アリスたちは衛兵から逃げられるのか
       contents:
         /integ evn grp11 --- ---- f - ------- アリスとレオナが水の大精霊と対峙する
         /alice odl alice tPh e005 f - @ring-- 発狂した水の大精霊を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
@@ -299,11 +376,16 @@
       gist:
         - ミリアの自己紹介
         - 共に旅を
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - アリスに巻き込まれるミリア
         - 消極的なミリアと誘うアリス
+      unpredictability of the end:
+        - 
       contents:
         /integ evn multi tPh t090 f t ------- 三人で喜び褒め合う
         /integ evn multi --- ---- f - ------- レオナが水の大精霊を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
@@ -331,8 +413,6 @@
 3:
   summary: アリス 試練 1, 遷世教団の神殿に忍び込む
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 2
@@ -407,41 +487,61 @@
       gist:
         - ローズが話をしている
         - 信者に奇跡を起こす
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 仮想敵（大精霊のことを問題視）の登場
         - 仮想敵の能力
+      unpredictability of the end:
+        - 
       contents:
     - scene: 2
       gist:
         - 遷世教団の神殿に教徒として潜入している
         - 信者に魔力珠について聞いて回る
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - バレないように
         - 新たな情報とローズの脅威
+      unpredictability of the end:
+        - 
       contents:
     - scene: 3
       gist:
         - ローズと戦闘する
         - ザヴィについて話す
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 戦闘
         - 衝撃の事実
+      unpredictability of the end:
+        - 
       contents:
     - scene: 4
       gist:
         - 遷世教団の神殿から逃げ出す
         - ローズたちが会話する
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - ピンチとピンチからの脱出
         - ローズたちの反応
+      unpredictability of the end:
+        - 
       contents:
 
 
@@ -457,8 +557,6 @@
 4:
   summary: ペトラとの出会い, 星の大精霊との出会い
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 3
@@ -534,40 +632,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -585,8 +703,6 @@
 5:
   summary: レオナ 試練 1, 盗賊騎士の関門
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 4
@@ -638,40 +754,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -688,8 +824,6 @@
 6:
   summary: レオナの背景, 祭り, イマイチの剣を買う
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 5
@@ -746,40 +880,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -796,8 +950,6 @@
 7:
   summary: ペトラ 試練, 妖精の森でのドラゴン「バルドロード」との対話
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 6, 7
@@ -870,40 +1022,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -920,8 +1092,6 @@
 8:
   summary: ミリア 試練 1, 魔法使いの老婆を助ける
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 8
@@ -974,40 +1144,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -1024,8 +1214,6 @@
 9:
   summary: ミリアの背景, 魔力泉の街, ミリアが星の大精霊と契約できない
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 9
@@ -1078,40 +1266,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -1129,8 +1337,6 @@
 10:
   summary: 妖精女王への謁見
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 9
@@ -1197,40 +1403,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -1247,8 +1473,6 @@
 11:
   summary: アリス 試練 2
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 10
@@ -1303,40 +1527,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -1353,8 +1597,6 @@
 12:
   summary: アリスの背景
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 11
@@ -1416,40 +1658,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -1466,8 +1728,6 @@
 13:
   summary: 水着回
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 12
@@ -1510,40 +1770,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -1560,8 +1840,6 @@
 14:
   summary: ペトラが妖精領主になる
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 15, 16, 17
@@ -1617,40 +1895,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -1668,8 +1966,6 @@
 15:
   summary: レオナ 試練 2
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 18
@@ -1724,40 +2020,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -1774,8 +2090,6 @@
 16:
   summary: 野営, 星の大精霊の訪問
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 18
@@ -1844,40 +2158,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -1894,8 +2228,6 @@
 17:
   summary: ミリア 試練 2
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 19
@@ -1942,40 +2274,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -1992,8 +2344,6 @@
 18:
   summary: 合宿
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 20, 21, 22
@@ -2059,40 +2409,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -2109,8 +2479,6 @@
 19:
   summary: ミリア 試練 3
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 23
@@ -2161,40 +2529,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -2212,8 +2600,6 @@
 20:
   summary: 星の大精霊との融合
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 30
@@ -2258,40 +2644,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -2308,8 +2714,6 @@
 21:
   summary: レオナの演武
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 31
@@ -2356,40 +2760,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -2406,8 +2830,6 @@
 22:
   summary: レオナ 試練 3
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 36
@@ -2458,40 +2880,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -2508,8 +2950,6 @@
 23:
   summary: ハイエルフの叡智を得る
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 37
@@ -2562,40 +3002,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -2612,8 +3072,6 @@
 24:
   summary: アリス 試練 3
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 37
@@ -2665,40 +3123,60 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
 
@@ -2716,8 +3194,6 @@
 25:
   summary: エスとの邂逅
   header:
-    unpredictability of the end:
-      - 
     battle: 
     erros: 
     elapsed days: 37
@@ -2766,39 +3242,59 @@
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 2
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 3
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
     - scene: 4
       gist:
         - 
         - 
-      unpredictability of the end:
-        - 
+      destiny:
+        - item:
+          dn: 
+          desire: 
+          results: 
       intarest:
         - 
+        - 
+      unpredictability of the end:
         - 
       contents:
