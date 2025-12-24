@@ -20,42 +20,42 @@ details:
  ##     ## ##        ##  ##    ## ##
  ##     ## ######## ####  ######  ########
 
-  - dn: アリス
-    charm:
-      contents:
-        強気かわいい
-      predicament:
-        果敢に立ち向かう
-      normaly:
-        意のままに振る舞う
-    desire:
-      contents:
-        魔力珠を手に入れたい（ザヴィが作り出した）
-        世界を崩壊から救いたい
-      conflict:
+- dn: アリス
+  charm:
+    contents:
+      強気かわいい
+    predicament:
+      果敢に立ち向かう
+    normaly:
+      意のままに振る舞う
+  desire:
+    contents:
+      魔力珠を手に入れたい（ザヴィが作り出した）
+      世界を崩壊から救いたい
+    conflict:
+      ローズ
+    background connected to desire:
+      世界を生んだから世界に生まれる新しいものに興味がある
+  plot requirements:
+    type:
+      試練
+    contents:
+      theme:
+        過去と決別して今を選べるか
+      inner self that confront (weaknesses):
+        過去とのつながりであるローズに執着する自分
+      antagonist:
         ローズ
-      background connected to desire:
-        世界を生んだから世界に生まれる新しいものに興味がある
-    plot requirements:
-      type:
-        試練
-      contents:
-        theme:
-          過去と決別して今を選べるか
-        inner self that confront (weaknesses):
-          過去とのつながりであるローズに執着する自分
-        antagonist:
-          ローズ
-        how to overcome:
-          子孫であるローズを殺す
-        inner change:
-          過去より今の幸福が大切であることに気づく
-        right point:
-          本当に大切なものがなんなのか気づいた
-        wrong point:
-          なし
-    what to do:
-      子孫の騒動に終止符を打つ
+      how to overcome:
+        子孫であるローズを殺す
+      inner change:
+        過去より今の幸福が大切であることに気づく
+      right point:
+        本当に大切なものがなんなのか気づいた
+      wrong point:
+        なし
+  what to do:
+    子孫の騒動に終止符を打つ
 
 
 
@@ -69,42 +69,42 @@ details:
  ##       ##       ##     ## ##   ### ##     ##
  ######## ########  #######  ##    ## ##     ##
 
-  - dn: レオナ
-    charm:
-      contents:
-        明るいさばさば（岩崎さん）かわいい
-      predicament:
-        屈しない
-      normaly:
-        前向き
-    desire:
-      contents:
-        前進したい
-        強くなりたい
-      conflict:
+- dn: レオナ
+  charm:
+    contents:
+      明るいさばさば（岩崎さん）かわいい
+    predicament:
+      屈しない
+    normaly:
+      前向き
+  desire:
+    contents:
+      前進したい
+      強くなりたい
+    conflict:
+      エリー
+    background connected to desire:
+      国を滅ぼされ親族を失った
+  plot requirements:
+    type:
+      試練
+    contents:
+      theme:
+        かつての幸せだった思い出に見切りをつけて前進できるか
+      inner self that confront (weaknesses):
+        強くなりたいのに変化が怖い => 勇気が必要
+      antagonist:
         エリー
-      background connected to desire:
-        国を滅ぼされ親族を失った
-    plot requirements:
-      type:
-        試練
-      contents:
-        theme:
-          かつての幸せだった思い出に見切りをつけて前進できるか
-        inner self that confront (weaknesses):
-          強くなりたいのに変化が怖い => 勇気が必要
-        antagonist:
-          エリー
-        how to overcome:
-          修めた剣術の型を破り自分の剣術を手に入れてエリーとの死闘をくぐり抜ける
-        inner change:
-          大切な者との今の幸福を掴む決意
-        right point:
-          健全な欲求に支えられていた――生きたい、仲間と過ごしたい
-        wrong point:
-          なし
-    what to do:
-      過去を乗り越えることで今を生きる選択をする
+      how to overcome:
+        修めた剣術の型を破り自分の剣術を手に入れてエリーとの死闘をくぐり抜ける
+      inner change:
+        大切な者との今の幸福を掴む決意
+      right point:
+        健全な欲求に支えられていた――生きたい、仲間と過ごしたい
+      wrong point:
+        なし
+  what to do:
+    過去を乗り越えることで今を生きる選択をする
 
 
 
@@ -118,41 +118,41 @@ details:
  ##     ##    ##    ##    ##   ##  ##     ##
  ##     ##    ##    ##     ## #### ##     ##
 
-  - dn: ミリア
-    charm:
-      contents:
-        おとなしいお姉さんかわいい
-      predicament:
-        受け流す、受容する、許す
-      normaly:
-        面倒見がいい
-    desire:
-      contents:
-        ハイエルフの叡智が欲しい
-      conflict:
+- dn: ミリア
+  charm:
+    contents:
+      おとなしいお姉さんかわいい
+    predicament:
+      受け流す、受容する、許す
+    normaly:
+      面倒見がいい
+  desire:
+    contents:
+      ハイエルフの叡智が欲しい
+    conflict:
+      フェイ
+    background connected to desire:
+      祖母に魔法を教わった思い出
+  plot requirements:
+    type:
+      試練
+    contents:
+      theme:
+        過去への誘惑を断ち切って今を選べるか
+      inner self that confront (weaknesses):
+        祖母への罪悪感に囚われたままの心
+      antagonist:
         フェイ
-      background connected to desire:
-        祖母に魔法を教わった思い出
-    plot requirements:
-      type:
-        試練
-      contents:
-        theme:
-          過去への誘惑を断ち切って今を選べるか
-        inner self that confront (weaknesses):
-          祖母への罪悪感に囚われたままの心
-        antagonist:
-          フェイ
-        how to overcome:
-          フェイの誘惑を拒絶する
-        inner change:
-          過去よりも今の幸福が大切だと分かる
-        right point:
-          誘惑に打ち勝って拒絶することを選べた
-        wrong point:
-          なし
-    what to do:
-      過去に折り合いをつけて前向きに歩きだす
+      how to overcome:
+        フェイの誘惑を拒絶する
+      inner change:
+        過去よりも今の幸福が大切だと分かる
+      right point:
+        誘惑に打ち勝って拒絶することを選べた
+      wrong point:
+        なし
+  what to do:
+    過去に折り合いをつけて前向きに歩きだす
 
 
 
@@ -166,40 +166,40 @@ details:
  ##        ##          ##    ##    ##  ##     ##
  ##        ########    ##    ##     ## ##     ##
 
-  - dn: ペトラ
-    charm:
-      contents:
-        やんちゃかわいい
-      predicament:
-        怯える
-      normaly:
-        はしゃいでいる
-    desire:
-      contents:
-        名声を得たい
-      conflict:
+- dn: ペトラ
+  charm:
+    contents:
+      やんちゃかわいい
+    predicament:
+      怯える
+    normaly:
+      はしゃいでいる
+  desire:
+    contents:
+      名声を得たい
+    conflict:
+      臆病な自分
+    background connected to desire:
+      なし
+  plot requirements:
+    type: 試練
+    contents:
+      theme:
+        勇気を振り絞ることができるか
+      inner self that confront (weaknesses):
         臆病な自分
-      background connected to desire:
+      antagonist:
+        臆病な自分
+      how to overcome:
+        アリスの言葉で奮起する
+      inner change:
+        勇気を振り絞る
+      right point:
+        勇気を出すことができた
+      wrong point:
         なし
-    plot requirements:
-      type: 試練
-      contents:
-        theme:
-          勇気を振り絞ることができるか
-        inner self that confront (weaknesses):
-          臆病な自分
-        antagonist:
-          臆病な自分
-        how to overcome:
-          アリスの言葉で奮起する
-        inner change:
-          勇気を振り絞る
-        right point:
-          勇気を出すことができた
-        wrong point:
-          なし
-    what to do:
-      勇気とは何かを知って頼もしくなる
+  what to do:
+    勇気とは何かを知って頼もしくなる
 
 
 
@@ -213,40 +213,40 @@ details:
  ##    ##  ##     ## ##    ## ##
  ##     ##  #######   ######  ########
 
-  - dn: ローズ
-    charm:
-      contents:
-        傲慢妖艶
-      predicament:
-        諦めない
-      normaly:
-        意のままに振る舞う
-    desire:
-      contents:
-        false = 遷世したい, true = 人族を滅亡させたい
-      conflict:
+- dn: ローズ
+  charm:
+    contents:
+      傲慢妖艶
+    predicament:
+      諦めない
+    normaly:
+      意のままに振る舞う
+  desire:
+    contents:
+      false = 遷世したい, true = 人族を滅亡させたい
+    conflict:
+      アリス
+    background connected to desire:
+      false = 親が殺された, true = 親を殺したのは自分自身で、エスが邪神に狂わされている
+  plot requirements:
+    type:
+      導き手
+    contents:
+      target:
         アリス
-      background connected to desire:
-        false = 親が殺された, true = 親を殺したのは自分自身で、エスが邪神に狂わされている
-    plot requirements:
-      type:
-        導き手
-      contents:
-        target:
-          アリス
-        how to exploit weaknesses:
-          ローズを愛しく思うアリスと戦う
-        how to exit:
-          アリスに殺される
-        reason for exit (weaknesses):
-          封界の指輪を外したアリスには勝てない
-        relationship with plot of target:
-          type:
-            不変
-          contents:
-            目的に向かってまっすぐ進む
-    what to do:
-      エスを解放して人族を滅亡させるために死ぬ
+      how to exploit weaknesses:
+        ローズを愛しく思うアリスと戦う
+      how to exit:
+        アリスに殺される
+      reason for exit (weaknesses):
+        封界の指輪を外したアリスには勝てない
+      relationship with plot of target:
+        type:
+          不変
+        contents:
+          目的に向かってまっすぐ進む
+  what to do:
+    エスを解放して人族を滅亡させるために死ぬ
 
 
 
@@ -260,40 +260,40 @@ details:
  ##       ##    ##   ##  ##
  ######## ##     ## #### ########
 
-  - dn: エリー
-    charm:
-      contents:
-        冷徹妖艶
-      predicament:
-        冷徹の下の煮えたぎる情熱
-      normaly:
-        冷静沈着
-    desire:
-      contents:
-        レオナに復讐したい
-      conflict:
+- dn: エリー
+  charm:
+    contents:
+      冷徹妖艶
+    predicament:
+      冷徹の下の煮えたぎる情熱
+    normaly:
+      冷静沈着
+  desire:
+    contents:
+      レオナに復讐したい
+    conflict:
+      レオナ
+    background connected to desire:
+      国を滅ぼされ親族を失った
+  plot requirements:
+    type:
+      導き手
+    contents:
+      target:
         レオナ
-      background connected to desire:
-        国を滅ぼされ親族を失った
-    plot requirements:
-      type:
-        導き手
-      contents:
-        target:
-          レオナ
-        how to exploit weaknesses:
-          卓越した剣技
-        how to exit:
-          レオナに殺される
-        reason for exit (weaknesses):
-          己の剣技を身につけたレオナには敵わなかった
-        relationship with plot of target:
-          type:
-            対比
-          contents:
-            習得した剣技の型を脱することをしなかった
-    what to do:
-      復讐に身を委ねて死ぬ
+      how to exploit weaknesses:
+        卓越した剣技
+      how to exit:
+        レオナに殺される
+      reason for exit (weaknesses):
+        己の剣技を身につけたレオナには敵わなかった
+      relationship with plot of target:
+        type:
+          対比
+        contents:
+          習得した剣技の型を脱することをしなかった
+  what to do:
+    復讐に身を委ねて死ぬ
 
 
 
@@ -307,35 +307,35 @@ details:
  ##       ##        ##
  ##       ######## ####
 
-  - dn: フェイ
-    charm:
-      contents:
-        壮絶妖艶
-      predicament:
-        散り様が美しい
-      normaly:
-        派手
-    desire:
-      contents:
-        ミリアを手に入れたい
-      conflict:
-        ミリアがなびかない
-      background connected to desire:
-        かつて力に気づかず劣等感を抱いていた
-    plot requirements:
-      type:
-        導き手
-      contents:
-        target:
-          ミリア
-        how to exploit weaknesses:
-          ミリアの祖母をだしに使う
-        how to exit:
-          ミリアに殺される
-        reason for exit (weaknesses):
-          力尽くではミリアの才能に敵わなかった
-        relationship with plot of target:
-          type:
-            無関係
-          contents:
-            己の力を過信していた
+- dn: フェイ
+  charm:
+    contents:
+      壮絶妖艶
+    predicament:
+      散り様が美しい
+    normaly:
+      派手
+  desire:
+    contents:
+      ミリアを手に入れたい
+    conflict:
+      ミリアがなびかない
+    background connected to desire:
+      かつて力に気づかず劣等感を抱いていた
+  plot requirements:
+    type:
+      導き手
+    contents:
+      target:
+        ミリア
+      how to exploit weaknesses:
+        ミリアの祖母をだしに使う
+      how to exit:
+        ミリアに殺される
+      reason for exit (weaknesses):
+        力尽くではミリアの才能に敵わなかった
+      relationship with plot of target:
+        type:
+          無関係
+        contents:
+          己の力を過信していた

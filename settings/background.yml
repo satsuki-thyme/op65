@@ -2,29 +2,29 @@
 - item: アネス王国
   applicable chapter: 1
   contents:
-    - item:
-      - カルツ王国の謀略に巻き込まれてマーク王国を滅ぼし、疲弊したところをカルツ王国に滅ぼされた
+  - item:
+    - カルツ王国の謀略に巻き込まれてマーク王国を滅ぼし、疲弊したところをカルツ王国に滅ぼされた
 
 
 - item: カルツ王国
   applicable chapter: 1, 2
   contents:
-    - item: 
-      ref: thi-023.md
+  - item: 
+        ref: thi-023.md
 
 
 - item: マーク王国
   applicable chapter: 1
   contents:
-    - item:
-      - カルツ王国の謀略にはまってアネス王国を執拗に攻め、結果的にアネス王国に滅ぼされた
-      - アネス王国を攻めるようになった頃、王は何かに取り憑かれていた
+  - item:
+    - カルツ王国の謀略にはまってアネス王国を執拗に攻め、結果的にアネス王国に滅ぼされた
+    - アネス王国を攻めるようになった頃、王は何かに取り憑かれていた
 
 
 - item: 
   applicable chapter: 
   contents:
-    - item:
-      - 
+  - item:
+    - 
 
 

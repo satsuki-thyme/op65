@@ -3,79 +3,79 @@
 worldview information:
   ### 構築
   building:
-    - 
+  - 
 
   ### 持続
   maintaining:
-    - 
+  - 
 
 
 ## キャラクター情報
 character information:
-  - item: アリス
+- item: アリス
     ### 構築
     building:
-      - 
+    - 
 
     ### 維持
     maintaining:
-      - 
+    - 
 
-  - item: レオナ
+- item: レオナ
     ### 構築
     building:
-      - 
+    - 
 
     ### 維持
     maintaining:
-      - 
+    - 
 
-  - item: ミリア
+- item: ミリア
     ### 構築
     building:
-      - 
+    - 
 
     ### 維持
     maintaining:
-      - 
+    - 
 
-  - item: ペトラ
+- item: ペトラ
     ### 構築
     building:
-      - 
+    - 
 
     ### 維持
     maintaining:
-      - 
+    - 
 
-  - item: ローズ
+- item: ローズ
     ### 構築
     building:
-      - 
+    - 
 
     ### 維持
     maintaining:
-      - 
+    - 
 
-  - item: エリー
+- item: エリー
     ### 構築
     building:
-      - 
+    - 
 
     ### 維持
     maintaining:
-      - 
+    - 
 
-  - item: フェイ
+- item: フェイ
     ### 構築
     building:
-      - 
+    - 
 
     ### 維持
     maintaining:
-      - 
+    - 
 
 
 ## ストーリー情報
 story information:
-  - 
+- 

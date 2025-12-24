@@ -11,7 +11,7 @@
  ##           ##     ##     ##
  ##          ####    ##     ##
 
-    - name: フィア
+  - name: フィア
       race: 生物を超越した存在
       gender: 女
       age: 17くらいに見える/17と言っている/100億年前の世界の誕生から存在している
@@ -21,11 +21,11 @@
       special skills: 全知全能
       role: 主人公
       note:
-        - 1000万年の眠りについていた = 地軸もずいぶん傾いたんだね
-        - 927の世界文明が滅びた
-        - 言語は魔法的にオーブが集め続けた情報から移植を受ける
-        - フィアは長く目覚めていると時代の長老たちの間で有名になってやりにくいから眠りにつく
-        - 武器は棒（300 x φ15、｜超靭鋼《オリハルコン》
+      - 1000万年の眠りについていた = 地軸もずいぶん傾いたんだね
+      - 927の世界文明が滅びた
+      - 言語は魔法的にオーブが集め続けた情報から移植を受ける
+      - フィアは長く目覚めていると時代の長老たちの間で有名になってやりにくいから眠りにつく
+      - 武器は棒（300 x φ15、｜超靭鋼《オリハルコン》
       appearance:
         overview: 元気で明るい美少女
         face:
@@ -44,11 +44,11 @@
         voice: 元気のある綺麗きれいな声/豊穣の処女神が囁ささやいたと聞けば人なら誰もが納得するだろう
       mind:
         overview: 元気で明るい
-          - 楽しむことを知っている
-          - 奔放
-          - 優しい
-          - 庇護欲
-          - ときに冷酷なリアリスト
+        - 楽しむことを知っている
+        - 奔放
+        - 優しい
+        - 庇護欲
+        - ときに冷酷なリアリスト
 
     ###       ####    ##    ##    ########
    ## ##       ##     ###   ##    ##
@@ -58,7 +58,7 @@
  ##     ##     ##     ##   ###    ##
  ##     ##    ####    ##    ##    ########
 
-    - name: アイネ
+  - name: アイネ
       race: ｜葦人《レイル》
       gender: 女
       age: 16
@@ -86,10 +86,10 @@
         voice: 低めの美声にはユーモラスな響きがあった
       mind:
         overview: さっぱりしてお茶目（岩崎さん）
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 - group:
   group name: 魔狩パーティ「シーズリック」
@@ -103,7 +103,7 @@
  ##     ##    ##    ##        ##       ##     ##    ##     ##
   #######     ##     ##       ##       ##     ##     #######
 
-    - name: オルト
+  - name: オルト
       race: ｜葦人《レイル》
       gender: 男
       age: 36
@@ -131,13 +131,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: ミリア
+  - name: ミリア
       race: ｜森人《エルフ》
       gender: 女
       age: 22、二十代前半に見える
@@ -165,13 +165,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -199,13 +199,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: ウェイド（・ハロルド・ハルスナー）
+  - name: ウェイド（・ハロルド・ハルスナー）
       race: ｜葦人《レイル》
       gender: 男
       age: 47
@@ -233,13 +233,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: エレクトラ・ミラ・エインズワース
+  - name: エレクトラ・ミラ・エインズワース
       race: ｜狐人《キスク》
       gender: 女
       age: 29
@@ -267,13 +267,13 @@
         voice: ハスキー
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: マレック
+  - name: マレック
       race: ｜犬獣人《インクナ》
       gender: 男
       age: 13
@@ -301,13 +301,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -335,13 +335,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -369,13 +369,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -403,13 +403,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -437,17 +437,17 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 - group:
   group name: 
   member:
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -475,13 +475,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -509,13 +509,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -543,13 +543,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -577,13 +577,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -611,13 +611,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -645,13 +645,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -679,13 +679,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -713,13 +713,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -747,13 +747,13 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 
 
-    - name: 
+  - name: 
       race: 
       gender: 
       age: 
@@ -781,8 +781,8 @@
         voice: 
       mind:
         overview: 
-          - 
-          - 
-          - 
-          - 
+        - 
+        - 
+        - 
+        - 
 

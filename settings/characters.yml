@@ -1,383 +1,383 @@
 # キャラクター
 summary:
-  - アリス
-  - レオナ
-  - ミリア
-  - ペトラ
-  - ローズリエラ
-  - エリーティア
-  - フェイメル
-  - ヨル
-  - ザヴィア
-  - マクスヴェルト
+- アリス
+- レオナ
+- ミリア
+- ペトラ
+- ローズリエラ
+- エリーティア
+- フェイメル
+- ヨル
+- ザヴィア
+- マクスヴェルト
 
 
 detail:
-  - group: 主人公と仲間
-    member:
+- group: 主人公と仲間
+  member:
 
-    ###       ##          ####     ######     ########
-   ## ##      ##           ##     ##    ##    ##
-  ##   ##     ##           ##     ##          ##
- ##     ##    ##           ##     ##          ######
- #########    ##           ##     ##          ##
- ##     ##    ##           ##     ##    ##    ##
+    ###       ##        ####     ######     ########
+   ## ##      ##         ##     ##    ##    ##
+  ##   ##     ##         ##     ##        ##
+ ##     ##    ##         ##     ##        ######
+ #########    ##         ##     ##        ##
+ ##     ##    ##         ##     ##    ##    ##
  ##     ##    ########    ####     ######     ########
 
-      - dn: アリス
-        meta data:
-          role: 主人公
-          applicable chapter: continuous
-        innate nature:
-          full name: アリス
-          nickname: アリス
-          race: 世界
-          gender: 女
-          age: 17くらいに見える/17と言っている/年齢という概念はなく強いていうなら永遠
-        approximate nature:
-          overview:
-            - 人生を楽しむための老獪さを持ったリアリスト
-            - 今を堪能する幸福原理主義者
+  - dn: アリス
+    meta data:
+      role: 主人公
+      applicable chapter: continuous
+    innate nature:
+      full name: アリス
+      nickname: アリス
+      race: 世界
+      gender: 女
+      age: 17くらいに見える/17と言っている/年齢という概念はなく強いていうなら永遠
+    approximate nature:
+      overview:
+      - 人生を楽しむための老獪さを持ったリアリスト
+      - 今を堪能する幸福原理主義者
+      - 
+      special skills:
+      - 全能
+      - 
+      - 
+      forte:
+      - 
+      - 
+      - 
+      weaknesses:
+      - 
+      - 
+      - 
+      secret:
+      - 
+      - 
+      - 
+      hobby:
+      - 
+      - 
+      - 
+      etc:
+      - 
+      - 
+      - 
+    personality:
+      overview:
+      - 楽しむことを知っている
+      - 奔放
+      - 優しい
+      - 冷酷なリアリスト
+      emotional expression:
+      - name: 喜び、楽しい
+        contents: 
+
+      - name: 安心、安らぎ
+        contents: 
+
+      - name: 期待、待ち遠しい
+        contents: 
+
+      - name: 心配
+        contents: 
+
+      - name: 恐怖
+        contents: 
+
+      - name: 怒り
+        contents: 
+
+      - name: 悲しみ
+        contents: 
+
+      - name: 憎悪
+        contents: 
+
+      - name: 驚愕
+        contents: 
+
+      - name: 警戒
+        contents: 
+
+      outlook on life:
+      - name: 死生観
+        contents: 
+
+      - name: 将来の展望、夢、希望
+        contents: 
+
+      - name: 現在に対する価値観
+        contents: 
+
+      - name: 過去に対する価値観
+        contents: 
+
+      - name: 未来に対する価値観
+        contents: 
+
+      - name: 自分への態度
+        contents: 
+
+      - name: 対峙する相手への態度
+        contents: 
+
+      - name: 社会への態度
+        contents: 
+
+      - name: 学びに対する姿勢
+        contents: 
+
+      - name: 仕事や責任に対する姿勢
+        contents: 
+
+      - name: 個人的な物事・時間への姿勢
+        contents: 
+
+      - name: 安定していることに対する感覚
+        contents: 
+
+      - name: 変化することへの態度・感覚
+        contents: 
+
+      - name: 予測可能な状況に対する態度
+        contents: 
+
+      situational state:
+      - name: 通常時
+        contents: 
+
+      - name: 好調時
+        contents: 
+
+      - name: 困難時
+        contents: 
+
+      - name: 突然の喜び
+        contents: 
+
+      - name: 不測の困難
+        contents: 
+
+      - name: 得意なことを発揮する場面
+        contents: 
+
+      - name: 弱みが露呈する場面
+        contents: 
+
+      - name: 想定外の一面を見せる場面
+        contents: 
+
+    appearance:
+      overview: セイバー
+      eye-catching features: 
+      first impression: 可憐だが自信に満ちて強気
+      face:
+        overview: 気品のある面影をして神智の及びがつかないほどの美少女
+        hair: 輝く茶のショートヘア
+        eyes: 橙色の虹彩には英知の光を宿している
+      body:
+        overview: すっきりとして健康的な色香が漂う
+        height: 
+        arm: 華奢
+        breast/chest: d-cup 小ぶりな林檎ほど
+        waist: くびれている
+        hips: 艶っぽい
+        buttocks: 小ぶりだが肉感がある
+        leg: 健康的
+      voice: 張りのある綺麗な声/豊穣の処女神が囁ささやいたと聞けば人なら誰もが納得するだろう
+    biography:
+      - age: 0
+        event:
+      - birth:
+          day: 
+          place: 
+          father: 
+          mother: 
+          note:
             - 
-          special skills:
-            - 全能
-            - 
-            - 
-          forte:
-            - 
-            - 
-            - 
-          weaknesses:
-            - 
-            - 
-            - 
-          secret:
-            - 
-            - 
-            - 
-          hobby:
-            - 
-            - 
-            - 
-          etc:
-            - 
-            - 
-            - 
-        personality:
-          overview:
-            - 楽しむことを知っている
-            - 奔放
-            - 優しい
-            - 冷酷なリアリスト
-          emotional expression:
-            - name: 喜び、楽しい
-              contents: 
-
-            - name: 安心、安らぎ
-              contents: 
-
-            - name: 期待、待ち遠しい
-              contents: 
-
-            - name: 心配
-              contents: 
-
-            - name: 恐怖
-              contents: 
-
-            - name: 怒り
-              contents: 
-
-            - name: 悲しみ
-              contents: 
-
-            - name: 憎悪
-              contents: 
-
-            - name: 驚愕
-              contents: 
-
-            - name: 警戒
-              contents: 
-
-          outlook on life:
-            - name: 死生観
-              contents: 
-
-            - name: 将来の展望、夢、希望
-              contents: 
-
-            - name: 現在に対する価値観
-              contents: 
-
-            - name: 過去に対する価値観
-              contents: 
-
-            - name: 未来に対する価値観
-              contents: 
-
-            - name: 自分への態度
-              contents: 
-
-            - name: 対峙する相手への態度
-              contents: 
-
-            - name: 社会への態度
-              contents: 
-
-            - name: 学びに対する姿勢
-              contents: 
-
-            - name: 仕事や責任に対する姿勢
-              contents: 
-
-            - name: 個人的な物事・時間への姿勢
-              contents: 
-
-            - name: 安定していることに対する感覚
-              contents: 
-
-            - name: 変化することへの態度・感覚
-              contents: 
-
-            - name: 予測可能な状況に対する態度
-              contents: 
-
-          situational state:
-            - name: 通常時
-              contents: 
-
-            - name: 好調時
-              contents: 
-
-            - name: 困難時
-              contents: 
-
-            - name: 突然の喜び
-              contents: 
-
-            - name: 不測の困難
-              contents: 
-
-            - name: 得意なことを発揮する場面
-              contents: 
-
-            - name: 弱みが露呈する場面
-              contents: 
-
-            - name: 想定外の一面を見せる場面
-              contents: 
-
-        appearance:
-          overview: セイバー
-          eye-catching features: 
-          first impression: 可憐だが自信に満ちて強気
-          face:
-            overview: 気品のある面影をして神智の及びがつかないほどの美少女
-            hair: 輝く茶のショートヘア
-            eyes: 橙色の虹彩には英知の光を宿している
-          body:
-            overview: すっきりとして健康的な色香が漂う
-            height: 
-            arm: 華奢
-            breast/chest: d-cup 小ぶりな林檎ほど
-            waist: くびれている
-            hips: 艶っぽい
-            buttocks: 小ぶりだが肉感がある
-            leg: 健康的
-          voice: 張りのある綺麗な声/豊穣の処女神が囁ささやいたと聞けば人なら誰もが納得するだろう
-        biography:
-          - age: 0
-            event:
-              - birth:
-                day: 
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
 
 
- ##          ########     #######     ##    ##       ###
- ##          ##          ##     ##    ###   ##      ## ##
- ##          ##          ##     ##    ####  ##     ##   ##
- ##          ######      ##     ##    ## ## ##    ##     ##
- ##          ##          ##     ##    ##  ####    #########
- ##          ##          ##     ##    ##   ###    ##     ##
+ ##        ########     #######     ##    ##       ###
+ ##        ##        ##     ##    ###   ##      ## ##
+ ##        ##        ##     ##    ####  ##     ##   ##
+ ##        ######      ##     ##    ## ## ##    ##     ##
+ ##        ##        ##     ##    ##  ####    #########
+ ##        ##        ##     ##    ##   ###    ##     ##
  ########    ########     #######     ##    ##    ##     ##
 
-      - dn: レオナ
-        meta data:
-          role: メインヒロイン
-          applicable chapter: continuous
-        innate nature:
-          full name: レオナ・ノート・アーズエイン
-          nickname: レオナ
-          race: 葦人
-          gender: 女
-          age: 19
-        approximate nature:
-          overview:
-            - さっぱりしてお茶目（岩崎さん）
-            - 非常時には常識的なことを言って驚いているが内心では動じていない
+  - dn: レオナ
+    meta data:
+      role: メインヒロイン
+      applicable chapter: continuous
+    innate nature:
+      full name: レオナ・ノート・アーズエイン
+      nickname: レオナ
+      race: 葦人
+      gender: 女
+      age: 19
+    approximate nature:
+      overview:
+      - さっぱりしてお茶目（岩崎さん）
+      - 非常時には常識的なことを言って驚いているが内心では動じていない
+      - 
+      special skills:
+      - 剣
+      - 
+      - 
+      forte:
+      - 
+      - 
+      - 
+      weaknesses:
+      - 
+      - 
+      - 
+      secret:
+      - 
+      - 
+      - 
+      hobby:
+      - 
+      - 
+      - 
+      etc:
+      - 
+      - 
+      - 
+    personality:
+      overview:
+      - 
+      - 
+      - 
+      - 
+      emotional expression:
+      - name: 喜び、楽しい
+        contents: 
+
+      - name: 安心、安らぎ
+        contents: 
+
+      - name: 期待、待ち遠しい
+        contents: 
+
+      - name: 心配
+        contents: 
+
+      - name: 恐怖
+        contents: 
+
+      - name: 怒り
+        contents: 
+
+      - name: 悲しみ
+        contents: 
+
+      - name: 憎悪
+        contents: 
+
+      - name: 驚愕
+        contents: 
+
+      - name: 警戒
+        contents: 
+
+      outlook on life:
+      - name: 死生観
+        contents: 
+
+      - name: 将来の展望、夢、希望
+        contents: 
+
+      - name: 現在に対する価値観
+        contents: 
+
+      - name: 過去に対する価値観
+        contents: 
+
+      - name: 未来に対する価値観
+        contents: 
+
+      - name: 自分への態度
+        contents: 
+
+      - name: 対峙する相手への態度
+        contents: 
+
+      - name: 社会への態度
+        contents: 
+
+      - name: 学びに対する姿勢
+        contents: 
+
+      - name: 仕事や責任に対する姿勢
+        contents: 
+
+      - name: 個人的な物事・時間への姿勢
+        contents: 
+
+      - name: 安定していることに対する感覚
+        contents: 
+
+      - name: 変化することへの態度・感覚
+        contents: 
+
+      - name: 予測可能な状況に対する態度
+        contents: 
+
+      situational state:
+      - name: 通常時
+        contents: 
+
+      - name: 好調時
+        contents: 
+
+      - name: 困難時
+        contents: 
+
+      - name: 突然の喜び
+        contents: 
+
+      - name: 不測の困難
+        contents: 
+
+      - name: 得意なことを発揮する場面
+        contents: 
+
+      - name: 弱みが露呈する場面
+        contents: 
+
+      - name: 想定外の一面を見せる場面
+        contents: 
+
+    appearance:
+      overview: 神秘的な美少女
+      eye-catching features: 深い青のロングヘアが印象的だ
+      first impression: 岩崎さん
+      face:
+        overview: 知的な美少女
+        hair: 深い青のロングヘア
+        eyes: 虹彩が紫紺に輝き知的な美少女を印象づけている
+      body:
+        overview: 細身で少し背が高い
+        height: 
+        arm: 細め
+        breast/chest: e-cup ふっくらとしている
+        waist: くびれている
+        hips: 色っぽい
+        buttocks: メロンのような
+        leg: 細め
+      voice: 低めの美声にはユーモラスな響きがあった
+    biography:
+      - age: 0
+        event:
+      - birth:
+          day: 
+          place: アネス王国
+          father: 
+          mother: 
+          note:
             - 
-          special skills:
-            - 剣
-            - 
-            - 
-          forte:
-            - 
-            - 
-            - 
-          weaknesses:
-            - 
-            - 
-            - 
-          secret:
-            - 
-            - 
-            - 
-          hobby:
-            - 
-            - 
-            - 
-          etc:
-            - 
-            - 
-            - 
-        personality:
-          overview:
-            - 
-            - 
-            - 
-            - 
-          emotional expression:
-            - name: 喜び、楽しい
-              contents: 
-
-            - name: 安心、安らぎ
-              contents: 
-
-            - name: 期待、待ち遠しい
-              contents: 
-
-            - name: 心配
-              contents: 
-
-            - name: 恐怖
-              contents: 
-
-            - name: 怒り
-              contents: 
-
-            - name: 悲しみ
-              contents: 
-
-            - name: 憎悪
-              contents: 
-
-            - name: 驚愕
-              contents: 
-
-            - name: 警戒
-              contents: 
-
-          outlook on life:
-            - name: 死生観
-              contents: 
-
-            - name: 将来の展望、夢、希望
-              contents: 
-
-            - name: 現在に対する価値観
-              contents: 
-
-            - name: 過去に対する価値観
-              contents: 
-
-            - name: 未来に対する価値観
-              contents: 
-
-            - name: 自分への態度
-              contents: 
-
-            - name: 対峙する相手への態度
-              contents: 
-
-            - name: 社会への態度
-              contents: 
-
-            - name: 学びに対する姿勢
-              contents: 
-
-            - name: 仕事や責任に対する姿勢
-              contents: 
-
-            - name: 個人的な物事・時間への姿勢
-              contents: 
-
-            - name: 安定していることに対する感覚
-              contents: 
-
-            - name: 変化することへの態度・感覚
-              contents: 
-
-            - name: 予測可能な状況に対する態度
-              contents: 
-
-          situational state:
-            - name: 通常時
-              contents: 
-
-            - name: 好調時
-              contents: 
-
-            - name: 困難時
-              contents: 
-
-            - name: 突然の喜び
-              contents: 
-
-            - name: 不測の困難
-              contents: 
-
-            - name: 得意なことを発揮する場面
-              contents: 
-
-            - name: 弱みが露呈する場面
-              contents: 
-
-            - name: 想定外の一面を見せる場面
-              contents: 
-
-        appearance:
-          overview: 神秘的な美少女
-          eye-catching features: 深い青のロングヘアが印象的だ
-          first impression: 岩崎さん
-          face:
-            overview: 知的な美少女
-            hair: 深い青のロングヘア
-            eyes: 虹彩が紫紺に輝き知的な美少女を印象づけている
-          body:
-            overview: 細身で少し背が高い
-            height: 
-            arm: 細め
-            breast/chest: e-cup ふっくらとしている
-            waist: くびれている
-            hips: 色っぽい
-            buttocks: メロンのような
-            leg: 細め
-          voice: 低めの美声にはユーモラスな響きがあった
-        biography:
-          - age: 0
-            event:
-              - birth:
-                day: 
-                place: アネス王国
-                father: 
-                mother: 
-                note:
-                  - 
 
 
  ##     ##    ##    ##    ########     ####       ###
@@ -388,927 +388,927 @@ detail:
  ##     ##       ##       ##    ##      ##     ##     ##
  ##     ##       ##       ##     ##    ####    ##     ##
 
-      - dn: ミリア
-        meta data:
-          role: 
-          applicable chapter: continuous
-        innate nature:
-          full name: アーネフリーネ村のミリア
-          nickname: ミリア
-          race: 森人
-          gender: 女
-          age: 24
-        approximate nature:
-          overview:
-            - 
-            - 
-            - 
-          special skills:
-            - 
-            - 
-            - 
-          forte:
-            - 
-            - 
-            - 
-          weaknesses:
-            - 
-            - 
-            - 
-          secret:
-            - 
-            - 
-            - 
-          hobby:
-            - 
-            - 
-            - 
-          etc:
-            - 
-            - 
-            - 
-        personality:
-          overview:
-            - 
-            - 
-            - 
-            - 
-          emotional expression:
-            - name: 喜び、楽しい
-              contents: 
+  - dn: ミリア
+    meta data:
+      role: 
+      applicable chapter: continuous
+    innate nature:
+      full name: アーネフリーネ村のミリア
+      nickname: ミリア
+      race: 森人
+      gender: 女
+      age: 24
+    approximate nature:
+      overview:
+      - 
+      - 
+      - 
+      special skills:
+      - 
+      - 
+      - 
+      forte:
+      - 
+      - 
+      - 
+      weaknesses:
+      - 
+      - 
+      - 
+      secret:
+      - 
+      - 
+      - 
+      hobby:
+      - 
+      - 
+      - 
+      etc:
+      - 
+      - 
+      - 
+    personality:
+      overview:
+      - 
+      - 
+      - 
+      - 
+      emotional expression:
+      - name: 喜び、楽しい
+        contents: 
 
-            - name: 安心、安らぎ
-              contents: 
+      - name: 安心、安らぎ
+        contents: 
 
-            - name: 期待、待ち遠しい
-              contents: 
+      - name: 期待、待ち遠しい
+        contents: 
 
-            - name: 心配
-              contents: 
+      - name: 心配
+        contents: 
 
-            - name: 恐怖
-              contents: 
+      - name: 恐怖
+        contents: 
 
-            - name: 怒り
-              contents: 
+      - name: 怒り
+        contents: 
 
-            - name: 悲しみ
-              contents: 
+      - name: 悲しみ
+        contents: 
 
-            - name: 憎悪
-              contents: 
+      - name: 憎悪
+        contents: 
 
-            - name: 驚愕
-              contents: 
+      - name: 驚愕
+        contents: 
 
-            - name: 警戒
-              contents: 
+      - name: 警戒
+        contents: 
 
-          outlook on life:
-            - name: 死生観
-              contents: 
+      outlook on life:
+      - name: 死生観
+        contents: 
 
-            - name: 将来の展望、夢、希望
-              contents: 
+      - name: 将来の展望、夢、希望
+        contents: 
 
-            - name: 現在に対する価値観
-              contents: 
+      - name: 現在に対する価値観
+        contents: 
 
-            - name: 過去に対する価値観
-              contents: 
+      - name: 過去に対する価値観
+        contents: 
 
-            - name: 未来に対する価値観
-              contents: 
+      - name: 未来に対する価値観
+        contents: 
 
-            - name: 自分への態度
-              contents: 
+      - name: 自分への態度
+        contents: 
 
-            - name: 対峙する相手への態度
-              contents: 
+      - name: 対峙する相手への態度
+        contents: 
 
-            - name: 社会への態度
-              contents: 
+      - name: 社会への態度
+        contents: 
 
-            - name: 学びに対する姿勢
-              contents: 
+      - name: 学びに対する姿勢
+        contents: 
 
-            - name: 仕事や責任に対する姿勢
-              contents: 
+      - name: 仕事や責任に対する姿勢
+        contents: 
 
-            - name: 個人的な物事・時間への姿勢
-              contents: 
+      - name: 個人的な物事・時間への姿勢
+        contents: 
 
-            - name: 安定していることに対する感覚
-              contents: 
+      - name: 安定していることに対する感覚
+        contents: 
 
-            - name: 変化することへの態度・感覚
-              contents: 
+      - name: 変化することへの態度・感覚
+        contents: 
 
-            - name: 予測可能な状況に対する態度
-              contents: 
+      - name: 予測可能な状況に対する態度
+        contents: 
 
-          situational state:
-            - name: 通常時
-              contents: 
+      situational state:
+      - name: 通常時
+        contents: 
 
-            - name: 好調時
-              contents: 
+      - name: 好調時
+        contents: 
 
-            - name: 困難時
-              contents: 
+      - name: 困難時
+        contents: 
 
-            - name: 突然の喜び
-              contents: 
+      - name: 突然の喜び
+        contents: 
 
-            - name: 不測の困難
-              contents: 
+      - name: 不測の困難
+        contents: 
 
-            - name: 得意なことを発揮する場面
-              contents: 
+      - name: 得意なことを発揮する場面
+        contents: 
 
-            - name: 弱みが露呈する場面
-              contents: 
+      - name: 弱みが露呈する場面
+        contents: 
 
-            - name: 想定外の一面を見せる場面
-              contents: 
+      - name: 想定外の一面を見せる場面
+        contents: 
 
-        appearance:
-          overview: 
-          eye-catching features: 
-          first impression: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: c-cup
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                day: 
-                place: エルフの森 アーネフリーネ村
-                father: 
-                mother: 
-                note:
-                  - 村長家の第二子として生まれる
+    appearance:
+      overview: 
+      eye-catching features: 
+      first impression: 
+      face:
+        overview: 
+        hair: 
+        eyes: 
+      body:
+        overview: 
+        height: 
+        arm: 
+        breast/chest: c-cup
+        waist: 
+        hips: 
+        buttocks: 
+        leg: 
+      voice: 
+    biography:
+      - age: 0
+        event:
+      - birth:
+          day: 
+          place: エルフの森 アーネフリーネ村
+          father: 
+          mother: 
+          note:
+            - 村長家の第二子として生まれる
 
 
  ########     ########    ########    ########        ###
- ##     ##    ##             ##       ##     ##      ## ##
- ##     ##    ##             ##       ##     ##     ##   ##
+ ##     ##    ##           ##       ##     ##      ## ##
+ ##     ##    ##           ##       ##     ##     ##   ##
  ########     ######         ##       ########     ##     ##
- ##           ##             ##       ##   ##      #########
- ##           ##             ##       ##    ##     ##     ##
- ##           ########       ##       ##     ##    ##     ##
+ ##         ##           ##       ##   ##      #########
+ ##         ##           ##       ##    ##     ##     ##
+ ##         ########       ##       ##     ##    ##     ##
 
-      - dn: ペトラ
-        meta data:
-          role: 
-          applicable chapter: 1
-        innate nature:
-          full name: 
-          nickname: 
-          race: 翼妖精
-          gender: 女
-          age: 
-        approximate nature:
-          overview:
+  - dn: ペトラ
+    meta data:
+      role: 
+      applicable chapter: 1
+    innate nature:
+      full name: 
+      nickname: 
+      race: 翼妖精
+      gender: 女
+      age: 
+    approximate nature:
+      overview:
+      - 
+      - 
+      - 
+      special skills:
+      - 
+      - 
+      - 
+      forte:
+      - 
+      - 
+      - 
+      weaknesses:
+      - 
+      - 
+      - 
+      secret:
+      - 
+      - 
+      - 
+      hobby:
+      - 
+      - 
+      - 
+      etc:
+      - 
+      - 
+      - 
+    personality:
+      overview:
+      - 
+      - 
+      - 
+      - 
+      emotional expression:
+      - name: 喜び、楽しい
+        contents: 
+
+      - name: 安心、安らぎ
+        contents: 
+
+      - name: 期待、待ち遠しい
+        contents: 
+
+      - name: 心配
+        contents: 
+
+      - name: 恐怖
+        contents: 
+
+      - name: 怒り
+        contents: 
+
+      - name: 悲しみ
+        contents: 
+
+      - name: 憎悪
+        contents: 
+
+      - name: 驚愕
+        contents: 
+
+      - name: 警戒
+        contents: 
+
+      outlook on life:
+      - name: 死生観
+        contents: 
+
+      - name: 将来の展望、夢、希望
+        contents: 
+
+      - name: 現在に対する価値観
+        contents: 
+
+      - name: 過去に対する価値観
+        contents: 
+
+      - name: 未来に対する価値観
+        contents: 
+
+      - name: 自分への態度
+        contents: 
+
+      - name: 対峙する相手への態度
+        contents: 
+
+      - name: 社会への態度
+        contents: 
+
+      - name: 学びに対する姿勢
+        contents: 
+
+      - name: 仕事や責任に対する姿勢
+        contents: 
+
+      - name: 個人的な物事・時間への姿勢
+        contents: 
+
+      - name: 安定していることに対する感覚
+        contents: 
+
+      - name: 変化することへの態度・感覚
+        contents: 
+
+      - name: 予測可能な状況に対する態度
+        contents: 
+
+      situational state:
+      - name: 通常時
+        contents: 
+
+      - name: 好調時
+        contents: 
+
+      - name: 困難時
+        contents: 
+
+      - name: 突然の喜び
+        contents: 
+
+      - name: 不測の困難
+        contents: 
+
+      - name: 得意なことを発揮する場面
+        contents: 
+
+      - name: 弱みが露呈する場面
+        contents: 
+
+      - name: 想定外の一面を見せる場面
+        contents: 
+
+    appearance:
+      overview: 
+      eye-catching features: 
+      first impression: 
+      face:
+        overview: 
+        hair: 
+        eyes: 
+      body:
+        overview: 
+        height: 
+        arm: 
+        breast/chest: 
+        waist: 
+        hips: 
+        buttocks: 
+        leg: 
+      voice: 
+    biography:
+      - age: 0
+        event:
+      - birth:
+          day: 
+          place: 
+          father: 
+          mother: 
+          note:
             - 
-            - 
-            - 
-          special skills:
-            - 
-            - 
-            - 
-          forte:
-            - 
-            - 
-            - 
-          weaknesses:
-            - 
-            - 
-            - 
-          secret:
-            - 
-            - 
-            - 
-          hobby:
-            - 
-            - 
-            - 
-          etc:
-            - 
-            - 
-            - 
-        personality:
-          overview:
-            - 
-            - 
-            - 
-            - 
-          emotional expression:
-            - name: 喜び、楽しい
-              contents: 
-
-            - name: 安心、安らぎ
-              contents: 
-
-            - name: 期待、待ち遠しい
-              contents: 
-
-            - name: 心配
-              contents: 
-
-            - name: 恐怖
-              contents: 
-
-            - name: 怒り
-              contents: 
-
-            - name: 悲しみ
-              contents: 
-
-            - name: 憎悪
-              contents: 
-
-            - name: 驚愕
-              contents: 
-
-            - name: 警戒
-              contents: 
-
-          outlook on life:
-            - name: 死生観
-              contents: 
-
-            - name: 将来の展望、夢、希望
-              contents: 
-
-            - name: 現在に対する価値観
-              contents: 
-
-            - name: 過去に対する価値観
-              contents: 
-
-            - name: 未来に対する価値観
-              contents: 
-
-            - name: 自分への態度
-              contents: 
-
-            - name: 対峙する相手への態度
-              contents: 
-
-            - name: 社会への態度
-              contents: 
-
-            - name: 学びに対する姿勢
-              contents: 
-
-            - name: 仕事や責任に対する姿勢
-              contents: 
-
-            - name: 個人的な物事・時間への姿勢
-              contents: 
-
-            - name: 安定していることに対する感覚
-              contents: 
-
-            - name: 変化することへの態度・感覚
-              contents: 
-
-            - name: 予測可能な状況に対する態度
-              contents: 
-
-          situational state:
-            - name: 通常時
-              contents: 
-
-            - name: 好調時
-              contents: 
-
-            - name: 困難時
-              contents: 
-
-            - name: 突然の喜び
-              contents: 
-
-            - name: 不測の困難
-              contents: 
-
-            - name: 得意なことを発揮する場面
-              contents: 
-
-            - name: 弱みが露呈する場面
-              contents: 
-
-            - name: 想定外の一面を見せる場面
-              contents: 
-
-        appearance:
-          overview: 
-          eye-catching features: 
-          first impression: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                day: 
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
 
 
 
-  - group: 遷世教団
-    member:
+- group: 遷世教団
+  member:
 
  ########      #######      ######     ########    ########     ##    ##    ########    ########        ###
- ##     ##    ##     ##    ##    ##    ##          ##     ##     ##  ##     ##          ##     ##      ## ##
- ##     ##    ##     ##    ##          ##          ##     ##      ####      ##          ##     ##     ##   ##
+ ##     ##    ##     ##    ##    ##    ##        ##     ##     ##  ##     ##        ##     ##      ## ##
+ ##     ##    ##     ##    ##        ##        ##     ##      ####      ##        ##     ##     ##   ##
  ########     ##     ##     ######     ######      ########        ##       ######      ########     ##     ##
- ##   ##      ##     ##          ##    ##          ##   ##         ##       ##          ##   ##      #########
- ##    ##     ##     ##    ##    ##    ##          ##    ##        ##       ##          ##    ##     ##     ##
+ ##   ##      ##     ##        ##    ##        ##   ##         ##       ##        ##   ##      #########
+ ##    ##     ##     ##    ##    ##    ##        ##    ##        ##       ##        ##    ##     ##     ##
  ##     ##     #######      ######     ########    ##     ##       ##       ########    ##     ##    ##     ##
 
-      - dn: ローズリエラ
-        meta data:
-          role: 
-          applicable chapter: 1
-        innate nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 女
-          age: 
-        approximate nature:
-          overview:
+  - dn: ローズリエラ
+    meta data:
+      role: 
+      applicable chapter: 1
+    innate nature:
+      full name: 
+      nickname: 
+      race: 
+      gender: 女
+      age: 
+    approximate nature:
+      overview:
+      - 
+      - 
+      - 
+      special skills:
+      - 魔法使い
+      - 
+      - 
+      forte:
+      - 
+      - 
+      - 
+      weaknesses:
+      - 
+      - 
+      - 
+      secret:
+      - 
+      - 
+      - 
+      hobby:
+      - 
+      - 
+      - 
+      etc:
+      - 
+      - 
+      - 
+    personality:
+      overview:
+      - 
+      - 
+      - 
+      - 
+      emotional expression:
+      - name: 喜び、楽しい
+        contents: 
+
+      - name: 安心、安らぎ
+        contents: 
+
+      - name: 期待、待ち遠しい
+        contents: 
+
+      - name: 心配
+        contents: 
+
+      - name: 恐怖
+        contents: 
+
+      - name: 怒り
+        contents: 
+
+      - name: 悲しみ
+        contents: 
+
+      - name: 憎悪
+        contents: 
+
+      - name: 驚愕
+        contents: 
+
+      - name: 警戒
+        contents: 
+
+      outlook on life:
+      - name: 死生観
+        contents: 
+
+      - name: 将来の展望、夢、希望
+        contents: 
+
+      - name: 現在に対する価値観
+        contents: 
+
+      - name: 過去に対する価値観
+        contents: 
+
+      - name: 未来に対する価値観
+        contents: 
+
+      - name: 自分への態度
+        contents: 
+
+      - name: 対峙する相手への態度
+        contents: 
+
+      - name: 社会への態度
+        contents: 
+
+      - name: 学びに対する姿勢
+        contents: 
+
+      - name: 仕事や責任に対する姿勢
+        contents: 
+
+      - name: 個人的な物事・時間への姿勢
+        contents: 
+
+      - name: 安定していることに対する感覚
+        contents: 
+
+      - name: 変化することへの態度・感覚
+        contents: 
+
+      - name: 予測可能な状況に対する態度
+        contents: 
+
+      situational state:
+      - name: 通常時
+        contents: 
+
+      - name: 好調時
+        contents: 
+
+      - name: 困難時
+        contents: 
+
+      - name: 突然の喜び
+        contents: 
+
+      - name: 不測の困難
+        contents: 
+
+      - name: 得意なことを発揮する場面
+        contents: 
+
+      - name: 弱みが露呈する場面
+        contents: 
+
+      - name: 想定外の一面を見せる場面
+        contents: 
+
+    appearance:
+      overview: 赤がイメージカラー
+      eye-catching features: 
+      first impression: 
+      face:
+        overview: 
+        hair: 
+        eyes: 
+      body:
+        overview: 
+        height: 
+        arm: 
+        breast/chest: 
+        waist: 
+        hips: 
+        buttocks: 
+        leg: 
+      voice: 
+    biography:
+      - age: 0
+        event:
+      - birth:
+          day: 
+          place: 
+          father: 
+          mother: 
+          note:
             - 
-            - 
-            - 
-          special skills:
-            - 魔法使い
-            - 
-            - 
-          forte:
-            - 
-            - 
-            - 
-          weaknesses:
-            - 
-            - 
-            - 
-          secret:
-            - 
-            - 
-            - 
-          hobby:
-            - 
-            - 
-            - 
-          etc:
-            - 
-            - 
-            - 
-        personality:
-          overview:
-            - 
-            - 
-            - 
-            - 
-          emotional expression:
-            - name: 喜び、楽しい
-              contents: 
-
-            - name: 安心、安らぎ
-              contents: 
-
-            - name: 期待、待ち遠しい
-              contents: 
-
-            - name: 心配
-              contents: 
-
-            - name: 恐怖
-              contents: 
-
-            - name: 怒り
-              contents: 
-
-            - name: 悲しみ
-              contents: 
-
-            - name: 憎悪
-              contents: 
-
-            - name: 驚愕
-              contents: 
-
-            - name: 警戒
-              contents: 
-
-          outlook on life:
-            - name: 死生観
-              contents: 
-
-            - name: 将来の展望、夢、希望
-              contents: 
-
-            - name: 現在に対する価値観
-              contents: 
-
-            - name: 過去に対する価値観
-              contents: 
-
-            - name: 未来に対する価値観
-              contents: 
-
-            - name: 自分への態度
-              contents: 
-
-            - name: 対峙する相手への態度
-              contents: 
-
-            - name: 社会への態度
-              contents: 
-
-            - name: 学びに対する姿勢
-              contents: 
-
-            - name: 仕事や責任に対する姿勢
-              contents: 
-
-            - name: 個人的な物事・時間への姿勢
-              contents: 
-
-            - name: 安定していることに対する感覚
-              contents: 
-
-            - name: 変化することへの態度・感覚
-              contents: 
-
-            - name: 予測可能な状況に対する態度
-              contents: 
-
-          situational state:
-            - name: 通常時
-              contents: 
-
-            - name: 好調時
-              contents: 
-
-            - name: 困難時
-              contents: 
-
-            - name: 突然の喜び
-              contents: 
-
-            - name: 不測の困難
-              contents: 
-
-            - name: 得意なことを発揮する場面
-              contents: 
-
-            - name: 弱みが露呈する場面
-              contents: 
-
-            - name: 想定外の一面を見せる場面
-              contents: 
-
-        appearance:
-          overview: 赤がイメージカラー
-          eye-catching features: 
-          first impression: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                day: 
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
 
 
  ########    ########     ####    ########    ########    ####       ###
- ##          ##     ##     ##     ##             ##        ##       ## ##
- ##          ##     ##     ##     ##             ##        ##      ##   ##
+ ##        ##     ##     ##     ##           ##        ##       ## ##
+ ##        ##     ##     ##     ##           ##        ##      ##   ##
  ######      ########      ##     ######         ##        ##     ##     ##
- ##          ##   ##       ##     ##             ##        ##     #########
- ##          ##    ##      ##     ##             ##        ##     ##     ##
+ ##        ##   ##       ##     ##           ##        ##     #########
+ ##        ##    ##      ##     ##           ##        ##     ##     ##
  ########    ##     ##    ####    ########       ##       ####    ##     ##
 
-      - dn: エリーティア
-        meta data:
-          role: 
-          applicable chapter: 1
-        innate nature:
-          full name: エリーティア・ミカ・ロレード
-          nickname: エリー
-          race: 葦人
-          gender: 女
-          age: 21
-        approximate nature:
-          overview:
+  - dn: エリーティア
+    meta data:
+      role: 
+      applicable chapter: 1
+    innate nature:
+      full name: エリーティア・ミカ・ロレード
+      nickname: エリー
+      race: 葦人
+      gender: 女
+      age: 21
+    approximate nature:
+      overview:
+      - 
+      - 
+      - 
+      special skills:
+      - 格闘家
+      - 
+      - 
+      forte:
+      - 
+      - 
+      - 
+      weaknesses:
+      - 
+      - 
+      - 
+      secret:
+      - 
+      - 
+      - 
+      hobby:
+      - 
+      - 
+      - 
+      etc:
+      - 
+      - 
+      - 
+    personality:
+      overview:
+      - 
+      - 
+      - 
+      - 
+      emotional expression:
+      - name: 喜び、楽しい
+        contents: 
+
+      - name: 安心、安らぎ
+        contents: 
+
+      - name: 期待、待ち遠しい
+        contents: 
+
+      - name: 心配
+        contents: 
+
+      - name: 恐怖
+        contents: 
+
+      - name: 怒り
+        contents: 
+
+      - name: 悲しみ
+        contents: 
+
+      - name: 憎悪
+        contents: 
+
+      - name: 驚愕
+        contents: 
+
+      - name: 警戒
+        contents: 
+
+      outlook on life:
+      - name: 死生観
+        contents: 
+
+      - name: 将来の展望、夢、希望
+        contents: 
+
+      - name: 現在に対する価値観
+        contents: 
+
+      - name: 過去に対する価値観
+        contents: 
+
+      - name: 未来に対する価値観
+        contents: 
+
+      - name: 自分への態度
+        contents: 
+
+      - name: 対峙する相手への態度
+        contents: 
+
+      - name: 社会への態度
+        contents: 
+
+      - name: 学びに対する姿勢
+        contents: 
+
+      - name: 仕事や責任に対する姿勢
+        contents: 
+
+      - name: 個人的な物事・時間への姿勢
+        contents: 
+
+      - name: 安定していることに対する感覚
+        contents: 
+
+      - name: 変化することへの態度・感覚
+        contents: 
+
+      - name: 予測可能な状況に対する態度
+        contents: 
+
+      situational state:
+      - name: 通常時
+        contents: 
+
+      - name: 好調時
+        contents: 
+
+      - name: 困難時
+        contents: 
+
+      - name: 突然の喜び
+        contents: 
+
+      - name: 不測の困難
+        contents: 
+
+      - name: 得意なことを発揮する場面
+        contents: 
+
+      - name: 弱みが露呈する場面
+        contents: 
+
+      - name: 想定外の一面を見せる場面
+        contents: 
+
+    appearance:
+      overview: 
+      eye-catching features: 
+      first impression: 
+      face:
+        overview: 
+        hair: 
+        eyes: 
+      body:
+        overview: 
+        height: 
+        arm: 
+        breast/chest: 
+        waist: 
+        hips: 
+        buttocks: 
+        leg: 
+      voice: 
+    biography:
+      - age: 0
+        event:
+      - birth:
+          day: 
+          place: 
+          father: 
+          mother: 
+          note:
             - 
-            - 
-            - 
-          special skills:
-            - 格闘家
-            - 
-            - 
-          forte:
-            - 
-            - 
-            - 
-          weaknesses:
-            - 
-            - 
-            - 
-          secret:
-            - 
-            - 
-            - 
-          hobby:
-            - 
-            - 
-            - 
-          etc:
-            - 
-            - 
-            - 
-        personality:
-          overview:
-            - 
-            - 
-            - 
-            - 
-          emotional expression:
-            - name: 喜び、楽しい
-              contents: 
-
-            - name: 安心、安らぎ
-              contents: 
-
-            - name: 期待、待ち遠しい
-              contents: 
-
-            - name: 心配
-              contents: 
-
-            - name: 恐怖
-              contents: 
-
-            - name: 怒り
-              contents: 
-
-            - name: 悲しみ
-              contents: 
-
-            - name: 憎悪
-              contents: 
-
-            - name: 驚愕
-              contents: 
-
-            - name: 警戒
-              contents: 
-
-          outlook on life:
-            - name: 死生観
-              contents: 
-
-            - name: 将来の展望、夢、希望
-              contents: 
-
-            - name: 現在に対する価値観
-              contents: 
-
-            - name: 過去に対する価値観
-              contents: 
-
-            - name: 未来に対する価値観
-              contents: 
-
-            - name: 自分への態度
-              contents: 
-
-            - name: 対峙する相手への態度
-              contents: 
-
-            - name: 社会への態度
-              contents: 
-
-            - name: 学びに対する姿勢
-              contents: 
-
-            - name: 仕事や責任に対する姿勢
-              contents: 
-
-            - name: 個人的な物事・時間への姿勢
-              contents: 
-
-            - name: 安定していることに対する感覚
-              contents: 
-
-            - name: 変化することへの態度・感覚
-              contents: 
-
-            - name: 予測可能な状況に対する態度
-              contents: 
-
-          situational state:
-            - name: 通常時
-              contents: 
-
-            - name: 好調時
-              contents: 
-
-            - name: 困難時
-              contents: 
-
-            - name: 突然の喜び
-              contents: 
-
-            - name: 不測の困難
-              contents: 
-
-            - name: 得意なことを発揮する場面
-              contents: 
-
-            - name: 弱みが露呈する場面
-              contents: 
-
-            - name: 想定外の一面を見せる場面
-              contents: 
-
-        appearance:
-          overview: 
-          eye-catching features: 
-          first impression: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                day: 
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
 
 
  ########    ########    ####    ##     ##    ########    ##
- ##          ##           ##     ###   ###    ##          ##
- ##          ##           ##     #### ####    ##          ##
+ ##        ##         ##     ###   ###    ##        ##
+ ##        ##         ##     #### ####    ##        ##
  ######      ######       ##     ## ### ##    ######      ##
- ##          ##           ##     ##     ##    ##          ##
- ##          ##           ##     ##     ##    ##          ##
- ##          ########    ####    ##     ##    ########    ########
+ ##        ##         ##     ##     ##    ##        ##
+ ##        ##         ##     ##     ##    ##        ##
+ ##        ########    ####    ##     ##    ########    ########
 
-      - dn: フェイメル
-        meta data:
-          role: 
-          applicable chapter: 1
-        innate nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 女
-          age: 
-        approximate nature:
-          overview:
+  - dn: フェイメル
+    meta data:
+      role: 
+      applicable chapter: 1
+    innate nature:
+      full name: 
+      nickname: 
+      race: 
+      gender: 女
+      age: 
+    approximate nature:
+      overview:
+      - 
+      - 
+      - 
+      special skills:
+      - 召喚師
+      - 
+      - 
+      forte:
+      - 
+      - 
+      - 
+      weaknesses:
+      - 
+      - 
+      - 
+      secret:
+      - 
+      - 
+      - 
+      hobby:
+      - 
+      - 
+      - 
+      etc:
+      - 
+      - 
+      - 
+    personality:
+      overview:
+      - 
+      - 
+      - 
+      - 
+      emotional expression:
+      - name: 喜び、楽しい
+        contents: 
+
+      - name: 安心、安らぎ
+        contents: 
+
+      - name: 期待、待ち遠しい
+        contents: 
+
+      - name: 心配
+        contents: 
+
+      - name: 恐怖
+        contents: 
+
+      - name: 怒り
+        contents: 
+
+      - name: 悲しみ
+        contents: 
+
+      - name: 憎悪
+        contents: 
+
+      - name: 驚愕
+        contents: 
+
+      - name: 警戒
+        contents: 
+
+      outlook on life:
+      - name: 死生観
+        contents: 
+
+      - name: 将来の展望、夢、希望
+        contents: 
+
+      - name: 現在に対する価値観
+        contents: 
+
+      - name: 過去に対する価値観
+        contents: 
+
+      - name: 未来に対する価値観
+        contents: 
+
+      - name: 自分への態度
+        contents: 
+
+      - name: 対峙する相手への態度
+        contents: 
+
+      - name: 社会への態度
+        contents: 
+
+      - name: 学びに対する姿勢
+        contents: 
+
+      - name: 仕事や責任に対する姿勢
+        contents: 
+
+      - name: 個人的な物事・時間への姿勢
+        contents: 
+
+      - name: 安定していることに対する感覚
+        contents: 
+
+      - name: 変化することへの態度・感覚
+        contents: 
+
+      - name: 予測可能な状況に対する態度
+        contents: 
+
+      situational state:
+      - name: 通常時
+        contents: 
+
+      - name: 好調時
+        contents: 
+
+      - name: 困難時
+        contents: 
+
+      - name: 突然の喜び
+        contents: 
+
+      - name: 不測の困難
+        contents: 
+
+      - name: 得意なことを発揮する場面
+        contents: 
+
+      - name: 弱みが露呈する場面
+        contents: 
+
+      - name: 想定外の一面を見せる場面
+        contents: 
+
+    appearance:
+      overview: 
+      eye-catching features: 
+      first impression: 
+      face:
+        overview: 
+        hair: 
+        eyes: 
+      body:
+        overview: 
+        height: 
+        arm: 
+        breast/chest: 
+        waist: 
+        hips: 
+        buttocks: 
+        leg: 
+      voice: 
+    biography:
+      - age: 0
+        event:
+      - birth:
+          day: 
+          place: 
+          father: 
+          mother: 
+          note:
             - 
-            - 
-            - 
-          special skills:
-            - 召喚師
-            - 
-            - 
-          forte:
-            - 
-            - 
-            - 
-          weaknesses:
-            - 
-            - 
-            - 
-          secret:
-            - 
-            - 
-            - 
-          hobby:
-            - 
-            - 
-            - 
-          etc:
-            - 
-            - 
-            - 
-        personality:
-          overview:
-            - 
-            - 
-            - 
-            - 
-          emotional expression:
-            - name: 喜び、楽しい
-              contents: 
-
-            - name: 安心、安らぎ
-              contents: 
-
-            - name: 期待、待ち遠しい
-              contents: 
-
-            - name: 心配
-              contents: 
-
-            - name: 恐怖
-              contents: 
-
-            - name: 怒り
-              contents: 
-
-            - name: 悲しみ
-              contents: 
-
-            - name: 憎悪
-              contents: 
-
-            - name: 驚愕
-              contents: 
-
-            - name: 警戒
-              contents: 
-
-          outlook on life:
-            - name: 死生観
-              contents: 
-
-            - name: 将来の展望、夢、希望
-              contents: 
-
-            - name: 現在に対する価値観
-              contents: 
-
-            - name: 過去に対する価値観
-              contents: 
-
-            - name: 未来に対する価値観
-              contents: 
-
-            - name: 自分への態度
-              contents: 
-
-            - name: 対峙する相手への態度
-              contents: 
-
-            - name: 社会への態度
-              contents: 
-
-            - name: 学びに対する姿勢
-              contents: 
-
-            - name: 仕事や責任に対する姿勢
-              contents: 
-
-            - name: 個人的な物事・時間への姿勢
-              contents: 
-
-            - name: 安定していることに対する感覚
-              contents: 
-
-            - name: 変化することへの態度・感覚
-              contents: 
-
-            - name: 予測可能な状況に対する態度
-              contents: 
-
-          situational state:
-            - name: 通常時
-              contents: 
-
-            - name: 好調時
-              contents: 
-
-            - name: 困難時
-              contents: 
-
-            - name: 突然の喜び
-              contents: 
-
-            - name: 不測の困難
-              contents: 
-
-            - name: 得意なことを発揮する場面
-              contents: 
-
-            - name: 弱みが露呈する場面
-              contents: 
-
-            - name: 想定外の一面を見せる場面
-              contents: 
-
-        appearance:
-          overview: 
-          eye-catching features: 
-          first impression: 
-          face:
-            overview: 
-            hair: 
-            eyes: 
-          body:
-            overview: 
-            height: 
-            arm: 
-            breast/chest: 
-            waist: 
-            hips: 
-            buttocks: 
-            leg: 
-          voice: 
-        biography:
-          - age: 0
-            event:
-              - birth:
-                day: 
-                place: 
-                father: 
-                mother: 
-                note:
-                  - 
 
 
   #######     ########    ##     ##    ########    ########      ######
- ##     ##       ##       ##     ##    ##          ##     ##    ##    ## 
- ##     ##       ##       ##     ##    ##          ##     ##    ##
+ ##     ##       ##       ##     ##    ##        ##     ##    ##    ## 
+ ##     ##       ##       ##     ##    ##        ##     ##    ##
  ##     ##       ##       #########    ######      ########      ######
- ##     ##       ##       ##     ##    ##          ##   ##            ## 
- ##     ##       ##       ##     ##    ##          ##    ##     ##    ## 
+ ##     ##       ##       ##     ##    ##        ##   ##          ## 
+ ##     ##       ##       ##     ##    ##        ##    ##     ##    ## 
   #######        ##       ##     ##    ########    ##     ##     ######
 
-  - dn: ヨル
-    gist: 大賢者ヨル、アリスの子・弟子、ザヴィの母・師匠、聖徒教会と深い関係があった
+- dn: ヨル
+  gist: 大賢者ヨル、アリスの子・弟子、ザヴィの母・師匠、聖徒教会と深い関係があった
 
 
-  - dn: ザヴィア
-    gist: 吸血姫ザヴィア、ヨルの子・弟子、吸血族の始祖・真祖、ローズの母・師匠
+- dn: ザヴィア
+  gist: 吸血姫ザヴィア、ヨルの子・弟子、吸血族の始祖・真祖、ローズの母・師匠
 
 
-  - dn: マクスヴェルト
-    gists: 魔法都市カルダの研究者、エルフ
+- dn: マクスヴェルト
+  gists: 魔法都市カルダの研究者、エルフ

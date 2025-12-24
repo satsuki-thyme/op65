@@ -1,295 +1,295 @@
 # キャラクター描写
-- dn: アリス
-  contents:
+  - dn: アリス
+    contents:
 
     - item: ^強気で自由に突き進む
       portrayal:
 
-        - item: 強気な選択をして実行しようとする
-          applicable part:
-            - 
+      - item: 強気な選択をして実行しようとする
+        applicable part:
+        - 
 
     - item: ^言動が芝居がかっている
       portrayal:
 
-        - item: 芝居がかった言動
-          applicable part:
-            - 
+      - item: 芝居がかった言動
+        applicable part:
+        - 
 
     - item: ^慈愛と優しさの気持ちを伝える
       portrayal:
 
-        - item: レオナ、ミリア、ペトラの困難に気持ちを伝える
-          applicable part:
-            - 
+      - item: レオナ、ミリア、ペトラの困難に気持ちを伝える
+        applicable part:
+        - 
 
-    - item: ^感覚的で大雑把だが重要な局面では勘が冴えている
-      portrayal:
+  - item: ^感覚的で大雑把だが重要な局面では勘が冴えている
+    portrayal:
 
-        - item: 地下から出るときに地面を吹き飛ばしたのはやりすぎだったが気にしない
-          applicable part:
-            - 
+    - item: 地下から出るときに地面を吹き飛ばしたのはやりすぎだったが気にしない
+      applicable part:
+      - 
 
-        - item: レオナ、ミリア、ペトラの心配にも楽天的に振る舞うが危機は救う
-          applicable part:
-            - 
+    - item: レオナ、ミリア、ペトラの心配にも楽天的に振る舞うが危機は救う
+      applicable part:
+      - 
 
-        - item: 選択を間違えない
-          applicable part:
-            - 
+    - item: 選択を間違えない
+      applicable part:
+      - 
 
-    - item: ^母性
-      portrayal:
+  - item: ^母性
+    portrayal:
 
-        - item: 慈愛の表情でレオナとミリアを抱きしめ頭を撫でる、二人は安心の顔をする
-          applicable part:
-            - 
+    - item: 慈愛の表情でレオナとミリアを抱きしめ頭を撫でる、二人は安心の顔をする
+      applicable part:
+      - 
 
-        - item: 寝顔を微笑みで眺める
-          applicable part:
-            - 
+    - item: 寝顔を微笑みで眺める
+      applicable part:
+      - 
 
-    - item: ^天真爛漫
-      portrayal:
+  - item: ^天真爛漫
+    portrayal:
 
-        - item: 動物と話す、鳥と歌う、星と話す
-          applicable part:
-            - 
+    - item: 動物と話す、鳥と歌う、星と話す
+      applicable part:
+      - 
 
-        - item: 物事を大ごととして捉えない
-          applicable part:
-            - 
+    - item: 物事を大ごととして捉えない
+      applicable part:
+      - 
 
-    - item: ^好奇心旺盛
-      portrayal:
+  - item: ^好奇心旺盛
+    portrayal:
 
-        - item: 街にあるものやレオナとミリアが持っているもので初めて見るものに興味を持つ
-          applicable part:
-            - 
+    - item: 街にあるものやレオナとミリアが持っているもので初めて見るものに興味を持つ
+      applicable part:
+      - 
 
-    - item: ^癖
-      portrayal:
+  - item: ^癖
+    portrayal:
 
-        - item: 優しく微笑む
-          applicable part:
-            - 
+    - item: 優しく微笑む
+      applicable part:
+      - 
 
-        - item: 口癖「大丈夫、なんとかなるよ」（ミリアなどの不安に対して）
-          applicable part:
-            - 
+    - item: 口癖「大丈夫、なんとかなるよ」（ミリアなどの不安に対して）
+      applicable part:
+      - 
 
-    - item: ^外見
-      portrayal:
+  - item: ^外見
+    portrayal:
 
-        - item: スカイブルーの瞳
-          applicable part:
-            - 
+    - item: スカイブルーの瞳
+      applicable part:
+      - 
 
-- dn: レオナ
-  contents:
+  - dn: レオナ
+    contents:
 
     - item: ^妹の立ち位置で頑張り屋
       portrayal:
 
-        - item: 自然と世話を焼かれて嬉しげにする
-          applicable part:
-            - 
+      - item: 自然と世話を焼かれて嬉しげにする
+        applicable part:
+        - 
 
-        - item: 2人に見守られて訓練に邁進する
-          applicable part:
-            - 
+      - item: 2人に見守られて訓練に邁進する
+        applicable part:
+        - 
 
     - item: ^みんなのために貢献する
       portrayal:
 
-        - item: 食材を手に入れてきたり薪を集めてきたりする
-          applicable part:
-            - 
+      - item: 食材を手に入れてきたり薪を集めてきたりする
+        applicable part:
+        - 
 
     - item: ^バランスを取って落とし所を提案する
       portrayal:
 
-        - item: アリスとミリアの折衷案を出す
-          applicable part:
-            - 
+      - item: アリスとミリアの折衷案を出す
+        applicable part:
+        - 
 
     - item: ^癖
       portrayal:
 
-        - item: 人差し指を立てて提案する
-          applicable part:
-            - 
+      - item: 人差し指を立てて提案する
+        applicable part:
+        - 
 
-        - item: 自分を抱きしめて困る
-          applicable part:
-            - 
+      - item: 自分を抱きしめて困る
+        applicable part:
+        - 
 
-- dn: ミリア
-  contents:
+  - dn: ミリア
+    contents:
 
     - item: ^面倒見のいいお姉さん
       portrayal:
 
-        - item: 野営のとき料理を作る
-          applicable part:
-            - 
+      - item: 野営のとき料理を作る
+        applicable part:
+        - 
 
-        - item: 手洗いの水を出したりする
-          applicable part:
-            - 
+      - item: 手洗いの水を出したりする
+        applicable part:
+        - 
 
-        - item: 健康状態をチェックする
-          applicable part:
-            - 
+      - item: 健康状態をチェックする
+        applicable part:
+        - 
 
     - item: ^気づかれないような親切をする
       portrayal:
 
-        - item: ズレた布団を直してやる
-          applicable part:
-            - 
+      - item: ズレた布団を直してやる
+        applicable part:
+        - 
 
-        - item: レオナの背に付いた糸くずを取り除いたりする
-          applicable part:
-            - 
+      - item: レオナの背に付いた糸くずを取り除いたりする
+        applicable part:
+        - 
 
     - item: ^弱気で臆病、思い切った提案に驚いて待ったをかける
       portrayal:
 
-        - item: アリスの提案に待ったをかける
-          applicable part:
-            - 
+      - item: アリスの提案に待ったをかける
+        applicable part:
+        - 
 
     - item: ^癖
       portrayal:
 
-        - item: 頬に片手を当てて考える
-          applicable part:
-            - 
+      - item: 頬に片手を当てて考える
+        applicable part:
+        - 
 
-        - item: いいことがあると「精霊の導きね」と言う
-          applicable part:
-            - 
+      - item: いいことがあると「精霊の導きね」と言う
+        applicable part:
+        - 
 
-- dn: ペトラ
-  contents:
+  - dn: ペトラ
+    contents:
 
     - item: ^やんちゃな女の子
       portrayal:
 
-        - item: 強気でアリスと意見が合うかもっと過激
-          applicable part:
-            - 
+      - item: 強気でアリスと意見が合うかもっと過激
+        applicable part:
+        - 
 
-        - item: レオナとミリアには強く出る
-          applicable part:
-            - 
+      - item: レオナとミリアには強く出る
+        applicable part:
+        - 
 
-        - item: 一人でどこでも行く
-          applicable part:
-            - 
+      - item: 一人でどこでも行く
+        applicable part:
+        - 
 
     - item: ^臆病
       portrayal:
 
-        - item: 急に怖くなるときがある
-          applicable part:
-            - 
+      - item: 急に怖くなるときがある
+        applicable part:
+        - 
 
-        - item: 自分の立場が悪くなるようなことを告白できない
-          applicable part:
-            - 
+      - item: 自分の立場が悪くなるようなことを告白できない
+        applicable part:
+        - 
 
     - item: ^癖
       portrayal:
 
-        - item: 腰に手を当てる
-          applicable part:
-            - 
+      - item: 腰に手を当てる
+        applicable part:
+        - 
 
-        - item: 腕を組む
-          applicable part:
-            - 
+      - item: 腕を組む
+        applicable part:
+        - 
 
-- dn: ローズ
-  contents:
+  - dn: ローズ
+    contents:
 
     - item: ^傲慢に振る舞って優越感に浸る
       portrayal:
 
-        - item: 相手の話をさえぎる
-          applicable part:
-            - 
+      - item: 相手の話をさえぎる
+        applicable part:
+        - 
 
-        - item: 魔法を行使して力を見せつける
-          applicable part:
-            - 
+      - item: 魔法を行使して力を見せつける
+        applicable part:
+        - 
 
     - item: ^嫉妬に狂って
       portrayal:
 
-        - item: アリスを大したことなかったと侮る
-          applicable part:
-            - 
+      - item: アリスを大したことなかったと侮る
+        applicable part:
+        - 
 
-        - item: 自分を倒せるアリスに嫉妬して執拗に攻撃する
-          applicable part:
-            - 
+      - item: 自分を倒せるアリスに嫉妬して執拗に攻撃する
+        applicable part:
+        - 
 
     - item: ^色欲
       portrayal:
 
-        - item: 「そんな顔されたら我慢できないな」
-          applicable part:
-            - 
+      - item: 「そんな顔されたら我慢できないな」
+        applicable part:
+        - 
 
-        - item: 会話の途中でさりげなく肩や腰に触れる
-          applicable part:
-            - 
+      - item: 会話の途中でさりげなく肩や腰に触れる
+        applicable part:
+        - 
 
-        - item: 上手くやったらいい思いをさせてあげるわ
-          applicable part:
-            - 
+      - item: 上手くやったらいい思いをさせてあげるわ
+        applicable part:
+        - 
 
     - item: ^完璧主義でプライドが高いが、ふとした瞬間に弱さが見える
       portrayal:
 
-        - item: 魔力珠の痛みに弱さを見せる => エリーとフェイに縋る
-          applicable part:
-            - 
+      - item: 魔力珠の痛みに弱さを見せる => エリーとフェイに縋る
+        applicable part:
+        - 
 
-- dn: エリー
-  contents:
+  - dn: エリー
+    contents:
 
     - item: ^煮えたぎる思いを秘めながら冷静な言動をする
       portrayal:
 
-        - item: ローズとの会話も冷静だが乱れる
-          applicable part:
-            - 
+      - item: ローズとの会話も冷静だが乱れる
+        applicable part:
+        - 
 
-        - item: 冷静な言葉遣いだがレオナについて強い言葉を使う
-          applicable part:
-            - 
+      - item: 冷静な言葉遣いだがレオナについて強い言葉を使う
+        applicable part:
+        - 
 
-        - item: レオナを冷静に糾弾する
-          applicable part:
-            - 
+      - item: レオナを冷静に糾弾する
+        applicable part:
+        - 
 
-- dn: フェイ
-  contents:
+  - dn: フェイ
+    contents:
 
     - item: ^今なお燻るコンプレックスに身を焦がして狂気を発する
       portrayal:
 
-        - item: ローズの言葉を狂気で解釈して悶える
-          applicable part:
-            - 
+      - item: ローズの言葉を狂気で解釈して悶える
+        applicable part:
+        - 
 
-        - item: ミリアを傷つけず我が物にしたくて狂気を囁く
-          applicable part:
-            - 
+      - item: ミリアを傷つけず我が物にしたくて狂気を囁く
+        applicable part:
+        - 
 
-        - item: ミリアを脅しつける
-          applicable part:
-            - 
+      - item: ミリアを脅しつける
+        applicable part:
+        - 
