@@ -1,445 +1,481 @@
 # プロット 第1章
 
 
-################################################################################    ##
-################################################################################  ####
-################################################################################    ##
-################################################################################    ##
-################################################################################    ##
-################################################################################    ##
-################################################################################  ######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##
+  ####
+    ##
+    ##
+    ##
+    ##
+  ######
 
 1:
-  summary: レオナとの出会い
-  header:
-    battle: false
-    erros: 
-    elapsed days: 0
+  summary:
+    overall: レオナと出会う
+    alice: rel 冒険の目的（魔力珠）を見つける
+    leona: rel 運命の人（アリス）と出会い旅に同行することにする
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: false
+      erros: 
     time:
+      elapsed days: 0
       start: 朝
       end: 朝
-    notes: 
-    location: p1 森
-    location tone:
-      p1: 神秘的, フレッシュ, 生命の息吹
-  destination:
-    start: 
-    middle: 
-    end: p2 街
-    top: p027 エリク
-  integration:
-    event: アリスが地下から出てくる
-    objective: 
-      start: 冒険
+      notes: 
+    location:
+      - item: p1 森
+        tone: 神秘的, フレッシュ, 生命の息吹
+    destination:
+      start: 
       middle: 
-      end: 
-      top: 
-    notes: 
-    tone: 新たな始まりの予感
-  notes:
-    - 
+      end: p2 街
+      top: p027 エリク
+    notes:
+        - 
   elements:
   assembly:
 
-  - scene: 1-1
-    gist:
-    - アリスが登場して紹介のシーン（芝居がかっている）
-    - アリスの全体欲求の提示
-    - ヘスト゠エリアの伏線
-    - オーブプランの伏線
-    destiny:
-    - item:
-      dn: アリス
-      desire: 冒険したい
-      results: pending
-    - item:
-      dn: アリス
-      desire: 食事をしたい
-      results: pending
-    intarest:
-    - ミステリアス => 不思議な言葉が多い
-    - 狼とのやり取り
-    unpredictability of the end:
-    - アリスは空腹を癒やして冒険に出発できるのか
-    contents:
-      /integ evn noCha --- ---- f - ------- 地面が爆散する　鳥たちが飛び立つ　魔法の残滓
-      /integ mod noCha --- ---- f - ------- 深い森（神秘的, フレッシュ, 生命の息吹）
-      /integ evn alice --- ---- f - ------- 塵が風魔法で吹き飛ばされてアリスが地下から飛び出てくる「やるぞ、おー！」
-      /integ mod alice --- ---- f - ------- 空色のショート、虹彩は晩紺色、上はボディラインの見える軍服のようなデザイン、下はミニスカートがパニエで膨らんでいる（ここで美少女と書かない）
-      /integ mod alice --- ---- f - ------- 小柄の痩せ型で胸はレモンほどの膨らみ
-      /integ mod alice --- ---- f - ------- 腰背に大振りのナイフ
-      /alice odl alice prm s001 f - ------- アリスが「全部まとめて大満足の冒険ができるかな？　きっとできる！　それで私は言うんだ。やったぞー！ってね」と言う（芝居がかっている）[ref-032]
-      /alice li1 alice hnt s028 f - @alice- アリスが地上に出てきて少し時間が経過したみたいと言う長い年月（5000年くらい（天地戦争を含む必要がある））寝ていたこと
-      /integ evn alice fsh s039 f - @hestel アリスがヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
-      /rose- inf noCha fsh s089 f - @orbPln 地表に転がる石材に使徒は死して神の元に還ると書かれている
-      /integ evn alice --- ---- f - ------- 空腹（しっかり描いておく）で冒険できない
+    - scene: 1-1
+      gist:
+        - アリスが登場して紹介のシーン（芝居がかっている）
+        - アリスの全体欲求の提示
+        - ヘスト゠エリアの伏線
+        - オーブプランの伏線
+      state transition:
+        - dn: アリス
+          item: 冒険したい
+          transition:  => pending
+        - dn: アリス
+          item: 食事をしたい
+          transition:  => pending
+      intarest:
+        - ミステリアス => 不思議な言葉が多い
+        - 狼とのやり取り
+      unpredictability of the end:
+        - アリスは空腹を癒やして冒険に出発できるのか
+      contents:
+        /integ evn noCha --- ---- f - ------- 地面が爆散する　鳥たちが飛び立つ　魔法の残滓
+        /integ mod noCha --- ---- f - ------- 深い森（神秘的, フレッシュ, 生命の息吹）
+        /integ evn alice --- ---- f - ------- 塵が風魔法で吹き飛ばされてアリスが地下から飛び出てくる「やるぞ、おー！」
+        /integ mod alice --- ---- f - ------- 空色のショート、虹彩は晩紺色、上はボディラインの見える軍服のようなデザイン、下はミニスカートがパニエで膨らんでいる（ここで美少女と書かない）
+        /integ mod alice --- ---- f - ------- 小柄の痩せ型で胸はレモンほどの膨らみ
+        /integ mod alice --- ---- f - ------- 腰背に大振りのナイフ
+        /alice odl alice prm s001 f - ------- アリスが「全部まとめて大満足の冒険ができるかな？　きっとできる！　それで私は言うんだ。やったぞー！ってね」と言う（芝居がかっている）[ref-032]
+        /alice li1 alice hnt s028 f - @alice- アリスが地上に出てきて少し時間が経過したみたいと言う長い年月（5000年くらい（天地戦争を含む必要がある））寝ていたこと
+        /integ evn alice fsh s039 f - @hestel アリスがヘスト゠エリアの神殿はなくなっちゃったんだねと言う[ref-045]
+        /rose- inf noCha fsh s089 f - @orbPln 地表に転がる石材に使徒は死して神の元に還ると書かれている
+        /integ evn alice --- ---- f - ------- 空腹（しっかり描いておく）で冒険できない
 
-  - scene: 1-2
-    gist:
-    - 狼の親子に襲われそうになり返り討ちにして食料にしようとするが見逃す
-    destiny:
-    - item:
-      dn: アリス
-      desire: 食事がしたい
-      results: false
-    intarest:
-    - 戦闘
-    - アリスの懊悩
-    unpredictability of the end:
-    - アリスの空腹は癒やせるのか
-    contents:
-      /integ evn alice --- ---- f m ------- 狼の親子に襲われる一件
-      /integ evn alice --- ---- f - ------- アリスが狼に、仲間に好かれる魔法を使う
-      /integ evn alice --- ---- f - ------- 空腹描写
-      /integ evn alice con c072 f - ------- アリスがカラスを呼び狼の様子を見ておくように言う
+    - scene: 1-2
+      gist:
+        - 狼の親子に襲われそうになり返り討ちにして食料にしようとするが見逃す
+      state transition:
+        - dn: アリス
+          item: 食事がしたい
+          transition:  => false
+      intarest:
+        - 戦闘
+        - アリスの懊悩
+      unpredictability of the end:
+        - アリスの空腹は癒やせるのか
+      contents:
+        /integ evn alice --- ---- f m ------- 狼の親子に襲われる一件
+        /integ evn alice --- ---- f - ------- アリスが狼に、仲間に好かれる魔法を使う
+        /integ evn alice --- ---- f - ------- 空腹描写
+        /integ evn alice con c072 f - ------- アリスがカラスを呼び狼の様子を見ておくように言う
 
-  - scene: 1-3
-    gist:
-    - ザヴィの名とアリスのザヴィへの思い
-    - オー゠ドルグによる前置き
-    destiny:
-    - item:
-      dn: アリス
-      desire: 食事がしたい
-      results: false
-    - item:
-      dn: アリス
-      desire: ザヴィに会いたい
-      results: pending
-    intarest:
-    - アリスの強い思い
-    - オー゠ドルグのユーモラスさ
-    unpredictability of the end:
-    - アリスは空腹を癒やせるか
-    contents:
-      /alice li1 alice hnt s028 f - @alice- アリスが魔法を無詠唱で使って詠唱が必要なことに気づく　ザヴィに言われていた
-      /alice odl alice prm s002 f - ------- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
-      &      tPh e005     @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
-      /alice odl alice tPh e005 f - @zavia- アリスが世界にザヴィの気配がしないことに気づいて不安がる
-      /leona odl third con c069 f - @o'dorg アリスがオー゠ドルグに食べ物を無心すると、前に進みたいと願っている娘が来るはずじゃ、その者にもらうといいと言う
-      /integ evn third --- ---- f - @o'dorg オー゠ドルグが東を訪ねアリスがあっちと指し示し少しして東と西はどっちがどっちだっけ？と言うも老爺を望んで物知り顔でまいっかと言う
+    - scene: 1-3
+      gist:
+        - ザヴィの名とアリスのザヴィへの思い
+        - オー゠ドルグによる前置き
+      state transition:
+        - dn: アリス
+          item: 食事がしたい
+          transition:  => false
+        - dn: アリス
+          item: ザヴィに会いたい
+          transition:  => pending
+      intarest:
+        - アリスの強い思い
+        - オー゠ドルグのユーモラスさ
+      unpredictability of the end:
+        - アリスは空腹を癒やせるか
+      contents:
+        /alice li1 alice hnt s028 f - @alice- アリスが魔法を無詠唱で使って詠唱が必要なことに気づく　ザヴィに言われていた
+        /alice odl alice prm s002 f - ------- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
+        &      tPh e005     @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
+        /alice odl alice tPh e005 f - @zavia- アリスが世界にザヴィの気配がしないことに気づいて不安がる
+        /leona odl third con c069 f - @o'dorg アリスがオー゠ドルグに食べ物を無心すると、前に進みたいと願っている娘が来るはずじゃ、その者にもらうといいと言う
+        /integ evn third --- ---- f - @o'dorg オー゠ドルグが東を訪ねアリスがあっちと指し示し少しして東と西はどっちがどっちだっけ？と言うも老爺を望んで物知り顔でまいっかと言う
 
-  - scene: 1-4
-    gist:
-    - レオナが登場して紹介のシーン
-    - レオナがアリスを妖魔か精霊と間違えて警戒する
-    destiny:
-    - item:
-      dn: アリス
-      desire: 食事がしたい
-      results: false
-    - item:
-      dn: レオナ
-      desire: アリスが何者か知りたい
-      results: false
-    intarest:
-    - レオナの勘違い
-    - アリスとレオナの噛み合わない会話（食料のアリス、警戒のレオナ）
-    unpredictability of the end:
-    - レオナの過去とは
-    - アリスは空腹を癒やせるか
-    contents:
-      /integ evn leona --- ---- f - ------- レオナ登場
-      /integ mod leona --- ---- f - ------- 栗色のボブ、虹彩は濃茶色、上は裾を切り詰めたタンクトップの上に胸甲をして下はホットパンツ（ここで美少女と書かない）
-      /integ mod leona --- ---- f - ------- アリスより身長が高く胸は小振りなリンゴほど
-      /integ evn multi tPh e091 f e ------- レオナが人族にしては美しすぎるし強力な魔物が出る一帯にいることから妖魔か精霊と問う
-      /integ evn alice --- ---- f - ------- アリスは食料の話をしたがる
-      /leona odl leona hnt s009 f - ------- レオナがここに運命を変える出会いが待っていると言われていてと言う「あなたがそうなの？」
+    - scene: 1-4
+      gist:
+        - レオナが登場して紹介のシーン
+        - レオナがアリスを妖魔か精霊と間違えて警戒する
+      state transition:
+        - dn: アリス
+          item: 食事がしたい
+          transition:  => false
+        - dn: レオナ
+          item: アリスが何者か知りたい
+          transition:  => false
+      intarest:
+        - レオナの勘違い
+        - アリスとレオナの噛み合わない会話（食料のアリス、警戒のレオナ）
+      unpredictability of the end:
+        - レオナの過去とは
+        - アリスは空腹を癒やせるか
+      contents:
+        /integ evn leona --- ---- f - ------- レオナ登場
+        /integ mod leona --- ---- f - ------- 栗色のボブ、虹彩は濃茶色、上は裾を切り詰めたタンクトップの上に胸甲をして下はホットパンツ（ここで美少女と書かない）
+        /integ mod leona --- ---- f - ------- アリスより身長が高く胸は小振りなリンゴほど
+        /integ evn multi tPh e091 f e ------- レオナが人族にしては美しすぎるし強力な魔物が出る一帯にいることから妖魔か精霊と問う
+        /integ evn alice --- ---- f - ------- アリスは食料の話をしたがる
+        /leona odl leona hnt s009 f - ------- レオナがここに運命を変える出会いが待っていると言われていてと言う「あなたがそうなの？」
 
-  - scene: 1-5
-    gist:
-    - レオナの魔物との戦闘
-    - アリスがレオナの剣の腕を褒める
-    - 女剣士レイティア・アルテノートの伏線
-    destiny:
-    - item:
-      dn: アリス
-      desire: 食事がしたい
-      results: false
-    - item:
-      dn: レオナ
-      desire: アリスが何者か知りたい
-      results: false
-    intarest:
-    - 戦闘
-    unpredictability of the end:
-    - アリスの空腹は癒やせるのか
-    contents:
-      /integ evn leona tPh m091 f m ------- 魔物nttをレオナが倒す
-      /leona odl alice con c014 f - ------- アリスがレオナの剣を褒める
-      &      tPh t091 f t     アリスがレオナの剣を褒める
-      /leona li1 leona con c051 f - @fencer レオナはドラゴンを倒した剣士の家系だと話す
-      /integ evn leona --- ---- f - ------- それはともかくあなたは何者なの？
-      /integ evn alice --- ---- f - ------- 誰でもないよぅ
-      /integ evn alice --- ---- f - ------- 空腹描写
+    - scene: 1-5
+      gist:
+        - レオナの魔物との戦闘
+        - アリスがレオナの剣の腕を褒める
+        - 女剣士レイティア・アルテノートの伏線
+      state transition:
+        - dn: アリス
+          item: 食事がしたい
+          transition:  => false
+        - dn: レオナ
+          item: アリスが何者か知りたい
+          transition:  => false
+      intarest:
+        - 戦闘
+      unpredictability of the end:
+        - アリスの空腹は癒やせるのか
+      contents:
+        /integ evn leona tPh m091 f m ------- 魔物nttをレオナが倒す
+        /leona odl alice con c014 f - ------- アリスがレオナの剣を褒める
+        &      tPh t091 f t     アリスがレオナの剣を褒める
+        /leona li1 leona con c051 f - @fencer レオナはドラゴンを倒した剣士の家系だと話す
+        /integ evn leona --- ---- f - ------- それはともかくあなたは何者なの？
+        /integ evn alice --- ---- f - ------- 誰でもないよぅ
+        /integ evn alice --- ---- f - ------- 空腹描写
 
-  - scene: 1-6
-    gist:
-    - アリスがザヴィについて知って旅の目的を定めるシーン
-    - アリスがザヴィについて死って泣き崩れ慰められる
-    destiny:
-    - item:
-      dn: アリス
-      desire: ザヴィに会いたい
-      results: false
-    - item:
-      dn: アリス
-      desire: 食事がしたい
-      results: false
-    - item:
-      dn: レオナ
-      desire: アリスが何者か知りたい
-      results: false
-    intarest:
-    - アリスの感情の推移と百合展開
-    - ザヴィの伝説
-    unpredictability of the end:
-    - アリスは魔力珠を手に入れられるか
-    - アリスは空腹を癒やせるか
-    contents:
-      /integ evn alice --- ---- f - ------- アリスがふと思い出してザヴィについて尋ねる（ザヴィの明確な特徴ntt）
-      /integ inf leona hnt s031 f - @zavia- ザヴィは魔力珠を使って世界を滅ぼそうとして倒された[ref-043]
-      /alice odl alice tPh e005 f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
-      /alice odl alice prm s002 f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
-      /alice in> leona --- ---- f - ------- アリスがザヴィのことで泣き崩れる（信頼関係の構築）
-      &leona in< alice --- ---- f - ------- アリスがザヴィのことで泣き崩れる（信頼関係の構築）
-      /multi pst multi --- ---- f - ------- レオナがアリスを慰める（信頼関係の構築）
-      /integ inf leona cat s041 f - @orb--- 遷世教団の話題を出す　ザヴィを倒した人が遷世教団を作った
-      /alice odl alice prm s003 f - gDesire アリスがザヴィが使ったという魔力珠を探す旅をすることにする[ref-033]
-      /integ evn leona --- ---- f - ------- それはともかくあなたは何者なの？
-      /integ evn alice --- ---- f - ------- 空腹描写
+    - scene: 1-6
+      gist:
+        - アリスがザヴィについて知って旅の目的を定めるシーン
+        - アリスがザヴィについて死って泣き崩れ慰められる
+      state transition:
+        - dn: アリス
+          item: ザヴィに会いたい
+          transition:  => false
+        - dn: アリス
+          item: 食事がしたい
+          transition:  => false
+        - dn: レオナ
+          item: アリスが何者か知りたい
+          transition:  => false
+      intarest:
+        - アリスの感情の推移と百合展開
+        - ザヴィの伝説
+      unpredictability of the end:
+        - アリスは魔力珠を手に入れられるか
+        - アリスは空腹を癒やせるか
+      contents:
+        /integ evn alice --- ---- f - ------- アリスがふと思い出してザヴィについて尋ねる（ザヴィの明確な特徴ntt）
+        /integ inf leona hnt s031 f - @zavia- ザヴィは魔力珠を使って世界を滅ぼそうとして倒された[ref-043]
+        /alice odl alice tPh e005 f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
+        /alice odl alice prm s002 f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
+        /alice in> leona --- ---- f - ------- アリスがザヴィのことで泣き崩れる（信頼関係の構築）
+        &leona in< alice --- ---- f - ------- アリスがザヴィのことで泣き崩れる（信頼関係の構築）
+        /multi pst multi --- ---- f - ------- レオナがアリスを慰める（信頼関係の構築）
+        /integ inf leona cat s041 f - @orb--- 遷世教団の話題を出す　ザヴィを倒した人が遷世教団を作った
+        /alice odl alice prm s003 f - g  state アリスがザヴィが使ったという魔力珠を探す旅をすることにする[ref-033]
+        /integ evn leona --- ---- f - ------- それはともかくあなたは何者なの？
+        /integ evn alice --- ---- f - ------- 空腹描写
 
-  - scene: 1-7
-    gist:
-    - レオナが旅に同行するか悩んで決心するシーン
-    - レオナの全体欲求の提示
-    - アリスが食料にありつける
-    destiny:
-    - item:
-      dn: アリス
-      desire: 食事がしたい
-      results: true
-    - item:
-      dn: レオナ
-      desire: アリスが何者か知りたい
-      results: true
-    intarest:
-    - レオナの葛藤
-    - 百合展開
-    unpredictability of the end:
-    - アリスは魔力珠を手に入れられるか
-    - アリスとレオナの旅はどうなるのか
-    contents:
-      /leona odl alice --- ---- f - ------- アリスが空腹を堪えつつレオナを旅に誘うがレオナはアリスが探し人なのか分からず葛藤する
-      /leona odl alice prm s006 f - gDesire アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
-      &      con c069   アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
-      /leona odl leona --- ---- f - ------- レオナの回想シーンで占術師がこの印象を覚えておいてくださいと言ったシーンが思い出される
-      /leona odl leona --- ---- f - ------- レオナがアリスを運命の人であると見極め、気持ちを打ち明ける「前に、進みたいです」
-      /alice in> leona --- ---- f - ------- レオナに前に進みたいと打ち明けられる（信頼関係の構築）
-      /leona in- leona --- ---- f - ------- 剣の技量が停滞しているという悩み（信頼関係の構築）
-      /leona in< alice --- ---- f - ------- アリスに前に進みたいとつい話してしまう（信頼関係の構築）
-      /multi pst multi --- ---- f - ------- アリスがだったら一緒に行こう、きっと何かが待ってるからと言う（信頼関係の構築）
-      /integ evn grp11 --- ---- f - ------- アリスの旅にレオナが加わる
-      /integ evn alice --- ---- f - ------- アリスがレオナから食料nttをもらう
-      /alice lov multi --- ---- f - favorbl 手をつなぐ
+    - scene: 1-7
+      gist:
+        - レオナが旅に同行するか悩んで決心するシーン
+        - レオナの全体欲求の提示
+        - アリスが食料にありつける
+      state transition:
+        - dn: アリス
+          item: 食事がしたい
+          transition:  => true
+        - dn: レオナ
+          item: アリスが何者か知りたい
+          transition:  => true
+      intarest:
+        - レオナの葛藤
+        - 百合展開
+      unpredictability of the end:
+        - アリスは魔力珠を手に入れられるか
+        - アリスとレオナの旅はどうなるのか
+      contents:
+        /leona odl alice --- ---- f - ------- アリスが空腹を堪えつつレオナを旅に誘うがレオナはアリスが探し人なのか分からず葛藤する
+        /leona odl alice prm s006 f - g  state アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
+        &      con c069   アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
+        /leona odl leona --- ---- f - ------- レオナの回想シーンで占術師がこの印象を覚えておいてくださいと言ったシーンが思い出される
+        /leona odl leona --- ---- f - ------- レオナがアリスを運命の人であると見極め、気持ちを打ち明ける「前に、進みたいです」
+        /alice in> leona --- ---- f - ------- レオナに前に進みたいと打ち明けられる（信頼関係の構築）
+        /leona in- leona --- ---- f - ------- 剣の技量が停滞しているという悩み（信頼関係の構築）
+        /leona in< alice --- ---- f - ------- アリスに前に進みたいとつい話してしまう（信頼関係の構築）
+        /multi pst multi --- ---- f - ------- アリスがだったら一緒に行こう、きっと何かが待ってるからと言う（信頼関係の構築）
+        /integ evn grp11 --- ---- f - ------- アリスの旅にレオナが加わる
+        /integ evn alice --- ---- f - ------- アリスがレオナから食料nttをもらう
+        /alice lov multi --- ---- f - favorbl 手をつなぐ
 
 
 
 
-################################################################################  #######
-################################################################################     ##     ##
-################################################################################    ##
-################################################################################  #######
-################################################################################     ##
-################################################################################     ##
-################################################################################     #########
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #######
+ ##     ##
+        ##
+  #######
+ ##
+ ##
+ #########
 
 2:
-  summary: ミリアとの出会い, 水の大精霊を沈静化する
-  header:
-    battle: true
-    erros: 
-    elapsed days: 1
+  summary:
+    overall: ミリアと出会う, 水の大精霊を沈静化する
+    alice: 
+    leona: 
+    myria: rel アリスの冒険に同行することにする
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: true
+      erros: 
     time:
+      elapsed days: 1
       start: 昼前
       end: 昼前
       notes: 1泊した翌日の朝
-    location: p2 街
-    location tone:
-      p2: 明るい, 栄光の道
+    location:
+      - item: p2 街
+        tone: 明るい, 栄光の道
     destination:
       start: 宿
       middle: 街へ繰り出す
       end: 遷世教団の神殿
       top: p027 エリク
-    integration:
-  event: ミリアを水の大精霊の暴走から助ける
-  objective: 
-    start: p027 エリクの情報
-    middle: ミリアの救助
-    end: 遷世教団への潜入
-    top: 
-    notes: 
-    tone: ハプニング, 戦闘（勝ち）
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+        - ミリアが普段使うのは弱い精霊魔法
   elements:
   assembly:
-  - scene: 1
-    gist:
-    - 街の内外、時間の説明
-    - アリスたちの現状
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - カラス目線
-    - アリスとぎこちないレオナの食事シーン
-    unpredictability of the end:
-    - 魔力珠の在処は分かるのか
-    contents:
-      /integ evn alice con c072 f - ------- カラス目線で都市を見下ろして街の中を紹介してアリスの元にやってきて狼の無事を伝える
-      /integ mod noCha --- ---- f - ------- 都市の外観、市城壁
-      /integ mod noCha --- ---- f - ------- 都市の外観、城
-      /integ mod noCha --- ---- f - ------- 街の中、人々の様子
-      /integ mod noCha --- ---- f - ------- 街の中、大通りは石畳
-      /integ mod noCha --- ---- f - ------- 街の中、石造建築があちらこちらにある
-      /integ mod noCha --- ---- f - ------- 街の中、木造建築が主流
-      /integ mod noCha --- ---- f - ------- 街の中、鎧窓
-      /integ evn alice --- ---- f - ------- 手持ちの宝石を換金する（地の文でサッと）
-      /alice dec alice --- ---- f - ------- スリの少年の手を捕まえてごめんなさいを言わせてお金をあげる
-      /integ evn grp11 --- ---- f - ------- 魔力珠の在処について話ながら食事をする
-      /integ evn grp11 --- ---- f - ------- 焼きあげて半身にしたマスを手持ちの食事用ナイフで切りながら刺して食べる
-      /leona odl alice hnt s009 f - ------- アリスが所作が洗練されていて王族のようだと言う
-      &      hnt s028     @alice- アリスが所作が洗練されていて王族のようだと言う
-      /integ evn multi tPh e090 f e ------- レオナがアリスを精霊かと訪ねたことを受けて数年前に狂気に呪われた精霊と（騎士たちと一緒に）対峙して手強かったと話す
-      /leona odl third hnt s009 f - ------- アリスが店を指定、アリス「素敵な街だね」店主「あんたたちもカルツ王国から来た口か」　レオナ強く否定「違います！」
-  - scene: 2
-    gist:
-    - 暴れだす水の大精霊とミリアの危機
-    - バトル開始　まずは呼び掛けから
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 神と友達感覚のアリス
-    - バトル
-    unpredictability of the end:
-    - 暴れる水の大精霊に跳ね飛ばされたミリアは大丈夫なのか
-    contents:
-      /integ evn alice --- ---- f - ------- ミリアを見付けて可愛いと言う
-      /integ evn grp11 tPh m090 f m ------- 発狂した水の大精霊と対峙する
-      /alice odl alice con c018 f - ------- アリスが周囲への害を強く気にする
-      /integ evn myria --- ---- f - ------- ミリアが水の大精霊と対峙して跳ね飛ばされる
-      /integ evn myria tPh e065 f - ------- アリスが見抜いて期待し、期待外れ　ミリアの精霊魔法が弱いことを印象づける
-  - scene: 3
-    gist:
-    - バトル佳境
-    - 水の大精霊がひれ伏す
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - バトル
-    - 水の大精霊と訳ありな感じのアリス
-    unpredictability of the end:
-    - アリスたちは衛兵から逃げられるのか
-    contents:
-      /integ evn grp11 --- ---- f - ------- アリスとレオナが水の大精霊と対峙する
-      /alice odl alice tPh e005 f - @ring-- 発狂した水の大精霊を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
-      /alice odl alice tPh e004 f - favorbl レオナが引き付けている間にアリスが暴れる水の大精霊をおとなしくさせる
-      /alice li1 alice hnt s028 f - @alice- 発狂した水の大精霊を鎮める
-      /alice in> leona --- ---- f - ------- レオナとの共闘で水の大精霊を沈静化する（信頼関係の構築）
-      /leona in< alice --- ---- f - ------- アリスとの共闘で水の大精霊を沈静化する（信頼関係の構築）
-      /multi pst multi --- ---- f - ------- （信頼関係の構築）
-      /alice in> myria --- ---- f - ------- ミリアが、精神逆転でエルフを憎む水の大精霊に襲われたところを間一髪でアリスに助けられる（信頼関係の構築）
-      /myria in< alice --- ---- f - ------- アリスが、精神逆転でエルフを憎む水の大精霊に襲われたミリアを間一髪で助ける（信頼関係の構築）
-      /multi pst multi --- ---- f - ------- （信頼関係の構築）
-      /leona in> myria --- ---- f - ------- ミリアが、精神逆転でエルフを憎む水の大精霊に襲われたところをアリスとレオナに助けられる（信頼関係の構築）
-      /myria in< leona --- ---- f - ------- レオナが、精神逆転でエルフを憎む水の大精霊に襲われたミリアをアリスとともに助ける（信頼関係の構築）
-      /multi pst multi --- ---- f - ------- （信頼関係の構築）
-      /alice li1 third hnt s028 f - @alice- 水の大精霊は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
-      /myria odl myria con c038 f - ------- 強い精霊信仰 => 精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
-      /integ evn alice con c049 f - ------- 水の大精霊と交友を持つ
-      /integ inf alice con c035 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
-      &      con c052 f     アリスがこの呪いは「邪なあの子」のものねと言う
-      /integ inf alice fsh s039 f - @hestel 流転の神ヘスト゠エリアや精霊のように移ろう存在の呪いは解きやすいと言う
-      /integ evn multi --- ---- f - ------- 衛兵が来てアリス「ああいう人は面倒って決まってるんだから」面倒事を避けるためにアリスがレオナとミリアを連れて逃げる
-      /alice lov multi --- ---- f - favorbl 手をつなぐ
-  - scene: 4
-    gist:
-    - ミリアの自己紹介
-    - 共に旅を
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - アリスに巻き込まれるミリア
-    - 消極的なミリアと誘うアリス
-    unpredictability of the end:
-    - 
-    contents:
-      /integ evn multi tPh t090 f t ------- 三人で喜び褒め合う
-      /integ evn multi --- ---- f - ------- レオナが水の大精霊を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
-      /myria odl myria prm s010 f - thought ミリアが「過去に囚われてはいけない」と言う
-      /myria odl myria con c038 f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
-      &      prm s011   ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
-      /integ inf myria con c034 f - @elf--- p027 エリクにハイエルフの叡智がある
-      /integ inf myria hnt s032 f - @orb--- 遷世教団は魔力珠を探していてエリクと関係があるらしい
-      &integ inf myria cat r041 f - @orb--- 遷世教団は魔力珠を探していてエリクと関係があるらしい
-      /integ inf myria hnt s029 f - @es---- 遷世教団は遷世させたい
-      /integ inf grp11 cat s042 f - @orb--- 遷世教団が何をしているのか謎だと話す
-      /integ evn grp11 --- ---- f - ------- アリスの旅にミリアが加わる
+    - scene: 1
+      gist:
+        - 街の内外、時間の説明
+        - アリスたちの現状
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - カラス目線
+        - アリスとぎこちないレオナの食事シーン
+      unpredictability of the end:
+        - 魔力珠の在処は分かるのか
+      contents:
+        /integ evn alice con c072 f - ------- カラス目線で都市を見下ろして街の中を紹介してアリスの元にやってきて狼の無事を伝える
+        /integ mod noCha --- ---- f - ------- 都市の外観、市城壁
+        /integ mod noCha --- ---- f - ------- 都市の外観、城
+        /integ mod noCha --- ---- f - ------- 街の中、人々の様子
+        /integ mod noCha --- ---- f - ------- 街の中、大通りは石畳
+        /integ mod noCha --- ---- f - ------- 街の中、石造建築があちらこちらにある
+        /integ mod noCha --- ---- f - ------- 街の中、木造建築が主流
+        /integ mod noCha --- ---- f - ------- 街の中、鎧窓
+        /integ evn alice --- ---- f - ------- 手持ちの宝石を換金する（地の文でサッと）
+        /alice dec alice --- ---- f - ------- スリの少年の手を捕まえてごめんなさいを言わせてお金をあげる
+        /integ evn grp11 --- ---- f - ------- 魔力珠の在処について話ながら食事をする
+        /integ evn grp11 --- ---- f - ------- 焼きあげて半身にしたマスを手持ちの食事用ナイフで切りながら刺して食べる
+        /leona odl alice hnt s009 f - ------- アリスが所作が洗練されていて王族のようだと言う
+        &      hnt s028     @alice- アリスが所作が洗練されていて王族のようだと言う
+        /integ evn multi tPh e090 f e ------- レオナがアリスを精霊かと訪ねたことを受けて数年前に狂気に呪われた精霊と（騎士たちと一緒に）対峙して手強かったと話す
+        /leona odl third hnt s009 f - ------- アリスが店を指定、アリス「素敵な街だね」店主「あんたたちもカルツ王国から来た口か」　レオナ強く否定「違います！」
+
+    - scene: 2
+      gist:
+        - 暴れだす水の大精霊とミリアの危機
+        - バトル開始　まずは呼び掛けから
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 神と友達感覚のアリス
+        - バトル
+      unpredictability of the end:
+        - 暴れる水の大精霊に跳ね飛ばされたミリアは大丈夫なのか
+      contents:
+        /integ evn alice --- ---- f - ------- ミリアを見付けて可愛いと言う
+        /integ evn grp11 tPh m090 f m ------- 発狂した水の大精霊と対峙する
+        /alice odl alice con c018 f - ------- アリスが周囲への害を強く気にする
+        /integ evn myria --- ---- f - ------- ミリアが水の大精霊と対峙して跳ね飛ばされる
+        /integ evn myria tPh e065 f - ------- アリスが見抜いて期待し、期待外れ　ミリアの精霊魔法が弱いことを印象づける
+
+    - scene: 3
+      gist:
+        - バトル佳境
+        - 水の大精霊がひれ伏す
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - バトル
+        - 水の大精霊と訳ありな感じのアリス
+      unpredictability of the end:
+        - アリスたちは衛兵から逃げられるのか
+      contents:
+        /integ evn grp11 --- ---- f - ------- アリスとレオナが水の大精霊と対峙する
+        /alice odl alice tPh e005 f - @ring-- 発狂した水の大精霊を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
+        /alice odl alice tPh e004 f - favorbl レオナが引き付けている間にアリスが暴れる水の大精霊をおとなしくさせる
+        /alice li1 alice hnt s028 f - @alice- 発狂した水の大精霊を鎮める
+        /alice in> leona --- ---- f - ------- レオナとの共闘で水の大精霊を沈静化する（信頼関係の構築）
+        /leona in< alice --- ---- f - ------- アリスとの共闘で水の大精霊を沈静化する（信頼関係の構築）
+        /multi pst multi --- ---- f - ------- （信頼関係の構築）
+        /alice in> myria --- ---- f - ------- ミリアが、精神逆転でエルフを憎む水の大精霊に襲われたところを間一髪でアリスに助けられる（信頼関係の構築）
+        /myria in< alice --- ---- f - ------- アリスが、精神逆転でエルフを憎む水の大精霊に襲われたミリアを間一髪で助ける（信頼関係の構築）
+        /multi pst multi --- ---- f - ------- （信頼関係の構築）
+        /leona in> myria --- ---- f - ------- ミリアが、精神逆転でエルフを憎む水の大精霊に襲われたところをアリスとレオナに助けられる（信頼関係の構築）
+        /myria in< leona --- ---- f - ------- レオナが、精神逆転でエルフを憎む水の大精霊に襲われたミリアをアリスとともに助ける（信頼関係の構築）
+        /multi pst multi --- ---- f - ------- （信頼関係の構築）
+        /alice li1 third hnt s028 f - @alice- 水の大精霊は平伏する（高位の存在はアリスがなんとなく分かる）がアリスはやんわり断る
+        /myria odl myria con c038 f - ------- 強い精霊信仰 => 精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
+        /integ evn alice con c049 f - ------- 水の大精霊と交友を持つ
+        /integ inf alice con c035 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
+        &      con c052 f     アリスがこの呪いは「邪なあの子」のものねと言う
+        /integ inf alice fsh s039 f - @hestel 流転の神ヘスト゠エリアや精霊のように移ろう存在の呪いは解きやすいと言う
+        /integ evn multi --- ---- f - ------- 衛兵が来てアリス「ああいう人は面倒って決まってるんだから」面倒事を避けるためにアリスがレオナとミリアを連れて逃げる
+        /alice lov multi --- ---- f - favorbl 手をつなぐ
+
+    - scene: 4
+      gist:
+        - ミリアの自己紹介
+        - 共に旅を
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - アリスに巻き込まれるミリア
+        - 消極的なミリアと誘うアリス
+      unpredictability of the end:
+        - 
+      contents:
+        /integ evn multi tPh t090 f t ------- 三人で喜び褒め合う
+        /integ evn multi --- ---- f - ------- レオナが水の大精霊を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
+        /myria odl myria prm s010 f - thought ミリアが「過去に囚われてはいけない」と言う
+        /myria odl myria con c038 f - g  state ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
+        &      prm s011   ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
+        /integ inf myria con c034 f - @elf--- p027 エリクにハイエルフの叡智がある
+        /integ inf myria hnt s032 f - @orb--- 遷世教団は魔力珠を探していてエリクと関係があるらしい
+        &integ inf myria cat r041 f - @orb--- 遷世教団は魔力珠を探していてエリクと関係があるらしい
+        /integ inf myria hnt s029 f - @es---- 遷世教団は遷世させたい
+        /integ inf grp11 cat s042 f - @orb--- 遷世教団が何をしているのか謎だと話す
+        /integ evn grp11 --- ---- f - ------- アリスの旅にミリアが加わる
 
 
 
 
-################################################################################  #######
-################################################################################     ##     ##
-################################################################################    ##
-################################################################################  #######
-################################################################################    ##
-################################################################################     ##     ##
-################################################################################  #######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #######
+ ##     ##
+        ##
+  #######
+        ##
+ ##     ##
+  #######
 
 3:
-  summary: アリス 試練 1, 遷世教団の神殿に忍び込む
-  header:
-    battle: 
-    erros: 
-    elapsed days: 2
+  summary:
+    overall: 遷世教団の神殿に忍び込む
+    alice: odl 試練 1
+    leona: 
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 2
       start: 午前
       end: 午前
       notes: 1泊した翌日の午前
-    location: p3 遷世教団の神殿 . p2 街
-    location tone:
-      p2: 明るい, 栄光の道
-      p3: 思いのほか明るい, 小楽園, 狂信
+    location:
+      - item: p2 街
+        tone: 明るい, 栄光の道
+      - item: p3 遷世教団の神殿 . p2 街
+        tone: 思いのほか明るい, 小楽園, 狂信
     destination:
       start: p3 遷世教団の神殿
       middle: 
       end: 逃亡
       top: 東 . p027 エリク
-    integration:
-  event: 遷世教団の神殿に忍び込んで調べる
-  objective: 
-    start: p027 エリクの情報
-    middle: 
-    end: 東へ
-    top: 
-    notes: 
-    tone: 敵対の予感, 戦闘（負け）
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /integ mod noCha --- ---- f - ------- 神殿の外観
     /integ mod noCha --- ---- f - ------- 神殿の内観
@@ -469,13 +505,13 @@
     /alice odl alice tPh m004 f m ordeal- アリスがローズと戦う 1
     /alice odl alice --- ---- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
     /rose- odl rose- tPh e005 b - @orbPln ローズが封界の指輪を見て「見つけた！」と言って笑む
-    /alice odl alice tPh e077 f e results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+    /alice odl alice tPh e077 f e   transition アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
     &      tPh e005   アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
     /      con c018   アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
     /integ evn alice hnt s050 f - @roseMy ローズの体が普通の人族＋αの力しかないのに魔力が異常に多いと気付く
     /alice lov alice --- ---- f - thought アリスの、2人といると楽しいという気づき
     /alice lov multi tPh t004 f t favorbl 無事を喜んだりして抱き合う
-    /rose- odl rose- prm sls  b - gDesire ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
+    /rose- odl rose- prm sls  b - g  state ローズが「赤い火が消えるとき遷世の翼が解き放たれる」と言う[ref-028]
     /rose- etc rose- tPh e007 b - threat- ローズが手足はむしっておいたほうがいい。仲間の女は殺せと言う
     /leona odl erie- con c016 b - threat- エリーがレオナに憎しみの視線を送る
     &      hnt s009   エリーがレオナに憎しみの視線を送る
@@ -483,107 +519,124 @@
     /rose- li2 rose- hnt s033 b - @orbPln ローズがアリスは魔力珠を追うと言う
     /rose- li2 rose- hnt s033 b - @orbPln ローズが私はいずれ神の元に還ると言う
   assembly:
-  - scene: 1
-    gist:
-    - ローズが話をしている
-    - 信者に奇跡を起こす
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 仮想敵（大精霊のことを問題視）の登場
-    - 仮想敵の能力
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 遷世教団の神殿に教徒として潜入している
-    - 信者に魔力珠について聞いて回る
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - バレないように
-    - 新たな情報とローズの脅威
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - ローズと戦闘する
-    - ザヴィについて話す
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 戦闘
-    - 衝撃の事実
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 遷世教団の神殿から逃げ出す
-    - ローズたちが会話する
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - ピンチとピンチからの脱出
-    - ローズたちの反応
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - ローズが話をしている
+        - 信者に奇跡を起こす
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 仮想敵（大精霊のことを問題視）の登場
+        - 仮想敵の能力
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 遷世教団の神殿に教徒として潜入している
+        - 信者に魔力珠について聞いて回る
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - バレないように
+        - 新たな情報とローズの脅威
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - ローズと戦闘する
+        - ザヴィについて話す
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 戦闘
+        - 衝撃の事実
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 遷世教団の神殿から逃げ出す
+        - ローズたちが会話する
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - ピンチとピンチからの脱出
+        - ローズたちの反応
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################     ##
-################################################################################     ##    ##
-################################################################################     ##    ##
-################################################################################     ##    ##
-################################################################################     #########
-################################################################################       ##
-################################################################################       ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ##
+ ##    ##
+ ##    ##
+ ##    ##
+ #########
+       ##
+       ##
 
 4:
-  summary: ペトラとの出会い, 星の大精霊との出会い
-  header:
-    battle: 
-    erros: 
-    elapsed days: 3
+  summary:
+    overall: ペトラと出会う
+    alice: 
+    leona: 
+    myria: li1 星の大精霊と出会う
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 3
       start: 午前
       end: 午後
       notes: p2 街に1泊した翌日の午前
-    location: p5 妖精の森 . p4 危険な近道
-    location tone:
-      p4: 野性的, 危険
-      p5: 不思議, 異界
+    location:
+      - item: p4 危険な近道
+        tone: 野性的, 危険
+      - item: p5 妖精の森 . p4 危険な近道
+        tone: 不思議, 異界
     destination:
       start: p7 街
       middle: p5 妖精の森
       end: p7 街
       top: 東 . p027 エリク
-    integration:
-  event: ペトラを助けて妖精の森に行く
-  objective: 
-    start: p7 街に行く
-    middle: ペトラを助ける
-    end: p7 街に行く
-    top: 
-    notes: 
-    tone: 不思議, 戦闘（勝ち）
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /integ mod noCha --- ---- f - ------- 森の様子、若葉が多く目につくラクスの木とアルマータの木の混交林
     /integ mod noCha --- ---- f - ------- 道の様子、腐葉土、木が生えていないというだけの道
@@ -616,7 +669,7 @@
     /leona odl leona hnt s009 f - ------- レオナが自分に本当の力があればと悔しがる
     /myria odl myria hnt s013 f - ------- レオナが自分に本当の力があればあんなことと悔しがるのを見て共感する
     /leona odl leona hnt s009 f - ------- レオナが剣は父に教わったと言う
-    /petra odl petra prm s015 f - gDesire ペトラが「私は大物になんです！」と言う
+    /petra odl petra prm s015 f - g  state ペトラが「私は大物になんです！」と言う
     /myria odl myria hnt s013 f - ------- ペトラを魔法薬で治療する　妖精を治療する魔法薬は貴重
     /alice odl alice tPh e005 f - @ring-- ペトラの治療について封界の指輪を見て物憂げにする
     /myria odl myria hnt s013 f - ------- ペトラの治療のときの薬草についての説明で危険なところに生えていると言って悲しそうにする
@@ -628,107 +681,122 @@
     /rose- li1 rose- fsh s075 b - @roseDi ローズは自死することができない　ただ移ろいに身を任せるのみ
     /integ evn rose- con c076 b - ------- ローズが鳥籠の鳥を気に入っている描写
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
 
-################################################################################     ########
-################################################################################     ##
-################################################################################     ##
-################################################################################     #######
-################################################################################       ##
-################################################################################     ##    ##
-################################################################################  ######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ########
+ ##
+ ##
+ #######
+       ##
+ ##    ##
+  ######
 
 5:
-  summary: レオナ 試練 1, 盗賊騎士の関門
-  header:
-    battle: 
-    erros: 
-    elapsed days: 4
+  summary:
+    overall: 盗賊騎士の関門
+    alice: 
+    leona: odl 試練 1
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 4
       start: 午前
       end: 午前
       notes: p5 妖精の森に1泊した翌日の午前
-    location: p6 道
-    location tone:
-      p6: 不穏, 怪しい
+    location:
+      - item: p6 道
+        tone: 不穏, 怪しい
     destination:
       start: p7 街
       middle: p7 街
       end: p7 街
       top: 東 . p027 エリク
-    integration:
-  event: 盗賊騎士の関門
-  objective: 
-    start: 関門を越える
-    middle: エリーを倒す
-    end: p7 街に行く
-    top: 
-    notes: 
-    tone: 時代物, 戦闘（負け）
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /integ mod noCha --- ---- f - ------- 森の様子、萌えだした新緑が目を引く、アルマータの木とエキノスの木とエルヒダの木の混交林
     /integ mod noCha --- ---- f - ------- 道の様子、踏み固められたわだちのある黄褐色の地面でときおり穴がある
@@ -742,7 +810,7 @@
     /leona odl leona tPh m007 f m ordeal- レオナがエリーと戦う 1
     /leona odl erie- hnt s009 f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
     /leona li1 leona con c051 f - @fencer レオナがエリーに剣を折られる
-    /leona odl leona tPh e009 f - results レオナがエリーに敗北する
+    /leona odl leona tPh e009 f -   transition レオナがエリーに敗北する
     /leona odl leona con c019 f - ------- 〃
     /alice odl alice tPh e083 f e favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
     /alice li1 alice hnt s028 f - @alice- アリスがレオナをつい本気で治療して指輪が熱を持って気づく
@@ -750,106 +818,122 @@
     /alice lov multi tPh t007 f - ------- アリスが治療する、ミリアが縋り付く
     /alice odl alice hnt s084 f - thought ローズが自分たちに目をつけていることに戦いの予感がする
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################  #######
-################################################################################     ##     ##
-################################################################################     ##
-################################################################################     ########
-################################################################################     ##     ##
-################################################################################     ##     ##
-################################################################################  #######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #######
+ ##     ##
+ ##
+ ########
+ ##     ##
+ ##     ##
+  #######
 
 6:
-  summary: レオナの背景, 祭り, イマイチの剣を買う
-  header:
-    battle: 
-    erros: 
-    elapsed days: 5
+  summary:
+    overall: 祭り
+    alice: 
+    leona: rel 背景, li1 イマイチの剣を買う
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 5
       start: 遅い朝
       end: 昼
       notes: p7 街に着いて1泊した翌日の朝
-    location: p7 街
-    location tone:
-      p7: レオナと対照的な華やぎ
+    location:
+      - item: p7 街
+        tone: レオナと対照的な華やぎ
     destination:
       start: 祭りへの参加
       middle: 
       end: 居住地4
       top: 東 . p027 エリク
-    integration:
-  event: 祭り
-  objective: 
-    start: 祭りを楽しむ, 剣を買う
-    middle: 
-    end: レオナの訓練
-    top: 
-    notes: 
-    tone: 落ち込みからの脱却, 苦しい過去
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /integ mod noCha --- ---- f - ------- 宿の部屋の様子、窓から見下ろすと宿屋の庭木、亜麻色のシーツのベッドには藁が詰まっている
     /integ mod noCha --- ---- f - ------- 街の中の様子、小さな街、道は舗装されず地面がむき出しになっている
@@ -876,107 +960,124 @@
     /leona odl leona tPh e061 f - thought レオナがアリスに戦いに手を出さないでと言う
     /myria odl myria hnt s013 f - ------- アリスがミリアの魔法を褒めると祖母から教わったと嬉しそうにした直後に酷く落ち込む
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################     ########
-################################################################################     ##    ##
-################################################################################     ##
-################################################################################    ##
-################################################################################   ##
-################################################################################   ##
-################################################################################   ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ########
+ ##    ##
+     ##
+    ##
+   ##
+   ##
+   ##
 
 7:
-  summary: ペトラ 試練, 妖精の森でのドラゴン「バルドロード」との対話
-  header:
-    battle: 
-    erros: 
-    elapsed days: 6, 7
+  summary:
+    overall: 妖精の森でのドラゴン「バルドロード」との対話
+    alice: 
+    leona: 
+    myria: 
+    etc: ペトラ 試練
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 6, 7
       start: 午前
       end: 午前
       notes: 居住地4で1泊した翌日の午前から始まって妖精の森で1泊した午前で終わる
-    location: p9 妖精の森 . p8 道
-    location tone:
-      p8: 不思議のムード（あやしめ）
-      p9: 不思議, 混乱
+    location:
+      - item: p8 道
+        tone: 不思議のムード（あやしめ）
+      - item: p9 妖精の森 . p8 道
+        tone: 不思議, 混乱
     destination:
       start: p012 魔力泉の街
       middle: p9 妖精の森
       end: p012 魔力泉の街
       top: 東 . p027 エリク
-    integration:
-  event: p9 妖精の森近くにやってきたドラゴンとアリスが対話する
-  objective: 
-    start: p012 魔力泉の街に行く
-    middle: 妖精を助ける
-    end: p012 魔力泉の街に行く
-    top: 
-    notes: 
-    tone: 不思議, 秘密の解明
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /integ mod noCha --- ---- f - ------- 森の様子、明るい葉色の中にもさらに明るい若葉が繁っているエルヒダの木の純林となった
     /integ mod noCha --- ---- f - ------- 道の様子、踏み固められたわだちのある黒褐色の地面、ところどころ木の根が張りだして馬車は大変そうだ
@@ -1018,107 +1119,124 @@
     /integ inf rose- hnt s050 b - @orb--- 下腹部を押さえて苦しむがすぐに治まる
     /grp21 lov multi --- ---- b - ------- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################  #######
-################################################################################     ##     ##
-################################################################################     ##     ##
-################################################################################  #######
-################################################################################     ##     ##
-################################################################################     ##     ##
-################################################################################  #######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #######
+ ##     ##
+ ##     ##
+  #######
+ ##     ##
+ ##     ##
+  #######
 
 8:
-  summary: ミリア 試練 1, 魔法使いの老婆を助ける
-  header:
-    battle: 
-    erros: 
-    elapsed days: 8
+  summary:
+    overall: 魔法使いの老婆を助ける
+    alice: 
+    leona: 
+    myria: odl 試練 1
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 8
       start: 昼
       end: 昼
       notes: p9 妖精の森でさらに1泊した翌日の昼
-    location: p011 魔法使いの老婆の家 . p010 森
-    location tone:
-      p10: 明るい, 先行きの不安
-      p11: 薄暗い, 生活空間は散らかっているが魔法の部屋は整然としている
+    location:
+      - item: p010 森
+        tone: 明るい, 先行きの不安
+      - item: p011 魔法使いの老婆の家 . p010 森
+        tone: 薄暗い, 生活空間は散らかっているが魔法の部屋は整然としている
     destination:
       start: p012 魔力泉の街
       middle: p011 魔法使いの老婆の家
       end: p012 魔力泉の街
       top: 東 . p027 エリク
-    integration:
-  event: 魔法使いの老婆 => 元気の出る精霊石（ミリアの祖母が使っていた）を老婆にあげる[thi-052]
-  objective: 
-    start: 魔法使いの老婆を助ける
-    middle: フェイを倒す
-    end: p012 魔力泉の街に行く
-    top: 
-    notes: 
-    tone: 善行, 戦闘（勝ち）
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /integ mod noCha --- ---- f - ------- 森の様子、森の中は比較的明るいエルヒダの木の純林だ
     /integ mod noCha --- ---- f - ------- 道の様子、黒褐色の土、わだち
@@ -1134,113 +1252,129 @@
     /myria odl alice con c062 f - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
     /myria odl myria tPh m012 f m ordeal- ミリアがフェイと戦う 1[ref-030]
     /myria odl myria con c020 f - thought フェイが幻霊を召喚してミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
-    /myria odl fei-- tPh e013 f - results フェイが「また来る」と言って撤退する
+    /myria odl fei-- tPh e013 f -   transition フェイが「また来る」と言って撤退する
     /myria odl alice tPh t012 f t ------- アリスが戦いに干渉し、戦闘後に褒める
     /myria odl leona tPh t012 f t ------- レオナが戦いに干渉し、戦闘後に褒める
     /myria odl myria con c060 f - ------- ミリアがアリスとレオナに次から手を出さないでと言う
     /leona odl multi tPh e085 f - ------- レオナがアリスに訓練してもらう[ref-018]
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################  #######
-################################################################################     ##     ##
-################################################################################     ##     ##
-################################################################################  ########
-################################################################################    ##
-################################################################################     ##     ##
-################################################################################  #######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #######
+ ##     ##
+ ##     ##
+  ########
+        ##
+ ##     ##
+  #######
 
 9:
-  summary: ミリアの背景, 魔力泉の街, ミリアが星の大精霊と契約できない
-  header:
-    battle: 
-    erros: 
-    elapsed days: 9
+  summary:
+    overall: 魔力泉の街
+    alice: 
+    leona: 
+    myria: rel ミリアの背景, li1 ミリアが星の大精霊と契約できない
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 9
       start: 朝
       end: 昼前
       notes: フェイとの戦闘を終えp12 魔力泉の街に1泊した翌日の朝
-    location: p012 魔力泉の街
-    location tone:
-      p12: 明るい, 新しいこと
+    location:
+      - item: p012 魔力泉の街
+        tone: 明るい, 新しいこと
     destination:
       start: 
       middle: 
       end: p015 湖畔の街
       top: 東 . p027 エリク
-    integration:
-  event: ミリアの精霊との契約の儀とその失敗
-  objective: 
-    start: 魔力泉を堪能する、休息する
-    middle: ミリアが精霊と契約する
-    end: p015 湖畔の街に行く
-    top: 
-      notes: 魔力泉、妖精の多い街
-    tone: 弛緩した時間, 苦しい過去
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
-  - アリスとレオナは朝から訓練で、ミリアが遅い朝
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
+      - アリスとレオナは朝から訓練で、ミリアが遅い朝
   elements:
     /integ mod noCha --- ---- f - ------- 街の様子、魔力の密度が高い、街の人は肌つやがいい、妖精の姿が目につく
     /integ mod noCha --- ---- f - ------- 大通りには石が敷き詰められている
@@ -1262,107 +1396,122 @@
     /alice odl alice tPh e083 f e favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
     /leona odl leona con c014 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
 
-################################################################################    ##     #####
-################################################################################  ####    ##   ##
-################################################################################    ##   ##     ##
-################################################################################    ##   ##     ##
-################################################################################    ##   ##     ##
-################################################################################    ##    ##   ##
-################################################################################  ######   #####
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##     #####
+  ####    ##   ##
+    ##   ##     ##
+    ##   ##     ##
+    ##   ##     ##
+    ##    ##   ##
+  ######   #####
 
 10:
-  summary: 妖精女王への謁見
-  header:
-    battle: 
-    erros: 
-    elapsed days: 9
+  summary:
+    overall: 妖精女王への謁見
+    alice: 
+    leona: 
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 9
       start: 昼
       end: 昼すぎ
       notes: p012 魔力泉の街から近くの森へ移動してキノコサークルに入って転移して
-    location: p013 妖精の国
-    location tone:
-      p13: 不思議, 奇妙
+    location:
+      - item: p013 妖精の国
+        tone: 不思議, 奇妙
     destination:
       start: 妖精女王との謁見
       middle: 
       end: p012 魔力泉の街に戻る
       top: 東 . p027 エリク
-    integration:
-  event: 妖精女王への謁見
-  objective: 
-    start: 妖精女王への謁見
-    middle: 魔力珠やエスの情報
-    end: p012 魔力泉の街に戻る
-    top: 
-      notes: 植物が大きく見えるくらいアリスたちは縮んでいる, ペトラの頑張りを褒められる
-    tone: 立派な舞台, ハプニング
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /alice in> leona --- ---- f - ------- アリスがレオナに型を破るべきと強く主張し、父王の型は破れないと言い張るレオナに、アリスが破れないのは勇気がないからだと言い放ち、ショックを受けたレオナと仲違いする（対立）
     &leona in< alice --- ---- f - ------- アリスがレオナに型を破るべきと強く主張し、父王の型は破れないと言い張るレオナに、アリスが破れないのは勇気がないからだと言い放ち、ショックを受けたレオナと仲違いする（対立）
@@ -1399,106 +1548,122 @@
     /alice odl rose- tPh e083 b e threat- ローズがアリスについて不気味な発言をするntt
     /grp21 lov multi --- ---- b - ------- エロいことをする[ref-037-3]
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################    ##  ##
-################################################################################  ####    ####
-################################################################################    ##  ##
-################################################################################    ##  ##
-################################################################################    ##  ##
-################################################################################    ##  ##
-################################################################################  ######  ######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##      ##
+  ####    ####
+    ##      ##
+    ##      ##
+    ##      ##
+    ##      ##
+  ######  ######
 
 11:
-  summary: アリス 試練 2
-  header:
-    battle: 
-    erros: 
-    elapsed days: 10
+  summary:
+    overall: 
+    alice: odl 試練 2
+    leona: 
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 10
       start: 昼
       end: 昼
       notes: p012 魔力泉の街（魔力泉の街）で1泊して翌日
-    location: p014 滝
-    location tone:
-      p14: 神聖な, 荘厳な
+    location:
+      - item: p014 滝
+        tone: 神聖な, 荘厳な
     destination:
       start: 滝の裏
       middle: 
       end: p015 湖畔の街
       top: 東 . p027 エリク（p27 エリクに魔力珠の手掛かりがあるかもしれないしミリアのためにもp27 エリクには行く）
-    integration:
-  event: 滝の裏の剣を抜く
-  objective: 
-    start: 滝を見る, 滝の裏に行く
-    middle: ローズを説得する
-    end: p015 湖畔の街に行く
-    top: p027 エリク
-    notes: 
-    tone: 不思議な体験, 戦闘（負け）
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /alice in> leona --- ---- f - ------- レオナが、ローズに敗北したアリスを心から心配したことで仲直りするが剣の型は変えないと言う（和解）
     /leona in< alice --- ---- f - ------- アリスが、レオナに謝罪され自分も謝罪して仲直りし、レオナが決めたことならそれでいいと言う（和解）
@@ -1516,114 +1681,131 @@
     /alice odl alice tPh m083 f m ordeal- アリスがローズと戦う 2
     /integ evn alice cat s070 f - @roseMy やはりローズの体は普通の人族なのに魔力の量が異常だと言う
     /alice odl alice hnt r084 f - ------- 説得を試みる
-    /alice odl alice tPh e077 f e results アリスがまともに戦えず怪我をする
+    /alice odl alice tPh e077 f e   transition アリスがまともに戦えず怪我をする
     /alice odl rose- tPh e005 f - @alice- ローズがアリスをどうせ死なないと言う
     /alice odl leona tPh t083 f t ------- レオナがアリスを守ろうとする
     /alice odl myria tPh t083 f t ------- ミリアがアリスを守ろうとする
     /alice lov alice --- ---- f - thought アリスの、2人がかけがえのない存在だという気づき
     /leona odl multi tPh e085 f - ------- レオナがアリスに訓練してもらう[ref-018]
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################    ##    #######
-################################################################################  ####   ##     ##
-################################################################################    ##    ##
-################################################################################    ##    #######
-################################################################################    ##   ##
-################################################################################    ##   ##
-################################################################################  ###### #########
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##    #######
+  ####   ##     ##
+    ##          ##
+    ##    #######
+    ##   ##
+    ##   ##
+  ###### #########
 
 12:
-  summary: アリスの背景
-  header:
-    battle: 
-    erros: 
-    elapsed days: 11
+  summary:
+    overall: 湖畔の街, 湖底の洞窟
+    alice: rel アリスの背景
+    leona: 
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 11
       start: 朝
       end: 昼
       notes: p015 湖畔の街に着いて1泊して翌日
-    location: p015 湖畔の街, p016 湖底の洞窟
-    location tone:
-      p15: おしゃれ, 華やぎ
-      p16: 
+    location:
+      - item: p015 湖畔の街
+        tone: おしゃれ, 華やぎ
+      - item: p016 湖底の洞窟
+        tone: 
     destination:
       start: 居住地7（対岸の街）
       middle: 湖底の洞窟
       end: 居住地7（対岸の街）, アリスは砂浜に行きたくなっている
       top: 東 . p027 エリク, p019 大破壊の街
-    integration:
-  event: '水棲ドラゴン'
-  objective: 
-    start: 湖を渡って向こう岸の居住地7に行きたい
-    middle: 湖底の洞窟
-    end: 居住地7に行く
-    top: p027 エリク
-    notes: 
-    tone: 不思議な体験, 秘匿された過去
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /alice in> multi --- ---- f - ------- レオナとミリアが、アリスの悩みを聞いて応援する（信頼関係の構築）
     /leona in- alice --- ---- f - ------- アリスが、レオナとミリアに自分の来歴や悩みを話す（信頼関係の構築）
@@ -1654,107 +1836,124 @@
     /leona li1 leona con c051 f - @fencer レオナが祠の向こうの隠し部屋にあった剣を抜く（レオナには壁が光って見える）[ref-049]
     /leona li1 alice con c051 f - @fencer アリスがこの剣には何かが封じられている悪いものではないと言う
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################    ##    #######
-################################################################################  ####   ##     ##
-################################################################################    ##    ##
-################################################################################    ##    #######
-################################################################################    ##    ##
-################################################################################    ##   ##     ##
-################################################################################  ######  #######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##    #######
+  ####   ##     ##
+    ##          ##
+    ##    #######
+    ##          ##
+    ##   ##     ##
+  ######  #######
 
 13:
-  summary: 水着回
-  header:
-    battle: 
-    erros: 
-    elapsed days: 12
+  summary:
+    overall: 水着回
+    alice: 
+    leona: 
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 12
       start: 朝
       end: 昼
       notes: 夕方に終わるのが理想的だが、そんな長引くだろうか
-    location: p017 湖の砂浜, p018 湖底の街跡
-    location tone:
-      p17: 照りつける太陽, 秘密の砂浜
-      p18: 不思議, 幻想
+    location:
+      - item: p017 湖の砂浜
+        tone: 照りつける太陽, 秘密の砂浜
+      - item: p018 湖底の街跡
+        tone: 不思議, 幻想
     destination:
       start: p017 湖の砂浜
       middle: p018 湖底の街跡
       end: p015 湖畔の街
       top: 東 . p027 エリク, p019 大破壊の街
-    integration:
-  event: 水着回
-  objective: 
-    start: 水遊び
-    middle: 精霊を助ける
-    end: p015 湖畔の街に帰る
-    top: p027 エリク
-    notes: 
-    tone: えちち
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /integ evn alice --- ---- f - ------- 昨夜アリスは縫い物をしていた、水着を作っていた
     /integ evn grp11 con c056 f - ------- ボートを借りて砂浜に行って楽しむ => えちちなシーンを量産する
@@ -1766,108 +1965,125 @@
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
     &multi pst multi --- ---- f - ------- （信頼関係の構築）
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################    ##   ##
-################################################################################  ####   ##    ##
-################################################################################    ##   ##    ##
-################################################################################    ##   ##    ##
-################################################################################    ##   #########
-################################################################################    ##     ##
-################################################################################  ######   ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##   ##
+  ####   ##    ##
+    ##   ##    ##
+    ##   ##    ##
+    ##   #########
+    ##         ##
+  ######       ##
 
 14:
-  summary: ペトラが妖精領主になる
-  header:
-    battle: 
-    erros: 
-    elapsed days: 15, 16, 17
+  summary:
+    overall: 
+    alice: 
+    leona: 
+    myria: 
+    etc: ペトラが妖精領主になる
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 15, 16, 17
       start: 昼前
       end: 朝
       notes: p019 大破壊の街で2泊して翌々日の朝出発する
-    location: p019 大破壊の街, p013 妖精の国
-    location tone:
-      p13: 不思議, 奇妙
-      p19: 繁栄, 明るい
+    location:
+      - item: p019 大破壊の街
+        tone: 繁栄, 明るい
+      - item: p013 妖精の国
+        tone: 不思議, 奇妙
     destination:
       start: p019 大破壊の街
       middle: 
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
-    integration:
-  event: エスの大破壊の痕跡
-  objective: 
-    start: エスの情報, p027 エリクの情報
-    middle: 妖精のリング
-    end: 
-    top: p027 エリク
-    notes: 外輪山の外はショボショボ農地、中は鉄鋼の街
-    tone: 街の様子, 古の伝説, 別れ
-  notes:
-  - 近くの村に特別な牛がいることを聞く
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - 近くの村に特別な牛がいることを聞く
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /integ evn petra hnt s029 f - @es---- 妖精図書館でエスのことを調べると言う
     /integ evn third hnt s029 f - @es---- エスとザヴィとザヴィの従者の戦いの伝説
@@ -1886,113 +2102,128 @@
     /leona odl leona --- ---- f - favorbl レオナがアリスから強くなったと言われる[ref-034]
     /alice odl multi con c021 f - ------- レオナとミリアが何かを作っている[ref-040]
     /alice lov multi --- ---- f - favorbl 頭と頬を撫でる
-    /petra odl petra prm r015 f - gDesire ペトラが妖精領主になる
+    /petra odl petra prm r015 f - g  state ペトラが妖精領主になる
     &      con c093   ペトラが妖精領主になる
     /petra etc alice hnt s057 f - ------- アリスがペトラに転移のネックレスを渡す「妖精ならそれを使って縁故のある人のいる場所に転移できるよ」
     /petra etc petra con c059 f - ------- ペトラがお返しに妖精の蜜飴を渡す「みんなで食べてね」
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
 
-################################################################################    ##   ########
-################################################################################  ####   ##
-################################################################################    ##   ##
-################################################################################    ##   #######
-################################################################################    ##     ##
-################################################################################    ##   ##    ##
-################################################################################  ######  ######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##   ########
+  ####   ##
+    ##   ##
+    ##   #######
+    ##         ##
+    ##   ##    ##
+  ######  ######
 
 15:
-  summary: レオナ 試練 2
-  header:
-    battle: 
-    erros: 
-    elapsed days: 18
+  summary:
+    overall: 
+    alice: 
+    leona: odl 試練 2
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 18
       start: 昼前
       end: 昼
       notes: p019 大破壊の街にもう1泊して翌日
-    location: p020 村（p24 街への道の途中の村）
-    location tone:
-      p20: 栄えた村, 案外いい暮らし
+    location:
+      - item: p020 村（p24 街への道の途中の村）
+        tone: 栄えた村, 案外いい暮らし
     destination:
       start: p024 街
       middle: 
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
-    integration:
-  event: 村長の息子からの横柄でしつこいレオナへの求婚
-  objective: 
-    start: 牛肉
-    middle: 村長の息子からの解放
-    end: 牛肉
-    top: p027 エリク
-    notes: 村には特別な食用の牛がいる
-    tone: 憤懣, 戦闘（引き分け）
-  notes:
-  - 村長の息子はエリーとの戦いを見て縮み上がる
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - 村長の息子はエリーとの戦いを見て縮み上がる
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /rose- li2 rose- hnt s033 b - @orbPln 望みの全てはp27 エリクの封印に懸かっている
     /rose- li2 rose- hnt s033 b - @orbPln エスは封印の中で邪神の呪いに苛まれている
@@ -2009,113 +2240,129 @@
     /leona odl leona tPh m086 f m ordeal- レオナがエリーと戦う 2
     /leona odl leona con c061 f - ------- レオナがアリスに手を出さないよう言ってあると言う
     /leona odl leona con c051 f - @fencer 剣からエリーへの対処のヒントを感じる
-    /leona odl leona tPh m085 f - results レオナがエリーと引き分ける
+    /leona odl leona tPh m085 f -   transition レオナがエリーと引き分ける
     /leona odl erie- con c080 f - ------- エリーが絶対にこのままでは終わらせないと宣言する
     /leona odl alice tPh t086 f t ------- アリスがレオナを祝福する
     &      tPh t085   アリスがレオナを祝福する
     /leona odl myria tPh t086 f t ------- ミリアがレオナを祝福する
     &      tPh t085   ミリアがレオナを祝福する
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################    ##    #######
-################################################################################  ####   ##     ##
-################################################################################    ##   ##
-################################################################################    ##   ########
-################################################################################    ##   ##     ##
-################################################################################    ##   ##     ##
-################################################################################  ######  #######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##    #######
+  ####   ##     ##
+    ##   ##
+    ##   ########
+    ##   ##     ##
+    ##   ##     ##
+  ######  #######
 
 16:
-  summary: 野営, 星の大精霊の訪問
-  header:
-    battle: 
-    erros: 
-    elapsed days: 18
+  summary:
+    overall: 野営
+    alice: 
+    leona: 
+    myria: li1 星の大精霊の訪問
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 18
       start: 夕方
       end: 夜更け
-    notes: 
-    location: p021 野営地（p24 街への途中の森）
-    location tone:
-      p21: 不思議の来訪
+      notes: 
+    location:
+      - item: p021 野営地（p24 街への途中の森）
+        tone: 不思議の来訪
     destination:
       start: 野営に適した場所（ググること）
       middle: 
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
-    integration:
-  event: 星の大精霊と老婆の来訪
-  objective: 
-    start: 
-    middle: 
-    end: 
-    top: p027 エリク
-    notes: 
-    tone: しっとり, 感情的
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
@@ -2154,106 +2401,122 @@
     /rose- li2 rose- hnt s033 b - @orbPln エスの封印は封印を上回る魔力が内側から放出されることで解ける
     /alice odl multi con c021 f - ------- レオナとミリアがまた何かを作っている[ref-040]
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################    ##   ########
-################################################################################  ####   ##    ##
-################################################################################    ##   ##
-################################################################################    ##  ##
-################################################################################    ##     ##
-################################################################################    ##     ##
-################################################################################  ######   ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##   ########
+  ####   ##    ##
+    ##       ##
+    ##      ##
+    ##     ##
+    ##     ##
+  ######   ##
 
 17:
-  summary: ミリア 試練 2
-  header:
-    battle: 
-    erros: 
-    elapsed days: 19
+  summary:
+    overall: 
+    alice: 
+    leona: 
+    myria: odl 試練 2
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 19
       start: 朝
       end: 午前中
       notes: p021 野営地で1泊して翌朝
-    location: p022 草原（野営地の近く）
-    location tone:
-      p22: ところどころにまとまって草花, 明るい, 風が吹き抜ける
+    location:
+      - item: p022 草原（野営地の近く）
+        tone: ところどころにまとまって草花, 明るい, 風が吹き抜ける
     destination:
       start: p024 街
       middle: 
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
-    integration:
-  event: 蜂妖精の蜂蜜を探して食べる
-  objective: 
-    start: 蜂妖精の蜂蜜
-    middle: 
-    end: 
-    top: p027 エリク
-    notes: 
-    tone: 戦闘（勝ち）
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
@@ -2263,113 +2526,129 @@
     /myria odl myria tPh m087 f m ordeal- ミリアがフェイと戦う 2
     /integ evn myria --- ---- f - ------- 草花の亜精霊（人型でない光の粒）に助けられる
     /myria odl myria con c088 f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
-    /myria odl fei-- --- ---- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
+    /myria odl fei-- --- ---- f -   transition フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
     /myria odl alice tPh t087 f t ------- アリスがミリアを褒める
     /myria odl leona tPh t087 f t ------- レオナがミリアを褒める
     /alice li1 alice --- ---- f - ------- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
     &      hnt s028     @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
     /alice etc third con c059 f - ------- ペトラにもらった妖精の蜜飴をなめさせて縁故をつなぐ
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################    ##    #######
-################################################################################  ####   ##     ##
-################################################################################    ##   ##     ##
-################################################################################    ##    #######
-################################################################################    ##   ##     ##
-################################################################################    ##   ##     ##
-################################################################################  ######  #######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##    #######
+  ####   ##     ##
+    ##   ##     ##
+    ##    #######
+    ##   ##     ##
+    ##   ##     ##
+  ######  #######
 
 18:
-  summary: 合宿
-  header:
-    battle: 
-    erros: 
-    elapsed days: 20, 21, 22
+  summary:
+    overall: 合宿
+    alice: 
+    leona: 
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 20, 21, 22
       start: 朝
       end: 夕
       notes: フェイと戦ってそのまま野営地でもう1泊して翌日
-    location: p023 森（野営地の近く）
-    location tone:
-      p23: はつらつ, 強い意思
+    location:
+      - item: p023 森（野営地の近く）
+        tone: はつらつ, 強い意思
     destination:
       start: 
       middle: 
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
-    integration:
-  event: 訓練
-  objective: 
-    start: 強くなる
-    middle: 強くなる
-    end: 強くなる
-    top: p027 エリク
-    notes: 
-    tone: 和やかな中にそれぞれの思い
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /alice in> multi --- ---- f - ------- 合宿の成果を試すために洞窟の魔物を倒しに行く（信頼関係の構築）
     &leona in- multi --- ---- f - ------- 合宿の成果を試すために洞窟の魔物を倒しに行く（信頼関係の構築）
@@ -2405,106 +2684,122 @@
     /rose- li2 rose- hnt s033 b - @orbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
     /rose- li1 rose- fsh s075 b - @roseDi ローズが、鳥籠の鳥を部屋の中に逃がしてしまった女中を老化させて風化させて殺す
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################    ##    #######
-################################################################################  ####   ##     ##
-################################################################################    ##   ##     ##
-################################################################################    ##    ########
-################################################################################    ##    ##
-################################################################################    ##   ##     ##
-################################################################################  ######  #######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##    #######
+  ####   ##     ##
+    ##   ##     ##
+    ##    ########
+    ##          ##
+    ##   ##     ##
+  ######  #######
 
 19:
-  summary: ミリア 試練 3
-  header:
-    battle: 
-    erros: 
-    elapsed days: 23
+  summary:
+    overall: 
+    alice: 
+    leona: 
+    myria: odl 試練 3
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 23
       start: 朝
       end: 朝
       notes: 合宿明けの朝
-    location: p022 草原（野営地の近く）
-    location tone:
-      p22: ところどころにまとまって草花, 明るい, 風が吹き抜ける
+    location:
+      - item: p022 草原（野営地の近く）
+        tone: ところどころにまとまって草花, 明るい, 風が吹き抜ける
     destination:
       start: p024 街
       middle: 
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
-    integration:
-  event: 占い
-  objective: 
-    start: 
-    middle: フェイを倒す
-    end: p024 街に行く
-    top: p027 エリク
-    notes: 
-    tone: 神秘的, 戦闘（勝ちだが後味が悪い）
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
@@ -2518,114 +2813,129 @@
     /myria odl multi con c060 f - ------- アリスとレオナは静観する
     /myria odl myria con c082 f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
     &      tPh m065   フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
-    /myria odl myria --- ---- f - results ミリアがフェイを倒す
+    /myria odl myria --- ---- f -   transition ミリアがフェイを倒す
     /integ evn third --- ---- f - ------- フェイを食べた幻霊は不味いと言って飛び去っていく
     /myria odl alice tPh t081 f t ------- アリスがミリアを褒める
     /myria odl leona tPh t081 f t ------- レオナがミリアを褒める
     /myria odl myria prm r010 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
-    /fei-- odl fei-- prm rls f - results フェイがミリアに敗北する[ref-029]
+    /fei-- odl fei-- prm rls f -   transition フェイがミリアに敗北する[ref-029]
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
 
-################################################################################  #######    #####
-################################################################################     ##     ##  ##   ##
-################################################################################    ## ##     ##
-################################################################################  #######  ##     ##
-################################################################################     ##    ##     ##
-################################################################################     ##     ##   ##
-################################################################################     #########   #####
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #######    #####
+ ##     ##  ##   ##
+        ## ##     ##
+  #######  ##     ##
+ ##        ##     ##
+ ##         ##   ##
+ #########   #####
 
 20:
-  summary: 星の大精霊との融合
-  header:
-    battle: 
-    erros: 
-    elapsed days: 30
+  summary:
+    overall: 
+    alice: 
+    leona: 
+    myria: li1 星の大精霊との融合
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 30
       start: 朝
       end: 昼前
       notes: 前日に街に到着して1泊して翌日
-    location: p024 街
-    location tone:
-      p24: 栄えた, ゆとりのある, 華やかな
+    location:
+      - item: p024 街
+        tone: 栄えた, ゆとりのある, 華やかな
     destination:
       start: p026 カルダ
       middle: p026 カルダ
       end: p026 カルダ
       top: p026 カルダ . p027 エリク
-    integration:
-  event: 大火災をミリアが水の大精霊ウンディーネの力を操って収める
-  objective: 
-    start: p026 カルダの場所
-    middle: 消火
-    end: p026 カルダに行く
-    top: p027 エリク
-    notes: 
-    tone: 期待, 緊急事態, 戸惑い
-  notes:
-  - ミリアが普段使うのは弱い精霊魔法
+    notes:
+      - ミリアが普段使うのは弱い精霊魔法
   elements:
     /alice in> myria --- ---- f - ------- 関係性の変化（守る者・守られる者 => 共に戦う者）
     &myria in< alice --- ---- f - ------- 関係性の変化（守る者・守られる者 => 共に戦う者）
@@ -2640,106 +2950,122 @@
     /integ evn grp11 --- ---- f - ------- p026 カルダの場所を知る
     /alice li1 alice hnt s028 f - @alice- 花を結実させる
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################  #######     ##
-################################################################################     ##     ##  ####
-################################################################################    ##    ##
-################################################################################  #######     ##
-################################################################################     ##     ##
-################################################################################     ##     ##
-################################################################################     #########  ######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #######     ##
+ ##     ##  ####
+        ##    ##
+  #######     ##
+ ##           ##
+ ##           ##
+ #########  ######
 
 21:
-  summary: レオナの演武
-  header:
-    battle: 
-    erros: 
-    elapsed days: 31
+  summary:
+    overall: 
+    alice: 
+    leona: rel レオナの演武
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 31
       start: 午前半ば
       end: 夕方前
       notes: p024 街に1泊して翌日
-    location: p025 森
-    location tone:
-      p25: 祝福の地, 明るい, 色鮮やか
+    location:
+      - item: p025 森
+        tone: 祝福の地, 明るい, 色鮮やか
     destination:
       start: p026 カルダ
       middle: p026 カルダ
       end: 
       top: p026 カルダ . p027 エリク
-    integration:
-  event: 道なき道を行く
-  objective: 
-    start: p026 カルダに行きたい
-    middle: p026 カルダに行きたい
-    end: 野営
-    top: p027 エリク
-    notes: 
-    tone: 不思議
-  notes:
-  - 
+    notes:
+      - 
   elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
@@ -2756,106 +3082,122 @@
     /rose- li1 rose- fsh s075 b - @roseDi 部屋の花瓶の花が萎れていく
     /rose- li2 erie- tPh e040 b - @orbPln エリーがローズが死ぬ気でいると悟る
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################  #######   #######
-################################################################################     ##     ## ##     ##
-################################################################################    ##    ##
-################################################################################  #######   #######
-################################################################################     ##    ##
-################################################################################     ##    ##
-################################################################################     ######### #########
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #######   #######
+ ##     ## ##     ##
+        ##        ##
+  #######   #######
+ ##        ##
+ ##        ##
+ ######### #########
 
 22:
-  summary: レオナ 試練 3
-  header:
-    battle: 
-    erros: 
-    elapsed days: 36
+  summary:
+    overall: 
+    alice: 
+    leona: odl 試練 3
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 36
       start: 
       end: 
       notes: 5日移動して到着
-    location: p026 カルダ
-    location tone:
-      p26: 苔むした遺跡, 建造物の存在がかすかに感じられる
+    location:
+      - item: p026 カルダ
+        tone: 苔むした遺跡, 建造物の存在がかすかに感じられる
     destination:
       start: p027 エリク
       middle: p027 エリク
       end: p027 エリク
       top: p027 エリク
-    integration:
-  event: p026 カルダに到着する
-  objective: 
-    start: p027 エリクへの道
-    middle: エリーの打倒
-    end: p027 エリクへの道
-    top: p027 エリク
-    notes: 
-    tone: 期待, レオナの悩みが深くなる, 勝利
-  notes:
-  - 
+    notes:
+      - 
   elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
@@ -2869,113 +3211,129 @@
     /leona odl leona tPh m079 f m ordeal- レオナがエリーと戦う 3
     /leona odl leona con c080 f - thought ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
     &      tPh m064     @o'dorg ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
-    /leona odl leona --- ---- f - results レオナがエリーを倒す
+    /leona odl leona --- ---- f -   transition レオナがエリーを倒す
     /leona odl leona con c051 f - @fencer 剣に封じられていた竜克の女剣士レイティア・アルテノートの力を受け継ぐ
-    /erie- odl erie- prm rls f - results エリーがレオナに敗北する
-    /leona odl leona prm r006 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
+    /erie- odl erie- prm rls f -   transition エリーがレオナに敗北する
+    /leona odl leona prm r006 f - g  state レオナが「アリス、ミリア。ボク進めそうです」と言う
     /integ evn grp11 tPh t079 f t ------- アリスとミリアがレオナを祝福する
     /alice odl alice tPh e077 f e favorbl レオナからの惜しみない感謝をミリアと味わうntt
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################  #######   #######
-################################################################################     ##     ## ##     ##
-################################################################################    ##    ##
-################################################################################  #######   #######
-################################################################################     ##     ##
-################################################################################     ##    ##     ##
-################################################################################     #########  #######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #######   #######
+ ##     ## ##     ##
+        ##        ##
+  #######   #######
+ ##               ##
+ ##        ##     ##
+ #########  #######
 
 23:
-  summary: ハイエルフの叡智を得る
-  header:
-    battle: 
-    erros: 
-    elapsed days: 37
+  summary:
+    overall: 
+    alice: 
+    leona: 
+    myria: li1 ハイエルフの叡智を得る
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 37
       start: 朝
       end: 昼前
       notes: p026 カルダで1泊して翌日
-    location: p027 エリク
-    location tone:
-      p27: 荒廃の地, 草も木も苔もない, 涸れた川、泉
+    location:
+      - item: p027 エリク
+        tone: 荒廃の地, 草も木も苔もない, 涸れた川、泉
     destination:
       start: ハイエルフの叡智のある場所
       middle: ハイエルフの叡智のある場所
       end: 地上
       top: ハイエルフの叡智のある場所
-    integration:
-  event: 
-  objective: 
-    start: 
-    middle: 
-    end: 
-    top: 
-    notes: 
-    tone: 神秘
-  notes:
-  - 
+    notes:
+      - 
   elements:
     /integ mod noCha con c068 f - ------- 島の中央の大きな木
     /alice in> multi --- ---- f - ------- ハイエルフの叡智を得るために協力する（信頼関係の構築）
@@ -2989,7 +3347,7 @@
     /integ evn alice cat s047 f - @orb--- ローズと魔力珠を分離しないと、と言う
     /integ evn alice cat s031 f - @zavia- ザヴィだけで神を封印できるかどうか、協力者がいたかも
     /alice lov multi --- ---- f - favorbl 告白とキス
-    /myria odl myria prm r011 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
+    /myria odl myria prm r011 f - g  state ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     &      tPh t065     @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     /      con c034   ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     /alice odl rose- tPh e077 b e threat- ローズがパワーアップする[ref-023]
@@ -2998,106 +3356,122 @@
     /rose- li1 rose- hnt s030 b - @roseMy ローズが自分自身を強化する
     /rose- li1 rose- hnt s030 b - @roseDi ローズの強化にともなって妖精が生まれては祝福して消えていく
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
-################################################################################  #######  ##
-################################################################################     ##     ## ##    ##
-################################################################################    ## ##    ##
-################################################################################  #######  ##    ##
-################################################################################     ##    #########
-################################################################################     ##    ##
-################################################################################     #########   ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #######  ##
+ ##     ## ##    ##
+        ## ##    ##
+  #######  ##    ##
+ ##        #########
+ ##              ##
+ #########       ##
 
 24:
-  summary: アリス 試練 3
-  header:
-    battle: 
-    erros: 
-    elapsed days: 37
+  summary:
+    overall: 
+    alice: odl 試練 3
+    leona: 
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 37
       start: 昼前
       end: 昼すぎ
       notes: ハイエルフの叡智を手に入れてその足で
-    location: p027 エリク
-    location tone:
-      p27: 荒廃の地, 草も木も苔もない, 涸れた川、泉, 後に楽園
+    location:
+      - item: p027 エリク
+        tone: 荒廃の地, 草も木も苔もない, 涸れた川、泉, 後に楽園
     destination:
       start: 島の中央の大きな木のたもと
       middle: 
       end: 
       top: 
-    integration:
-  event: 
-  objective: 
-    start: 
-    middle: 
-    end: 
-    top: 
-    notes: 
-    tone: 対決
-  notes:
-  - 
+    notes:
+      - 
   elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
@@ -3113,113 +3487,128 @@
     /alice li1 alice hnt s028 f - @alice- アリスの力が解放されてp27 エリクが楽園になる
     /alice odl alice tPh m077 f m ordeal- アリスがローズと戦う 3
     /alice odl alice ref c078 f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
-    /alice odl alice --- ---- f - results アリスがローズを倒す
+    /alice odl alice --- ---- f -   transition アリスがローズを倒す
     /integ evn alice cat s071 f - @orbPln アリスがどうやってエスの封印を解くつもりなのか尋ねる
     /alice odl alice prm r002 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
     &      hnt r002   アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
-    /rose- odl third prm rls f - gDesire ローズが死んでエスの封印が解かれる
+    /rose- odl third prm rls f - g  state ローズが死んでエスの封印が解かれる
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
 
 
 
 
-################################################################################  #######  ########
-################################################################################     ##     ## ##
-################################################################################    ## ##
-################################################################################  #######  #######
-################################################################################     ##    ##
-################################################################################     ##    ##    ##
-################################################################################     #########  ######
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #######  ########
+ ##     ## ##
+        ## ##
+  #######  #######
+ ##              ##
+ ##        ##    ##
+ #########  ######
 
 25:
-  summary: エスとの邂逅
-  header:
-    battle: 
-    erros: 
-    elapsed days: 37
+  summary:
+    overall: エスとの邂逅
+    alice: 
+    leona: 
+    myria: 
+    etc: 
+  state transition:
+    - dn: 
+      item: 
+      transition:  => 
+  status:
+    highlights:
+      battle: 
+      erros: 
     time:
+      elapsed days: 37
       start: 午後
       end: 午後
       notes: ローズを倒してその続き
-    location: p027 エリク
-    location tone:
-      p27: 楽園
+    location:
+      - item: p027 エリク
+        tone: 楽園
     destination:
       start: 
       middle: 
       end: 
       top: 
-    integration:
-  event: 
-  objective: 
-    start: 
-    middle: 
-    end: 
-    top: 
-    notes: 
-    tone: 戦闘, 安らぎ
-  notes:
-  - 
+    notes:
+      - 
   elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
@@ -3234,67 +3623,66 @@
     /alice li1 third hnt r028 f - @alice- ヘスト゠エリアがアリス様と言って敬う
     /integ evn third fsh r039 f - @hestel （ヘストの謎）ヘスト゠エリアがアリス様と言って敬う
     /integ evn third hnt r029 f - @es---- （エスの謎）エスはヘスト゠エリアだった
-    /alice odl alice prm r003 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる
+    /alice odl alice prm r003 f - g  state アリスが復活したエスを抑え魔力珠を手に入れる
     /alice odl alice prm r001 f - thought アリスが「いろいろあったけど、全部まとめて大満足！　やったぞー！」と言う
     /alice lov alice --- ---- f - thought アリスの、2人といると楽しいということの再認識
   assembly:
-  - scene: 1
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 2
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 3
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
-  - scene: 4
-    gist:
-    - 
-    - 
-    destiny:
-    - item:
-      dn: 
-      desire: 
-      results: 
-    intarest:
-    - 
-    - 
-    unpredictability of the end:
-    - 
-    contents:
+    - scene: 1
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 2
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 3
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
+
+    - scene: 4
+      gist:
+        - 
+        - 
+      state transition:
+        - dn: 
+          item: 
+          transition:  => 
+      intarest:
+        - 
+        - 
+      unpredictability of the end:
+        - 
+      contents:
