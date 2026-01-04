@@ -26,7 +26,7 @@
     ##
   ######
 
-1:
+- episode: 1
   summary:
     logline: アリスが地上に出てきて冒険の目的を見つけレオナとともに旅に出る
     overall: レオナと出会う
@@ -34,13 +34,16 @@
     leona: rel 運命の人（アリス）と出会い旅に同行することにする
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: アリス
       item: 冒険ができるか
-      transition: 0 / 1
+      change: 0 / 1
+    - dn: アリス
+      item: 魔力珠を手に入れたい
+      change: 0 - 0
     - dn: レオナ
       item: 導きを得られるか
-      transition: 0 / 1
+      change: 0 / 1
   status:
     highlights:
       battle: true
@@ -69,10 +72,10 @@
         - アリスの全体欲求の提示
         - ヘスト゠エリアの伏線
         - オーブプランの伏線
-      state transition:
+      value change:
         - dn: アリス
-          item: 冒険したい
-          transition: 0 \ -1
+          value: 冒険したい
+          change: 0 \ -1
       intarest:
         - ミステリアス不思議な言葉が多い
       unpredictability of the end:
@@ -93,10 +96,10 @@
     - scene: 1-2
       gist:
         - 狼の親子に襲われそうになり返り討ちにして食料にしようとするが見逃す
-      state transition:
+      value change:
         - dn: アリス
-          item: 空腹を満たしたい
-          transition: 0 \ -1
+          value: 空腹を満たしたい
+          change: 0 \ -1
       intarest:
         - 戦闘
         - アリスの懊悩
@@ -112,13 +115,13 @@
       gist:
         - ザヴィの名とアリスのザヴィへの思い
         - オー゠ドルグによる前置き
-      state transition:
+      value change:
         - dn: アリス
-          item: 空腹を満たしたい
-          transition: -1 \ -2
+          value: 空腹を満たしたい
+          change: -1 \ -2
         - dn: アリス
-          item: ザヴィに会いたい
-          transition: 0 \ -1
+          value: ザヴィに会いたい
+          change: 0 \ -1
       intarest:
         - アリスの強い思い
         - オー゠ドルグのユーモラスさ
@@ -127,7 +130,7 @@
       contents:
         /alice li1 alice hnt s028 f - @alice- アリスが魔法を無詠唱で使って詠唱が必要なことに気づく　ザヴィに言われていた
         /alice odl alice prm s002 f - ------- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
-        &                tPh e005               @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
+        &                tPh e005     @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
         /alice odl alice tPh e005 f - @zavia- アリスが世界にザヴィの気配がしないことに気づいて不安がる
         /integ evn alice --- ---- f - ------- 空腹でしゃがみ込む
         /leona odl third con c069 f - @o'dorg アリスがオー゠ドルグに食べ物を無心すると、前に進みたいと願っている娘が来るはずじゃ、その者にもらうといいと言う
@@ -138,13 +141,13 @@
       gist:
         - レオナが登場して紹介のシーン
         - レオナがアリスを妖魔か精霊と間違えて警戒する
-      state transition:
+      value change:
         - dn: アリス
-          item: 空腹を満たしたい
-          transition: -2 \ -3
+          value: 空腹を満たしたい
+          change: -2 \ -3
         - dn: レオナ
-          item: アリスが何者か知りたい
-          transition: 0 \ -1
+          value: アリスが何者か知りたい
+          change: 0 \ -1
       intarest:
         - レオナの勘違い
         - アリスとレオナの噛み合わない会話（食料のアリス、警戒のレオナ）
@@ -164,13 +167,13 @@
         - レオナの魔物との戦闘
         - アリスがレオナの剣の腕を褒める
         - 女剣士レイティア・アルテノートの伏線
-      state transition:
+      value change:
         - dn: アリス
-          item: 空腹を満たしたい
-          transition: -3 / -2
+          value: 空腹を満たしたい
+          change: -3 / -2
         - dn: レオナ
-          item: アリスが何者か知りたい
-          transition: -1 / 0
+          value: アリスが何者か知りたい
+          change: -1 / 0
       intarest:
         - 戦闘
       unpredictability of the end:
@@ -187,13 +190,16 @@
       gist:
         - アリスがザヴィについて知って旅の目的を定めるシーン
         - アリスがザヴィについて死って泣き崩れ慰められる
-      state transition:
+      value change:
         - dn: アリス
-          item: ザヴィに会いたい
-          transition: -1 \ -inf
+          value: ザヴィに会いたい
+          change: -1 \ -inf
+        - dn: アリス
+          value: 魔力珠を手に入れたい
+          change: 0 - 0
         - dn: レオナ
-          item: アリスが何者か知りたい
-          transition: 1 / 2
+          value: アリスが何者か知りたい
+          change: 1 / 2
       intarest:
         - アリスの感情の推移と百合展開
         - ザヴィの伝説
@@ -218,13 +224,13 @@
         - レオナが旅に同行するか悩んで決心するシーン
         - レオナの全体欲求の提示
         - アリスが食料にありつける
-      state transition:
+      value change:
         - dn: アリス
-          item: 空腹を満たしたい
-          transition: -2 / inf
+          value: 空腹を満たしたい
+          change: -2 / inf
         - dn: レオナ
-          item: アリスが何者か知りたい
-          transition: 2 / inf
+          value: アリスが何者か知りたい
+          change: 2 / inf
       intarest:
         - レオナの葛藤
         - 百合展開
@@ -271,22 +277,22 @@
  ##
  #########
 
-2:
+- episode: 2
   summary:
-    logline: 
-    overall: ミリアと出会う, 水の大精霊を沈静化する
+    logline: アリスとレオナが神殿で暴れる水の大精霊を鎮めてミリアを助け、ミリアが旅に同行することになる
+    overall: ミリアと出会う, 水の大精霊の呪いを解く
     alice: 
     leona: 
     myria: rel アリスの冒険に同行することにする
     etc: 
-  state transition:
-    - dn: 
-      item: 
-      transition: 
+  value change:
+    - dn: アリス
+      item: 魔力珠を手に入れたい
+      change: 0 / 1
   status:
     highlights:
       battle: true
-      erros: 
+      erros: false
     time:
       elapsed days: 1
       start: 昼前
@@ -308,13 +314,14 @@
       gist:
         - 街の内外、時間の説明
         - アリスたちの現状
-      state transition:
-        - dn: 
-          item: 
-          transition: 
+      value change:
+        - dn: アリス
+          value: 面白いか退屈か
+          change: -1 / 1
       intarest:
-        - カラス目線
-        - アリスとぎこちないレオナの食事シーン
+        - カラス目線の狼、都市
+        - アリスと気品のあるレオナの食事シーン
+        - 魔力珠の手掛かりが欲しいアリスと、そんなことは全く分からないレオナ
       unpredictability of the end:
         - 魔力珠の在処は分かるのか
       contents:
@@ -327,29 +334,30 @@
         /integ mod noCha --- ---- f - ------- 街の中、木造建築が主流
         /integ mod noCha --- ---- f - ------- 街の中、鎧窓
         /integ evn alice --- ---- f - ------- 手持ちの宝石を換金する（地の文でサッと）
-        /alice dec alice --- ---- f - ------- スリの少年の手を捕まえてごめんなさいを言わせてお金をあげる
+        /alice dec alice --- ---- f - ------- スリの少年の手を捕まえてごめんなさいを言わせてお金をあげる　アリスを見てぽやんとするも自然と跪く
         /integ evn grp11 --- ---- f - ------- 魔力珠の在処について話ながら食事をする
         /integ evn grp11 --- ---- f - ------- 焼きあげて半身にしたマスを手持ちの食事用ナイフで切りながら刺して食べる
         /leona odl alice hnt s009 f - ------- アリスが所作が洗練されていて王族のようだと言う
-        &                hnt s028               @alice- アリスが所作が洗練されていて王族のようだと言う
+        &                hnt s028     @alice- アリスが所作が洗練されていて王族のようだと言う
         /integ evn multi tPh e090 f e ------- レオナがアリスを精霊かと訪ねたことを受けて数年前に狂気に呪われた精霊と（騎士たちと一緒に）対峙して手強かったと話す
         /leona odl third hnt s009 f - ------- アリスが店を指定、アリス「素敵な街だね」店主「あんたたちもカルツ王国から来た口か」　レオナ強く否定「違います！」
+        /integ evn alice con c072 f - ------- アリスがカラスを見送るとその視線の先に精霊を見つける
 
     - scene: 2
       gist:
         - 暴れだす水の大精霊とミリアの危機
         - バトル開始　まずは呼び掛けから
-      state transition:
-        - dn: 
-          item: 
-          transition: 
+      value change:
+        - dn: アリス
+          value: ミリアが精霊を鎮めるのを見たい
+          change: 0 / -1
       intarest:
-        - 神と友達感覚のアリス
         - バトル
       unpredictability of the end:
         - 暴れる水の大精霊に跳ね飛ばされたミリアは大丈夫なのか
       contents:
-        /integ evn alice --- ---- f - ------- ミリアを見付けて可愛いと言う
+        /integ evn alice --- ---- f - ------- ミリアを見つけて可愛いと言う
+        /integ evn leona --- ---- f - ------- それどころじゃないよ！
         /integ evn grp11 tPh m090 f m ------- 発狂した水の大精霊と対峙する
         /alice odl alice con c018 f - ------- アリスが周囲への害を強く気にする
         /integ evn myria --- ---- f - ------- ミリアが水の大精霊と対峙して跳ね飛ばされる
@@ -359,10 +367,10 @@
       gist:
         - バトル佳境
         - 水の大精霊がひれ伏す
-      state transition:
-        - dn: 
-          item: 
-          transition: 
+      value change:
+        - dn: アリス
+          value: ミリアを助けて精霊を鎮めたい
+          change: 0 / inf
       intarest:
         - バトル
         - 水の大精霊と訳ありな感じのアリス
@@ -373,8 +381,8 @@
         /alice odl alice tPh e005 f - @ring-- 発狂した水の大精霊を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
         /alice odl alice tPh e004 f - favorbl レオナが引き付けている間にアリスが暴れる水の大精霊をおとなしくさせる
         /alice li1 alice hnt s028 f - @alice- 発狂した水の大精霊を鎮める
-        /alice in> leona --- ---- f - ------- レオナとの共闘で水の大精霊を沈静化する（信頼関係の構築）
-        /leona in< alice --- ---- f - ------- アリスとの共闘で水の大精霊を沈静化する（信頼関係の構築）
+        /alice in> leona --- ---- f - ------- アリスとレオナの共闘で水の大精霊を沈静化する（信頼関係の構築）
+        /leona in< alice --- ---- f - ------- アリスとレオナの共闘で水の大精霊を沈静化する（信頼関係の構築）
         /multi pst multi --- ---- f - ------- （信頼関係の構築）
         /alice in> myria --- ---- f - ------- ミリアが、精神逆転でエルフを憎む水の大精霊に襲われたところを間一髪でアリスに助けられる（信頼関係の構築）
         /myria in< alice --- ---- f - ------- アリスが、精神逆転でエルフを憎む水の大精霊に襲われたミリアを間一髪で助ける（信頼関係の構築）
@@ -395,15 +403,18 @@
       gist:
         - ミリアの自己紹介
         - 共に旅を
-      state transition:
-        - dn: 
-          item: 
-          transition: 
+      value change:
+        - dn: アリス
+          value: ミリアを一緒に旅がしたい
+          change: 0 / inf
+        - dn: アリス
+          value: 魔力珠を手に入れたい
+          change: 1 / 2
       intarest:
         - アリスに巻き込まれるミリア
         - 消極的なミリアと誘うアリス
       unpredictability of the end:
-        - 
+        - 遷世教団とどう向き合うのか
       contents:
         /integ evn multi tPh t090 f t ------- 三人で喜び褒め合う
         /integ evn multi --- ---- f - ------- レオナが水の大精霊を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
@@ -443,7 +454,7 @@
  ##     ##
   #######
 
-3:
+- episode: 3
   summary:
     logline: 
     overall: 遷世教団の神殿に忍び込む
@@ -451,10 +462,10 @@
     leona: 
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -489,9 +500,9 @@
     /integ evn grp11 --- ---- f - ------- 遷世教団の神殿に忍び込む
     /integ evn grp11 fsh s039 f - @hestel エスの神珠から感じられる神気に思い当たりがある、はっきり思い出せない　私の記憶は古いからね（ヘスト゠エリア）
     /alice odl alice tPh e004 b e threat- ローズが奇蹟の力で信者の女を若返らせる　女の侍女が驚く　遷世の力です
-    &                fsh s075               @roseDi ローズが奇蹟の力で信者の女を若返らせる　女の侍女が驚く　遷世の力です
+    &                fsh s075     @roseDi ローズが奇蹟の力で信者の女を若返らせる　女の侍女が驚く　遷世の力です
     /alice li1 rose- hnt s028 b - @alice- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
-    &                con c035               @evil-- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
+    &                con c035     @evil-- 邪神は最古の神で呪いは最強なので誰にも呪いを解けない　解けるとすれば……
     /integ inf third hnt s029 f - @es---- 遷世教団は遷世神エスに仕えている
     &                cat r042             遷世教団は遷世神エスに仕えている
     /integ inf third hnt s029 f - @es---- 遷世は今の世界を終わらせて新しい世界に移行すること
@@ -505,7 +516,7 @@
     /alice odl alice tPh m004 f m ordeal- アリスがローズと戦う 1
     /alice odl alice --- ---- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
     /rose- odl rose- tPh e005 b - @orbPln ローズが封界の指輪を見て「見つけた！」と言って笑む
-    /alice odl alice tPh e077 f e   transition アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+    /alice odl alice tPh e077 f e   change アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
     &                tPh e005             アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
     /      con c018             アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
     /integ evn alice hnt s050 f - @roseMy ローズの体が普通の人族＋αの力しかないのに魔力が異常に多いと気付く
@@ -523,10 +534,10 @@
       gist:
         - ローズが話をしている
         - 信者に奇跡を起こす
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 仮想敵（大精霊のことを問題視）の登場
         - 仮想敵の能力
@@ -538,10 +549,10 @@
       gist:
         - 遷世教団の神殿に教徒として潜入している
         - 信者に魔力珠について聞いて回る
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - バレないように
         - 新たな情報とローズの脅威
@@ -553,10 +564,10 @@
       gist:
         - ローズと戦闘する
         - ザヴィについて話す
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 戦闘
         - 衝撃の事実
@@ -568,10 +579,10 @@
       gist:
         - 遷世教団の神殿から逃げ出す
         - ローズたちが会話する
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - ピンチとピンチからの脱出
         - ローズたちの反応
@@ -605,7 +616,7 @@
        ##
        ##
 
-4:
+- episode: 4
   summary:
     logline: 
     overall: ペトラと出会う
@@ -613,10 +624,10 @@
     leona: 
     myria: li1 星の大精霊と出会う
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -686,10 +697,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -701,10 +712,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -716,10 +727,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -731,10 +742,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -768,7 +779,7 @@
  ##    ##
   ######
 
-5:
+- episode: 5
   summary:
     logline: 
     overall: 盗賊騎士の関門
@@ -776,10 +787,10 @@
     leona: odl 試練 1
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -812,7 +823,7 @@
     /leona odl leona tPh m007 f m ordeal- レオナがエリーと戦う 1
     /leona odl erie- hnt s009 f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
     /leona li1 leona con c051 f - @fencer レオナがエリーに剣を折られる
-    /leona odl leona tPh e009 f -   transition レオナがエリーに敗北する
+    /leona odl leona tPh e009 f -   change レオナがエリーに敗北する
     /leona odl leona con c019 f - ------- 〃
     /alice odl alice tPh e083 f e favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
     /alice li1 alice hnt s028 f - @alice- アリスがレオナをつい本気で治療して指輪が熱を持って気づく
@@ -824,10 +835,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -839,10 +850,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -854,10 +865,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -869,10 +880,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -906,7 +917,7 @@
  ##     ##
   #######
 
-6:
+- episode: 6
   summary:
     logline: 
     overall: 祭り
@@ -914,10 +925,10 @@
     leona: rel 背景, li1 イマイチの剣を買う
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -967,10 +978,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -982,10 +993,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -997,10 +1008,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1012,10 +1023,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1049,7 +1060,7 @@
    ##
    ##
 
-7:
+- episode: 7
   summary:
     logline: 
     overall: 妖精の森でのドラゴン「バルドロード」との対話
@@ -1057,10 +1068,10 @@
     leona: 
     myria: 
     etc: ペトラ 試練
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -1127,10 +1138,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1142,10 +1153,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1157,10 +1168,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1172,10 +1183,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1209,7 +1220,7 @@
  ##     ##
   #######
 
-8:
+- episode: 8
   summary:
     logline: 
     overall: 魔法使いの老婆を助ける
@@ -1217,10 +1228,10 @@
     leona: 
     myria: odl 試練 1
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -1257,7 +1268,7 @@
     /myria odl alice con c062 f - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
     /myria odl myria tPh m012 f m ordeal- ミリアがフェイと戦う 1[ref-030]
     /myria odl myria con c020 f - thought フェイが幻霊を召喚してミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
-    /myria odl fei-- tPh e013 f -   transition フェイが「また来る」と言って撤退する
+    /myria odl fei-- tPh e013 f -   change フェイが「また来る」と言って撤退する
     /myria odl alice tPh t012 f t ------- アリスが戦いに干渉し、戦闘後に褒める
     /myria odl leona tPh t012 f t ------- レオナが戦いに干渉し、戦闘後に褒める
     /myria odl myria con c060 f - ------- ミリアがアリスとレオナに次から手を出さないでと言う
@@ -1267,10 +1278,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1282,10 +1293,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1297,10 +1308,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1312,10 +1323,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1349,7 +1360,7 @@
  ##     ##
   #######
 
-9:
+- episode: 9
   summary:
     logline: 
     overall: 魔力泉の街
@@ -1357,10 +1368,10 @@
     leona: 
     myria: rel ミリアの背景, li1 ミリアが星の大精霊と契約できない
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -1406,10 +1417,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1421,10 +1432,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1436,10 +1447,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1451,10 +1462,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1488,7 +1499,7 @@
     ##    ##   ##
   ######   #####
 
-10:
+- episode: 10
   summary:
     logline: 
     overall: 妖精女王への謁見
@@ -1496,10 +1507,10 @@
     leona: 
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -1559,10 +1570,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1574,10 +1585,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1589,10 +1600,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1604,10 +1615,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1641,7 +1652,7 @@
     ##      ##
   ######  ######
 
-11:
+- episode: 11
   summary:
     logline: 
     overall: 
@@ -1649,10 +1660,10 @@
     leona: 
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -1679,8 +1690,8 @@
     /leona odl leona con c061 f - ------- レオナがアリスに戦いに手を出さないでと言う
     /integ evn alice cat s045 f - @zavia- ザヴィが倒される相手なんているんだろうかと疑問を言う
     /integ inf rose- hnt s032 f - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
-    &                hnt r050               @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
-    /      hnt s030               @roseMy ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
+    &                hnt r050     @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
+    /      hnt s030     @roseMy ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
     &                cat r070             ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
     /integ inf rose- hnt s031 f - @zavia- ザヴィはローズが殺した
     &integ inf rose- cat r045 f - @zavia- ザヴィはローズが殺した
@@ -1689,7 +1700,7 @@
     /alice odl alice tPh m083 f m ordeal- アリスがローズと戦う 2
     /integ evn alice cat s070 f - @roseMy やはりローズの体は普通の人族なのに魔力の量が異常だと言う
     /alice odl alice hnt r084 f - ------- 説得を試みる
-    /alice odl alice tPh e077 f e   transition アリスがまともに戦えず怪我をする
+    /alice odl alice tPh e077 f e   change アリスがまともに戦えず怪我をする
     /alice odl rose- tPh e005 f - @alice- ローズがアリスをどうせ死なないと言う
     /alice odl leona tPh t083 f t ------- レオナがアリスを守ろうとする
     /alice odl myria tPh t083 f t ------- ミリアがアリスを守ろうとする
@@ -1700,10 +1711,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1715,10 +1726,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1730,10 +1741,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1745,10 +1756,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1782,7 +1793,7 @@
     ##   ##
   ###### #########
 
-12:
+- episode: 12
   summary:
     logline: 
     overall: 湖畔の街, 湖底の洞窟
@@ -1790,10 +1801,10 @@
     leona: 
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -1839,7 +1850,7 @@
     /integ evn noCha con c055 f - ------- 湖底の街の描写
     /integ inf noCha hnt s029 f - @es---- 祠の古文書エスは邪神の呪いによって世界の破壊を欲するようにされた
     &                cat r046             祠の古文書エスは邪神の呪いによって世界の破壊を欲するようにされた
-    /      con c035               @evil-- 祠の古文書エスは邪神の呪いによって世界の破壊を欲するようにされた
+    /      con c035     @evil-- 祠の古文書エスは邪神の呪いによって世界の破壊を欲するようにされた
     /integ inf alice hnt s029 f - @es---- アリスが邪神の呪いなら解呪できると思うと言う
     /integ inf noCha con c034 f - @elf--- 祠の古文書古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
     /leona li1 leona con c051 f - @fencer レオナが祠の向こうの隠し部屋にあった剣を抜く（レオナには壁が光って見える）[ref-049]
@@ -1849,10 +1860,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1864,10 +1875,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1879,10 +1890,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1894,10 +1905,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1931,7 +1942,7 @@
     ##   ##     ##
   ######  #######
 
-13:
+- episode: 13
   summary:
     logline: 
     overall: 水着回
@@ -1939,10 +1950,10 @@
     leona: 
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -1979,10 +1990,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -1994,10 +2005,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2009,10 +2020,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2024,10 +2035,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2061,7 +2072,7 @@
     ##         ##
   ######       ##
 
-14:
+- episode: 14
   summary:
     logline: 
     overall: 
@@ -2069,10 +2080,10 @@
     leona: 
     myria: 
     etc: ペトラが妖精領主になる
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -2122,10 +2133,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2137,10 +2148,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2152,10 +2163,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2167,10 +2178,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2204,7 +2215,7 @@
     ##   ##    ##
   ######  ######
 
-15:
+- episode: 15
   summary:
     logline: 
     overall: 
@@ -2212,10 +2223,10 @@
     leona: odl 試練 2
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -2239,7 +2250,7 @@
   elements:
     /rose- li2 rose- hnt s033 b - @orbPln 望みの全てはp27 エリクの封印に懸かっている
     /rose- li2 rose- hnt s033 b - @orbPln エスは封印の中で邪神の呪いに苛まれている
-    &                hnt s029               @es---- エスは封印の中で邪神の呪いに苛まれている
+    &                hnt s029     @es---- エスは封印の中で邪神の呪いに苛まれている
     /rose- li1 rose- fsh s075 b - @roseDi ローズが神殿教会のバルコニーに立つと空が移ろって晴れる
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
@@ -2252,7 +2263,7 @@
     /leona odl leona tPh m086 f m ordeal- レオナがエリーと戦う 2
     /leona odl leona con c061 f - ------- レオナがアリスに手を出さないよう言ってあると言う
     /leona odl leona con c051 f - @fencer 剣からエリーへの対処のヒントを感じる
-    /leona odl leona tPh m085 f -   transition レオナがエリーと引き分ける
+    /leona odl leona tPh m085 f -   change レオナがエリーと引き分ける
     /leona odl erie- con c080 f - ------- エリーが絶対にこのままでは終わらせないと宣言する
     /leona odl alice tPh t086 f t ------- アリスがレオナを祝福する
     &                tPh t085             アリスがレオナを祝福する
@@ -2263,10 +2274,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2278,10 +2289,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2293,10 +2304,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2308,10 +2319,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2345,7 +2356,7 @@
     ##   ##     ##
   ######  #######
 
-16:
+- episode: 16
   summary:
     logline: 
     overall: 野営
@@ -2353,10 +2364,10 @@
     leona: 
     myria: li1 星の大精霊の訪問
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -2418,10 +2429,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2433,10 +2444,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2448,10 +2459,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2463,10 +2474,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2500,7 +2511,7 @@
     ##     ##
   ######   ##
 
-17:
+- episode: 17
   summary:
     logline: 
     overall: 
@@ -2508,10 +2519,10 @@
     leona: 
     myria: odl 試練 2
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -2540,21 +2551,21 @@
     /myria odl myria tPh m087 f m ordeal- ミリアがフェイと戦う 2
     /integ evn myria --- ---- f - ------- 草花の亜精霊（人型でない光の粒）に助けられる
     /myria odl myria con c088 f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
-    /myria odl fei-- --- ---- f -   transition フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
+    /myria odl fei-- --- ---- f -   change フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
     /myria odl alice tPh t087 f t ------- アリスがミリアを褒める
     /myria odl leona tPh t087 f t ------- レオナがミリアを褒める
     /alice li1 alice --- ---- f - ------- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
-    &                hnt s028               @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
+    &                hnt s028     @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
     /alice etc third con c059 f - ------- ペトラにもらった妖精の蜜飴をなめさせて縁故をつなぐ
   assembly:
     - scene: 1
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2566,10 +2577,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2581,10 +2592,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2596,10 +2607,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2633,7 +2644,7 @@
     ##   ##     ##
   ######  #######
 
-18:
+- episode: 18
   summary:
     logline: 
     overall: 合宿
@@ -2641,10 +2652,10 @@
     leona: 
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -2703,10 +2714,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2718,10 +2729,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2733,10 +2744,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2748,10 +2759,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2785,7 +2796,7 @@
     ##   ##     ##
   ######  #######
 
-19:
+- episode: 19
   summary:
     logline: 
     overall: 
@@ -2793,10 +2804,10 @@
     leona: 
     myria: odl 試練 3
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -2829,21 +2840,21 @@
     /myria odl multi con c060 f - ------- アリスとレオナは静観する
     /myria odl myria con c082 f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
     &                tPh m065             フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
-    /myria odl myria --- ---- f -   transition ミリアがフェイを倒す
+    /myria odl myria --- ---- f -   change ミリアがフェイを倒す
     /integ evn third --- ---- f - ------- フェイを食べた幻霊は不味いと言って飛び去っていく
     /myria odl alice tPh t081 f t ------- アリスがミリアを褒める
     /myria odl leona tPh t081 f t ------- レオナがミリアを褒める
     /myria odl myria prm r010 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
-    /fei-- odl fei-- prm rls f -   transition フェイがミリアに敗北する[ref-029]
+    /fei-- odl fei-- prm rls f -   change フェイがミリアに敗北する[ref-029]
   assembly:
     - scene: 1
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2855,10 +2866,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2870,10 +2881,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2885,10 +2896,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2922,7 +2933,7 @@
  ##         ##   ##
  #########   #####
 
-20:
+- episode: 20
   summary:
     logline: 
     overall: 
@@ -2930,10 +2941,10 @@
     leona: 
     myria: li1 星の大精霊との融合
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -2971,10 +2982,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -2986,10 +2997,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3001,10 +3012,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3016,10 +3027,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3053,7 +3064,7 @@
  ##           ##
  #########  ######
 
-21:
+- episode: 21
   summary:
     logline: 
     overall: 
@@ -3061,10 +3072,10 @@
     leona: rel レオナの演武
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -3104,10 +3115,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3119,10 +3130,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3134,10 +3145,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3149,10 +3160,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3186,7 +3197,7 @@
  ##        ##
  ######### #########
 
-22:
+- episode: 22
   summary:
     logline: 
     overall: 
@@ -3194,10 +3205,10 @@
     leona: odl 試練 3
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -3229,10 +3240,10 @@
     /leona odl third tPh e064 f - @o'dorg オー゠ドルグがレオナに何が一番大切か、じゃ　前に進みたいんじゃろう？　置いていかねばならんものもあると言う
     /leona odl leona tPh m079 f m ordeal- レオナがエリーと戦う 3
     /leona odl leona con c080 f - thought ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
-    &                tPh m064               @o'dorg ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
-    /leona odl leona --- ---- f -   transition レオナがエリーを倒す
+    &                tPh m064     @o'dorg ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
+    /leona odl leona --- ---- f -   change レオナがエリーを倒す
     /leona odl leona con c051 f - @fencer 剣に封じられていた竜克の女剣士レイティア・アルテノートの力を受け継ぐ
-    /erie- odl erie- prm rls f -   transition エリーがレオナに敗北する
+    /erie- odl erie- prm rls f -   change エリーがレオナに敗北する
     /leona odl leona prm r006 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
     /integ evn grp11 tPh t079 f t ------- アリスとミリアがレオナを祝福する
     /alice odl alice tPh e077 f e favorbl レオナからの惜しみない感謝をミリアと味わうntt
@@ -3241,10 +3252,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3256,10 +3267,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3271,10 +3282,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3286,10 +3297,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3323,7 +3334,7 @@
  ##        ##     ##
  #########  #######
 
-23:
+- episode: 23
   summary:
     logline: 
     overall: 
@@ -3331,10 +3342,10 @@
     leona: 
     myria: li1 ハイエルフの叡智を得る
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -3368,7 +3379,7 @@
     /integ evn alice cat s031 f - @zavia- ザヴィだけで神を封印できるかどうか、協力者がいたかも
     /alice lov multi --- ---- f - favorbl 告白とキス
     /myria odl myria prm r011 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
-    &                tPh t065               @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
+    &                tPh t065     @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     /      con c034             ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     /alice odl rose- tPh e077 b e threat- ローズがパワーアップする[ref-023]
     /integ inf rose- hnt s032 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
@@ -3380,10 +3391,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3395,10 +3406,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3410,10 +3421,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3425,10 +3436,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3462,7 +3473,7 @@
  ##              ##
  #########       ##
 
-24:
+- episode: 24
   summary:
     logline: 
     overall: 
@@ -3470,10 +3481,10 @@
     leona: 
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -3501,14 +3512,14 @@
     /integ etc alice con c068 f - ------- アリスが島の中央の大きな木のたもとにローズがいると分かる
     /integ inf rose- hnt r031 f - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
     /rose- li1 rose- hnt r030 f - @roseMy （ローズの謎）ローズがエスは封印される直前に自身の使徒とローズと融合させたことを告白する
-    /      fsh r075               @roseDi （ローズの神性）ローズがエスは封印される直前に自身の使徒とローズと融合させたことを告白する
+    /      fsh r075     @roseDi （ローズの神性）ローズがエスは封印される直前に自身の使徒とローズと融合させたことを告白する
     /rose- li2 rose- hnt r033 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
     &                cat r071             ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
     /      fsh r089             ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
     /alice li1 alice hnt s028 f - @alice- アリスの力が解放されてp27 エリクが楽園になる
     /alice odl alice tPh m077 f m ordeal- アリスがローズと戦う 3
     /alice odl alice ref c078 f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
-    /alice odl alice --- ---- f -   transition アリスがローズを倒す
+    /alice odl alice --- ---- f -   change アリスがローズを倒す
     /integ evn alice cat s071 f - @orbPln アリスがどうやってエスの封印を解くつもりなのか尋ねる
     /alice odl alice prm r002 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
     &                hnt r002             アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
@@ -3518,10 +3529,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3533,10 +3544,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3548,10 +3559,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3563,10 +3574,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3600,7 +3611,7 @@
  ##        ##    ##
  #########  ######
 
-25:
+- episode: 25
   summary:
     logline: 
     overall: エスとの邂逅
@@ -3608,10 +3619,10 @@
     leona: 
     myria: 
     etc: 
-  state transition:
+  value change:
     - dn: 
       item: 
-      transition: 
+      change: 
   status:
     highlights:
       battle: 
@@ -3653,10 +3664,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3668,10 +3679,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3683,10 +3694,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
@@ -3698,10 +3709,10 @@
       gist:
         - 
         - 
-      state transition:
+      value change:
         - dn: 
-          item: 
-          transition: 
+          value: 
+          change: 
       intarest:
         - 
         - 
