@@ -18,6 +18,7 @@
 
 
 
+
     ##
   ####
     ##
@@ -27,23 +28,43 @@
   ######
 
 - episode: 1
+
   summary:
-    logline: アリスが地上に出てきて冒険の目的を見つけレオナとともに旅に出る
-    overall: レオナと出会う
-    alice: rel 冒険の目的（魔力珠）を見つける
-    leona: rel 運命の人（アリス）と出会い旅に同行することにする
-    myria: 
-    etc: 
+    - dn: logline
+      description: アリスが地上に出てきて冒険の目的を見つけレオナとともに旅に出る
+
+    - dn: overall
+      description: レオナと出会う
+
+    - dn: アリス
+      description: rel 冒険の目的（魔力珠）を見つける
+
+    - dn: レオナ
+      description: rel 運命の人（アリス）と出会い旅に同行することにする
+
+    - dn: ミリア
+      description: none
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: アリス
       item: 冒険ができるか
-      change: 0 / 1
+      change: . / .+
     - dn: アリス
       item: 魔力珠を手に入れたい
-      change: 0 - 0
+      change: none
     - dn: レオナ
       item: 導きを得られるか
-      change: 0 / 1
+      change: . / .+
+
   status:
     highlights:
       battle: true
@@ -52,35 +73,52 @@
       elapsed days: 0
       start: 朝
       end: 朝
-      notes: 
+      notes: none
     location:
       - item: p1 森
         tone: 神秘的, フレッシュ, 生命の息吹
     destination:
-      start: 
-      middle: 
+      start: none
+      middle: none
       end: p2 街
       top: p027 エリク
     notes:
-      - 
-  elements:
+      none
+
+  episode elements:
+
   assembly:
 
     - scene: 1-1
+      descriptor: 
+
       gist:
-        - アリスが登場して紹介のシーン（芝居がかっている）
-        - アリスの全体欲求の提示
-        - ヘスト゠エリアの伏線
-        - オーブプランの伏線
+        アリスが登場して紹介のシーン（芝居がかっている）
+        アリスの全体欲求の提示
+        ヘスト゠エリアの伏線
+        オーブプランの伏線
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: アリス
           value: 冒険したい
-          change: 0 \ -1
+          change: . \ .-
+
       intarest:
-        - ミステリアス不思議な言葉が多い
+        ミステリアス不思議な言葉が多い
+
       unpredictability of the end:
-        - アリスは空腹を癒やして冒険に出発できるのか
-      contents:
+        アリスは空腹を癒やして冒険に出発できるのか
+
+      scene elements:
         /integ evn noCha --- ---- f - ------- 地面が爆散する　鳥たちが飛び立つ　魔法の残滓
         /integ mod noCha --- ---- f - ------- 深い森（神秘的, フレッシュ, 生命の息吹）
         /integ evn alice --- ---- f - ------- 塵が風魔法で吹き飛ばされてアリスが地下から飛び出てくる「やるぞ、おー！」
@@ -94,40 +132,70 @@
         /integ evn alice --- ---- f - ------- 空腹（しっかり描いておく）で冒険できない
 
     - scene: 1-2
+      descriptor: 
+
       gist:
-        - 狼の親子に襲われそうになり返り討ちにして食料にしようとするが見逃す
+        狼の親子に襲われそうになり返り討ちにして食料にしようとするが見逃す
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: アリス
           value: 空腹を満たしたい
-          change: 0 \ -1
+          change: . \ .-
+
       intarest:
-        - 戦闘
-        - アリスの懊悩
+        戦闘
+        アリスの懊悩
+
       unpredictability of the end:
-        - アリスの空腹は癒やせるのか
-      contents:
+        アリスの空腹は癒やせるのか
+
+      scene elements:
         /integ evn alice --- ---- f m ------- 狼の親子に襲われる一件
         /integ evn alice --- ---- f - ------- アリスが狼に、仲間に好かれる魔法を使う
         /integ evn alice --- ---- f - ------- 空腹描写
         /integ evn alice con c072 f - ------- アリスがカラスを呼び狼の様子を見ておくように言う
 
     - scene: 1-3
+      descriptor: 
+
       gist:
-        - ザヴィの名とアリスのザヴィへの思い
-        - オー゠ドルグによる前置き
+        ザヴィの名とアリスのザヴィへの思い
+        オー゠ドルグによる前置き
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: アリス
           value: 空腹を満たしたい
-          change: -1 \ -2
+          change: .\ .--
         - dn: アリス
           value: ザヴィに会いたい
-          change: 0 \ -1
+          change: . \ .-
+
       intarest:
-        - アリスの強い思い
-        - オー゠ドルグのユーモラスさ
+        アリスの強い思い
+        オー゠ドルグのユーモラスさ
+
       unpredictability of the end:
-        - アリスは空腹を満たせるか
-      contents:
+        アリスは空腹を満たせるか
+
+      scene elements:
         /alice li1 alice hnt s028 f - @alice- アリスが魔法を無詠唱で使って詠唱が必要なことに気づく　ザヴィに言われていた
         /alice odl alice prm s002 f - ------- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
         &                tPh e005     @zavia- アリスが封界の指輪を見て愛おしげにザヴィの名を口にする
@@ -138,23 +206,38 @@
         /integ evn third --- ---- f - @o'dorg オー゠ドルグが東を訪ねアリスがあっちと指し示し少しして東と西はどっちがどっちだっけ？と言うも老爺を望んで物知り顔でまいっかと言う
 
     - scene: 1-4
+      descriptor: 
+
       gist:
-        - レオナが登場して紹介のシーン
-        - レオナがアリスを妖魔か精霊と間違えて警戒する
+        レオナが登場して紹介のシーン
+        レオナがアリスを妖魔か精霊と間違えて警戒する
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: アリス
           value: 空腹を満たしたい
-          change: -2 \ -3
+          change: .-\ .---
         - dn: レオナ
           value: アリスが何者か知りたい
-          change: 0 \ -1
+          change: . \ .-
+
       intarest:
-        - レオナの勘違い
-        - アリスとレオナの噛み合わない会話（食料のアリス、警戒のレオナ）
+        レオナの勘違い
+        アリスとレオナの噛み合わない会話（食料のアリス、警戒のレオナ）
+
       unpredictability of the end:
-        - レオナの過去とは
-        - アリスは空腹を満たせるか
-      contents:
+        レオナの過去とは
+        アリスは空腹を満たせるか
+
+      scene elements:
         /integ evn leona --- ---- f - ------- レオナ登場
         /integ mod leona --- ---- f - ------- 栗色のボブ、虹彩は濃茶色、上は裾を切り詰めたタンクトップの上に胸甲をして下はホットパンツ（ここで美少女と書かない）
         /integ mod leona --- ---- f - ------- アリスより身長が高く胸は小振りなリンゴほど
@@ -163,51 +246,80 @@
         /leona odl leona hnt s009 f - ------- レオナが人捜しをしていると言う「あなたが運命の人？」
 
     - scene: 1-5
+      descriptor: 
+
       gist:
-        - レオナの魔物との戦闘
-        - アリスがレオナの剣の腕を褒める
-        - 女剣士レイティア・アルテノートの伏線
+        レオナの魔物との戦闘
+        アリスがレオナの剣の腕を褒める
+        女剣士レイティア・アルテノートの伏線
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: アリス
           value: 空腹を満たしたい
-          change: -3 / -2
+          change: .--/ .--
         - dn: レオナ
           value: アリスが何者か知りたい
-          change: -1 / 0
+          change: ./ .+
+
       intarest:
-        - 戦闘
+        戦闘
+
       unpredictability of the end:
-        - アリスの空腹は癒やせるのか
-      contents:
+        アリスの空腹は癒やせるのか
+
+      scene elements:
         /integ evn leona tPh m091 f m ------- 魔物nttをレオナが倒す
         /leona odl alice con c014 f - ------- アリスがレオナの剣を褒める
         &                tPh t091 f t         アリスがレオナの剣を褒める
         /leona li1 leona con c051 f - @fencer レオナはドラゴンを倒した剣士の家系だと話す
         /integ evn leona --- ---- f - ------- それはともかくあなたは何者なの？　教えてくれたら食料を挙げる
-        /integ evn alice --- ---- f - ------- え、えぇっと私は……
+        /integ evn alice --- ---- f - ------- アリスが大賢者ザヴィの知り合いだと言う
 
     - scene: 1-6
+      descriptor: 
+
       gist:
-        - アリスがザヴィについて知って旅の目的を定めるシーン
-        - アリスがザヴィについて死って泣き崩れ慰められる
+        アリスがザヴィについて知って旅の目的を定めるシーン
+        アリスがザヴィについて死って泣き崩れ慰められる
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: アリス
           value: ザヴィに会いたい
-          change: -1 \ -inf
+          change: .\ .-----
         - dn: アリス
           value: 魔力珠を手に入れたい
-          change: 0 - 0
+          change: . .
         - dn: レオナ
           value: アリスが何者か知りたい
-          change: 1 / 2
+          change: .+ / .+++++
+
       intarest:
-        - アリスの感情の推移と百合展開
-        - ザヴィの伝説
+        アリスの感情の推移と百合展開
+        ザヴィの伝説
+
       unpredictability of the end:
-        - アリスは魔力珠を手に入れられるか
-        - アリスは空腹を満たせるか
-      contents:
-        /integ evn alice --- ---- f - ------- アリスが大賢者ザヴィの知り合いだと言う
+        アリスは魔力珠を手に入れられるか
+        アリスは空腹を満たせるか
+
+      scene elements:
         /integ inf leona hnt s031 f - @zavia- ザヴィは魔力珠を使って世界を滅ぼそうとして倒された[ref-043]
         /alice odl alice tPh e005 f - @zavia- アリスがザヴィの死を知り悲嘆に暮れる
         /alice odl alice prm s002 f - @zavia- アリスがザヴィの死を知って封界の指輪に触れる
@@ -220,24 +332,39 @@
         /integ evn alice --- ---- f - ------- 何者か教えてあげたから食料が欲しい
 
     - scene: 1-7
+      descriptor: 
+
       gist:
-        - レオナが旅に同行するか悩んで決心するシーン
-        - レオナの全体欲求の提示
-        - アリスが食料にありつける
+        レオナが旅に同行するか悩んで決心するシーン
+        レオナの全体欲求の提示
+        アリスが食料にありつける
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: アリス
           value: 空腹を満たしたい
-          change: -2 / inf
+          change: .-/ .+++++
         - dn: レオナ
           value: アリスが何者か知りたい
-          change: 2 / inf
+          change: .++ / .+++++
+
       intarest:
-        - レオナの葛藤
-        - 百合展開
+        レオナの葛藤
+        百合展開
+
       unpredictability of the end:
-        - アリスは魔力珠を手に入れられるか
-        - アリスとレオナの旅はどうなるのか
-      contents:
+        アリスは魔力珠を手に入れられるか
+        アリスとレオナの旅はどうなるのか
+
+      scene elements:
         /leona odl alice --- ---- f - ------- アリスが空腹を堪えつつレオナを旅に誘うがレオナはアリスが探し人なのか分からず葛藤する
         /leona odl alice prm s006 f - gDesire アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
         &                con c069             アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
@@ -269,6 +396,7 @@
 
 
 
+
   #######
  ##     ##
         ##
@@ -278,17 +406,37 @@
  #########
 
 - episode: 2
+
   summary:
-    logline: アリスとレオナが神殿で暴れる水の大精霊を鎮めてミリアを助け、ミリアが旅に同行することになる
-    overall: ミリアと出会う, 水の大精霊の呪いを解く
-    alice: 
-    leona: 
-    myria: rel アリスの冒険に同行することにする
-    etc: 
+    - dn: logline
+      description: アリスとレオナが神殿で暴れる水の大精霊を鎮めてミリアを助け、ミリアが旅に同行することになる
+
+    - dn: overall
+      description: ミリアと出会う, 水の大精霊の呪いを解く
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: rel アリスの冒険に同行することにする
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: アリス
       item: 魔力珠を手に入れたい
-      change: 0 / 1
+      change: . / +
+
   status:
     highlights:
       battle: true
@@ -307,24 +455,41 @@
       end: 遷世教団の神殿
       top: p027 エリク
     notes:
-        - ミリアが普段使うのは弱い精霊魔法
-  elements:
+        ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 街の内外、時間の説明
-        - アリスたちの現状
+        街の内外、時間の説明
+        アリスたちの現状
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: アリス
           value: 面白いか退屈か
-          change: -1 / 1
+          change: ./ .+
+
       intarest:
-        - カラス目線の狼、都市
-        - アリスと気品のあるレオナの食事シーン
-        - 魔力珠の手掛かりが欲しいアリスと、そんなことは全く分からないレオナ
+        カラス目線の狼、都市
+        アリスと気品のあるレオナの食事シーン
+        魔力珠の手掛かりが欲しいアリスと、そんなことは全く分からないレオナ
+
       unpredictability of the end:
-        - 魔力珠の在処は分かるのか
-      contents:
+        魔力珠の在処は分かるのか
+
+      scene elements:
         /integ evn alice con c072 f - ------- カラス目線で都市を見下ろして街の中を紹介してアリスの元にやってきて狼の無事を伝える
         /integ mod noCha --- ---- f - ------- 都市の外観、市城壁
         /integ mod noCha --- ---- f - ------- 都市の外観、城
@@ -344,18 +509,33 @@
         /integ evn alice con c072 f - ------- アリスがカラスを見送るとその視線の先に精霊を見つける
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 暴れだす水の大精霊とミリアの危機
-        - バトル開始　まずは呼び掛けから
+        暴れだす水の大精霊とミリアの危機
+        バトル開始　まずは呼び掛けから
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: アリス
           value: ミリアが精霊を鎮めるのを見たい
-          change: 0 / -1
+          change: . / .-
+
       intarest:
-        - バトル
+        バトル
+
       unpredictability of the end:
-        - 暴れる水の大精霊に跳ね飛ばされたミリアは大丈夫なのか
-      contents:
+        暴れる水の大精霊に跳ね飛ばされたミリアは大丈夫なのか
+
+      scene elements:
         /integ evn alice --- ---- f - ------- ミリアを見つけて可愛いと言う
         /integ evn leona --- ---- f - ------- それどころじゃないよ！
         /integ evn grp11 tPh m090 f m ------- 発狂した水の大精霊と対峙する
@@ -364,19 +544,34 @@
         /integ evn myria tPh e065 f - ------- アリスが見抜いて期待し、期待外れ　ミリアの精霊魔法が弱いことを印象づける
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - バトル佳境
-        - 水の大精霊がひれ伏す
+        バトル佳境
+        水の大精霊がひれ伏す
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: アリス
           value: ミリアを助けて精霊を鎮めたい
-          change: 0 / inf
+          change: . / .+++++
+
       intarest:
-        - バトル
-        - 水の大精霊と訳ありな感じのアリス
+        バトル
+        水の大精霊と訳ありな感じのアリス
+
       unpredictability of the end:
-        - アリスたちは衛兵から逃げられるのか
-      contents:
+        アリスたちは衛兵から逃げられるのか
+
+      scene elements:
         /integ evn grp11 --- ---- f - ------- アリスとレオナが水の大精霊と対峙する
         /alice odl alice tPh e005 f - @ring-- 発狂した水の大精霊を前に封界の指輪を見て逡巡し外さなくてもなんとかすると言う
         /alice odl alice tPh e004 f - favorbl レオナが引き付けている間にアリスが暴れる水の大精霊をおとなしくさせる
@@ -394,28 +589,43 @@
         /myria odl myria con c038 f - ------- 強い精霊信仰精霊に感謝を捧げる（特別な魔法を使って感謝の儀をする）
         /integ evn alice con c049 f - ------- 水の大精霊と交友を持つ
         /integ inf alice con c035 f - @evil-- アリスがこの呪いは「邪なあの子」のものねと言う
-        &                con c052 f     アリスがこの呪いは「邪なあの子」のものねと言う
+        &                con c052 f           アリスがこの呪いは「邪なあの子」のものねと言う
         /integ inf alice fsh s039 f - @hestel 流転の神ヘスト゠エリアや精霊のように移ろう存在の呪いは解きやすいと言う
         /integ evn multi --- ---- f - ------- 衛兵が来てアリス「ああいう人は面倒って決まってるんだから」面倒事を避けるためにアリスがレオナとミリアを連れて逃げる
         /alice lov multi --- ---- f - favorbl 手をつなぐ
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - ミリアの自己紹介
-        - 共に旅を
+        ミリアの自己紹介
+        共に旅を
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: アリス
           value: ミリアを一緒に旅がしたい
-          change: 0 / inf
+          change: . / +++++
         - dn: アリス
           value: 魔力珠を手に入れたい
-          change: 1 / 2
+          change: .+ / .++
+
       intarest:
-        - アリスに巻き込まれるミリア
-        - 消極的なミリアと誘うアリス
+        アリスに巻き込まれるミリア
+        消極的なミリアと誘うアリス
+
       unpredictability of the end:
-        - 遷世教団とどう向き合うのか
-      contents:
+        遷世教団とどう向き合うのか
+
+      scene elements:
         /integ evn multi tPh t090 f t ------- 三人で喜び褒め合う
         /integ evn multi --- ---- f - ------- レオナが水の大精霊を上手く誘導できなかったのを重く感じて今が見えないところへミリアが助言する
         /myria odl myria prm s010 f - thought ミリアが「過去に囚われてはいけない」と言う
@@ -446,6 +656,7 @@
 
 
 
+
   #######
  ##     ##
         ##
@@ -455,17 +666,37 @@
   #######
 
 - episode: 3
+
   summary:
-    logline: 
-    overall: 遷世教団の神殿に忍び込む
-    alice: odl 試練 1
-    leona: 
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 遷世教団の神殿に忍び込む
+
+    - dn: アリス
+      description: odl 試練 1
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -486,8 +717,9 @@
       end: 逃亡
       top: 東 . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /integ mod noCha --- ---- f - ------- 神殿の外観
     /integ mod noCha --- ---- f - ------- 神殿の内観
     /integ mod noCha --- ---- f - ------- 神殿内の人の様子、関係者の衣装
@@ -516,9 +748,9 @@
     /alice odl alice tPh m004 f m ordeal- アリスがローズと戦う 1
     /alice odl alice --- ---- f - @zavia- ローズがザヴィに似ていることからアリスが「ザヴィ！」と言う
     /rose- odl rose- tPh e005 b - @orbPln ローズが封界の指輪を見て「見つけた！」と言って笑む
-    /alice odl alice tPh e077 f e   change アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+    /alice odl alice tPh e077 f e results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-0+++]
     &                tPh e005             アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
-    /      con c018             アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
+    /                con c018             アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
     /integ evn alice hnt s050 f - @roseMy ローズの体が普通の人族＋αの力しかないのに魔力が異常に多いと気付く
     /alice lov alice --- ---- f - thought アリスの、2人といると楽しいという気づき
     /alice lov multi tPh t004 f t favorbl 無事を喜んだりして抱き合う
@@ -529,66 +761,128 @@
     /myria odl fei-- con c017 b - threat- フェイがミリアを見て壮絶な笑みを浮かべる
     /rose- li2 rose- hnt s033 b - @orbPln ローズがアリスは魔力珠を追うと言う
     /rose- li2 rose- hnt s033 b - @orbPln ローズが私はいずれ神の元に還ると言う
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - ローズが話をしている
-        - 信者に奇跡を起こす
+        ローズが話をしている
+        信者に奇跡を起こす
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
-          change: 
+          change: .
+
       intarest:
-        - 仮想敵（大精霊のことを問題視）の登場
-        - 仮想敵の能力
+        仮想敵（大精霊のことを問題視）の登場
+        仮想敵の能力
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 遷世教団の神殿に教徒として潜入している
-        - 信者に魔力珠について聞いて回る
+        遷世教団の神殿に教徒として潜入している
+        信者に魔力珠について聞いて回る
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
-          change: 
+          change: .
+
       intarest:
-        - バレないように
-        - 新たな情報とローズの脅威
+        バレないように
+        新たな情報とローズの脅威
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - ローズと戦闘する
-        - ザヴィについて話す
+        ローズと戦闘する
+        ザヴィについて話す
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
-          change: 
+          change: .
+
       intarest:
-        - 戦闘
-        - 衝撃の事実
+        戦闘
+        衝撃の事実
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 遷世教団の神殿から逃げ出す
-        - ローズたちが会話する
+        遷世教団の神殿から逃げ出す
+        ローズたちが会話する
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
-          change: 
+          change: .
+
       intarest:
-        - ピンチとピンチからの脱出
-        - ローズたちの反応
+        ピンチとピンチからの脱出
+        ローズたちの反応
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
 
 
 
@@ -617,17 +911,37 @@
        ##
 
 - episode: 4
+
   summary:
-    logline: 
-    overall: ペトラと出会う
-    alice: 
-    leona: 
-    myria: li1 星の大精霊と出会う
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: ペトラと出会う
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: li1 星の大精霊と出会う
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -648,8 +962,9 @@
       end: p7 街
       top: 東 . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /integ mod noCha --- ---- f - ------- 森の様子、若葉が多く目につくラクスの木とアルマータの木の混交林
     /integ mod noCha --- ---- f - ------- 道の様子、腐葉土、木が生えていないというだけの道
     /integ mod noCha --- ---- f - ------- 妖精の様子
@@ -692,66 +1007,128 @@
     /grp21 lov multi --- ---- b - ------- 戦いの前にローズがエリーにエロい祝福をする[ref-037-1]
     /rose- li1 rose- fsh s075 b - @roseDi ローズは自死することができない　ただ移ろいに身を任せるのみ
     /integ evn rose- con c076 b - ------- ローズが鳥籠の鳥を気に入っている描写
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -780,17 +1157,37 @@
   ######
 
 - episode: 5
+
   summary:
-    logline: 
-    overall: 盗賊騎士の関門
-    alice: 
-    leona: odl 試練 1
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 盗賊騎士の関門
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: odl 試練 1
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -809,8 +1206,9 @@
       end: p7 街
       top: 東 . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /integ mod noCha --- ---- f - ------- 森の様子、萌えだした新緑が目を引く、アルマータの木とエキノスの木とエルヒダの木の混交林
     /integ mod noCha --- ---- f - ------- 道の様子、踏み固められたわだちのある黄褐色の地面でときおり穴がある
     /integ mod noCha --- ---- f - ------- 関門の外観
@@ -823,73 +1221,135 @@
     /leona odl leona tPh m007 f m ordeal- レオナがエリーと戦う 1
     /leona odl erie- hnt s009 f - bGround エリーの背景（エリーが戦闘中にアネスがレイフを滅ぼしたことを言う）
     /leona li1 leona con c051 f - @fencer レオナがエリーに剣を折られる
-    /leona odl leona tPh e009 f -   change レオナがエリーに敗北する
+    /leona odl leona tPh e009 f - results レオナがエリーに敗北する
     /leona odl leona con c019 f - ------- 〃
     /alice odl alice tPh e083 f e favorbl アリスがレオナとエリーの戦いに干渉する（強いところを見せる）[ref-022]
     /alice li1 alice hnt s028 f - @alice- アリスがレオナをつい本気で治療して指輪が熱を持って気づく
     /erie- odl erie- prm sls  f - thought エリーが「私に勝てるとでも？　ふっ、驕りは身を滅ぼすのよ！」と言う
     /alice lov multi tPh t007 f - ------- アリスが治療する、ミリアが縋り付く
     /alice odl alice hnt s084 f - thought ローズが自分たちに目をつけていることに戦いの予感がする
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -918,17 +1378,37 @@
   #######
 
 - episode: 6
+
   summary:
-    logline: 
-    overall: 祭り
-    alice: 
-    leona: rel 背景, li1 イマイチの剣を買う
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 祭り
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: rel 背景, li1 イマイチの剣を買う
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -947,8 +1427,9 @@
       end: 居住地4
       top: 東 . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /integ mod noCha --- ---- f - ------- 宿の部屋の様子、窓から見下ろすと宿屋の庭木、亜麻色のシーツのベッドには藁が詰まっている
     /integ mod noCha --- ---- f - ------- 街の中の様子、小さな街、道は舗装されず地面がむき出しになっている
     /integ mod noCha --- ---- f - ------- 祭りの様子、色とりどりの衣装に着飾った女たち
@@ -973,66 +1454,128 @@
     &                con c008             アリスが「レオナの型は完成しているから型を破るべき」と言う
     /leona odl leona tPh e061 f - thought レオナがアリスに戦いに手を出さないでと言う
     /myria odl myria hnt s013 f - ------- アリスがミリアの魔法を褒めると祖母から教わったと嬉しそうにした直後に酷く落ち込む
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -1061,17 +1604,37 @@
    ##
 
 - episode: 7
+
   summary:
-    logline: 
-    overall: 妖精の森でのドラゴン「バルドロード」との対話
-    alice: 
-    leona: 
-    myria: 
-    etc: ペトラ 試練
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 妖精の森でのドラゴン「バルドロード」との対話
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -1092,8 +1655,9 @@
       end: p012 魔力泉の街
       top: 東 . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /integ mod noCha --- ---- f - ------- 森の様子、明るい葉色の中にもさらに明るい若葉が繁っているエルヒダの木の純林となった
     /integ mod noCha --- ---- f - ------- 道の様子、踏み固められたわだちのある黒褐色の地面、ところどころ木の根が張りだして馬車は大変そうだ
     /alice in> petra --- ---- f - ------- （対立）
@@ -1133,66 +1697,128 @@
     /fei-- etc rose- hnt s026 b - ------- ローズがその力で何をするの？と問いフェイがあのエルフを服従させるのですと言う
     /integ inf rose- hnt s050 b - @orb--- 下腹部を押さえて苦しむがすぐに治まる
     /grp21 lov multi --- ---- b - ------- ローズが妬けるわねなどと言いつつ3人でエロいことをする[ref-037-2]
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -1221,17 +1847,37 @@
   #######
 
 - episode: 8
+
   summary:
-    logline: 
-    overall: 魔法使いの老婆を助ける
-    alice: 
-    leona: 
-    myria: odl 試練 1
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 魔法使いの老婆を助ける
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: odl 試練 1
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -1252,8 +1898,9 @@
       end: p012 魔力泉の街
       top: 東 . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /integ mod noCha --- ---- f - ------- 森の様子、森の中は比較的明るいエルヒダの木の純林だ
     /integ mod noCha --- ---- f - ------- 道の様子、黒褐色の土、わだち
     /integ mod noCha --- ---- f - ------- 老婆の家の様子、拳ほどの石を積み上げて街壁とした
@@ -1268,71 +1915,133 @@
     /myria odl alice con c062 f - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
     /myria odl myria tPh m012 f m ordeal- ミリアがフェイと戦う 1[ref-030]
     /myria odl myria con c020 f - thought フェイが幻霊を召喚してミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
-    /myria odl fei-- tPh e013 f -   change フェイが「また来る」と言って撤退する
+    /myria odl fei-- tPh e0+3 f - results フェイが「また来る」と言って撤退する
     /myria odl alice tPh t012 f t ------- アリスが戦いに干渉し、戦闘後に褒める
     /myria odl leona tPh t012 f t ------- レオナが戦いに干渉し、戦闘後に褒める
     /myria odl myria con c060 f - ------- ミリアがアリスとレオナに次から手を出さないでと言う
     /leona odl multi tPh e085 f - ------- レオナがアリスに訓練してもらう[ref-018]
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -1361,17 +2070,37 @@
   #######
 
 - episode: 9
+
   summary:
-    logline: 
-    overall: 魔力泉の街
-    alice: 
-    leona: 
-    myria: rel ミリアの背景, li1 ミリアが星の大精霊と契約できない
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 魔力泉の街
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: rel ミリアの背景, li1 ミリアが星の大精霊と契約できない
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -1390,9 +2119,10 @@
       end: p015 湖畔の街
       top: 東 . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-      - アリスとレオナは朝から訓練で、ミリアが遅い朝
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+      アリスとレオナは朝から訓練で、ミリアが遅い朝
+
+  episode elements:
     /integ mod noCha --- ---- f - ------- 街の様子、魔力の密度が高い、街の人は肌つやがいい、妖精の姿が目につく
     /integ mod noCha --- ---- f - ------- 大通りには石が敷き詰められている
     /integ mod noCha --- ---- f - ------- 石造りの家屋が多いように見受けられる
@@ -1412,66 +2142,128 @@
     /leona odl multi tPh e085 f - ------- レオナがアリスに訓練してもらう[ref-018]
     /alice odl alice tPh e083 f e favorbl アリスがレオナの訓練をしてレオナから尊敬を表される
     /leona odl leona con c014 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -1500,17 +2292,37 @@
   ######   #####
 
 - episode: 10
+
   summary:
-    logline: 
-    overall: 妖精女王への謁見
-    alice: 
-    leona: 
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 妖精女王への謁見
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -1529,8 +2341,9 @@
       end: p012 魔力泉の街に戻る
       top: 東 . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /alice in> leona --- ---- f - ------- アリスがレオナに型を破るべきと強く主張し、父王の型は破れないと言い張るレオナに、アリスが破れないのは勇気がないからだと言い放ち、ショックを受けたレオナと仲違いする（対立）
     &leona in< alice --- ---- f - ------- アリスがレオナに型を破るべきと強く主張し、父王の型は破れないと言い張るレオナに、アリスが破れないのは勇気がないからだと言い放ち、ショックを受けたレオナと仲違いする（対立）
     /multi pst multi --- ---- f - ------- （対立）
@@ -1548,7 +2361,7 @@
     /integ inf third fsh s039 f - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
     &integ inf third fsh s039 f - @hestel アリスが妖精女王にエスについて尋ねると（世界の移り変わりや転生）[ref-046]
     /alice odl alice tPh e083 f e thought アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
-    &                tPh sls    アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
+    &                tPh sls               アリスが子孫であるローズへの愛とそのローズに襲われていることに戸惑う
     /alice odl alice hnt s084 f - thought ローズと戦うことになる予感が強くなる
     /alice odl alice hnt s084 f - thought ローズとは戦えないと悩む
     /alice lov multi --- ---- f - favorbl 3人でバックハグ
@@ -1565,66 +2378,128 @@
     /erie- li2 erie- --- ---- b - ------- エリーがアリスについてローズを心配する
     /alice odl rose- tPh e083 b e threat- ローズがアリスについて不気味な発言をするntt
     /grp21 lov multi --- ---- b - ------- エロいことをする[ref-037-3]
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -1653,17 +2528,37 @@
   ######  ######
 
 - episode: 11
+
   summary:
-    logline: 
-    overall: 
-    alice: odl 試練 2
-    leona: 
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 
+
+    - dn: アリス
+      description: odl 試練 2
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -1682,8 +2577,9 @@
       end: p015 湖畔の街
       top: 東 . p027 エリク（p27 エリクに魔力珠の手掛かりがあるかもしれないしミリアのためにもp27 エリクには行く）
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /alice in> leona --- ---- f - ------- レオナが、ローズに敗北したアリスを心から心配したことで仲直りするが剣の型は変えないと言う（和解）
     /leona in< alice --- ---- f - ------- アリスが、レオナに謝罪され自分も謝罪して仲直りし、レオナが決めたことならそれでいいと言う（和解）
     /multi pst multi --- ---- f - ------- （和解）
@@ -1691,7 +2587,7 @@
     /integ evn alice cat s045 f - @zavia- ザヴィが倒される相手なんているんだろうかと疑問を言う
     /integ inf rose- hnt s032 f - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
     &                hnt r050     @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
-    /      hnt s030     @roseMy ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
+    /                hnt s030     @roseMy ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
     &                cat r070             ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
     /integ inf rose- hnt s031 f - @zavia- ザヴィはローズが殺した
     &integ inf rose- cat r045 f - @zavia- ザヴィはローズが殺した
@@ -1700,72 +2596,134 @@
     /alice odl alice tPh m083 f m ordeal- アリスがローズと戦う 2
     /integ evn alice cat s070 f - @roseMy やはりローズの体は普通の人族なのに魔力の量が異常だと言う
     /alice odl alice hnt r084 f - ------- 説得を試みる
-    /alice odl alice tPh e077 f e   change アリスがまともに戦えず怪我をする
+    /alice odl alice tPh e077 f e results アリスがまともに戦えず怪我をする
     /alice odl rose- tPh e005 f - @alice- ローズがアリスをどうせ死なないと言う
     /alice odl leona tPh t083 f t ------- レオナがアリスを守ろうとする
     /alice odl myria tPh t083 f t ------- ミリアがアリスを守ろうとする
     /alice lov alice --- ---- f - thought アリスの、2人がかけがえのない存在だという気づき
     /leona odl multi tPh e085 f - ------- レオナがアリスに訓練してもらう[ref-018]
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -1794,17 +2752,37 @@
   ###### #########
 
 - episode: 12
+
   summary:
-    logline: 
-    overall: 湖畔の街, 湖底の洞窟
-    alice: rel アリスの背景
-    leona: 
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 湖畔の街, 湖底の洞窟
+
+    - dn: アリス
+      description: rel アリスの背景
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -1825,8 +2803,9 @@
       end: 居住地7（対岸の街）, アリスは砂浜に行きたくなっている
       top: 東 . p027 エリク, p019 大破壊の街
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /alice in> multi --- ---- f - ------- レオナとミリアが、アリスの悩みを聞いて応援する（信頼関係の構築）
     /leona in- alice --- ---- f - ------- アリスが、レオナとミリアに自分の来歴や悩みを話す（信頼関係の構築）
     &myria in< alice --- ---- f - ------- アリスが、レオナとミリアに自分の来歴や悩みを話す（信頼関係の構築）
@@ -1839,7 +2818,7 @@
     /alice odl alice --- ---- f - thought アリスがローズの体を心配する
     /alice odl alice tPh e077 f e bGround アリスの背景
     &                hnt r005             アリスの背景
-    /      con c052             アリスの背景
+    /                con c052             アリスの背景
     /integ evn multi tPh t083 f t ------- レオナとミリアがアリスを慰める
     /alice odl alice tPh e077 f e thought アリスの子に対する愛情
     /alice lov alice --- ---- f - thought アリスの、2人に対する独占欲の気づき
@@ -1850,71 +2829,133 @@
     /integ evn noCha con c055 f - ------- 湖底の街の描写
     /integ inf noCha hnt s029 f - @es---- 祠の古文書エスは邪神の呪いによって世界の破壊を欲するようにされた
     &                cat r046             祠の古文書エスは邪神の呪いによって世界の破壊を欲するようにされた
-    /      con c035     @evil-- 祠の古文書エスは邪神の呪いによって世界の破壊を欲するようにされた
+    /                con c035     @evil-- 祠の古文書エスは邪神の呪いによって世界の破壊を欲するようにされた
     /integ inf alice hnt s029 f - @es---- アリスが邪神の呪いなら解呪できると思うと言う
     /integ inf noCha con c034 f - @elf--- 祠の古文書古代ハイエルフの国は破壊衝動に突き動かされたエスに滅ぼされた
     /leona li1 leona con c051 f - @fencer レオナが祠の向こうの隠し部屋にあった剣を抜く（レオナには壁が光って見える）[ref-049]
     /leona li1 alice con c051 f - @fencer アリスがこの剣には何かが封じられている悪いものではないと言う
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -1943,17 +2984,37 @@
   ######  #######
 
 - episode: 13
+
   summary:
-    logline: 
-    overall: 水着回
-    alice: 
-    leona: 
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 水着回
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -1974,8 +3035,9 @@
       end: p015 湖畔の街
       top: 東 . p027 エリク, p019 大破壊の街
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /integ evn alice --- ---- f - ------- 昨夜アリスは縫い物をしていた、水着を作っていた
     /integ evn grp11 con c056 f - ------- ボートを借りて砂浜に行って楽しむえちちなシーンを量産する
     /integ evn third --- ---- f - ------- 精霊が現れて摂ってきてほしいと言われて取りに行く[thi-061]
@@ -1985,66 +3047,128 @@
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
     &multi pst multi --- ---- f - ------- （信頼関係の構築）
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -2073,17 +3197,37 @@
   ######       ##
 
 - episode: 14
+
   summary:
-    logline: 
-    overall: 
-    alice: 
-    leona: 
-    myria: 
-    etc: ペトラが妖精領主になる
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -2104,9 +3248,10 @@
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
     notes:
-      - 近くの村に特別な牛がいることを聞く
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      近くの村に特別な牛がいることを聞く
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /integ evn petra hnt s029 f - @es---- 妖精図書館でエスのことを調べると言う
     /integ evn third hnt s029 f - @es---- エスとザヴィとザヴィの従者の戦いの伝説
     &integ evn third --- ---- f - @zavia- エスとザヴィとザヴィの従者の戦いの伝説
@@ -2128,66 +3273,128 @@
     &                con c093             ペトラが妖精領主になる
     /petra etc alice hnt s057 f - ------- アリスがペトラに転移のネックレスを渡す「妖精ならそれを使って縁故のある人のいる場所に転移できるよ」
     /petra etc petra con c059 f - ------- ペトラがお返しに妖精の蜜飴を渡す「みんなで食べてね」
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -2216,17 +3423,37 @@
   ######  ######
 
 - episode: 15
+
   summary:
-    logline: 
-    overall: 
-    alice: 
-    leona: odl 試練 2
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: odl 試練 2
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -2245,9 +3472,10 @@
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
     notes:
-      - 村長の息子はエリーとの戦いを見て縮み上がる
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      村長の息子はエリーとの戦いを見て縮み上がる
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /rose- li2 rose- hnt s033 b - @orbPln 望みの全てはp27 エリクの封印に懸かっている
     /rose- li2 rose- hnt s033 b - @orbPln エスは封印の中で邪神の呪いに苛まれている
     &                hnt s029     @es---- エスは封印の中で邪神の呪いに苛まれている
@@ -2259,76 +3487,137 @@
     /leona odl erie- tPh e086 b e threat- エリーが余裕ぶってレオナを殺すと言う
     /erie- li2 erie- --- ---- b - ------- エリーがローズの体を気遣う
     /fei-- li2 fei-- --- ---- b - ------- フェイがローズをからかう
-    /.       -     エロいことはしない
     /leona odl leona tPh m086 f m ordeal- レオナがエリーと戦う 2
     /leona odl leona con c061 f - ------- レオナがアリスに手を出さないよう言ってあると言う
     /leona odl leona con c051 f - @fencer 剣からエリーへの対処のヒントを感じる
-    /leona odl leona tPh m085 f -   change レオナがエリーと引き分ける
+    /leona odl leona tPh m085 f - results レオナがエリーと引き分ける
     /leona odl erie- con c080 f - ------- エリーが絶対にこのままでは終わらせないと宣言する
     /leona odl alice tPh t086 f t ------- アリスがレオナを祝福する
     &                tPh t085             アリスがレオナを祝福する
     /leona odl myria tPh t086 f t ------- ミリアがレオナを祝福する
     &                tPh t085             ミリアがレオナを祝福する
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -2357,17 +3646,37 @@
   ######  #######
 
 - episode: 16
+
   summary:
-    logline: 
-    overall: 野営
-    alice: 
-    leona: 
-    myria: li1 星の大精霊の訪問
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 野営
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: li1 星の大精霊の訪問
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -2386,8 +3695,9 @@
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
@@ -2418,72 +3728,134 @@
     /integ evn third --- ---- f - @o'dorg オー゠ドルグが最後に皆さんに、自分の中の恐怖に敏感になって。それを見つけたら勇気を持って立ち向かうのよと言う
     /alice lov alice --- ---- f - thought アリスの、2人への思いが強まった気づき
     /integ evn alice --- ---- f - ------- 今夜は考え込んで寝付きが悪そうね、少しお酒を飲みましょ
-    /erie- li2 erie- --- ---- b - ------- エリーが悔しそうにする、無様をローズにわびる
+    /erie- li2 erie- --- ---- b - ------ エリーが悔しそうにする、無様をローズにわびる
     /fei-- li2 fei-- --- ---- b - ------- フェイがエリーをからかう
     /myria odl fei-- tPh e087 b e threat- フェイが取っておきの方法を思ってほくそ笑む
     /grp21 lov multi --- ---- b - ------- エロいことをする[ref-037-4]
     /rose- li2 rose- hnt s033 b - @orbPln エスの封印は封印を上回る魔力が内側から放出されることで解ける
     /alice odl multi con c021 f - ------- レオナとミリアがまた何かを作っている[ref-040]
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -2512,17 +3884,37 @@
   ######   ##
 
 - episode: 17
+
   summary:
-    logline: 
-    overall: 
-    alice: 
-    leona: 
-    myria: odl 試練 2
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: odl 試練 2
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -2541,8 +3933,9 @@
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
@@ -2551,72 +3944,134 @@
     /myria odl myria tPh m087 f m ordeal- ミリアがフェイと戦う 2
     /integ evn myria --- ---- f - ------- 草花の亜精霊（人型でない光の粒）に助けられる
     /myria odl myria con c088 f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
-    /myria odl fei-- --- ---- f -   change フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
+    /myria odl fei-- --- ---- f - results フェイが怪我を負って悔しそうにしつつ「また来る」と言って敗退する（ローズの元に帰らない）[ref-038]
     /myria odl alice tPh t087 f t ------- アリスがミリアを褒める
     /myria odl leona tPh t087 f t ------- レオナがミリアを褒める
     /alice li1 alice --- ---- f - ------- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
     &                hnt s028     @alice- 妖精を生み出してペトラのところへ行って呼んでもらう（ペトラなら転移できる）
     /alice etc third con c059 f - ------- ペトラにもらった妖精の蜜飴をなめさせて縁故をつなぐ
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -2645,17 +4100,37 @@
   ######  #######
 
 - episode: 18
+
   summary:
-    logline: 
-    overall: 合宿
-    alice: 
-    leona: 
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 合宿
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -2674,8 +4149,9 @@
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /alice in> multi --- ---- f - ------- 合宿の成果を試すために洞窟の魔物を倒しに行く（信頼関係の構築）
     &leona in- multi --- ---- f - ------- 合宿の成果を試すために洞窟の魔物を倒しに行く（信頼関係の構築）
     /myria in< multi --- ---- f - ------- 合宿の成果を試すために洞窟の魔物を倒しに行く（信頼関係の構築）
@@ -2709,66 +4185,128 @@
     /myria odl fei-- tPh e081 b e threat- フェイがもう容赦しないと言い、またミリアの近くのエーテル体の正体に気づく[ref-035]
     /rose- li2 rose- hnt s033 b - @orbPln ローズはエスの封印の中に魔力珠を送り込んで封印を解くつもり
     /rose- li1 rose- fsh s075 b - @roseDi ローズが、鳥籠の鳥を部屋の中に逃がしてしまった女中を老化させて風化させて殺す
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -2797,17 +4335,37 @@
   ######  #######
 
 - episode: 19
+
   summary:
-    logline: 
-    overall: 
-    alice: 
-    leona: 
-    myria: odl 試練 3
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: odl 試練 3
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -2826,8 +4384,9 @@
       end: p024 街
       top: 東 . p026 カルダ . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
@@ -2836,76 +4395,138 @@
     &                con c034             占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
     /myria odl third hnt sls  f - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
     /myria odl myria tPh m081 f m ordeal- ミリアがフェイと戦う 3[ref-029]
-    &                hnt rls   ミリアがフェイと戦う 3[ref-029]
+    &                hnt rls              ミリアがフェイと戦う 3[ref-029]
     /myria odl multi con c060 f - ------- アリスとレオナは静観する
     /myria odl myria con c082 f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
     &                tPh m065             フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
-    /myria odl myria --- ---- f -   change ミリアがフェイを倒す
+    /myria odl myria --- ---- f - results ミリアがフェイを倒す
     /integ evn third --- ---- f - ------- フェイを食べた幻霊は不味いと言って飛び去っていく
     /myria odl alice tPh t081 f t ------- アリスがミリアを褒める
     /myria odl leona tPh t081 f t ------- レオナがミリアを褒める
     /myria odl myria prm r010 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
-    /fei-- odl fei-- prm rls f -   change フェイがミリアに敗北する[ref-029]
+    /fei-- odl fei-- prm rls  f - results フェイがミリアに敗北する[ref-0++9]
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -2934,17 +4555,37 @@
  #########   #####
 
 - episode: 20
+
   summary:
-    logline: 
-    overall: 
-    alice: 
-    leona: 
-    myria: li1 星の大精霊との融合
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: li1 星の大精霊との融合
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -2963,8 +4604,9 @@
       end: p026 カルダ
       top: p026 カルダ . p027 エリク
     notes:
-      - ミリアが普段使うのは弱い精霊魔法
-  elements:
+      ミリアが普段使うのは弱い精霊魔法
+
+  episode elements:
     /alice in> myria --- ---- f - ------- 関係性の変化（守る者・守られる者共に戦う者）
     &myria in< alice --- ---- f - ------- 関係性の変化（守る者・守られる者共に戦う者）
     /multi pst multi --- ---- f - ------- 関係性の変化（守る者・守られる者共に戦う者）
@@ -2975,68 +4617,130 @@
     /myria li1 third --- ---- f - ------- 老爺は自宅が燃えるなら自分も燃えて死ぬと言う
     /integ evn third --- ---- f - ------- 水の大精霊が大火災となった原因の火の精霊について、大精霊ともなると自尊心も枯れますが成長途中の精霊の中には気位の高い者もいますと言う
     /myria li1 myria con c048 f - @spirit 星の大精霊と契約する
-    /integ evn grp11 --- ---- f - ------- p026 カルダの場所を知る
+    /integ evn grp11 --- ---- f - ------p026 カルダの場所を知る
     /alice li1 alice hnt s028 f - @alice- 花を結実させる
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -3065,17 +4769,37 @@
  #########  ######
 
 - episode: 21
+
   summary:
-    logline: 
-    overall: 
-    alice: 
-    leona: rel レオナの演武
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: rel レオナの演武
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -3094,8 +4818,9 @@
       end: 
       top: p026 カルダ . p027 エリク
     notes:
-      - 
-  elements:
+      !
+
+  episode elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
@@ -3110,66 +4835,128 @@
     /rose- li1 rose- hnt s030 b - @roseMy ローズがエリーを強化する
     /rose- li1 rose- fsh s075 b - @roseDi 部屋の花瓶の花が萎れていく
     /rose- li2 erie- tPh e040 b - @orbPln エリーがローズが死ぬ気でいると悟る
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -3198,17 +4985,37 @@
  ######### #########
 
 - episode: 22
+
   summary:
-    logline: 
-    overall: 
-    alice: 
-    leona: odl 試練 3
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: odl 試練 3
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -3227,8 +5034,9 @@
       end: p027 エリク
       top: p027 エリク
     notes:
-      - 
-  elements:
+      !
+
+  episode elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
@@ -3241,72 +5049,134 @@
     /leona odl leona tPh m079 f m ordeal- レオナがエリーと戦う 3
     /leona odl leona con c080 f - thought ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
     &                tPh m064     @o'dorg ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
-    /leona odl leona --- ---- f -   change レオナがエリーを倒す
+    /leona odl leona --- ---- f - results レオナがエリーを倒す
     /leona odl leona con c051 f - @fencer 剣に封じられていた竜克の女剣士レイティア・アルテノートの力を受け継ぐ
-    /erie- odl erie- prm rls f -   change エリーがレオナに敗北する
+    /erie- odl erie- prm rls  f - results エリーがレオナに敗北する
     /leona odl leona prm r006 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
     /integ evn grp11 tPh t079 f t ------- アリスとミリアがレオナを祝福する
     /alice odl alice tPh e077 f e favorbl レオナからの惜しみない感謝をミリアと味わうntt
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -3335,17 +5205,37 @@
  #########  #######
 
 - episode: 23
+
   summary:
-    logline: 
-    overall: 
-    alice: 
-    leona: 
-    myria: li1 ハイエルフの叡智を得る
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: li1 ハイエルフの叡智を得る
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -3364,8 +5254,9 @@
       end: 地上
       top: ハイエルフの叡智のある場所
     notes:
-      - 
-  elements:
+      !
+
+  episode elements:
     /integ mod noCha con c068 f - ------- 島の中央の大きな木
     /alice in> multi --- ---- f - ------- ハイエルフの叡智を得るために協力する（信頼関係の構築）
     &leona in- multi --- ---- f - ------- ハイエルフの叡智を得るために協力する（信頼関係の構築）
@@ -3380,72 +5271,134 @@
     /alice lov multi --- ---- f - favorbl 告白とキス
     /myria odl myria prm r011 f - gDesire ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     &                tPh t065     @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
-    /      con c034             ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
+    /                con c034             ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
     /alice odl rose- tPh e077 b e threat- ローズがパワーアップする[ref-023]
     /integ inf rose- hnt s032 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
     &integ inf rose- cat r047 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
     /rose- li1 rose- hnt s030 b - @roseMy ローズが自分自身を強化する
     /rose- li1 rose- hnt s030 b - @roseDi ローズの強化にともなって妖精が生まれては祝福して消えていく
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -3474,17 +5427,37 @@
  #########       ##
 
 - episode: 24
+
   summary:
-    logline: 
-    overall: 
-    alice: odl 試練 3
-    leona: 
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 
+
+    - dn: アリス
+      description: odl 試練 3
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -3503,87 +5476,150 @@
       end: 
       top: 
     notes:
-      - 
-  elements:
+      !
+
+  episode elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
     &multi pst multi --- ---- f - ------- （信頼関係の構築）
     /integ etc alice con c068 f - ------- アリスが島の中央の大きな木のたもとにローズがいると分かる
     /integ inf rose- hnt r031 f - @zavia- エスは魔力珠を利用したザヴィとローズが封印したと知る
-    /rose- li1 rose- hnt r030 f - @roseMy （ローズの謎）ローズがエスは封印される直前に自身の使徒とローズと融合させたことを告白する
-    /      fsh r075     @roseDi （ローズの神性）ローズがエスは封印される直前に自身の使徒とローズと融合させたことを告白する
+    /rose- li1 rose- hnt r030 f - @roseMy （ローズの謎・神性）ローズがエスは封印される直前に自身の使徒とローズと融合させたことを告白する
+    &                fsh r075     @roseDi （ローズの謎・神性）ローズがエスは封印される直前に自身の使徒とローズと融合させたことを告白する
     /rose- li2 rose- hnt r033 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
     &                cat r071             ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
-    /      fsh r089             ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
+    &      fsh r089                       ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
     /alice li1 alice hnt s028 f - @alice- アリスの力が解放されてp27 エリクが楽園になる
     /alice odl alice tPh m077 f m ordeal- アリスがローズと戦う 3
     /alice odl alice ref c078 f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
-    /alice odl alice --- ---- f -   change アリスがローズを倒す
+    /alice odl alice --- ---- f - results アリスがローズを倒す
     /integ evn alice cat s071 f - @orbPln アリスがどうやってエスの封印を解くつもりなのか尋ねる
     /alice odl alice prm r002 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
     &                hnt r002             アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
     /rose- odl third prm rls f - gDesire ローズが死んでエスの封印が解かれる
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
+
 
 
 
@@ -3612,17 +5648,37 @@
  #########  ######
 
 - episode: 25
+
   summary:
-    logline: 
-    overall: エスとの邂逅
-    alice: 
-    leona: 
-    myria: 
-    etc: 
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: エスとの邂逅
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: 
+
+  matters of desire:
+    - dn: 
+      desire: 
+      opponent:
+        - dn: 
+          desire: 
+      risk: 
+      results: 
+
   value change:
     - dn: 
       item: 
-      change: 
+      change: .
+
   status:
     highlights:
       battle: 
@@ -3641,16 +5697,17 @@
       end: 
       top: 
     notes:
-      - 
-  elements:
+      !
+
+  episode elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
     &multi pst multi --- ---- f - ------- （信頼関係の構築）
     /integ evn alice fsh s039 f - @hestel エス = ヘスト゠エリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
     /integ evn third hnt r032 f - @orb--- 魔力珠を手に入れる
-    &alice odl alice tPh t077 f t ------- 魔力珠を手に入れる
-    /integ evn third --- ---- f - ------- ヘスト゠エリアから世界の趨勢を知る
+    &alice odl alice tPh t077 f t ------- - 魔力珠を手に入れる
+    /integ evn third --- ---- f - ------- - ヘスト゠エリアから世界の趨勢を知る
     /integ inf third con c035 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
     /alice li1 alice --- ---- f - @alice- 新しい指輪を生み出して嵌めて楽園の広がりを止める
     /alice li1 third hnt r028 f - @alice- ヘスト゠エリアがアリス様と言って敬う
@@ -3659,63 +5716,119 @@
     /alice odl alice prm r003 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる
     /alice odl alice prm r001 f - thought アリスが「いろいろあったけど、全部まとめて大満足！　やったぞー！」と言う
     /alice lov alice --- ---- f - thought アリスの、2人といると楽しいということの再認識
+
   assembly:
     - scene: 1
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 2
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 3
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
       value change:
         - dn: 
           value: 
           change: 
+
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+
+      scene elements:
+
+
 
     - scene: 4
+      descriptor: 
+
       gist:
-        - 
-        - 
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          opponent:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
       value change:
         - dn: 
           value: 
-          change: 
+          change: .
       intarest:
-        - 
-        - 
+        !
+
       unpredictability of the end:
-        - 
-      contents:
+        !
+      scene elements:
