@@ -151,6 +151,7 @@
 - thinking-notes/thi-059.md: ペトラが3人の信頼を得る
 - thinking-notes/thi-060.md: 妖精の森の秘密
 - thinking-notes/thi-061.md: エスがヘスト゠エリアであることで生まれる謎 => 伏線
+- thinking-notes/thi-062.md: レオナとミリアの試練1がアリスの試練2につながる
 
 ### アーカイブ
 
