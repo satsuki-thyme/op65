@@ -31,6 +31,7 @@ detail:
     innate nature:
       full name: アリス
       nickname: アリス
+      title: 
       race: 世界
       gender: 女
       age: 17くらいに見える/17と言っている/年齢という概念はなく強いていうなら永遠
@@ -213,6 +214,7 @@ detail:
     innate nature:
       full name: レオナ・ノート・アーズエイン
       nickname: レオナ
+      title: 
       race: 葦人
       gender: 女
       age: 19
@@ -395,6 +397,7 @@ detail:
     innate nature:
       full name: アーネフリーネ村のミリア
       nickname: ミリア
+      title: 
       race: 森人
       gender: 女
       age: 24
@@ -577,6 +580,7 @@ detail:
     innate nature:
       full name: 
       nickname: 
+      title: 
       race: 翼妖精
       gender: 女
       age: 
@@ -763,6 +767,7 @@ detail:
     innate nature:
       full name: 
       nickname: 
+      title: 天権神官
       race: 
       gender: 女
       age: 
@@ -945,6 +950,7 @@ detail:
     innate nature:
       full name: エリーティア・ミカ・ロレード
       nickname: エリー
+      title: 枢機神官
       race: 葦人
       gender: 女
       age: 21
@@ -1127,6 +1133,7 @@ detail:
     innate nature:
       full name: 
       nickname: 
+      title: 枢機神官
       race: 
       gender: 女
       age: 

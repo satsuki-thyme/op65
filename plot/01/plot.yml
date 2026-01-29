@@ -34,36 +34,44 @@
       description: アリスが地上に出てきて冒険の目的を見つけレオナとともに旅に出る
 
     - dn: overall
-      description: レオナと出会う
+      description: アリスがレオナと出会う
 
     - dn: アリス
-      description: rel 冒険の目的（魔力珠）を見つける
+      description: odRel 冒険の目的（魔力珠）を見つける
 
     - dn: レオナ
-      description: rel 運命の人（アリス）と出会い旅に同行することにする
+      description: odRel 運命の人（アリス）と出会い旅に同行することにする
 
     - dn: ミリア
       description: none
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: アリス
+        desire: 空腹を癒やしたい
+        conflict:
+          - dn: 事情・環境
+            desire: 空腹
+        risk: 冒険に出られない
+        results: レオナに食料をもらう
+      - dn: レオナ
+        desire: 運命の人と出会いたい
+        conflict:
+          - dn: アリス
+            desire: 食料が欲しい
+        risk: 人生に迷ってしまう
+        results: アリスが運命の人だった
 
-  value change:
-    - dn: アリス
-      item: 冒険ができるか
-      change: . / .+
-    - dn: アリス
-      item: 魔力珠を手に入れたい
-      change: none
-    - dn: レオナ
-      item: 導きを得られるか
-      change: . / .+
+    value change:
+      - dn: アリス
+        item: 冒険ができるか
+        change: . / .+
+      - dn: アリス
+        item: 空腹・満腹
+        change: . / .+
+      - dn: レオナ
+        item: 導きを得られるか
+        change: . / .+
 
   status:
     highlights:
@@ -91,17 +99,22 @@
 
     - scene: 1-1
       descriptor: 
-
       gist:
         アリスが登場して紹介のシーン（芝居がかっている）
         アリスの全体欲求の提示
         ヘスト゠エリアの伏線
         オーブプランの伏線
 
+      reason for scene:
+        !
+
+      interest:
+        ミステリアス不思議な言葉が多い
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -111,9 +124,6 @@
         - dn: アリス
           value: 冒険したい
           change: . \ .-
-
-      intarest:
-        ミステリアス不思議な言葉が多い
 
       unpredictability of the end:
         アリスは空腹を癒やして冒険に出発できるのか
@@ -133,14 +143,20 @@
 
     - scene: 1-2
       descriptor: 
-
       gist:
         狼の親子に襲われそうになり返り討ちにして食料にしようとするが見逃す
+
+      reason for scene:
+        !
+
+      interest:
+        戦闘
+        アリスの懊悩
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -150,10 +166,6 @@
         - dn: アリス
           value: 空腹を満たしたい
           change: . \ .-
-
-      intarest:
-        戦闘
-        アリスの懊悩
 
       unpredictability of the end:
         アリスの空腹は癒やせるのか
@@ -166,15 +178,21 @@
 
     - scene: 1-3
       descriptor: 
-
       gist:
         ザヴィの名とアリスのザヴィへの思い
         オー゠ドルグによる前置き
 
+      reason for scene:
+        !
+
+      interest:
+        アリスの強い思い
+        オー゠ドルグのユーモラスさ
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -187,10 +205,6 @@
         - dn: アリス
           value: ザヴィに会いたい
           change: . \ .-
-
-      intarest:
-        アリスの強い思い
-        オー゠ドルグのユーモラスさ
 
       unpredictability of the end:
         アリスは空腹を満たせるか
@@ -207,15 +221,21 @@
 
     - scene: 1-4
       descriptor: 
-
       gist:
         レオナが登場して紹介のシーン
         レオナがアリスを妖魔か精霊と間違えて警戒する
 
+      reason for scene:
+        !
+
+      interest:
+        レオナの勘違い
+        アリスとレオナの噛み合わない会話（食料のアリス、警戒のレオナ）
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -228,10 +248,6 @@
         - dn: レオナ
           value: アリスが何者か知りたい
           change: . \ .-
-
-      intarest:
-        レオナの勘違い
-        アリスとレオナの噛み合わない会話（食料のアリス、警戒のレオナ）
 
       unpredictability of the end:
         レオナの過去とは
@@ -247,16 +263,21 @@
 
     - scene: 1-5
       descriptor: 
-
       gist:
         レオナの魔物との戦闘
         アリスがレオナの剣の腕を褒める
         女剣士レイティア・アルテノートの伏線
 
+      reason for scene:
+        !
+
+      interest:
+        戦闘
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -269,9 +290,6 @@
         - dn: レオナ
           value: アリスが何者か知りたい
           change: ./ .+
-
-      intarest:
-        戦闘
 
       unpredictability of the end:
         アリスの空腹は癒やせるのか
@@ -286,15 +304,21 @@
 
     - scene: 1-6
       descriptor: 
-
       gist:
         アリスがザヴィについて知って旅の目的を定めるシーン
         アリスがザヴィについて死って泣き崩れ慰められる
 
+      reason for scene:
+        !
+
+      interest:
+        アリスの感情の推移と百合展開
+        ザヴィの伝説
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -310,10 +334,6 @@
         - dn: レオナ
           value: アリスが何者か知りたい
           change: .+ / .+++++
-
-      intarest:
-        アリスの感情の推移と百合展開
-        ザヴィの伝説
 
       unpredictability of the end:
         アリスは魔力珠を手に入れられるか
@@ -333,16 +353,22 @@
 
     - scene: 1-7
       descriptor: 
-
       gist:
         レオナが旅に同行するか悩んで決心するシーン
         レオナの全体欲求の提示
         アリスが食料にありつける
 
+      reason for scene:
+        !
+
+      interest:
+        レオナの葛藤
+        百合展開
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -355,10 +381,6 @@
         - dn: レオナ
           value: アリスが何者か知りたい
           change: .++ / .+++++
-
-      intarest:
-        レオナの葛藤
-        百合展開
 
       unpredictability of the end:
         アリスは魔力珠を手に入れられるか
@@ -412,30 +434,34 @@
       description: アリスとレオナが神殿で暴れる水の大精霊を鎮めてミリアを助け、ミリアが旅に同行することになる
 
     - dn: overall
-      description: ミリアと出会う, 水の大精霊の呪いを解く
+      description: アリスとレオナがミリアと出会う, 水の大精霊の呪いを解く
 
     - dn: アリス
-      description: 
+      description: ミリアから魔力珠を遷世教団が探しているとの情報を得る
 
     - dn: レオナ
-      description: 
+      description: ミリアから過去に執着してはいけないと言われる
 
     - dn: ミリア
-      description: rel アリスの冒険に同行することにする
+      description: odRel アリスの冒険に同行することにする
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: アリス、レオナ
+        desire: 水の大精霊に狙われるミリアを助けたい
+        conflict:
+          - dn: 水の大精霊
+            desire: ミリアを害したい
+        risk: ミリアが害される
+        results: 助けることができる
 
-  value change:
-    - dn: アリス
-      item: 魔力珠を手に入れたい
-      change: . / +
+    value change:
+      - dn: アリス、レオナ
+        item: ミリアの身の上
+        change: .- / .+
+      - dn: アリス
+        item: 魔力珠を手に入れたい
+        change: . / .+
 
   status:
     highlights:
@@ -462,15 +488,22 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
         街の内外、時間の説明
         アリスたちの現状
 
+      reason for scene:
+        !
+
+      interest:
+        カラス目線の狼、都市
+        アリスと気品のあるレオナの食事シーン
+        魔力珠の手掛かりが欲しいアリスと、そんなことは全く分からないレオナ
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -480,11 +513,6 @@
         - dn: アリス
           value: 面白いか退屈か
           change: ./ .+
-
-      intarest:
-        カラス目線の狼、都市
-        アリスと気品のあるレオナの食事シーン
-        魔力珠の手掛かりが欲しいアリスと、そんなことは全く分からないレオナ
 
       unpredictability of the end:
         魔力珠の在処は分かるのか
@@ -510,15 +538,20 @@
 
     - scene: 2
       descriptor: 
-
       gist:
         暴れだす水の大精霊とミリアの危機
         バトル開始　まずは呼び掛けから
 
+      reason for scene:
+        !
+
+      interest:
+        バトル
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -528,9 +561,6 @@
         - dn: アリス
           value: ミリアが精霊を鎮めるのを見たい
           change: . / .-
-
-      intarest:
-        バトル
 
       unpredictability of the end:
         暴れる水の大精霊に跳ね飛ばされたミリアは大丈夫なのか
@@ -545,15 +575,21 @@
 
     - scene: 3
       descriptor: 
-
       gist:
         バトル佳境
         水の大精霊がひれ伏す
 
+      reason for scene:
+        !
+
+      interest:
+        バトル
+        水の大精霊と訳ありな感じのアリス
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -563,10 +599,6 @@
         - dn: アリス
           value: ミリアを助けて精霊を鎮めたい
           change: . / .+++++
-
-      intarest:
-        バトル
-        水の大精霊と訳ありな感じのアリス
 
       unpredictability of the end:
         アリスたちは衛兵から逃げられるのか
@@ -596,15 +628,21 @@
 
     - scene: 4
       descriptor: 
-
       gist:
         ミリアの自己紹介
         共に旅を
 
+      reason for scene:
+        !
+
+      interest:
+        アリスに巻き込まれるミリア
+        消極的なミリアと誘うアリス
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -617,10 +655,6 @@
         - dn: アリス
           value: 魔力珠を手に入れたい
           change: .+ / .++
-
-      intarest:
-        アリスに巻き込まれるミリア
-        消極的なミリアと誘うアリス
 
       unpredictability of the end:
         遷世教団とどう向き合うのか
@@ -669,13 +703,13 @@
 
   summary:
     - dn: logline
-      description: 
+      description: 遷世教団の神殿に忍び込んで魔力珠その他の情報を聞き出し天権神官ローズに見つかり逃げ出す
 
     - dn: overall
-      description: 遷世教団の神殿に忍び込む
+      description: 遷世教団の神殿で魔力珠の情報を得る
 
     - dn: アリス
-      description: odl 試練 1
+      description: odAct 1 ローズがザヴィの子と分かるがやむを得ず逃げ出す
 
     - dn: レオナ
       description: 
@@ -683,19 +717,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -765,15 +800,21 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
         ローズが話をしている
         信者に奇跡を起こす
 
+      reason for scene:
+        !
+
+      interest:
+        仮想敵（大精霊のことを問題視）の登場
+        仮想敵の能力
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -783,10 +824,6 @@
         - dn: 
           value: 
           change: .
-
-      intarest:
-        仮想敵（大精霊のことを問題視）の登場
-        仮想敵の能力
 
       unpredictability of the end:
         !
@@ -795,15 +832,21 @@
 
     - scene: 2
       descriptor: 
-
       gist:
         遷世教団の神殿に教徒として潜入している
         信者に魔力珠について聞いて回る
 
+      reason for scene:
+        !
+
+      interest:
+        バレないように
+        新たな情報とローズの脅威
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -813,10 +856,6 @@
         - dn: 
           value: 
           change: .
-
-      intarest:
-        バレないように
-        新たな情報とローズの脅威
 
       unpredictability of the end:
         !
@@ -825,15 +864,21 @@
 
     - scene: 3
       descriptor: 
-
       gist:
         ローズと戦闘する
         ザヴィについて話す
 
+      reason for scene:
+        !
+
+      interest:
+        戦闘
+        衝撃の事実
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -843,10 +888,6 @@
         - dn: 
           value: 
           change: .
-
-      intarest:
-        戦闘
-        衝撃の事実
 
       unpredictability of the end:
         !
@@ -855,15 +896,21 @@
 
     - scene: 4
       descriptor: 
-
       gist:
         遷世教団の神殿から逃げ出す
         ローズたちが会話する
 
+      reason for scene:
+        !
+
+      interest:
+        ピンチとピンチからの脱出
+        ローズたちの反応
+
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -873,10 +920,6 @@
         - dn: 
           value: 
           change: .
-
-      intarest:
-        ピンチとピンチからの脱出
-        ローズたちの反応
 
       unpredictability of the end:
         !
@@ -928,19 +971,20 @@
     - dn: ミリア
       description: li1 星の大精霊と出会う
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -1011,14 +1055,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1029,8 +1078,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1041,14 +1088,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1059,8 +1111,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1071,14 +1121,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1089,8 +1144,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1101,14 +1154,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1119,8 +1177,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1174,19 +1230,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -1232,14 +1289,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1250,8 +1312,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1262,14 +1322,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1280,8 +1345,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1292,14 +1355,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1310,8 +1378,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1322,14 +1388,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1340,8 +1411,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1390,24 +1459,25 @@
       description: 
 
     - dn: レオナ
-      description: rel 背景, li1 イマイチの剣を買う
+      description: odRel 背景, li1 イマイチの剣を買う
 
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -1458,14 +1528,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1476,8 +1551,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1488,14 +1561,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1506,8 +1584,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1518,14 +1594,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1536,8 +1617,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1548,14 +1627,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1566,8 +1650,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1621,19 +1703,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -1701,14 +1784,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1719,8 +1807,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1731,14 +1817,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1749,8 +1840,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1761,14 +1850,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1779,8 +1873,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1791,14 +1883,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1809,8 +1906,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1864,19 +1959,20 @@
     - dn: ミリア
       description: odl 試練 1
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -1924,14 +2020,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1942,8 +2043,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1954,14 +2053,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -1972,8 +2076,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -1984,14 +2086,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2002,8 +2109,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2014,14 +2119,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2032,8 +2142,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2085,21 +2193,22 @@
       description: 
 
     - dn: ミリア
-      description: rel ミリアの背景, li1 ミリアが星の大精霊と契約できない
+      description: odRel ミリアの背景, li1 ミリアが星の大精霊と契約できない
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -2146,14 +2255,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2164,8 +2278,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2176,14 +2288,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2194,8 +2311,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2206,14 +2321,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2224,8 +2344,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2236,14 +2354,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2254,8 +2377,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2309,19 +2430,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -2382,14 +2504,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2400,8 +2527,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2412,14 +2537,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2430,8 +2560,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2442,14 +2570,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2460,8 +2593,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2472,14 +2603,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2490,8 +2626,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2545,19 +2679,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -2606,14 +2741,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2624,8 +2764,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2636,14 +2774,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2654,8 +2797,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2666,14 +2807,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2684,8 +2830,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2696,14 +2840,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2714,8 +2863,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2761,7 +2908,7 @@
       description: 湖畔の街, 湖底の洞窟
 
     - dn: アリス
-      description: rel アリスの背景
+      description: odRel アリスの背景
 
     - dn: レオナ
       description: 
@@ -2769,19 +2916,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -2838,14 +2986,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2856,8 +3009,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2868,14 +3019,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2886,8 +3042,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2898,14 +3052,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2916,8 +3075,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -2928,14 +3085,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -2946,8 +3108,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3001,19 +3161,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -3051,14 +3212,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3069,8 +3235,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3081,14 +3245,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3099,8 +3268,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3111,14 +3278,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3129,8 +3301,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3141,14 +3311,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3159,8 +3334,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3214,19 +3387,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -3277,14 +3451,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3295,8 +3474,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3307,14 +3484,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3325,8 +3507,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3337,14 +3517,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3355,8 +3540,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3367,14 +3550,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3385,8 +3573,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3440,19 +3626,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -3500,14 +3687,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3518,8 +3710,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3530,14 +3720,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3548,8 +3743,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3560,14 +3753,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3578,8 +3776,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3590,14 +3786,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3608,8 +3809,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3663,19 +3862,20 @@
     - dn: ミリア
       description: li1 星の大精霊の訪問
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -3738,14 +3938,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3756,8 +3961,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3768,14 +3971,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3786,8 +3994,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3798,14 +4004,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3816,8 +4027,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3828,14 +4037,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3846,8 +4060,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3901,19 +4113,20 @@
     - dn: ミリア
       description: odl 試練 2
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -3954,14 +4167,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -3972,8 +4190,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -3984,14 +4200,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4002,8 +4223,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4014,14 +4233,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4032,8 +4256,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4044,14 +4266,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4062,8 +4289,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4117,19 +4342,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -4189,14 +4415,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4207,8 +4438,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4219,14 +4448,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4237,8 +4471,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4249,14 +4481,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4267,8 +4504,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4279,14 +4514,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4297,8 +4537,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4352,19 +4590,20 @@
     - dn: ミリア
       description: odl 試練 3
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -4409,14 +4648,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4427,8 +4671,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4439,14 +4681,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4457,8 +4704,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4469,14 +4714,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4487,8 +4737,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4499,14 +4747,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4517,8 +4770,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4572,19 +4823,20 @@
     - dn: ミリア
       description: li1 星の大精霊との融合
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -4623,14 +4875,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4641,8 +4898,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4653,14 +4908,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4671,8 +4931,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4683,14 +4941,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4701,8 +4964,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4713,14 +4974,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4731,8 +4997,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4781,24 +5045,25 @@
       description: 
 
     - dn: レオナ
-      description: rel レオナの演武
+      description: odRel レオナの演武
 
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -4839,14 +5104,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4857,8 +5127,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4869,14 +5137,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4887,8 +5160,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4899,14 +5170,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4917,8 +5193,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -4929,14 +5203,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -4947,8 +5226,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5002,19 +5279,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -5059,14 +5337,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5077,8 +5360,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5089,14 +5370,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5107,8 +5393,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5119,14 +5403,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5137,8 +5426,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5149,14 +5436,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5167,8 +5459,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5222,19 +5512,20 @@
     - dn: ミリア
       description: li1 ハイエルフの叡智を得る
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -5281,14 +5572,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5299,8 +5595,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5311,14 +5605,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5329,8 +5628,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5341,14 +5638,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5359,8 +5661,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5371,14 +5671,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5389,8 +5694,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5444,19 +5747,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -5502,14 +5806,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5520,8 +5829,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5532,14 +5839,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5550,8 +5862,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5562,14 +5872,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5580,8 +5895,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5592,14 +5905,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5610,8 +5928,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5665,19 +5981,20 @@
     - dn: ミリア
       description: 
 
-  matters of desire:
-    - dn: 
-      desire: 
-      opponent:
-        - dn: 
-          desire: 
-      risk: 
-      results: 
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
 
-  value change:
-    - dn: 
-      item: 
-      change: .
+    value change:
+      - dn: 
+        item: 
+        change: .
 
   status:
     highlights:
@@ -5720,14 +6037,19 @@
   assembly:
     - scene: 1
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5738,8 +6060,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5750,14 +6070,19 @@
 
     - scene: 2
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5768,8 +6093,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5780,14 +6103,19 @@
 
     - scene: 3
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5798,8 +6126,6 @@
           value: 
           change: 
 
-      intarest:
-        !
 
       unpredictability of the end:
         !
@@ -5810,14 +6136,19 @@
 
     - scene: 4
       descriptor: 
-
       gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
         !
 
       matters of desire:
         - dn: 
           desire: 
-          opponent:
+          conflict:
             - dn: 
               desire: 
           risk: 
@@ -5826,8 +6157,6 @@
         - dn: 
           value: 
           change: .
-      intarest:
-        !
 
       unpredictability of the end:
         !
