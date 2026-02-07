@@ -1948,7 +1948,7 @@
       description: 
 
     - dn: overall
-      description: 魔法使いの老婆を助ける
+      description: 
 
     - dn: アリス
       description: 
@@ -1984,38 +1984,27 @@
       end: 昼
       notes: p9 妖精の森でさらに1泊した翌日の昼
     location:
-      - item: p010 森
-        tone: 明るい, 先行きの不安
-      - item: p011 魔法使いの老婆の家 . p010 森
-        tone: 薄暗い, 生活空間は散らかっているが魔法の部屋は整然としている
+      - item: p012 魔力泉の街
+        tone: 明るい, 新しいこと
     destination:
-      start: p012 魔力泉の街
-      middle: p011 魔法使いの老婆の家
-      end: p012 魔力泉の街
+      start: 
+      middle: 
+      end: p015 湖畔の街
       top: 東 . p027 エリク
     notes:
       ミリアが普段使うのは弱い精霊魔法
 
   episode elements:
-    /integ mod noCha --- ---- f - ------- 森の様子、森の中は比較的明るいエルヒダの木の純林だ
-    /integ mod noCha --- ---- f - ------- 道の様子、黒褐色の土、わだち
-    /integ mod noCha --- ---- f - ------- 老婆の家の様子、拳ほどの石を積み上げて街壁とした
+    /integ mod noCha --- ---- f - ------- 街の様子、魔力の密度が高い、街の人は肌つやがいい、妖精の姿が目につく
+    /integ mod noCha --- ---- f - ------- 大通りには石が敷き詰められている
+    /integ mod noCha --- ---- f - ------- 石造りの家屋が多いように見受けられる
+    /integ mod noCha --- ---- f - ------- 木造建築が主流だが
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
     &multi pst multi --- ---- f - ------- （信頼関係の構築）
-    /integ evn myria con c067 f - ------- ミリアが魔法使いのおばあちゃんからエルフの耳飾りをもらう（ハイエルフの印）
-    /myria odl myria tPh e012 f e thought ミリアが祖母に会いたいという強い思いを吐露する
-    /myria odl myria tPh e012 f e thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
-    /myria odl myria con c020 f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
-    /myria odl alice con c062 f - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
-    /myria odl myria tPh m012 f m ordeal- ミリアがフェイと戦う 1[ref-030]
-    /myria odl myria con c020 f - thought フェイが幻霊を召喚してミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
-    /myria odl fei-- tPh e0+3 f - results フェイが「また来る」と言って撤退する
-    /myria odl alice tPh t012 f t ------- アリスが戦いに干渉し、戦闘後に褒める
-    /myria odl leona tPh t012 f t ------- レオナが戦いに干渉し、戦闘後に褒める
-    /myria odl myria con c060 f - ------- ミリアがアリスとレオナに次から手を出さないでと言う
     /leona odl multi tPh e085 f - ------- レオナがアリスに訓練してもらう[ref-018]
+    /myria li1 myria con c048 f - @spirit 星の大精霊の拒絶、契約の申し出、契約の儀を試すできない[ref-052]
 
   assembly:
     - scene: 1
@@ -2169,19 +2158,19 @@
 
 
 
-  #######
- ##     ##
- ##     ##
-  ########
-        ##
- ##     ##
-  #######
+ #######
+##     ##
+##     ##
+ ########
+       ##
+##     ##
+ #######
 
 - episode: 9
 
   summary:
     - dn: logline
-      description: 
+      description: ミリアが老婆を助ける
 
     - dn: overall
       description: 魔力泉の街
@@ -2221,30 +2210,38 @@
       notes: フェイとの戦闘を終えp12 魔力泉の街に1泊した翌日の朝
     location:
       - item: p012 魔力泉の街
-        tone: 明るい, 新しいこと
+        tone: 明るい, 先行きの不安
+      - item: p011 魔法使いの老婆の家 . p010 近隣の森 . p012 魔力泉の街
+        tone: 薄暗い, 生活空間は散らかっているが魔法の部屋は整然としている
     destination:
       start: 
-      middle: 
-      end: p015 湖畔の街
+      middle: p011 魔法使いの老婆の家
+      end: p014 滝
       top: 東 . p027 エリク
     notes:
       ミリアが普段使うのは弱い精霊魔法
-      アリスとレオナは朝から訓練で、ミリアが遅い朝
+      滝を経由して湖畔の街へ向かう
 
   episode elements:
-    /integ mod noCha --- ---- f - ------- 街の様子、魔力の密度が高い、街の人は肌つやがいい、妖精の姿が目につく
-    /integ mod noCha --- ---- f - ------- 大通りには石が敷き詰められている
-    /integ mod noCha --- ---- f - ------- 石造りの家屋が多いように見受けられる
-    /integ mod noCha --- ---- f - ------- 木造建築が主流だが
+    /integ mod noCha --- ---- f - ------- 森の様子、森の中は比較的明るいエルヒダの木の純林だ
+    /integ mod noCha --- ---- f - ------- 道の様子、黒褐色の土、わだち
+    /integ mod noCha --- ---- f - ------- 老婆の家の様子、拳ほどの石を積み上げて街壁とした
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
     &multi pst multi --- ---- f - ------- （信頼関係の構築）
+    /integ evn myria con c067 f - ------- ミリアが魔法使いのおばあちゃんからエルフの耳飾りをもらう（ハイエルフの印）
+    /myria odl myria --- ---- f - thought ミリアが祖母に会いたいという強い思いを吐露する
+    /myria odl myria --- ---- f - thought 祖母への罪悪感を捨てることは祖母を捨てると同じだと思い込む
+    /myria odl myria con c020 f - thought 罪悪感にこだわる自分の異常さは薄々分かっている
+    /myria odl alice con c062 f - ------- アリスがあなたが不幸でいる限り本当の贖罪はできないのよと言う
+    /myria odl myria --- ---- f - ordeal- ミリアがフェイと戦う 1[ref-030]
+    /myria odl myria con c020 f - thought フェイが幻霊を召喚してミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する[ref-048]
+    /myria odl fei-- tPh e0+3 f - results フェイが「また来る」と言って撤退する
+    /myria odl myria con c060 f - ------- ミリアがアリスとレオナに次から手を出さないでと言う
+
     /integ evn grp11 con c053 f - ------- p015 湖畔の街の湖の水運について話を聞く船で渡りたい
     /leona li1 leona con c051 f - @fencer 邪悪なドラゴンと戦った竜克の女剣士の伝説を聞く[ref-050]
-    /myria li1 myria con c048 f - @spirit 星の大精霊の拒絶、契約の申し出、契約の儀を試すできない[ref-052]
-    /myria odl myria tPh e087 f e bGround ミリアの背景
-    &                hnt r013             ミリアの背景
     /alice lov alice --- ---- f - thought アリスの、ミリアへの思いがレオナに対するのと同じだという気づき
     /integ evn alice cat s044 f - @orb--- 魔力珠をローズがすぐに取りに行かないのは何か変と話す
     /integ evn third con c036 f - ------- 妖精女王にペトラが呼ばれる
@@ -2404,15 +2401,230 @@
 
 
 
-    ##     #####
-  ####    ##   ##
-    ##   ##     ##
-    ##   ##     ##
-    ##   ##     ##
-    ##    ##   ##
-  ######   #####
+  ##     #####
+####    ##   ##
+  ##   ##     ##
+  ##   ##     ##
+  ##   ##     ##
+  ##    ##   ##
+######   #####
 
 - episode: 10
+
+  summary:
+    - dn: logline
+      description: 
+
+    - dn: overall
+      description: 
+
+    - dn: アリス
+      description: 
+
+    - dn: レオナ
+      description: 
+
+    - dn: ミリア
+      description: 
+
+  configuration:
+    matters of desire:
+      - dn: 
+        desire: 
+        conflict:
+          - dn: 
+            desire: 
+        risk: 
+        results: 
+
+    value change:
+      - dn: 
+        item: 
+        change: .
+
+  status:
+    highlights:
+      battle: 
+      erros: 
+    time:
+      elapsed days: 
+      start: 
+      end: 
+      notes: 
+    location:
+      - item: 
+        tone: 
+    destination:
+      start: 
+      middle: 
+      end: 
+      top: 
+    notes:
+      !
+
+  episode elements:
+
+  assembly:
+    - scene: 1
+      descriptor: 
+      gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          conflict:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
+      value change:
+        - dn: 
+          value: 
+          change: 
+
+
+      unpredictability of the end:
+        !
+
+      scene elements:
+
+
+
+    - scene: 2
+      descriptor: 
+      gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          conflict:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
+      value change:
+        - dn: 
+          value: 
+          change: 
+
+
+      unpredictability of the end:
+        !
+
+      scene elements:
+
+
+
+    - scene: 3
+      descriptor: 
+      gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          conflict:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
+      value change:
+        - dn: 
+          value: 
+          change: 
+
+
+      unpredictability of the end:
+        !
+
+      scene elements:
+
+
+
+    - scene: 4
+      descriptor: 
+      gist:
+        !
+
+      reason for scene:
+        !
+
+      interest:
+        !
+
+      matters of desire:
+        - dn: 
+          desire: 
+          conflict:
+            - dn: 
+              desire: 
+          risk: 
+          results: 
+
+      value change:
+        - dn: 
+          value: 
+          change: 
+
+
+      unpredictability of the end:
+        !
+
+      scene elements:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ##      ##
+####    ####
+  ##      ##
+  ##      ##
+  ##      ##
+  ##      ##
+######  ######
+
+- episode: 11
 
   summary:
     - dn: logline
@@ -2466,6 +2678,8 @@
       ミリアが普段使うのは弱い精霊魔法
 
   episode elements:
+    /myria odl myria tPh e087 f e bGround ミリアの背景
+    &                hnt r013             ミリアの背景
     /alice in> leona --- ---- f - ------- アリスがレオナに型を破るべきと強く主張し、父王の型は破れないと言い張るレオナに、アリスが破れないのは勇気がないからだと言い放ち、ショックを受けたレオナと仲違いする（対立）
     &leona in< alice --- ---- f - ------- アリスがレオナに型を破るべきと強く主張し、父王の型は破れないと言い張るレオナに、アリスが破れないのは勇気がないからだと言い放ち、ショックを受けたレオナと仲違いする（対立）
     /multi pst multi --- ---- f - ------- （対立）
@@ -2495,7 +2709,7 @@
     /rose- li1 rose- fsh s075 b - @roseDi ローズがスパイ妖精の時間を速めて消滅させる　テーブルの果物が朽ちる「あら……」
     /myria odl fei-- tPh e087 b e bGround フェイの背景
     &                hnt r026             フェイの背景
-    /fei-- li2 fei-- --- ---- b - ------- フェイがアリスを手強いと言い、ミリアは必ず手に入れると言う
+    /fei-- li2 fei-- --- ---- b - ------- フェイがミリアは必ず手に入れると言う
     /erie- li2 erie- --- ---- b - ------- エリーがフェイに皮肉を言う
     /erie- li2 erie- --- ---- b - ------- エリーがアリスについてローズを心配する
     /alice odl rose- tPh e083 b e threat- ローズがアリスについて不気味な発言をするntt
@@ -2653,15 +2867,15 @@
 
 
 
-    ##      ##
-  ####    ####
-    ##      ##
-    ##      ##
-    ##      ##
-    ##      ##
-  ######  ######
+  ##    #######
+####   ##     ##
+  ##          ##
+  ##    #######
+  ##   ##
+  ##   ##
+###### #########
 
-- episode: 11
+- episode: 12
 
   summary:
     - dn: logline
@@ -2890,15 +3104,15 @@
 
 
 
-    ##    #######
-  ####   ##     ##
-    ##          ##
-    ##    #######
-    ##   ##
-    ##   ##
-  ###### #########
+  ##    #######
+####   ##     ##
+  ##          ##
+  ##    #######
+  ##          ##
+  ##   ##     ##
+######  #######
 
-- episode: 12
+- episode: 13
 
   summary:
     - dn: logline
@@ -2962,7 +3176,7 @@
     /integ evn grp11 con c053 f - ------- 湖を船で渡るのを楽しみたい
     /integ evn third --- ---- f - ------- '水棲ドラゴン'から魚を増やし豊漁となる竪琴を街の人向けにもらう
     /alice int leona --- ---- f - ------- レオナに謝罪されアリスも謝罪して仲直りし、レオナが決めたことならそれでいいと言う
-    /leona int alice --- ---- f - ------- ローズに敗北したレオナを心から心配したことで仲直りするが剣の型は変えないと言う
+    /leona int alice --- ---- f - ------- ローズに敗北したアリスを心から心配したことで仲直りするが剣の型は変えないと言う
     /alice odl alice --- ---- f - thought アリスがローズの体を心配する
     /alice odl alice tPh e077 f e bGround アリスの背景
     &                hnt r005             アリスの背景
@@ -3135,15 +3349,15 @@
 
 
 
-    ##    #######
-  ####   ##     ##
-    ##          ##
-    ##    #######
-    ##          ##
-    ##   ##     ##
-  ######  #######
+  ##   ##
+####   ##    ##
+  ##   ##    ##
+  ##   ##    ##
+  ##   #########
+  ##         ##
+######       ##
 
-- episode: 13
+- episode: 14
 
   summary:
     - dn: logline
@@ -3361,15 +3575,15 @@
 
 
 
-    ##   ##
-  ####   ##    ##
-    ##   ##    ##
-    ##   ##    ##
-    ##   #########
-    ##         ##
-  ######       ##
+  ##   ########
+####   ##
+  ##   ##
+  ##   #######
+  ##         ##
+  ##   ##    ##
+######  ######
 
-- episode: 14
+- episode: 15
 
   summary:
     - dn: logline
@@ -3600,15 +3814,15 @@
 
 
 
-    ##   ########
-  ####   ##
-    ##   ##
-    ##   #######
-    ##         ##
-    ##   ##    ##
-  ######  ######
+  ##    #######
+####   ##     ##
+  ##   ##
+  ##   ########
+  ##   ##     ##
+  ##   ##     ##
+######  #######
 
-- episode: 15
+- episode: 16
 
   summary:
     - dn: logline
@@ -3836,15 +4050,15 @@
 
 
 
-    ##    #######
-  ####   ##     ##
-    ##   ##
-    ##   ########
-    ##   ##     ##
-    ##   ##     ##
-  ######  #######
+  ##   ########
+####   ##    ##
+  ##       ##
+  ##      ##
+  ##     ##
+  ##     ##
+######   ##
 
-- episode: 16
+- episode: 17
 
   summary:
     - dn: logline
@@ -4087,15 +4301,15 @@
 
 
 
-    ##   ########
-  ####   ##    ##
-    ##       ##
-    ##      ##
-    ##     ##
-    ##     ##
-  ######   ##
+  ##    #######
+####   ##     ##
+  ##   ##     ##
+  ##    #######
+  ##   ##     ##
+  ##   ##     ##
+######  #######
 
-- episode: 17
+- episode: 18
 
   summary:
     - dn: logline
@@ -4316,15 +4530,15 @@
 
 
 
-    ##    #######
-  ####   ##     ##
-    ##   ##     ##
-    ##    #######
-    ##   ##     ##
-    ##   ##     ##
-  ######  #######
+  ##    #######
+####   ##     ##
+  ##   ##     ##
+  ##    ########
+  ##          ##
+  ##   ##     ##
+######  #######
 
-- episode: 18
+- episode: 19
 
   summary:
     - dn: logline
@@ -4564,15 +4778,15 @@
 
 
 
-    ##    #######
-  ####   ##     ##
-    ##   ##     ##
-    ##    ########
-    ##          ##
-    ##   ##     ##
-  ######  #######
+ #######    #####
+##     ##  ##   ##
+       ## ##     ##
+ #######  ##     ##
+##        ##     ##
+##         ##   ##
+#########   #####
 
-- episode: 19
+- episode: 20
 
   summary:
     - dn: logline
@@ -4797,15 +5011,15 @@
 
 
 
-  #######    #####
- ##     ##  ##   ##
-        ## ##     ##
-  #######  ##     ##
- ##        ##     ##
- ##         ##   ##
- #########   #####
+ #######     ##
+##     ##  ####
+       ##    ##
+ #######     ##
+##           ##
+##           ##
+#########  ######
 
-- episode: 20
+- episode: 21
 
   summary:
     - dn: logline
@@ -4818,7 +5032,7 @@
       description: 
 
     - dn: レオナ
-      description: 
+      description: odRel レオナの演武
 
     - dn: ミリア
       description: li1 星の大精霊との融合
@@ -4869,223 +5083,8 @@
     /myria li1 third --- ---- f - ------- 老爺は自宅が燃えるなら自分も燃えて死ぬと言う
     /integ evn third --- ---- f - ------- 水の大精霊が大火災となった原因の火の精霊について、大精霊ともなると自尊心も枯れますが成長途中の精霊の中には気位の高い者もいますと言う
     /myria li1 myria con c048 f - @spirit 星の大精霊と契約する
-    /integ evn grp11 --- ---- f - ------p026 カルダの場所を知る
+    /integ evn grp11 --- ---- f - ------- p026 カルダの場所を知る
     /alice li1 alice hnt s028 f - @alice- 花を結実させる
-
-  assembly:
-    - scene: 1
-      descriptor: 
-      gist:
-        !
-
-      reason for scene:
-        !
-
-      interest:
-        !
-
-      matters of desire:
-        - dn: 
-          desire: 
-          conflict:
-            - dn: 
-              desire: 
-          risk: 
-          results: 
-
-      value change:
-        - dn: 
-          value: 
-          change: 
-
-
-      unpredictability of the end:
-        !
-
-      scene elements:
-
-
-
-    - scene: 2
-      descriptor: 
-      gist:
-        !
-
-      reason for scene:
-        !
-
-      interest:
-        !
-
-      matters of desire:
-        - dn: 
-          desire: 
-          conflict:
-            - dn: 
-              desire: 
-          risk: 
-          results: 
-
-      value change:
-        - dn: 
-          value: 
-          change: 
-
-
-      unpredictability of the end:
-        !
-
-      scene elements:
-
-
-
-    - scene: 3
-      descriptor: 
-      gist:
-        !
-
-      reason for scene:
-        !
-
-      interest:
-        !
-
-      matters of desire:
-        - dn: 
-          desire: 
-          conflict:
-            - dn: 
-              desire: 
-          risk: 
-          results: 
-
-      value change:
-        - dn: 
-          value: 
-          change: 
-
-
-      unpredictability of the end:
-        !
-
-      scene elements:
-
-
-
-    - scene: 4
-      descriptor: 
-      gist:
-        !
-
-      reason for scene:
-        !
-
-      interest:
-        !
-
-      matters of desire:
-        - dn: 
-          desire: 
-          conflict:
-            - dn: 
-              desire: 
-          risk: 
-          results: 
-
-      value change:
-        - dn: 
-          value: 
-          change: 
-
-
-      unpredictability of the end:
-        !
-
-      scene elements:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  #######     ##
- ##     ##  ####
-        ##    ##
-  #######     ##
- ##           ##
- ##           ##
- #########  ######
-
-- episode: 21
-
-  summary:
-    - dn: logline
-      description: 
-
-    - dn: overall
-      description: 
-
-    - dn: アリス
-      description: 
-
-    - dn: レオナ
-      description: odRel レオナの演武
-
-    - dn: ミリア
-      description: 
-
-  configuration:
-    matters of desire:
-      - dn: 
-        desire: 
-        conflict:
-          - dn: 
-            desire: 
-        risk: 
-        results: 
-
-    value change:
-      - dn: 
-        item: 
-        change: .
-
-  status:
-    highlights:
-      battle: 
-      erros: 
-    time:
-      elapsed days: 31
-      start: 午前半ば
-      end: 夕方前
-      notes: p024 街に1泊して翌日
-    location:
-      - item: p025 森
-        tone: 祝福の地, 明るい, 色鮮やか
-    destination:
-      start: p026 カルダ
-      middle: p026 カルダ
-      end: 
-      top: p026 カルダ . p027 エリク
-    notes:
-      !
-
-  episode elements:
     /alice in> multi --- ---- f - ------- （信頼関係の構築）
     &leona in- multi --- ---- f - ------- （信頼関係の構築）
     /myria in< multi --- ---- f - ------- （信頼関係の構築）
@@ -5253,13 +5252,13 @@
 
 
 
-  #######   #######
- ##     ## ##     ##
-        ##        ##
-  #######   #######
- ##        ##
- ##        ##
- ######### #########
+ #######   #######
+##     ## ##     ##
+       ##        ##
+ #######   #######
+##        ##
+##        ##
+######### #########
 
 - episode: 22
 
