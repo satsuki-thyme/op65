@@ -152,6 +152,7 @@
 - thinking-notes/thi-060.md: 妖精の森の秘密
 - thinking-notes/thi-061.md: エスがヘスト゠エリアであることで生まれる謎 => 伏線
 - thinking-notes/thi-062.md: レオナとミリアの試練1がアリスの試練2につながる
+- thinking-notes/thi-063.md: 最後の解決方法
 
 ### アーカイブ
 
