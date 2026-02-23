@@ -1,293 +1,295 @@
 # 採番
-01:
+001:
         /alice li1 alice prm r001 f - thought アリスが「いろいろあったけど、上手くやれたかな」と言う
 
-02:
+002:
         /alice li1 alice prm r002 f - thought アリスが「さよならザヴィ」と言って封界の指輪を復活したエスへ投げる
 
-03:
+003:
         /alice li1 alice prm r003 f - gDesire アリスが復活したエスを抑え魔力珠を手に入れる[memo-019]
 
-04:
+004:
         /alice li1 alice tPh m004 f b ordeal- アリスがローズと戦う
 
-05:
+005:
         /alice li1 alice tPh m005 f - bground アリスの背景
 
-06:
+006:
         /leona li1 leona prm r006 f - gDesire レオナが「アリス、ミリア。ボク進めそうです」と言う
 
-07:
+007:
         /leona li1 leona tPh m007 f b ordeal- レオナがエリーと戦う
 
-08:
+008:
         /leona li1 leona tPh m008 f - ---- アリスが「レオナの型は完成しているから型を破るべき」と言う
 
-09:
+009:
         /leona li1 leona tPh m009 f - bground レオナの背景
 
-10:
+010:
         /myria li1 myria prm r010 f - thought ミリアが「フェイさんのおかげで過去と決別できたのかもしれません」と言う
 
-11:
+011:
         /myria li1 myria prm r011 f - gDesire ミリアがハイエルフの叡智を得る
 
-12:
+012:
         /myria li1 myria tPh m012 f b ordeal- ミリアがフェイと戦う
 
-13:
+013:
         /myria li1 myria tPh m013 f - bground ミリアの背景
 
-14:
+014:
         /leona li1 leona con c014 f - favorbl レオナがアリスに訓練してもらい「ずっと強くなった。剣閃がレオナの体に馴染んで見える――」と言われる
 
-15:
+015:
         /petra li1 petra prm r015 f - gDesire ペトラが妖精領主になる
 
-16:
+016:
         /leona li1 leona tPh m016 b - threat- エリーがレオナに憎悪を向ける
 
-17:
+017:
         /myria li1 myria tPh m017 b - threat- フェイがエルフへの欲望を吐露する => 心を奪うみたいなことを言う
 
-18:
+018:
         /alice odl alice fct r018 f - results アリスは子孫への愛情から攻撃できずに逃げ出す[ref-021]
 
-19:
+019:
         /leona odl leona fct r019 f - ------- 〃レオナがエリーに敗北する
 
-20:
+020:
         /myria odl myria fct r020 f - thought フェイがミリアの強い思いを看破し遷世で祖母に会えると言いミリアが動揺するが拒絶する
 
-21:
+021:
         /alice odl alice tPh m021 f - favorbl レオナとミリアから贈り物をもらう[ref-040]
 
-22:
+022:
         /myria odl leona con c022 f - favorbl レオナがミリアに甘える[ref-042]
 
-23:
+023:
         /myria odl leona con c023 f - favorbl レオナがミリアに甘える[ref-042]
 
-24:
+024:
         /leona odl myria con c024 f - ------- ミリアがレオナを甘やかす[ref-042]
 
-25:
+025:
         /leona odl myria con c025 f - ------- ミリアがレオナを甘やかす[ref-042]
 
-26:
+026:
         /myria odl fei-- tPh m026 b - bground フェイの背景
 
-27:
+027:
         /integ etc rose- con c027 b - @es---- なぜザヴィが封印したのでしょう？に対してザヴィは邪神に呪われていたと言う
 
-28:
+028:
         /alice li1 third hnt r028 f - @alice- ヘスト゠エリアがアリス様と言って敬う
 
-29:
+029:
         /rose- li1 rose- hnt r029 f - @rose-- ローズがエスは封印される直前に自身の使徒とローズと融合させたことを告白する
 
-30:
+030:
         /integ li0 noCha hnt r030     @rose-- エスは封印される前に残した思念体によってローズを乗っ取ったと知る
 
-31:
+031:
         /integ li0 rose- hnt r031 f - @zavia- エスはザヴィとローズが封印した
 
-32:
+032:
         /integ li0 noCha hnt r032 f - @orb--- 魔力珠を手に入れる
 
-33:
+033:
         /integ li0 rose- hnt r033 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
 
-34:
+034:
         /integ li0 myria fct r034 f - @elf--- ミリアがエルフの叡智を得て祖母と再会する
 
-35:
+035:
         /integ li0 third con c035 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
 
-36:
+036:
         /integ evn grp11 con c036 f - ------- 妖精女王に謁見する
 
-37:
+037:
         /petra odl petra tPh m037 f - ------- アリスに石碑のことを伝えたい気持ちに素直になる
 
-38:
+038:
         /myria odl myria con c038 f - gDesire ミリアが「私はハイエルフの叡智を求める旅をしているんです」と言う[ref-027]
 
-39:
+039:
         /integ evn alice hnt r039 f - @es---- エス＝ヘスト゠エリアがアリスに気づいて一瞬動きを止め、その隙にアリスが解呪する
 
-40:
+040:
         /integ inf erie- tPh m040 f - @orbPln ローズは死ぬ気でいる
 
-41:
+041:
         /integ inf myria cat r041 f - @orb--- 遷世教団は魔力珠を探している
 
-42:
+042:
         /integ inf third cat r042 f - @es---- 遷世教団は遷世神エスに仕えている
 
-43:
+043:
         /integ inf rose- cat r043 b - @es---- エスはエリクに封印されている
 
-44:
+044:
         /integ inf third cat r044 f - @orb--- 妖精女王から魔力珠はエリクから何者かによって持ち去られていると言われる
 
-45:
+045:
         /integ inf rose- cat r045 f - @zavia- ザヴィはローズが殺した
 
-46:
+046:
         /integ inf third cat r046 f - @es---- エスは邪神の呪いによって世界の破壊を欲する眷属にされた
 
-47:
+047:
         /integ inf rose- cat r047 b - @orb--- ローズの思念と魔力珠は一体になっていて離れることはできない
 
-48:
+048:
         /myria li1 myria fct r048 f - @spirit 星の大精霊と契約する
 
-49:
+049:
         /myria li1 alice con c049 f - ------- アリスが水の大精霊にお願いする
 
-50:
+050:
         /integ inf rose- hnt r050 f - @orb--- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
 
-51:
+051:
         /leona etc leona con c051 f - @fencer レオナが滝の裏の洞窟にあった剣を抜く
 
-52:
+052:
         /alice odl alice con c052 f - bGround アリスの背景
 
-53:
+053:
         /integ evn grp11 con c053 f - ------- 湖を船で渡りたい
 
-54:
+054:
         /integ evn third con c054 f - ------- 水棲ドラゴンが湖底洞窟の祠に連れていってくれる
 
-55:
+055:
         /integ evn noCha con c055 f - ------- 湖底の街
 
-56:
+056:
         /integ evn grp11 con c056 f - ------- ボートを借りて砂浜に行く
 
-57:
+057:
         /integ evn petra hnt r057 f - ------- ペトラが妖精図書館で調べたエスのことを教えに来てくれる
 
-58:
+058:
         /integ evn petra con c058 f - @es---- 封印は内側からの魔力で解けるがエスは力が封印されていて魔力が扱えない => 封印は解けないとの理解
 
-59:
+059:
         /alice etc third con c059 f - ------- ペトラの蜜飴をなめさせて縁故をつなぐ
 
-60:
+060:
     omit
 
-61:
+061:
         /leona odl leona tPh m061 f - ------- レオナがアリスに手を出さないよう言ってあると言う
 
-62:
+062:
         /myria odl third tPh m062 f - ------- 占い師がミリアを占って、大いなる物を手に入れるが試練があると言う
 
-63:
+063:
         /leona li1 leona con c063 f - @fencer レオナが演武をする
 
-64:
+064:
         /leona odl leona tPh m064 f - thought ピンチでアリスたちとの幸せを掴みたいと願い過去と決別する
 
-65:
+065:
         /myria odl myria tPh m065 f - @elf--- ミリアがハイエルフの叡智[thi-034.md]を得て祖母と対面する
 
-66:
+066:
         /integ evn alice con c066 f - ------- エルフの老婆とアリスが湖底の街で拾った指輪で話がつく
 
-67:
+067:
         /integ evn myria con c067 f - ------- エルフの耳飾りがハイエルフの叡智へと誘う
 
-68:
+068:
         /integ mod noCha con c068 f - ------- 島の中央の大きな木
 
-69:
+069:
         /leona odl leona con c069 f - ------- レオナがアリスから前に進みたいんじゃないの？と言われる
 
-70:
+070:
         /integ inf rose- cat r070 f - @rose-- ローズが下腹部を押さえて苦しみ始める（魔力珠はローズの中にある）
 
-71:
+071:
         /rose- li2 rose- cat r071 f - @orbPln ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
 
-72:
+072:
         /integ evn alice con c072 f - ------- カラス目線で都市を見下ろして街の中を紹介してアリスの元にやってきてオオカミの無事を伝える
 
-73:
+073:
         /integ evn third con c073 f - ------- エルフの老婆からp26 カルダからp27 エリクに行ける、p26 カルダに関わる情報がp24 街にあると聞く
 
-74:
+074:
         /grp11 in> petra con c074 f - ------- アリスたちに後で道を教えると約束する
         /petra in< grp11 con c074 f - ------- ペトラが道を教えると約束してくれる
 
-75:
+075:
         /                fsh r075             （ローズの神性）ローズがエスは封印される直前に自身の使徒とローズと融合させたことを告白する
 
-76:
+076:
         /                con c076             ローズが鳥籠の鳥を若返らせる
 
-77:
+077:
         /alice odl alice tPh m077 f b ordeal- アリスがローズと戦う
 
-78:
+078:
         /alice odl alice con c078 f - thought アリスが、過去とのつながりであるローズとの決別し今の象徴であるレオナとミリアを助ける決心する[ref-024]
 
-79:
+079:
         /leona odl leona tPh m079 f b ordeal- レオナがエリーと戦う
 
-80:
+080:
         /leona odl leona con c080 f - thought ピンチでアリスたちとの幸せを掴みたいと願い、自分の心が過去にとどまったままだと気づき、過去と決別するには勇気が必要だと思い至り勇気を振り絞る
 
-81:
+081:
         /myria odl myria tPh m081 f b ordeal- ミリアがフェイと戦う[ref-029]
 
-82:
+082:
         /myria odl myria con c082 f - thought フェイがミリアの近くのエーテル体を顕現させミリアを誘うがミリアはその先に幸せはないと気づいて今を選ぶ[ref-031]
 
-83:
+083:
         /alice odl alice tPh m083 f b ordeal- アリスがローズと戦う
 
-84:
+084:
         /alice odl alice hnt r084 f - ------- 説得を試みる
 
-85:
+085:
         /leona odl leona tPh m085 f - results レオナがエリーと引き分ける
 
-86:
+086:
         /leona odl leona tPh m086 f b ordeal- レオナがエリーと戦う
 
-87:
+087:
         /myria odl myria tPh m087 f b ordeal- ミリアがフェイと戦う
 
-88:
+088:
         /myria odl myria con c088 f - thought フェイが反魂魔法で先祖を呼び出して使役しミリアが動揺するが拒絶する
 
-89:
+089:
         /                fsh r089             ローズが死ぬことで魔力珠とともにエスに帰着し魔力珠によって封印が解ける
 
-90:
+090:
         /integ evn grp11 tPh m090 f b ------- 発狂した水の大精霊と対峙する
 
-91:
+091:
         /integ evn leona tPh m091 f b ------- 魔物をレオナが倒す
 
-92:
+092:
         /                tPh m092   b         レオナが魔物を倒して強いところを見せる
 
-93: /
-        &                con c093             ペトラが妖精領主になる
+093:
+        $                con c093             ペトラが妖精領主になる
 
-94:
+094:
+        /integ inf noCha con c094 f - @evil-- 鍵のデザインが秀逸 => 邪なあの子による意匠
 
-95:
+095:
+    $                con c095             エス = ヘスト゠エリアの首に掛けられたリングの錠がアリスの鍵と反応して解呪される
 
-96:
+096:
 
-97:
+097:
 
-98:
+098:
 
-99:
+099:
 
