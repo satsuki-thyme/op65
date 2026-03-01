@@ -153,7 +153,8 @@
 - thinking-notes/thi-061.md: エスがヘスト゠エリアであることで生まれる謎 => 伏線
 - thinking-notes/thi-062.md: レオナとミリアの試練1がアリスの試練2につながる
 - thinking-notes/thi-063.md: 最後の解決方法
-
+- thinking-notes/thi-064.md: アリスが強いことを表現する
+- thinking-notes/thi-065.md: バルドロードが引っ越した理由
 ### アーカイブ
 
 #### before-2025-01-13

@@ -30,20 +30,15 @@
 - episode: 1
 
   summary:
-    - dn: logline
-      description: アリスが地上に出てきて冒険の目的を見つけレオナとともに旅に出る
+    - description: logline = アリスが地上に出てきて冒険の目的を見つけレオナとともに旅に出る
 
-    - dn: overall
-      description: アリスがレオナと出会う
+    - description: overall = アリスがレオナと出会う
 
-    - dn: アリス
-      description: odRel 冒険の目的（魔力珠）を見つける
+    - description: アリス = odRel 冒険の目的（魔力珠）を見つける
 
-    - dn: レオナ
-      description: odRel 運命の人（アリス）と出会い旅に同行することにする
+    - description: レオナ = odRel 運命の人（アリス）と出会い旅に同行することにする
 
-    - dn: ミリア
-      description: none
+    - description: ミリア = none
 
   configuration:
     matters of desire:
@@ -349,6 +344,7 @@
         $leona in< alice --- ---- f - ------- アリスがザヴィのことで泣き崩れる（信頼関係の構築）
         /multi pst multi --- ---- f - ------- レオナがアリスを慰める（信頼関係の構築）
         /integ inf leona cat s041 f - @orb--- 遷世教団の話題を出す　ザヴィを倒した人が遷世教団を作った
+        /alice odl alice --- ---- f - @orb--- アリスが魔力珠を見つければザヴィの真実が分かる気がすると言う
         /alice odl alice prm s003 f - gDesire アリスがザヴィが使ったという魔力珠を探す旅をすることにする[ref-033]
         /integ evn leona --- ---- f - ------- 大賢者ザヴィが倒されたのは'◯◯時代'、そんな時代から生きてるとしたら？
         /integ evn alice --- ---- f - ------- 何者か教えてあげたから食料が欲しい
@@ -394,9 +390,9 @@
         $                con c069             アリスがレオナに前に進みたいんじゃないの？と言うがそれはレオナのデジャブだった[ref-025]
         /leona odl leona --- ---- f - ------- レオナの回想シーンで占術師がこの印象を覚えておいてくださいと言ったシーンが思い出される
         /leona odl leona --- ---- f - ------- レオナがアリスを運命の人であると見極め（それなら何者でもかまわない）、気持ちを打ち明ける「前に、進みたいです」
-        /alice in> leona --- ---- f - ------- レオナに前に進みたいと打ち明けられる（信頼関係の構築）
+        /alice in> alice --- ---- f - ------- アリスがレオナに前に進みたいと打ち明けられる（信頼関係の構築）
         /leona in- leona --- ---- f - ------- 剣の技量が停滞しているという悩み（信頼関係の構築）
-        /leona in< alice --- ---- f - ------- アリスに前に進みたいとつい話してしまう（信頼関係の構築）
+        /leona in< leona --- ---- f - ------- レオナがアリスに今のままではいけないと思うけどどうしたらいいか分からないと言う（信頼関係の構築）
         /multi pst multi --- ---- f - ------- アリスがだったら一緒に行こう、きっと何かが待ってるからと言う（信頼関係の構築）
         /integ evn grp11 --- ---- f - ------- アリスの旅にレオナが加わる
         /integ evn alice --- ---- f - ------- アリスがレオナから食料nttをもらう
@@ -432,20 +428,15 @@
 - episode: 2
 
   summary:
-    - dn: logline
-      description: アリスとレオナが神殿で暴れる水の大精霊を鎮めてミリアを助け、ミリアが旅に同行することになる
+    - description: logline = アリスとレオナが神殿で暴れる水の大精霊を鎮めてミリアを助け、ミリアが旅に同行することになる
 
-    - dn: overall
-      description: アリスとレオナがミリアと出会う, 水の大精霊の呪いを解く
+    - description: overall = アリスとレオナがミリアと出会う, 水の大精霊の呪いを解く
 
-    - dn: アリス
-      description: ミリアから魔力珠を遷世教団が探しているとの情報を得る
+    - description: アリス = ミリアから魔力珠を遷世教団が探しているとの情報を得る
 
-    - dn: レオナ
-      description: ミリアから過去に執着してはいけないと言われる
+    - description: レオナ = ミリアから過去に執着してはいけないと言われる
 
-    - dn: ミリア
-      description: odRel アリスの冒険に同行することにする
+    - description: ミリア = odRel アリスの冒険に同行することにする
 
   configuration:
     matters of desire:
@@ -704,20 +695,15 @@
 - episode: 3
 
   summary:
-    - dn: logline
-      description: 遷世教団の神殿に忍び込んで魔力珠その他の情報を聞き出し天権神官ローズに見つかり逃げ出す
+    - description: logline = 遷世教団の神殿に忍び込んで魔力珠その他の情報を聞き出し天権神官ローズに見つかり逃げ出す
 
-    - dn: overall
-      description: 遷世教団の神殿で魔力珠の情報を得る
+    - description: overall = 遷世教団の神殿で魔力珠の情報を得る
 
-    - dn: アリス
-      description: odAct 1 ローズがザヴィの子と分かるがやむを得ず逃げ出す
+    - description: アリス = odAct 1 ローズがザヴィの子と分かるがやむを得ず逃げ出す
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -959,20 +945,15 @@
 - episode: 4
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: ペトラと出会う
+    - description: overall = ペトラと出会う
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: li1 星の大精霊と出会う
+    - description: ミリア = li1 星の大精霊と出会う
 
   configuration:
     matters of desire:
@@ -1218,20 +1199,15 @@
 - episode: 5
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 盗賊騎士の関門
+    - description: overall = 盗賊騎士の関門
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: odl 試練 1
+    - description: レオナ = odl 試練 1
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -1452,20 +1428,15 @@
 - episode: 6
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 祭り
+    - description: overall = 祭り
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: odRel 背景, li1 イマイチの剣を買う
+    - description: レオナ = odRel 背景, li1 イマイチの剣を買う
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -1691,20 +1662,15 @@
 - episode: 7
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 妖精の森でのドラゴン「バルドロード」との対話
+    - description: overall = 妖精の森でのドラゴン「バルドロード」との対話
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -1947,20 +1913,15 @@
 - episode: 8
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 
+    - description: overall = 
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: odl 試練 1
+    - description: ミリア = odl 試練 1
 
   configuration:
     matters of desire:
@@ -2172,20 +2133,15 @@
 - episode: 9
 
   summary:
-    - dn: logline
-      description: ミリアが老婆を助ける
+    - description: logline = ミリアが老婆を助ける
 
-    - dn: overall
-      description: 魔力泉の街
+    - description: overall = 魔力泉の街
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: odRel ミリアの背景, li1 ミリアが星の大精霊と契約できない
+    - description: ミリア = odRel ミリアの背景, li1 ミリアが星の大精霊と契約できない
 
   configuration:
     matters of desire:
@@ -2415,20 +2371,15 @@
 - episode: 10
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 
+    - description: overall = 
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -2630,20 +2581,15 @@
 - episode: 11
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 妖精女王への謁見
+    - description: overall = 妖精女王への謁見
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -2691,6 +2637,8 @@
     $                cat r043             妖精女王がエスはp27 エリクに封印されていると言う
     /integ evn grp11 con c036 f - ------- 妖精女王に謁見する
     /petra odl third con c093 f - ------- 妖精女王から妖精領主になるならいつでも言いなさいと言われる
+    /integ evn alice con c096 f - ------- アリスが妖精女王に教えてほしいことがあると言うと'妖精の国のドラゴン'を倒すように言われる
+    /integ evn alice --- ---- f - ------- 森の奥に魔力を感じて行ってみると妖精魔女がいて許しを請われ知己を得る
     /integ inf third hnt s032 f - @orb--- 妖精女王から魔力珠はp27 エリクから何者かによって持ち去られていると言われる
     $                cat r044             妖精女王から魔力珠はp27 エリクから何者かによって持ち去られていると言われる
     /rose- li2 third hnt s033 f - @orbPln スパイ妖精が見ている見つかって転移結晶で逃げる魔力路（パス）を追わせる上位存在（神か神に連なる者）に阻害される
@@ -2881,20 +2829,15 @@
 - episode: 12
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 
+    - description: overall = 
 
-    - dn: アリス
-      description: odl 試練 2
+    - description: アリス = odl 試練 2
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -3118,20 +3061,15 @@
 - episode: 13
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 湖畔の街, 湖底の洞窟
+    - description: overall = 湖畔の街, 湖底の洞窟
 
-    - dn: アリス
-      description: odRel アリスの背景
+    - description: アリス = odRel アリスの背景
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -3362,20 +3300,15 @@
 - episode: 14
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 水着回
+    - description: overall = 水着回
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -3588,20 +3521,15 @@
 - episode: 15
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 
+    - description: overall = 
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -3827,20 +3755,15 @@
 - episode: 16
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 
+    - description: overall = 
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: odl 試練 2
+    - description: レオナ = odl 試練 2
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -4063,20 +3986,15 @@
 - episode: 17
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 野営
+    - description: overall = 野営
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: li1 星の大精霊の訪問
+    - description: ミリア = li1 星の大精霊の訪問
 
   configuration:
     matters of desire:
@@ -4314,20 +4232,15 @@
 - episode: 18
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 
+    - description: overall = 
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: odl 試練 2
+    - description: ミリア = odl 試練 2
 
   configuration:
     matters of desire:
@@ -4543,20 +4456,15 @@
 - episode: 19
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 合宿
+    - description: overall = 合宿
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -4791,20 +4699,15 @@
 - episode: 20
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 
+    - description: overall = 
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: odl 試練 3
+    - description: ミリア = odl 試練 3
 
   configuration:
     matters of desire:
@@ -5024,20 +4927,15 @@
 - episode: 21
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 
+    - description: overall = 
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: odRel レオナの演武
+    - description: レオナ = odRel レオナの演武
 
-    - dn: ミリア
-      description: li1 星の大精霊との融合
+    - description: ミリア = li1 星の大精霊との融合
 
   configuration:
     matters of desire:
@@ -5265,20 +5163,15 @@
 - episode: 22
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 
+    - description: overall = 
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: odl 試練 3
+    - description: レオナ = odl 試練 3
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -5498,20 +5391,15 @@
 - episode: 23
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 
+    - description: overall = 
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: li1 ハイエルフの叡智を得る
+    - description: ミリア = li1 ハイエルフの叡智を得る
 
   configuration:
     matters of desire:
@@ -5733,20 +5621,15 @@
 - episode: 24
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: 
+    - description: overall = 
 
-    - dn: アリス
-      description: odl 試練 3
+    - description: アリス = odl 試練 3
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -5802,7 +5685,7 @@
     /integ evn alice cat s071 f - @orbPln アリスがどうやってエスの封印を解くつもりなのか尋ねる
     /alice odl alice prm r002 f - thought アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
     $                hnt r002             アリスが「さよならザヴィ」と言って封界の指輪を外す（消滅する）
-    /rose- odl third prm rls f - gDesire ローズが死んでエスの封印が解かれる
+    /rose- odl third prm rls f - gDesire ローズが死んで魔力珠が封印のなかに入りエスの封印が解かれる
 
   assembly:
     - scene: 1
@@ -5967,20 +5850,15 @@
 - episode: 25
 
   summary:
-    - dn: logline
-      description: 
+    - description: logline = 
 
-    - dn: overall
-      description: エスとの邂逅
+    - description: overall = エスとの邂逅
 
-    - dn: アリス
-      description: 
+    - description: アリス = 
 
-    - dn: レオナ
-      description: 
+    - description: レオナ = 
 
-    - dn: ミリア
-      description: 
+    - description: ミリア = 
 
   configuration:
     matters of desire:
@@ -6025,8 +5903,8 @@
     /integ evn alice fsh s039 f - @hestel エス = ヘスト゠エリアの首に掛けられたリングの錠がアリスの鍵と反応して解呪される
     $                con c095             エス = ヘスト゠エリアの首に掛けられたリングの錠がアリスの鍵と反応して解呪される
     /integ evn alice con c095 f - @evil-- アリスが鍵について説明する
-    /integ evn third hnt r032 f - @orb--- 魔力珠を手に入れる
-    $alice odl alice tPh t077 f t ------- 魔力珠を手に入れる
+    /integ evn third hnt r032 f - @orb--- 魔力珠は手に入れられなかった
+    $alice odl alice tPh t077 f t ------- 魔力珠は手に入れられなかった
     /integ evn third --- ---- f - ------- ヘスト゠エリアから世界の趨勢を知る
     /integ inf third con c035 f - @evil-- 邪神はエスを呪うことに縛られて表に出ていなかったがこれからは分からない
     /alice li1 alice --- ---- f - @alice- 新しい指輪を生み出して嵌めて楽園の広がりを止める

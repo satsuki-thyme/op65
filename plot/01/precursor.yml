@@ -4,6 +4,16 @@
   precursor:
   - 0 xxx
 
+- item: 009
+  resolution: 7 バルドロードがドラゴンにとって特別な魔力流脈に惹かれて引っ越してきた
+  precursor:
+  - 0 xxx
+
+- item: 008
+  resolution: 00 xxx
+  precursor:
+  - 11 森の奥に魔力を感じて行ってみると妖精魔女がいて許しを請われ知己を得る
+
 - item: 007
   resolution: 00 xxx
   precursor:
@@ -17,17 +27,17 @@
 - item: 005
   resolution: 00 xxx
   precursor:
-  - 1 レオナは$◯◯神$の修道会で活動している
+  - 1 レオナは'◯◯神'の修道会で活動している
 
 - item: 004
-  resolution: 12 水棲ドラゴンが$ドラゴン$の$ドラゴンアイテム$を感知して湖底洞窟の祠に連れていってくれる
+  resolution: 12 水棲ドラゴンが'ドラゴン'の'ドラゴンアイテム'を感知して湖底洞窟の祠に連れていってくれる
   precursor:
-  - 7 アリスに$ドラゴンアイテム$をくれる
+  - 7 レオナに'ドラゴンアイテム'をくれる
 
 - item: 003
   resolution: 00 xxx
   precursor:
-  - 7 アリスに妖精が$妖精アイテム$をくれる
+  - 7 アリスに妖精が'妖精アイテム'をくれる
 
 - item: 002
   resolution:
